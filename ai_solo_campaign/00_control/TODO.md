@@ -17,47 +17,16 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## High
 
-- [ ] Complete Stage 2: AI Runtime Foundation
-  - Why it matters: The AI DM cannot run sessions without protocols, state files, session start/end prompts, and solo-play procedures.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 2, `01_runner_protocol/AI_DM_CORE_RULES.md`, `16_ai_session_packs/`
-  - Suggested agent: `ai-dm-runtime-engineer`
-  - Stage: 2
-  - Note: Stage 1 canon is now complete and ready to inform starting state. Seed `CURRENT_STATE.md`, `PLAYER_CHARACTER.md`, `CURRENT_LOCATION.md`, `CURRENT_SCENE.md`, `NEXT_SESSION_START.md` from `16_ai_session_packs/OPENING_SCENES.md` + `SOLO_SAFETY_START.md` + `WORLD_CLOCKS.md`.
-
-- [ ] Seed remaining runtime state files from Stage 1 content
-  - Why it matters: WORLD_CLOCKS is populated; the other state files still need Stage-1-informed starting values (faction attitudes, open threads, active quests = Hook 1, etc.).
-  - Related files: all `02_runtime_state/` files, `09_quests/HOOKS_TABLE.md`, `07_factions/FACTION_INDEX.md`
-  - Suggested agent: `ai-dm-runtime-engineer`
-  - Stage: 2
-
-- [ ] Create `/16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`
-  - Why it matters: Without a start prompt, the AI DM has no clean entry point into the campaign.
-  - Related files: `01_runner_protocol/AI_DM_CORE_RULES.md`, `02_runtime_state/CURRENT_STATE.md`
-  - Suggested agent: `ai-dm-runtime-engineer`
-  - Stage: 2
-
-- [ ] Create `/16_ai_session_packs/RESUME_CAMPAIGN_PROMPT.md`
-  - Why it matters: The AI DM needs a clean resume path to pick up mid-campaign without context loss.
-  - Related files: `16_ai_session_packs/SESSION_END_UPDATE_CHECKLIST.md`
-  - Suggested agent: `ai-dm-runtime-engineer`
-  - Stage: 2
-
-- [ ] Populate all runner protocol files in `/01_runner_protocol/`
-  - Why it matters: Currently only `AI_DM_CORE_RULES.md` exists. The solo play, session loop, combat, social, travel, clue delivery, and failure protocols are all placeholders.
-  - Related files: All files in `01_runner_protocol/`
-  - Suggested agent: `ai-dm-runtime-engineer`
-  - Stage: 2
+- [ ] Complete Stage 3: Starting Region Deep Build
+  - Why it matters: The player needs a populated region to explore. 10–20 sessions of open-world content requires substantial regional depth beyond Hollowmere — additional settlements, wilderness sites, local dungeons/ruins, and regional quest/encounter/rumor tables.
+  - Related files: `DEVELOPMENT_STAGES.md` Stage 3, `WORLDBUILDING_STANDARDS.md`, `05_regions/SUNDERING_REACH.md`, `06_settlements/HOLLOWMERE.md`
+  - Suggested agent: `world-atlas-builder`
+  - Stage: 3
+  - Note: Stages 1 and 2 are complete; the campaign is runnable for opening sessions. Stage 3 expands the Reach so play does not run out of authored material.
 
 ---
 
 ## Medium
-
-- [ ] Complete Stage 3: Starting Region Deep Build
-  - Why it matters: The player needs a populated region to explore. 10–20 sessions of content requires substantial regional depth.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 3, `WORLDBUILDING_STANDARDS.md`
-  - Suggested agent: `world-atlas-builder`
-  - Stage: 3
-  - Blocker: Requires Stage 1 to establish starting region identity
 
 - [ ] Complete Stage 4: First Major City Deep Build
   - Why it matters: A major city provides a political and social hub for mid-campaign play.
@@ -129,6 +98,10 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## Completed Recently
 
+- [x] Complete Stage 2: AI Runtime Foundation — 2026-06-09 (all 17 runner protocols written as full operational content; START/RESUME prompts + 3 session-pack templates ready; 8 runtime state files seeded from Stage 1; solo-first, three-clue-rule, secrecy-preserving; indexes and tracking updated)
+- [x] Seed runtime state files from Stage 1 content — 2026-06-09 (CURRENT_STATE, CURRENT_LOCATION, CURRENT_SCENE, ACTIVE_QUESTS = Hook 1 + Hooks 5–7, OPEN_THREADS, FACTION_STATE, NEXT_SESSION_START, PLAYER_CHARACTER scaffold)
+- [x] Create START_NEW_CAMPAIGN_PROMPT.md and RESUME_CAMPAIGN_PROMPT.md — 2026-06-09 (DM-only, self-contained, spoiler-safe)
+- [x] Populate all runner protocol files in 01_runner_protocol/ — 2026-06-09
 - [x] Complete Stage 1: Campaign Foundation — 2026-06-09 ("The Long Remembering"; world, region, settlement, 7 factions, 20 NPCs, mystery web, arc, hooks, rumors, opening scenes, solo-safety, 10 clocks; all indexed)
 - [x] Created full repository scaffold — 2026-06-09
 - [x] Created all control, tracking, canon, runtime state, protocol, session pack, and backlog placeholder files — 2026-06-09

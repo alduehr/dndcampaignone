@@ -6,6 +6,76 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-09 — Stage 2: AI Runtime Foundation
+
+### Stage
+Stage 2 — AI Runtime Foundation (complete)
+
+### Summary
+Made the Stage 1 campaign foundation runnable by a future AI DM. No new world content was created; all material was drawn from existing Stage 1 files. Converted all 17 runner-protocol placeholder files in `01_runner_protocol/` into full operational content a future AI DM can follow directly (solo play, session loop, scene framing, player choice, rolls, combat, social, exploration, travel, downtime, clue delivery, secret reveal, failure, tone/narration, when to ask, when to improvise, session end). Wrote the two session-launch prompts (START/RESUME) as complete, self-contained, DM-only procedures, and finalized the three session-pack templates (state update, compact context, DM hidden recap) from placeholder to ready. Seeded eight runtime state files from Stage 1 content (current state, current location, current scene, active quests, open threads, faction state, next session start, plus the player-character scaffold with opening condition notes). Protocols are solo-first throughout, enforce the three-clue rule, protect hidden truths (the harvest, the Hollow Court, the steering), and reflect the locked folk-horror/frontier-grief/slow-dread tone. Start and resume prompts are DM-only and contain no player-facing spoilers.
+
+### Files Created
+- None (all target files already existed as Stage 0 placeholders; this pass populated them).
+
+### Files Changed
+- `01_runner_protocol/SOLO_PLAY_PRINCIPLES.md` — full solo-play doctrine, scaling, companions, solo-safe failure
+- `01_runner_protocol/SESSION_LOOP.md` — start/during/end loop tied to runtime state filenames
+- `01_runner_protocol/SCENE_FRAMING.md` — Sense/Situation/Pressure framing and transitions
+- `01_runner_protocol/PLAYER_CHOICE_PROTOCOL.md` — choice-through-fiction, anti-railroad, third options
+- `01_runner_protocol/ROLL_AND_CHECK_PROTOCOL.md` — three roll conditions, DC scale, success-with-cost
+- `01_runner_protocol/COMBAT_PROTOCOL.md` — solo combat, telegraphing, morale, retreat, cheap-death prevention
+- `01_runner_protocol/SOCIAL_SCENE_PROTOCOL.md` — NPC voice, attitude, lies, secret-gating
+- `01_runner_protocol/EXPLORATION_PROTOCOL.md` — search resolution, environmental clues, telegraphed traps
+- `01_runner_protocol/TRAVEL_PROTOCOL.md` — purposeful travel, route gates, clocks-on-time-pass
+- `01_runner_protocol/DOWNTIME_PROTOCOL.md` — downtime activities, clock advancement, meaningful rest
+- `01_runner_protocol/CLUE_DELIVERY_PROTOCOL.md` — three-clue rule enforced, missed-clue procedure
+- `01_runner_protocol/SECRET_REVEAL_PROTOCOL.md` — pre-reveal checklist, load order, partial/early-guess handling
+- `01_runner_protocol/FAILURE_AND_CONSEQUENCES.md` — failure-changes-situation, cheap-death rules, delayed consequences
+- `01_runner_protocol/TONE_AND_NARRATION.md` — locked tone with sentence-level campaign-voice examples
+- `01_runner_protocol/WHEN_TO_ASK_QUESTIONS.md` — ask/decide boundaries, no-menu nudges
+- `01_runner_protocol/WHEN_TO_IMPROVISE.md` — three-tier improvise boundary tied to canon categories
+- `01_runner_protocol/SESSION_END_PROTOCOL.md` — closing beat + full state-update + handoff procedure
+- `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md` — complete DM-only Session-1 prompt (load order, character creation, opener, what-not-to-reveal)
+- `16_ai_session_packs/RESUME_CAMPAIGN_PROMPT.md` — complete DM-only Session-2+ prompt (context reconstruction, away-player handling, opening beats)
+- `16_ai_session_packs/STATE_UPDATE_TEMPLATE.md` — finalized (placeholder → ready)
+- `16_ai_session_packs/COMPACT_CONTEXT_TEMPLATE.md` — finalized (placeholder → ready)
+- `16_ai_session_packs/DM_HIDDEN_RECAP_TEMPLATE.md` — finalized (placeholder → ready)
+- `02_runtime_state/CURRENT_STATE.md` — seeded campaign-start baseline
+- `02_runtime_state/CURRENT_LOCATION.md` — seeded starting location (Hollowmere / Mourner's Green)
+- `02_runtime_state/CURRENT_SCENE.md` — seeded opening scene (Opener A) with DM-only notes
+- `02_runtime_state/ACTIVE_QUESTS.md` — seeded Hook 1 active + Hooks 5–7 available
+- `02_runtime_state/OPEN_THREADS.md` — seeded 5 opening loose ends (player-known vs. DM-only separated)
+- `02_runtime_state/FACTION_STATE.md` — seeded all 7 factions at Stage 1 baseline posture
+- `02_runtime_state/NEXT_SESSION_START.md` — seeded ready-to-run Session-1 opener with hidden notes
+- `02_runtime_state/PLAYER_CHARACTER.md` — scaffold + opening condition notes (class/level TBD by player)
+- `00_control/STAGE_STATUS.md`, `CONTENT_INDEX.md`, `TAG_INDEX.md`, `TODO.md`, `PROGRESS_LOG.md` — tracking updates
+
+### Canon Established
+- None. No new world facts created; runtime layer only.
+
+### Player-Safe Facts Added
+- None new (state seeds reuse existing player-safe Stage 1 facts).
+
+### DM-Only Facts Added
+- None new (protocols and prompts reference existing DM-only canon; secrecy preserved).
+
+### Runtime State Updated
+- 8 state files seeded from Stage 1 content (`CURRENT_STATE`, `CURRENT_LOCATION`, `CURRENT_SCENE`, `ACTIVE_QUESTS`, `OPEN_THREADS`, `FACTION_STATE`, `NEXT_SESSION_START`, `PLAYER_CHARACTER` scaffold). `WORLD_CLOCKS` already populated in Stage 1.
+
+### Indexes Updated
+- `CONTENT_INDEX.md` — protocol + session-pack statuses updated from placeholder to complete/ready/seeded
+- `TAG_INDEX.md` — status tags moved (placeholder → complete/static/template/runtime); removed from `status:placeholder`
+
+### Gaps Identified
+- Stage 3 (starting region deep build) not yet started — the campaign is runnable for the opening sessions but the Reach beyond Hollowmere needs settlements, wilderness sites, dungeons, and encounter/rumor tables.
+- `INVENTORY_AND_REWARDS`, `RELATIONSHIPS`, `NPC_MEMORY`, `KNOWN_CLUES`, `HIDDEN_CLUES`, `CONSEQUENCES`, `SESSION_RECAP` remain at empty-start baselines by design (populated in play); they did not require Stage-1 seeding.
+- Full encounter tables (Stage 13) and the drowned shrine dungeon (Stage 12) still pending for deeper play.
+
+### Next Recommended Pass
+- Begin Stage 3: Starting Region Deep Build (settlements, wilderness locations, local dungeons/ruins, regional quest/encounter/rumor tables) so the Sundering Reach can support 10–20 sessions of open-world play.
+
+---
+
 ## 2026-06-09 — Stage 1: Campaign Foundation
 
 ### Stage

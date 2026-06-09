@@ -6,7 +6,7 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stage 1 complete.** Campaign foundation content registered: starting region/settlement, 7 factions, 20 major NPCs, hooks/rumors, mystery infrastructure, arc files, opening packs, world clocks. Deep expansion continues in Stages 3+.
+**Stages 1 and 2 complete.** Campaign foundation content registered: starting region/settlement, 7 factions, 20 major NPCs, hooks/rumors, mystery infrastructure, arc files, opening packs, world clocks (Stage 1). All 17 runner protocols and the START/RESUME prompts are now `status:complete`; session-pack templates are `status:template`; 8 runtime state files are seeded at campaign-start baseline (Stage 2). Deep expansion continues in Stages 3+.
 
 ---
 
@@ -293,8 +293,19 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `02_runtime_state/SESSION_RECAP.md`
 - `02_runtime_state/NEXT_SESSION_START.md`
 
+### status:seeded (campaign-start baseline; become status:active on play)
+- `02_runtime_state/CURRENT_STATE.md`
+- `02_runtime_state/CURRENT_LOCATION.md`
+- `02_runtime_state/CURRENT_SCENE.md`
+- `02_runtime_state/ACTIVE_QUESTS.md`
+- `02_runtime_state/OPEN_THREADS.md`
+- `02_runtime_state/FACTION_STATE.md`
+- `02_runtime_state/WORLD_CLOCKS.md`
+- `02_runtime_state/NEXT_SESSION_START.md`
+- `02_runtime_state/PLAYER_CHARACTER.md` (scaffold — awaiting character creation)
+
 ### status:active
-- *No active state yet — campaign not started*
+- *No live campaign state yet — runtime files are seeded but play has not begun*
 
 ### status:template
 - `16_ai_session_packs/STATE_UPDATE_TEMPLATE.md`
@@ -308,25 +319,6 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - *No files flagged yet*
 
 ### status:placeholder
-- `01_runner_protocol/SOLO_PLAY_PRINCIPLES.md`
-- `01_runner_protocol/SESSION_LOOP.md`
-- `01_runner_protocol/SCENE_FRAMING.md`
-- `01_runner_protocol/PLAYER_CHOICE_PROTOCOL.md`
-- `01_runner_protocol/ROLL_AND_CHECK_PROTOCOL.md`
-- `01_runner_protocol/COMBAT_PROTOCOL.md`
-- `01_runner_protocol/SOCIAL_SCENE_PROTOCOL.md`
-- `01_runner_protocol/EXPLORATION_PROTOCOL.md`
-- `01_runner_protocol/TRAVEL_PROTOCOL.md`
-- `01_runner_protocol/DOWNTIME_PROTOCOL.md`
-- `01_runner_protocol/CLUE_DELIVERY_PROTOCOL.md`
-- `01_runner_protocol/SECRET_REVEAL_PROTOCOL.md`
-- `01_runner_protocol/FAILURE_AND_CONSEQUENCES.md`
-- `01_runner_protocol/TONE_AND_NARRATION.md`
-- `01_runner_protocol/WHEN_TO_ASK_QUESTIONS.md`
-- `01_runner_protocol/WHEN_TO_IMPROVISE.md`
-- `01_runner_protocol/SESSION_END_PROTOCOL.md`
-- `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`
-- `16_ai_session_packs/RESUME_CAMPAIGN_PROMPT.md`
 - `11_mysteries_and_secrets/CLUE_INDEX.md` (individual clue files: Stage 3)
 
 ### status:complete
@@ -347,7 +339,28 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `00_control/TRACKING_SYSTEM.md`
 - `00_control/WORLDBUILDING_STANDARDS.md`
 - `01_runner_protocol/AI_DM_CORE_RULES.md`
+- `01_runner_protocol/SOLO_PLAY_PRINCIPLES.md`
+- `01_runner_protocol/SESSION_LOOP.md`
+- `01_runner_protocol/SCENE_FRAMING.md`
+- `01_runner_protocol/PLAYER_CHOICE_PROTOCOL.md`
+- `01_runner_protocol/ROLL_AND_CHECK_PROTOCOL.md`
+- `01_runner_protocol/COMBAT_PROTOCOL.md`
+- `01_runner_protocol/SOCIAL_SCENE_PROTOCOL.md`
+- `01_runner_protocol/EXPLORATION_PROTOCOL.md`
+- `01_runner_protocol/TRAVEL_PROTOCOL.md`
+- `01_runner_protocol/DOWNTIME_PROTOCOL.md`
+- `01_runner_protocol/CLUE_DELIVERY_PROTOCOL.md`
+- `01_runner_protocol/SECRET_REVEAL_PROTOCOL.md`
+- `01_runner_protocol/FAILURE_AND_CONSEQUENCES.md`
+- `01_runner_protocol/TONE_AND_NARRATION.md`
+- `01_runner_protocol/WHEN_TO_ASK_QUESTIONS.md`
+- `01_runner_protocol/WHEN_TO_IMPROVISE.md`
+- `01_runner_protocol/SESSION_END_PROTOCOL.md`
 - `16_ai_session_packs/SESSION_END_UPDATE_CHECKLIST.md`
+- `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`
+- `16_ai_session_packs/RESUME_CAMPAIGN_PROMPT.md`
+- `16_ai_session_packs/OPENING_SCENES.md`
+- `16_ai_session_packs/SOLO_SAFETY_START.md`
 
 ---
 

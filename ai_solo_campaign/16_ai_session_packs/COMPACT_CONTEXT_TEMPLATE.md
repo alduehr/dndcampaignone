@@ -6,7 +6,7 @@ A compressed single-document summary of all critical campaign state, designed fo
 
 ## Current Status
 
-**PLACEHOLDER — Template structure defined. To be populated from actual state after campaign begins.**
+**Ready (Stage 2).** Use this when context is crowded mid-campaign or after a long gap. Fill it at session end (overwrite each time) from the runtime state files. It is a DM-only snapshot — the "What not to reveal yet" section in particular must never be shown to the player.
 
 ---
 
