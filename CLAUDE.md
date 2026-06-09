@@ -103,11 +103,35 @@ For audits, continuity checks, AI-readiness reviews, and gap reports:
 
 ---
 
+## Specialist Agents
+
+All specialist agents are defined in `.claude/agents/` and are tracked in version control. Use them for focused production passes.
+
+| Agent | Purpose |
+|---|---|
+| `campaign-architect` | Overall structure, roadmap, level 1–20 arc, content quotas |
+| `ai-dm-runtime-engineer` | Runtime rules, session loop, state files, solo-play protocols |
+| `canon-continuity-auditor` | Audits, contradictions, secret exposure, AI-readiness |
+| `world-atlas-builder` | Regions, settlements, maps, travel, wilderness |
+| `faction-weaver` | Factions, guilds, cults, clocks, political groups |
+| `npc-codex-builder` | NPCs, relationships, voice, secrets, memory |
+| `quest-arc-designer` | Quests, hooks, rumors, arcs, failure states |
+| `mystery-clue-engineer` | Mysteries, clues, secrets, revelations, false leads |
+| `encounter-bestiary-designer` | Encounters, monsters, bosses, treasure logic |
+| `indexer-librarian` | Indexes, tags, cross-links, retrieval guides |
+| `player-experience-reviewer` | Player-perspective review, pacing, agency, fairness |
+
+Do not add local Claude Code session files (e.g. `settings.local.json`, `projects/`) to version control. Only `.claude/agents/` is tracked.
+
+---
+
 ## Repository Shape
 
 Use this structure unless the user explicitly changes it:
 
 ```text
+/.claude
+  /agents              — Specialist agent definitions (tracked)
 /ai_solo_campaign
   /00_control
   /01_runner_protocol
