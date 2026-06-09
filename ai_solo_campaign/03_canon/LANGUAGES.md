@@ -4,67 +4,47 @@
 type: canon
 secrecy: player-safe
 status: static
+tags: [languages, scripts, ancient, clues]
 ---
 
-## Purpose
+## AI Use
 
-All languages in the campaign world — common tongues, regional dialects, ancient languages, secret languages, and in-world scripts. The AI DM uses this to determine what the player can read, understand, and use in social situations.
+Load to determine what a character can read/understand, especially at Concord ruins, archive cairns, and in Gravecaller or Concord Remnant contexts. **Concord Script** is a key clue gate — gaining the ability to read it is a meaningful step.
 
-## Current Status
+## Design Note
 
-**PLACEHOLDER — Not yet populated.** To be established during Stage 1.
+Languages map onto standard 5e language slots; treat them as reskins so any class/background works. Variety is kept meaningful, not overwhelming.
 
----
+## Common Languages (Player-Safe)
 
-## Design Guidance
+| Language | Maps To (5e) | Speakers | Script |
+|---|---|---|---|
+| **Reach Common** | Common | Everyone in the Reach and most of Orrun | Common letters |
+| **Vale Tongue** | (dialect of Common) | Ashgarden Vale farmers | Common letters |
+| **Coaster** | (dialect of Common) | Pale Coast fishers/traders | Common letters |
+| Standard ancestry languages | Dwarvish, Elvish, etc. | As normal | As normal |
 
-- Keep language variety meaningful but not overwhelming.
-- Languages should create interesting situations: things the player can't read, people they can't understand, secrets hidden in dead languages.
-- Tie languages to cultures, factions, and mysteries where useful.
+## Regional / Cultural Languages
 
----
+| Language | Speakers | Notes |
+|---|---|---|
+| **Mourner's Cant** | Mourners' Circle | A soft ritual register of Reach Common with death-vocabulary; marks the faithful. Not a full separate language. |
 
-## Common Languages
+## Ancient / Dead Languages
 
-*Languages most people in the campaign world know or can encounter.*
+| Language | Where Found | Significance |
+|---|---|---|
+| **Concord Script** | All Concord ruins, archive cairns, shrine-stones, relics | The written language of the Custodian Concord. **A primary clue gate.** Reading it unlocks history, shrine mechanisms, and DM-only truths. Learnable via Concord Remnant scholars, certain NPCs, *Comprehend Languages*, or a found primer. |
+| **Old Custodial** | Deepest under-shrine; Hollow Court | The spoken/ritual tongue of the inner Custodians. Rare even among scholars; late-arc gate. |
 
-*None yet.*
+## Secret / Restricted
 
----
-
-## Regional Languages
-
-*Languages tied to specific cultures or geographic areas.*
-
-*None yet.*
-
----
-
-## Ancient or Dead Languages
-
-*Languages found in ruins, old texts, or used by long-dead cultures. May hide clues.*
-
-*None yet.*
-
----
-
-## Secret or Restricted Languages
-
-*Languages used by factions, cults, or professions as codes or marks of membership.*
-
-*None yet.*
-
----
-
-## Language Table
-
-| Language | Speakers | Script | Rarity | Notes |
-|---|---|---|---|---|
-| — | — | — | — | not yet created |
-
----
+| Language | Users | Notes |
+|---|---|---|
+| **Gravecaller Knock** | Gravecallers | A tapping/knocking code (on doors, coffins, stone) used to identify members and "ask the dead to listen." Recognizable as more than noise with a successful check. |
 
 ## Related Files
 
 - [`CANON.md`](CANON.md)
 - [`WORLD_HISTORY.md`](WORLD_HISTORY.md)
+- [`../11_mysteries_and_secrets/CLUE_INDEX.md`](../11_mysteries_and_secrets/CLUE_INDEX.md)

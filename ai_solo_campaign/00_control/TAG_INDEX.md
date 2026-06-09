@@ -6,7 +6,7 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-Stage 0 scaffold complete. All infrastructure files registered. World content tags (regions, settlements, factions, NPCs, quests, etc.) will be populated as content is created in Stages 1+.
+**Stage 1 complete.** Campaign foundation content registered: starting region/settlement, 7 factions, 20 major NPCs, hooks/rumors, mystery infrastructure, arc files, opening packs, world clocks. Deep expansion continues in Stages 3+.
 
 ---
 
@@ -19,37 +19,51 @@ When an AI DM or production agent needs to find content of a certain type, searc
 ## Type Tags
 
 ### type:region
-- *No world content yet*
+- `05_regions/SUNDERING_REACH.md`
+- `04_world_atlas/WORLD_OVERVIEW.md`
+- `04_world_atlas/MAP_DESCRIPTION.md`
 
 ### type:settlement
-- *No world content yet*
+- `06_settlements/HOLLOWMERE.md`
 
 ### type:npc
-- *No world content yet*
+- `08_npcs/MAJOR_NPCS.md`
+- `08_npcs/NPC_INDEX.md`
 
 ### type:faction
-- *No world content yet*
+- `07_factions/major_factions/ASHEN_WARDENS.md`
+- `07_factions/major_factions/CINDER_LEDGER.md`
+- `07_factions/major_factions/MOURNERS_CIRCLE.md`
+- `07_factions/major_factions/REACHWARD_COMPACT.md`
+- `07_factions/major_factions/GRAVECALLERS.md`
+- `07_factions/major_factions/CONCORD_REMNANT.md`
+- `07_factions/major_factions/HOLLOW_COURT.md`
+- `07_factions/FACTION_INDEX.md`
 
 ### type:quest
-- *No world content yet*
+- `09_quests/HOOKS_TABLE.md`
+- `09_quests/RUMORS_TABLE.md`
 
 ### type:mystery
-- *No world content yet*
+- `11_mysteries_and_secrets/MYSTERY_WEB.md`
+- `11_mysteries_and_secrets/REVELATION_MAP.md`
+- `11_mysteries_and_secrets/SECRET_INDEX.md`
 
 ### type:clue
-- *No world content yet*
+- `11_mysteries_and_secrets/MYSTERY_WEB.md` (clue paths embedded)
+- `11_mysteries_and_secrets/CLUE_INDEX.md` (individual clue files: Stage 3)
 
 ### type:dungeon
-- *No world content yet*
+- Drowned shrine — referenced in `07_factions/major_factions/HOLLOW_COURT.md` (full build Stage 12)
 
 ### type:ruin
-- *No world content yet*
+- Concord ruins/archive cairns — referenced in `05_regions/SUNDERING_REACH.md` (full build Stage 3/12)
 
 ### type:encounter
-- *No world content yet*
+- *Encounter tables: Stage 13*
 
 ### type:artifact
-- *No world content yet*
+- Remembrance relics — referenced in `03_canon/MAGIC_RULES.md` (full build Stage 14)
 
 ### type:canon
 - `03_canon/CANON.md`
@@ -149,6 +163,8 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `00_control/TAG_INDEX.md`
 - `00_control/NAMING_REGISTRY.md`
 - `00_control/RETRIEVAL_GUIDE.md`
+- `07_factions/FACTION_INDEX.md`
+- `08_npcs/NPC_INDEX.md`
 - `11_mysteries_and_secrets/CLUE_INDEX.md`
 - `11_mysteries_and_secrets/SECRET_INDEX.md`
 
@@ -172,6 +188,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 ### secrecy:dm-only
 - `03_canon/DM_ONLY_CANON.md`
 - `03_canon/CAMPAIGN_IDENTITY_LOCK.md`
+- `07_factions/major_factions/HOLLOW_COURT.md`
 - `02_runtime_state/HIDDEN_CLUES.md`
 - `12_campaign_arc/MAIN_ARC_OVERVIEW.md`
 - `12_campaign_arc/LEVEL_1_TO_20_PROGRESSION.md`
@@ -192,6 +209,21 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `03_canon/GODS_AND_FAITHS.md`
 - `03_canon/MAGIC_RULES.md`
 - `04_world_atlas/WORLD_OVERVIEW.md`
+- `05_regions/SUNDERING_REACH.md`
+- `06_settlements/HOLLOWMERE.md`
+- `07_factions/major_factions/ASHEN_WARDENS.md`
+- `07_factions/major_factions/CINDER_LEDGER.md`
+- `07_factions/major_factions/MOURNERS_CIRCLE.md`
+- `07_factions/major_factions/REACHWARD_COMPACT.md`
+- `07_factions/major_factions/GRAVECALLERS.md`
+- `07_factions/major_factions/CONCORD_REMNANT.md`
+- `07_factions/FACTION_INDEX.md`
+- `08_npcs/MAJOR_NPCS.md`
+- `08_npcs/NPC_INDEX.md`
+- `09_quests/HOOKS_TABLE.md`
+- `09_quests/RUMORS_TABLE.md`
+- `16_ai_session_packs/OPENING_SCENES.md`
+- `16_ai_session_packs/SOLO_SAFETY_START.md`
 - `02_runtime_state/CURRENT_STATE.md`
 - `02_runtime_state/CURRENT_SCENE.md`
 - `02_runtime_state/ACTIVE_QUESTS.md`
@@ -220,11 +252,26 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `03_canon/LEVELING_ASSUMPTIONS.md`
 - `04_world_atlas/WORLD_OVERVIEW.md`
 - `04_world_atlas/MAP_DESCRIPTION.md`
+- `05_regions/SUNDERING_REACH.md`
+- `06_settlements/HOLLOWMERE.md`
+- `07_factions/major_factions/ASHEN_WARDENS.md`
+- `07_factions/major_factions/CINDER_LEDGER.md`
+- `07_factions/major_factions/MOURNERS_CIRCLE.md`
+- `07_factions/major_factions/REACHWARD_COMPACT.md`
+- `07_factions/major_factions/GRAVECALLERS.md`
+- `07_factions/major_factions/CONCORD_REMNANT.md`
+- `07_factions/major_factions/HOLLOW_COURT.md`
+- `07_factions/FACTION_INDEX.md`
+- `08_npcs/MAJOR_NPCS.md`
+- `08_npcs/NPC_INDEX.md`
+- `09_quests/HOOKS_TABLE.md`
+- `09_quests/RUMORS_TABLE.md`
+- `16_ai_session_packs/OPENING_SCENES.md`
+- `16_ai_session_packs/SOLO_SAFETY_START.md`
 - `12_campaign_arc/MAIN_ARC_OVERVIEW.md`
 - `12_campaign_arc/LEVEL_1_TO_20_PROGRESSION.md`
 - `11_mysteries_and_secrets/MYSTERY_WEB.md`
 - `11_mysteries_and_secrets/REVELATION_MAP.md`
-- `11_mysteries_and_secrets/CLUE_INDEX.md`
 - `11_mysteries_and_secrets/SECRET_INDEX.md`
 
 ### status:runtime
@@ -280,25 +327,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `01_runner_protocol/SESSION_END_PROTOCOL.md`
 - `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`
 - `16_ai_session_packs/RESUME_CAMPAIGN_PROMPT.md`
-- `03_canon/CANON.md`
-- `03_canon/PLAYER_SAFE_CANON.md`
-- `03_canon/DM_ONLY_CANON.md`
-- `03_canon/CAMPAIGN_IDENTITY_LOCK.md`
-- `03_canon/WORLD_HISTORY.md`
-- `03_canon/COSMOLOGY.md`
-- `03_canon/GODS_AND_FAITHS.md`
-- `03_canon/MAGIC_RULES.md`
-- `03_canon/CALENDAR.md`
-- `03_canon/LANGUAGES.md`
-- `03_canon/LEVELING_ASSUMPTIONS.md`
-- `04_world_atlas/WORLD_OVERVIEW.md`
-- `04_world_atlas/MAP_DESCRIPTION.md`
-- `12_campaign_arc/MAIN_ARC_OVERVIEW.md`
-- `12_campaign_arc/LEVEL_1_TO_20_PROGRESSION.md`
-- `11_mysteries_and_secrets/MYSTERY_WEB.md`
-- `11_mysteries_and_secrets/REVELATION_MAP.md`
-- `11_mysteries_and_secrets/CLUE_INDEX.md`
-- `11_mysteries_and_secrets/SECRET_INDEX.md`
+- `11_mysteries_and_secrets/CLUE_INDEX.md` (individual clue files: Stage 3)
 
 ### status:complete
 - `00_control/AUDIT_STANDARDS.md`
@@ -325,39 +354,56 @@ When an AI DM or production agent needs to find content of a certain type, searc
 ## Level Tags
 
 ### level:1-4
-- *No world content yet*
+- `05_regions/SUNDERING_REACH.md`
+- `06_settlements/HOLLOWMERE.md`
+- `09_quests/HOOKS_TABLE.md`
+- `09_quests/RUMORS_TABLE.md`
+- `16_ai_session_packs/OPENING_SCENES.md`
+- `16_ai_session_packs/SOLO_SAFETY_START.md`
 
 ### level:5-8
-- *No world content yet*
+- `07_factions/major_factions/CONCORD_REMNANT.md` (rises Act 2–3)
 
 ### level:9-12
-- *No world content yet*
+- `07_factions/major_factions/HOLLOW_COURT.md` (apex; surfaces Act 3–4)
 
 ### level:13-16
-- *No world content yet*
+- `07_factions/major_factions/HOLLOW_COURT.md`
 
 ### level:17-20
-- *No world content yet*
+- `12_campaign_arc/MAIN_ARC_OVERVIEW.md` (endgame branches)
 
 ---
 
 ## Play Function Tags
 
 ### function:quest-hook
-- *No world content yet*
+- `09_quests/HOOKS_TABLE.md`
+- `07_factions/major_factions/REACHWARD_COMPACT.md`
 
 ### function:main-arc
 - `12_campaign_arc/MAIN_ARC_OVERVIEW.md`
 - `12_campaign_arc/LEVEL_1_TO_20_PROGRESSION.md`
+- `07_factions/major_factions/HOLLOW_COURT.md`
 
 ### function:faction-clock
-- *No world content yet*
+- `02_runtime_state/WORLD_CLOCKS.md`
+- `07_factions/major_factions/ASHEN_WARDENS.md`
+- `07_factions/major_factions/CINDER_LEDGER.md`
+- `07_factions/major_factions/MOURNERS_CIRCLE.md`
+- `07_factions/major_factions/REACHWARD_COMPACT.md`
+- `07_factions/major_factions/GRAVECALLERS.md`
+- `07_factions/major_factions/CONCORD_REMNANT.md`
+- `07_factions/major_factions/HOLLOW_COURT.md`
 
 ### function:clue
+- `11_mysteries_and_secrets/MYSTERY_WEB.md`
 - `11_mysteries_and_secrets/CLUE_INDEX.md`
+- `07_factions/major_factions/GRAVECALLERS.md`
+- `07_factions/major_factions/CONCORD_REMNANT.md`
 
 ### function:rumor
-- *No world content yet*
+- `09_quests/RUMORS_TABLE.md`
 
 ### function:combat
 - `01_runner_protocol/COMBAT_PROTOCOL.md`
@@ -378,33 +424,65 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `01_runner_protocol/SOLO_PLAY_PRINCIPLES.md`
 - `01_runner_protocol/COMBAT_PROTOCOL.md`
 - `01_runner_protocol/FAILURE_AND_CONSEQUENCES.md`
+- `16_ai_session_packs/SOLO_SAFETY_START.md`
+- `07_factions/major_factions/ASHEN_WARDENS.md`
 
 ### function:boss
-- *No world content yet*
+- `07_factions/major_factions/HOLLOW_COURT.md`
+- `08_npcs/MAJOR_NPCS.md` (Veyl, Quorrin Vane)
 
 ### function:companion
-- *No world content yet*
+- `16_ai_session_packs/SOLO_SAFETY_START.md` (Brother Hale)
+- `08_npcs/MAJOR_NPCS.md`
 
 ### function:patron
-- *No world content yet*
+- `07_factions/major_factions/ASHEN_WARDENS.md`
+- `07_factions/major_factions/CINDER_LEDGER.md`
+- `07_factions/major_factions/REACHWARD_COMPACT.md`
 
 ### function:secret
 - `03_canon/DM_ONLY_CANON.md`
 - `03_canon/CAMPAIGN_IDENTITY_LOCK.md`
+- `07_factions/major_factions/HOLLOW_COURT.md`
 - `11_mysteries_and_secrets/SECRET_INDEX.md`
+- `11_mysteries_and_secrets/MYSTERY_WEB.md`
+- `11_mysteries_and_secrets/REVELATION_MAP.md`
 - `02_runtime_state/HIDDEN_CLUES.md`
 
 ---
 
 ## Region Tags
 
-*None yet. Region tags will be added using the format `region:[region-name]` as regions are created.*
+### region:sundering-reach
+- `05_regions/SUNDERING_REACH.md`
+- `06_settlements/HOLLOWMERE.md`
+- `09_quests/HOOKS_TABLE.md`
+- `09_quests/RUMORS_TABLE.md`
+- `16_ai_session_packs/OPENING_SCENES.md`
+- All seven major faction files (present in the Reach)
+
+### region:orrun
+- `04_world_atlas/WORLD_OVERVIEW.md`
+- `04_world_atlas/MAP_DESCRIPTION.md`
 
 ---
 
 ## Faction Tags
 
-*None yet. Faction tags will be added using the format `faction:[faction-name]` as factions are created.*
+### faction:ashen-wardens
+- `07_factions/major_factions/ASHEN_WARDENS.md`
+### faction:cinder-ledger
+- `07_factions/major_factions/CINDER_LEDGER.md`
+### faction:mourners-circle
+- `07_factions/major_factions/MOURNERS_CIRCLE.md`
+### faction:reachward-compact
+- `07_factions/major_factions/REACHWARD_COMPACT.md`
+### faction:gravecallers
+- `07_factions/major_factions/GRAVECALLERS.md`
+### faction:concord-remnant
+- `07_factions/major_factions/CONCORD_REMNANT.md`
+### faction:hollow-court
+- `07_factions/major_factions/HOLLOW_COURT.md` (dm-only)
 
 ---
 

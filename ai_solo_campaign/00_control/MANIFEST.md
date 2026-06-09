@@ -6,7 +6,7 @@ Master inventory of what this repository is, what it contains, and how it is str
 
 ## Current Status
 
-**Stage 0 — Repository Setup.** Scaffold created. No campaign world content exists yet.
+**Stage 1 — Campaign Foundation: complete.** The campaign world, starting region/settlement, seven major factions, twenty major NPCs, mystery web, revelation map, level 1–20 arc, and opening packs now exist. AI runtime protocols (Stage 2) are next.
 
 ---
 
@@ -19,7 +19,7 @@ Master inventory of what this repository is, what it contains, and how it is str
 | Play format | One player character, level 1–20 |
 | AI DM mode | Predetermined-first, improvise-second |
 | World | Original (no copyrighted settings) |
-| Current stage | Stage 0 complete / Stage 1 not started |
+| Current stage | Stage 1 complete / Stage 2 next |
 
 ---
 
@@ -62,16 +62,17 @@ Rules, protocols, state tracking, session start/end procedures, indexes, and ret
 
 ## Campaign Identity
 
-> Not yet established. To be filled in during Stage 1.
+> Established and locked in Stage 1. See `../03_canon/CAMPAIGN_IDENTITY_LOCK.md` (DM-only) and `../03_canon/CANON.md`.
 
-- **Campaign name:** TBD
-- **Premise:** TBD
-- **Central conflict:** TBD
-- **Hidden truth:** TBD (DM-only)
-- **Starting region:** TBD
-- **Starting settlement:** TBD
-- **Tone:** TBD
-- **Themes:** TBD
+- **Campaign name:** The Long Remembering
+- **World / continent:** Vael / Orrun
+- **Premise:** A century after the order that "kept the dead at peace" fell, death-rites are failing across the ruin-haunted Sundering Reach, and a newcomer is drawn into why the dead will not rest.
+- **Central conflict:** Multiple powers race to control the Remembrance — the lingering of the dead as preservable memory.
+- **Hidden truth:** DM-only. See `../03_canon/DM_ONLY_CANON.md`. (Do not surface to the player.)
+- **Starting region:** The Sundering Reach
+- **Starting settlement:** Hollowmere
+- **Tone:** Grounded folk-horror frontier fantasy; eerie, moral, hopeful.
+- **Themes:** Memory vs. truth; grief and letting go; who owns the dead; renewal after collapse.
 
 ---
 
@@ -82,7 +83,7 @@ See `/00_control/STAGE_STATUS.md` for full status table.
 | Stage | Name | Status |
 |---|---|---|
 | 0 | Repository Setup | complete (with Stage 0 cleanup pass 2026-06-09) |
-| 1 | Campaign Foundation | not started |
+| 1 | Campaign Foundation | complete (2026-06-09) |
 | 2 | AI Runtime Foundation | not started |
 | 3 | Starting Region | not started |
 | 4+ | Expansion | not started |

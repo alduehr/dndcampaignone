@@ -6,6 +6,71 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-09 — Stage 1: Campaign Foundation
+
+### Stage
+Stage 1 — Campaign Foundation (complete)
+
+### Summary
+Established the full campaign foundation for an original folk-horror frontier campaign, "The Long Remembering," set on the continent of Orrun in the world of Vael. Created and populated all Stage 1 required outputs: canon (player-safe and DM-only), supporting canon (history, cosmology, gods, magic, calendar, languages, leveling), world atlas, level 1–20 main arc and progression, the mystery web (M0–M10 with 3+ clue paths each), revelation map (R1–R8), secret index (20 secrets), seven major factions (each with public face, hidden agenda, leader, members, resources, and an escalation clock), twenty major NPCs (each with a secret and a motivation), the starting region (Sundering Reach) and settlement (Hollowmere), ten session-sized hooks, twenty rumors, three opening scenes with a recommended default, a solo-play safety mechanism, and ten populated world clocks (master clock: The Harvest Restarts). Registered all names in NAMING_REGISTRY, updated both indexes, MANIFEST, STAGE_STATUS, and TODO. World is 100% original; player-safe and DM-only content strictly separated.
+
+### Files Created
+- `07_factions/major_factions/ASHEN_WARDENS.md`
+- `07_factions/major_factions/CINDER_LEDGER.md`
+- `07_factions/major_factions/MOURNERS_CIRCLE.md`
+- `07_factions/major_factions/REACHWARD_COMPACT.md`
+- `07_factions/major_factions/GRAVECALLERS.md`
+- `07_factions/major_factions/CONCORD_REMNANT.md`
+- `07_factions/major_factions/HOLLOW_COURT.md` (dm-only)
+- `07_factions/FACTION_INDEX.md`
+- `08_npcs/MAJOR_NPCS.md` (20 major NPCs)
+- `08_npcs/NPC_INDEX.md`
+- `05_regions/SUNDERING_REACH.md`
+- `06_settlements/HOLLOWMERE.md`
+- `09_quests/HOOKS_TABLE.md` (10 hooks)
+- `09_quests/RUMORS_TABLE.md` (20 rumors)
+- `16_ai_session_packs/OPENING_SCENES.md` (3 openers + default)
+- `16_ai_session_packs/SOLO_SAFETY_START.md`
+
+### Files Changed (placeholders populated)
+- `03_canon/CANON.md`, `PLAYER_SAFE_CANON.md`, `DM_ONLY_CANON.md`, `CAMPAIGN_IDENTITY_LOCK.md` (locked)
+- `03_canon/WORLD_HISTORY.md`, `COSMOLOGY.md`, `GODS_AND_FAITHS.md`, `MAGIC_RULES.md`, `CALENDAR.md`, `LANGUAGES.md`, `LEVELING_ASSUMPTIONS.md`
+- `04_world_atlas/WORLD_OVERVIEW.md`, `MAP_DESCRIPTION.md`
+- `12_campaign_arc/MAIN_ARC_OVERVIEW.md`, `LEVEL_1_TO_20_PROGRESSION.md`
+- `11_mysteries_and_secrets/MYSTERY_WEB.md`, `REVELATION_MAP.md`, `SECRET_INDEX.md`
+- `02_runtime_state/WORLD_CLOCKS.md` (10 clocks populated)
+- `00_control/NAMING_REGISTRY.md`, `CONTENT_INDEX.md`, `TAG_INDEX.md`, `MANIFEST.md`, `STAGE_STATUS.md`, `TODO.md`
+
+### Canon Established
+- Campaign: "The Long Remembering"; world Vael / continent Orrun; current year AQ 101.
+- The Quietfall (~century-ago collapse of the Custodian Concord) as the world's founding trauma.
+- The Three Thresholds faith; the Quiet Country afterlife; Remembrance as a setting force layered on 5e.
+- Starting region (Sundering Reach) and settlement (Hollowmere) with full DM-only truth.
+- Full hidden truth chain (DM-only): the Concord harvested the dead; the Quietfall was deliberate; the Hollow Court is restarting the harvest.
+
+### Player-Safe Facts Added
+- World/continent names, the Quietfall, the failing death-rites, the five named regions, the public faces of all seven factions, the calendar, common faith and folk customs.
+
+### DM-Only Facts Added
+- The full harvest/Quietfall/Hollow Court truth; 20 secrets; every NPC secret; every faction hidden agenda; the player-steering thread; mystery answers.
+
+### Runtime State Updated
+- `02_runtime_state/WORLD_CLOCKS.md` — 10 campaign clocks established at Stage 1 baseline.
+
+### Indexes Updated
+- `CONTENT_INDEX.md`, `TAG_INDEX.md`, `NAMING_REGISTRY.md`, plus new `FACTION_INDEX.md` and `NPC_INDEX.md`.
+
+### Gaps Identified
+- Stage 2 (AI runtime protocols + start/resume prompts + remaining runtime state seeding) not yet done.
+- `CLUE_INDEX.md` individual clue files deferred to Stage 3.
+- Secondary/minor NPCs referenced in faction files (Pell, Tallytooth Ren, Bann Oester, Pevin Oss, Custodian Orre) need full entries in Stage 3/9.
+- The drowned shrine dungeon needs a full build (Stage 12); endgame act files and bestiary (Stages 13/15).
+
+### Next Recommended Pass
+- Begin Stage 2: AI Runtime Foundation. Populate the 17 runner protocols, START/RESUME prompts, and seed the remaining runtime state files (CURRENT_STATE, PLAYER_CHARACTER scaffolding, NEXT_SESSION_START) from the Stage 1 opening scenes and clocks.
+
+---
+
 ## 2026-06-09 — Stage 0: Full Index Reconciliation Pass
 
 ### Stage

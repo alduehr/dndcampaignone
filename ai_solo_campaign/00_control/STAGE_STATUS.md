@@ -6,8 +6,8 @@ Live status of each development stage. Updated after every stage completes, part
 
 ## Current Status
 
-**Active Stage:** Stage 1 — Campaign Foundation (not started)
-**Last Completed Stage:** Stage 0 — Repository Setup
+**Active Stage:** Stage 2 — AI Runtime Foundation (not started)
+**Last Completed Stage:** Stage 1 — Campaign Foundation (complete 2026-06-09)
 
 ---
 
@@ -16,7 +16,7 @@ Live status of each development stage. Updated after every stage completes, part
 | Stage | Name | Status | Completion | Blocking Issues | Notes |
 |---|---|---|---|---|---|
 | 0 | Repository Setup | complete | 100% | none | Scaffold created 2026-06-09 |
-| 1 | Campaign Foundation | not started | 0% | — | Requires creative decisions on premise, world, factions |
+| 1 | Campaign Foundation | complete | 100% | none | "The Long Remembering" established and locked; all required outputs created and indexed 2026-06-09 |
 | 2 | AI Runtime Foundation | not started | 0% | — | Depends on Stage 1 canon |
 | 3 | Starting Region Deep Build | not started | 0% | — | Depends on Stage 1 |
 | 4 | First Major City Deep Build | not started | 0% | — | Depends on Stage 3 |

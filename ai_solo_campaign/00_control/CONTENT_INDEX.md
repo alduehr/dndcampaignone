@@ -6,7 +6,7 @@ Global inventory of campaign content. Tells the AI DM what exists and where to f
 
 ## Current Status
 
-Stage 0 scaffold. No campaign content exists yet. Sections will be populated during Stages 1–15.
+**Stage 1 complete.** Campaign foundation content indexed below. Regions, settlements, factions, major NPCs, mystery infrastructure, hooks/rumors, and opening packs exist. Deep region/quest/NPC expansion continues in Stages 3+.
 
 ---
 
@@ -20,7 +20,8 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Status | Summary | Tags |
 |---|---|---|---|---|---|
-| — | — | — | — | Not yet created | — |
+| Sundering Reach | `05_regions/SUNDERING_REACH.md` | mixed | static (frame; deep build Stage 3) | Starting region; ruin-haunted frontier; keystone of the harvest | starting-region |
+| (Orrun world overview) | `04_world_atlas/WORLD_OVERVIEW.md` | mixed | static | Continent overview; 5 named regions | world |
 
 ---
 
@@ -28,7 +29,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Region | Secrecy | Status | Summary | Tags |
 |---|---|---|---|---|---|---|
-| — | — | — | — | — | Not yet created | — |
+| Hollowmere | `06_settlements/HOLLOWMERE.md` | Sundering Reach | mixed | static | Starting town/hub on the drowned basin | starting-settlement, hub |
 
 ---
 
@@ -36,7 +37,14 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Scope | Secrecy | Summary | Tags |
 |---|---|---|---|---|---|
-| — | — | — | — | Not yet created | — |
+| Ashen Wardens | `07_factions/major_factions/ASHEN_WARDENS.md` | Reach/Orrun | mixed | Rite-keepers; unknowing seal-guardians | patron, solo-safety |
+| Cinder Ledger | `07_factions/major_factions/CINDER_LEDGER.md` | Orrun | mixed | Merchant-bank; Remembrance monopoly schemer | patron, social |
+| Mourners' Circle | `07_factions/major_factions/MOURNERS_CIRCLE.md` | Reach | mixed | Folk grief-faith; moral truth; may break shrines | social, secret |
+| Reachward Compact | `07_factions/major_factions/REACHWARD_COMPACT.md` | Reach | mixed | Frontier council; infiltrated; basin scheme | quest-hook, social |
+| Gravecallers | `07_factions/major_factions/GRAVECALLERS.md` | Reach | mixed | Outlawed cult; truth-source; catastrophic method | clue, secret |
+| Concord Remnant | `07_factions/major_factions/CONCORD_REMNANT.md` | Orrun/Caradril | mixed | Scholars; inner circle would seize the harvest | clue, secret |
+| Hollow Court | `07_factions/major_factions/HOLLOW_COURT.md` | Reach (under-shrine) | dm-only | Apex power; surviving Custodians; restarts harvest | boss, main-arc |
+| (Faction index) | `07_factions/FACTION_INDEX.md` | — | mixed | Master faction table + relationship map | index |
 
 ---
 
@@ -44,7 +52,8 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Tier | Location | Faction | Secrecy | Summary | Tags |
 |---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | Not yet created | — |
+| 20 Major NPCs | `08_npcs/MAJOR_NPCS.md` | Major | Reach/Caradril | all | mixed | Full profiles for the 20 foundation NPCs | major-npc |
+| (NPC index) | `08_npcs/NPC_INDEX.md` | — | — | — | mixed | Master NPC table | index |
 
 ---
 
@@ -52,7 +61,8 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Type | Level | Region | Status | Summary | Tags |
 |---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | Not yet created | — |
+| First 10 Hooks | `09_quests/HOOKS_TABLE.md` | Hooks | 1-4 | Sundering Reach | static | Session-sized Act 1 hooks (Hook 1 = default opener) | quest-hook, act-1 |
+| First 20 Rumors | `09_quests/RUMORS_TABLE.md` | Rumors | 1-4 | Sundering Reach | static | Act 1 rumors, all pointing to authored content | rumor, act-1 |
 
 ---
 
@@ -60,7 +70,9 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Status | Summary | Related Clues |
 |---|---|---|---|---|---|
-| — | — | — | — | Not yet created | — |
+| Mystery Web (M0–M10) | `11_mysteries_and_secrets/MYSTERY_WEB.md` | dm-only | static | Full mystery network; 3+ clue paths each | CLUE_INDEX (Stage 3) |
+| Revelation Map (R1–R8) | `11_mysteries_and_secrets/REVELATION_MAP.md` | dm-only | static | Act-by-act revelation pacing | — |
+| Secret Index (20) | `11_mysteries_and_secrets/SECRET_INDEX.md` | dm-only | static | The 20 major campaign secrets | — |
 
 ---
 
@@ -68,7 +80,8 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Mystery | Discovery Status | Location | Secrecy |
 |---|---|---|---|---|---|
-| — | — | — | — | Not yet created | — |
+| (Clue paths embedded) | `11_mysteries_and_secrets/MYSTERY_WEB.md` | M0–M10 | hidden | various | dm-only |
+| (Individual clue files) | `11_mysteries_and_secrets/CLUE_INDEX.md` | — | — | — | dm-only (Stage 3 build-out) |
 
 ---
 
@@ -76,7 +89,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Region | Level | Status | Summary | Tags |
 |---|---|---|---|---|---|---|
-| — | — | — | — | — | Not yet created | — |
+| Drowned shrine (referenced) | `07_factions/major_factions/HOLLOW_COURT.md` | Sundering Reach | scaling | concept (full build Stage 12) | The harvest keystone / under-shrine | boss, main-arc, dm-only |
 
 ---
 
@@ -100,8 +113,8 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Level Range | Secrecy | Status | Summary |
 |---|---|---|---|---|---|
-| Main Arc Overview | `12_campaign_arc/MAIN_ARC_OVERVIEW.md` | 1–20 | dm-only | placeholder | Full arc shape, hidden truth, villain escalation — DM only |
-| Level 1–20 Progression | `12_campaign_arc/LEVEL_1_TO_20_PROGRESSION.md` | 1–20 | dm-only | placeholder | Level-by-level pacing guide and milestone trigger list |
+| Main Arc Overview | `12_campaign_arc/MAIN_ARC_OVERVIEW.md` | 1–20 | dm-only | static | Full arc shape, hidden truth, 5 endgame branches, villain escalation |
+| Level 1–20 Progression | `12_campaign_arc/LEVEL_1_TO_20_PROGRESSION.md` | 1–20 | dm-only | static | Level-by-level pacing + milestone triggers (Act 1 concrete) |
 
 ---
 
@@ -109,8 +122,8 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Status | Summary |
 |---|---|---|---|---|
-| World Overview | `04_world_atlas/WORLD_OVERVIEW.md` | mixed | placeholder | Top-level world description — player-safe overview + DM truth |
-| Map Description | `04_world_atlas/MAP_DESCRIPTION.md` | player-safe | placeholder | Written map for AI DM navigation and travel reference |
+| World Overview | `04_world_atlas/WORLD_OVERVIEW.md` | mixed | static | Top-level world description — player-safe overview + DM truth |
+| Map Description | `04_world_atlas/MAP_DESCRIPTION.md` | player-safe | static | Written map + travel table for AI DM navigation |
 
 ---
 
@@ -120,10 +133,10 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Status | Purpose |
 |---|---|---|---|---|
-| Mystery Web | `11_mysteries_and_secrets/MYSTERY_WEB.md` | dm-only | placeholder | Network map of all mysteries and how they connect |
-| Revelation Map | `11_mysteries_and_secrets/REVELATION_MAP.md` | dm-only | placeholder | Sequence and timing of major revelations by act |
-| Clue Index | `11_mysteries_and_secrets/CLUE_INDEX.md` | dm-only | placeholder | Master index of all clues — discovered and undiscovered |
-| Secret Index | `11_mysteries_and_secrets/SECRET_INDEX.md` | dm-only | placeholder | Master index of all campaign secrets by type |
+| Mystery Web | `11_mysteries_and_secrets/MYSTERY_WEB.md` | dm-only | static | M0–M10 network; 3+ clue paths each |
+| Revelation Map | `11_mysteries_and_secrets/REVELATION_MAP.md` | dm-only | static | R1–R8 act-by-act revelation pacing |
+| Clue Index | `11_mysteries_and_secrets/CLUE_INDEX.md` | dm-only | placeholder | Individual clue files — built out in Stage 3 |
+| Secret Index | `11_mysteries_and_secrets/SECRET_INDEX.md` | dm-only | static | The 20 major campaign secrets |
 
 ---
 
@@ -131,17 +144,17 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Status | Purpose |
 |---|---|---|---|---|
-| Canon | `03_canon/CANON.md` | mixed | placeholder | Authoritative world facts — check before adding new facts |
-| Player-Safe Canon | `03_canon/PLAYER_SAFE_CANON.md` | player-safe | placeholder | Facts safe to share with player; updated as discoveries are made |
-| DM-Only Canon | `03_canon/DM_ONLY_CANON.md` | dm-only | placeholder | Hidden truths — villains, secret agendas, mystery answers |
-| Campaign Identity Lock | `03_canon/CAMPAIGN_IDENTITY_LOCK.md` | dm-only | placeholder | Locked core campaign identity — do not overwrite |
-| World History | `03_canon/WORLD_HISTORY.md` | mixed | placeholder | Chronological history — public belief and hidden truth |
-| Cosmology | `03_canon/COSMOLOGY.md` | mixed | placeholder | Planes, afterlife, nature of magic |
-| Gods and Faiths | `03_canon/GODS_AND_FAITHS.md` | mixed | placeholder | All deities, churches, cults, and folk faiths |
-| Magic Rules | `03_canon/MAGIC_RULES.md` | mixed | placeholder | How magic works — lore and campaign-specific mechanics |
-| Calendar | `03_canon/CALENDAR.md` | player-safe | placeholder | In-world calendar system and current date |
-| Languages | `03_canon/LANGUAGES.md` | player-safe | placeholder | All languages — common, regional, ancient, secret |
-| Leveling Assumptions | `03_canon/LEVELING_ASSUMPTIONS.md` | player-safe | placeholder | Milestone vs. XP, pacing, level-up triggers |
+| Canon | `03_canon/CANON.md` | mixed | static | Authoritative world facts — check before adding new facts |
+| Player-Safe Canon | `03_canon/PLAYER_SAFE_CANON.md` | player-safe | runtime | Baseline player-safe facts; grows via discovery |
+| DM-Only Canon | `03_canon/DM_ONLY_CANON.md` | dm-only | static | Hidden truths — the harvest, Hollow Court, mystery answers |
+| Campaign Identity Lock | `03_canon/CAMPAIGN_IDENTITY_LOCK.md` | dm-only | static (LOCKED) | Locked core campaign identity |
+| World History | `03_canon/WORLD_HISTORY.md` | mixed | static | Public + true timelines of the Quietfall |
+| Cosmology | `03_canon/COSMOLOGY.md` | mixed | static | Afterlife, Remembrance, the Quiet Country |
+| Gods and Faiths | `03_canon/GODS_AND_FAITHS.md` | mixed | static | Three Thresholds; Mourners; clergy |
+| Magic Rules | `03_canon/MAGIC_RULES.md` | mixed | static | 5e + Remembrance wrinkles (resurrection risk, etc.) |
+| Calendar | `03_canon/CALENDAR.md` | player-safe | static | AQ/CR reckoning; months; Greyfall start |
+| Languages | `03_canon/LANGUAGES.md` | player-safe | static | Concord Script clue gate; Mourner's Cant; Knock |
+| Leveling Assumptions | `03_canon/LEVELING_ASSUMPTIONS.md` | player-safe | static | Milestone leveling; Act 1 triggers |
 
 ---
 
@@ -161,7 +174,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Hidden Clues | `02_runtime_state/HIDDEN_CLUES.md` | dm-only | Undiscovered clues — DM only, never show player |
 | NPC Memory | `02_runtime_state/NPC_MEMORY.md` | mixed | How NPCs remember and feel about the player |
 | Faction State | `02_runtime_state/FACTION_STATE.md` | mixed | Current faction attitudes and clock positions |
-| World Clocks | `02_runtime_state/WORLD_CLOCKS.md` | mixed | All escalating threats and faction timelines |
+| World Clocks | `02_runtime_state/WORLD_CLOCKS.md` | mixed | 10 campaign clocks populated (Stage 1); master = The Harvest Restarts |
 | Inventory and Rewards | `02_runtime_state/INVENTORY_AND_REWARDS.md` | player-safe | All player possessions, currency, favors |
 | Relationships | `02_runtime_state/RELATIONSHIPS.md` | player-safe | Significant long-term relationships |
 | Consequences | `02_runtime_state/CONSEQUENCES.md` | mixed | Known and secret consequences of player choices |
@@ -192,6 +205,8 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | When to Ask Questions | `01_runner_protocol/WHEN_TO_ASK_QUESTIONS.md` | When to ask vs. when to decide and proceed | placeholder |
 | When to Improvise | `01_runner_protocol/WHEN_TO_IMPROVISE.md` | What the AI may and must not improvise | placeholder |
 | Session End Protocol | `01_runner_protocol/SESSION_END_PROTOCOL.md` | Session closing beat and state update procedure | placeholder |
+| Opening Scenes | `16_ai_session_packs/OPENING_SCENES.md` | Three session-1 openers + recommended default | complete |
+| Solo Safety Start | `16_ai_session_packs/SOLO_SAFETY_START.md` | Starting solo-play safety mechanism | complete |
 | Session End Checklist | `16_ai_session_packs/SESSION_END_UPDATE_CHECKLIST.md` | End-of-session state update checklist | complete |
 | Start New Campaign Prompt | `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md` | First-session opening prompt for AI DM | placeholder |
 | Resume Campaign Prompt | `16_ai_session_packs/RESUME_CAMPAIGN_PROMPT.md` | Standard session-resume prompt | placeholder |

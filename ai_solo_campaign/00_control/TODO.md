@@ -15,14 +15,6 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Suggested agent: `encounter-bestiary-designer`
   - Stage: Stage 0 / Stage 2
 
-- [ ] Complete Stage 1: Campaign Foundation
-  - Why it matters: No campaign world exists. Nothing can be played or tested until the foundation is established.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 1, `PRODUCTION_WORKFLOW.md`, `PROJECT_RULES.md`
-  - Suggested agent: `campaign-architect`
-  - Stage: 1
-
----
-
 ## High
 
 - [ ] Complete Stage 2: AI Runtime Foundation
@@ -30,7 +22,13 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Related files: `DEVELOPMENT_STAGES.md` Stage 2, `01_runner_protocol/AI_DM_CORE_RULES.md`, `16_ai_session_packs/`
   - Suggested agent: `ai-dm-runtime-engineer`
   - Stage: 2
-  - Blocker: Requires Stage 1 canon to inform starting state
+  - Note: Stage 1 canon is now complete and ready to inform starting state. Seed `CURRENT_STATE.md`, `PLAYER_CHARACTER.md`, `CURRENT_LOCATION.md`, `CURRENT_SCENE.md`, `NEXT_SESSION_START.md` from `16_ai_session_packs/OPENING_SCENES.md` + `SOLO_SAFETY_START.md` + `WORLD_CLOCKS.md`.
+
+- [ ] Seed remaining runtime state files from Stage 1 content
+  - Why it matters: WORLD_CLOCKS is populated; the other state files still need Stage-1-informed starting values (faction attitudes, open threads, active quests = Hook 1, etc.).
+  - Related files: all `02_runtime_state/` files, `09_quests/HOOKS_TABLE.md`, `07_factions/FACTION_INDEX.md`
+  - Suggested agent: `ai-dm-runtime-engineer`
+  - Stage: 2
 
 - [ ] Create `/16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`
   - Why it matters: Without a start prompt, the AI DM has no clean entry point into the campaign.
@@ -106,8 +104,32 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ---
 
+## Stage 3 Follow-Ups (from Stage 1)
+
+- [ ] Create full entries for secondary NPCs referenced in faction files
+  - Who: Warden Pell, Tallytooth Ren, Bann Oester, Clerk Pevin Oss, Custodian Orre, Reach Remnant agents.
+  - Related files: faction files, `08_npcs/NPC_INDEX.md`
+  - Stage: 3 / 9
+
+- [ ] Build `11_mysteries_and_secrets/CLUE_INDEX.md` individual clue files
+  - Why it matters: The mystery web defines clue paths; individual clue files make them retrievable and trackable.
+  - Related files: `MYSTERY_WEB.md`, `SECRET_INDEX.md`
+  - Stage: 3 / 11
+
+- [ ] Build the drowned shrine dungeon
+  - Why it matters: The campaign keystone location needs a full dungeon build with solo-safety valves and scaling.
+  - Related files: `07_factions/major_factions/HOLLOW_COURT.md`, `10_dungeons_and_ruins/`
+  - Stage: 12
+
+- [ ] Deep-build the Sundering Reach (settlements, wilderness sites, encounter/rumor tables)
+  - Related files: `05_regions/SUNDERING_REACH.md`, `WORLDBUILDING_STANDARDS.md`
+  - Stage: 3
+
+---
+
 ## Completed Recently
 
+- [x] Complete Stage 1: Campaign Foundation — 2026-06-09 ("The Long Remembering"; world, region, settlement, 7 factions, 20 NPCs, mystery web, arc, hooks, rumors, opening scenes, solo-safety, 10 clocks; all indexed)
 - [x] Created full repository scaffold — 2026-06-09
 - [x] Created all control, tracking, canon, runtime state, protocol, session pack, and backlog placeholder files — 2026-06-09
 - [x] Updated README.md — 2026-06-09
