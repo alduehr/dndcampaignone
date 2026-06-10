@@ -44,6 +44,7 @@ The full locked identity table is in `CAMPAIGN_IDENTITY_LOCK.md`.
 - The campaign occurs on the continent of **Orrun**, on the world of **Vael**.
 - Orrun is a post-collapse land: roughly a century ago an event called the **Quietfall** ended the old continent-spanning order (the **Custodian Concord**) and scattered survivors into independent regions.
 - The starting region, the **Sundering Reach**, is a cold, fen-and-highland frontier on Orrun's northwestern edge, built over and among the ruins of the Concord.
+- The Reach's settlements (Stage 3): **Hollowmere** (capital/start, on the basin), **Kettle Bridge** (E, Mirewend toll-crossing), **Saltmargin** (W, salt-trade gateway toward the Pale Coast), **Candlewick** (S, candle/farm village, Concord archive-stone), **Greywater Holm** (SE, Greyfens-edge fen-village), **Harrowgast** (N, Sunder Heights mining ruin-town), **Reedford** (central ford-hamlet), and **The Ashwalk Rest** (central Warden waystation/sanctuary). See `../05_regions/SUNDERING_REACH.md`.
 - Adjacent known regions (developed in later stages): the **Ashgarden Vale** (south, farmland and shrine-towns), the **Tollwood** (east, deep forest and old roads), the **Pale Coast** (west, fishing and salt-trade), and the inland city-state **Caradril** (southeast, the nearest true city). See `MAP_DESCRIPTION.md`.
 
 ---
@@ -108,6 +109,7 @@ Twenty major NPCs are established in `08_npcs/MAJOR_NPCS.md` and indexed in `08_
 | Date | Original Fact | Revised Fact | Reason | Files Updated |
 |---|---|---|---|---|
 | 2026-06-09 | (placeholder canon) | Full Stage 1 canon established | Stage 1 production pass | All canon files |
+| 2026-06-09 | Reach = frame only (Hollowmere + named zones) | Reach deep-built: 8 settlements, 4 wilderness zones (~25 sites), 6 dungeons; new custom term **thin-touch** (reversible relic-exposure condition); new secondary harvest node (the Deep Adit) and minor nodes (Sunken Tollhouse) consistent with the keystone shrine being central, not unique | Stage 3 Starting Region Deep Build | `SUNDERING_REACH.md`, settlement/wilderness/dungeon files, `PLAYER_SAFE_CANON.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`, indexes |
 
 ---
 

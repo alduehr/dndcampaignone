@@ -36,16 +36,42 @@ Master table of all NPCs. Full profiles live in `MAJOR_NPCS.md`. Player-safe rol
 | 19 | Halla Coalmont | Major | Independent | Hollowmere (inn) | Innkeeper; hub | T3 commoner | `MAJOR_NPCS.md` |
 | 20 | Old Sashe | Major | Independent fen-guide | Greyfens edge | Fen-guide | T2 (avoids fights) | `MAJOR_NPCS.md` |
 
-## Secondary NPCs
+## Secondary NPCs (Stage 3)
 
-*To be created in Stage 3 (starting region deep build). Placeholders referenced in faction files (e.g., Warden Pell, Tallytooth Ren, Bann Oester, Clerk Pevin Oss, Custodian Orre) become full secondary entries then.*
+Full entries in `SECONDARY_NPCS.md`. All five Stage-1-registered placeholders (Warden Pell, Tallytooth Ren, Bann Oester, Pevin Oss, Custodian Orre) are now complete.
 
-## Minor NPCs
+| Name | Faction | Location | Role | Combat | 
+|---|---|---|---|---|
+| Clerk Pevin Oss | Reachward Compact | Hollowmere | Records-keeper (M2/M4 clue) | none |
+| Tallytooth Ren | Cinder Ledger | Hollowmere | Enforcer (turnable) | Thug/Spy |
+| Sergeant Hesk | Reachward Compact | Hollowmere | Watch leader | Veteran |
+| Bailiff Aldwin Cray | Reachward Compact | Kettle Bridge | Bailiff (grey patron) | Noble/Spy |
+| Quenna Bly | Cinder Ledger | Kettle Bridge | Toll-farmer (M3) | Commoner/Spy |
+| Bargemaster Tibb | Independent | Kettle Bridge | Bargeman (witness) | Commoner/Guard |
+| Warden Pell | Ashen Wardens | Reach/Ashwalk | Veteran (Secret 8 path) | Priest/Veteran |
+| Bann Oester | Mourners' Circle | Kettle Bridge | Grave-digger (M5) | none |
+| Iss Marlow | Cinder Ledger | Saltmargin | Wharf-factor (M3 skim) | Spy/Noble |
+| Decca Rull | Independent labor | Saltmargin | Pan-foreman (ally) | Commoner/Guard |
+| "Gull" Heddwyn | Smuggler | Saltmargin/fens | Black-market contact | Spy |
+| Elder Mabb Tay | Mourners' Circle | Greywater Holm | Heretical elder (cult door) | Acolyte/Priest |
+| Den Hask | Independent/cult | Greywater Holm | Fowler-guide | Scout |
+| Hayward Tomas Greel | Reachward Compact | Candlewick | Village head (M6/M9) | Noble/Commoner |
+| Yorrin Tay | Independent craft | Candlewick | Chandler-master | none |
+| Overseer Brack | Reachward Compact | Harrowgast | Town boss | Thug/Veteran |
+| Nessa Coyle | Cinder Ledger | Harrowgast | Salvage-buyer (M3) | Spy/Noble |
+| Dig-boss Hennet | Independent labor | Harrowgast | Mine foreman (Deep Adit) | Guard/Commoner |
+| Veska Dunn | Concord Remnant | Sunder Heights | Reclaimer-agent (rival) | Scout/Mage |
+| Hospitaller Warden Sirrin | Ashen Wardens | The Ashwalk Rest | Quartermaster-of-mercy | Priest |
+| Custodian Orre | Hollow Court (DM) | Under-shrine | Hardliner (endgame) | Tier 4 (DM) |
 
-*To be created in Stages 3 and 9.*
+## Minor NPCs (Stage 3)
+
+Full table by location in `MINOR_NPCS.md` (~35 named local-color NPCs across all eight settlements and the Ashwalk Rest). Promote to Secondary if any becomes important in play.
 
 ## Related Files
 
 - [`MAJOR_NPCS.md`](MAJOR_NPCS.md)
+- [`SECONDARY_NPCS.md`](SECONDARY_NPCS.md)
+- [`MINOR_NPCS.md`](MINOR_NPCS.md)
 - [`../07_factions/FACTION_INDEX.md`](../07_factions/FACTION_INDEX.md)
 - [`../02_runtime_state/NPC_MEMORY.md`](../02_runtime_state/NPC_MEMORY.md)

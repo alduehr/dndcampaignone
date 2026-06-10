@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0, 1, and 2 complete (2026-06-09).** The campaign foundation and the full AI runtime layer exist. The campaign is runnable for opening sessions. **Stage 3 — Starting Region Deep Build is next.** The priority is to give the starting region enough authored depth (settlements, wilderness sites, dungeons, encounter/rumor tables, secondary NPCs) to support 10–20 sessions of open-world play before the Act 1 arc is fully wired.
+**Stages 0, 1, 2, and 3 complete (2026-06-09).** The campaign foundation, the full AI runtime layer, and the **deep-built starting region** all exist. The Sundering Reach now supports 10–20 sessions of open-world solo play (8 settlements, 4 wilderness zones, 6 dungeons, ~56 NPCs, 12 developed quests, 39 hooks + 50 rumors, zone encounter tables). **Stage 5 — Level 1–4 Play Arc is the recommended next pass** (shape the Act 1 narrative atop the now-deep region), with Stage 4 (First Major City — Caradril) slotted before or after, and the Stage 6 audit following.
 
 ---
 
@@ -14,37 +14,18 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 | Field | Value |
 |---|---|
-| Stage | 3 — Starting Region Deep Build |
-| Goal | Build enough starting-region content for 10–20 sessions of open-world solo play |
+| Stage | 5 — Level 1–4 Play Arc (recommended next) / 4 — First Major City |
+| Goal | Shape the Act 1 arc (default + alternate paths, first major dungeon, early villain, failure states) atop the deep region |
 | Status | Not started |
-| Blocking Issues | None — Stages 1 and 2 are complete |
+| Blocking Issues | None — Stages 1–3 are complete |
 
 ---
 
-## Next 5 Production Passes
+## Next Production Passes
 
-### Pass 1 — Starting Region Deep Build (Stage 3)
+### Pass 1 — DONE: Starting Region Deep Build (Stage 3)
 
-- **Goal:** Expand the starting region from a frame into a playable open world: additional settlements, wilderness locations, local dungeons/ruins, regional quest chains, encounter tables, rumor tables, and the secondary NPCs that populate them.
-- **Targets (per `DEVELOPMENT_STAGES.md` Stage 3 / `WORLDBUILDING_STANDARDS.md`):**
-  - 8–12 settlements total in the region (hub already built; add the rest)
-  - 20–30 wilderness locations
-  - 5–8 dungeons or ruins
-  - 50–75 NPCs (mostly secondary/minor)
-  - 30–50 hooks
-  - 10–15 developed quests
-  - 5 mystery chains wired to the existing mystery web
-  - 5 faction clocks active in the region (already seeded; tie to local sites)
-  - Regional encounter and rumor tables
-- **Files to create/edit:**
-  - Additional files in `05_regions/` and `06_settlements/`
-  - `10_dungeons_and_ruins/` regional dungeon files
-  - `09_quests/` developed regional quest files
-  - `15_random_tables/` regional encounter/rumor/travel tables
-  - `08_npcs/` secondary NPC entries; update `08_npcs/NPC_INDEX.md`
-  - Update `CLUE_INDEX.md` / `HIDDEN_CLUES.md` with any new clue locations
-- **Suggested agents:** `world-atlas-builder`, then `npc-codex-builder`, `quest-arc-designer`, `encounter-bestiary-designer`
-- **Completion criteria:** Player can travel in multiple directions; factions act if ignored; mysteries have clue paths anchored to real locations; the AI rarely needs to invent major locations or recurring NPCs.
+**Complete 2026-06-09.** Delivered 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, ~56 secondary+minor NPCs, 12 developed quests, 39 hooks + 50 rumors, and 4 solo-tuned zone encounter tables; clue paths and faction clocks anchored to real sites; all indexed and cross-linked. Targets met or exceeded. (Keystone drowned-shrine dungeon deferred to Stage 12 by design.)
 
 ### Pass 2 — Level 1–4 Play Arc (Stage 5)
 

@@ -124,6 +124,20 @@ See `COSMOLOGY.md` for the full DM-only cosmology.
 
 ---
 
+## Stage 3 Additions (Region Deep Build — DM Context)
+
+These extend, never contradict, the core secret. The Hollowmere shrine remains the **keystone**; the additions show it is the *center* of a network, not the only node.
+
+- **The Concord roads and Star-Stones are the harvest network's conduits and relay-markers.** As the harvest reawakens, they "warm up": more Remembrances appear along them, cracked Star-Stones leak, and the river carries leakage downstream (linking Kettle Bridge → Reedford → the Pale Coast). The roads the player travels are literally the machine's arteries.
+- **Minor and secondary nodes exist.** The **Sunken Tollhouse** (under Kettle Bridge) is a minor relay-node, leaking and drowning boatmen (M2/M5). The **Deep Adit** (under Harrowgast) is a *secondary* harvest node — a smaller cousin of the keystone — which the **Concord Remnant (Veska Dunn's crews) is racing to claim** for relic-supply and proof (the Reclamation clock made visible; M6/M7 foreshadow). The **Barrow of Nine Doors** (Greyfens) is a pre-Concord burial the network was built over and tapped; the drift jams against it.
+- **"Old glass" = raw Remembrance relics** dug from the Heights; demonstrably store the dead (a direct M3 demonstration).
+- **The geography of failure is the clearest field-proof of M5:** rites fail worse the nearer the basin (Greywater Holm worst; Candlewick "holds" only because it sits at the edge of the pull). Sashe's mapped drift converges on the basin.
+- **The "thin" miners of Harrowgast** are early, local evidence of the thinning (M10 background) from over-near a leaking node. Do not over-explain in Act 1–2.
+- **Thin-touch** is a custom, *reversible* mechanic (disadvantage on Death saves until a true rite / shrine long-rest) representing brief over-exposure to raw Remembrance — a telegraphed danger, never a cheap kill. See `../13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`, `../10_dungeons_and_ruins/THE_DEEP_ADIT.md`.
+- **Reke walks the basin shore alone at night** (C-M4-3); the Surfacing Ruin carries readable Concord Script (C-M2-1). The shore is reachable safely in daylight (Hook 4); the deep shrine/under-shrine stays endgame-gated.
+
+All Stage 3 clue access points feed the existing M1–M9 chains and the three-clue rule; **no new central mystery, faction, god, cosmology, or artifact was created.**
+
 ## Player Steering Note (DM Caution)
 
 The PC is being subtly steered toward the shrine by a Hollow Court cutout (via Sefra Quick), but **the campaign must never railroad**. The steering is a hook, not a track. If the player ignores or resists it, the world clocks (`WORLD_CLOCKS.md`) advance the harvest anyway, and other factions act. The steering should feel like opportunity, never compulsion.

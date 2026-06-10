@@ -6,6 +6,55 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-09 — Stage 3: Starting Region Deep Build
+
+### Stage
+Stage 3 — Starting Region Deep Build (complete)
+
+### Summary
+Expanded the Sundering Reach from a frame into a full open-world solo sandbox supporting 10–20 sessions of play, without inventing any new central mystery, faction, god, cosmology, or legendary artifact. Added 7 new settlements (8 total) anchored to the existing map (Kettle Bridge E, Saltmargin W, Candlewick S, Greywater Holm SE, Harrowgast N, Reedford central ford, The Ashwalk Rest crossroads sanctuary), each in full settlement-standard form with leadership, NPCs, services, tensions, secrets, rumors, hooks, law/threat mechanics, and ignore-consequences. Created 4 wilderness zone-files (~25 named sites) for the Greyfens, Sunder Heights, Mirewend/Concord roads, and the basin shore, each with hazards/DCs, stat-referenced adversaries, level range, solo danger, clues, and ignore-consequences. Built 6 dungeons/ruins in full dungeon-standard (Peat Chapel = intended first delve; Sunken Tollhouse; Whispering Cairn = Concord Script gate; Ledger Vault = social/stealth heist; Barrow of Nine Doors = parley-boss; Deep Adit = secondary harvest node) with encounter lists, trap/puzzle DCs, boss mechanics with non-combat win conditions, retreat options, treasure, and scaling. Wrote ~21 secondary NPCs (including all five Stage-1-registered placeholders: Warden Pell, Tallytooth Ren, Bann Oester, Pevin Oss, Custodian Orre) and ~35 minor NPCs by location, all with combat-relevance fallbacks and DM-only secrets separated from player-safe roles. Authored 12 developed quests in full QUEST_STANDARDS form (level range, DC bands, combat + noncombat options, rest/time pressure, rewards, failure states, scaling, state-update triggers), 29 more hooks (39 total) and 30 more rumors (50 total) all pointing to authored content, and 4 solo-tuned zone encounter tables with D&D-compatible stat references. Anchored the existing M1–M9 clue paths and the 5+ relevant faction clocks to concrete new sites (no new mysteries/clocks created). Solo play preserved throughout: every dangerous encounter telegraphed, non-combat alternatives present, retreat available, the deep basin/under-shrine explicitly gated as endgame-tier, a custom reversible thin-touch mechanic instead of cheap death, and the Ashwalk Rest + Old Sashe + Candlewick chapel as solo-safety pillars. Player-safe vs. DM-only strictly separated in every file.
+
+### Files Created
+- Settlements (7): `06_settlements/KETTLE_BRIDGE.md`, `SALTMARGIN.md`, `CANDLEWICK.md`, `GREYWATER_HOLM.md`, `HARROWGAST.md`, `REEDFORD.md`, `THE_ASHWALK_REST.md`
+- Wilderness (4): `05_regions/wilderness/GREYFENS_SITES.md`, `SUNDER_HEIGHTS_SITES.md`, `MIREWEND_AND_ROADS_SITES.md`, `BASIN_SHORE_AND_HOLMS_SITES.md`
+- Dungeons/ruins (6): `10_dungeons_and_ruins/THE_PEAT_CHAPEL.md`, `THE_SUNKEN_TOLLHOUSE.md`, `THE_WHISPERING_CAIRN.md`, `THE_LEDGER_VAULT.md`, `THE_BARROW_OF_NINE_DOORS.md`, `THE_DEEP_ADIT.md`
+- NPCs (2): `08_npcs/SECONDARY_NPCS.md`, `08_npcs/MINOR_NPCS.md`
+- Quests (12): `09_quests/regional_quests/Q_*.md` (Salt Run, Broken Arch, Light on the Scale, Holm That Won't Bury Its Dead, Sold Stone, Race North, Bailiff's Ladder, Reed Holms, Sashe's Warning, Grey Woman at the Ford, Second Mark, Pell's Doubt, Scholar's Request, Failing Funeral)
+- Hooks/Rumors (2): `09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md`, `SUNDERING_REACH_RUMORS.md`
+- Encounters (1): `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
+
+### Files Changed
+- `05_regions/SUNDERING_REACH.md` — settlements/wilderness/dungeons/quests sections rewritten; Level Range & Solo Danger and Encounter & Hazard Mechanics sections added; related-files expanded
+- `08_npcs/NPC_INDEX.md` — secondary + minor NPC sections populated
+- `00_control/NAMING_REGISTRY.md` — all new place, NPC, and term proper nouns registered
+- `00_control/CONTENT_INDEX.md`, `TAG_INDEX.md` — all new files indexed; Stage 3 status lines; new wilderness/encounter sections + tags
+- `03_canon/CANON.md` — settlements added to geography; revision-log entry
+- `03_canon/PLAYER_SAFE_CANON.md` — known towns/landmarks of the Reach
+- `03_canon/DM_ONLY_CANON.md` — Stage 3 region context (conduits, minor/secondary nodes, thin-touch, geography of failure) — extends, never contradicts, the core secret
+- `11_mysteries_and_secrets/CLUE_INDEX.md`, `02_runtime_state/HIDDEN_CLUES.md` — Stage 3 clue access anchors
+- `02_runtime_state/WORLD_CLOCKS.md` — region anchors for the 10 clocks
+- `00_control/STAGE_STATUS.md`, `TODO.md`, `CONSISTENCY_AUDIT.md`, `17_generation_backlog/CONTENT_GAPS.md`, `EXPANSION_PLAN.md` — tracking advanced to Stage 3 complete
+
+### Canon Established
+- Eight Reach settlements and their relations (player-safe); the Concord roads/Star-Stones as the harvest network and minor/secondary nodes (DM-only, consistent with the keystone being central not unique); the reversible **thin-touch** custom mechanic; the geography of rite-failure (worse near the basin) as M5 field-proof.
+
+### Indexes Updated
+- `NAMING_REGISTRY.md`, `CONTENT_INDEX.md`, `TAG_INDEX.md`, `NPC_INDEX.md`, `CLUE_INDEX.md`.
+
+### Runtime State Updated
+- `HIDDEN_CLUES.md` (region anchors; all still hidden), `WORLD_CLOCKS.md` (region anchors; positions unchanged). No live-play state changed (play has not begun).
+
+### Gaps Identified
+- The keystone drowned-shrine dungeon remains for Stage 12 (intentionally deferred).
+- Treasure-by-level and the magic items referenced in dungeon rewards (e.g. the Barrow item) await Stage 14 (`REWARDS_BY_LEVEL.md`).
+- Random tables (`/15_random_tables/`) still pending (Stage 3+ low priority; encounter tables now cover most travel needs).
+- No formal audit yet (Stage 6).
+
+### Next Recommended Pass
+- Stage 4 (First Major City — Caradril) or Stage 5 (Level 1–4 Play Arc). Per `EXPANSION_PLAN.md`, Stage 5 (Act 1 arc + first major dungeon) is the higher-value next pass now that the region is deep; Stage 6 audit should follow Stages 4–5.
+
+---
+
 ## 2026-06-09 — Stage 2: Cleanup Pass (Tracking Fixes + Index Gaps)
 
 ### Stage

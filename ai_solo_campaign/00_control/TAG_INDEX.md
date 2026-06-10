@@ -6,7 +6,7 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stages 1 and 2 complete.** Campaign foundation content registered: starting region/settlement, 7 factions, 20 major NPCs, hooks/rumors, mystery infrastructure, arc files, opening packs, world clocks (Stage 1). All 18 runner protocols and the START/RESUME prompts are now `status:complete`; session-pack templates are `status:template`; 8 runtime state files are seeded at campaign-start baseline (Stage 2). The Stage 2 cleanup pass populated `CLUE_INDEX.md` and `HIDDEN_CLUES.md` (all clues hidden at start) and added D&D mechanical fields to the five content-standards templates. No `status:placeholder` files remain. Deep expansion continues in Stages 3+.
+**Stages 1, 2, and 3 complete.** Stage 1 foundation + Stage 2 AI runtime + **Stage 3 Starting Region Deep Build**: 7 new settlements, 4 wilderness zone-files, 6 dungeons/ruins, ~21 secondary + ~35 minor NPCs, 12 developed quests, regional hooks (39 total) + rumors (50 total), and zone encounter tables — all registered below under `type:settlement`, `type:wilderness_location`, `type:dungeon`/`ruin`, `type:npc`, `type:quest`, `type:encounter`, and `region:sundering-reach`. New tags introduced: `type:wilderness_location`, plus area sub-tags (greyfens, sunder-heights, basin, roads, river, travel-hub, trade, mining-village, hamlet). No `status:placeholder` files remain. Stage 4 (first major city) and Stage 5 (Act 1 arc) are next.
 
 ---
 
@@ -25,9 +25,24 @@ When an AI DM or production agent needs to find content of a certain type, searc
 
 ### type:settlement
 - `06_settlements/HOLLOWMERE.md`
+- `06_settlements/KETTLE_BRIDGE.md`
+- `06_settlements/SALTMARGIN.md`
+- `06_settlements/CANDLEWICK.md`
+- `06_settlements/GREYWATER_HOLM.md`
+- `06_settlements/HARROWGAST.md`
+- `06_settlements/REEDFORD.md`
+- `06_settlements/THE_ASHWALK_REST.md`
+
+### type:wilderness_location
+- `05_regions/wilderness/GREYFENS_SITES.md`
+- `05_regions/wilderness/SUNDER_HEIGHTS_SITES.md`
+- `05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md`
+- `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md`
 
 ### type:npc
 - `08_npcs/MAJOR_NPCS.md`
+- `08_npcs/SECONDARY_NPCS.md`
+- `08_npcs/MINOR_NPCS.md`
 - `08_npcs/NPC_INDEX.md`
 
 ### type:faction
@@ -43,6 +58,22 @@ When an AI DM or production agent needs to find content of a certain type, searc
 ### type:quest
 - `09_quests/HOOKS_TABLE.md`
 - `09_quests/RUMORS_TABLE.md`
+- `09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md`
+- `09_quests/hooks_and_rumors/SUNDERING_REACH_RUMORS.md`
+- `09_quests/regional_quests/Q_THE_SALT_RUN.md`
+- `09_quests/regional_quests/Q_THE_BROKEN_ARCH.md`
+- `09_quests/regional_quests/Q_LIGHT_ON_THE_SCALE.md`
+- `09_quests/regional_quests/Q_THE_HOLM_THAT_WONT_BURY_ITS_DEAD.md`
+- `09_quests/regional_quests/Q_THE_SOLD_STONE.md`
+- `09_quests/regional_quests/Q_RACE_NORTH.md`
+- `09_quests/regional_quests/Q_THE_BAILIFFS_LADDER.md`
+- `09_quests/regional_quests/Q_THE_REED_HOLMS.md`
+- `09_quests/regional_quests/Q_SASHES_WARNING.md`
+- `09_quests/regional_quests/Q_THE_GREY_WOMAN_AT_THE_FORD.md`
+- `09_quests/regional_quests/Q_THE_SECOND_MARK.md`
+- `09_quests/regional_quests/Q_PELLS_DOUBT.md`
+- `09_quests/regional_quests/Q_THE_SCHOLARS_REQUEST.md`
+- `09_quests/regional_quests/Q_THE_FAILING_FUNERAL.md`
 
 ### type:mystery
 - `11_mysteries_and_secrets/MYSTERY_WEB.md`
@@ -55,13 +86,18 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `02_runtime_state/HIDDEN_CLUES.md` (runtime mirror; all hidden at start)
 
 ### type:dungeon
+- `10_dungeons_and_ruins/THE_SUNKEN_TOLLHOUSE.md`
+- `10_dungeons_and_ruins/THE_LEDGER_VAULT.md`
+- `10_dungeons_and_ruins/THE_BARROW_OF_NINE_DOORS.md`
+- `10_dungeons_and_ruins/THE_DEEP_ADIT.md`
 - Drowned shrine — referenced in `07_factions/major_factions/HOLLOW_COURT.md` (full build Stage 12)
 
 ### type:ruin
-- Concord ruins/archive cairns — referenced in `05_regions/SUNDERING_REACH.md` (full build Stage 3/12)
+- `10_dungeons_and_ruins/THE_PEAT_CHAPEL.md`
+- `10_dungeons_and_ruins/THE_WHISPERING_CAIRN.md`
 
 ### type:encounter
-- *Encounter tables: Stage 13*
+- `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
 
 ### type:artifact
 - Remembrance relics — referenced in `03_canon/MAGIC_RULES.md` (full build Stage 14)
@@ -254,7 +290,18 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `04_world_atlas/WORLD_OVERVIEW.md`
 - `04_world_atlas/MAP_DESCRIPTION.md`
 - `05_regions/SUNDERING_REACH.md`
+- `05_regions/wilderness/GREYFENS_SITES.md`
+- `05_regions/wilderness/SUNDER_HEIGHTS_SITES.md`
+- `05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md`
+- `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md`
 - `06_settlements/HOLLOWMERE.md`
+- `06_settlements/KETTLE_BRIDGE.md`
+- `06_settlements/SALTMARGIN.md`
+- `06_settlements/CANDLEWICK.md`
+- `06_settlements/GREYWATER_HOLM.md`
+- `06_settlements/HARROWGAST.md`
+- `06_settlements/REEDFORD.md`
+- `06_settlements/THE_ASHWALK_REST.md`
 - `07_factions/major_factions/ASHEN_WARDENS.md`
 - `07_factions/major_factions/CINDER_LEDGER.md`
 - `07_factions/major_factions/MOURNERS_CIRCLE.md`
@@ -264,9 +311,16 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `07_factions/major_factions/HOLLOW_COURT.md`
 - `07_factions/FACTION_INDEX.md`
 - `08_npcs/MAJOR_NPCS.md`
+- `08_npcs/SECONDARY_NPCS.md`
+- `08_npcs/MINOR_NPCS.md`
 - `08_npcs/NPC_INDEX.md`
 - `09_quests/HOOKS_TABLE.md`
 - `09_quests/RUMORS_TABLE.md`
+- `09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md`
+- `09_quests/hooks_and_rumors/SUNDERING_REACH_RUMORS.md`
+- `09_quests/regional_quests/` (12 developed quests)
+- `10_dungeons_and_ruins/` (6 dungeons/ruins)
+- `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
 - `16_ai_session_packs/OPENING_SCENES.md`
 - `16_ai_session_packs/SOLO_SAFETY_START.md`
 - `12_campaign_arc/MAIN_ARC_OVERVIEW.md`
@@ -441,6 +495,8 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `01_runner_protocol/FAILURE_AND_CONSEQUENCES.md`
 - `16_ai_session_packs/SOLO_SAFETY_START.md`
 - `07_factions/major_factions/ASHEN_WARDENS.md`
+- `06_settlements/THE_ASHWALK_REST.md`
+- `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
 
 ### function:boss
 - `07_factions/major_factions/HOLLOW_COURT.md`
@@ -470,9 +526,14 @@ When an AI DM or production agent needs to find content of a certain type, searc
 
 ### region:sundering-reach
 - `05_regions/SUNDERING_REACH.md`
-- `06_settlements/HOLLOWMERE.md`
-- `09_quests/HOOKS_TABLE.md`
-- `09_quests/RUMORS_TABLE.md`
+- `05_regions/wilderness/` (4 zone files)
+- `06_settlements/` (8 settlements: Hollowmere, Kettle Bridge, Saltmargin, Candlewick, Greywater Holm, Harrowgast, Reedford, The Ashwalk Rest)
+- `08_npcs/SECONDARY_NPCS.md`, `08_npcs/MINOR_NPCS.md`
+- `09_quests/HOOKS_TABLE.md`, `09_quests/RUMORS_TABLE.md`
+- `09_quests/hooks_and_rumors/` (regional hooks + rumors)
+- `09_quests/regional_quests/` (12 developed quests)
+- `10_dungeons_and_ruins/` (6 dungeons/ruins)
+- `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
 - `16_ai_session_packs/OPENING_SCENES.md`
 - All seven major faction files (present in the Reach)
 

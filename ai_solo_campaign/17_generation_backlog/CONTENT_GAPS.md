@@ -6,9 +6,9 @@ Track missing or underdeveloped content by category. Use this for category-level
 
 ## Current Status
 
-**Stages 0, 1, and 2 complete.** The campaign foundation exists: a starting region and settlement, seven major factions, twenty major NPCs, the full mystery/secret/revelation infrastructure, the level 1–20 arc shape, opening scenes, hooks, rumors, ten world clocks, the full AI runtime layer (protocols, prompts, templates), and seeded runtime state. The campaign is runnable for opening sessions.
+**Stages 0, 1, 2, and 3 complete.** The campaign foundation + AI runtime exist, and the **starting region is now deep-built** (8 settlements, 4 wilderness zone-files/~25 sites, 6 dungeons/ruins, ~56 secondary+minor NPCs, 12 developed quests, 39 hooks + 50 rumors, 4 zone encounter tables). The Sundering Reach can support 10–20 sessions of open-world solo play.
 
-The gaps below reflect what remains for **Stage 3+ depth and scale**, not foundational absence. Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
+The gaps below reflect what remains for **Stage 4+ depth and scale** (first major city, the Act 1 arc, faction quest chains, the keystone dungeon, treasure-by-level, audits). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
 
 ---
 
@@ -16,7 +16,7 @@ The gaps below reflect what remains for **Stage 3+ depth and scale**, not founda
 
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
-| Starting region exists as a frame only; lacks deep build (settlement spread, wilderness sites, encounter/rumor tables, regional quest chains) | High | 10–20 sessions of open-world play in the starting region | Deep-build the starting region | 3 |
+| ~~Starting region exists as a frame only~~ — **deep-built in Stage 3** (8 settlements, 4 wilderness zones, 6 dungeons, encounter/rumor tables, 12 developed quests) | — (no gap) | — | — | done in Stage 3 |
 | No adjacent (Ring 1) regions | Medium | World opens outward in multiple directions | Generate adjacent regions | 7 |
 | Distant named regions are world-overview stubs only | Low | Long-term travel and high-tier play | Expand later as arc reaches them | 7, 15 |
 
@@ -26,8 +26,8 @@ The gaps below reflect what remains for **Stage 3+ depth and scale**, not founda
 
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
-| Starting settlement (hub) is fully built; no additional regional towns/villages | High | Player needs multiple destinations within the starting region | Add 5–10 settlements (towns + villages) to the region | 3 |
-| No major city | High | Mid-campaign political/social hub | Build first major city with districts | 4 |
+| ~~No additional regional towns/villages~~ — **7 added in Stage 3 (8 total)**: Kettle Bridge, Saltmargin, Candlewick, Greywater Holm, Harrowgast, Reedford, The Ashwalk Rest | — (no gap) | — | — | done in Stage 3 |
+| No major city | High | Mid-campaign political/social hub | Build first major city (Caradril) with districts | 4 |
 
 ---
 
@@ -37,7 +37,7 @@ The gaps below reflect what remains for **Stage 3+ depth and scale**, not founda
 |---|---|---|---|---|
 | Seven major factions exist with public face, hidden agenda, leader, members, resources, and a clock each | — (no gap) | — | — | done in Stage 1 |
 | Faction quest chains are not yet fully built out (intro → trust → complication → decision point) | Medium | Repeatable faction play and consequences | Build per-faction quest chains | 8, 10 |
-| Secondary/minor faction members referenced in faction files lack full entries | Medium | AI DM avoids inventing recurring faction agents | Create secondary NPC entries | 3, 9 |
+| ~~Secondary/minor faction members lack full entries~~ — **all five registered placeholders + ~16 more secondary faction agents created in Stage 3** | — (no gap for the registered set) | — | — | done in Stage 3 |
 | No minor/local factions | Low | Texture in settlements and wilderness | Add minor factions during regional builds | 7+ |
 
 ---
@@ -48,8 +48,8 @@ The gaps below reflect what remains for **Stage 3+ depth and scale**, not founda
 |---|---|---|---|---|
 | 20 major NPCs exist with secrets and motivations | — (no gap) | — | — | done in Stage 1 |
 | Major NPC count below long-term target (50–100) | Medium | Reduce major improvisation across the campaign | Expand major NPC roster | 9 |
-| No secondary NPCs (target 200–500) | High | Settlements/factions feel populated; quest-givers, rivals, witnesses, contacts | Generate secondary NPCs alongside regional build | 3, 9 |
-| No minor named NPCs (target 500+) | Medium | Local color across shops, temples, guards, villages | Generate minor NPC tables | 9 |
+| Secondary NPCs: **~21 created in Stage 3** (toward 200–500 target) | Medium | Continue toward target across regions/city | Keep generating with each region/city | 3✓, 9 |
+| Minor named NPCs: **~35 created in Stage 3** (toward 500+ target) | Medium | Continue toward target | Generate minor NPC tables per area | 3✓, 9 |
 | `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md` not created | Low | Managing a large NPC population | Create when NPC roster grows | 9 |
 
 ---
@@ -59,9 +59,9 @@ The gaps below reflect what remains for **Stage 3+ depth and scale**, not founda
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
 | 10 session hooks + 20 rumors exist (Act 1) | — (no gap) | — | — | done in Stage 1 |
-| No developed multi-scene quest files (target 75–150) | High | Authored play beyond hooks; failure states and consequences | Build developed quests for region and factions | 5, 10 |
+| Developed quest files: **12 created in Stage 3** (toward 75–150 target); region-level coverage good | Medium | Continue toward target; add Act-arc and city quests | Build Act 1 + faction quest chains | 5, 10 |
 | No fully shaped main-arc Act 1 quest line (level 1–4) | High | Default narrative path through early levels | Build Act 1 quests | 5 |
-| Hook/rumor library below long-term target (300–600) | Medium | Always-available authored opportunities | Expand hook/rumor library | 10 |
+| Hook/rumor library: **39 hooks + 50 rumors** after Stage 3 (toward 300–600 target) | Medium | Continue toward target with each region/city | Expand hook/rumor library | 10 |
 | Failure states not yet attached to developed quests (no developed quests exist yet) | Medium | Player choices have teeth | Add failure states as quests are built | 5, 10 |
 
 ---
@@ -82,7 +82,7 @@ The gaps below reflect what remains for **Stage 3+ depth and scale**, not founda
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
 | Keystone dungeon referenced but not built | High | The campaign's central adventure site | Full dungeon build with solo-safety valves and scaling | 12 |
-| No regional dungeons/ruins (target 5–8 in starting region) | High | Adventure sites for early/mid play | Build regional dungeons | 3, 12 |
+| ~~No regional dungeons/ruins~~ — **6 built in Stage 3** (Peat Chapel, Sunken Tollhouse, Whispering Cairn, Ledger Vault, Barrow of Nine Doors, Deep Adit), full mechanics | — (no gap) | — | — | done in Stage 3 (target 5–8 met) |
 | No first major Act 1 dungeon | High | Level 1–4 arc climax site | Build first dungeon | 5 |
 
 ---
@@ -91,7 +91,7 @@ The gaps below reflect what remains for **Stage 3+ depth and scale**, not founda
 
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
-| No regional encounter tables | High | Travel/wilderness/downtime resolution without improvisation | Build encounter tables per region | 3, 13 |
+| ~~No regional encounter tables~~ — **4 solo-tuned zone tables built in Stage 3** (Roads/River, Greyfens, Heights, Basin), stat-referenced | — (no gap for the starting region) | — | Build city/other-region tables later | done in Stage 3 |
 | No custom monsters/adversary groups with stat profiles | High | Solo-safe, mechanically usable threats | Build bestiary with D&D-compatible stat profiles | 13 |
 | No recurring-villain stat profiles | Medium | Mechanically usable named antagonists | Build villain profiles | 13, 15 |
 | No noncombat obstacle library | Medium | Solo-friendly non-fight challenges | Build noncombat obstacles | 13 |

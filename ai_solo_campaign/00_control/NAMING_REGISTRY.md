@@ -67,6 +67,33 @@ Master registry of all proper nouns used in the campaign. Check this file before
 | Tollwood | Region (east) | Orrun | `04_world_atlas/WORLD_OVERVIEW.md` |
 | Pale Coast | Region (west) | Orrun | `04_world_atlas/WORLD_OVERVIEW.md` |
 | Caradril | City-state (SE) | Orrun | `04_world_atlas/WORLD_OVERVIEW.md` |
+| Kettle Bridge | Town | Sundering Reach | `06_settlements/KETTLE_BRIDGE.md` |
+| Saltmargin | Town | Sundering Reach | `06_settlements/SALTMARGIN.md` |
+| Candlewick | Village | Sundering Reach | `06_settlements/CANDLEWICK.md` |
+| Greywater Holm | Village | Sundering Reach | `06_settlements/GREYWATER_HOLM.md` |
+| Harrowgast | Mining village | Sundering Reach | `06_settlements/HARROWGAST.md` |
+| Reedford | Hamlet | Sundering Reach | `06_settlements/REEDFORD.md` |
+| The Ashwalk Rest | Warden waystation | Sundering Reach | `06_settlements/THE_ASHWALK_REST.md` |
+| The Sunken Tollhouse | Dungeon (river node) | Sundering Reach | `10_dungeons_and_ruins/THE_SUNKEN_TOLLHOUSE.md` |
+| The Deep Adit | Dungeon (secondary node) | Sundering Reach | `10_dungeons_and_ruins/THE_DEEP_ADIT.md` |
+| The Whispering Cairn | Ruin (archive-cairn) | Sundering Reach | `10_dungeons_and_ruins/THE_WHISPERING_CAIRN.md` |
+| The Peat Chapel | Ruin (fen chapel; first delve) | Sundering Reach | `10_dungeons_and_ruins/THE_PEAT_CHAPEL.md` |
+| The Barrow of Nine Doors | Dungeon (pre-Concord barrow) | Sundering Reach | `10_dungeons_and_ruins/THE_BARROW_OF_NINE_DOORS.md` |
+| The Ledger Vault | Dungeon (heist; Hollowmere) | Sundering Reach | `10_dungeons_and_ruins/THE_LEDGER_VAULT.md` |
+| Star-Stones | Landmark (road relay-markers) | Sundering Reach | `05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md` |
+| The Sundered Ridge | Landmark (Heights) | Sundering Reach | `05_regions/wilderness/SUNDER_HEIGHTS_SITES.md` |
+| The Roofless Hall | Landmark (Heights ruin) | Sundering Reach | `05_regions/wilderness/SUNDER_HEIGHTS_SITES.md` |
+| The Drift-Line | Landmark (Greyfens; M5) | Sundering Reach | `05_regions/wilderness/GREYFENS_SITES.md` |
+| The Drowned Blind | Landmark (Gravecaller cell) | Sundering Reach | `05_regions/wilderness/GREYFENS_SITES.md` |
+| Mother Tongue Pool | Landmark (Gravecaller sacred) | Sundering Reach | `05_regions/wilderness/GREYFENS_SITES.md` |
+| The Bone Weir | Landmark (Greyfens snag) | Sundering Reach | `05_regions/wilderness/GREYFENS_SITES.md` |
+| The Lantern Maze | Landmark (Greyfens wisps) | Sundering Reach | `05_regions/wilderness/GREYFENS_SITES.md` |
+| The Reed Holms | Landmark (basin islands) | Sundering Reach | `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md` |
+| The Lantern Shallows | Landmark (basin leakage) | Sundering Reach | `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md` |
+| The Drowned Mile | Landmark (flooded causeway) | Sundering Reach | `05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md` |
+| The Knotted Hand | Inn (Saltmargin) | Sundering Reach | `06_settlements/SALTMARGIN.md` |
+| The Drowned Kettle | Inn (Kettle Bridge) | Sundering Reach | `06_settlements/KETTLE_BRIDGE.md` |
+| The Cold Drum | Tavern (Harrowgast) | Sundering Reach | `06_settlements/HARROWGAST.md` |
 
 ## NPC Names
 
@@ -98,6 +125,33 @@ Master registry of all proper nouns used in the campaign. Check this file before
 | Halla Coalmont | Innkeeper / hub | Hollowmere | `08_npcs/MAJOR_NPCS.md` |
 | Old Sashe | Fen-guide | Greyfens edge | `08_npcs/MAJOR_NPCS.md` |
 
+### Secondary NPCs (Stage 3) — `08_npcs/SECONDARY_NPCS.md`
+
+| Name | Role | Location |
+|---|---|---|
+| Sergeant Hesk | Compact watch leader | Hollowmere |
+| Bailiff Aldwin Cray | Compact bailiff | Kettle Bridge |
+| Quenna Bly | Ledger toll-farmer | Kettle Bridge |
+| Bargemaster Tibb | Bargeman | Kettle Bridge |
+| Iss Marlow | Ledger wharf-factor | Saltmargin |
+| Decca Rull | Salt-pan foreman | Saltmargin |
+| "Gull" Heddwyn | Smuggler | Saltmargin/Greyfens |
+| Elder Mabb Tay | Mourners' elder | Greywater Holm |
+| Den Hask | Fowler / half-recruit | Greywater Holm |
+| Hayward Tomas Greel | Compact hayward | Candlewick |
+| Yorrin Tay | Chandler-master | Candlewick |
+| Overseer Brack | Compact overseer | Harrowgast |
+| Nessa Coyle | Ledger buyer | Harrowgast |
+| Dig-boss Hennet | Mine foreman | Harrowgast |
+| Veska Dunn | Remnant reclaimer-agent | Sunder Heights |
+| Hospitaller Warden Sirrin | Warden quartermaster | The Ashwalk Rest |
+
+### Minor NPCs (Stage 3) — `08_npcs/MINOR_NPCS.md`
+
+Pim Ostry, Goodwife Harl, Edda Cole, Wat (cooper's-boy), Sexton Marrow, Drell (peat-merchant) [Hollowmere]; Innkeep Brannoch, Sister-of-salt Onna, Crook (carter), Net-wife Sereth [Saltmargin]; Old Marrock, Keeper Dunmore, Toll-guard Pike, Barge-boy Lill [Kettle Bridge]; Goodwife Nan, Ferryman Dob, Widow-mourner Sel [Reedford]; Widow Sarn, Tam (fowler-boy), Goodman Crell [Greywater Holm]; Old Beeman Crick, Mourner Edda, Smith Harrow, Chapel-clerk Vesna [Candlewick]; "Thin" Coll, Cold-Drum Vey, Toolwright Garn, Mab (sorter) [Harrowgast]; Mourner-keeper Ansel, Watch-Warden Doune, Carter Sed [The Ashwalk Rest].
+
+> Note: "Mourner Edda" (Candlewick, minor) and "Edda Cole" (Hollowmere hedge-healer, minor) are distinct people; "Pell Oster" (Saltmargin salt-warden, minor official, mentioned in `SALTMARGIN.md`) is distinct from "Warden Pell" (Ashen Warden, secondary).
+
 ## God and Divine Entity Names
 
 | Name | Domain | Faith File | Notes |
@@ -125,6 +179,9 @@ Master registry of all proper nouns used in the campaign. Check this file before
 | The seal / the pause | The sealing of the shrine that halts the harvest | `07_factions/.../ASHEN_WARDENS.md` |
 | Concord Script | The Concord's written language (clue gate) | `03_canon/LANGUAGES.md` |
 | Old Custodial | The inner Custodians' tongue (late-arc gate) | `03_canon/LANGUAGES.md` |
+| Thin-touch | Reversible condition from exposure to raw Remembrance relics (Stage 3 custom mechanic; disadvantage on Death saves until a true rite / shrine long-rest) | `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`, `10_dungeons_and_ruins/THE_DEEP_ADIT.md` |
+| Old glass | Folk term for raw Remembrance relics dug from the Sunder Heights | `06_settlements/HARROWGAST.md` |
+| The Gravecaller Knock (second mark) | The cult's door-mark/signal (already registered as Gravecaller Knock; "second mark" is the folk name) | `06_settlements/GREYWATER_HOLM.md` |
 
 ## Forbidden / Retired Names
 

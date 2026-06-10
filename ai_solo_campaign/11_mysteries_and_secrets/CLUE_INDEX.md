@@ -65,6 +65,21 @@ Clue IDs use the pattern `C-<mystery>-<n>` (e.g. `C-M1-2`). Several mysteries ar
 
 ---
 
+## Stage 3 Clue Access Points (Region Anchors)
+
+Stage 3 **did not create new mysteries or new clues** — it gave the existing M1–M9 clue paths concrete *places and NPCs* in the deep-built region, strengthening the three-clue rule by anchoring each path to authored content. Cross-reference for the AI DM (all still `hidden` at start):
+
+| Mystery / Clue | New Authored Access Point (Stage 3) | File |
+|---|---|---|
+| C-M2-1 (shrine Script) | The Surfacing Ruin (basin shore); Roofless Hall / Cold Cairns (Heights); the Whispering Cairn census-wall | wilderness + `THE_WHISPERING_CAIRN.md` |
+| C-M2-2/3/4 (shrine) | Sunken Tollhouse Script; Bly's river-salvage; the Drowned Blind's channeled dead | `THE_SUNKEN_TOLLHOUSE.md`, `KETTLE_BRIDGE.md`, `GREYFENS_SITES.md` |
+| C-M3-1/3 (Remembrance relic) | Peat Chapel altar relic; Ledger Vault relic; "old glass" in the Deep Adit / Marlow's cellar | `THE_PEAT_CHAPEL.md`, `THE_LEDGER_VAULT.md`, `THE_DEEP_ADIT.md`, `SALTMARGIN.md` |
+| C-M4-2/3/4 (basin scheme) | Pevin Oss's doctored filings; tail Reke at the basin shore; Bly/Marlow funding grumbles; the Reed Holms land-grab | `KETTLE_BRIDGE.md`, `BASIN_SHORE_AND_HOLMS_SITES.md`, `Q_THE_REED_HOLMS.md` |
+| C-M5-1/2/4 (the drift) | The Drift-Line (Sashe); grave-drift at Greywater & Kettle Bridge (Bann Oester); rites fail worse near water (Pell); Reedford's grey woman | `GREYFENS_SITES.md`, `GREYWATER_HOLM.md`, `Q_PELLS_DOUBT.md`, `Q_THE_GREY_WOMAN_AT_THE_FORD.md` |
+| C-M6/M9 fragments (Act 3 gate) | Whispering Cairn census-wall; Deep Adit Relay-Vault; Candlewick archive-stone; Barrow of Nine Doors layered glyphs; the Tallow Man at Mother Tongue Pool | cairn/adit/barrow dungeons + `CANDLEWICK.md` |
+
+**Gate reminder:** M6/M9/M7 access points give *fragments* in Act 1–2; the apex truth stays gated to Act 3–4 per `REVELATION_MAP.md`.
+
 ## Clue Counts and Three-Clue-Rule Check
 
 | Mystery | Authored Clue Paths | Meets 3+ Rule | Notes |

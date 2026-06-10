@@ -114,6 +114,25 @@ All active escalating threats and faction timelines. Clocks advance when time pa
 
 ---
 
+## Stage 3 Region Anchors (where the clocks "live" in the deep-built Reach)
+
+The clocks are unchanged in position (all Stage 1) but now have concrete regional levers and visible sites:
+
+| Clock | Region levers / sites the player can act on (Stage 3) |
+|---|---|
+| 1 Harvest Restarts (MASTER) | basin shore / Surfacing Ruin; minor nodes (Sunken Tollhouse) and the secondary node (Deep Adit) leak into it; quieting nodes slows it |
+| 2 Basin Drains | the Drainage Works + Reed Holms eviction (`Q_THE_REED_HOLMS`); Reke at the shore (C-M4-3); Pevin Oss's filings; the basin vote (`Q_THE_BAILIFFS_LADDER`) |
+| 3 Wardens Break | the Ashwalk Rest (Sirrin, overload); Warden Pell's doubt (`Q_PELLS_DOUBT`); helping road-rites (`Q_THE_FAILING_FUNERAL`) slows it |
+| 4 Circle Turns Militant | Greywater Holm's slide; the salt crisis (`Q_THE_SALT_RUN`); relic-buying (Saltmargin/Harrowgast); honoring the dead eases it |
+| 5 The Breaking (Gravecallers) | the Drowned Blind cell + Mother Tongue Pool (`Q_THE_SECOND_MARK`); Cole Ashby toward the shrine; the Barrow's Listening Hollow |
+| 6 Monopoly Closes | Marlow's skim (`Q_LIGHT_ON_THE_SCALE`); the Ledger Vault relic; "old glass" at Harrowgast; Bly's river-salvage |
+| 7 The Reclamation | Veska Dunn racing for the Deep Adit (`Q_RACE_NORTH`); the Candlewick archive-stone (`Q_THE_SOLD_STONE`); Heights "old glass" |
+| 8 Steering Unravels | unchanged (Sefra in Hollowmere) |
+| 9 Wren's Fate | unchanged (Hollowmere opening) |
+| 10 Thinning Spreads | now visible via Harrowgast's "thin" miners and the Deep Adit's aura |
+
+These are *anchors*, not new clocks — positions and stages are unchanged.
+
 ## Resolved / Expired Clocks
 
 *None yet.*

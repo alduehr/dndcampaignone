@@ -106,3 +106,89 @@ Read TRACKING_SYSTEM.md, DEVELOPMENT_STAGES.md, PROGRESS_LOG.md, TODO.md, CONTEN
 - **Everything indexed.** Content that cannot be retrieved is not AI-ready.
 - **Factions with agency.** Factions act even when the player ignores them.
 - **Mysteries with multiple clue paths.** No one-clue mysteries.
+
+## Build Stages
+
+### Stage 0 — Repository Setup
+
+Create the project structure, placeholder files, control docs, tracking docs, indexes, canon files, and runtime state files. No real campaign creation yet. This is scaffolding.
+
+### Stage 1 — Campaign Foundation
+
+Create the core campaign identity: premise, tone, central conflict, hidden truth, starting region, starting settlement, major factions, major NPCs, secrets, clocks, opening scenes, hooks, rumors, and the first mystery web.
+
+### Stage 2 — AI Runtime Foundation
+
+Make the campaign runnable by an AI DM. This means session loop, state files, start/resume prompts, clue tracking, NPC memory, faction state, world clocks, solo-play rules, and end-of-session update process.
+
+### Stage 3 — Starting Region Deep Build
+
+Expand the starting region so it can support many sessions. Add settlements, wilderness locations, dungeons, NPCs, hooks, quests, local mysteries, faction clocks, rumors, and encounter tables.
+
+### Stage 4 — First Major City Deep Build
+
+Create the first big hub city with districts, politics, shops, temples, guilds, crime, factions, secrets, NPCs, rumors, quests, social scenes, and long-term consequences.
+
+### Stage 5 — Level 1–4 Play Arc
+
+Fully develop the early campaign. This is where the first real playable arc gets built: early main quests, side quests, first dungeon, early villain, first major mystery, faction choices, rewards, and level-up path.
+
+### Stage 6 — First Full Audit
+
+Stop expanding and audit everything so far. Check canon, secrets, mechanics, AI readiness, indexing, solo-play safety, clue paths, faction agency, and state tracking.
+
+### Stage 7 — Regional Expansion Ring 1
+
+Build the regions surrounding the starting area so the player can leave the starting region and still hit prepared content in multiple directions.
+
+### Stage 8 — Faction Deepening
+
+Fully develop the major factions: leaders, members, resources, agendas, clocks, quest chains, secrets, allies, enemies, and reactions to the player.
+
+### Stage 9 — NPC Codex Expansion
+
+Build out the large predetermined NPC library: major NPCs, secondary NPCs, minor NPCs, relationship webs, voice notes, secrets, and locations.
+
+### Stage 10 — Quest Library Expansion
+
+Build the huge quest/hook library: main quests, regional quests, faction quests, personal quests, rumors, jobs, bounties, complications, and travel events.
+
+### Stage 11 — Mystery, Secret, and Clue Expansion
+
+Deepen the mystery structure: secrets, clue index, revelation map, false leads, prophecies, puzzle chains, and multiple clue paths for major truths.
+
+### Stage 12 — Dungeons, Ruins, and Adventure Sites
+
+Create a large library of explorable locations with history, rooms/zones, hazards, puzzles, secrets, treasure, bosses, solo-play options, and consequences.
+
+### Stage 13 — Encounter and Bestiary Expansion
+
+Create solo-friendly threats: monsters, adversary groups, recurring villains, bosses, hazards, random encounters, and noncombat obstacles.
+
+### Stage 14 — Treasure, Artifacts, and Rewards
+
+Create rewards that support solo play and progression: magic items, artifacts, treasure tables, level-appropriate rewards, favors, tools, and survivability options.
+
+### Stage 15 — Level 5–20 Arc Expansion
+
+Fully develop the midgame, high-level, and endgame arcs. This is where Acts 2–5 become playable across levels 5–20.
+
+### Stage 16 — Pre-Play Readiness Audit
+
+Final check before starting actual solo play. Make sure the first 10–20 sessions are ready, secrets are protected, state is initialized, clues work, mechanics are usable, and there are no critical issues.
+
+### Stage 17 — Live Campaign Operation
+
+Actually run the campaign. After each session, update state, clues, NPC memory, factions, consequences, inventory, relationships, and next-session start.
+
+### Stage 18 — Periodic Live Audits
+
+Every few sessions or after major events, audit the live campaign to prevent drift and restore forgotten threads.
+
+### Stage 19 — Campaign Completion and Epilogues
+
+Resolve the endgame, faction outcomes, NPC fates, mysteries, world state, player character epilogue, unresolved threads, and sequel hooks.
+
+### Summary
+
+In practical terms: Stages 0–2 make the machine, Stages 3–5 make the first playable campaign chunk, Stage 6 checks it, and Stages 7–15 scale it into a massive world.

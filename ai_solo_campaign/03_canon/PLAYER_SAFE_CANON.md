@@ -48,6 +48,19 @@ All world facts that are safe to share with or in the presence of the player. Th
 - A growing, frightening problem: **death-rites are failing**. Some bodies will not rest. Pale, sorrowful figures — "**Remembrances**" — are seen near old ruins and graves. This has been worsening for decades and is getting worse fast.
 - Resurrection magic is real but **rare, costly, and dangerous**, and has become noticeably harder and more unreliable since the Quietfall. Wise clergy warn against it.
 
+## Known Towns of the Sundering Reach (Player-Safe)
+
+- **Hollowmere** — the largest town and Compact seat; on the rim of the drowned basin (start).
+- **Kettle Bridge** — the eastern toll-town at the Mirewend crossing.
+- **Saltmargin** — the western salt-trade town toward the Pale Coast.
+- **Candlewick** — a tidy southern candle-and-farm village (and an old Concord carved stone on its green).
+- **Greywater Holm** — a shrinking village on the Greyfens' edge where rites fail worst.
+- **Harrowgast** — a rough half-ruined mining town up in the Sunder Heights.
+- **Reedford** — a tiny reed-cutting hamlet at a central ford.
+- **The Ashwalk Rest** — a fortified Ashen Warden waystation at the central crossroads; a haven for travelers.
+
+Known landmarks: the **Concord roads** (raised causeways) and their **Star-Stones**; the **Greyfens**; the **Sunder Heights**; the **Mirewend River**. (Folk know the old roads and stones are Concord work; what they *did* is not common knowledge.)
+
 ## Known Regions (Player-Safe)
 
 - **Sundering Reach** — the starting frontier; ruins, fens, restless dead.

@@ -57,6 +57,21 @@
 
 ---
 
+## Stage 3 Region Anchors (where the hidden clues now physically live)
+
+Stage 3 anchored the existing hidden clues to authored locations. Still all `hidden` at start; surface per `../11_mysteries_and_secrets/REVELATION_MAP.md`. Quick "where to find it" for the DM:
+
+| Clue(s) | Now findable at | Trigger |
+|---|---|---|
+| C-M1-* (Wren) | Hollowmere (unchanged) | as before |
+| C-M2-* (shrine) | Basin shore Surfacing Ruin; Sunken Tollhouse; Heights ruins; Whispering Cairn | reach site + read Concord Script (or a reader) |
+| C-M3-* (relic) | Peat Chapel; Ledger Vault; Deep Adit "old glass"; Marlow's cellar | obtain & study a relic, or turn Domic |
+| C-M4-* (basin scheme) | Pevin Oss's filings; Reke at the shore at night; the Reed Holms debt | records / surveillance / the eviction trail |
+| C-M5-* (the drift) | The Drift-Line (Sashe); Greywater & Reedford hauntings; Bann Oester's graves; Pell | witness the drift / failing rites near water |
+| C-M6-*, C-M9-* (Act 3) | Whispering Cairn, Deep Adit Relay-Vault, Candlewick stone, Barrow glyphs, Tallow Man | **fragments only pre-Act 3**; full truth gated |
+
+**Do not surface Act 3+ apex clues during Act 1–2** even at these new sites — give fragments, per the pacing reminder above.
+
 ## Clue Entry Template
 
 ```md

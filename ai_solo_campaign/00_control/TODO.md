@@ -12,12 +12,11 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## High
 
-- [ ] Complete Stage 3: Starting Region Deep Build
-  - Why it matters: The player needs a populated region to explore. 10–20 sessions of open-world content requires substantial regional depth beyond Hollowmere — additional settlements, wilderness sites, local dungeons/ruins, and regional quest/encounter/rumor tables.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 3, `WORLDBUILDING_STANDARDS.md`, `05_regions/SUNDERING_REACH.md`, `06_settlements/HOLLOWMERE.md`
-  - Suggested agent: `world-atlas-builder`
-  - Stage: 3
-  - Note: Stages 1 and 2 are complete; the campaign is runnable for opening sessions. Stage 3 expands the Reach so play does not run out of authored material.
+- [ ] Complete Stage 5: Level 1–4 Play Arc
+  - Why it matters: With the region now deep-built (Stage 3), the next highest-value pass is the shaped Act 1 narrative — a default path, alternate paths, faction decision points, the first major dungeon, an early villain/threat profile, and playable failure states — while preserving open-world freedom.
+  - Related files: `DEVELOPMENT_STAGES.md` Stage 5, `QUEST_STANDARDS.md`, `12_campaign_arc/`, the 12 Stage 3 developed quests in `09_quests/regional_quests/`
+  - Suggested agent: `quest-arc-designer` (+ `encounter-bestiary-designer`)
+  - Stage: 5
 
 ---
 
@@ -68,31 +67,29 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ---
 
-## Stage 3 Follow-Ups (from Stage 1)
-
-- [ ] Create full entries for secondary NPCs referenced in faction files
-  - Who: Warden Pell, Tallytooth Ren, Bann Oester, Clerk Pevin Oss, Custodian Orre, Reach Remnant agents.
-  - Related files: faction files, `08_npcs/NPC_INDEX.md`
-  - Stage: 3 / 9
+## Post-Stage-3 Follow-Ups
 
 - [ ] (Optional) Build individual per-clue files for `11_mysteries_and_secrets/CLUE_INDEX.md`
-  - Why it matters: CLUE_INDEX.md and HIDDEN_CLUES.md are now populated as index/runtime tables (all clues hidden at start). Per-clue files would add finer retrieval but are not required for play.
-  - Related files: `CLUE_INDEX.md`, `HIDDEN_CLUES.md`, `MYSTERY_WEB.md`, `SECRET_INDEX.md`
+  - Why it matters: clues are tracked in index/runtime tables and now anchored to region sites; per-clue files would add finer retrieval but are not required for play.
   - Stage: 11 (deferred)
 
-- [ ] Build the drowned shrine dungeon
-  - Why it matters: The campaign keystone location needs a full dungeon build with solo-safety valves and scaling.
-  - Related files: `07_factions/major_factions/HOLLOW_COURT.md`, `10_dungeons_and_ruins/`
+- [ ] Build the drowned shrine dungeon (the keystone)
+  - Why it matters: the campaign keystone location needs a full dungeon build; intentionally deferred from Stage 3.
+  - Related files: `07_factions/major_factions/HOLLOW_COURT.md`, `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md`, `10_dungeons_and_ruins/`
   - Stage: 12
 
-- [ ] Deep-build the Sundering Reach (settlements, wilderness sites, encounter/rumor tables)
-  - Related files: `05_regions/SUNDERING_REACH.md`, `WORLDBUILDING_STANDARDS.md`
-  - Stage: 3
+- [ ] Stat the Stage 3 dungeon rewards by level (e.g. the Barrow of Nine Doors magic item) and create `REWARDS_BY_LEVEL.md`
+  - Why it matters: Stage 3 dungeon files reference level-appropriate rewards that need concrete items.
+  - Stage: 14
+
+- [ ] Add `/15_random_tables/` (travel/weather/event) — lower priority now that zone encounter tables exist
+  - Stage: 3+ / low
 
 ---
 
 ## Completed Recently
 
+- [x] Stage 3: Starting Region Deep Build — 2026-06-09 (8 settlements, 4 wilderness zone-files/~25 sites, 6 dungeons/ruins, ~56 NPCs, 12 developed quests, 39 hooks + 50 rumors, 4 zone encounter tables; all five registered secondary-NPC placeholders completed; clue/clock anchors added; indexes/canon/registry updated; solo-safe and secrecy-separated throughout)
 - [x] Stage 2 cleanup pass — 2026-06-09 (fixed stale CONTENT_GAPS/EXPANSION_PLAN/CONSISTENCY_AUDIT to reflect Stages 1–2 complete; populated CLUE_INDEX and HIDDEN_CLUES from the mystery web with all clues hidden at start; added D&D mechanical completeness fields/sections to NPC, quest, content, faction, and worldbuilding standards templates — Critical TODO cleared)
 - [x] Complete Stage 2: AI Runtime Foundation — 2026-06-09 (all 18 runner protocols written as full operational content (17 new + AI_DM_CORE_RULES.md from Stage 0); START/RESUME prompts + 3 session-pack templates ready; 8 runtime state files seeded from Stage 1; solo-first, three-clue-rule, secrecy-preserving; indexes and tracking updated)
 - [x] Seed runtime state files from Stage 1 content — 2026-06-09 (CURRENT_STATE, CURRENT_LOCATION, CURRENT_SCENE, ACTIVE_QUESTS = Hook 1 + Hooks 5–7, OPEN_THREADS, FACTION_STATE, NEXT_SESSION_START, PLAYER_CHARACTER scaffold)

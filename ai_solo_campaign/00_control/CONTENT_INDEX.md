@@ -6,7 +6,7 @@ Global inventory of campaign content. Tells the AI DM what exists and where to f
 
 ## Current Status
 
-**Stages 1 and 2 complete.** Campaign foundation content indexed below. Regions, settlements, factions, major NPCs, mystery infrastructure, hooks/rumors, and opening packs exist (Stage 1). All 18 runner protocols, the START/RESUME prompts, the session-pack templates, and 8 seeded runtime state files are runnable (Stage 2). Deep region/quest/NPC expansion continues in Stages 3+.
+**Stages 1, 2, and 3 complete.** Campaign foundation (Stage 1) + AI runtime (Stage 2) + **Starting Region Deep Build (Stage 3)**. The Sundering Reach now has 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, ~56 new NPCs (secondary + minor), 12 developed quests, 39 hooks + 50 rumors, and zone encounter tables — enough for 10–20 sessions of open-world solo play. Deep city build (Stage 4) and the Act 1 arc (Stage 5) are next.
 
 ---
 
@@ -20,7 +20,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Status | Summary | Tags |
 |---|---|---|---|---|---|
-| Sundering Reach | `05_regions/SUNDERING_REACH.md` | mixed | static (frame; deep build Stage 3) | Starting region; ruin-haunted frontier; keystone of the harvest | starting-region |
+| Sundering Reach | `05_regions/SUNDERING_REACH.md` | mixed | static (deep-built Stage 3) | Starting region; ruin-haunted frontier; keystone of the harvest; 8 settlements, 4 wilderness zones, 6 dungeons | starting-region |
 | (Orrun world overview) | `04_world_atlas/WORLD_OVERVIEW.md` | mixed | static | Continent overview; 5 named regions | world |
 
 ---
@@ -30,6 +30,13 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Name | File | Region | Secrecy | Status | Summary | Tags |
 |---|---|---|---|---|---|---|
 | Hollowmere | `06_settlements/HOLLOWMERE.md` | Sundering Reach | mixed | static | Starting town/hub on the drowned basin | starting-settlement, hub |
+| Kettle Bridge | `06_settlements/KETTLE_BRIDGE.md` | Sundering Reach | mixed | static | Second town; Mirewend crossing & toll-town (E) | town, travel-hub |
+| Saltmargin | `06_settlements/SALTMARGIN.md` | Sundering Reach | mixed | static | Western salt-trade gateway town | town, trade |
+| Candlewick | `06_settlements/CANDLEWICK.md` | Sundering Reach | mixed | static | Southern candle/farm village; Concord Script gate | village, clue |
+| Greywater Holm | `06_settlements/GREYWATER_HOLM.md` | Sundering Reach | mixed | static | Greyfens-edge village; rites fail worst; cult spread | village, clue |
+| Harrowgast | `06_settlements/HARROWGAST.md` | Sundering Reach | mixed | static | Heights mining ruin-town (Lvl 2–5); Deep Adit | mining-village, exploration |
+| Reedford | `06_settlements/REEDFORD.md` | Sundering Reach | mixed | static | Tiny ford-hamlet; gentle Lvl-1 waypoint | hamlet |
+| The Ashwalk Rest | `06_settlements/THE_ASHWALK_REST.md` | Sundering Reach | mixed | static | Warden waystation; open-Reach solo-safety sanctuary | outpost, solo-safety, patron |
 
 ---
 
@@ -53,7 +60,9 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Name | File | Tier | Location | Faction | Secrecy | Summary | Tags |
 |---|---|---|---|---|---|---|---|
 | 20 Major NPCs | `08_npcs/MAJOR_NPCS.md` | Major | Reach/Caradril | all | mixed | Full profiles for the 20 foundation NPCs | major-npc |
-| (NPC index) | `08_npcs/NPC_INDEX.md` | — | — | — | mixed | Master NPC table | index |
+| ~21 Secondary NPCs | `08_npcs/SECONDARY_NPCS.md` | Secondary | Sundering Reach | all | mixed | Stage 3 recurring locals; includes 5 registered placeholders | secondary-npc |
+| ~35 Minor NPCs | `08_npcs/MINOR_NPCS.md` | Minor | Sundering Reach | all | mixed | Stage 3 local-color NPCs by settlement | minor-npc |
+| (NPC index) | `08_npcs/NPC_INDEX.md` | — | — | — | mixed | Master NPC table (major/secondary/minor) | index |
 
 ---
 
@@ -63,6 +72,9 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 |---|---|---|---|---|---|---|---|
 | First 10 Hooks | `09_quests/HOOKS_TABLE.md` | Hooks | 1-4 | Sundering Reach | static | Session-sized Act 1 hooks (Hook 1 = default opener) | quest-hook, act-1 |
 | First 20 Rumors | `09_quests/RUMORS_TABLE.md` | Rumors | 1-4 | Sundering Reach | static | Act 1 rumors, all pointing to authored content | rumor, act-1 |
+| Regional Hooks (H11–H39) | `09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md` | Hooks | 1-5 | Sundering Reach | static | 29 more hooks by area (39 total) | quest-hook |
+| Regional Rumors (R21–R50) | `09_quests/hooks_and_rumors/SUNDERING_REACH_RUMORS.md` | Rumors | 1-5 | Sundering Reach | static | 30 more rumors by area (50 total) | rumor |
+| 12 Developed Quests | `09_quests/regional_quests/*.md` | Regional/Faction/Mystery | 1-5 | Sundering Reach | static | Full-standard quests (Salt Run, Broken Arch, Light on the Scale, Holm That Won't Bury Its Dead, Sold Stone, Race North, Bailiff's Ladder, Reed Holms, Sashe's Warning, Grey Woman, Second Mark, Pell's Doubt, Scholar's Request, Failing Funeral) | quest |
 
 ---
 
@@ -85,10 +97,27 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 ---
 
+## Wilderness Locations
+
+| Name | File | Region | Level | Status | Summary | Tags |
+|---|---|---|---|---|---|---|
+| Greyfens sites | `05_regions/wilderness/GREYFENS_SITES.md` | Sundering Reach | 2-5 | static | 6 named fen sites; M5 drift, Gravecaller cell | greyfens, clue |
+| Sunder Heights sites | `05_regions/wilderness/SUNDER_HEIGHTS_SITES.md` | Sundering Reach | 2-6 | static | 6 named highland-ruin sites; Reclamation race | sunder-heights |
+| Mirewend & Roads sites | `05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md` | Sundering Reach | 1-4 | static | Star-Stones, causeways, river; travel layer | roads, river, travel |
+| Basin Shore & Holms sites | `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md` | Sundering Reach | 1-5 | static | Shore, Surfacing Ruin (M2), Reed Holms; deep basin off-limits early | basin, clue |
+
+---
+
 ## Dungeons / Ruins
 
 | Name | File | Region | Level | Status | Summary | Tags |
 |---|---|---|---|---|---|---|
+| The Peat Chapel | `10_dungeons_and_ruins/THE_PEAT_CHAPEL.md` | Sundering Reach | 1-2 | static | First-delve fen chapel; Remembrance relic (M3) | ruin, level:1-2 |
+| The Sunken Tollhouse | `10_dungeons_and_ruins/THE_SUNKEN_TOLLHOUSE.md` | Sundering Reach | 2-3 | static | Drowned river node under Kettle Bridge (M2/M5) | dungeon, clue |
+| The Whispering Cairn | `10_dungeons_and_ruins/THE_WHISPERING_CAIRN.md` | Sundering Reach | 1-3 | static | Archive-cairn; Concord Script gate (M6/M9) | ruin, clue |
+| The Ledger Vault | `10_dungeons_and_ruins/THE_LEDGER_VAULT.md` | Sundering Reach | 2-4 | static | Social/stealth heist; vault relic (C-M3-3) | dungeon, heist |
+| The Barrow of Nine Doors | `10_dungeons_and_ruins/THE_BARROW_OF_NINE_DOORS.md` | Sundering Reach | 3-5 | static | Greyfens barrow; parley-boss; M5/M6 testimony | dungeon, clue |
+| The Deep Adit | `10_dungeons_and_ruins/THE_DEEP_ADIT.md` | Sundering Reach | 3-5 | static | Secondary harvest node; M3/M6; Reclamation race | dungeon, clue, secondary-node |
 | Drowned shrine (referenced) | `07_factions/major_factions/HOLLOW_COURT.md` | Sundering Reach | scaling | concept (full build Stage 12) | The harvest keystone / under-shrine | boss, main-arc, dm-only |
 
 ---
@@ -97,7 +126,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Type | Level | Summary | Tags |
 |---|---|---|---|---|---|
-| — | — | — | — | Not yet created | — |
+| Sundering Reach encounters | `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md` | Encounter tables | 1-6 | Four solo-tuned zone tables (Roads/River, Greyfens, Heights, Basin); stat-referenced, non-combat-default | encounter, solo-safety |
 
 ---
 
