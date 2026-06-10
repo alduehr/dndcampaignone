@@ -6,9 +6,9 @@ Track missing or underdeveloped content by category. Use this for category-level
 
 ## Current Status
 
-**Stages 0, 1, 2, 3, and 4 complete.** The campaign foundation + AI runtime exist, the starting region is deep-built, and the **first major city (Caradril) is now deep-built** (8 districts, 15 city secondary + 25 city minor NPCs, 11 developed city quests, 36 hooks + 30 rumors, city encounter/social-scene tables, 4 city factions + 3 city clocks). The campaign now has both a frontier sandbox and a mid-game city hub.
+**Stages 0, 1, 2, 3, 4, and 5 complete.** The campaign foundation + AI runtime exist, the starting region is deep-built, the **first major city (Caradril) is deep-built**, and the **Level 1–4 Act 1 play kit (Stage 5) now exists** (open-world arc spine, 6 faction-alignment quests, 5 recurring early-threat profiles, an existing-clue Act 1 access overlay with R1 cap, 9 failure-redirect states, milestone/XP triggers, and an Act 1 NPC casting guide). The campaign now has a frontier sandbox, a mid-game city hub, and a runnable early-game arc.
 
-The gaps below reflect what remains for **Stage 5+ depth and scale** (the Act 1 arc, faction quest chains, the keystone + Caradril dungeon builds, treasure-by-level, audits, adjacent regions). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
+The gaps below reflect what remains for **Stage 6+ depth and scale** (the first full audit, faction quest chains, the keystone + Caradril dungeon builds, treasure-by-level, the bestiary, Acts 2–5, adjacent regions). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
 
 ---
 
@@ -60,10 +60,10 @@ The gaps below reflect what remains for **Stage 5+ depth and scale** (the Act 1 
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
 | 10 session hooks + 20 rumors exist (Act 1) | — (no gap) | — | — | done in Stage 1 |
-| Developed quest files: **12 created in Stage 3** (toward 75–150 target); region-level coverage good | Medium | Continue toward target; add Act-arc and city quests | Build Act 1 + faction quest chains | 5, 10 |
-| No fully shaped main-arc Act 1 quest line (level 1–4) | High | Default narrative path through early levels | Build Act 1 quests | 5 |
+| Developed quest files: **12 (Stage 3) + 11 (Stage 4) + 6 (Stage 5 Act 1) = ~29** (toward 75–150 target); region/city/Act-1 coverage good | Medium | Continue toward target; add faction quest chains | Build per-faction quest chains | 8, 10 |
+| ~~No fully shaped main-arc Act 1 quest line (level 1–4)~~ — **Act 1 play kit built in Stage 5** (arc spine, 6 faction quests, threats, clue trails, failure states, milestones, NPC guide) | — (no gap) | — | — | done in Stage 5 |
 | Hook/rumor library: **39 hooks + 50 rumors** after Stage 3 (toward 300–600 target) | Medium | Continue toward target with each region/city | Expand hook/rumor library | 10 |
-| Failure states not yet attached to developed quests (no developed quests exist yet) | Medium | Player choices have teeth | Add failure states as quests are built | 5, 10 |
+| ~~Failure states not yet attached to developed quests~~ — **every Stage 3/4/5 quest now has a Failure State + State Updates; Stage 5 added a dedicated `ACT_1_FAILURE_STATES.md` redirect playbook** | — (no gap for Act 1) | — | — | done through Stage 5 |
 
 ---
 
@@ -84,7 +84,7 @@ The gaps below reflect what remains for **Stage 5+ depth and scale** (the Act 1 
 |---|---|---|---|---|
 | Keystone dungeon referenced but not built | High | The campaign's central adventure site | Full dungeon build with solo-safety valves and scaling | 12 |
 | ~~No regional dungeons/ruins~~ — **6 built in Stage 3** (Peat Chapel, Sunken Tollhouse, Whispering Cairn, Ledger Vault, Barrow of Nine Doors, Deep Adit), full mechanics | — (no gap) | — | — | done in Stage 3 (target 5–8 met) |
-| No first major Act 1 dungeon | High | Level 1–4 arc climax site | Build first dungeon | 5 |
+| First major Act 1 dungeon: **Act 1 routes its dungeon beats through the 6 Stage 3 Concord sites** (sufficient for play); an optional dedicated Act 1 climax dungeon could sharpen the L3→4 beat | Low (was High) | Level 1–4 arc climax site | Optional purpose-built Act 1 dungeon | 5 (optional) / 12 |
 
 ---
 
@@ -93,9 +93,9 @@ The gaps below reflect what remains for **Stage 5+ depth and scale** (the Act 1 
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
 | ~~No regional encounter tables~~ — **4 solo-tuned zone tables built in Stage 3** (Roads/River, Greyfens, Heights, Basin), stat-referenced | — (no gap for the starting region) | — | Build city/other-region tables later | done in Stage 3 |
-| No custom monsters/adversary groups with stat profiles | High | Solo-safe, mechanically usable threats | Build bestiary with D&D-compatible stat profiles | 13 |
-| No recurring-villain stat profiles | Medium | Mechanically usable named antagonists | Build villain profiles | 13, 15 |
-| No noncombat obstacle library | Medium | Solo-friendly non-fight challenges | Build noncombat obstacles | 13 |
+| Adversary stat profiles: zone tables (Stage 3) + city tables (Stage 4) + **5 recurring Act 1 threat profiles (Stage 5 `ACT_1_THREATS.md`)** exist; no standalone full bestiary yet | Medium (was High) | Solo-safe, mechanically usable threats across all tiers | Build the full bestiary (mid/high tiers especially) | 13 |
+| Recurring-villain stat profiles: Act 1 early rivals statted (Ashby, Ren, Dunn via `ACT_1_THREATS.md` + NPC entries); no mid/high-tier villain profiles yet | Medium | Mechanically usable named antagonists at all tiers | Build villain profiles | 13, 15 |
+| No noncombat obstacle library (though Act 1 quests/threats each provide noncombat outs) | Medium | Solo-friendly non-fight challenges | Build noncombat obstacles | 13 |
 
 ---
 
@@ -124,6 +124,7 @@ The gaps below reflect what remains for **Stage 5+ depth and scale** (the Act 1 
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
 | Main arc overview and level 1–20 progression exist (shape + Act 1 concrete) | — (no gap) | — | — | done in Stage 1 |
+| ~~Act 1 (levels 1–4) not fully shaped~~ — **Act 1 play kit built in Stage 5** (`ACT_1_LEVELS_1_4.md` + milestones + failure states + threats + clue trails + NPC guide + 6 faction quests) | — (no gap) | — | — | done in Stage 5 |
 | No standalone act files for Acts 2–5 (levels 5–20) | High | Detailed mid/late-campaign play | Build act files | 15 |
 | No standalone villain-escalation / endgame-states files | Medium | Escalating antagonist pressure and ending logic | Build escalation/endgame files | 15 |
 

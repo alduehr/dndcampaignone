@@ -64,6 +64,26 @@ All unresolved loose ends — leads, unanswered questions, dangling hooks, unkep
 
 ---
 
+### The Seven Faction Doors (Act 1 — pre-play, not yet active)
+
+- **Type:** dangling hooks (the Act 1 faction-alignment opportunities)
+- **Origin:** the seven major factions each have a local face and a level-1–4 door (`../12_campaign_arc/ACT_1_LEVELS_1_4.md`)
+- **What the player knows:** nothing yet — these surface through NPCs, jobs, and rumors once play begins. The player will be able to align with, or against, the Wardens (Hale), the Compact (Coalmont), the Ledger (Domic), the Mourners (Wend), the Gravecallers (Knell), or the Remnant (Briss); and accept the councilor's basin errand (Reke).
+- **What the player does not know (DM):** each faction's hidden agenda (`../03_canon/DM_ONLY_CANON.md`); Reke's errand is covert Hollow Court steering (Secret 9/M8) — the Court has no friendly quest and is never named. Cap reveals at R1.
+- **How it could resolve:** the six `act_1_quests/` faction quests + Hook 4; pulling any door reaches authored content, ignoring one routes to others.
+- **Urgency:** short-term to long-term (player-driven)
+- **Related:** `../09_quests/act_1_quests/`, `../08_npcs/ACT_1_NPC_GUIDE.md`, Hooks 2/3/4/5/7/8/9
+
+### The Geography of Failure (Act 1 — the R1 pattern; pre-play)
+
+- **Type:** unanswered question / unfollowed pattern (the Act 1 mystery frame)
+- **Origin:** rites fail worse the nearer the basin; the dead drift toward the water; an old built thing lies drowned under it
+- **What the player knows:** nothing confirmed yet — at play start the failures look random. The pattern (a *source*, centered on the basin) is the conclusion Act 1 can deliver (R1).
+- **What the player does not know (DM):** the source is the reawakening harvest keystone (M1/M2/M5); the cause stays at R1 in Act 1 — never Remembrance-as-substance, the Concord's sin, or the Court.
+- **How it could resolve:** ~2 of the four R1 routes (personal/Wren, wilderness/drift, political/basin, exploration/shape) per `../11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`.
+- **Urgency:** long-term (the Act 1 spine)
+- **Related:** `ACT_1_CLUE_TRAILS.md`, M1/M2/M5
+
 ## Thread Entry Template
 
 ```md

@@ -6,7 +6,7 @@ Master registry of all proper nouns used in the campaign. Check this file before
 
 ## Current Status
 
-**Stages 1–4 populated.** Core campaign proper nouns registered through Stage 4 (Caradril city: districts, city factions, city NPCs, new terms). Add new entries immediately when creating named content.
+**Stages 1–5 populated.** Core campaign proper nouns registered through Stage 4 (Caradril city: districts, city factions, city NPCs, new terms). **Stage 5 (Level 1–4 Play Arc) introduced NO new proper nouns** — it reused existing mysteries, NPCs, factions, clocks, and locations. Quest titles (e.g. "The True Rite," "A Last Word") and file names are not registered proper nouns; the Act 1 threat profiles (Restless/Wrathful Remembrance, Frontier Toughs, Rival Salvage Crew) are generic descriptors built on existing setting terms, not new named entities. Add new entries immediately when creating named content.
 
 ## Rules
 

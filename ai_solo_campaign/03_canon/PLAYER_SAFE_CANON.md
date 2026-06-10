@@ -88,6 +88,17 @@ Known landmarks: the **Concord roads** (raised causeways) and their **Star-Stone
 - **Concord Remnant** — scholars and zealots who want to rebuild the lost Custodian Concord. Seen as harmless dreamers by most.
 - **The Hollow Court** — a legend: a hidden court of the dead said to rule beneath the Reach. Most consider it a ghost story.
 
+## The Reach at Campaign Start (Player-Safe — Act 1 Situation)
+
+What an arriving newcomer can see, hear, and reasonably learn in the early days (levels 1–4). None of this is hidden truth; it is the surface the player begins with.
+
+- **The failing rites are the talk of the Reach.** Funerals go wrong more and more often: bodies that won't rest, pale "Remembrances" lingering near graves and ruins. It is worse than it was even a few years ago, and folk are frightened. *Why* it is happening is genuinely unknown — a real mystery, not a withheld fact.
+- **Hollowmere is on edge over a recent case of its own** — a beloved local died and her rite failed, and now the town is grieving and afraid at once. (This is the default opening.)
+- **The dead seem to "walk the wrong way."** Fen-folk and grave-tenders say the restless dead drift *toward the water* — toward the drowned basin Hollowmere sits beside. The basin holds something old and enormous, glimpsed under the flood when the fog thins; everyone knows the Concord built it, but not what it was.
+- **The factions are all stirring** around the crisis, each with its own answer: the **Ashen Wardens** lay the dead and are stretched thin; the **Mourners' Circle** guards the old ways and resents outside meddling; the **Cinder Ledger** lends coin and quietly buys up old Concord salvage; the **Reachward Compact** governs and is debating a project to **drain the basin** "for resettlement and water rights" (the Mourners are furious, the reeve uneasy); the outlawed **Gravecallers** are said to be contacting the bereaved with promises of "a last word"; visiting **Concord Remnant** scholars are interested in the ruins and the old script. The player can take work from, or against, any of them.
+- **The frontier is dangerous but navigable for a capable newcomer.** Threats are mostly the restless dead (best handled by a true rite, not a blade), wary toughs and toll-bandits, edgy smugglers, and rivals racing for salvage — all things that can usually be talked, snuck, or walked past. Help and shelter exist: the Drowned Lantern inn, the Ashen Wardens and their Ashwalk Rest waystation, and guides who know the fens.
+- **It is plainly the start of something larger.** By the end of the early days, an attentive newcomer will sense the failures are not random — they have a *source and a pattern, and that pattern points at the basin.* What the source actually *is* remains to be uncovered.
+
 ## Known NPC Facts (Player-Safe)
 
 Public identities only. See `08_npcs/MAJOR_NPCS.md` for player-safe descriptions of all twenty major NPCs. Their secrets are DM-only and must be earned in play.

@@ -6,7 +6,7 @@ Global inventory of campaign content. Tells the AI DM what exists and where to f
 
 ## Current Status
 
-**Stages 1, 2, 3, and 4 complete.** Campaign foundation (Stage 1) + AI runtime (Stage 2) + Starting Region Deep Build (Stage 3) + **First Major City Deep Build (Stage 4 — Caradril)**. The Sundering Reach has 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, and zone encounter tables. **Caradril** now adds: a city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary NPCs + 25 city minor NPCs, 11 developed city quests, 36 city hooks + 30 city rumors, and a city encounter/social-scene table. City clue access feeds the existing M2/M3/M4/M6/M8/M9 chains; 3 city faction clocks (C1/C2/C3) and 4 city-internal factions added. **No new central mystery/faction/god/cosmology/artifact created.** The Act 1 arc (Stage 5) and the first full audit (Stage 6) are next.
+**Stages 1, 2, 3, 4, and 5 complete.** Campaign foundation (Stage 1) + AI runtime (Stage 2) + Starting Region Deep Build (Stage 3) + First Major City Deep Build (Stage 4 — Caradril) + **Level 1–4 Play Arc (Stage 5)**. The Sundering Reach has 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, and zone encounter tables. **Caradril** adds: a city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary NPCs + 25 city minor NPCs, 11 developed city quests, 36 city hooks + 30 city rumors, and a city encounter/social-scene table. **Stage 5 (Act 1)** adds the open-world Level 1–4 play kit: the Act 1 arc spine, 6 faction-alignment quests (`act_1_quests/`), 5 recurring early-threat profiles, an Act 1 clue-trails overlay (existing M1–M9; R1 cap), Act 1 failure-redirect states, Act 1 milestone/XP triggers, and an Act 1 NPC casting guide — all reusing existing mysteries, NPCs, factions, and clocks. City + Act 1 clue access feeds the existing M2/M3/M4/M6/M8/M9 chains; 3 city faction clocks (C1/C2/C3) and 4 city-internal factions exist. **No new central mystery/faction/god/cosmology/artifact created in Stage 5.** The first full audit (Stage 6) is next.
 
 ---
 
@@ -81,6 +81,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | 20 Major NPCs | `08_npcs/MAJOR_NPCS.md` | Major | Reach/Caradril | all | mixed | Full profiles for the 20 foundation NPCs | major-npc |
 | ~36 Secondary NPCs | `08_npcs/SECONDARY_NPCS.md` | Secondary | Reach + Caradril | all | mixed | Stage 3 Reach locals + Stage 4 15 Caradril city NPCs | secondary-npc |
 | ~60 Minor NPCs | `08_npcs/MINOR_NPCS.md` | Minor | Reach + Caradril | all | mixed | Stage 3 Reach + Stage 4 25 Caradril minor NPCs by district | minor-npc |
+| Act 1 NPC Guide (Stage 5) | `08_npcs/ACT_1_NPC_GUIDE.md` | — | Reach | all | mixed | Casting guide: existing NPCs as Act 1 allies/patrons/rivals/witnesses/complications + safe re-entry points. No new NPCs | npc, act:1, level:1-4 |
 | (NPC index) | `08_npcs/NPC_INDEX.md` | — | — | — | mixed | Master NPC table (major/secondary/minor; Reach + Caradril) | index |
 
 ---
@@ -97,6 +98,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Caradril Hooks (CH1–36) | `09_quests/hooks_and_rumors/CARADRIL_HOOKS.md` | Hooks | 3-12 | Caradril | static | 36 city hooks by district, all pointing to authored content | quest-hook, region:caradril |
 | Caradril Rumors (CR1–30) | `09_quests/hooks_and_rumors/CARADRIL_RUMORS.md` | Rumors | 3-12 | Caradril | static | 30 city rumors by district | rumor, region:caradril |
 | 11 Developed City Quests | `09_quests/city_quests/*.md` | City/Faction/Mystery | 3-12 | Caradril | static | Full-standard city quests (Sealed Letter, Open Charter, Quay Charter, Lantern & Lamp, Sealed Archive, Quiet Coin, Funeral That Wouldn't Take, Smelting, Bellman's Price, Below the Stilling, Tide Turns) | quest, region:caradril |
+| 6 Act 1 Faction Quests | `09_quests/act_1_quests/*.md` | Faction (Act 1) | 1-4 | Sundering Reach | static | Faction-alignment quests, one per major faction (Warden True Rite, Compact Reeve's Doubt, Ledger Quiet Salvage, Mourner Salt & Song, Gravecaller Last Word, Remnant Visiting Scholar). Hollow Court has none by design | quest, act:1, level:1-4 |
 
 ---
 
@@ -107,6 +109,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Mystery Web (M0–M10) | `11_mysteries_and_secrets/MYSTERY_WEB.md` | dm-only | static | Full mystery network; 3+ clue paths each | CLUE_INDEX (populated) |
 | Revelation Map (R1–R8) | `11_mysteries_and_secrets/REVELATION_MAP.md` | dm-only | static | Act-by-act revelation pacing | — |
 | Secret Index (20) | `11_mysteries_and_secrets/SECRET_INDEX.md` | dm-only | static | The 20 major campaign secrets | — |
+| Act 1 Clue Trails (Stage 5) | `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md` | dm-only | static | Which existing clues a L1–4 player reaches; multi-route R1 access; three-clue check; R1 reveal cap. No new clues | CLUE_INDEX (M1–M9 subset) |
 
 ---
 
@@ -150,6 +153,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 |---|---|---|---|---|---|
 | Sundering Reach encounters | `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md` | Encounter tables | 1-6 | Four solo-tuned zone tables (Roads/River, Greyfens, Heights, Basin); stat-referenced, non-combat-default | encounter, solo-safety |
 | Caradril encounters | `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md` | Encounter/social-scene tables | 3-14 | Eight district social/intrigue tables + Sunken Wards dungeon table; social-default, stat-referenced | encounter, social, solo-safety, region:caradril |
+| Act 1 recurring threats (Stage 5) | `13_encounters_and_bestiary/ACT_1_THREATS.md` | Adversary profiles | 1-4 | 5 recurring early threats (Restless/Wrathful Remembrance, Frontier Toughs, Cult Radical's Hand, Rival Salvage Crew); full stat profiles; solo-safe, noncombat outs, scaling | encounter, act:1, level:1-4, solo-safety, combat |
 
 ---
 
@@ -167,6 +171,9 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 |---|---|---|---|---|---|
 | Main Arc Overview | `12_campaign_arc/MAIN_ARC_OVERVIEW.md` | 1–20 | dm-only | static | Full arc shape, hidden truth, 5 endgame branches, villain escalation |
 | Level 1–20 Progression | `12_campaign_arc/LEVEL_1_TO_20_PROGRESSION.md` | 1–20 | dm-only | static | Level-by-level pacing + milestone triggers (Act 1 concrete) |
+| Act 1 (Levels 1–4) | `12_campaign_arc/ACT_1_LEVELS_1_4.md` | 1–4 | mixed | static | Open-world Act 1 arc spine; Five Doors + faction doors; multi-route to R1; ignore-consequences; Act 2 triggers |
+| Act 1 Milestones | `12_campaign_arc/ACT_1_MILESTONES.md` | 1–4 | mixed | static | Explicit L2/3/4 + L4→5 triggers; multiple paths (combat/social/exploration/investigation/faction); optional XP guidance |
+| Act 1 Failure States | `12_campaign_arc/ACT_1_FAILURE_STATES.md` | 1–4 | mixed | static | 9 failure cases, each redirecting (not ending) play; consequence + path forward + clocks + NPC reactions |
 
 ---
 

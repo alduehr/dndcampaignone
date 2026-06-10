@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0, 1, 2, 3, and 4 complete (Stage 4: 2026-06-10).** The campaign foundation, the full AI runtime layer, the deep-built starting region, and now the **first major city (Caradril)** all exist. The Sundering Reach supports 10–20 sessions; **Caradril** adds the mid-game hub (8 districts, 15 city secondary + 25 city minor NPCs, 11 developed city quests, 36 hooks + 30 rumors, city encounter/social-scene tables, 4 city factions + 3 city clocks; the Ledger HQ + Remnant seat; M2/M3/M4/M6/M8/M9 city clue access). **Stage 5 — Level 1–4 Play Arc is the recommended next pass** (shape the Act 1 narrative atop the now-deep region), followed by the **Stage 6 First Full Audit** (now spanning Stages 1–5 plus Caradril).
+**Stages 0, 1, 2, 3, 4, and 5 complete (Stage 5: 2026-06-10).** The campaign foundation, the full AI runtime layer, the deep-built starting region, the first major city (Caradril), and now the **Level 1–4 Act 1 play kit** all exist. The Sundering Reach supports 10–20 sessions; Caradril adds the mid-game hub; **Stage 5** makes the early game runnable end-to-end (open-world arc spine, 6 faction-alignment quests, 5 recurring early-threat profiles, an existing-clue Act 1 access overlay with an R1 cap, 9 failure-redirect states, milestone/XP triggers, and an Act 1 NPC casting guide — all reusing existing content, no new central mystery/faction/god/cosmology/artifact). **The Stage 6 First Full Audit is the recommended next pass** (spanning Stages 1–5); do not scale outward (Stage 7+) until it clears.
 
 ---
 
@@ -14,10 +14,10 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 | Field | Value |
 |---|---|
-| Stage | 5 — Level 1–4 Play Arc (recommended next) |
-| Goal | Shape the Act 1 arc (default + alternate paths, first major dungeon, early villain, failure states) atop the deep region |
+| Stage | 6 — First Full Audit (recommended next) |
+| Goal | Verify the Stage 1–5 foundation before scaling outward (canon, secrecy, R1 gating, three-clue solvability, faction agency, solo-safety, state, indexes) |
 | Status | Not started |
-| Blocking Issues | None — Stages 1–4 are complete |
+| Blocking Issues | None — Stages 1–5 are complete |
 
 ---
 
@@ -27,19 +27,11 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 **Complete 2026-06-09.** Delivered 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, ~56 secondary+minor NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, and 4 solo-tuned zone encounter tables; clue paths and faction clocks anchored to real sites; all indexed and cross-linked. Targets met or exceeded. (Keystone drowned-shrine dungeon deferred to Stage 12 by design.)
 
-### Pass 2 — Level 1–4 Play Arc (Stage 5)
+### Pass 2 — DONE: Level 1–4 Play Arc (Stage 5)
 
-- **Goal:** Develop the early campaign arc with a default path, alternate paths, faction hooks, the first major dungeon, an early villain/threat profile, and playable failure states — while preserving open-world freedom.
-- **Files to create/edit:**
-  - `12_campaign_arc/ACT_1_LEVELS_1_4.md`
-  - Developed Act 1 quest files in `09_quests/`
-  - First major dungeon file in `10_dungeons_and_ruins/`
-  - Early villain/threat profile in `13_encounters_and_bestiary/`
-- **Suggested agent:** `quest-arc-designer` (with `encounter-bestiary-designer` for the dungeon and villain)
-- **Completion criteria:** A solo campaign can begin and run cleanly through level 4; the main arc is foreshadowed but not over-explained; failure states are playable; the first recurring adversary is established.
-- **Note:** Stage 4 (first major city) is complete as of 2026-06-10. Stage 5 can proceed immediately.
+**Complete 2026-06-10.** Delivered the open-world Act 1 play kit: the arc spine `ACT_1_LEVELS_1_4.md` (Five Doors + seven faction doors, multi-route to R1, ignore-consequences, Act 2 triggers); 6 faction-alignment quests in `09_quests/act_1_quests/` (Wardens, Compact, Ledger, Mourners, Gravecallers, Remnant — the Hollow Court has none by design); 5 recurring early-threat profiles `ACT_1_THREATS.md` (full stat profiles, solo-safe, scaling); the DM-only `ACT_1_CLUE_TRAILS.md` overlay (existing M1–M9 only; R1 cap; three-clue check); 9 redirect-not-end failure states `ACT_1_FAILURE_STATES.md`; multi-path milestone/XP triggers `ACT_1_MILESTONES.md`; and the Act 1 NPC casting guide `ACT_1_NPC_GUIDE.md`. Runtime ACTIVE_QUESTS/OPEN_THREADS seeded; anti-railroad verified; all L1–4 content mechanically complete; no new central mystery/faction/god/cosmology/artifact; reveals capped at R1. (Act 1 routes dungeon beats through the 6 Stage 3 Concord sites; a dedicated Act 1 climax dungeon is optional/deferred, and the keystone shrine stays Stage 12.)
 
-### Pass 3 — First Full Audit (Stage 6)
+### Pass 3 — First Full Audit (Stage 6) — RECOMMENDED NEXT
 
 - **Goal:** Verify the foundation is sound before scaling outward. Do not scale broken content.
 - **Files to create/edit:**

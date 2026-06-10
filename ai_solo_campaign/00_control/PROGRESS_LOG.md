@@ -6,6 +6,46 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-10 — Stage 5: Level 1–4 Play Arc (Act 1)
+
+### Stage
+Stage 5 — Level 1–4 Play Arc (complete)
+
+### Summary
+Built the open-world **Level 1–4 play kit** for "The Long Remembering" — an Act 1 toolkit (not a railroad) that lets an AI DM run levels 1–4 across many possible early paths atop the deep-built Sundering Reach. The kit reuses existing mysteries (M1–M9), existing major/secondary NPCs, existing factions and clocks, and existing dungeons; it created **no new central mystery, faction, god, cosmology, or artifact**, and caps every Act 1 reveal at **R1** (the failures have a source and a pattern, centered on the basin) per `REVELATION_MAP.md`. Completing work begun earlier in the stage (the arc spine `ACT_1_LEVELS_1_4.md` and the six `act_1_quests/` faction-alignment quests already existed), this pass added the five remaining pillars: (1) `ACT_1_THREATS.md` — five recurring early-threat profiles (Restless Remembrance, Wrathful Remembrance, Frontier Toughs, the Cult Radical's Hand/Cole Ashby, Rival Salvage Crews) with full D&D 5e/2024-compatible adversary profiles, solo-safe design (telegraph + morale + escape + a noncombat out for each), faction links kept DM-only, and scaling; (2) `ACT_1_CLUE_TRAILS.md` — a DM-only overlay mapping which existing clues a L1–4 player reaches, with 3–4 independent routes to R1 (personal/wilderness/political/exploration), per-mystery Act 1 ceilings, and the three-clue check, inventing no new clues; (3) `ACT_1_FAILURE_STATES.md` — nine failure cases (unresolved opening crisis, dead/lost patron, burned faction bridge, imprisonment, fleeing town, failed-dungeon retreat, antagonizing authorities, caught with the Gravecallers, lost opening clue), each redirecting play with immediate consequence + path forward + clocks advanced + NPC reactions, never ending the campaign; (4) `ACT_1_MILESTONES.md` — explicit L2/L3/L4 and L4→5 triggers earnable by multiple paths (combat never required) plus optional XP-style parity guidance, narrative unlocks, and faction-notice-by-level; (5) `ACT_1_NPC_GUIDE.md` — a casting guide pointing to existing NPCs as Act 1 allies/patrons/rivals/witnesses/complications with entry conditions and Safe Re-Entry Points for a lost player, creating no new NPCs. The Hollow Court correctly has no friendly faction quest (it is the apex villain); Reke appears only as a reasonable politician steering the player via Hook 4, never exposed. Runtime ACTIVE_QUESTS and OPEN_THREADS seeded with Act 1 quests/threads marked available/pre-play. Anti-railroad verified: the DM can run L1–4 with no fixed quest order; 4+ prepared routes beyond the default; every important conclusion has 3+ clue paths; ignoring the obvious hook still reaches prepared content; social/stealth/exploration/research/faction/dungeon/combat all supported; no single NPC/clue/dungeon/quest is mandatory; all L1–4 content is mechanically complete with no TBD stats.
+
+### Files Created
+- `12_campaign_arc/ACT_1_FAILURE_STATES.md`
+- `12_campaign_arc/ACT_1_MILESTONES.md`
+- `13_encounters_and_bestiary/ACT_1_THREATS.md`
+- `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`
+- `08_npcs/ACT_1_NPC_GUIDE.md`
+- (earlier in Stage 5) `12_campaign_arc/ACT_1_LEVELS_1_4.md`; `09_quests/act_1_quests/` (6 faction quests)
+
+### Files Changed
+- `02_runtime_state/ACTIVE_QUESTS.md` — Act 1 faction + regional quests added as available/pre-play
+- `02_runtime_state/OPEN_THREADS.md` — Act 1 faction-doors + geography-of-failure threads added (pre-play)
+- `00_control/CONTENT_INDEX.md`, `TAG_INDEX.md`, `RETRIEVAL_GUIDE.md` — all 5 new files + 6 quests indexed; `act:1` tag; Stage 5 load entries; status advanced to Stage 5 complete
+- `00_control/NAMING_REGISTRY.md` — Stage 5 note: no new proper nouns
+- `03_canon/CANON.md` (revision log) + `PLAYER_SAFE_CANON.md` (player-safe Act 1 arc facts)
+- `00_control/STAGE_STATUS.md`, `TODO.md`, `CONSISTENCY_AUDIT.md`, `17_generation_backlog/CONTENT_GAPS.md`, `EXPANSION_PLAN.md` — tracking advanced to Stage 5 complete; correspondent-thread TODO noted as Act 2/Stage 15
+- `00_control/STAGE_5_PROGRESS.md` — checkboxes completed; final state
+
+### Canon Established
+- No new world facts. Durable additions are *structural/play-layer only*: the Act 1 arc shape (Five Doors + faction doors), the L1–4 milestone triggers, the Act 1 failure-redirect playbook, the five recurring Act 1 threat profiles, and the R1 clue-access overlay. All consistent with Stages 1–4; recorded as a Stage 5 revision-log line in `CANON.md`. Player-safe arc facts (what the world looks like at campaign start) added to `PLAYER_SAFE_CANON.md`.
+
+### Indexes Updated
+- `CONTENT_INDEX.md` (arc, quest, mystery, encounter, NPC tables), `TAG_INDEX.md` (type tags + new `act:1` block + level:1-4 + region:sundering-reach), `RETRIEVAL_GUIDE.md` (Stage 5 Act 1 load entries)
+
+### Gaps Identified
+- The "Magisterium correspondent" thread (Reke ↔ a Caradril magister) remains an intentional open lead for Act 2 / Stage 15 (must not pre-reveal the Court).
+- Act 1 dungeon-reward items and `REWARDS_BY_LEVEL.md` still pending (Stage 14); the keystone drowned-shrine dungeon still deferred (Stage 12). Neither blocks Act 1 play.
+
+### Next Recommended Pass
+- **Stage 6 — First Full Audit** over Stages 1–5 (canon consistency, secret separation, R1 gating in Act 1 content, three-clue solvability, solo-play safety, state tracking, index completeness). Do not scale outward (Stage 7+) until the audit clears.
+
+---
+
 ## 2026-06-10 — Stage 4: First Major City Deep Build (Caradril)
 
 ### Stage

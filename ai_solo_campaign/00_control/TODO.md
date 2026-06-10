@@ -12,22 +12,22 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## High
 
-- [ ] Complete Stage 5: Level 1–4 Play Arc
-  - Why it matters: With the region now deep-built (Stage 3), the next highest-value pass is the shaped Act 1 narrative — a default path, alternate paths, faction decision points, the first major dungeon, an early villain/threat profile, and playable failure states — while preserving open-world freedom.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 5, `QUEST_STANDARDS.md`, `12_campaign_arc/`, the 14 Stage 3 developed quests in `09_quests/regional_quests/`
-  - Suggested agent: `quest-arc-designer` (+ `encounter-bestiary-designer`)
-  - Stage: 5
+- [ ] Run Stage 6: First Full Audit
+  - Why it matters: Do not scale a broken foundation. Stages 1–5 are now complete (foundation, runtime, region, city, Act 1 play kit); audit before any outward expansion (Stage 7+). Confirm canon consistency, secret separation (esp. R1 gating in Act 1 content and M7 non-exposure), three-clue solvability, faction agency, solo-play safety, state tracking, and index completeness.
+  - Related files: `AUDIT_STANDARDS.md`, `DEVELOPMENT_STAGES.md` Stage 6, all Stage 1–5 content
+  - Suggested agent: `canon-continuity-auditor`
+  - Stage: 6
+  - Blocker: none — Stages 1–5 complete
 
 ---
 
 ## Medium
 
-- [ ] Run Stage 6: First Full Audit
-  - Why it matters: Do not scale a broken foundation. Audit before major expansion.
-  - Related files: `AUDIT_STANDARDS.md`, `DEVELOPMENT_STAGES.md` Stage 6
-  - Suggested agent: `canon-continuity-auditor`
-  - Stage: 6
-  - Blocker: Requires Stages 1–5
+- [ ] Build the first major Act 1 dungeon as a dedicated set-piece (optional enrichment)
+  - Why it matters: Act 1 currently routes its dungeon beats through the six Stage 3 Concord sites (Peat Chapel, Sunken Tollhouse, Whispering Cairn, Ledger Vault, Barrow, Deep Adit), which is sufficient for play. A purpose-built Act 1 climax dungeon could sharpen the level 3→4 beat, but is not required (the keystone shrine is deferred to Stage 12 by design).
+  - Related files: `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `10_dungeons_and_ruins/`
+  - Suggested agent: `encounter-bestiary-designer`
+  - Stage: 5 (optional) / 12
 
 ---
 
@@ -86,9 +86,9 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Stage: 12
 
 - [ ] Resolve the "Magisterium correspondent" thread in play/arc (Caradril ↔ Reke)
-  - Why it matters: Stage 4 left this as an intentional open lead (M8-adjacent), never a named second Court agent. Stage 5/15 should decide how it resolves through play without pre-revealing the Hollow Court.
-  - Related files: `06_settlements/caradril_districts/THE_MAGISTERIUM.md`, `02_runtime_state/HIDDEN_CLUES.md` (C-M8 city anchor), `12_campaign_arc/`
-  - Stage: 5 / 15
+  - Why it matters: Stage 4 left this as an intentional open lead (M8-adjacent), never a named second Court agent. Stage 5 confirmed it stays a *lead* through Act 1 (Act 1 caps at R1; the steering employer is murky — R4 is Act 2–3). Stage 15 (Act 2/3) should decide how it resolves through play without pre-revealing the Hollow Court.
+  - Related files: `06_settlements/caradril_districts/THE_MAGISTERIUM.md`, `02_runtime_state/HIDDEN_CLUES.md` (C-M8 city anchor), `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md` (M8 ceiling), `12_campaign_arc/`
+  - Stage: 15
 
 - [ ] Stat the Stage 3 dungeon rewards by level (e.g. the Barrow of Nine Doors magic item) and create `REWARDS_BY_LEVEL.md`
   - Why it matters: Stage 3 dungeon files reference level-appropriate rewards that need concrete items.
@@ -101,6 +101,7 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## Completed Recently
 
+- [x] Stage 5: Level 1–4 Play Arc (Act 1) — 2026-06-10 (open-world Act 1 play kit: arc spine `ACT_1_LEVELS_1_4.md` + 6 faction-alignment quests `act_1_quests/` + 5 recurring early-threat profiles `ACT_1_THREATS.md` + Act 1 clue-trails overlay `ACT_1_CLUE_TRAILS.md` (existing M1–M9; R1 cap; three-clue check) + 9 failure-redirect states `ACT_1_FAILURE_STATES.md` + L2/3/4 milestone/XP triggers `ACT_1_MILESTONES.md` + Act 1 NPC casting guide `ACT_1_NPC_GUIDE.md`; runtime ACTIVE_QUESTS/OPEN_THREADS seeded; anti-railroad verified; all L1–4 content mechanically complete; no new central mystery/faction/god/cosmology/artifact; reveals capped at R1; Hollow Court never exposed)
 - [x] Stage 4: First Major City Deep Build (Caradril) — 2026-06-10 (city overview + 8 district files incl. the Sunken Wards sub-dungeon; 15 city secondary + 25 city minor NPCs; 11 developed city quests; 36 hooks + 30 rumors; city encounter/social-scene tables; 4 city-internal factions + 3 city clocks (C1/C2/C3); Ledger HQ + Remnant seat located; M2/M3/M4/M6/M8/M9 city clue access added with no new mysteries; M7/Hollow Court never named in the city; Act-3 gating on the Sealed Archive; solo-safe and secrecy-separated; indexes/canon/registry/state updated)
 - [x] Stage 3: Starting Region Deep Build — 2026-06-09 (8 settlements, 4 wilderness zone-files/~25 sites, 6 dungeons/ruins, ~56 NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, 4 zone encounter tables; all five registered secondary-NPC placeholders completed; clue/clock anchors added; indexes/canon/registry updated; solo-safe and secrecy-separated throughout)
 - [x] Stage 2 cleanup pass — 2026-06-09 (fixed stale CONTENT_GAPS/EXPANSION_PLAN/CONSISTENCY_AUDIT to reflect Stages 1–2 complete; populated CLUE_INDEX and HIDDEN_CLUES from the mystery web with all clues hidden at start; added D&D mechanical completeness fields/sections to NPC, quest, content, faction, and worldbuilding standards templates — Critical TODO cleared)

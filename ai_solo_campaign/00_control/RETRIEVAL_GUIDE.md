@@ -6,7 +6,7 @@ Tells the AI DM which files to load, when to load them, and how to use them. Thi
 
 ## Current Status
 
-Stages 1, 2, 3, and 4 complete. Session load order, contextual load rules, pre-content-generation checks, and secrecy enforcement are operational. Sundering Reach (Stage 3) and Caradril city (Stage 4) world content load entries are live below.
+Stages 1, 2, 3, 4, and 5 complete. Session load order, contextual load rules, pre-content-generation checks, and secrecy enforcement are operational. Sundering Reach (Stage 3), Caradril city (Stage 4), and the Level 1–4 Act 1 play kit (Stage 5) world content load entries are live below.
 
 ---
 
@@ -224,6 +224,37 @@ The mid-game hub (~levels 5–12, with level 3–5 on-ramps and level 12+ thread
 - `11_mysteries_and_secrets/CLUE_INDEX.md` + `02_runtime_state/HIDDEN_CLUES.md` (Stage 4 Caradril anchors) — DM-only; the city's M2/M3/M4/M6/M8/M9 access points
 
 **Caradril secrecy reminder:** the Sealed Archive (M6/M9) is Act 3 / L9–12; earlier visits give M2/M3 *fragments and demonstrations*. **Never name the Hollow Court (M7) in Caradril.** The Reke "correspondent" thread is a *lead*, not a named second agent — do not pre-resolve it.
+
+---
+
+## Stage 5 Act 1 Load Entries (Levels 1–4 Play Kit)
+
+The open-world Act 1 toolkit. Load when starting a campaign or planning/running any L1–4 session in the Sundering Reach. **Reveal cap for the whole act: R1 only** (the failures have a source and a pattern; the basin is the center) — never surface Remembrance-as-substance, Reke's treachery, the steering employer, the Concord's sin, or the Hollow Court.
+
+### Arc Spine (load at campaign start and when planning an Act 1 session)
+- `12_campaign_arc/ACT_1_LEVELS_1_4.md` — the open-world Act 1 spine: the Five Doors + seven faction doors, multi-route to R1, ignore-consequences, Act 2 triggers. The DM's Act 1 map.
+- `12_campaign_arc/ACT_1_MILESTONES.md` — explicit L2/3/4 + L4→5 level-up triggers (multiple paths; optional XP guidance). Load when deciding a level-up.
+- `12_campaign_arc/ACT_1_FAILURE_STATES.md` — 9 redirect-not-end failure cases. Load when the player fails, flees, is jailed, or burns a bridge.
+
+### Act 1 Quests (load when a faction door is engaged)
+- `09_quests/act_1_quests/Q_ACT1_WARDEN_THE_TRUE_RITE.md` — Ashen Wardens (Hook 9 / Wren)
+- `09_quests/act_1_quests/Q_ACT1_COMPACT_THE_REEVES_DOUBT.md` — Reachward Compact (Hook 5)
+- `09_quests/act_1_quests/Q_ACT1_LEDGER_A_QUIET_SALVAGE.md` — Cinder Ledger (Hook 3)
+- `09_quests/act_1_quests/Q_ACT1_MOURNER_SALT_AND_SONG.md` — Mourners' Circle (Hook 2)
+- `09_quests/act_1_quests/Q_ACT1_GRAVECALLER_A_LAST_WORD.md` — Gravecallers (Hook 7)
+- `09_quests/act_1_quests/Q_ACT1_REMNANT_THE_VISITING_SCHOLAR.md` — Concord Remnant (Hook 8)
+- (The Hollow Court has **no** friendly quest by design; Reke's covert steering runs through Hook 4 in `HOOKS_TABLE.md`.)
+
+### Act 1 Threats (load during a L1–4 combat/encounter scene)
+- `13_encounters_and_bestiary/ACT_1_THREATS.md` — the 5 recurring early-threat profiles (Restless/Wrathful Remembrance, Frontier Toughs, Cult Radical's Hand, Rival Salvage Crew); full stat profiles, solo-safe, noncombat outs, scaling. Use alongside `SUNDERING_REACH_ENCOUNTERS.md`.
+
+### Act 1 Clue Access (DM-only; load when delivering a clue at L1–4)
+- `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md` — which existing M1–M9 clues a L1–4 player reaches, the multi-route access to R1, and the three-clue check. **DM-only.** Use with `CLUE_INDEX.md` + `HIDDEN_CLUES.md`.
+
+### Act 1 NPC Casting (load when staffing an Act 1 scene or if the player is stuck)
+- `08_npcs/ACT_1_NPC_GUIDE.md` — existing NPCs as Act 1 allies/patrons/rivals/witnesses/complications, with entry conditions and **Safe Re-Entry Points** for a lost player. No new NPCs — points into `MAJOR_NPCS.md`/`SECONDARY_NPCS.md`.
+
+**Act 1 secrecy reminder:** Reke is a *reasonable politician with a project*, not an exposed traitor; the shrine is a *hazard and a shape*, not a named engine; the dead are *drawn to the water* for reasons unknown. Cap every Act 1 reveal at R1.
 
 ---
 

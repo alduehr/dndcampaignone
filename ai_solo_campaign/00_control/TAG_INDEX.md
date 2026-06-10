@@ -6,7 +6,7 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stages 1, 2, 3, and 4 complete.** Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region Deep Build + **Stage 4 First Major City Deep Build (Caradril)**. Stage 4 added: `06_settlements/CARADRIL.md` + 8 district files (`06_settlements/caradril_districts/`), 15 city secondary + 25 city minor NPCs (appended to `SECONDARY_NPCS.md`/`MINOR_NPCS.md`), 11 city quests (`09_quests/city_quests/`), `CARADRIL_HOOKS.md` + `CARADRIL_RUMORS.md`, and `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`. New tags introduced: `region:caradril`, `district`, `major-city`, `city-faction`. All Caradril files registered below. No content files carry `status:placeholder`. Stage 5 (Act 1 arc) and Stage 6 (first audit) are next.
+**Stages 1, 2, 3, 4, and 5 complete.** Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region Deep Build + Stage 4 First Major City Deep Build (Caradril) + **Stage 5 Level 1–4 Play Arc**. Stage 4 added the Caradril files (see `region:caradril`). **Stage 5 added:** `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `ACT_1_MILESTONES.md`, `ACT_1_FAILURE_STATES.md`; `09_quests/act_1_quests/` (6 faction quests); `13_encounters_and_bestiary/ACT_1_THREATS.md`; `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`; `08_npcs/ACT_1_NPC_GUIDE.md`. New tag introduced: `act:1`. All Stage 5 files registered below. No content files carry `status:placeholder`. Stage 6 (first audit) is next.
 
 > Caradril file membership is consolidated under **`region:caradril`** (Region Tags section) for fast retrieval; individual files also appear under their type/secrecy/status tags.
 
@@ -54,6 +54,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `08_npcs/MAJOR_NPCS.md`
 - `08_npcs/SECONDARY_NPCS.md`
 - `08_npcs/MINOR_NPCS.md`
+- `08_npcs/ACT_1_NPC_GUIDE.md` (Act 1 casting guide; act:1)
 - `08_npcs/NPC_INDEX.md`
 
 ### type:faction
@@ -98,6 +99,12 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `09_quests/city_quests/Q_THE_BELLMANS_PRICE.md`
 - `09_quests/city_quests/Q_BELOW_THE_STILLING.md`
 - `09_quests/city_quests/Q_THE_TIDE_TURNS.md`
+- `09_quests/act_1_quests/Q_ACT1_WARDEN_THE_TRUE_RITE.md`
+- `09_quests/act_1_quests/Q_ACT1_COMPACT_THE_REEVES_DOUBT.md`
+- `09_quests/act_1_quests/Q_ACT1_LEDGER_A_QUIET_SALVAGE.md`
+- `09_quests/act_1_quests/Q_ACT1_MOURNER_SALT_AND_SONG.md`
+- `09_quests/act_1_quests/Q_ACT1_GRAVECALLER_A_LAST_WORD.md`
+- `09_quests/act_1_quests/Q_ACT1_REMNANT_THE_VISITING_SCHOLAR.md`
 
 ### type:mystery
 - `11_mysteries_and_secrets/MYSTERY_WEB.md`
@@ -107,6 +114,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 ### type:clue
 - `11_mysteries_and_secrets/MYSTERY_WEB.md` (clue paths embedded)
 - `11_mysteries_and_secrets/CLUE_INDEX.md` (all authored clues; populated)
+- `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md` (Act 1 L1–4 access overlay; act:1)
 - `02_runtime_state/HIDDEN_CLUES.md` (runtime mirror; all hidden at start)
 
 ### type:dungeon
@@ -123,6 +131,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 ### type:encounter
 - `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
 - `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`
+- `13_encounters_and_bestiary/ACT_1_THREATS.md` (5 recurring Act 1 adversary profiles; act:1)
 
 ### type:artifact
 - Remembrance relics — referenced in `03_canon/MAGIC_RULES.md` (full build Stage 14)
@@ -139,6 +148,9 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `03_canon/CALENDAR.md`
 - `03_canon/LANGUAGES.md`
 - `03_canon/LEVELING_ASSUMPTIONS.md`
+- `12_campaign_arc/ACT_1_LEVELS_1_4.md` (Act 1 arc spine; act:1)
+- `12_campaign_arc/ACT_1_MILESTONES.md` (act:1)
+- `12_campaign_arc/ACT_1_FAILURE_STATES.md` (act:1)
 
 ### type:runtime
 - `01_runner_protocol/AI_DM_CORE_RULES.md`
@@ -257,6 +269,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `11_mysteries_and_secrets/MYSTERY_WEB.md`
 - `11_mysteries_and_secrets/REVELATION_MAP.md`
 - `11_mysteries_and_secrets/CLUE_INDEX.md`
+- `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`
 - `11_mysteries_and_secrets/SECRET_INDEX.md`
 - `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`
 - `16_ai_session_packs/RESUME_CAMPAIGN_PROMPT.md`
@@ -297,6 +310,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `02_runtime_state/NEXT_SESSION_START.md`
 - `16_ai_session_packs/SESSION_END_UPDATE_CHECKLIST.md`
 - **All Stage 4 Caradril content files** (`06_settlements/CARADRIL.md`, the 8 `caradril_districts/` files, `09_quests/city_quests/*`, `09_quests/hooks_and_rumors/CARADRIL_HOOKS.md` + `CARADRIL_RUMORS.md`, `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`) — see the consolidated `region:caradril` block
+- **All Stage 5 Act 1 content files except the dm-only clue trails:** `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `ACT_1_MILESTONES.md`, `ACT_1_FAILURE_STATES.md`; `13_encounters_and_bestiary/ACT_1_THREATS.md`; `08_npcs/ACT_1_NPC_GUIDE.md`; `09_quests/act_1_quests/*` — see the `act:1` block
 
 ---
 
@@ -356,6 +370,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `11_mysteries_and_secrets/SECRET_INDEX.md`
 - `11_mysteries_and_secrets/CLUE_INDEX.md`
 - **All Stage 4 Caradril content files** (`06_settlements/CARADRIL.md`, the 8 `caradril_districts/` files, `09_quests/city_quests/*`, `09_quests/hooks_and_rumors/CARADRIL_*.md`, `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`) — see `region:caradril`
+- **All Stage 5 Act 1 content files** (`12_campaign_arc/ACT_1_LEVELS_1_4.md`, `ACT_1_MILESTONES.md`, `ACT_1_FAILURE_STATES.md`; `09_quests/act_1_quests/*`; `13_encounters_and_bestiary/ACT_1_THREATS.md`; `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`; `08_npcs/ACT_1_NPC_GUIDE.md`) — see `act:1`
 
 ### status:runtime
 - `03_canon/PLAYER_SAFE_CANON.md` — updated as player discovers facts
@@ -456,6 +471,22 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `09_quests/RUMORS_TABLE.md`
 - `16_ai_session_packs/OPENING_SCENES.md`
 - `16_ai_session_packs/SOLO_SAFETY_START.md`
+- `12_campaign_arc/ACT_1_LEVELS_1_4.md`
+- `12_campaign_arc/ACT_1_MILESTONES.md`
+- `12_campaign_arc/ACT_1_FAILURE_STATES.md`
+- `09_quests/act_1_quests/` (6 faction quests)
+- `13_encounters_and_bestiary/ACT_1_THREATS.md`
+- `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`
+- `08_npcs/ACT_1_NPC_GUIDE.md`
+
+### act:1 (Stage 5 — Level 1–4 Play Arc)
+- `12_campaign_arc/ACT_1_LEVELS_1_4.md` — arc spine (mixed)
+- `12_campaign_arc/ACT_1_MILESTONES.md` — level-up triggers (mixed)
+- `12_campaign_arc/ACT_1_FAILURE_STATES.md` — failure redirects (mixed)
+- `09_quests/act_1_quests/` — 6 faction-alignment quests (mixed)
+- `13_encounters_and_bestiary/ACT_1_THREATS.md` — recurring early threats (mixed)
+- `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md` — L1–4 clue access overlay (dm-only)
+- `08_npcs/ACT_1_NPC_GUIDE.md` — Act 1 NPC casting guide (mixed)
 
 ### level:5-8
 - `07_factions/major_factions/CONCORD_REMNANT.md` (rises Act 2–3)
@@ -573,8 +604,11 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `09_quests/HOOKS_TABLE.md`, `09_quests/RUMORS_TABLE.md`
 - `09_quests/hooks_and_rumors/` (regional hooks + rumors)
 - `09_quests/regional_quests/` (14 developed quests)
+- `09_quests/act_1_quests/` (6 Act 1 faction quests — Stage 5)
 - `10_dungeons_and_ruins/` (6 dungeons/ruins)
-- `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
+- `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`, `ACT_1_THREATS.md` (Stage 5)
+- `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `ACT_1_MILESTONES.md`, `ACT_1_FAILURE_STATES.md` (Stage 5)
+- `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`, `08_npcs/ACT_1_NPC_GUIDE.md` (Stage 5)
 - `16_ai_session_packs/OPENING_SCENES.md`
 - All seven major faction files (present in the Reach)
 

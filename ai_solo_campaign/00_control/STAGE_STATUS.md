@@ -6,8 +6,8 @@ Live status of each development stage. Updated after every stage completes, part
 
 ## Current Status
 
-**Active Stage:** Stage 5 — Level 1–4 Play Arc (not started) / Stage 6 — First Full Audit (not started)
-**Last Completed Stage:** Stage 4 — First Major City Deep Build (Caradril) (complete 2026-06-10)
+**Active Stage:** Stage 6 — First Full Audit (not started)
+**Last Completed Stage:** Stage 5 — Level 1–4 Play Arc (Act 1) (complete 2026-06-10)
 
 ---
 
@@ -20,8 +20,8 @@ Live status of each development stage. Updated after every stage completes, part
 | 2 | AI Runtime Foundation | complete | 100% | none | All 18 runner protocols + 5 session-pack files written; 8 runtime state files seeded from Stage 1; start/resume prompts ready; all completion criteria met 2026-06-09. Cleanup pass 2026-06-09: stale tracking files (CONTENT_GAPS, EXPANSION_PLAN, CONSISTENCY_AUDIT) corrected; CLUE_INDEX + HIDDEN_CLUES populated; D&D mechanical fields added to the 5 content-standards templates (Critical TODO cleared) |
 | 3 | Starting Region Deep Build | complete | 100% | none | 2026-06-09: 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, ~56 new NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, 4 zone encounter tables; all indexed/cross-linked; clue access anchored to the existing mystery web; clocks anchored to region sites. Targets met or exceeded. Keystone drowned shrine dungeon deferred to Stage 12 by design |
 | 4 | First Major City Deep Build | complete | 100% | none | 2026-06-10: **Caradril** deep-built — city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary + 25 city minor NPCs, 11 developed city quests, 36 hooks + 30 rumors, city encounter/social-scene tables; 4 city-internal factions + 3 city clocks (C1/C2/C3); city clue access feeds existing M2/M3/M4/M6/M8/M9; Ledger HQ + Remnant seat located; all indexed/cross-linked. Targets met or exceeded. No new central mystery/faction/god/cosmology/artifact created |
-| 5 | Level 1–4 Play Arc | not started | 0% | — | Depends on Stages 1–3 |
-| 6 | First Full Audit | not started | 0% | — | Depends on Stages 1–5 |
+| 5 | Level 1–4 Play Arc | complete | 100% | none | 2026-06-10: open-world Act 1 play kit — arc spine + 6 faction-alignment quests (`act_1_quests/`) + 5 recurring early-threat profiles (`ACT_1_THREATS.md`) + Act 1 clue-trails overlay (existing M1–M9; R1 cap) + 9 failure-redirect states + L2/3/4 milestone/XP triggers + Act 1 NPC casting guide; runtime ACTIVE_QUESTS/OPEN_THREADS seeded; anti-railroad verified; all L1–4 content mechanically complete. No new central mystery/faction/god/cosmology/artifact; reveals capped at R1; Hollow Court never exposed (no friendly Court quest by design) |
+| 6 | First Full Audit | not started | 0% | — | Depends on Stages 1–5 (now all complete) |
 | 7 | Regional Expansion Ring 1 | not started | 0% | — | Depends on Stage 6 |
 | 8 | Faction Deepening | not started | 0% | — | Depends on Stages 1, 3 |
 | 9 | NPC Codex Expansion | not started | 0% | — | Depends on Stages 1, 3 |
