@@ -138,6 +138,18 @@ These extend, never contradict, the core secret. The Hollowmere shrine remains t
 
 All Stage 3 clue access points feed the existing M1–M9 chains and the three-clue rule; **no new central mystery, faction, god, cosmology, or artifact was created.**
 
+## Stage 4 Additions (Caradril — DM Context)
+
+These extend, never contradict, the core secret. Caradril is the mid-game **library, bank, and battlefield** — the place where the conspiracy lives in daylight.
+
+- **The "Stilling" is the harvest's pause.** Caradril's century of blessed prosperity is a *side-effect of the Quietfall pause* — with the harvest stopped, the region's drain eased, and the relief read as good fortune. **The city is, unknowingly, living inside the success of the very crime the player is uncovering.** This is a late, earned thematic key (M6/M9), never an early reveal.
+- **The Vyre–Quorrin deal is negotiated in Caradril.** The Cinder Ledger's HQ (the Ledger Keep) and the Concord Remnant's true vault (the **Sealed Archive**) are both here; Vyre and Quorrin are bargaining their Remembrance monopoly *in this city*, each planning to betray the other. The city clock **C1 The Deal Closes** drives this; it feeds the existing Monopoly (#6) and Reclamation (#7) clocks.
+- **The Sealed Archive holds the clearest written proof** of the harvest (C-M6-1) and the deliberate Quietfall (C-M9). It is the Act-3 truth-cache — Script-gated and act-paced (L9–12). **It points toward M7 but must never name the Hollow Court;** the apex stays for convergence elsewhere.
+- **The Sunken Wards are a minor, dormant cousin of the Reach's harvest-network nodes** — a lower Concord level beneath the city that was part of the same continental system but was never a major node and has lain still through the Stilling. As the master harvest reawakens far off, the Wards *faintly warm* (C-M2 fragment: proof the network is continental). The Remnant has secretly mapped them. **They are NOT the keystone** — a deliberate smaller echo of the Reach's Deep Adit.
+- **The Magisterium correspondent thread:** Councilor Reke corresponds with someone seated in the Tidewater Council. **This is a lead, never a named second Court agent.** Let the player investigate it; do not pre-resolve it into a reveal.
+- **Caradril's own crisis is hidden in plain sight:** Highmourn's raise-dead failures are covered up by Mother Ysarra (Secret 7 — a city M1/M5 echo); thin-born refugees gather in the Sill (M10 made local); quiet-coin relics and the Crucible's smelting demonstrate M3 commercially and by accident. The city clock **C3 The City's Denial Cracks** tracks this.
+- **No new central mystery, faction, god, cosmology, or artifact was created in Stage 4.** All city clue access feeds the existing M2/M3/M4/M6/M8/M9 chains and the three-clue rule. M3/M6/M9 remain reachable in the Reach too, so a player who never visits Caradril is never blocked.
+
 ## Player Steering Note (DM Caution)
 
 The PC is being subtly steered toward the shrine by a Hollow Court cutout (via Sefra Quick), but **the campaign must never railroad**. The steering is a hook, not a track. If the player ignores or resists it, the world clocks (`WORLD_CLOCKS.md`) advance the harvest anyway, and other factions act. The steering should feel like opportunity, never compulsion.

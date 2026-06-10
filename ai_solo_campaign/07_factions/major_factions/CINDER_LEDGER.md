@@ -116,7 +116,7 @@ Debt, blacklisting, hired pressure, framing, and turning a town against the play
 Vyre, Domic Sael, Tallytooth Ren.
 
 ## Related Locations
-Hollowmere counting-house, Caradril HQ, salvage warehouses.
+Hollowmere counting-house; **Caradril HQ — the Ledger Keep** (Counting-Quays; Vyre's seat, Provost Vell, the deep-vault relic, the Vyre–Quorrin deal); salvage warehouses; the Ashmarket (relic skim). See `../../06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` and the city clock **C1 The Deal Closes**.
 
 ## Related Mysteries
 What Remembrance is; who profits from the harvest; the relic that remembers.
@@ -125,3 +125,5 @@ What Remembrance is; who profits from the harvest; the relic that remembers.
 - [`../../08_npcs/MAJOR_NPCS.md`](../../08_npcs/MAJOR_NPCS.md)
 - [`CONCORD_REMNANT.md`](CONCORD_REMNANT.md)
 - [`../../11_mysteries_and_secrets/MYSTERY_WEB.md`](../../11_mysteries_and_secrets/MYSTERY_WEB.md)
+- [`../../06_settlements/caradril_districts/THE_COUNTING_QUAYS.md`](../../06_settlements/caradril_districts/THE_COUNTING_QUAYS.md)
+- [`../../09_quests/city_quests/Q_THE_QUAY_CHARTER.md`](../../09_quests/city_quests/Q_THE_QUAY_CHARTER.md)

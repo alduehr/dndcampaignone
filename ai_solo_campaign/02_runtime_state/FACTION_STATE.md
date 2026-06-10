@@ -98,6 +98,54 @@ Current state of all major factions relative to the player character and relativ
 
 ---
 
+## Caradril City Factions (Stage 4 — city-internal)
+
+> The first major city's internal power blocs. The Cinder Ledger (HQ: the Ledger Keep) and Concord Remnant (seat: the Lantern Reach) are already covered above — Caradril is their home ground. These four are city-internal. All start neutral/unaware of the player at campaign start. DM-only causes never narrated.
+
+### Tidewater Council / Charter Houses
+
+- **Current attitude toward player:** unaware (a frontier outsider; useful or a nuisance)
+- **What faction wants from player (current, surface):** nothing yet; later, a tipping voice in charter politics (Sefa Dann), or a tool (Esren Tolm)
+- **Faction's current activity:** governing a complacent city; an open charter contested; shelving the Reach's warnings
+- **Clock status:** C2 The Council Sleeps — Stage 1
+- **DM-only:** complacency masks that Caradril's prosperity is the harvest's pause; an unidentified magister corresponds with Reke (lead only — never a named second Court agent)
+- **Next likely action:** resolve the open charter (default: Ledger/old-House win); keep ignoring the crisis
+- **File:** `../06_settlements/caradril_districts/THE_MAGISTERIUM.md`
+
+### Tide-Watch (city watch)
+
+- **Current attitude toward player:** unaware (watches outsiders; friendlier to charter-holders)
+- **What faction wants from player (current, surface):** order kept; Captain Kade may quietly want an honest off-record hand
+- **Faction's current activity:** policing the upper city and Quays; neglecting the Sill; bribable at the edges
+- **Clock status:** tied to C2; active in `Q_THE_TIDE_TURNS`
+- **DM-only:** Kade is privately disgusted by the law's class-bias; a turnable lawful ally
+- **Next likely action:** enforce charter law; respond to player crimes; Kade weighs the Syndicate problem
+- **File:** `../13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md` (stat refs); `THE_MAGISTERIUM.md`
+
+### Salt Syndicate (criminal — smuggling/relic black market)
+
+- **Current attitude toward player:** unaware (a possible customer, fence, or obstacle)
+- **What faction wants from player (current, surface):** discreet work; trade; non-interference (Sorrel)
+- **Faction's current activity:** running the quiet-coin trade and smuggling; uneasy truce with the Ledger
+- **Clock status:** feeds C1/C3 via the relic trade; active in `Q_QUIET_COIN`, `Q_THE_TIDE_TURNS`
+- **DM-only:** sells relics that hold the dead without grasping what they are (M3 made commercial); shelters the Sill the Watch neglects
+- **Next likely action:** keep the quiet-coin trade running; manage the Hush and the Watch
+- **File:** `../06_settlements/caradril_districts/THE_ASHMARKET.md`
+
+### The Hush (criminal — information/blackmail)
+
+- **Current attitude toward player:** unaware (a potential client — and a future debtor)
+- **What faction wants from player (current, surface):** to sell secrets for coin, favors, or names (the Bellman)
+- **Faction's current activity:** brokering the city's secrets (incl. fragments of the deal, the correspondent thread, the Wards route)
+- **Clock status:** feeds C1/C2; active in `Q_THE_BELLMANS_PRICE`, `Q_THE_TIDE_TURNS`
+- **DM-only:** every secret sold carries a hidden price; a fair, dangerous shortcut to mid-arc clues
+- **Next likely action:** keep knowing and selling; collect on debts owed
+- **File:** `../06_settlements/caradril_districts/THE_SILL.md`
+
+> **Caradril note on the Ledger & Remnant:** their entries above (Monopoly/Reclamation clocks) now have their *headquarters* detailed in Caradril — the Ledger Keep (Counting-Quays) and the Sealed Archive/Lamplighters' Hall (Lantern Reach). The Vyre–Quorrin **deal is negotiated in Caradril** (city clock C1), intersecting the Monopoly (#6) and Reclamation (#7) clocks.
+
+---
+
 ## Faction Relationship Summary
 
 Full map in `../07_factions/FACTION_INDEX.md`. Key live tensions at campaign start:

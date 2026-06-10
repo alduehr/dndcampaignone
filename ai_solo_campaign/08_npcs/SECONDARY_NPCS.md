@@ -4,11 +4,11 @@
 type: npc
 secrecy: mixed
 status: static
-region: Sundering Reach
-factions: [Ashen Wardens, Cinder Ledger, Mourners' Circle, Reachward Compact, Gravecallers, Concord Remnant]
-level_range: 1-5
-related: [MAJOR_NPCS.md, MINOR_NPCS.md, NPC_INDEX.md, ../07_factions/FACTION_INDEX.md]
-tags: [type:npc, secrecy:mixed, secondary-npc, region:sundering-reach]
+region: Sundering Reach; Caradril
+factions: [Ashen Wardens, Cinder Ledger, Mourners' Circle, Reachward Compact, Gravecallers, Concord Remnant, Tidewater Council, Tide-Watch, Salt Syndicate, The Hush]
+level_range: 1-14
+related: [MAJOR_NPCS.md, MINOR_NPCS.md, NPC_INDEX.md, ../07_factions/FACTION_INDEX.md, ../06_settlements/CARADRIL.md]
+tags: [type:npc, secrecy:mixed, secondary-npc, region:sundering-reach, region:caradril]
 ---
 
 ## AI Use
@@ -247,6 +247,162 @@ Secondary NPCs of the Sundering Reach — recurring local characters tied to set
 
 ---
 
+## Caradril (Stage 4 — First Major City)
+
+> Caradril is the SE city-state (~10–12 days from Hollowmere), the Cinder Ledger's HQ and the Concord Remnant's seat. Major NPCs Calla Vyre, Quorrin Vane, and Lector Briss are seated here (see `MAJOR_NPCS.md`). These fifteen secondary NPCs populate its districts. Player-safe role vs. DM secret kept separate; Combat Relevance per Tier 2.
+
+### Magister Halloran Voss — Tidewater Council (First Magister)
+- **Location:** Caradril, the Magisterium (Magisters' Hall). **Role:** Head of the ruling council.
+- **First Impression:** A genial, well-fed man who agrees with whoever spoke last and dreads having to decide.
+- **Motivation:** Keep Caradril calm, prosperous, and himself unblamed; avoid the Reach crisis being "his problem."
+- **Secret / Complication (DM):** He has quietly taken Ledger money and is compromised on the relic-trade vote; he is not part of the conspiracy, only weak — a pressure point, and the path to the unidentified "Magisterium correspondent" thread (he may, without knowing, be the conduit Reke writes to, or know who is — keep this a lead).
+- **Relationship Link:** Chairs the council; beholden to the Charter Houses and (secretly) the Ledger; outmaneuvered by Tolm, pushed by Dann.
+- **What They Know:** Council business; which magisters owe whom; the pile of ignored Reach petitions.
+- **How They Enter Play:** `Q_THE_OPEN_CHARTER`; any council hearing; the correspondent thread.
+- **Combat Relevance:** none — **Noble-like** (AC 12, ~27 HP), noncombatant.
+
+### Magister Sefa Dann — Tidewater Council (reform bloc)
+- **Location:** Caradril, the Magisterium / the Wardmoot. **Role:** Reform magister; the player's lever to make the council act.
+- **First Impression:** A sharp, tired woman of modest charter who says the unwelcome true thing in a room that wants comfort.
+- **Motivation:** Force Caradril to heed the Reach crisis and rein in the relic-trade before it's too late.
+- **Secret / Complication (DM):** She is genuinely good and genuinely outgunned; allying with her risks her ruin (Tolm and the Ledger will move against her). A sincere ally who needs the player's evidence and muscle to survive politically.
+- **Relationship Link:** Leads the Wardmoot reformers; rival of Tolm; courted by the ignored Wardens; would ally with Briss if disillusioned.
+- **What They Know:** Who blocks reform and why; the relic-trade's spread; the ignored Warden warnings.
+- **How They Enter Play:** `Q_THE_OPEN_CHARTER`, the relic-trade vote, carrying the Reach's warning to the council.
+- **Combat Relevance:** none — **Noble/Acolyte-like** (AC 12, ~22 HP), noncombatant.
+
+### Charter-Lord Esren Tolm — Charter Houses (old money)
+- **Location:** Caradril, the Magisterium. **Role:** Head of the oldest Charter House; the Ledger's rival.
+- **First Impression:** A cold, courteous aristocrat who treats the city as his family's property on loan to everyone else.
+- **Motivation:** Preserve the old Houses' dominance; humble the upstart Cinder Ledger; keep the comfortable order.
+- **Secret / Complication (DM):** He hates the Ledger enough to *help the player against Vyre* — for his own ends, not justice. A dangerous ally of convenience; he'd ruin the player the moment they stop being useful.
+- **Relationship Link:** Rival of Vyre and the Ledger; blocks Dann's reform; commands old-House clients and Tide-Watch favor.
+- **What They Know:** The Houses' secrets; the Ledger's overreach; council leverage.
+- **How They Enter Play:** `Q_THE_OPEN_CHARTER`; anti-Ledger schemes; a treacherous patron.
+- **Combat Relevance:** none — **Noble-like** (AC 13, ~31 HP), noncombatant; fights with charters and clients.
+
+### Captain Yorell Kade — Tide-Watch (city watch)
+- **Location:** Caradril, citywide (barracks in the Magisterium). **Role:** Commands the city watch.
+- **First Impression:** A square, scarred professional who enforces the law as written and resents how it's written for the rich.
+- **Motivation:** Keep the city orderly; do his job honestly within a corrupt frame.
+- **Secret / Complication (DM):** Privately disgusted by how the Watch favors the Quays over the Sill; he'll quietly back a player who does the right thing where the law won't — a turnable lawful ally.
+- **Relationship Link:** Answers to the council; harder on the Sill by order, not conviction; respects competence.
+- **What They Know:** City crime; who's bribable; movements and incidents (useful for tails/leads).
+- **How They Enter Play:** Deputization, bail, the Watch's response to player crimes; backing the player off-record.
+- **Combat Relevance:** **Knight/Veteran-like** (AC 18, ~90 HP, Leadership). The city's toughest lawful fighter; never a default fight.
+
+### Provost Anneth Vell — Cinder Ledger (Caradril deputy)
+- **Location:** Caradril, the Ledger Keep (Counting-Quays). **Role:** Runs the Keep; Vyre's Caradril right hand.
+- **First Impression:** A precise, unsmiling woman who has read your debts before you sit down.
+- **Motivation:** Run the Keep flawlessly; protect Vyre's interests; rise.
+- **Secret / Complication (DM):** She knows about the Quorrin deal and the deep-vault relic and disapproves of neither — but she fears it's going wrong and keeps her own insurance. Colder and more loyal than Domic Sael; harder to turn, but corruptible by self-interest.
+- **Relationship Link:** Vyre's deputy; commands Ledger muscle and clerks (incl. Coll Riis); rival of Tolm's House.
+- **What They Know:** The Keep's secrets; the deal's shape; the deep vault.
+- **How They Enter Play:** `Q_THE_QUAY_CHARTER`; the deep-vault job; Ledger gatekeeper.
+- **Combat Relevance:** none-low — **Spy/Noble-like** (AC 14, ~30 HP); commands muscle, rarely fights.
+
+### Underfactor Coll Riis — Cinder Ledger (turnable clerk)
+- **Location:** Caradril, the Ledger Keep / the Last Tally. **Role:** Mid-level Ledger clerk on the deal-accounts.
+- **First Impression:** A nervous, decent young clerk who drinks alone and checks the door too often.
+- **Motivation:** Do right without getting killed; he stumbled onto what the deal *is*.
+- **Secret / Complication (DM):** He has copied ledger-pages proving the Vyre–Quorrin monopoly deal (an Archive-free M3/M6 clue path) and is terrified. He'll turn for safety, coin, or conscience — and may be silenced if the player dawdles.
+- **Relationship Link:** Under Vell; appalled by what he's filing; no allies until the player.
+- **What They Know:** The deal-papers; who meets whom; the deep-vault's existence.
+- **How They Enter Play:** `Q_THE_QUAY_CHARTER`; a frightened informant; a clock-race to protect him.
+- **Combat Relevance:** none — **Commoner**, noncombatant (will flee/hide).
+
+### Sub-Lector Tamsin Orr — Concord Remnant (honest scholar)
+- **Location:** Caradril, the Lantern Reach (Lamplighters' Hall). **Role:** Briss's student; a Concord Script tutor.
+- **First Impression:** An eager, generous young scholar who'd teach a stone to read if it asked nicely.
+- **Motivation:** Share knowledge; honor the Concord; she has no idea of the inner circle's aim.
+- **Secret / Complication (DM):** Wholly innocent — the player's cleanest, strings-free way to *learn Concord Script* (the key clue-gate) if they'd rather not lean on Briss or risk Quorrin. May later be endangered by what she unknowingly enables.
+- **Relationship Link:** Briss's student; reveres Quorrin (a dupe like Briss); friendly to curious newcomers.
+- **What They Know:** Concord Script; the Stacks' catalogue; nothing of the Reclaimers.
+- **How They Enter Play:** `Q_THE_LANTERN_AND_THE_LAMP`; Script tutelage; translations.
+- **Combat Relevance:** none — **Commoner/Acolyte-like** (AC 11, ~14 HP), noncombatant.
+
+### Keeper-Archivist Wessel Dree — Concord Remnant (Reclaimer)
+- **Location:** Caradril, the Lantern Reach (the Sealed Archive). **Role:** Guards the inner-circle vault.
+- **First Impression:** A soft-spoken, immovable old archivist whose courtesy never once reaches his eyes.
+- **Motivation:** Keep the Sealed Archive's truth from the unworthy; serve Quorrin's vision.
+- **Secret / Complication (DM):** A knowing Reclaimer; he knows exactly what the Archive proves (C-M6-1/C-M9) and will lie, delay, and report intruders. The human lock on the Act-3 truth cache; also the keeper of the Wards back-way's secret.
+- **Relationship Link:** Quorrin's loyalist; despises Briss's naivety; commands the Archive's wards and guards.
+- **What They Know:** The Archive's contents (apex-adjacent — DM); the Wards back-way; who's been asking.
+- **How They Enter Play:** `Q_THE_SEALED_ARCHIVE`; the Archive gate; a Reclaimer obstacle.
+- **Combat Relevance:** low — **Mage/Acolyte-like** (AC 12, ~30 HP, *Alarm, Hold Person, Misty Step*); raises the alarm rather than brawls.
+
+### Mother Ysarra — Three Thresholds clergy (Cathedral high priest)
+- **Location:** Caradril, Highmourn (the Threshold Cathedral). **Role:** Leads the city's great temple.
+- **First Impression:** A serene, commanding priest whose calm is a wall built carefully against panic.
+- **Motivation:** Keep Caradril's faith — and the Cathedral's authority — steady through the failures.
+- **Secret / Complication (DM):** She is **covering up the city's raise-dead failures** (Secret 7) to prevent panic, hushing away "wrong-come-backs." Not malicious — frightened and institutional. Exposing or turning her is a key city-internal M1/M5/M6 lever.
+- **Relationship Link:** Clergy and Mourners defer to her; pressured by the council to keep calm; opposes the relic-trade.
+- **What They Know:** Every failed rite in Caradril; the buried folk-memory of the harvest (genteel, denied).
+- **How They Enter Play:** `Q_THE_FUNERAL_THAT_WOULDNT_TAKE`; healing services; the cover-up.
+- **Combat Relevance:** none-low — **Priest-like** (AC 13, ~33 HP, low-level divine magic), noncombatant.
+
+### Grave-Magister Lon Quayle — Quiet Houses (funeral official)
+- **Location:** Caradril, Highmourn (the Quiet Houses). **Role:** Runs the civic cemetery and funeral works.
+- **First Impression:** A grave, meticulous man whose composure has begun, lately, to crack.
+- **Motivation:** Lay Caradril's dead to rest properly — and he can no longer pretend it's working.
+- **Secret / Complication (DM):** A troubled witness to the failing rites; conscience-bound and frightened of Ysarra and the council. He can be *turned into the player's proof* that the crisis has reached Caradril.
+- **Relationship Link:** Answers to Ysarra; oversees the gravediggers; quietly sympathetic to the ignored Wardens.
+- **What They Know:** Which graves "won't keep"; which raisings failed; where the hushed-up cases lie.
+- **How They Enter Play:** `Q_THE_FUNERAL_THAT_WOULDNT_TAKE`; a turnable witness.
+- **Combat Relevance:** none — **Commoner/Acolyte-like** (AC 11, ~16 HP), noncombatant.
+
+### Foundress Beck Harrow — craft guilds (foundry-guild mistress)
+- **Location:** Caradril, the Crucible (Harrow's Foundry). **Role:** Leads the foundry-guild; runs the relic-smelting.
+- **First Impression:** A broad, soot-streaked, plain-spoken master who built her wealth and is starting to fear what it's built on.
+- **Motivation:** Profit and her guild's rise — and, lately, to know what her foundry has been melting.
+- **Secret / Complication (DM):** Her relic-smelting causes "incidents" (M3 by accident; thin-touched workers; a casting that holds a voice). Profit-driven but increasingly scared; a turnable witness, a warning, or a reckless rival.
+- **Relationship Link:** Guild power-bloc; paid by the Ledger to smelt evidence; her foreman (Ordo) is bribed by the Remnant; the Sill workers resent her.
+- **What They Know:** What's being smelted and why; the incidents; the Ledger/Remnant proxy-war over relics.
+- **How They Enter Play:** `Q_THE_SMELTING`; gear commissions; an M3 witness.
+- **Combat Relevance:** low — **Guard/Commoner-like** (AC 13, ~26 HP); a tough crafter, not a duelist.
+
+### "Tidewife" Sorrel — Salt Syndicate (boss)
+- **Location:** Caradril, the Ashmarket / the Sill. **Role:** Runs the relic black market and smuggling.
+- **First Impression:** A warm, motherly fence with a grandmother's smile and a drowned river's patience.
+- **Motivation:** Control the quiet-coin trade; keep the Syndicate fed; stay below the Watch.
+- **Secret / Complication (DM):** She sells relics that hold the dead **without grasping what they are** (M3 made commercial); a specific quiet-coin relic in her keeping "remembers" a recent Reach death. Unsettled by the strange goods; would deal with the player as buyer, fence, or rival.
+- **Relationship Link:** Boss of the Syndicate; uneasy truce with the Ledger; rival of the Hush; uses Ashmarket fences.
+- **What They Know:** The quiet-coin trade; who buys haunted relics; the smuggling routes.
+- **How They Enter Play:** `Q_QUIET_COIN`; black-market dealings; a criminal patron.
+- **Combat Relevance:** low — **Spy/Assassin-like** (AC 15, ~55 HP); prefers leverage to blades; commands crews.
+
+### The Bellman — the Hush (information broker)
+- **Location:** Caradril, citywide (based in the Sill). **Role:** Leads the city's information/blackmail network.
+- **First Impression:** Never quite seen plainly — a voice, a coat, a bell-token left behind; people swear he's three different people.
+- **Motivation:** Know everything; sell it carefully; owe no one.
+- **Secret / Complication (DM):** The Hush brokers fragments of the Vyre–Quorrin deal, the Magisterium correspondent thread, and the Sealgate route into the Sunken Wards — fair, costly shortcut-clues. Every secret bought from him carries a hidden price (a favor, a debt, a name). A dangerous convenience.
+- **Relationship Link:** Rival of the Syndicate; feared by the Houses (he knows their secrets); the Sill's shadow-power.
+- **What They Know:** Nearly everything, in fragments — for a price.
+- **How They Enter Play:** `Q_THE_BELLMANS_PRICE`; a clue-shortcut with strings.
+- **Combat Relevance:** none-low — **Spy-like** (AC 14, ~22 HP); never fights, always knows the exit; protected by knowing too much.
+
+### Renna Sill — the Sill (community leader)
+- **Location:** Caradril, the Sill (the Refugee Boards). **Role:** Speaks for the poor and the thin-born refugees.
+- **First Impression:** A fierce, exhausted woman who has decided no one drowns in her district unseen.
+- **Motivation:** Shelter the refugees; force the city to see the thin-born; survive the Hush and the Watch.
+- **Secret / Complication (DM):** She shelters a "wrong-come-back" refugee from the Reach (a humane M1/M5 echo in the city) and is the player's clearest window onto the **thinning spreading** (M10 made local). A genuine ally who needs help she can't get from anyone above the river.
+- **Relationship Link:** The boards' protector; at odds with the Hush and Watch; sympathetic to the ignored Wardens and Mourners.
+- **What They Know:** The refugees' stories; who's come back wrong; the Sill's truths the city denies.
+- **How They Enter Play:** `Q_THE_BELLMANS_PRICE` (alt path), refugee-protection hooks, the sheltered revenant.
+- **Combat Relevance:** none — **Commoner**, noncombatant.
+
+### Old Pater Dunk — independent (Sunken Wards guide)
+- **Location:** Caradril, the Sill (the Sealgate). **Role:** The delver who knows the dry routes below the city.
+- **First Impression:** A leathery, lantern-carrying old man who talks to the dark and answers it.
+- **Motivation:** Keep the Wards' few safe paths to himself and the worthy; warn off fools.
+- **Secret / Complication (DM):** He has felt the Wards "warming" of late and is uneasy; he half-knows it connects to the Reach's troubles but lacks the words. The player's solo-safety guide into the Sunken Wards (the city's Old Sashe).
+- **Relationship Link:** Tolerated by the Sill; avoided by the Syndicate; the only reliable Wards-guide.
+- **What They Know:** The dry routes, the flood cycles, where the cold whispering starts.
+- **How They Enter Play:** `Q_BELOW_THE_STILLING`; any Sunken Wards descent.
+- **Combat Relevance:** low — **Scout-like** (AC 14, ~22 HP, Survival/Stealth); guides, avoids fights.
+
+---
+
 ## Custodian Orre — Hollow Court (DM-ONLY) *(registered)*
 
 > **DM-ONLY. Existence gated until late arc per `REVELATION_MAP.md`. Do not surface in Act 1–2.**
@@ -286,6 +442,21 @@ Secondary NPCs of the Sundering Reach — recurring local characters tied to set
 | Dig-boss Hennet | Guard/Commoner | low |
 | Veska Dunn | Scout/Mage | moderate (rival) |
 | Hospitaller Sirrin | Priest | none (vs. dead only) |
+| Halloran Voss | Noble | none |
+| Sefa Dann | Noble/Acolyte | none |
+| Esren Tolm | Noble | none |
+| Yorell Kade | Knight/Veteran | high (lawful; never default) |
+| Anneth Vell | Spy/Noble | none-low (commands muscle) |
+| Coll Riis | Commoner | none |
+| Tamsin Orr | Commoner/Acolyte | none |
+| Wessel Dree | Mage/Acolyte | low (alarms, not brawls) |
+| Mother Ysarra | Priest | none-low |
+| Lon Quayle | Commoner/Acolyte | none |
+| Beck Harrow | Guard/Commoner | low |
+| "Tidewife" Sorrel | Spy/Assassin | low (leverage over blades) |
+| The Bellman | Spy | none-low (never fights) |
+| Renna Sill | Commoner | none |
+| Old Pater Dunk | Scout | low (guides) |
 | Custodian Orre | Tier 4 (DM) | endgame |
 
 ## Related Files

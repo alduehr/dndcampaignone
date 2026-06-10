@@ -22,13 +22,6 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## Medium
 
-- [ ] Complete Stage 4: First Major City Deep Build
-  - Why it matters: A major city provides a political and social hub for mid-campaign play.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 4
-  - Suggested agent: `world-atlas-builder`
-  - Stage: 4
-  - Blocker: Requires Stages 1 and 3
-
 - [ ] Run Stage 6: First Full Audit
   - Why it matters: Do not scale a broken foundation. Audit before major expansion.
   - Related files: `AUDIT_STANDARDS.md`, `DEVELOPMENT_STAGES.md` Stage 6
@@ -71,6 +64,16 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Related files: `07_factions/major_factions/HOLLOW_COURT.md`, `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md`, `10_dungeons_and_ruins/`
   - Stage: 12
 
+- [ ] Full dungeon-file build for the Sunken Wards and the Sealed Archive (Caradril)
+  - Why it matters: Stage 4 specced both richly as district/quest content (encounter list, hazards, retreat, scaling); a full room-by-room dungeon file is deferred to Stage 12 to match the keystone-shrine treatment.
+  - Related files: `06_settlements/caradril_districts/THE_SUNKEN_WARDS.md`, `THE_LANTERN_REACH.md`, `09_quests/city_quests/Q_BELOW_THE_STILLING.md`, `Q_THE_SEALED_ARCHIVE.md`
+  - Stage: 12
+
+- [ ] Resolve the "Magisterium correspondent" thread in play/arc (Caradril ↔ Reke)
+  - Why it matters: Stage 4 left this as an intentional open lead (M8-adjacent), never a named second Court agent. Stage 5/15 should decide how it resolves through play without pre-revealing the Hollow Court.
+  - Related files: `06_settlements/caradril_districts/THE_MAGISTERIUM.md`, `02_runtime_state/HIDDEN_CLUES.md` (C-M8 city anchor), `12_campaign_arc/`
+  - Stage: 5 / 15
+
 - [ ] Stat the Stage 3 dungeon rewards by level (e.g. the Barrow of Nine Doors magic item) and create `REWARDS_BY_LEVEL.md`
   - Why it matters: Stage 3 dungeon files reference level-appropriate rewards that need concrete items.
   - Stage: 14
@@ -82,6 +85,7 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## Completed Recently
 
+- [x] Stage 4: First Major City Deep Build (Caradril) — 2026-06-10 (city overview + 8 district files incl. the Sunken Wards sub-dungeon; 15 city secondary + 25 city minor NPCs; 11 developed city quests; 36 hooks + 30 rumors; city encounter/social-scene tables; 4 city-internal factions + 3 city clocks (C1/C2/C3); Ledger HQ + Remnant seat located; M2/M3/M4/M6/M8/M9 city clue access added with no new mysteries; M7/Hollow Court never named in the city; Act-3 gating on the Sealed Archive; solo-safe and secrecy-separated; indexes/canon/registry/state updated)
 - [x] Stage 3: Starting Region Deep Build — 2026-06-09 (8 settlements, 4 wilderness zone-files/~25 sites, 6 dungeons/ruins, ~56 NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, 4 zone encounter tables; all five registered secondary-NPC placeholders completed; clue/clock anchors added; indexes/canon/registry updated; solo-safe and secrecy-separated throughout)
 - [x] Stage 2 cleanup pass — 2026-06-09 (fixed stale CONTENT_GAPS/EXPANSION_PLAN/CONSISTENCY_AUDIT to reflect Stages 1–2 complete; populated CLUE_INDEX and HIDDEN_CLUES from the mystery web with all clues hidden at start; added D&D mechanical completeness fields/sections to NPC, quest, content, faction, and worldbuilding standards templates — Critical TODO cleared)
 - [x] Complete Stage 2: AI Runtime Foundation — 2026-06-09 (all 18 runner protocols written as full operational content (17 new + AI_DM_CORE_RULES.md from Stage 0); START/RESUME prompts + 3 session-pack templates ready; 8 runtime state files seeded from Stage 1; solo-first, three-clue-rule, secrecy-preserving; indexes and tracking updated)

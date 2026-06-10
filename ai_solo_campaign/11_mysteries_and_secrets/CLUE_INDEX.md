@@ -80,6 +80,24 @@ Stage 3 **did not create new mysteries or new clues** — it gave the existing M
 
 **Gate reminder:** M6/M9/M7 access points give *fragments* in Act 1–2; the apex truth stays gated to Act 3–4 per `REVELATION_MAP.md`.
 
+## Stage 4 Clue Access Points (Caradril City Anchors)
+
+Stage 4 **created no new mysteries and no new clues** — it anchored existing M2/M3/M4/M6/M8/M9 paths to the first major city, deepening the three-clue rule. All still `hidden` at start. **Act guardrail: Caradril never names the Hollow Court (M7); it delivers M6/M9 at Act 3 / L9–12 and fragments earlier.**
+
+| Mystery / Clue | Caradril Access Point (Stage 4) | File |
+|---|---|---|
+| C-M2-1 (the network) | The Sunken Wards' warming + in-situ Concord Script — proof the harvest-network is continental (*fragment*) | `caradril_districts/THE_SUNKEN_WARDS.md`, `Q_BELOW_THE_STILLING.md` |
+| C-M3-1/3 (Remembrance relic) | Ashmarket quiet-coin relic; Crucible smelting "incidents"; Ledger deep-vault refined relic; a dormant Wards relic | `THE_ASHMARKET.md`, `THE_CRUCIBLE.md`, `THE_COUNTING_QUAYS.md`, `THE_SUNKEN_WARDS.md`, `Q_QUIET_COIN.md`, `Q_THE_SMELTING.md` |
+| C-M4-2 (basin scheme funding) | The misfiled charter-registry record tying Ledger money to "Reach water-rights works" (a Caradril-side echo) | `THE_MAGISTERIUM.md`, `Q_THE_SEALED_LETTER.md` |
+| C-M6-1 (Concord's purpose) | The **Sealed Archive** (clearest written proof); Highmourn's institutional folk-memory; Wards Script fragments; the Vyre–Quorrin deal-pages (via Coll Riis) | `THE_LANTERN_REACH.md`, `Q_THE_SEALED_ARCHIVE.md`, `THE_COUNTING_QUAYS.md`, `Q_THE_QUAY_CHARTER.md`, `HIGHMOURN.md` |
+| C-M8-1/2 (why is the PC here?) | The Magisterium correspondent thread (Reke writes to someone seated here — *lead only*, never a named second agent); the Hush sells fragments | `THE_MAGISTERIUM.md`, `THE_SILL.md`, `Q_THE_SEALED_LETTER.md`, `Q_THE_BELLMANS_PRICE.md` |
+| C-M9-1 (deliberate Quietfall) | The **Sealed Archive** (the planned, signed Quietfall) | `THE_LANTERN_REACH.md`, `Q_THE_SEALED_ARCHIVE.md` |
+| C-M1/M5 (city echoes) | Highmourn's covered-up raise-dead failures and a hushed wrong-come-back; Renna Sill's sheltered revenant; the thin-born refugees (M10 local) | `HIGHMOURN.md`, `THE_SILL.md`, `Q_THE_FUNERAL_THAT_WOULDNT_TAKE.md` |
+
+City part-truth NPCs: Quorrin Vane (M3/M6/M9), Briss (M6 via Archive once disillusioned — Secret 13), Mother Ysarra (city M1/M5 failures, covered up), Lon Quayle (turnable witness), Coll Riis (deal-proof = M3/M6), the Bellman (sells M3/M6/M8/Wards fragments), Renna Sill (M10 local + a city Wren-echo).
+
+**Gate reminder:** the Sealed Archive (C-M6-1, C-M9-1) is Act 3 / L9–12. Wards/Ashmarket/Crucible give M2/M3 *fragments and demonstrations* earlier. Never surface M7 (the Hollow Court) in Caradril.
+
 ## Clue Counts and Three-Clue-Rule Check
 
 | Mystery | Authored Clue Paths | Meets 3+ Rule | Notes |

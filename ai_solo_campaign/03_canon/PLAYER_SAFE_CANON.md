@@ -67,7 +67,16 @@ Known landmarks: the **Concord roads** (raised causeways) and their **Star-Stone
 - **Ashgarden Vale** — farmland and shrine-towns to the south.
 - **Tollwood** — deep forest and old toll-roads to the east.
 - **Pale Coast** — fishing and salt-trade to the west.
-- **Caradril** — the nearest true city, an inland city-state to the southeast.
+- **Caradril** — the nearest true city, an inland city-state to the southeast (~10–12 days from Hollowmere).
+
+## Known Facts About Caradril (Player-Safe)
+
+- **Caradril** is an independent inland city-state on the **Verdance** river, where it widens into the harbor-lake called the **Stillwater**. It is the nearest true city to the Reach and far the largest place most frontier folk will ever see.
+- Almost alone among the great settlements, Caradril came through the Quietfall mostly intact and grew rich in the century since — a time Caradrese call **the Stilling**. The city prides itself on calm, order, and prosperity, and (unlike the Reach) is not visibly afraid of the dead.
+- It is governed by the **Tidewater Council**, a body of merchant **magisters** from the chartered families (the **Charter Houses**), headed by a **First Magister** (**Halloran Voss**). Law is kept by the **Tide-Watch**. A trade **charter** is the basis of wealth and power.
+- Caradril is the **headquarters of the Cinder Ledger** (the merchant-bank) and the **seat of the Concord Remnant** (the scholars who can read Concord Script). It offers a true city's services: banking, master crafts, scholarship, healing and funeral rites, and (for steep, licensed price) even resurrection.
+- Its districts include the **Magisterium** (government), the **Counting-Quays** (banking/harbor), the **Lantern Reach** (scholars), the **Ashmarket** (relic and salvage trade), **Highmourn** (temples and cemetery), the **Crucible** (foundries and guilds), and the poor riverside **Sill**. Folk speak of an older flooded city beneath it, the **Sunken Wards**.
+- Caradril is **not** part of the Reachward Compact; it treats the Reach as a poor, useful hinterland and has been slow to believe the frontier's crisis is real.
 
 ## Known Faction Facts (Player-Safe — Public Faces Only)
 

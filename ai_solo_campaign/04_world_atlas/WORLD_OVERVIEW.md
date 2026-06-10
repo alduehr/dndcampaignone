@@ -32,7 +32,7 @@ The campaign begins on Orrun's cold northwestern frontier, the **Sundering Reach
 | **Ashgarden Vale** | Farmland and shrine-towns to the south. | Breadbasket; oldest surviving Threshold shrines. | Named; build = Stage 7 |
 | **Tollwood** | Deep forest and old toll-roads to the east. | Bandits, lost Concord roads, reclusive folk. | Named; build = Stage 7 |
 | **Pale Coast** | Fishing and salt-trade to the west. | Salt (used in death-rites); smugglers; the Cinder Ledger's ports. | Named; build = Stage 7 |
-| **Caradril** | Inland city-state to the southeast; nearest true city. | Politics, the Concord Remnant's main seat, the Cinder Ledger's headquarters. | Named; build = Stage 4 |
+| **Caradril** | Inland city-state to the southeast; nearest true city. | Politics, the Concord Remnant's main seat, the Cinder Ledger's headquarters. | **Deep-built (Stage 4)** — first major city; 8 districts; mid-game hub (Lvl ~5–12). See `../06_settlements/CARADRIL.md` |
 
 ## World-Level Threats (Player-Facing)
 

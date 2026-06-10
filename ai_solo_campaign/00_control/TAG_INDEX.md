@@ -6,7 +6,9 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stages 1, 2, and 3 complete.** Stage 1 foundation + Stage 2 AI runtime + **Stage 3 Starting Region Deep Build**: 7 new settlements, 4 wilderness zone-files, 6 dungeons/ruins, ~21 secondary + ~35 minor NPCs, 12 developed quests, regional hooks (39 total) + rumors (50 total), and zone encounter tables — all registered below under `type:settlement`, `type:wilderness_location`, `type:dungeon`/`ruin`, `type:npc`, `type:quest`, `type:encounter`, and `region:sundering-reach`. New tags introduced: `type:wilderness_location`, plus area sub-tags (greyfens, sunder-heights, basin, roads, river, travel-hub, trade, mining-village, hamlet). No content files carry `status:placeholder`. Empty scaffold marker files (`_PLACEHOLDER.md`) remain in future-stage folders (minor_factions, npcs root, quests root) as structural anchors for Stage 8+ work — they are not content files. Stage 4 (first major city) and Stage 5 (Act 1 arc) are next.
+**Stages 1, 2, 3, and 4 complete.** Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region Deep Build + **Stage 4 First Major City Deep Build (Caradril)**. Stage 4 added: `06_settlements/CARADRIL.md` + 8 district files (`06_settlements/caradril_districts/`), 15 city secondary + 25 city minor NPCs (appended to `SECONDARY_NPCS.md`/`MINOR_NPCS.md`), 11 city quests (`09_quests/city_quests/`), `CARADRIL_HOOKS.md` + `CARADRIL_RUMORS.md`, and `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`. New tags introduced: `region:caradril`, `district`, `major-city`, `city-faction`. All Caradril files registered below. No content files carry `status:placeholder`. Stage 5 (Act 1 arc) and Stage 6 (first audit) are next.
+
+> Caradril file membership is consolidated under **`region:caradril`** (Region Tags section) for fast retrieval; individual files also appear under their type/secrecy/status tags.
 
 ---
 
@@ -32,6 +34,15 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `06_settlements/HARROWGAST.md`
 - `06_settlements/REEDFORD.md`
 - `06_settlements/THE_ASHWALK_REST.md`
+- `06_settlements/CARADRIL.md` (major-city)
+- `06_settlements/caradril_districts/THE_MAGISTERIUM.md` (district)
+- `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` (district)
+- `06_settlements/caradril_districts/THE_LANTERN_REACH.md` (district)
+- `06_settlements/caradril_districts/THE_ASHMARKET.md` (district)
+- `06_settlements/caradril_districts/HIGHMOURN.md` (district)
+- `06_settlements/caradril_districts/THE_CRUCIBLE.md` (district)
+- `06_settlements/caradril_districts/THE_SILL.md` (district)
+- `06_settlements/caradril_districts/THE_SUNKEN_WARDS.md` (district/ruin)
 
 ### type:wilderness_location
 - `05_regions/wilderness/GREYFENS_SITES.md`
@@ -74,6 +85,19 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `09_quests/regional_quests/Q_PELLS_DOUBT.md`
 - `09_quests/regional_quests/Q_THE_SCHOLARS_REQUEST.md`
 - `09_quests/regional_quests/Q_THE_FAILING_FUNERAL.md`
+- `09_quests/hooks_and_rumors/CARADRIL_HOOKS.md`
+- `09_quests/hooks_and_rumors/CARADRIL_RUMORS.md`
+- `09_quests/city_quests/Q_THE_SEALED_LETTER.md`
+- `09_quests/city_quests/Q_THE_OPEN_CHARTER.md`
+- `09_quests/city_quests/Q_THE_QUAY_CHARTER.md`
+- `09_quests/city_quests/Q_THE_LANTERN_AND_THE_LAMP.md`
+- `09_quests/city_quests/Q_THE_SEALED_ARCHIVE.md`
+- `09_quests/city_quests/Q_QUIET_COIN.md`
+- `09_quests/city_quests/Q_THE_FUNERAL_THAT_WOULDNT_TAKE.md`
+- `09_quests/city_quests/Q_THE_SMELTING.md`
+- `09_quests/city_quests/Q_THE_BELLMANS_PRICE.md`
+- `09_quests/city_quests/Q_BELOW_THE_STILLING.md`
+- `09_quests/city_quests/Q_THE_TIDE_TURNS.md`
 
 ### type:mystery
 - `11_mysteries_and_secrets/MYSTERY_WEB.md`
@@ -98,6 +122,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 
 ### type:encounter
 - `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
+- `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`
 
 ### type:artifact
 - Remembrance relics — referenced in `03_canon/MAGIC_RULES.md` (full build Stage 14)
@@ -271,6 +296,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `02_runtime_state/CONSEQUENCES.md`
 - `02_runtime_state/NEXT_SESSION_START.md`
 - `16_ai_session_packs/SESSION_END_UPDATE_CHECKLIST.md`
+- **All Stage 4 Caradril content files** (`06_settlements/CARADRIL.md`, the 8 `caradril_districts/` files, `09_quests/city_quests/*`, `09_quests/hooks_and_rumors/CARADRIL_HOOKS.md` + `CARADRIL_RUMORS.md`, `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`) — see the consolidated `region:caradril` block
 
 ---
 
@@ -329,6 +355,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `11_mysteries_and_secrets/REVELATION_MAP.md`
 - `11_mysteries_and_secrets/SECRET_INDEX.md`
 - `11_mysteries_and_secrets/CLUE_INDEX.md`
+- **All Stage 4 Caradril content files** (`06_settlements/CARADRIL.md`, the 8 `caradril_districts/` files, `09_quests/city_quests/*`, `09_quests/hooks_and_rumors/CARADRIL_*.md`, `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`) — see `region:caradril`
 
 ### status:runtime
 - `03_canon/PLAYER_SAFE_CANON.md` — updated as player discovers facts
@@ -470,15 +497,19 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `11_mysteries_and_secrets/CLUE_INDEX.md`
 - `07_factions/major_factions/GRAVECALLERS.md`
 - `07_factions/major_factions/CONCORD_REMNANT.md`
+- `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md`, `THE_LANTERN_REACH.md`, `THE_ASHMARKET.md`, `THE_CRUCIBLE.md`, `HIGHMOURN.md`, `THE_SUNKEN_WARDS.md`
+- `09_quests/city_quests/Q_THE_SEALED_ARCHIVE.md`, `Q_THE_QUAY_CHARTER.md`, `Q_QUIET_COIN.md`, `Q_THE_SMELTING.md`, `Q_THE_FUNERAL_THAT_WOULDNT_TAKE.md`, `Q_BELOW_THE_STILLING.md`
+
+### tag:district / tag:major-city / tag:city-faction (Stage 4)
+- `district`: the 8 files in `06_settlements/caradril_districts/`
+- `major-city`: `06_settlements/CARADRIL.md`
+- `city-faction`: Tidewater Council, Tide-Watch, Salt Syndicate, the Hush (defined in the Caradril district files; indexed in `07_factions/FACTION_INDEX.md`)
 
 ### function:rumor
 - `09_quests/RUMORS_TABLE.md`
 
 ### function:combat
 - `01_runner_protocol/COMBAT_PROTOCOL.md`
-
-### function:social
-- `01_runner_protocol/SOCIAL_SCENE_PROTOCOL.md`
 
 ### function:travel
 - `01_runner_protocol/TRAVEL_PROTOCOL.md`
@@ -497,6 +528,14 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `07_factions/major_factions/ASHEN_WARDENS.md`
 - `06_settlements/THE_ASHWALK_REST.md`
 - `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
+- `06_settlements/caradril_districts/HIGHMOURN.md` (city healing/rest hub)
+- `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md` (social-default city; solo-safety pillars)
+
+### function:social
+- `01_runner_protocol/SOCIAL_SCENE_PROTOCOL.md`
+- `06_settlements/caradril_districts/THE_MAGISTERIUM.md`, `THE_SILL.md` (city intrigue)
+- `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`
+- `09_quests/city_quests/Q_THE_OPEN_CHARTER.md`, `Q_THE_TIDE_TURNS.md`, `Q_THE_BELLMANS_PRICE.md`
 
 ### function:boss
 - `07_factions/major_factions/HOLLOW_COURT.md`
@@ -510,6 +549,8 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `07_factions/major_factions/ASHEN_WARDENS.md`
 - `07_factions/major_factions/CINDER_LEDGER.md`
 - `07_factions/major_factions/REACHWARD_COMPACT.md`
+- `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` (Ledger HQ patron)
+- `06_settlements/caradril_districts/THE_MAGISTERIUM.md` (council/Kade patrons)
 
 ### function:secret
 - `03_canon/DM_ONLY_CANON.md`
@@ -536,6 +577,15 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
 - `16_ai_session_packs/OPENING_SCENES.md`
 - All seven major faction files (present in the Reach)
+
+### region:caradril
+- `06_settlements/CARADRIL.md`
+- `06_settlements/caradril_districts/` (8 district files: Magisterium, Counting-Quays, Lantern Reach, Ashmarket, Highmourn, Crucible, Sill, Sunken Wards)
+- `08_npcs/SECONDARY_NPCS.md` (Caradril section — 15 city NPCs), `08_npcs/MINOR_NPCS.md` (Caradril section — 25 city NPCs)
+- `09_quests/city_quests/` (11 developed city quests)
+- `09_quests/hooks_and_rumors/CARADRIL_HOOKS.md`, `CARADRIL_RUMORS.md`
+- `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`
+- Cinder Ledger + Concord Remnant faction files (HQ/seat in Caradril); city-internal factions listed in `07_factions/FACTION_INDEX.md`
 
 ### region:orrun
 - `04_world_atlas/WORLD_OVERVIEW.md`

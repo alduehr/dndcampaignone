@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0, 1, 2, and 3 complete (2026-06-09).** The campaign foundation, the full AI runtime layer, and the **deep-built starting region** all exist. The Sundering Reach now supports 10–20 sessions of open-world solo play (8 settlements, 4 wilderness zones, 6 dungeons, ~56 NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, zone encounter tables). **Stage 5 — Level 1–4 Play Arc is the recommended next pass** (shape the Act 1 narrative atop the now-deep region), with Stage 4 (First Major City — Caradril) slotted before or after, and the Stage 6 audit following.
+**Stages 0, 1, 2, 3, and 4 complete (Stage 4: 2026-06-10).** The campaign foundation, the full AI runtime layer, the deep-built starting region, and now the **first major city (Caradril)** all exist. The Sundering Reach supports 10–20 sessions; **Caradril** adds the mid-game hub (8 districts, 15 city secondary + 25 city minor NPCs, 11 developed city quests, 36 hooks + 30 rumors, city encounter/social-scene tables, 4 city factions + 3 city clocks; the Ledger HQ + Remnant seat; M2/M3/M4/M6/M8/M9 city clue access). **Stage 5 — Level 1–4 Play Arc is the recommended next pass** (shape the Act 1 narrative atop the now-deep region), followed by the **Stage 6 First Full Audit** (now spanning Stages 1–5 plus Caradril).
 
 ---
 
@@ -14,10 +14,10 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 | Field | Value |
 |---|---|
-| Stage | 5 — Level 1–4 Play Arc (recommended next) / 4 — First Major City |
+| Stage | 5 — Level 1–4 Play Arc (recommended next) |
 | Goal | Shape the Act 1 arc (default + alternate paths, first major dungeon, early villain, failure states) atop the deep region |
 | Status | Not started |
-| Blocking Issues | None — Stages 1–3 are complete |
+| Blocking Issues | None — Stages 1–4 are complete |
 
 ---
 
@@ -48,15 +48,9 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 - **Suggested agent:** `canon-continuity-auditor`
 - **Completion criteria:** Canon consistency, secret separation, clue solvability, faction agency, solo-play safety, state tracking, and index completeness all checked; critical issues identified; no major scaling until critical issues are fixed.
 
-### Pass 4 — First Major City Deep Build (Stage 4)
+### Pass 4 — DONE: First Major City Deep Build (Stage 4)
 
-- **Goal:** Build the first major city as a dense political/social hub: districts, government, law/crime, services, guilds/temples/houses/criminal groups, city NPCs, city quests, rumor tables, faction clocks, and city secrets.
-- **Files to create/edit:**
-  - City overview + district files in `06_settlements/`
-  - City NPCs in `08_npcs/`; city quests in `09_quests/`
-  - City faction activity in `07_factions/`
-- **Suggested agent:** `world-atlas-builder` (with `faction-weaver` and `npc-codex-builder`)
-- **Completion criteria:** The city can serve as a long-term hub, feels politically alive, has major services, supports repeated visits, and changes when ignored.
+**Complete 2026-06-10.** Built **Caradril**: city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary + 25 city minor NPCs, 11 developed city quests, 36 hooks + 30 rumors, city encounter/social-scene tables, 4 city-internal factions + 3 city clocks (C1/C2/C3), Ledger HQ + Remnant seat located, M2/M3/M4/M6/M8/M9 city clue access added with no new central mysteries. Solo-safe, secrecy-separated, fully indexed/cross-linked. (Full room-by-room dungeon builds for the Sunken Wards and Sealed Archive deferred to Stage 12 by design; the "Magisterium correspondent" left as an intentional open lead for Stage 5/15.)
 
 ### Pass 5 — Faction Deepening (Stage 8)
 

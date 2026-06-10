@@ -6,9 +6,9 @@ Track missing or underdeveloped content by category. Use this for category-level
 
 ## Current Status
 
-**Stages 0, 1, 2, and 3 complete.** The campaign foundation + AI runtime exist, and the **starting region is now deep-built** (8 settlements, 4 wilderness zone-files/~25 sites, 6 dungeons/ruins, ~56 secondary+minor NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, 4 zone encounter tables). The Sundering Reach can support 10–20 sessions of open-world solo play.
+**Stages 0, 1, 2, 3, and 4 complete.** The campaign foundation + AI runtime exist, the starting region is deep-built, and the **first major city (Caradril) is now deep-built** (8 districts, 15 city secondary + 25 city minor NPCs, 11 developed city quests, 36 hooks + 30 rumors, city encounter/social-scene tables, 4 city factions + 3 city clocks). The campaign now has both a frontier sandbox and a mid-game city hub.
 
-The gaps below reflect what remains for **Stage 4+ depth and scale** (first major city, the Act 1 arc, faction quest chains, the keystone dungeon, treasure-by-level, audits). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
+The gaps below reflect what remains for **Stage 5+ depth and scale** (the Act 1 arc, faction quest chains, the keystone + Caradril dungeon builds, treasure-by-level, audits, adjacent regions). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
 
 ---
 
@@ -27,7 +27,8 @@ The gaps below reflect what remains for **Stage 4+ depth and scale** (first majo
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
 | ~~No additional regional towns/villages~~ — **7 added in Stage 3 (8 total)**: Kettle Bridge, Saltmargin, Candlewick, Greywater Holm, Harrowgast, Reedford, The Ashwalk Rest | — (no gap) | — | — | done in Stage 3 |
-| No major city | High | Mid-campaign political/social hub | Build first major city (Caradril) with districts | 4 |
+| ~~No major city~~ — **Caradril deep-built in Stage 4** (city overview + 8 districts, government, services, criminal networks, city NPCs/quests/clocks) | — (no gap) | — | — | done in Stage 4 |
+| Caradril's Sunken Wards + Sealed Archive lack full room-by-room dungeon files (specced as district/quest content only) | Low | Deep delve play in the city | Full dungeon build (mirrors keystone deferral) | 12 |
 
 ---
 

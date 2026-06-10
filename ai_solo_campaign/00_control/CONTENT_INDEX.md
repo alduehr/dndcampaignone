@@ -6,7 +6,7 @@ Global inventory of campaign content. Tells the AI DM what exists and where to f
 
 ## Current Status
 
-**Stages 1, 2, and 3 complete.** Campaign foundation (Stage 1) + AI runtime (Stage 2) + **Starting Region Deep Build (Stage 3)**. The Sundering Reach now has 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, ~56 new NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, and zone encounter tables — enough for 10–20 sessions of open-world solo play. Deep city build (Stage 4) and the Act 1 arc (Stage 5) are next.
+**Stages 1, 2, 3, and 4 complete.** Campaign foundation (Stage 1) + AI runtime (Stage 2) + Starting Region Deep Build (Stage 3) + **First Major City Deep Build (Stage 4 — Caradril)**. The Sundering Reach has 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, and zone encounter tables. **Caradril** now adds: a city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary NPCs + 25 city minor NPCs, 11 developed city quests, 36 city hooks + 30 city rumors, and a city encounter/social-scene table. City clue access feeds the existing M2/M3/M4/M6/M8/M9 chains; 3 city faction clocks (C1/C2/C3) and 4 city-internal factions added. **No new central mystery/faction/god/cosmology/artifact created.** The Act 1 arc (Stage 5) and the first full audit (Stage 6) are next.
 
 ---
 
@@ -21,6 +21,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Name | File | Secrecy | Status | Summary | Tags |
 |---|---|---|---|---|---|
 | Sundering Reach | `05_regions/SUNDERING_REACH.md` | mixed | static (deep-built Stage 3) | Starting region; ruin-haunted frontier; keystone of the harvest; 8 settlements, 4 wilderness zones, 6 dungeons | starting-region |
+| Caradril (city-state, SE) | `06_settlements/CARADRIL.md` | mixed | static (deep-built Stage 4) | First major city; mid-game hub; 8 districts; Ledger HQ + Remnant seat | major-city, region:caradril |
 | (Orrun world overview) | `04_world_atlas/WORLD_OVERVIEW.md` | mixed | static | Continent overview; 5 named regions | world |
 
 ---
@@ -37,6 +38,20 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Harrowgast | `06_settlements/HARROWGAST.md` | Sundering Reach | mixed | static | Heights mining ruin-town (Lvl 2–5); Deep Adit | mining-village, exploration |
 | Reedford | `06_settlements/REEDFORD.md` | Sundering Reach | mixed | static | Tiny ford-hamlet; gentle Lvl-1 waypoint | hamlet |
 | The Ashwalk Rest | `06_settlements/THE_ASHWALK_REST.md` | Sundering Reach | mixed | static | Warden waystation; open-Reach solo-safety sanctuary | outpost, solo-safety, patron |
+| **Caradril** | `06_settlements/CARADRIL.md` | Caradril (Orrun, SE) | mixed | static | **First major city**; city-state; Ledger HQ + Remnant seat; mid-game hub (Lvl 5–12); 8 districts | major-city, hub |
+
+### Caradril Districts (Stage 4)
+
+| District | File | Power Bloc | Secrecy | Summary | Tags |
+|---|---|---|---|---|---|
+| The Magisterium | `06_settlements/caradril_districts/THE_MAGISTERIUM.md` | Tidewater Council | mixed | Government quarter; charter politics; correspondent thread | district, social |
+| The Counting-Quays | `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` | Cinder Ledger | mixed | Banking/harbor; Ledger Keep; Vyre–Quorrin deal (M3/M6) | district, clue, patron |
+| The Lantern Reach | `06_settlements/caradril_districts/THE_LANTERN_REACH.md` | Concord Remnant | mixed | Scholars; Concord Script gate; Sealed Archive (M6/M9) | district, clue, secret |
+| The Ashmarket | `06_settlements/caradril_districts/THE_ASHMARKET.md` | Salt Syndicate | mixed | Relic/salvage trade; quiet-coin (M3) | district, clue |
+| Highmourn | `06_settlements/caradril_districts/HIGHMOURN.md` | clergy/Mourners | mixed | Temples/cemetery; raise-dead cover-up (Secret 7); solo-safety | district, clue, solo-safety |
+| The Crucible | `06_settlements/caradril_districts/THE_CRUCIBLE.md` | Craft guilds | mixed | Foundries; relic-smelting (M3); gear commerce | district, clue |
+| The Sill | `06_settlements/caradril_districts/THE_SILL.md` | The Hush | mixed | Poor undercity; refugees (M10); the Bellman; Sealgate | district, social, clue |
+| The Sunken Wards | `06_settlements/caradril_districts/THE_SUNKEN_WARDS.md` | (delvers/Remnant) | mixed | Flooded sub-dungeon; M2/M3 cousin-site; Lvl 6–14 | district, ruin, exploration |
 
 ---
 
@@ -51,7 +66,11 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Gravecallers | `07_factions/major_factions/GRAVECALLERS.md` | Reach | mixed | Outlawed cult; truth-source; catastrophic method | clue, secret |
 | Concord Remnant | `07_factions/major_factions/CONCORD_REMNANT.md` | Orrun/Caradril | mixed | Scholars; inner circle would seize the harvest | clue, secret |
 | Hollow Court | `07_factions/major_factions/HOLLOW_COURT.md` | Reach (under-shrine) | dm-only | Apex power; surviving Custodians; restarts harvest | boss, main-arc |
-| (Faction index) | `07_factions/FACTION_INDEX.md` | — | mixed | Master faction table + relationship map | index |
+| Tidewater Council / Charter Houses | `06_settlements/caradril_districts/THE_MAGISTERIUM.md` | Caradril | mixed | City-internal: merchant government; complacent | city-faction, social |
+| Tide-Watch | `06_settlements/caradril_districts/THE_MAGISTERIUM.md` | Caradril | mixed | City-internal: city watch (turnable captain) | city-faction |
+| Salt Syndicate | `06_settlements/caradril_districts/THE_ASHMARKET.md` | Caradril | mixed | City-internal: smuggling + relic black market (M3) | city-faction, clue |
+| The Hush | `06_settlements/caradril_districts/THE_SILL.md` | Caradril | mixed | City-internal: information/blackmail; clue-shortcuts | city-faction, clue |
+| (Faction index) | `07_factions/FACTION_INDEX.md` | — | mixed | Master faction table + relationship map (incl. city factions) | index |
 
 ---
 
@@ -60,9 +79,9 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Name | File | Tier | Location | Faction | Secrecy | Summary | Tags |
 |---|---|---|---|---|---|---|---|
 | 20 Major NPCs | `08_npcs/MAJOR_NPCS.md` | Major | Reach/Caradril | all | mixed | Full profiles for the 20 foundation NPCs | major-npc |
-| ~21 Secondary NPCs | `08_npcs/SECONDARY_NPCS.md` | Secondary | Sundering Reach | all | mixed | Stage 3 recurring locals; includes 5 registered placeholders | secondary-npc |
-| ~35 Minor NPCs | `08_npcs/MINOR_NPCS.md` | Minor | Sundering Reach | all | mixed | Stage 3 local-color NPCs by settlement | minor-npc |
-| (NPC index) | `08_npcs/NPC_INDEX.md` | — | — | — | mixed | Master NPC table (major/secondary/minor) | index |
+| ~36 Secondary NPCs | `08_npcs/SECONDARY_NPCS.md` | Secondary | Reach + Caradril | all | mixed | Stage 3 Reach locals + Stage 4 15 Caradril city NPCs | secondary-npc |
+| ~60 Minor NPCs | `08_npcs/MINOR_NPCS.md` | Minor | Reach + Caradril | all | mixed | Stage 3 Reach + Stage 4 25 Caradril minor NPCs by district | minor-npc |
+| (NPC index) | `08_npcs/NPC_INDEX.md` | — | — | — | mixed | Master NPC table (major/secondary/minor; Reach + Caradril) | index |
 
 ---
 
@@ -75,6 +94,9 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Regional Hooks (H11–H39) | `09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md` | Hooks | 1-5 | Sundering Reach | static | 29 more hooks by area (39 total) | quest-hook |
 | Regional Rumors (R21–R50) | `09_quests/hooks_and_rumors/SUNDERING_REACH_RUMORS.md` | Rumors | 1-5 | Sundering Reach | static | 30 more rumors by area (50 total) | rumor |
 | 12 Developed Quests | `09_quests/regional_quests/*.md` | Regional/Faction/Mystery | 1-5 | Sundering Reach | static | Full-standard quests (Salt Run, Broken Arch, Light on the Scale, Holm That Won't Bury Its Dead, Sold Stone, Race North, Bailiff's Ladder, Reed Holms, Sashe's Warning, Grey Woman, Second Mark, Pell's Doubt, Scholar's Request, Failing Funeral) | quest |
+| Caradril Hooks (CH1–36) | `09_quests/hooks_and_rumors/CARADRIL_HOOKS.md` | Hooks | 3-12 | Caradril | static | 36 city hooks by district, all pointing to authored content | quest-hook, region:caradril |
+| Caradril Rumors (CR1–30) | `09_quests/hooks_and_rumors/CARADRIL_RUMORS.md` | Rumors | 3-12 | Caradril | static | 30 city rumors by district | rumor, region:caradril |
+| 11 Developed City Quests | `09_quests/city_quests/*.md` | City/Faction/Mystery | 3-12 | Caradril | static | Full-standard city quests (Sealed Letter, Open Charter, Quay Charter, Lantern & Lamp, Sealed Archive, Quiet Coin, Funeral That Wouldn't Take, Smelting, Bellman's Price, Below the Stilling, Tide Turns) | quest, region:caradril |
 
 ---
 
@@ -127,6 +149,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Name | File | Type | Level | Summary | Tags |
 |---|---|---|---|---|---|
 | Sundering Reach encounters | `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md` | Encounter tables | 1-6 | Four solo-tuned zone tables (Roads/River, Greyfens, Heights, Basin); stat-referenced, non-combat-default | encounter, solo-safety |
+| Caradril encounters | `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md` | Encounter/social-scene tables | 3-14 | Eight district social/intrigue tables + Sunken Wards dungeon table; social-default, stat-referenced | encounter, social, solo-safety, region:caradril |
 
 ---
 

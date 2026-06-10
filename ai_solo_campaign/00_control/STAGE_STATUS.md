@@ -6,8 +6,8 @@ Live status of each development stage. Updated after every stage completes, part
 
 ## Current Status
 
-**Active Stage:** Stage 4 — First Major City Deep Build (not started) / Stage 5 — Level 1–4 Play Arc (not started)
-**Last Completed Stage:** Stage 3 — Starting Region Deep Build (complete 2026-06-09)
+**Active Stage:** Stage 5 — Level 1–4 Play Arc (not started) / Stage 6 — First Full Audit (not started)
+**Last Completed Stage:** Stage 4 — First Major City Deep Build (Caradril) (complete 2026-06-10)
 
 ---
 
@@ -19,7 +19,7 @@ Live status of each development stage. Updated after every stage completes, part
 | 1 | Campaign Foundation | complete | 100% | none | "The Long Remembering" established and locked; all required outputs created and indexed 2026-06-09 |
 | 2 | AI Runtime Foundation | complete | 100% | none | All 18 runner protocols + 5 session-pack files written; 8 runtime state files seeded from Stage 1; start/resume prompts ready; all completion criteria met 2026-06-09. Cleanup pass 2026-06-09: stale tracking files (CONTENT_GAPS, EXPANSION_PLAN, CONSISTENCY_AUDIT) corrected; CLUE_INDEX + HIDDEN_CLUES populated; D&D mechanical fields added to the 5 content-standards templates (Critical TODO cleared) |
 | 3 | Starting Region Deep Build | complete | 100% | none | 2026-06-09: 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, ~56 new NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, 4 zone encounter tables; all indexed/cross-linked; clue access anchored to the existing mystery web; clocks anchored to region sites. Targets met or exceeded. Keystone drowned shrine dungeon deferred to Stage 12 by design |
-| 4 | First Major City Deep Build | not started | 0% | — | Depends on Stage 3 |
+| 4 | First Major City Deep Build | complete | 100% | none | 2026-06-10: **Caradril** deep-built — city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary + 25 city minor NPCs, 11 developed city quests, 36 hooks + 30 rumors, city encounter/social-scene tables; 4 city-internal factions + 3 city clocks (C1/C2/C3); city clue access feeds existing M2/M3/M4/M6/M8/M9; Ledger HQ + Remnant seat located; all indexed/cross-linked. Targets met or exceeded. No new central mystery/faction/god/cosmology/artifact created |
 | 5 | Level 1–4 Play Arc | not started | 0% | — | Depends on Stages 1–3 |
 | 6 | First Full Audit | not started | 0% | — | Depends on Stages 1–5 |
 | 7 | Regional Expansion Ring 1 | not started | 0% | — | Depends on Stage 6 |

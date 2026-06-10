@@ -29,6 +29,9 @@ All active escalating threats and faction timelines. Clocks advance when time pa
 | 8 | The Steering Unravels | personal/dm | 1 | Hollow Court cutout / Sefra | medium |
 | 9 | Wren's Fate | personal | 1 | Wren / Tomas / the town | immediate (Act 1) |
 | 10 | The Thinning Spreads | world/dm | 1 | (consequence of #1) | slow/background |
+| C1 | The Deal Closes (Caradril) | faction/city | 1 | Vyre + Quorrin (feeds #6/#7) | medium (Act 2–3) |
+| C2 | The Council Sleeps (Caradril) | political/city | 1 | Tidewater Council complacency | medium (Act 2–3) |
+| C3 | The City's Denial Cracks (Caradril) | world/city | 1 | crisis reaching the city (feeds #10) | slow→medium |
 
 ---
 
@@ -132,6 +135,43 @@ The clocks are unchanged in position (all Stage 1) but now have concrete regiona
 | 10 Thinning Spreads | now visible via Harrowgast's "thin" miners and the Deep Adit's aura |
 
 These are *anchors*, not new clocks — positions and stages are unchanged.
+
+## Stage 4 Caradril City Clocks (City-Internal)
+
+Three city-internal clocks for Caradril (the first major city), added in Stage 4. They are **city-scale faction conflicts that feed the existing master clocks** (chiefly #6 Monopoly and #7 Reclamation) — they do not replace or duplicate them. All start at **Stage 1 (campaign start)**; advance when the player visits/ignores Caradril or as the master clocks turn. **DM-only causes (the deal, the correspondent) must never be narrated as such.**
+
+### C1. The Deal Closes (Caradril)
+- **Type:** faction/city (feeds #6 Monopoly + #7 Reclamation). **Driver:** Vyre + Quorrin (the monopoly deal).
+- **Advances:** time; the player feeding either faction relics/knowledge; ignoring the Counting-Quays/Lantern Reach.
+- **Stage 1:** Vyre and Quorrin negotiate quietly in Caradril.
+- **Stage 2:** terms struck; the Ledger funds the Remnant's relic-supply; Coll Riis copies the proof in fear.
+- **Stage 3:** the Ledger begins selling small death-cheating to the rich; the Remnant secures its relic-pipeline.
+- **Stage 4:** the alliance positions to broker/seize the reopened harvest as a commodity *and* an empire.
+- **Final:** the two richest factions co-own the dead — unless the player exposed or shattered the deal first.
+- **Player levers:** turn Coll Riis; reach the Sealed Archive; expose the deal to Tolm/the council/the idealists; play Vyre and Quorrin against each other.
+- **Files:** `Q_THE_QUAY_CHARTER.md`, `Q_THE_SEALED_ARCHIVE.md`, `CINDER_LEDGER.md`, `CONCORD_REMNANT.md`.
+
+### C2. The Council Sleeps (Caradril)
+- **Type:** political/city. **Driver:** the Tidewater Council's complacency (Voss; the Charter Houses; the Reke correspondent thread).
+- **Advances:** time; the player ignoring Magisterium politics; the open charter falling to the Ledger/old Houses.
+- **Stage 1:** the council shelves the Reach's warnings; the open charter contested.
+- **Stage 2:** the Ledger or an old House wins the charter; reform (Dann) is sidelined.
+- **Stage 3:** Caradril stays in denial as the crisis spreads; the relic-trade swells unchecked; the correspondent thread deepens.
+- **Stage 4:** the city is among the last to believe — a well-resourced, dangerous endgame player if the player never engaged it.
+- **Final:** Caradril's wealth and complacency become an obstacle (or, if reformed, an asset) at the endgame.
+- **Player levers:** `Q_THE_OPEN_CHARTER` (back Dann); carry the Reach warning to the council; ally the ignored Wardens; develop the correspondent lead.
+- **Files:** `Q_THE_OPEN_CHARTER.md`, `Q_THE_SEALED_LETTER.md`, `THE_MAGISTERIUM.md`.
+
+### C3. The City's Denial Cracks (Caradril)
+- **Type:** world/city (feeds #10 The Thinning Spreads). **Driver:** the crisis arriving in "untouched" Caradril (Highmourn failures; the Sill refugees; the smelting/quiet-coin).
+- **Advances:** time; the master harvest clock (#1) turning; the player exposing or ignoring the city's own evidence.
+- **Stage 1:** isolated covered-up raise-dead failures (Ysarra); thin-born refugees trickle into the Sill.
+- **Stage 2:** the cover-up strains; quiet-coin and smelting "incidents" spread; the refugee tide grows.
+- **Stage 3:** the failures become hard to hide; the Sill restless; a wrong-come-back or two surface; the latent Gravecaller possibility quickens.
+- **Stage 4:** Caradril can no longer deny the crisis — panic, or reckoning, depending on whether the player prepared the city.
+- **Final:** the city faces the truth — too late to be calm, in time (if the player acted) to matter.
+- **Player levers:** `Q_THE_FUNERAL_THAT_WOULDNT_TAKE` (expose the cover-up); protect the refugees (Renna); curb quiet-coin/smelting; ally the Wardens.
+- **Files:** `Q_THE_FUNERAL_THAT_WOULDNT_TAKE.md`, `HIGHMOURN.md`, `THE_SILL.md`.
 
 ## Resolved / Expired Clocks
 

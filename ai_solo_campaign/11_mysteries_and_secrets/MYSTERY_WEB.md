@@ -141,9 +141,26 @@ Factions obscure or reveal layers: Gravecallers & Mourners push truth *up*; Ward
 - M8 is independent and can land any time mid-arc as a trust shock.
 - M10 requires M7.
 
+## Stage 4 Additions — Caradril City Clue Access
+
+**No new central mystery, faction, god, cosmology, or artifact was created in Stage 4.** Caradril adds *city-scale access points* to the existing M2/M3/M4/M6/M8/M9 chains, deepening the three-clue rule without changing any true answer. The city is the campaign's **library, bank, and battlefield** for the mid-game. Act-pacing guardrail: Caradril delivers M6/M9 (the Concord's sin and the deliberate Quietfall) at Act 3 / level ~9–12; it must **never name the Hollow Court (M7)** — the apex stays for convergence elsewhere.
+
+| Mystery | Caradril access point(s) | Method | Gate |
+|---|---|---|---|
+| **M2** (drowned shrine / the network) | The **Sunken Wards** warming + in-situ Concord Script | Exploration + Script | the Wards (L6–10); a *fragment* proving the network is continental |
+| **M3** (what is Remembrance?) | **Ashmarket** quiet-coin relic; **Crucible** smelting "incidents"; **Ledger deep-vault** refined relic; **Sunken Wards** dormant relic | Mercantile / hazard / heist / exploration | multiple, low-to-mid level; the easiest *commercial* M3 path in the campaign |
+| **M4** (basin scheme funding) | **Magisterium** misfiled charter-registry record (Ledger → "Reach water-rights works") | Document (Investigation DC 15) or a turned clerk | a Caradril-side echo confirming the Reach M4 |
+| **M6** (Concord's true purpose) | The **Sealed Archive** (clearest written proof); **Highmourn** institutional folk-memory; **Wards** Script fragments | Scholarly (Script-gated) / social / exploration | Act 3 / L9–12; the Archive is the *clearest* M6 source |
+| **M8** (why is the PC here?) | The **Magisterium correspondent thread** (Reke writes to someone seated here — lead only, never a named second agent) | Investigation / the Hush | a long-fuse lead the player develops; never auto-resolved |
+| **M9** (deliberate Quietfall) | The **Sealed Archive** (the planned, signed Quietfall) | Scholarly (Script-gated) | Act 3 / L9–12; converges with M6 |
+
+City NPCs as part-truth holders (extends the existing "NPCs who know part of the truth" set): **Quorrin Vane** (M3/M6/M9, hidden aim), **Lector Briss** (M6 via the Archive once disillusioned; Secret 13), **Mother Ysarra** (city raise-dead failures = M1/M5 echo, covered up), **Lon Quayle** (turnable witness to those failures), **Coll Riis** (the Vyre–Quorrin deal-proof = M3/M6), **the Bellman** (sells fragments of M3/M6/M8/the Wards route), **Renna Sill** (M10 thinning made local; a city Wren-echo).
+
+City quest → clue map: `Q_THE_QUAY_CHARTER` → M3/M6 (deal); `Q_THE_SEALED_ARCHIVE` → M6/M9; `Q_THE_LANTERN_AND_THE_LAMP` → the Script gate for all of the above; `Q_QUIET_COIN`/`Q_THE_SMELTING` → M3; `Q_THE_FUNERAL_THAT_WOULDNT_TAKE` → M1/M5/M6 (city echoes); `Q_BELOW_THE_STILLING` → M2/M3/M6 (Wards fragments); `Q_THE_SEALED_LETTER`/`Q_THE_OPEN_CHARTER` → M8 (correspondent lead).
+
 ## Anti-Railroad Note
 
-Every mystery has 3+ paths spanning social, exploration, ritual, scholarly, mercantile, and forbidden approaches, so no single failed roll, dead NPC, or skipped faction blocks the truth. If the player avoids one faction entirely, another path still exists.
+Every mystery has 3+ paths spanning social, exploration, ritual, scholarly, mercantile, and forbidden approaches, so no single failed roll, dead NPC, or skipped faction blocks the truth. If the player avoids one faction entirely, another path still exists. **Caradril deepens but never gates this:** M3, M6, and M9 are reachable in the Reach as well as the city, so a player who never travels to Caradril is never blocked — the city is the *clearest* path to the deep history, not the only one.
 
 ## Related Files
 

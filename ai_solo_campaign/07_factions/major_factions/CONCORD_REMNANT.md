@@ -118,7 +118,7 @@ Withhold translation; discredit the player academically; sabotage the player's s
 Quorrin, Briss, Reach agents.
 
 ## Related Locations
-Caradril archives; Reach ruins; the drowned shrine.
+**Caradril — the Lantern Reach** (the Lamplighters' Hall public college + the **Sealed Archive**, the clearest written proof of the harvest/Quietfall; Quorrin's seat; Wessel Dree; Tamsin Orr); the **Sunken Wards** (a secretly-mapped relic-cousin level and an Archive back-way); Reach ruins; the drowned shrine. See `../../06_settlements/caradril_districts/THE_LANTERN_REACH.md` and the city clock **C1 The Deal Closes**.
 
 ## Related Mysteries
 The Concord's harvest; the deliberate Quietfall; the race for the keystone.
@@ -127,3 +127,5 @@ The Concord's harvest; the deliberate Quietfall; the race for the keystone.
 - [`../../08_npcs/MAJOR_NPCS.md`](../../08_npcs/MAJOR_NPCS.md)
 - [`CINDER_LEDGER.md`](CINDER_LEDGER.md)
 - [`HOLLOW_COURT.md`](HOLLOW_COURT.md)
+- [`../../06_settlements/caradril_districts/THE_LANTERN_REACH.md`](../../06_settlements/caradril_districts/THE_LANTERN_REACH.md)
+- [`../../09_quests/city_quests/Q_THE_SEALED_ARCHIVE.md`](../../09_quests/city_quests/Q_THE_SEALED_ARCHIVE.md)

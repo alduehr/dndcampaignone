@@ -48,6 +48,14 @@ Master registry of all proper nouns used in the campaign. Check this file before
 | Mourner's Cant | Ritual register | `03_canon/LANGUAGES.md` | Mourners' speech. |
 | Gravecaller Knock | Secret code | `03_canon/LANGUAGES.md` | Cult signaling. |
 | The Reclaimers | Faction sub-group | `07_factions/major_factions/CONCORD_REMNANT.md` | Remnant inner circle (DM). |
+| The Tidewater Council | City government (Caradril) | `06_settlements/CARADRIL.md` | Ruling council of magisters. |
+| The Charter Houses | Power bloc (Caradril merchant families) | `06_settlements/CARADRIL.md` | Old chartered trade dynasties. |
+| The Wardmoot | Civic body (Caradril district reps) | `06_settlements/CARADRIL.md` | Commoners' assembly; little power. |
+| The Tide-Watch | City watch/guard (Caradril) | `06_settlements/CARADRIL.md` | Caradril law enforcement. |
+| The Quay Charter | Sub-faction (Ledger's Caradril guild-arm) | `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` | Cinder Ledger's trade-guild front. |
+| The Salt Syndicate | Criminal network (Caradril) | `06_settlements/CARADRIL.md` | Smuggling + relic black market. |
+| The Hush | Criminal network (Caradril) | `06_settlements/CARADRIL.md` | Information/blackmail brokers. |
+| The Lampwrights' Collegium | Guild (Caradril scholars' guild; Remnant-linked) | `06_settlements/caradril_districts/THE_LANTERN_REACH.md` | Public face of Remnant scholarship. |
 
 ## Place Names
 
@@ -94,6 +102,32 @@ Master registry of all proper nouns used in the campaign. Check this file before
 | The Knotted Hand | Inn (Saltmargin) | Sundering Reach | `06_settlements/SALTMARGIN.md` |
 | The Drowned Kettle | Inn (Kettle Bridge) | Sundering Reach | `06_settlements/KETTLE_BRIDGE.md` |
 | The Cold Drum | Tavern (Harrowgast) | Sundering Reach | `06_settlements/HARROWGAST.md` |
+
+### Caradril (Stage 4 — First Major City; SE Orrun)
+
+| Name | Type | Region | File |
+|---|---|---|---|
+| Caradril | City-state (first major city) | Orrun | `06_settlements/CARADRIL.md` |
+| The Verdance | River (Caradril's waterway) | Orrun/Caradril | `06_settlements/CARADRIL.md` |
+| The Stillwater | Inland harbor-lake (Caradril's port) | Caradril | `06_settlements/CARADRIL.md` |
+| The Magisterium | District (government quarter) | Caradril | `06_settlements/caradril_districts/THE_MAGISTERIUM.md` |
+| The Counting-Quays | District (Ledger banking/docks) | Caradril | `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` |
+| The Lantern Reach | District (scholars; Remnant seat) | Caradril | `06_settlements/caradril_districts/THE_LANTERN_REACH.md` |
+| The Ashmarket | District (relic/salvage trade) | Caradril | `06_settlements/caradril_districts/THE_ASHMARKET.md` |
+| Highmourn | District (temple/cemetery hill) | Caradril | `06_settlements/caradril_districts/HIGHMOURN.md` |
+| The Crucible | District (foundries/guildhalls) | Caradril | `06_settlements/caradril_districts/THE_CRUCIBLE.md` |
+| The Sill | District (poor riverside undercity) | Caradril | `06_settlements/caradril_districts/THE_SILL.md` |
+| The Sunken Wards | District (old flooded undercity; ruin) | Caradril | `06_settlements/caradril_districts/THE_SUNKEN_WARDS.md` |
+| The Ledger Keep | Landmark (Cinder Ledger HQ building) | Caradril | `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` |
+| The Lamplighters' Hall | Landmark (Remnant public college) | Caradril | `06_settlements/caradril_districts/THE_LANTERN_REACH.md` |
+| The Sealed Archive | Landmark (Remnant's true archive vault; M6/M9) | Caradril | `06_settlements/caradril_districts/THE_LANTERN_REACH.md` |
+| The Threshold Cathedral | Temple (Three Thresholds) | Caradril (Highmourn) | `06_settlements/caradril_districts/HIGHMOURN.md` |
+| The Quiet Houses | Cemetery-temple complex | Caradril (Highmourn) | `06_settlements/caradril_districts/HIGHMOURN.md` |
+| Magisters' Hall | Landmark (Tidewater Council seat) | Caradril (Magisterium) | `06_settlements/caradril_districts/THE_MAGISTERIUM.md` |
+| The Pale Star | Inn (Magisterium edge; player base) | Caradril | `06_settlements/CARADRIL.md` |
+| The Last Tally | Tavern (Counting-Quays) | Caradril | `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` |
+| The Brass Ferry | Tavern (the Sill) | Caradril | `06_settlements/caradril_districts/THE_SILL.md` |
+| The Sealgate | Landmark (sealed stair into the Sunken Wards) | Caradril | `06_settlements/caradril_districts/THE_SUNKEN_WARDS.md` |
 
 ## NPC Names
 
@@ -152,6 +186,32 @@ Pim Ostry, Goodwife Harl, Edda Cole, Wat (cooper's-boy), Sexton Marrow, Drell (p
 
 > Note: "Mourner Edda" (Candlewick, minor) and "Edda Cole" (Hollowmere hedge-healer, minor) are distinct people; "Pell Oster" (Saltmargin salt-warden, minor official, mentioned in `SALTMARGIN.md`) is distinct from "Warden Pell" (Ashen Warden, secondary).
 
+### Caradril Secondary NPCs (Stage 4) — `08_npcs/SECONDARY_NPCS.md`
+
+| Name | Role | Location |
+|---|---|---|
+| Magister Halloran Voss | First Magister (head of council) | Caradril (Magisterium) |
+| Magister Sefa Dann | Reform magister (ally lever) | Caradril (Magisterium) |
+| Charter-Lord Esren Tolm | Old-money Charter House head (Ledger rival) | Caradril (Magisterium) |
+| Captain Yorell Kade | Tide-Watch captain | Caradril (citywide) |
+| Provost Anneth Vell | Ledger Keep provost (Vyre's Caradril deputy) | Caradril (Counting-Quays) |
+| Underfactor Coll Riis | Ledger clerk (turnable; M3/M6) | Caradril (Counting-Quays) |
+| Sub-Lector Tamsin Orr | Remnant scholar (Briss's student; Script tutor) | Caradril (Lantern Reach) |
+| Keeper-Archivist Wessel Dree | Sealed Archive gatekeeper (Reclaimer) | Caradril (Lantern Reach) |
+| Mother Ysarra | Threshold Cathedral high priest | Caradril (Highmourn) |
+| Grave-Magister Lon Quayle | Quiet Houses death-rite official | Caradril (Highmourn) |
+| Foundress Beck Harrow | Crucible guild-mistress (relic-smelting) | Caradril (Crucible) |
+| "Tidewife" Sorrel | Salt Syndicate boss | Caradril (the Sill/Quays) |
+| The Bellman | The Hush broker (information/blackmail) | Caradril (citywide) |
+| Renna Sill | Sill community leader (thin-born advocate) | Caradril (the Sill) |
+| Old Pater Dunk | Sunken Wards delver-guide | Caradril (Sunken Wards) |
+
+### Caradril Minor NPCs (Stage 4) — `08_npcs/MINOR_NPCS.md`
+
+Steward Maell, Crier Bosh, Doorward Sile [Magisterium]; Tally-clerk Vinn, Wharf-boss Drenn, Moneychanger Oons, Pelt the runner [Counting-Quays]; Copyist Hale-of-Lampgate (see note), Page Wenna, Binder Oslo, Lamplighter Tib [Lantern Reach]; Relic-monger Sabb, Fence Greel-of-the-Ash (see note), Appraiser Mooren, Hawker Liss [Ashmarket]; Sister Onae, Bell-ringer Tomm, Bone-clerk Vass [Highmourn]; Smelt-master Ordo, Guild-steward Phane, Soot the apprentice [Crucible]; Ferryman Quill, Net-girl Bree, "Old Soak" Marrin, Widow Tace [the Sill]; Delver Coorn, Lantern-girl Esha [Sunken Wards].
+
+> Note: "Copyist Hale-of-Lampgate" (Caradril minor) is distinct from "Warden Brother Hale" (major). "Fence Greel-of-the-Ash" (Caradril Ashmarket minor) is distinct from "Hayward Tomas Greel" (Candlewick secondary). Disambiguating epithets are kept in the minor-NPC table.
+
 ## God and Divine Entity Names
 
 | Name | Domain | Faith File | Notes |
@@ -182,6 +242,9 @@ Pim Ostry, Goodwife Harl, Edda Cole, Wat (cooper's-boy), Sexton Marrow, Drell (p
 | Thin-touch | Reversible condition from exposure to raw Remembrance relics (Stage 3 custom mechanic; disadvantage on Death saves until a true rite / shrine long-rest) | `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`, `10_dungeons_and_ruins/THE_DEEP_ADIT.md` |
 | Old glass | Folk term for raw Remembrance relics dug from the Sunder Heights | `06_settlements/HARROWGAST.md` |
 | The Gravecaller Knock (second mark) | The cult's door-mark/signal (already registered as Gravecaller Knock; "second mark" is the folk name) | `06_settlements/GREYWATER_HOLM.md` |
+| Charter | A Caradril trade-license; basis of the Charter Houses' power and the Tidewater Council franchise | `06_settlements/CARADRIL.md` |
+| The Stilling | Caradril's term for its golden age of calm after the Quietfall; folk pride masking complacency | `06_settlements/CARADRIL.md` |
+| Quiet-coin | Black-market slang in Caradril for relics rumored to "hold" the dead (raw Remembrance relics) | `06_settlements/caradril_districts/THE_ASHMARKET.md` |
 
 ## Forbidden / Retired Names
 

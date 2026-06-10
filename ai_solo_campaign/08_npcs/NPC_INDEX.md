@@ -64,9 +64,31 @@ Full entries in `SECONDARY_NPCS.md`. All five Stage-1-registered placeholders (W
 | Hospitaller Warden Sirrin | Ashen Wardens | The Ashwalk Rest | Quartermaster-of-mercy | Priest |
 | Custodian Orre | Hollow Court (DM) | Under-shrine | Hardliner (endgame) | Tier 4 (DM) |
 
-## Minor NPCs (Stage 3)
+## Secondary NPCs (Stage 4 — Caradril)
 
-Full table by location in `MINOR_NPCS.md` (~35 named local-color NPCs across all eight settlements and the Ashwalk Rest). Promote to Secondary if any becomes important in play.
+Full entries in `SECONDARY_NPCS.md` (Caradril section). 15 city NPCs across the eight districts. Major NPCs Vyre, Quorrin Vane, and Briss are seated in Caradril (see Major table).
+
+| Name | Faction | District | Role | Combat |
+|---|---|---|---|---|
+| Magister Halloran Voss | Tidewater Council | Magisterium | First Magister (weak; correspondent lead) | Noble |
+| Magister Sefa Dann | Tidewater Council | Magisterium | Reform lever (ally) | Noble/Acolyte |
+| Charter-Lord Esren Tolm | Charter Houses | Magisterium | Old-money Ledger rival (false-ally patron) | Noble |
+| Captain Yorell Kade | Tide-Watch | citywide | Watch captain (turnable lawful) | Knight/Veteran |
+| Provost Anneth Vell | Cinder Ledger | Counting-Quays | Ledger Keep deputy | Spy/Noble |
+| Underfactor Coll Riis | Cinder Ledger | Counting-Quays | Turnable clerk (M3/M6 deal proof) | Commoner |
+| Sub-Lector Tamsin Orr | Concord Remnant | Lantern Reach | Honest Script tutor | Commoner/Acolyte |
+| Keeper-Archivist Wessel Dree | Concord Remnant | Lantern Reach | Sealed Archive gatekeeper (Reclaimer) | Mage/Acolyte |
+| Mother Ysarra | Threshold clergy | Highmourn | High priest (raise-dead cover-up) | Priest |
+| Grave-Magister Lon Quayle | Quiet Houses | Highmourn | Funeral official (turnable witness) | Commoner/Acolyte |
+| Foundress Beck Harrow | Craft guilds | Crucible | Foundry-mistress (relic-smelting; M3) | Guard/Commoner |
+| "Tidewife" Sorrel | Salt Syndicate | Ashmarket/Sill | Black-market boss (quiet-coin; M3) | Spy/Assassin |
+| The Bellman | The Hush | citywide | Information broker (shortcut-clues) | Spy |
+| Renna Sill | the Sill | Sill | Refugee advocate (M10/M1 local echo) | Commoner |
+| Old Pater Dunk | independent | Sill/Sunken Wards | Sunken Wards guide (solo-safety) | Scout |
+
+## Minor NPCs (Stage 3 + Stage 4)
+
+Full tables by location in `MINOR_NPCS.md`. Stage 3: ~35 named local-color NPCs across the eight Reach settlements and the Ashwalk Rest. Stage 4: 25 named Caradril minor NPCs across the eight city districts. Promote to Secondary if any becomes important in play.
 
 ## Related Files
 

@@ -72,6 +72,21 @@ Stage 3 anchored the existing hidden clues to authored locations. Still all `hid
 
 **Do not surface Act 3+ apex clues during Act 1–2** even at these new sites — give fragments, per the pacing reminder above.
 
+## Stage 4 City Anchors (Caradril; where the hidden clues now also live)
+
+Stage 4 anchored existing hidden clues to the first major city. Still all `hidden` at start. **Caradril never names the Hollow Court (M7).** Quick "where to find it" for the DM:
+
+| Clue(s) | Now also findable at (Caradril) | Trigger |
+|---|---|---|
+| C-M2-1 (the network) | The Sunken Wards' warming + Concord Script | descend the Wards (L6–10) + read Script; a *continental-network fragment* |
+| C-M3-1/3 (relic) | Ashmarket quiet-coin relic; Crucible smelting; Ledger deep-vault relic (L8+); a Wards relic | buy/study/heist/explore a relic |
+| C-M4-2 (basin funding) | Magisterium charter-registry misfiled record | Investigation DC 15 or a turned clerk; a Caradril-side echo |
+| C-M6-1, C-M9-1 (Act 3) | The **Sealed Archive** (clearest proof); plus the Vyre–Quorrin deal-pages (Coll Riis) for M6 | Script-gated; trust/theft/disillusioned-Briss/Wards back-way; **Act 3 / L9–12** |
+| C-M8-1/2 (steering) | The Magisterium correspondent thread (lead only — never a named second agent); the Hush sells fragments | investigation / pay the Bellman |
+| C-M1/M5 (city echoes) | Highmourn's covered-up failures + a hushed wrong-come-back; Renna's sheltered revenant; thin-born refugees (M10 local) | witness a failed rite / turn Quayle / meet the refugees |
+
+**Do not surface the Sealed Archive's M6/M9 truth before Act 3 / L9–12, and never name the Hollow Court in Caradril.** Earlier city visits give M2/M3 fragments and demonstrations only.
+
 ## Clue Entry Template
 
 ```md

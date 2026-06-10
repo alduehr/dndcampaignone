@@ -6,6 +6,48 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-10 — Stage 4: First Major City Deep Build (Caradril)
+
+### Stage
+Stage 4 — First Major City Deep Build (complete)
+
+### Summary
+Built **Caradril**, the first major city, as a dense, politically alive mid-game hub (~levels 5–12, with level 3–5 on-ramps and level 12+ endgame threads), without inventing any new central mystery, faction, god, cosmology, or artifact. Caradril is an independent inland city-state on the Verdance/Stillwater, ~10–12 days SE of Hollowmere — the headquarters of the Cinder Ledger (the Ledger Keep) and the seat of the Concord Remnant (the Lamplighters' Hall + the Sealed Archive), governed by the Tidewater Council of merchant magisters (the Charter Houses) under First Magister Halloran Voss and policed by the Tide-Watch. Created a full city overview and 8 district files — the Magisterium (government/charter politics), the Counting-Quays (Ledger HQ; the Vyre–Quorrin deal), the Lantern Reach (scholars; the Concord Script gate; the Sealed Archive holding the clearest M6/M9 proof), the Ashmarket (relic black market; quiet-coin M3), Highmourn (temples/cemetery; the raise-dead cover-up; a city solo-safety hub), the Crucible (foundries; relic-smelting M3), the Sill (poor undercity; the Hush; thin-born refugees; the Sealgate), and the Sunken Wards (a flooded sub-dungeon, a *minor dormant cousin* of the Reach nodes, NOT the keystone, levels 6–14). Added 15 city secondary NPCs (Voss, Sefa Dann, Esren Tolm, Yorell Kade, Anneth Vell, Coll Riis, Tamsin Orr, Wessel Dree, Mother Ysarra, Lon Quayle, Beck Harrow, "Tidewife" Sorrel, the Bellman, Renna Sill, Old Pater Dunk) with full Tier-2 profiles and DM secrets separated from player-safe roles, plus 25 city minor NPCs by district. Authored 11 developed city quests in full QUEST_STANDARDS form (Sealed Letter, Open Charter, Quay Charter, Lantern and the Lamp, Sealed Archive, Quiet Coin, Funeral That Wouldn't Take, Smelting, Bellman's Price, Below the Stilling, Tide Turns), 36 city hooks and 30 city rumors all pointing to authored content, and a city encounter/social-scene table (8 district tables + a Sunken Wards dungeon table), social-default and stat-referenced. Established 4 city-internal factions (Tidewater Council/Charter Houses, Tide-Watch, Salt Syndicate, the Hush) and 3 city faction clocks (C1 The Deal Closes, C2 The Council Sleeps, C3 The City's Denial Cracks) anchored to the existing master clocks. Anchored existing M2/M3/M4/M6/M8/M9 clue paths to city access points (the Sealed Archive as the clearest M6/M9 cache; quiet-coin/smelting/deep-vault/Wards as M3; the charter-registry as a city M4 echo; the Magisterium correspondent as an M8 *lead, never a named second agent*; Highmourn/Sill as city M1/M5/M10 echoes). Solo play preserved throughout: Caradril is a safe-rest hub where danger is social, political, and underground; combat is concentrated in the Sunken Wards (retreat-rich, parley-able) and telegraphed faction reprisals; the city's deepest truths are Act-3 / level-9–12 gated; **the Hollow Court (M7) is never named in Caradril**; the "Stilling = harvest's pause" theme is a late, earned key. Player-safe vs. DM-only strictly separated in every file.
+
+### Files Created
+- City overview (1): `06_settlements/CARADRIL.md`
+- Districts (8): `06_settlements/caradril_districts/THE_MAGISTERIUM.md`, `THE_COUNTING_QUAYS.md`, `THE_LANTERN_REACH.md`, `THE_ASHMARKET.md`, `HIGHMOURN.md`, `THE_CRUCIBLE.md`, `THE_SILL.md`, `THE_SUNKEN_WARDS.md`
+- City quests (11): `09_quests/city_quests/Q_THE_SEALED_LETTER.md`, `Q_THE_OPEN_CHARTER.md`, `Q_THE_QUAY_CHARTER.md`, `Q_THE_LANTERN_AND_THE_LAMP.md`, `Q_THE_SEALED_ARCHIVE.md`, `Q_QUIET_COIN.md`, `Q_THE_FUNERAL_THAT_WOULDNT_TAKE.md`, `Q_THE_SMELTING.md`, `Q_THE_BELLMANS_PRICE.md`, `Q_BELOW_THE_STILLING.md`, `Q_THE_TIDE_TURNS.md`
+- Hooks/Rumors (2): `09_quests/hooks_and_rumors/CARADRIL_HOOKS.md`, `CARADRIL_RUMORS.md`
+- Encounters (1): `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`
+
+### Files Changed
+- `08_npcs/SECONDARY_NPCS.md` — 15 Caradril city NPCs + combat-relevance rows + metadata
+- `08_npcs/MINOR_NPCS.md` — 25 Caradril minor NPCs by district + metadata
+- `08_npcs/NPC_INDEX.md` — Caradril secondary table + minor count
+- `00_control/NAMING_REGISTRY.md` — all new Caradril place, faction, NPC, and term proper nouns registered
+- `00_control/CONTENT_INDEX.md`, `TAG_INDEX.md`, `RETRIEVAL_GUIDE.md` — all new files indexed; Stage 4 status; region:caradril block; load entries
+- `03_canon/CANON.md` (geography + revision log), `PLAYER_SAFE_CANON.md` (Caradril facts), `DM_ONLY_CANON.md` (Stage 4 city DM context)
+- `04_world_atlas/WORLD_OVERVIEW.md` — Caradril marked deep-built
+- `07_factions/FACTION_INDEX.md` — 4 city factions + city relationships; `CINDER_LEDGER.md` & `CONCORD_REMNANT.md` — Caradril HQ/seat cross-links
+- `11_mysteries_and_secrets/MYSTERY_WEB.md`, `CLUE_INDEX.md`; `02_runtime_state/HIDDEN_CLUES.md` — Caradril city clue access (extends M2/M3/M4/M6/M8/M9; no new mysteries)
+- `02_runtime_state/WORLD_CLOCKS.md`, `FACTION_STATE.md` — 3 city clocks + 4 city factions
+- `00_control/STAGE_STATUS.md`, `TODO.md`, `CONSISTENCY_AUDIT.md`, `17_generation_backlog/CONTENT_GAPS.md`, `EXPANSION_PLAN.md` — tracking advanced to Stage 4 complete
+
+### Canon Established
+- Caradril as the first major city: its geography (Verdance/Stillwater), the Tidewater Council/Charter Houses/Tide-Watch government, the "Stilling," 8 districts, the Ledger HQ + Remnant seat, the Sunken Wards as a *minor dormant cousin* of the Reach nodes (player-safe city facts). DM-only: the Vyre–Quorrin deal is negotiated in the city, the Sealed Archive holds the clearest M6/M9 proof, the Stilling prosperity is the harvest's pause, and the Magisterium correspondent thread (a lead, never a named second agent). New terms: Charter, the Stilling, quiet-coin.
+
+### Indexes Updated
+- CONTENT_INDEX, TAG_INDEX, RETRIEVAL_GUIDE, NPC_INDEX, FACTION_INDEX, NAMING_REGISTRY, CLUE_INDEX, MYSTERY_WEB.
+
+### Gaps Identified
+- Caradril combat-relevant NPC stat profiles are abbreviated/reference-style (sufficient for play; full custom stat blocks deferred to Stage 13 as with the Reach). The Sealed Archive and Sunken Wards are richly specced as district/quest content but a full dungeon-file build (room-by-room) is deferred to Stage 12 by design (mirrors the keystone shrine deferral). The "Magisterium correspondent" is intentionally an open thread for Stage 5/15 to resolve in play.
+
+### Next Recommended Pass
+- **Stage 5 — Level 1–4 Play Arc** (shape Act 1 atop the deep Reach), then **Stage 6 — First Full Audit** across Stages 1–5 (now including Caradril).
+
+---
+
 ## 2026-06-09 — Stage 3: Starting Region Deep Build
 
 ### Stage

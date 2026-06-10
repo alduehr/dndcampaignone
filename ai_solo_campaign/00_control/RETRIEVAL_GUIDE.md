@@ -6,7 +6,7 @@ Tells the AI DM which files to load, when to load them, and how to use them. Thi
 
 ## Current Status
 
-Stages 1, 2, and 3 complete. Session load order, contextual load rules, pre-content-generation checks, and secrecy enforcement are operational. Sundering Reach world content load entries are live below.
+Stages 1, 2, 3, and 4 complete. Session load order, contextual load rules, pre-content-generation checks, and secrecy enforcement are operational. Sundering Reach (Stage 3) and Caradril city (Stage 4) world content load entries are live below.
 
 ---
 
@@ -193,6 +193,37 @@ These files exist and are loadable as of Stage 3. Always load the minimum needed
 ### Factions
 - `07_factions/major_factions/` — load relevant faction file when faction is active in current scene
 - `07_factions/FACTION_INDEX.md` — master table and relationship map
+
+---
+
+## Stage 4 World Content Load Entries (Caradril — First Major City)
+
+The mid-game hub (~levels 5–12, with level 3–5 on-ramps and level 12+ threads). Load the minimum needed for the current district/scene.
+
+### City Overview
+- `06_settlements/CARADRIL.md` — load on arrival and for any city-wide question (government, services, scale, secrets)
+
+### Districts (load the one the player is in)
+- `06_settlements/caradril_districts/THE_MAGISTERIUM.md` — government, charter politics, the Watch, the Pale Star base
+- `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` — Cinder Ledger HQ; Vyre; the deal (M3/M6)
+- `06_settlements/caradril_districts/THE_LANTERN_REACH.md` — Concord Remnant; Concord Script; the Sealed Archive (M6/M9)
+- `06_settlements/caradril_districts/THE_ASHMARKET.md` — relic/salvage trade; quiet-coin (M3)
+- `06_settlements/caradril_districts/HIGHMOURN.md` — temples, funerals, healing/rest; the raise-dead cover-up
+- `06_settlements/caradril_districts/THE_CRUCIBLE.md` — foundries, gear, relic-smelting (M3)
+- `06_settlements/caradril_districts/THE_SILL.md` — poor undercity; the Hush; refugees; the Sealgate
+- `06_settlements/caradril_districts/THE_SUNKEN_WARDS.md` — the city's sub-dungeon (Lvl 6–14); load as a dungeon
+
+### City NPCs / Quests / Encounters
+- `08_npcs/SECONDARY_NPCS.md` (Caradril section), `MINOR_NPCS.md` (Caradril section) — load by district
+- `09_quests/city_quests/` — 11 developed city quests; load when active
+- `09_quests/hooks_and_rumors/CARADRIL_HOOKS.md`, `CARADRIL_RUMORS.md` — city hooks/rumors by district
+- `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md` — district social/intrigue tables + the Sunken Wards dungeon table
+
+### City Clocks / Clue Access
+- `02_runtime_state/WORLD_CLOCKS.md` (city clocks C1/C2/C3) and `FACTION_STATE.md` (Caradril city factions) — load for city faction behavior
+- `11_mysteries_and_secrets/CLUE_INDEX.md` + `02_runtime_state/HIDDEN_CLUES.md` (Stage 4 Caradril anchors) — DM-only; the city's M2/M3/M4/M6/M8/M9 access points
+
+**Caradril secrecy reminder:** the Sealed Archive (M6/M9) is Act 3 / L9–12; earlier visits give M2/M3 *fragments and demonstrations*. **Never name the Hollow Court (M7) in Caradril.** The Reke "correspondent" thread is a *lead*, not a named second agent — do not pre-resolve it.
 
 ---
 
