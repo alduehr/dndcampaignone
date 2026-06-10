@@ -111,7 +111,7 @@ Full zone-by-zone tables: `../13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNT
 
 Foundational: `../09_quests/HOOKS_TABLE.md` (Hooks 1–10) and `../09_quests/RUMORS_TABLE.md` (R1–R20).
 Stage 3 region-wide: `../09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md` (H11–H39; **39 hooks total**) and `SUNDERING_REACH_RUMORS.md` (R21–R50; **50 rumors total**).
-Developed quests: `../09_quests/regional_quests/` (12 full quest files). All point to authored content here.
+Developed quests: `../09_quests/regional_quests/` (14 full quest files). All point to authored content here.
 
 ## Encounter Themes
 

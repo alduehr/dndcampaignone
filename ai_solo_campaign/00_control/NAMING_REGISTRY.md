@@ -6,7 +6,7 @@ Master registry of all proper nouns used in the campaign. Check this file before
 
 ## Current Status
 
-**Stage 1 populated.** Core campaign proper nouns registered. Add new entries immediately when creating named content.
+**Stages 1–4 populated.** Core campaign proper nouns registered through Stage 4 (Caradril city: districts, city factions, city NPCs, new terms). Add new entries immediately when creating named content.
 
 ## Rules
 

@@ -37,7 +37,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
   - Early villain/threat profile in `13_encounters_and_bestiary/`
 - **Suggested agent:** `quest-arc-designer` (with `encounter-bestiary-designer` for the dungeon and villain)
 - **Completion criteria:** A solo campaign can begin and run cleanly through level 4; the main arc is foreshadowed but not over-explained; failure states are playable; the first recurring adversary is established.
-- **Note:** Stage 4 (first major city) may be slotted before or after this pass depending on whether the Act 1 arc needs the city; current plan defers the city until after Act 1 is shaped.
+- **Note:** Stage 4 (first major city) is complete as of 2026-06-10. Stage 5 can proceed immediately.
 
 ### Pass 3 — First Full Audit (Stage 6)
 

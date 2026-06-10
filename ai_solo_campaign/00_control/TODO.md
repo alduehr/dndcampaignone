@@ -14,7 +14,7 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 - [ ] Complete Stage 5: Level 1–4 Play Arc
   - Why it matters: With the region now deep-built (Stage 3), the next highest-value pass is the shaped Act 1 narrative — a default path, alternate paths, faction decision points, the first major dungeon, an early villain/threat profile, and playable failure states — while preserving open-world freedom.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 5, `QUEST_STANDARDS.md`, `12_campaign_arc/`, the 12 Stage 3 developed quests in `09_quests/regional_quests/`
+  - Related files: `DEVELOPMENT_STAGES.md` Stage 5, `QUEST_STANDARDS.md`, `12_campaign_arc/`, the 14 Stage 3 developed quests in `09_quests/regional_quests/`
   - Suggested agent: `quest-arc-designer` (+ `encounter-bestiary-designer`)
   - Stage: 5
 
@@ -50,6 +50,22 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Related files: `CLAUDE.md`, `PROJECT_RULES.md`
   - Suggested agent: —
   - Stage: optional cleanup
+
+---
+
+## Post-Stage-4 Follow-Ups
+
+- [ ] Expand Caradril NPC count to approach Stage 4 target (75–100 total city NPCs)
+  - Why it matters: Stage 4 delivered ~40 useful city NPCs (20 major from Stage 1 + 15 secondary + 25 minor); the target was 75–100. Quality over quantity was the right call, but the gap should be closed before heavy city play begins.
+  - Related files: `08_npcs/SECONDARY_NPCS.md`, `08_npcs/MINOR_NPCS.md`, `08_npcs/NPC_INDEX.md`, `06_settlements/caradril_districts/`
+  - Suggested agent: `npc-codex-builder`
+  - Stage: 9 (NPC Codex Expansion)
+
+- [ ] Create `QUEST_INDEX.md` covering all authored quests across stages
+  - Why it matters: Quests currently indexed inline in `CONTENT_INDEX.md`; a dedicated QUEST_INDEX would allow faster lookup by level, region, type, and faction as the quest library grows.
+  - Related files: `09_quests/regional_quests/`, `09_quests/city_quests/`, `09_quests/hooks_and_rumors/`
+  - Suggested agent: `indexer-librarian`
+  - Stage: 10 (Quest Library Expansion)
 
 ---
 
