@@ -17,7 +17,7 @@ Live status of each development stage. Updated after every stage completes, part
 |---|---|---|---|---|---|
 | 0 | Repository Setup | complete | 100% | none | Scaffold created 2026-06-09 |
 | 1 | Campaign Foundation | complete | 100% | none | "The Long Remembering" established and locked; all required outputs created and indexed 2026-06-09 |
-| 2 | AI Runtime Foundation | complete | 100% | none | All 17 runner protocols + 5 session-pack files written; 8 runtime state files seeded from Stage 1; start/resume prompts ready; all completion criteria met 2026-06-09. Cleanup pass 2026-06-09: stale tracking files (CONTENT_GAPS, EXPANSION_PLAN, CONSISTENCY_AUDIT) corrected; CLUE_INDEX + HIDDEN_CLUES populated; D&D mechanical fields added to the 5 content-standards templates (Critical TODO cleared) |
+| 2 | AI Runtime Foundation | complete | 100% | none | All 18 runner protocols + 5 session-pack files written; 8 runtime state files seeded from Stage 1; start/resume prompts ready; all completion criteria met 2026-06-09. Cleanup pass 2026-06-09: stale tracking files (CONTENT_GAPS, EXPANSION_PLAN, CONSISTENCY_AUDIT) corrected; CLUE_INDEX + HIDDEN_CLUES populated; D&D mechanical fields added to the 5 content-standards templates (Critical TODO cleared) |
 | 3 | Starting Region Deep Build | not started | 0% | — | Depends on Stage 1 |
 | 4 | First Major City Deep Build | not started | 0% | — | Depends on Stage 3 |
 | 5 | Level 1–4 Play Arc | not started | 0% | — | Depends on Stages 1–3 |

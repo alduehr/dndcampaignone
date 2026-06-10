@@ -6,7 +6,7 @@ Track unresolved design questions that cannot be resolved by making a standard c
 
 ## Current Status
 
-Stage 0 scaffold. No campaign content exists yet. Questions will accumulate during Stage 1.
+Stages 0–2 complete. No blocking open questions currently recorded. Future unresolved design questions should be added here only when they cannot be resolved through a standard creative decision.
 
 ---
 

@@ -6,7 +6,7 @@ Global inventory of campaign content. Tells the AI DM what exists and where to f
 
 ## Current Status
 
-**Stages 1 and 2 complete.** Campaign foundation content indexed below. Regions, settlements, factions, major NPCs, mystery infrastructure, hooks/rumors, and opening packs exist (Stage 1). All 17 runner protocols, the START/RESUME prompts, the session-pack templates, and 8 seeded runtime state files are runnable (Stage 2). Deep region/quest/NPC expansion continues in Stages 3+.
+**Stages 1 and 2 complete.** Campaign foundation content indexed below. Regions, settlements, factions, major NPCs, mystery infrastructure, hooks/rumors, and opening packs exist (Stage 1). All 18 runner protocols, the START/RESUME prompts, the session-pack templates, and 8 seeded runtime state files are runnable (Stage 2). Deep region/quest/NPC expansion continues in Stages 3+.
 
 ---
 

@@ -6,7 +6,7 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stages 1 and 2 complete.** Campaign foundation content registered: starting region/settlement, 7 factions, 20 major NPCs, hooks/rumors, mystery infrastructure, arc files, opening packs, world clocks (Stage 1). All 17 runner protocols and the START/RESUME prompts are now `status:complete`; session-pack templates are `status:template`; 8 runtime state files are seeded at campaign-start baseline (Stage 2). The Stage 2 cleanup pass populated `CLUE_INDEX.md` and `HIDDEN_CLUES.md` (all clues hidden at start) and added D&D mechanical fields to the five content-standards templates. No `status:placeholder` files remain. Deep expansion continues in Stages 3+.
+**Stages 1 and 2 complete.** Campaign foundation content registered: starting region/settlement, 7 factions, 20 major NPCs, hooks/rumors, mystery infrastructure, arc files, opening packs, world clocks (Stage 1). All 18 runner protocols and the START/RESUME prompts are now `status:complete`; session-pack templates are `status:template`; 8 runtime state files are seeded at campaign-start baseline (Stage 2). The Stage 2 cleanup pass populated `CLUE_INDEX.md` and `HIDDEN_CLUES.md` (all clues hidden at start) and added D&D mechanical fields to the five content-standards templates. No `status:placeholder` files remain. Deep expansion continues in Stages 3+.
 
 ---
 

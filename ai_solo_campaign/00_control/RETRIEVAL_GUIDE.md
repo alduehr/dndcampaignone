@@ -6,7 +6,7 @@ Tells the AI DM which files to load, when to load them, and how to use them. Thi
 
 ## Current Status
 
-Stage 0 scaffold. Load priorities for world content will be added as content is created. Runtime and control file priorities are established here.
+Stages 1 and 2 complete. Session load order, contextual load rules, pre-content-generation checks, and secrecy enforcement are operational. World content load entries (regions, settlements, factions, NPCs) will be added as Stage 3+ content is created.
 
 ---
 
