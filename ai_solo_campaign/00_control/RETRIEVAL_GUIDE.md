@@ -6,7 +6,7 @@ Tells the AI DM which files to load, when to load them, and how to use them. Thi
 
 ## Current Status
 
-Stages 1 and 2 complete. Session load order, contextual load rules, pre-content-generation checks, and secrecy enforcement are operational. World content load entries (regions, settlements, factions, NPCs) will be added as Stage 3+ content is created.
+Stages 1, 2, and 3 complete. Session load order, contextual load rules, pre-content-generation checks, and secrecy enforcement are operational. Sundering Reach world content load entries are live below.
 
 ---
 
@@ -138,18 +138,61 @@ These checks take seconds and prevent large-scale rework later.
 
 ---
 
-## Files That Will Exist After Stage 1
+## Stage 3 World Content Load Entries (Sundering Reach)
 
-*To be filled in after Stage 1 content generation.*
+These files exist and are loadable as of Stage 3. Always load the minimum needed for the current scene.
 
-- Campaign overview: `03_canon/CANON.md`
-- Hidden truth: `03_canon/DM_ONLY_CANON.md`
-- Starting region: `05_regions/[name].md`
-- Starting settlement: `06_settlements/[name].md`
-- Major factions: `07_factions/major_factions/[name].md`
-- Major NPCs: `08_npcs/[name].md`
-- Main arc overview: `12_campaign_arc/MAIN_ARC_OVERVIEW.md`
-- Mystery web: `11_mysteries_and_secrets/MYSTERY_WEB.md`
+### Region
+- `05_regions/SUNDERING_REACH.md` — full region overview; load when entering a new zone or for travel context
+
+### Settlements
+- `06_settlements/HOLLOWMERE.md` — starting town; load every session set here
+- `06_settlements/KETTLE_BRIDGE.md` — eastern toll-town
+- `06_settlements/SALTMARGIN.md` — western salt-trade town
+- `06_settlements/CANDLEWICK.md` — southern village; Concord Script clue gate
+- `06_settlements/GREYWATER_HOLM.md` — fen-edge village; cult spread
+- `06_settlements/HARROWGAST.md` — heights mining village; Deep Adit entrance
+- `06_settlements/REEDFORD.md` — central ford hamlet; low-danger waypoint
+- `06_settlements/THE_ASHWALK_REST.md` — Warden waystation; solo-safety sanctuary
+
+### Wilderness Zones
+- `05_regions/wilderness/GREYFENS_SITES.md` — fen sites; Gravecaller activity
+- `05_regions/wilderness/SUNDER_HEIGHTS_SITES.md` — highlands; old glass; Remnant race
+- `05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md` — river and Concord road sites; travel layer
+- `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md` — basin shore; deep basin gated to endgame
+
+### Dungeons / Ruins
+- `10_dungeons_and_ruins/THE_PEAT_CHAPEL.md` — intended first delve; level 1–2
+- `10_dungeons_and_ruins/THE_SUNKEN_TOLLHOUSE.md` — river node; level 2–3
+- `10_dungeons_and_ruins/THE_WHISPERING_CAIRN.md` — Concord Script gate; level 2–3
+- `10_dungeons_and_ruins/THE_LEDGER_VAULT.md` — social/stealth heist in Hollowmere; level 2–4
+- `10_dungeons_and_ruins/THE_BARROW_OF_NINE_DOORS.md` — parley-boss barrow; level 3–5
+- `10_dungeons_and_ruins/THE_DEEP_ADIT.md` — harvest node; level 4–6; thin-touch risk
+
+### NPCs
+- `08_npcs/MAJOR_NPCS.md` — 20 full-profile major NPCs; load when relevant NPC is present
+- `08_npcs/SECONDARY_NPCS.md` — ~21 secondary NPCs; load by location
+- `08_npcs/MINOR_NPCS.md` — ~35 minor NPCs; load by settlement
+- `08_npcs/NPC_INDEX.md` — master lookup table
+
+### Quests
+- `09_quests/HOOKS_TABLE.md` — first 10 hooks (Hook 1 = default opener)
+- `09_quests/RUMORS_TABLE.md` — first 20 rumors
+- `09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md` — hooks H11–H39
+- `09_quests/hooks_and_rumors/SUNDERING_REACH_RUMORS.md` — rumors R21–R50
+- `09_quests/regional_quests/Q_*.md` — 14 developed quests; load when quest is active
+
+### Encounters
+- `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md` — 4 solo-tuned zone tables; load during travel or wilderness scenes
+
+### Clues / Mysteries
+- `11_mysteries_and_secrets/CLUE_INDEX.md` — all authored clues with locations and methods (DM-only)
+- `02_runtime_state/HIDDEN_CLUES.md` — runtime mirror; tracks discovery status (DM-only)
+- `11_mysteries_and_secrets/MYSTERY_WEB.md` — full mystery network (DM-only)
+
+### Factions
+- `07_factions/major_factions/` — load relevant faction file when faction is active in current scene
+- `07_factions/FACTION_INDEX.md` — master table and relationship map
 
 ---
 

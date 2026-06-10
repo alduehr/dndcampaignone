@@ -6,7 +6,7 @@ Global inventory of campaign content. Tells the AI DM what exists and where to f
 
 ## Current Status
 
-**Stages 1, 2, and 3 complete.** Campaign foundation (Stage 1) + AI runtime (Stage 2) + **Starting Region Deep Build (Stage 3)**. The Sundering Reach now has 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, ~56 new NPCs (secondary + minor), 12 developed quests, 39 hooks + 50 rumors, and zone encounter tables — enough for 10–20 sessions of open-world solo play. Deep city build (Stage 4) and the Act 1 arc (Stage 5) are next.
+**Stages 1, 2, and 3 complete.** Campaign foundation (Stage 1) + AI runtime (Stage 2) + **Starting Region Deep Build (Stage 3)**. The Sundering Reach now has 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, ~56 new NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, and zone encounter tables — enough for 10–20 sessions of open-world solo play. Deep city build (Stage 4) and the Act 1 arc (Stage 5) are next.
 
 ---
 

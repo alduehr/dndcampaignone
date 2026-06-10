@@ -19,7 +19,7 @@ Expanded the Sundering Reach from a frame into a full open-world solo sandbox su
 - Wilderness (4): `05_regions/wilderness/GREYFENS_SITES.md`, `SUNDER_HEIGHTS_SITES.md`, `MIREWEND_AND_ROADS_SITES.md`, `BASIN_SHORE_AND_HOLMS_SITES.md`
 - Dungeons/ruins (6): `10_dungeons_and_ruins/THE_PEAT_CHAPEL.md`, `THE_SUNKEN_TOLLHOUSE.md`, `THE_WHISPERING_CAIRN.md`, `THE_LEDGER_VAULT.md`, `THE_BARROW_OF_NINE_DOORS.md`, `THE_DEEP_ADIT.md`
 - NPCs (2): `08_npcs/SECONDARY_NPCS.md`, `08_npcs/MINOR_NPCS.md`
-- Quests (12): `09_quests/regional_quests/Q_*.md` (Salt Run, Broken Arch, Light on the Scale, Holm That Won't Bury Its Dead, Sold Stone, Race North, Bailiff's Ladder, Reed Holms, Sashe's Warning, Grey Woman at the Ford, Second Mark, Pell's Doubt, Scholar's Request, Failing Funeral)
+- Quests (14): `09_quests/regional_quests/Q_*.md` (Salt Run, Broken Arch, Light on the Scale, Holm That Won't Bury Its Dead, Sold Stone, Race North, Bailiff's Ladder, Reed Holms, Sashe's Warning, Grey Woman at the Ford, Second Mark, Pell's Doubt, Scholar's Request, Failing Funeral)
 - Hooks/Rumors (2): `09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md`, `SUNDERING_REACH_RUMORS.md`
 - Encounters (1): `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
 

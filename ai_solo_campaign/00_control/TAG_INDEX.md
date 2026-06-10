@@ -6,7 +6,7 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stages 1, 2, and 3 complete.** Stage 1 foundation + Stage 2 AI runtime + **Stage 3 Starting Region Deep Build**: 7 new settlements, 4 wilderness zone-files, 6 dungeons/ruins, ~21 secondary + ~35 minor NPCs, 12 developed quests, regional hooks (39 total) + rumors (50 total), and zone encounter tables — all registered below under `type:settlement`, `type:wilderness_location`, `type:dungeon`/`ruin`, `type:npc`, `type:quest`, `type:encounter`, and `region:sundering-reach`. New tags introduced: `type:wilderness_location`, plus area sub-tags (greyfens, sunder-heights, basin, roads, river, travel-hub, trade, mining-village, hamlet). No `status:placeholder` files remain. Stage 4 (first major city) and Stage 5 (Act 1 arc) are next.
+**Stages 1, 2, and 3 complete.** Stage 1 foundation + Stage 2 AI runtime + **Stage 3 Starting Region Deep Build**: 7 new settlements, 4 wilderness zone-files, 6 dungeons/ruins, ~21 secondary + ~35 minor NPCs, 12 developed quests, regional hooks (39 total) + rumors (50 total), and zone encounter tables — all registered below under `type:settlement`, `type:wilderness_location`, `type:dungeon`/`ruin`, `type:npc`, `type:quest`, `type:encounter`, and `region:sundering-reach`. New tags introduced: `type:wilderness_location`, plus area sub-tags (greyfens, sunder-heights, basin, roads, river, travel-hub, trade, mining-village, hamlet). No content files carry `status:placeholder`. Empty scaffold marker files (`_PLACEHOLDER.md`) remain in future-stage folders (minor_factions, npcs root, quests root) as structural anchors for Stage 8+ work — they are not content files. Stage 4 (first major city) and Stage 5 (Act 1 arc) are next.
 
 ---
 
@@ -318,7 +318,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `09_quests/RUMORS_TABLE.md`
 - `09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md`
 - `09_quests/hooks_and_rumors/SUNDERING_REACH_RUMORS.md`
-- `09_quests/regional_quests/` (12 developed quests)
+- `09_quests/regional_quests/` (14 developed quests)
 - `10_dungeons_and_ruins/` (6 dungeons/ruins)
 - `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
 - `16_ai_session_packs/OPENING_SCENES.md`
@@ -531,7 +531,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `08_npcs/SECONDARY_NPCS.md`, `08_npcs/MINOR_NPCS.md`
 - `09_quests/HOOKS_TABLE.md`, `09_quests/RUMORS_TABLE.md`
 - `09_quests/hooks_and_rumors/` (regional hooks + rumors)
-- `09_quests/regional_quests/` (12 developed quests)
+- `09_quests/regional_quests/` (14 developed quests)
 - `10_dungeons_and_ruins/` (6 dungeons/ruins)
 - `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
 - `16_ai_session_packs/OPENING_SCENES.md`

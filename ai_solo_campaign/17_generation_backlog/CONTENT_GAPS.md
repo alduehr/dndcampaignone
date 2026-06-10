@@ -6,7 +6,7 @@ Track missing or underdeveloped content by category. Use this for category-level
 
 ## Current Status
 
-**Stages 0, 1, 2, and 3 complete.** The campaign foundation + AI runtime exist, and the **starting region is now deep-built** (8 settlements, 4 wilderness zone-files/~25 sites, 6 dungeons/ruins, ~56 secondary+minor NPCs, 12 developed quests, 39 hooks + 50 rumors, 4 zone encounter tables). The Sundering Reach can support 10–20 sessions of open-world solo play.
+**Stages 0, 1, 2, and 3 complete.** The campaign foundation + AI runtime exist, and the **starting region is now deep-built** (8 settlements, 4 wilderness zone-files/~25 sites, 6 dungeons/ruins, ~56 secondary+minor NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, 4 zone encounter tables). The Sundering Reach can support 10–20 sessions of open-world solo play.
 
 The gaps below reflect what remains for **Stage 4+ depth and scale** (first major city, the Act 1 arc, faction quest chains, the keystone dungeon, treasure-by-level, audits). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
 

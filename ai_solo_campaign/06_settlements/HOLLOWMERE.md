@@ -14,7 +14,7 @@ tags: [type:settlement, secrecy:mixed, starting-settlement, hub, function:social
 
 ## AI Use
 
-The starting settlement and Act 1 hub. Load every session set in or near Hollowmere. This is the player's home base. Stage 3 will expand its shops, minor NPCs, and district detail; Stage 1 establishes everything needed to run the first 5–10 sessions.
+The starting settlement and Act 1 hub. Load every session set in or near Hollowmere. This is the player's home base. Minor NPCs and supporting locals now live in `08_npcs/MINOR_NPCS.md` and `SECONDARY_NPCS.md`; regional hooks and rumors in `09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md` and `SUNDERING_REACH_RUMORS.md`.
 
 ## One-Sentence Identity
 
@@ -60,7 +60,7 @@ All major Reach factions have a face here (see region file table). The Gravecall
 
 - The Drowned Lantern (lodging, food, rumors).
 - The Counting-House (loans, salvage-buying, hired work).
-- A general chandler, a cooper (Tomas Brevin), a fishmonger, a peat-merchant, a hedge-healer, the Mourners' Green for rites. *(Stage 3 details prices and minor NPCs.)*
+- A general chandler, a cooper (Tomas Brevin), a fishmonger, a peat-merchant, a hedge-healer, the Mourners' Green for rites. See `08_npcs/MINOR_NPCS.md` for named locals (Pim Ostry, Goodwife Harl, Edda Cole, Sexton Marrow, Drell, and others).
 
 ## Laws and Customs
 

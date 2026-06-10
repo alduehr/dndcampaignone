@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0, 1, 2, and 3 complete (2026-06-09).** The campaign foundation, the full AI runtime layer, and the **deep-built starting region** all exist. The Sundering Reach now supports 10–20 sessions of open-world solo play (8 settlements, 4 wilderness zones, 6 dungeons, ~56 NPCs, 12 developed quests, 39 hooks + 50 rumors, zone encounter tables). **Stage 5 — Level 1–4 Play Arc is the recommended next pass** (shape the Act 1 narrative atop the now-deep region), with Stage 4 (First Major City — Caradril) slotted before or after, and the Stage 6 audit following.
+**Stages 0, 1, 2, and 3 complete (2026-06-09).** The campaign foundation, the full AI runtime layer, and the **deep-built starting region** all exist. The Sundering Reach now supports 10–20 sessions of open-world solo play (8 settlements, 4 wilderness zones, 6 dungeons, ~56 NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, zone encounter tables). **Stage 5 — Level 1–4 Play Arc is the recommended next pass** (shape the Act 1 narrative atop the now-deep region), with Stage 4 (First Major City — Caradril) slotted before or after, and the Stage 6 audit following.
 
 ---
 
@@ -25,7 +25,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ### Pass 1 — DONE: Starting Region Deep Build (Stage 3)
 
-**Complete 2026-06-09.** Delivered 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, ~56 secondary+minor NPCs, 12 developed quests, 39 hooks + 50 rumors, and 4 solo-tuned zone encounter tables; clue paths and faction clocks anchored to real sites; all indexed and cross-linked. Targets met or exceeded. (Keystone drowned-shrine dungeon deferred to Stage 12 by design.)
+**Complete 2026-06-09.** Delivered 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, ~56 secondary+minor NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, and 4 solo-tuned zone encounter tables; clue paths and faction clocks anchored to real sites; all indexed and cross-linked. Targets met or exceeded. (Keystone drowned-shrine dungeon deferred to Stage 12 by design.)
 
 ### Pass 2 — Level 1–4 Play Arc (Stage 5)
 
