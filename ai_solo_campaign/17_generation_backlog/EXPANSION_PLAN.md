@@ -35,17 +35,18 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 **Complete 2026-06-10.** Ran all 10 audit categories across Stages 1–5. Foundation verified sound: 0 Critical, 1 High (two broken Act 1 arc-spine quest pointers — fixed inline), 4 Medium (Caradril NPC density, bestiary, treasure-by-level, Acts 2–5 — all forward-stage and tracked), 5 Low. Secret separation, three-clue solvability, faction agency, solo-play safety, state tracking, and index completeness all pass clean. Report: `18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`. Scaling to Stage 7 approved.
 
-### Pass 4 — Regional Expansion Ring 1 (Stage 7) — RECOMMENDED NEXT
-
-- **Goal:** Open the world outward — build the regions adjacent to the Sundering Reach so the player can travel in multiple directions.
-- **Suggested agent:** `world-atlas-builder`
-- **Completion criteria:** Canon consistency, secret separation, clue solvability, faction agency, solo-play safety, state tracking, and index completeness all checked; critical issues identified; no major scaling until critical issues are fixed.
-
 ### Pass 4 — DONE: First Major City Deep Build (Stage 4)
 
 **Complete 2026-06-10.** Built **Caradril**: city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary + 25 city minor NPCs, 11 developed city quests, 36 hooks + 30 rumors, city encounter/social-scene tables, 4 city-internal factions + 3 city clocks (C1/C2/C3), Ledger HQ + Remnant seat located, M2/M3/M4/M6/M8/M9 city clue access added with no new central mysteries. Solo-safe, secrecy-separated, fully indexed/cross-linked. (Full room-by-room dungeon builds for the Sunken Wards and Sealed Archive deferred to Stage 12 by design; the "Magisterium correspondent" left as an intentional open lead for Stage 5/15.)
 
-### Pass 5 — Faction Deepening (Stage 8)
+### Pass 5 — Regional Expansion Ring 1 (Stage 7) — RECOMMENDED NEXT
+
+- **Goal:** Open the world outward — build the regions adjacent to the Sundering Reach (Ashgarden Vale, Tollwood, Pale Coast) so the player can travel in multiple directions.
+- **Files to create/edit:** Region overview files, settlement files, wilderness locations, dungeon/ruin files, NPC entries, faction activity, quests, hooks/rumors, encounter tables, travel events, clocks/consequences per `DEVELOPMENT_STAGES.md` Stage 7 targets.
+- **Suggested agent:** `world-atlas-builder`
+- **Completion criteria:** Player can leave the starting region in multiple directions; each adjacent region has enough authored content for extended play; travel between regions is meaningful; adjacent regions connect to the main arc and local arcs.
+
+### Pass 6 — Faction Deepening (Stage 8)
 
 - **Goal:** Make all major factions fully operational: full quest chains, internal conflict, relationship maps, named members at multiple levels, and concrete "what they do if ignored" behavior tied to the world clocks.
 - **Files to create/edit:**
