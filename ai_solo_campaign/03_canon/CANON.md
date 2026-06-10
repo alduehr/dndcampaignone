@@ -6,7 +6,7 @@ Authoritative record of all established world facts. When any content contradict
 
 ## Current Status
 
-**Stage 1 complete.** Campaign foundation established. This file holds top-level binding facts. Detailed content lives in linked files; this file is the contradiction-check reference.
+**Stages 1–5 complete.** Top-level canon established; Stages 2–5 added runtime, region, city, and Act 1 play-layer content without changing core world facts. This file holds top-level binding facts. Detailed content lives in linked files; this file is the contradiction-check reference.
 
 ---
 

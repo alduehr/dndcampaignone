@@ -12,7 +12,7 @@ All world facts that are safe to share with or in the presence of the player. Th
 
 ## Current Status
 
-**Stage 1 complete.** Baseline player-safe canon established. The "Discovered During Play" section starts empty and grows as the campaign runs.
+**Stages 1–5 complete.** Baseline player-safe canon established in Stage 1; Stages 3–5 added region facts, city facts, and Act 1 world-start context. The "Discovered During Play" section starts empty and grows as the campaign runs.
 
 ---
 
