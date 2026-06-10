@@ -70,7 +70,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Status | Summary | Related Clues |
 |---|---|---|---|---|---|
-| Mystery Web (M0–M10) | `11_mysteries_and_secrets/MYSTERY_WEB.md` | dm-only | static | Full mystery network; 3+ clue paths each | CLUE_INDEX (Stage 3) |
+| Mystery Web (M0–M10) | `11_mysteries_and_secrets/MYSTERY_WEB.md` | dm-only | static | Full mystery network; 3+ clue paths each | CLUE_INDEX (populated) |
 | Revelation Map (R1–R8) | `11_mysteries_and_secrets/REVELATION_MAP.md` | dm-only | static | Act-by-act revelation pacing | — |
 | Secret Index (20) | `11_mysteries_and_secrets/SECRET_INDEX.md` | dm-only | static | The 20 major campaign secrets | — |
 
@@ -81,7 +81,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Name | File | Mystery | Discovery Status | Location | Secrecy |
 |---|---|---|---|---|---|
 | (Clue paths embedded) | `11_mysteries_and_secrets/MYSTERY_WEB.md` | M0–M10 | hidden | various | dm-only |
-| (Individual clue files) | `11_mysteries_and_secrets/CLUE_INDEX.md` | — | — | — | dm-only (Stage 3 build-out) |
+| Clue Index (all authored clues) | `11_mysteries_and_secrets/CLUE_INDEX.md` | M0–M10 | hidden | various | dm-only — populated; clue IDs + methods + three-clue check |
 
 ---
 
@@ -135,7 +135,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 |---|---|---|---|---|
 | Mystery Web | `11_mysteries_and_secrets/MYSTERY_WEB.md` | dm-only | static | M0–M10 network; 3+ clue paths each |
 | Revelation Map | `11_mysteries_and_secrets/REVELATION_MAP.md` | dm-only | static | R1–R8 act-by-act revelation pacing |
-| Clue Index | `11_mysteries_and_secrets/CLUE_INDEX.md` | dm-only | placeholder | Individual clue files — built out in Stage 3 |
+| Clue Index | `11_mysteries_and_secrets/CLUE_INDEX.md` | dm-only | static | All authored clues with IDs, mystery, discovery method, status (all hidden at start) |
 | Secret Index | `11_mysteries_and_secrets/SECRET_INDEX.md` | dm-only | static | The 20 major campaign secrets |
 
 ---
@@ -171,7 +171,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Active Quests | `02_runtime_state/ACTIVE_QUESTS.md` | mixed | All active quests with current status (seeded: Hook 1 + Hooks 5–7 available) |
 | Open Threads | `02_runtime_state/OPEN_THREADS.md` | mixed | Loose ends, dangling hooks, unresolved situations (seeded: 5 opening threads) |
 | Known Clues | `02_runtime_state/KNOWN_CLUES.md` | player-safe | Clues the player has discovered and understood |
-| Hidden Clues | `02_runtime_state/HIDDEN_CLUES.md` | dm-only | Undiscovered clues — DM only, never show player |
+| Hidden Clues | `02_runtime_state/HIDDEN_CLUES.md` | dm-only | Undiscovered clues — DM only, never show player (seeded: all clues hidden at campaign start) |
 | NPC Memory | `02_runtime_state/NPC_MEMORY.md` | mixed | How NPCs remember and feel about the player |
 | Faction State | `02_runtime_state/FACTION_STATE.md` | mixed | Current faction attitudes and clock positions (seeded: 7 factions at Stage 1 baseline) |
 | World Clocks | `02_runtime_state/WORLD_CLOCKS.md` | mixed | 10 campaign clocks populated (Stage 1); master = The Harvest Restarts |

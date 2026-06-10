@@ -6,7 +6,9 @@ Running tracker of known continuity, secrecy, and AI-readiness issues. Not a ful
 
 ## Current Status
 
-Stage 0 scaffold. No campaign content exists. Issues will be logged as content is created.
+**Stages 0, 1, and 2 complete (2026-06-09).** The campaign foundation and AI runtime layer exist and are indexed. No formal AI-readiness audit has been run yet (Stage 6). This file tracks the issues currently known from tracking/cleanup work; a full audit may surface more.
+
+Most issues found in the 2026-06-09 Stage 2 cleanup pass were stale tracking files that lagged behind actual content; those are now fixed and moved to Resolved.
 
 ---
 
@@ -14,7 +16,10 @@ Stage 0 scaffold. No campaign content exists. Issues will be logged as content i
 
 | Severity | Issue | File(s) | Why It Matters | Recommended Fix | Status |
 |---|---|---|---|---|---|
-| — | No issues yet | — | — | — | — |
+| Medium | No formal AI-readiness audit has been run against Stage 1–2 content | `/18_audits/` (none yet) | Tracking is self-reported; an independent audit may find canon/secrecy/clue gaps | Run Stage 6 first full audit | open (Stage 6) |
+| Low | Individual per-clue files do not exist; clues are tracked in index rows only | `11_mysteries_and_secrets/CLUE_INDEX.md` | Fine for now; finer retrieval may be wanted later | Create per-clue files if play demands (Stage 11) | open (deferred) |
+| Low | Secondary/minor NPCs referenced in faction files lack full entries | faction files, `08_npcs/NPC_INDEX.md` | AI DM may improvise recurring agents until built | Build secondary NPC entries | open (Stage 3/9) |
+| Low | `KNOWN_CLUES.md`, `NPC_MEMORY.md`, `RELATIONSHIPS.md`, `INVENTORY_AND_REWARDS.md`, `CONSEQUENCES.md`, `SESSION_RECAP.md` remain at empty baselines | `/02_runtime_state/` | By design — these populate during live play, not pre-play | None; populate in Stage 17 | open (by design) |
 
 ---
 
@@ -22,7 +27,12 @@ Stage 0 scaffold. No campaign content exists. Issues will be logged as content i
 
 | Date | Issue | Resolution | Files Updated |
 |---|---|---|---|
-| — | No resolved issues yet | — | — |
+| 2026-06-09 | `CONTENT_GAPS.md` claimed no regions/settlements/factions/NPCs/quests/arc exist — contradicted Stages 1–2 | Rewrote to reflect Stages 0–2 complete and the real Stage 3+ gaps | `17_generation_backlog/CONTENT_GAPS.md` |
+| 2026-06-09 | `EXPANSION_PLAN.md` said Stage 0 complete / Stage 1 not started — two stages stale | Rewrote: Stages 0–2 complete, Stage 3 next, next 5 production passes laid out | `17_generation_backlog/EXPANSION_PLAN.md` |
+| 2026-06-09 | `CONSISTENCY_AUDIT.md` said "no campaign content exists" | Rewrote current status and issue list to reflect Stages 1–2 complete | `00_control/CONSISTENCY_AUDIT.md` |
+| 2026-06-09 | `CLUE_INDEX.md` was an empty placeholder despite an authored mystery web | Populated with all authored clues (IDs, mystery, method, status=hidden) + three-clue-rule check | `11_mysteries_and_secrets/CLUE_INDEX.md` |
+| 2026-06-09 | `HIDDEN_CLUES.md` was an empty placeholder | Seeded with all undiscovered clues at campaign start (location, trigger, status=hidden) | `02_runtime_state/HIDDEN_CLUES.md` |
+| 2026-06-09 | Content standards templates did not enforce `DND_MECHANICS_REQUIREMENTS.md` at the field level (Critical TODO) | Added mechanical fields and Mechanical Requirements sections to NPC, quest, content, faction, and worldbuilding standards | `NPC_STANDARDS.md`, `QUEST_STANDARDS.md`, `CONTENT_STANDARDS.md`, `FACTION_STANDARDS.md`, `WORLDBUILDING_STANDARDS.md` |
 
 ---
 

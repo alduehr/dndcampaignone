@@ -8,12 +8,7 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## Critical
 
-- [ ] Add D&D mechanical completeness requirements to all NPC, quest, dungeon, encounter, faction, and campaign-act templates.
-  - Why it matters: Prevents the campaign from drifting into a generic fantasy RPG or mechanics-free story setting. Important NPCs, monsters, encounters, quests, dungeons, companions, and threats need D&D 5e / 2024-compatible mechanical guidance.
-  - Related files: `DND_MECHANICS_REQUIREMENTS.md`, `NPC_STANDARDS.md`, `QUEST_STANDARDS.md`, `CONTENT_STANDARDS.md`, `RULESET_ASSUMPTIONS.md`, `LEVELING_ASSUMPTIONS.md`
-  - Note: `DND_MECHANICS_REQUIREMENTS.md` already defines the full mechanical completeness standard. This task is about ensuring all content templates (NPC_STANDARDS, QUEST_STANDARDS, etc.) explicitly reference and enforce those requirements at the field level.
-  - Suggested agent: `encounter-bestiary-designer`
-  - Stage: Stage 0 / Stage 2
+*None open.*
 
 ## High
 
@@ -80,10 +75,10 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Related files: faction files, `08_npcs/NPC_INDEX.md`
   - Stage: 3 / 9
 
-- [ ] Build `11_mysteries_and_secrets/CLUE_INDEX.md` individual clue files
-  - Why it matters: The mystery web defines clue paths; individual clue files make them retrievable and trackable.
-  - Related files: `MYSTERY_WEB.md`, `SECRET_INDEX.md`
-  - Stage: 3 / 11
+- [ ] (Optional) Build individual per-clue files for `11_mysteries_and_secrets/CLUE_INDEX.md`
+  - Why it matters: CLUE_INDEX.md and HIDDEN_CLUES.md are now populated as index/runtime tables (all clues hidden at start). Per-clue files would add finer retrieval but are not required for play.
+  - Related files: `CLUE_INDEX.md`, `HIDDEN_CLUES.md`, `MYSTERY_WEB.md`, `SECRET_INDEX.md`
+  - Stage: 11 (deferred)
 
 - [ ] Build the drowned shrine dungeon
   - Why it matters: The campaign keystone location needs a full dungeon build with solo-safety valves and scaling.
@@ -98,6 +93,7 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## Completed Recently
 
+- [x] Stage 2 cleanup pass — 2026-06-09 (fixed stale CONTENT_GAPS/EXPANSION_PLAN/CONSISTENCY_AUDIT to reflect Stages 1–2 complete; populated CLUE_INDEX and HIDDEN_CLUES from the mystery web with all clues hidden at start; added D&D mechanical completeness fields/sections to NPC, quest, content, faction, and worldbuilding standards templates — Critical TODO cleared)
 - [x] Complete Stage 2: AI Runtime Foundation — 2026-06-09 (all 17 runner protocols written as full operational content; START/RESUME prompts + 3 session-pack templates ready; 8 runtime state files seeded from Stage 1; solo-first, three-clue-rule, secrecy-preserving; indexes and tracking updated)
 - [x] Seed runtime state files from Stage 1 content — 2026-06-09 (CURRENT_STATE, CURRENT_LOCATION, CURRENT_SCENE, ACTIVE_QUESTS = Hook 1 + Hooks 5–7, OPEN_THREADS, FACTION_STATE, NEXT_SESSION_START, PLAYER_CHARACTER scaffold)
 - [x] Create START_NEW_CAMPAIGN_PROMPT.md and RESUME_CAMPAIGN_PROMPT.md — 2026-06-09 (DM-only, self-contained, spoiler-safe)

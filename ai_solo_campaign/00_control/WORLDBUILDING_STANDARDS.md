@@ -35,6 +35,21 @@ Avoid creating places that are only decorative. Every major place should have te
 
 ---
 
+## Mechanical Requirements
+
+World content must stay mechanically usable for solo D&D 5e / 2024-compatible play per `DND_MECHANICS_REQUIREMENTS.md`. Before marking a region, settlement, or wilderness file done, confirm it includes:
+
+- A recommended level range and expected solo-PC danger.
+- Encounter themes tied to real stat references (bestiary entries or named-NPC profiles), not narrative-only threats.
+- Trap/hazard DCs and effects where hazards exist.
+- Travel and wilderness check DCs where relevant (per `TRAVEL_PROTOCOL.md`).
+- Resting constraints and retreat options for dangerous zones.
+- Scaling guidance across the level tiers the location spans.
+
+Dungeons and ruins use the fuller dungeon mechanical standard in `DND_MECHANICS_REQUIREMENTS.md` (encounter list, trap/puzzle DCs, wandering danger, treasure, boss mechanics, retreat options, scaling).
+
+---
+
 ## Region Standard
 
 Every region should include:
@@ -99,6 +114,12 @@ Hooks tied to actual content.
 ## Encounter Themes
 What kinds of challenges belong here.
 
+## Level Range And Solo Danger
+Per `DND_MECHANICS_REQUIREMENTS.md`: recommended character level range for the region and expected solo-PC danger, including which zones are lethal for low-level play and how those are telegraphed.
+
+## Encounter And Hazard Mechanics
+Encounter themes with stat references (link bestiary/adversary profiles — no narrative-only threats), environmental hazard DCs, and any travel/wilderness check DCs. Scaling guidance across the region's level tiers.
+
 ## What Changes If Ignored
 Faction advances, disasters, political shifts, monster spread, etc.
 
@@ -161,6 +182,9 @@ What is really going on.
 
 ## Possible Scenes
 
+## Law And Threat Mechanics
+Per `DND_MECHANICS_REQUIREMENTS.md`: guard/watch response level and stat references, typical social check DCs (e.g. bribery, persuasion with officials), and the solo-PC danger of crossing local authority. Note rest/recovery availability (inns, temples, safe houses).
+
 ## Consequences If Ignored
 
 ## Related Files
@@ -196,8 +220,13 @@ tags:
 ## What Is Actually Going On
 
 ## Hazards
+Include trap/hazard DCs and effects per `DND_MECHANICS_REQUIREMENTS.md`.
 
 ## Creatures / Adversaries
+Reference stat profiles or bestiary entries (no narrative-only adversaries); note solo-PC danger and scaling.
+
+## Level Range And Solo Danger
+Recommended level range, expected solo danger rating, retreat options, and resting constraints.
 
 ## NPCs Present
 

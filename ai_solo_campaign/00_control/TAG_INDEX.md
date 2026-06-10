@@ -6,7 +6,7 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stages 1 and 2 complete.** Campaign foundation content registered: starting region/settlement, 7 factions, 20 major NPCs, hooks/rumors, mystery infrastructure, arc files, opening packs, world clocks (Stage 1). All 17 runner protocols and the START/RESUME prompts are now `status:complete`; session-pack templates are `status:template`; 8 runtime state files are seeded at campaign-start baseline (Stage 2). Deep expansion continues in Stages 3+.
+**Stages 1 and 2 complete.** Campaign foundation content registered: starting region/settlement, 7 factions, 20 major NPCs, hooks/rumors, mystery infrastructure, arc files, opening packs, world clocks (Stage 1). All 17 runner protocols and the START/RESUME prompts are now `status:complete`; session-pack templates are `status:template`; 8 runtime state files are seeded at campaign-start baseline (Stage 2). The Stage 2 cleanup pass populated `CLUE_INDEX.md` and `HIDDEN_CLUES.md` (all clues hidden at start) and added D&D mechanical fields to the five content-standards templates. No `status:placeholder` files remain. Deep expansion continues in Stages 3+.
 
 ---
 
@@ -51,7 +51,8 @@ When an AI DM or production agent needs to find content of a certain type, searc
 
 ### type:clue
 - `11_mysteries_and_secrets/MYSTERY_WEB.md` (clue paths embedded)
-- `11_mysteries_and_secrets/CLUE_INDEX.md` (individual clue files: Stage 3)
+- `11_mysteries_and_secrets/CLUE_INDEX.md` (all authored clues; populated)
+- `02_runtime_state/HIDDEN_CLUES.md` (runtime mirror; all hidden at start)
 
 ### type:dungeon
 - Drowned shrine — referenced in `07_factions/major_factions/HOLLOW_COURT.md` (full build Stage 12)
@@ -273,6 +274,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `11_mysteries_and_secrets/MYSTERY_WEB.md`
 - `11_mysteries_and_secrets/REVELATION_MAP.md`
 - `11_mysteries_and_secrets/SECRET_INDEX.md`
+- `11_mysteries_and_secrets/CLUE_INDEX.md`
 
 ### status:runtime
 - `03_canon/PLAYER_SAFE_CANON.md` — updated as player discovers facts
@@ -319,7 +321,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - *No files flagged yet*
 
 ### status:placeholder
-- `11_mysteries_and_secrets/CLUE_INDEX.md` (individual clue files: Stage 3)
+- *None — all index/state files now populated or seeded.*
 
 ### status:complete
 - `00_control/AUDIT_STANDARDS.md`

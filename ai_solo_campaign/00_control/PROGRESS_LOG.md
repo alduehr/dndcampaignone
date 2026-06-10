@@ -6,6 +6,58 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-09 — Stage 2: Cleanup Pass (Tracking Fixes + Index Gaps)
+
+### Stage
+Stage 2 — AI Runtime Foundation (post-completion cleanup; no new world content)
+
+### Summary
+Fixed stale tracking files that lagged behind the actual Stage 1–2 content and filled two known index gaps before committing Stage 2 as complete. No new world lore, NPCs, places, secrets, or plot were created. Rewrote `CONTENT_GAPS.md` (was claiming no regions/settlements/factions/NPCs/quests/arc existed) to reflect Stages 0–2 complete and the real Stage 3+ gaps by category and severity. Rewrote `EXPANSION_PLAN.md` (was Stage 0 complete / Stage 1 not started) to mark Stages 0–2 complete, Stage 3 next, with the next five production passes laid out. Rewrote `CONSISTENCY_AUDIT.md` current status (was "no campaign content exists") and logged current issues with severity plus a Resolved section for the items fixed this pass. Populated `CLUE_INDEX.md` from the authored mystery web — every clue path extracted, given a clue ID, mystery, discovery method, and status (all hidden), with a three-clue-rule check table. Seeded `02_runtime_state/HIDDEN_CLUES.md` with the same clues as undiscovered at campaign start (location + discovery trigger + act gate); left `KNOWN_CLUES.md` empty by design. Applied `DND_MECHANICS_REQUIREMENTS.md` to the five content-standards templates: added field-level mechanical requirements to `NPC_STANDARDS.md`, `QUEST_STANDARDS.md`, `CONTENT_STANDARDS.md`, `FACTION_STANDARDS.md`, and `WORLDBUILDING_STANDARDS.md`, clearing the long-standing Critical TODO (real changes were made).
+
+### Files Created
+- None.
+
+### Files Changed
+- `17_generation_backlog/CONTENT_GAPS.md` — full rewrite to reflect Stages 0–2 complete; real gaps by category/severity
+- `17_generation_backlog/EXPANSION_PLAN.md` — full rewrite; Stages 0–2 complete, Stage 3 next, next 5 passes
+- `00_control/CONSISTENCY_AUDIT.md` — current status + issue list rewritten; Resolved section added
+- `11_mysteries_and_secrets/CLUE_INDEX.md` — populated with all authored clues (IDs, method, status=hidden) + three-clue check
+- `02_runtime_state/HIDDEN_CLUES.md` — seeded with all undiscovered clues at campaign start
+- `00_control/NPC_STANDARDS.md` — Mechanical Requirements section + mechanical fields in Major/Secondary/Minor templates
+- `00_control/QUEST_STANDARDS.md` — Mechanical Requirements section + DC/danger/rest/reward/scaling fields in template
+- `00_control/CONTENT_STANDARDS.md` — Mechanical Completeness Rule (per-type field table)
+- `00_control/FACTION_STANDARDS.md` — Mechanical Requirements section + Combat Capability field in template
+- `00_control/WORLDBUILDING_STANDARDS.md` — Mechanical Requirements section + level/danger/hazard fields in region/settlement/wilderness templates
+- `00_control/TODO.md` — Critical task cleared to Completed; CLUE_INDEX follow-up updated
+- `00_control/STAGE_STATUS.md` — Stage 2 row notes the cleanup pass
+- `00_control/CONTENT_INDEX.md` — CLUE_INDEX / HIDDEN_CLUES statuses updated (placeholder → populated/seeded)
+- `00_control/TAG_INDEX.md` — CLUE_INDEX moved out of status:placeholder; status line updated
+
+### Canon Established
+- None. No new world facts; tracking, runtime clue-state, and standards templates only.
+
+### Player-Safe Facts Added
+- None.
+
+### DM-Only Facts Added
+- None new. Existing authored clues were indexed/mirrored into DM-only files; no new secrets.
+
+### Runtime State Updated
+- `02_runtime_state/HIDDEN_CLUES.md` seeded (all clues hidden at campaign start). `KNOWN_CLUES.md` intentionally left empty.
+
+### Indexes Updated
+- `CONTENT_INDEX.md`, `TAG_INDEX.md`, `CLUE_INDEX.md`.
+
+### Gaps Identified
+- No formal AI-readiness audit yet (Stage 6) — tracking is self-reported.
+- Per-clue files remain optional/deferred (Stage 11).
+- Secondary/minor NPCs referenced in faction files still need entries (Stage 3/9).
+
+### Next Recommended Pass
+- Begin Stage 3: Starting Region Deep Build (per `EXPANSION_PLAN.md` Pass 1).
+
+---
+
 ## 2026-06-09 — Stage 2: AI Runtime Foundation
 
 ### Stage
