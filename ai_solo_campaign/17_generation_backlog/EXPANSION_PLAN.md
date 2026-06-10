@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0, 1, 2, 3, 4, and 5 complete (Stage 5: 2026-06-10).** The campaign foundation, the full AI runtime layer, the deep-built starting region, the first major city (Caradril), and now the **Level 1–4 Act 1 play kit** all exist. The Sundering Reach supports 10–20 sessions; Caradril adds the mid-game hub; **Stage 5** makes the early game runnable end-to-end (open-world arc spine, 6 faction-alignment quests, 5 recurring early-threat profiles, an existing-clue Act 1 access overlay with an R1 cap, 9 failure-redirect states, milestone/XP triggers, and an Act 1 NPC casting guide — all reusing existing content, no new central mystery/faction/god/cosmology/artifact). **The Stage 6 First Full Audit is the recommended next pass** (spanning Stages 1–5); do not scale outward (Stage 7+) until it clears.
+**Stages 0–6 complete (Stage 6 First Full Audit: 2026-06-10).** The campaign foundation, the full AI runtime layer, the deep-built starting region, the first major city (Caradril), and the Level 1–4 Act 1 play kit all exist, and the **Stage 6 first full audit has verified the foundation sound** (0 Critical, 1 High fixed inline, 4 Medium, 5 Low — see `../18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`). **Outward scaling is approved. Stage 7 — Regional Expansion Ring 1 is the recommended next pass.**
 
 ---
 
@@ -14,10 +14,10 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 | Field | Value |
 |---|---|
-| Stage | 6 — First Full Audit (recommended next) |
-| Goal | Verify the Stage 1–5 foundation before scaling outward (canon, secrecy, R1 gating, three-clue solvability, faction agency, solo-safety, state, indexes) |
+| Stage | 7 — Regional Expansion Ring 1 (recommended next) |
+| Goal | Build regions adjacent to the Sundering Reach (Ashgarden Vale, Tollwood, Pale Coast) so the world opens outward in multiple directions |
 | Status | Not started |
-| Blocking Issues | None — Stages 1–5 are complete |
+| Blocking Issues | None — Stage 6 complete; foundation verified sound |
 
 ---
 
@@ -31,13 +31,14 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 **Complete 2026-06-10.** Delivered the open-world Act 1 play kit: the arc spine `ACT_1_LEVELS_1_4.md` (Five Doors + seven faction doors, multi-route to R1, ignore-consequences, Act 2 triggers); 6 faction-alignment quests in `09_quests/act_1_quests/` (Wardens, Compact, Ledger, Mourners, Gravecallers, Remnant — the Hollow Court has none by design); 5 recurring early-threat profiles `ACT_1_THREATS.md` (full stat profiles, solo-safe, scaling); the DM-only `ACT_1_CLUE_TRAILS.md` overlay (existing M1–M9 only; R1 cap; three-clue check); 9 redirect-not-end failure states `ACT_1_FAILURE_STATES.md`; multi-path milestone/XP triggers `ACT_1_MILESTONES.md`; and the Act 1 NPC casting guide `ACT_1_NPC_GUIDE.md`. Runtime ACTIVE_QUESTS/OPEN_THREADS seeded; anti-railroad verified; all L1–4 content mechanically complete; no new central mystery/faction/god/cosmology/artifact; reveals capped at R1. (Act 1 routes dungeon beats through the 6 Stage 3 Concord sites; a dedicated Act 1 climax dungeon is optional/deferred, and the keystone shrine stays Stage 12.)
 
-### Pass 3 — First Full Audit (Stage 6) — RECOMMENDED NEXT
+### Pass 3 — DONE: First Full Audit (Stage 6)
 
-- **Goal:** Verify the foundation is sound before scaling outward. Do not scale broken content.
-- **Files to create/edit:**
-  - `18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`
-  - Update `00_control/CONSISTENCY_AUDIT.md`, `00_control/TODO.md`, `17_generation_backlog/CONTENT_GAPS.md`
-- **Suggested agent:** `canon-continuity-auditor`
+**Complete 2026-06-10.** Ran all 10 audit categories across Stages 1–5. Foundation verified sound: 0 Critical, 1 High (two broken Act 1 arc-spine quest pointers — fixed inline), 4 Medium (Caradril NPC density, bestiary, treasure-by-level, Acts 2–5 — all forward-stage and tracked), 5 Low. Secret separation, three-clue solvability, faction agency, solo-play safety, state tracking, and index completeness all pass clean. Report: `18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`. Scaling to Stage 7 approved.
+
+### Pass 4 — Regional Expansion Ring 1 (Stage 7) — RECOMMENDED NEXT
+
+- **Goal:** Open the world outward — build the regions adjacent to the Sundering Reach so the player can travel in multiple directions.
+- **Suggested agent:** `world-atlas-builder`
 - **Completion criteria:** Canon consistency, secret separation, clue solvability, faction agency, solo-play safety, state tracking, and index completeness all checked; critical issues identified; no major scaling until critical issues are fixed.
 
 ### Pass 4 — DONE: First Major City Deep Build (Stage 4)

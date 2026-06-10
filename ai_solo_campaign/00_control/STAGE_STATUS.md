@@ -6,8 +6,8 @@ Live status of each development stage. Updated after every stage completes, part
 
 ## Current Status
 
-**Active Stage:** Stage 6 — First Full Audit (not started)
-**Last Completed Stage:** Stage 5 — Level 1–4 Play Arc (Act 1) (complete 2026-06-10)
+**Active Stage:** Stage 7 — Regional Expansion Ring 1 (not started)
+**Last Completed Stage:** Stage 6 — First Full Audit (complete 2026-06-10)
 
 ---
 
@@ -21,8 +21,8 @@ Live status of each development stage. Updated after every stage completes, part
 | 3 | Starting Region Deep Build | complete | 100% | none | 2026-06-09: 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, ~56 new NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, 4 zone encounter tables; all indexed/cross-linked; clue access anchored to the existing mystery web; clocks anchored to region sites. Targets met or exceeded. Keystone drowned shrine dungeon deferred to Stage 12 by design |
 | 4 | First Major City Deep Build | complete | 100% | none | 2026-06-10: **Caradril** deep-built — city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary + 25 city minor NPCs, 11 developed city quests, 36 hooks + 30 rumors, city encounter/social-scene tables; 4 city-internal factions + 3 city clocks (C1/C2/C3); city clue access feeds existing M2/M3/M4/M6/M8/M9; Ledger HQ + Remnant seat located; all indexed/cross-linked. Targets met or exceeded. No new central mystery/faction/god/cosmology/artifact created |
 | 5 | Level 1–4 Play Arc | complete | 100% | none | 2026-06-10: open-world Act 1 play kit — arc spine + 6 faction-alignment quests (`act_1_quests/`) + 5 recurring early-threat profiles (`ACT_1_THREATS.md`) + Act 1 clue-trails overlay (existing M1–M9; R1 cap) + 9 failure-redirect states + L2/3/4 milestone/XP triggers + Act 1 NPC casting guide; runtime ACTIVE_QUESTS/OPEN_THREADS seeded; anti-railroad verified; all L1–4 content mechanically complete. No new central mystery/faction/god/cosmology/artifact; reveals capped at R1; Hollow Court never exposed (no friendly Court quest by design) |
-| 6 | First Full Audit | not started | 0% | — | Depends on Stages 1–5 (now all complete) |
-| 7 | Regional Expansion Ring 1 | not started | 0% | — | Depends on Stage 6 |
+| 6 | First Full Audit | complete | 100% | none | 2026-06-10: all 10 audit categories run across Stages 1–5; foundation sound (0 Critical, 1 High fixed inline, 4 Medium, 5 Low). Report: `18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`. Scaling to Stage 7 approved |
+| 7 | Regional Expansion Ring 1 | not started | 0% | — | Depends on Stage 6 (now complete) — unblocked |
 | 8 | Faction Deepening | not started | 0% | — | Depends on Stages 1, 3 |
 | 9 | NPC Codex Expansion | not started | 0% | — | Depends on Stages 1, 3 |
 | 10 | Quest Library Expansion | not started | 0% | — | Depends on Stages 3, 8 |

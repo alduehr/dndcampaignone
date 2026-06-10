@@ -12,16 +12,34 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## High
 
-- [ ] Run Stage 6: First Full Audit
-  - Why it matters: Do not scale a broken foundation. Stages 1–5 are now complete (foundation, runtime, region, city, Act 1 play kit); audit before any outward expansion (Stage 7+). Confirm canon consistency, secret separation (esp. R1 gating in Act 1 content and M7 non-exposure), three-clue solvability, faction agency, solo-play safety, state tracking, and index completeness.
-  - Related files: `AUDIT_STANDARDS.md`, `DEVELOPMENT_STAGES.md` Stage 6, all Stage 1–5 content
-  - Suggested agent: `canon-continuity-auditor`
-  - Stage: 6
-  - Blocker: none — Stages 1–5 complete
+- [ ] Begin Stage 7: Regional Expansion Ring 1
+  - Why it matters: Stage 6 audit is complete and the foundation is verified sound (0 Critical). Outward scaling is approved. Build regions adjacent to the Sundering Reach (Ashgarden Vale, Tollwood, Pale Coast) so the world opens in multiple directions.
+  - Related files: `DEVELOPMENT_STAGES.md` Stage 7, `04_world_atlas/WORLD_OVERVIEW.md`, `MAP_DESCRIPTION.md`
+  - Suggested agent: `world-atlas-builder`
+  - Stage: 7
+  - Blocker: none — Stage 6 complete
 
 ---
 
 ## Medium
+
+- [ ] Build the standalone bestiary (mid/high tiers especially)
+  - Why it matters: Stage 6 audit Medium finding. Adversary stats currently live only inside zone/city encounter tables + the 5 Act 1 threat profiles; Acts 2–5 threats above ~L6 are not yet mechanically usable.
+  - Related files: `13_encounters_and_bestiary/`
+  - Suggested agent: `encounter-bestiary-designer`
+  - Stage: 13
+
+- [ ] Build `REWARDS_BY_LEVEL.md` and stat referenced dungeon/quest rewards
+  - Why it matters: Stage 6 audit Medium finding. Rewards currently reference "level-appropriate items" abstractly, forcing the AI DM to improvise specifics for a solo PC.
+  - Related files: `14_treasure_and_artifacts/`, `10_dungeons_and_ruins/`
+  - Suggested agent: `encounter-bestiary-designer`
+  - Stage: 14
+
+- [ ] Build standalone Acts 2–5 arc files
+  - Why it matters: Stage 6 audit Medium finding. The arc above level 4 exists as shape only; play beyond L4 is not yet runnable in detail.
+  - Related files: `12_campaign_arc/`
+  - Suggested agent: `campaign-architect`
+  - Stage: 15
 
 - [ ] Build the first major Act 1 dungeon as a dedicated set-piece (optional enrichment)
   - Why it matters: Act 1 currently routes its dungeon beats through the six Stage 3 Concord sites (Peat Chapel, Sunken Tollhouse, Whispering Cairn, Ledger Vault, Barrow, Deep Adit), which is sufficient for play. A purpose-built Act 1 climax dungeon could sharpen the level 3→4 beat, but is not required (the keystone shrine is deferred to Stage 12 by design).
@@ -101,6 +119,7 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## Completed Recently
 
+- [x] Stage 6: First Full Audit — 2026-06-10 (ran all 10 audit categories across Stages 1–5; foundation verified sound: 0 Critical, 1 High [two broken Act 1 arc-spine quest pointers — FIXED inline], 4 Medium, 5 Low; secret separation/three-clue/faction-agency/solo-safety/state-tracking all pass clean; report in `18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`; CONSISTENCY_AUDIT/CONTENT_GAPS/STAGE_STATUS/EXPANSION_PLAN updated; scaling to Stage 7 approved)
 - [x] Stage 5: Level 1–4 Play Arc (Act 1) — 2026-06-10 (open-world Act 1 play kit: arc spine `ACT_1_LEVELS_1_4.md` + 6 faction-alignment quests `act_1_quests/` + 5 recurring early-threat profiles `ACT_1_THREATS.md` + Act 1 clue-trails overlay `ACT_1_CLUE_TRAILS.md` (existing M1–M9; R1 cap; three-clue check) + 9 failure-redirect states `ACT_1_FAILURE_STATES.md` + L2/3/4 milestone/XP triggers `ACT_1_MILESTONES.md` + Act 1 NPC casting guide `ACT_1_NPC_GUIDE.md`; runtime ACTIVE_QUESTS/OPEN_THREADS seeded; anti-railroad verified; all L1–4 content mechanically complete; no new central mystery/faction/god/cosmology/artifact; reveals capped at R1; Hollow Court never exposed)
 - [x] Stage 4: First Major City Deep Build (Caradril) — 2026-06-10 (city overview + 8 district files incl. the Sunken Wards sub-dungeon; 15 city secondary + 25 city minor NPCs; 11 developed city quests; 36 hooks + 30 rumors; city encounter/social-scene tables; 4 city-internal factions + 3 city clocks (C1/C2/C3); Ledger HQ + Remnant seat located; M2/M3/M4/M6/M8/M9 city clue access added with no new mysteries; M7/Hollow Court never named in the city; Act-3 gating on the Sealed Archive; solo-safe and secrecy-separated; indexes/canon/registry/state updated)
 - [x] Stage 3: Starting Region Deep Build — 2026-06-09 (8 settlements, 4 wilderness zone-files/~25 sites, 6 dungeons/ruins, ~56 NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, 4 zone encounter tables; all five registered secondary-NPC placeholders completed; clue/clock anchors added; indexes/canon/registry updated; solo-safe and secrecy-separated throughout)

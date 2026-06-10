@@ -31,7 +31,7 @@ The player can begin pulling on **any** of these and reach prepared content. Non
 | 1 | **The Returned Dead** (DEFAULT) | Wren/Tomas; Sefra (Hook 1) | M1/M5; the personal heart of Act 1 | Hook 1, `Q_ACT1_WARDEN_THE_TRUE_RITE`, Wren scenes |
 | 2 | **The Honest Council** | Reeve Coalmont (Hook 5) | M4 (basin scheme); lawful allies | `Q_ACT1_COMPACT_THE_REEVES_DOUBT`, Hooks 4/5 |
 | 3 | **The Coin and the Salvage** | Factor Domic Sael (Hook 3) | M3 *fragment* (a relic exists); Ledger work | `Q_ACT1_LEDGER_A_QUIET_SALVAGE`, the Peat Chapel |
-| 4 | **The Fens and the Drift** | Old Sashe (Hook 6) | M5/M2 (the dead drift to the water) | `Q_ACT1_INDEPENDENT_WHAT_THE_FENS_CARRY` (Sashe), Greyfens |
+| 4 | **The Fens and the Drift** | Old Sashe (Hook 6) | M5/M2 (the dead drift to the water) | Hook 6 (`HOOKS_TABLE.md`), `../09_quests/regional_quests/Q_SASHES_WARNING.md`, Greyfens |
 | 5 | **The Forbidden Comfort** | Sister Knell / Tomas (Hook 7) | M3/M6 *fragment*; the Gravecaller door | `Q_ACT1_GRAVECALLER_A_LAST_WORD` |
 
 Two further faction doors open through Act 1 as the player ranges wider:
@@ -57,7 +57,7 @@ Every major faction has a *local face* and a level-1–4 hook, so the player can
 | Mourners' Circle | Grandmother Wend / Iola | The salt shortage (Hook 2) | `Q_ACT1_MOURNER_SALT_AND_SONG` | Reverence; earning the town's deepest trust |
 | Gravecallers | Sister Knell / the Tallow Man | A knock in the night (Hook 7) | `Q_ACT1_GRAVECALLER_A_LAST_WORD` | Forbidden comfort; dangerous truth; risk of the law |
 | Concord Remnant | Lector Briss (visiting) | Escort/translate (Hook 8) | `Q_ACT1_REMNANT_THE_VISITING_SCHOLAR` | Scholarship; the Concord's lost gentleness; Script |
-| Hollow Court (covert) | Councilor Reke (unrevealed) / Sefra | The councilor's errand (Hook 4) | `Q_ACT1_COURT_THE_COUNCILORS_ERRAND` | A reasonable politician's favor — that points you at the water |
+| Hollow Court (covert) | Councilor Reke (unrevealed) / Sefra | The councilor's errand (Hook 4) | Hook 4 (`HOOKS_TABLE.md`) — **no `act_1_quests/` file by design** (the Court has no friendly quest) | A reasonable politician's favor — that points you at the water |
 
 > The Hollow Court quest is the player being **steered without knowing it.** It must never expose the Court in Act 1; it delivers real M2 *shape* (something is under the basin) and seeds M8 (you keep being pointed at the shrine).
 

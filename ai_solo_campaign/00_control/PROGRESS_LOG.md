@@ -6,6 +6,42 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-10 — Stage 6: First Full Audit (Stages 1–5 AI-Readiness)
+
+### Stage
+Stage 6 — First Full Audit (complete)
+
+### Summary
+Ran the first full AI-readiness and continuity audit of "The Long Remembering" across all ten `AUDIT_STANDARDS.md` categories (canon consistency, secret separation, retrieval quality, NPC connectivity, quest usability, mystery solvability, faction agency, solo-play safety, state tracking, index completeness), spanning Stages 1–5. **Foundation verified sound: 0 Critical, 1 High, 4 Medium, 5 Low.** The single High finding was a broken-link defect — the Act 1 arc spine (`ACT_1_LEVELS_1_4.md`) cross-referenced two quest files that do not exist on disk (a phantom Sashe/fens quest and a phantom Hollow Court quest); both were repaired inline (Door 4 repointed to Hook 6 + the existing `Q_SASHES_WARNING.md`; Door 7 repointed to Hook 4 in `HOOKS_TABLE.md` with an explicit "no Act 1 quest by design" note, consistent with every other file). All four Medium findings (Caradril NPC density below target, no standalone bestiary, no treasure-by-level, no Acts 2–5 arc files) are expected forward-stage gaps already tracked for Stages 9/13/14/15. Secret separation is exemplary — the apex secret (Hollow Court / M7) is never named in any Act 1 or player-facing content, the R1 reveal cap is enforced in every Act 1 file, and player-safe vs. DM-only is cleanly segregated throughout. The three-clue rule is satisfied with margin (every mystery 3–4 routes; R1 reachable 4 ways). Solo-play safety (telegraphing, noncombat outs, retreat, no cheap death, failure-redirects) is a clear strength. State tracking carries per-quest update instructions. Indexes are current and the quest-file glob matches the index listings exactly. **Outward scaling to Stage 7 approved.**
+
+### Files Created
+- `18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md` — formal audit report (scope, summary, severity tables, orphaned content, exposed secrets, solo-play/mystery risk sections, recommended fix order)
+
+### Files Changed
+- `12_campaign_arc/ACT_1_LEVELS_1_4.md` — fixed two broken quest-file cross-references (the High finding)
+- `00_control/CONSISTENCY_AUDIT.md` — status updated to Stages 0–6 complete; audit-pending items closed; current Medium/Low issue list refreshed; High finding + audit logged in Resolved Issues
+- `00_control/TODO.md` — Stage 6 marked complete; Stage 7 promoted to High; bestiary/treasure/Acts 2–5 added as Medium
+- `17_generation_backlog/CONTENT_GAPS.md` — audit gap closed; status header updated to Stage 6 complete
+- `00_control/STAGE_STATUS.md` — Stage 6 → complete (100%); active stage → Stage 7
+- `17_generation_backlog/EXPANSION_PLAN.md` — current stage advanced to Stage 7; Pass 3 marked done
+- `00_control/STAGE_6_PROGRESS.md` — all audit categories checked off; severity counts and findings filled in
+
+### Canon Established
+- None — audit pass; no new world facts created. One broken cross-link repaired.
+
+### Indexes Updated
+- None required (no new content files beyond the audit report, which is a tracking artifact).
+
+### Gaps Identified
+- High (fixed): broken Act 1 arc-spine quest pointers.
+- Medium (tracked): Caradril NPC density (Stage 9), standalone bestiary (Stage 13), treasure-by-level (Stage 14), Acts 2–5 arc files (Stage 15).
+- Low (tracked): per-clue files, random tables, NPC relationship/secret/voice tools, QUEST_INDEX.
+
+### Next Recommended Pass
+- Stage 7 — Regional Expansion Ring 1 (`world-atlas-builder`): build the Ashgarden Vale, Tollwood, and Pale Coast so the world opens outward.
+
+---
+
 ## 2026-06-10 — Stage 5: Level 1–4 Play Arc (Act 1)
 
 ### Stage

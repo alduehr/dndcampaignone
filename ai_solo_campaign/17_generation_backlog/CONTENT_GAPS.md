@@ -8,7 +8,7 @@ Track missing or underdeveloped content by category. Use this for category-level
 
 **Stages 0, 1, 2, 3, 4, and 5 complete.** The campaign foundation + AI runtime exist, the starting region is deep-built, the **first major city (Caradril) is deep-built**, and the **Level 1–4 Act 1 play kit (Stage 5) now exists** (open-world arc spine, 6 faction-alignment quests, 5 recurring early-threat profiles, an existing-clue Act 1 access overlay with R1 cap, 9 failure-redirect states, milestone/XP triggers, and an Act 1 NPC casting guide). The campaign now has a frontier sandbox, a mid-game city hub, and a runnable early-game arc.
 
-The gaps below reflect what remains for **Stage 6+ depth and scale** (the first full audit, faction quest chains, the keystone + Caradril dungeon builds, treasure-by-level, the bestiary, Acts 2–5, adjacent regions). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
+**Stage 6 (First Full Audit) complete 2026-06-10** — foundation verified sound; 0 Critical, 1 High (fixed inline), 4 Medium, 5 Low. See `../18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`. The gaps below reflect what remains for **Stage 7+ depth and scale** (faction quest chains, the keystone + Caradril dungeon builds, treasure-by-level, the bestiary, Acts 2–5, adjacent regions). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
 
 ---
 
@@ -134,7 +134,7 @@ The gaps below reflect what remains for **Stage 6+ depth and scale** (the first 
 
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
-| No formal AI-readiness audit yet | Medium | Confirm the foundation before scaling | Run first full audit | 6 |
+| ~~No formal AI-readiness audit yet~~ — **Stage 6 first full audit complete (2026-06-10)**; foundation verified sound (0 Critical, 1 High fixed, 4 Medium, 5 Low); scaling to Stage 7 approved | — (no gap) | — | — | done in Stage 6 |
 | No pre-play readiness audit | Medium | Confirm campaign is ready for live play | Run before Stage 17 | 16 |
 
 ---
