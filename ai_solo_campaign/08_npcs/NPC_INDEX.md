@@ -86,9 +86,45 @@ Full entries in `SECONDARY_NPCS.md` (Caradril section). 15 city NPCs across the 
 | Renna Sill | the Sill | Sill | Refugee advocate (M10/M1 local echo) | Commoner |
 | Old Pater Dunk | independent | Sill/Sunken Wards | Sunken Wards guide (solo-safety) | Scout |
 
-## Minor NPCs (Stage 3 + Stage 4)
+## Secondary NPCs (Stage 7 — Ring 1 Regions)
 
-Full tables by location in `MINOR_NPCS.md`. Stage 3: ~35 named local-color NPCs across the eight Reach settlements and the Ashwalk Rest. Stage 4: 25 named Caradril minor NPCs across the eight city districts. Promote to Secondary if any becomes important in play.
+Full entries in `SECONDARY_NPCS.md` (Ring 1 sections). 29 NPCs across the three adjacent regions (20 original + 9 added in the Stage 7 completion pass, weighted to Coast and Tollwood).
+
+| Name | Faction | Region/Location | Role | Combat |
+|---|---|---|---|---|
+| Moot-Reeve Halsa Tindle | harvest-moot/Compact | Vale/Orchardmere | Vale governor (cover-up) | Noble |
+| Mother Ezrith Combe | Mourners' Circle | Vale/Orchardmere | Eldest Vale elder (M6 folk-truth) | Priest |
+| Factor Wymar Pell | Cinder Ledger | Vale/Orchardmere | Vale factor (relic-quarry; M3) | Noble |
+| Warden Sister Adwen | Ashen Wardens | Vale/Saint Veddow's | Resident seal-keeper (M6 conditional) | Veteran/Priest |
+| Mother Sennet | Mourners' Circle | Vale/Saint Veddow's | Shrine-keeper (hidden failures) | Priest |
+| Sub-Lector Oneth Vael | Concord Remnant | Vale/Saint Veddow's | Scholar-pilgrim (M2; Reclamation) | Mage/Sage |
+| Miller Sael Brunt | independent | Vale/Tilbrook | Village leader (debtor) | Commoner/Guard |
+| Old Mam Tace | Mourners' Circle | Vale/Tilbrook | Grave-singer (honest M5 window) | Commoner/Priest |
+| Factor Hesk Dorr | Cinder Ledger | Tollwood/Hartfell | Logging-driver (regional clock) | Noble |
+| Capt. Brannoch Vey | Reachward Compact | Tollwood/Hartfell | Road-warden (turnable) | Veteran |
+| Goodwife Edda Sorrel | Mourners' Circle | Tollwood/Hartfell | Forest-custom keeper | Priest |
+| Brann the Guide | independent | Tollwood/Coldhearth | The wood's guide (solo-safety) | Scout/Druid-lite |
+| Goodwife Sennet | Mourners' forest-elder | Tollwood/Coldhearth | Deep-secret keeper (M5/M6 gated) | Druid/Priest |
+| Toll-Boss Cady Renn | Tollmen | Tollwood/Tollstone | Bandit leader (turnable; grey) | Veteran/Spy |
+| Skell | Tollmen | Tollwood/Tollstone | Murderous lieutenant | Thug/Berserker |
+| Factor Maris Cole | Cinder Ledger | Coast/Wrackmouth | Coastal factor (salt; sea-relics; M3) | Noble/Spy |
+| Harbor-Reeve Ond Falk | Compact-adjacent | Coast/Wrackmouth | Harbor governor (manages fear) | Commoner/Veteran |
+| Skipper Wenna Roke | independent | Coast/Wrackmouth | Honest skipper (water-route; solo-safety) | Scout/Commoner |
+| Salt-Mother Bryd | Mourners' Circle | Coast/Cobble Strand | Salt-and-tide rite-keeper (M5/M6 gated) | Priest |
+| Headman Corl Strand | independent | Coast/Cobble Strand | Eldest fisher (worldly voice) | Commoner/Veteran |
+| Wreck-Master Tomas Quint | the wreckers | Coast/wild coast | Wrecking-trade leader (grey; M3) | Veteran/Spy |
+| Tide-Reader Mabon Crale | independent | Coast/Wrackmouth–Strand | Tide/weather guide (solo-safety; M5) | Commoner/Scout |
+| Anchorite Sef | Ashen Wardens | Coast/coast-wide | Wandering Warden (M5/M6 gated) | Priest/Veteran |
+| Provost Anselm Verge | Ashen Wardens | Coast/Drowned Lamp | Resident seal-keeper (M6 conditional) | Veteran/Priest |
+| Sub-Lector Maren Voll | Concord Remnant | Coast/Wrackmouth | Scholar mapping coastal nodes (M2) | Mage/Sage |
+| Cutter-Captain Holm Dunnal | Cinder Ledger | Tollwood/Hartfell–camps | Camp-guard captain (turnable witness) | Veteran |
+| Warden Brother Ošric | Ashen Wardens | Tollwood/wood-wide | Wandering Warden (M5/M6 gated) | Priest/Veteran |
+| Sgt. Idony Frost | harvest-moot | Vale/Orchardmere | Road-warden captain (cover-up lever) | Veteran |
+| Lay-Sister Petronel | Mourners' Circle | Vale/Saint Veddow's | Sennet's deputy (conscience-lever) | Acolyte/Commoner |
+
+## Minor NPCs (Stage 3 + Stage 4 + Stage 7)
+
+Full tables by location in `MINOR_NPCS.md`. Stage 3: ~35 named local-color NPCs across the eight Reach settlements and the Ashwalk Rest. Stage 4: 25 named Caradril minor NPCs across the eight city districts. **Stage 7: ~33 named Ring 1 minor NPCs** (20 original + 13 added in the Stage 7 completion pass) across the Vale (Orchardmere, Saint Veddow's, Tilbrook & country), Tollwood (Hartfell, Tollstone Cross, Coldhearth), and Pale Coast (Wrackmouth, Cobble Strand). Promote to Secondary if any becomes important in play.
 
 ## Related Files
 

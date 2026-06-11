@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0–6 complete (Stage 6 First Full Audit: 2026-06-10).** The campaign foundation, the full AI runtime layer, the deep-built starting region, the first major city (Caradril), and the Level 1–4 Act 1 play kit all exist, and the **Stage 6 first full audit has verified the foundation sound** (0 Critical, 1 High fixed inline, 4 Medium, 5 Low — see `../18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`). **Outward scaling is approved. Stage 7 — Regional Expansion Ring 1 is the recommended next pass.**
+**Stages 0–7 complete (Stage 7 Regional Expansion Ring 1: 2026-06-10).** The campaign now has a deep-built starting region, a first major city (Caradril), a runnable Level 1–4 play arc, and **three fully authored adjacent regions** (Ashgarden Vale, Tollwood, Pale Coast) with settlements, dungeons, quests, NPCs, encounter tables, and travel routes. The world opens outward in multiple directions. **Stage 8 — Faction Deepening is the recommended next pass.**
 
 ---
 
@@ -14,10 +14,10 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 | Field | Value |
 |---|---|
-| Stage | 7 — Regional Expansion Ring 1 (recommended next) |
-| Goal | Build regions adjacent to the Sundering Reach (Ashgarden Vale, Tollwood, Pale Coast) so the world opens outward in multiple directions |
+| Stage | 8 — Faction Deepening (recommended next) |
+| Goal | Make all seven major factions fully operational: full quest chains, internal conflict, relationship maps, named members at multiple levels, concrete ignore-behavior tied to world clocks |
 | Status | Not started |
-| Blocking Issues | None — Stage 6 complete; foundation verified sound |
+| Blocking Issues | None — Stage 7 complete |
 
 ---
 
@@ -39,14 +39,11 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 **Complete 2026-06-10.** Built **Caradril**: city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary + 25 city minor NPCs, 11 developed city quests, 36 hooks + 30 rumors, city encounter/social-scene tables, 4 city-internal factions + 3 city clocks (C1/C2/C3), Ledger HQ + Remnant seat located, M2/M3/M4/M6/M8/M9 city clue access added with no new central mysteries. Solo-safe, secrecy-separated, fully indexed/cross-linked. (Full room-by-room dungeon builds for the Sunken Wards and Sealed Archive deferred to Stage 12 by design; the "Magisterium correspondent" left as an intentional open lead for Stage 5/15.)
 
-### Pass 5 — Regional Expansion Ring 1 (Stage 7) — RECOMMENDED NEXT
+### Pass 5 — DONE: Regional Expansion Ring 1 (Stage 7)
 
-- **Goal:** Open the world outward — build the regions adjacent to the Sundering Reach (Ashgarden Vale, Tollwood, Pale Coast) so the player can travel in multiple directions.
-- **Files to create/edit:** Region overview files, settlement files, wilderness locations, dungeon/ruin files, NPC entries, faction activity, quests, hooks/rumors, encounter tables, travel events, clocks/consequences per `DEVELOPMENT_STAGES.md` Stage 7 targets.
-- **Suggested agent:** `world-atlas-builder`
-- **Completion criteria:** Player can leave the starting region in multiple directions; each adjacent region has enough authored content for extended play; travel between regions is meaningful; adjacent regions connect to the main arc and local arcs.
+**Complete 2026-06-10.** Built three adjacent regions: **Ashgarden Vale** (south — 3 settlements; 3 dungeons; **8 quests**; 10 wilderness sites + 3 hamlets; M2/M5/M6 clue access; 2 clocks V1/V2), **Tollwood** (east — 3 settlements; 3 dungeons incl. gated Old Mast; **8 quests**; 10 wilderness sites; 1 minor regional faction the Tollmen; 2 clocks T1/T2), **Pale Coast** (west — 2 settlements + Saltmargin as gateway; 3 dungeons incl. gated Skerry Shrine; **8 quests**; 10 wilderness sites; M2/M3/M5 sea-shrine clue access; 2 clocks C-PC1/C-PC2). Plus `TRAVEL_ROUTES_RING1.md` (6 routes). **~62 Ring 1 NPCs total (29 secondary + 33 minor)** — below the per-region 30–60 target; Ring 1 NPC density deferred to Stage 9 NPC Codex Expansion. All proper nouns registered. Solo-safe, secrecy-separated, fully indexed/cross-linked. No new central mystery/faction/god/cosmology/artifact.
 
-### Pass 6 — Faction Deepening (Stage 8)
+### Pass 6 — Faction Deepening (Stage 8) — RECOMMENDED NEXT
 
 - **Goal:** Make all major factions fully operational: full quest chains, internal conflict, relationship maps, named members at multiple levels, and concrete "what they do if ignored" behavior tied to the world clocks.
 - **Files to create/edit:**

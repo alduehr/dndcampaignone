@@ -6,6 +6,8 @@ Track missing or underdeveloped content by category. Use this for category-level
 
 ## Current Status
 
+**Stages 0–7 complete.** Stage 7 (Regional Expansion Ring 1) added 3 regions (Ashgarden Vale, Tollwood, Pale Coast), 8 settlements, 3 wilderness files, 9 dungeons, 3 encounter tables, 6 hooks/rumors files, 20 developed quests, ~60 NPCs, and travel routes. The world now opens outward in multiple directions from the Sundering Reach.
+
 **Stages 0, 1, 2, 3, 4, and 5 complete.** The campaign foundation + AI runtime exist, the starting region is deep-built, the **first major city (Caradril) is deep-built**, and the **Level 1–4 Act 1 play kit (Stage 5) now exists** (open-world arc spine, 6 faction-alignment quests, 5 recurring early-threat profiles, an existing-clue Act 1 access overlay with R1 cap, 9 failure-redirect states, milestone/XP triggers, and an Act 1 NPC casting guide). The campaign now has a frontier sandbox, a mid-game city hub, and a runnable early-game arc.
 
 **Stage 6 (First Full Audit) complete 2026-06-10** — foundation verified sound; 0 Critical, 1 High (fixed inline), 4 Medium, 5 Low. See `../18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`. The gaps below reflect what remains for **Stage 7+ depth and scale** (faction quest chains, the keystone + Caradril dungeon builds, treasure-by-level, the bestiary, Acts 2–5, adjacent regions). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
@@ -17,7 +19,7 @@ Track missing or underdeveloped content by category. Use this for category-level
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
 | ~~Starting region exists as a frame only~~ — **deep-built in Stage 3** (8 settlements, 4 wilderness zones, 6 dungeons, encounter/rumor tables, 12 developed quests) | — (no gap) | — | — | done in Stage 3 |
-| No adjacent (Ring 1) regions | Medium | World opens outward in multiple directions | Generate adjacent regions | 7 |
+| ~~No adjacent (Ring 1) regions~~ — **deep-built in Stage 7**: Ashgarden Vale (3 settlements, 3 dungeons, 8 quests), Tollwood (3 settlements, 3 dungeons, 7 quests), Pale Coast (2 settlements, 3 dungeons, 5 quests), travel routes | — (no gap) | — | — | done in Stage 7 |
 | Distant named regions are world-overview stubs only | Low | Long-term travel and high-tier play | Expand later as arc reaches them | 7, 15 |
 
 ---
@@ -49,8 +51,9 @@ Track missing or underdeveloped content by category. Use this for category-level
 |---|---|---|---|---|
 | 20 major NPCs exist with secrets and motivations | — (no gap) | — | — | done in Stage 1 |
 | Major NPC count below long-term target (50–100) | Medium | Reduce major improvisation across the campaign | Expand major NPC roster | 9 |
-| Secondary NPCs: **~21 created in Stage 3** (toward 200–500 target) | Medium | Continue toward target across regions/city | Keep generating with each region/city | 3✓, 9 |
-| Minor named NPCs: **~35 created in Stage 3** (toward 500+ target) | Medium | Continue toward target | Generate minor NPC tables per area | 3✓, 9 |
+| Secondary NPCs: **~21 (Stage 3) + ~15 (Stage 4 city) + 29 (Stage 7 Ring 1) = ~65 secondary NPCs** (toward 200–500 target) | Medium | Continue toward target | Keep generating with each region/city pass | 3✓, 4✓, 7✓, 9 |
+| Minor named NPCs: **~35 (Stage 3) + ~25 (Stage 4 city) + 33 (Stage 7 Ring 1) = ~93 minor NPCs** (toward 500+ target) | Medium | Continue toward target | Generate minor NPC tables per area | 3✓, 4✓, 7✓, 9 |
+| Ring 1 NPC density below per-region target (30–60 per region; actual ~20 per region across 3 Ring 1 regions) | Medium | Reduce improvisation in Ring 1 settlements and sites | Expand Ring 1 secondary + minor NPCs — prioritize Pale Coast and Tollwood | 9 |
 | `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md` not created | Low | Managing a large NPC population | Create when NPC roster grows | 9 |
 
 ---

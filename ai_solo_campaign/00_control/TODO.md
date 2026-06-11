@@ -12,12 +12,12 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## High
 
-- [ ] Begin Stage 7: Regional Expansion Ring 1
-  - Why it matters: Stage 6 audit is complete and the foundation is verified sound (0 Critical). Outward scaling is approved. Build regions adjacent to the Sundering Reach (Ashgarden Vale, Tollwood, Pale Coast) so the world opens in multiple directions.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 7, `04_world_atlas/WORLD_OVERVIEW.md`, `MAP_DESCRIPTION.md`
-  - Suggested agent: `world-atlas-builder`
-  - Stage: 7
-  - Blocker: none — Stage 6 complete
+- [ ] Begin Stage 8: Faction Deepening
+  - Why it matters: Stage 7 is complete. All seven major factions need full quest chains, internal conflict, relationship maps, named members at multiple levels, and concrete "what they do if ignored" behavior tied to world clocks.
+  - Related files: `07_factions/major_factions/`, `FACTION_INDEX.md`, `02_runtime_state/FACTION_STATE.md`, `WORLD_CLOCKS.md`
+  - Suggested agent: `faction-weaver`
+  - Stage: 8
+  - Blocker: none — Stage 7 complete
 
 ---
 
@@ -34,6 +34,12 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Related files: `14_treasure_and_artifacts/`, `10_dungeons_and_ruins/`
   - Suggested agent: `encounter-bestiary-designer`
   - Stage: 14
+
+- [ ] Expand Ring 1 NPC density (Stage 9)
+  - Why it matters: Ring 1 delivered ~62 NPCs total (~20 per region) against the 30–60-per-region target. Pale Coast and Tollwood are the thinnest. The AI DM will need to improvise minor locals more than intended.
+  - Related files: `08_npcs/SECONDARY_NPCS.md`, `08_npcs/MINOR_NPCS.md`, `08_npcs/NPC_INDEX.md`, `05_regions/PALE_COAST.md`, `05_regions/TOLLWOOD.md`, `05_regions/ASHGARDEN_VALE.md`
+  - Suggested agent: `npc-codex-builder`
+  - Stage: 9
 
 - [ ] Build standalone Acts 2–5 arc files
   - Why it matters: Stage 6 audit Medium finding. The arc above level 4 exists as shape only; play beyond L4 is not yet runnable in detail.

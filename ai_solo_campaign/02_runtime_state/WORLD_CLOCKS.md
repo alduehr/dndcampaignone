@@ -173,6 +173,23 @@ Three city-internal clocks for Caradril (the first major city), added in Stage 4
 - **Player levers:** `Q_THE_FUNERAL_THAT_WOULDNT_TAKE` (expose the cover-up); protect the refugees (Renna); curb quiet-coin/smelting; ally the Wardens.
 - **Files:** `Q_THE_FUNERAL_THAT_WOULDNT_TAKE.md`, `HIGHMOURN.md`, `THE_SILL.md`.
 
+## Stage 7 Ring 1 Regional Clocks
+
+Six regional clocks for the Ring 1 regions (Ashgarden Vale, Tollwood, Pale Coast), added in Stage 7. They are **regional-scale conflicts that feed the existing master clocks** (chiefly #6 Monopoly, plus #1 Harvest and #10 Thinning as oblique/maritime echoes) — they do not replace or duplicate them. All start at **Stage 1 (campaign start)**; advance when the player visits/ignores a region or as the master clocks turn. Full stage detail lives in each region file's "Regional Clocks" section. **DM-only causes (the warming nodes, the deep presence, the harvest) must never be narrated as such.**
+
+| # | Clock | Region | Type | Feeds | Driver |
+|---|---|---|---|---|---|
+| V1 | The Harvest-Moot's Silence | Ashgarden Vale | regional/political (denial) | #10 Thinning; opens node to Remnant/cult | Moot-Reeve Tindle's cover-up |
+| V2 | The Saint's Relics Sold | Ashgarden Vale | regional/faction | #6 Monopoly | Factor Wymar Pell / relic-trade |
+| T1 | The Old Mast Stirs | Tollwood | regional/world (gated presence) | oblique M5/M6; seals East Road | Dorr's deep-cutting + the cell |
+| T2 | The Toll Turns to Plunder | Tollwood | regional/faction | chokes East Road to Caradril | Skell (vs. Renn) |
+| C-PC1 | The Drowned Tide Rises | Pale Coast | regional/world (coastal nodes) | #1 Harvest (maritime); #10 | warming Lamp/sea-shrines |
+| C-PC2 | The Salt Price Closes | Pale Coast | regional/faction | #6 Monopoly | Factor Maris Cole + wreckers |
+
+- **V1 / V2 detail:** `../05_regions/ASHGARDEN_VALE.md` (Regional Clocks). Levers: `Q_THE_FUNERAL_DONE_TWICE`, `Q_SAINTS_BONES`, `Q_THE_MARKS_ON_THE_DOORS`, the Pellow Grange; NPCs Tindle, Combe, Pell, Frost, Wessa.
+- **T1 / T2 detail:** `../05_regions/TOLLWOOD.md` (Regional Clocks). Levers: `Q_THE_MARKED_OAKS`, `Q_THE_LOST_CREW`, `Q_THE_HANGING_OAKS`, `Q_THE_BARGAIN`, `Q_THE_TOLL_WAR`; NPCs Dorr, Sennet, Brann, Renn, Skell, Vey.
+- **C-PC1 / C-PC2 detail:** `../05_regions/PALE_COAST.md` (Regional Clocks). Levers: `Q_THE_DROWNED_BELL`, `Q_THE_EMPTY_HEARTH`, `Q_THE_SALT_MOTHERS_BURDEN`, `Q_THE_SALT_PRICE`, `Q_THE_SKIPPERS_DEBT`, `Q_THE_WRECKERS`; NPCs Bryd, Cole, Roke, Quint, Verge.
+
 ## Resolved / Expired Clocks
 
 *None yet.*

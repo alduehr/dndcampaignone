@@ -6,7 +6,7 @@ Tells the AI DM which files to load, when to load them, and how to use them. Thi
 
 ## Current Status
 
-Stages 1, 2, 3, 4, and 5 complete. Session load order, contextual load rules, pre-content-generation checks, and secrecy enforcement are operational. Sundering Reach (Stage 3), Caradril city (Stage 4), and the Level 1–4 Act 1 play kit (Stage 5) world content load entries are live below.
+Stages 1–5 and 7 complete. Session load order, contextual load rules, pre-content-generation checks, and secrecy enforcement are operational. Sundering Reach (Stage 3), Caradril city (Stage 4), the Level 1–4 Act 1 play kit (Stage 5), and the three Ring 1 adjacent regions (Stage 7 — Ashgarden Vale, Tollwood, Pale Coast) world content load entries are live below.
 
 ---
 
@@ -255,6 +255,46 @@ The open-world Act 1 toolkit. Load when starting a campaign or planning/running 
 - `08_npcs/ACT_1_NPC_GUIDE.md` — existing NPCs as Act 1 allies/patrons/rivals/witnesses/complications, with entry conditions and **Safe Re-Entry Points** for a lost player. No new NPCs — points into `MAJOR_NPCS.md`/`SECONDARY_NPCS.md`.
 
 **Act 1 secrecy reminder:** Reke is a *reasonable politician with a project*, not an exposed traitor; the shrine is a *hazard and a shape*, not a named engine; the dead are *drawn to the water* for reasons unknown. Cap every Act 1 reveal at R1.
+
+---
+
+## Stage 7 World Content Load Entries (Ring 1 — Adjacent Regions)
+
+The three regions adjacent to the Reach. Load the relevant region file when the player travels south (Vale), east (Tollwood), or west (Coast), then the specific settlement/wilderness/dungeon for the scene. **All Ring 1 sites feed existing M1–M9 (mostly M2/M3/M5 fragments, gated/oblique M6) — never name the Hollow Court (M7) or the harvest mechanism; cap reveals (R1 at Act-1 levels; R2 at L5+; never R3+ in Ring 1).**
+
+### Travel (load when leaving or crossing between regions)
+- `04_world_atlas/TRAVEL_ROUTES_RING1.md` — 6 routes (Reach→each region; each region→Caradril); times, dangers, faction presence, travel events. Use with `TRAVEL_PROTOCOL.md` and the regional encounter tables.
+
+### Ashgarden Vale (S — gentlest Ring 1, Lvl 1–6)
+- `05_regions/ASHGARDEN_VALE.md` — region overview
+- `06_settlements/ORCHARDMERE.md` (hub) · `SAINT_VEDDOWS_REST.md` (pilgrimage; the node) · `TILBROOK.md` (honest M5 window)
+- `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` — 6 sites + 3 hamlets
+- Dungeons: `10_dungeons_and_ruins/SAINT_VEDDOWS_TOMB.md` (gated node; L4–6) · `THE_BURIED_CLOISTER.md` (L2–4) · `THE_PELLOW_GRANGE.md` (social; L2–4)
+- `13_encounters_and_bestiary/ASHGARDEN_VALE_ENCOUNTERS.md` · `09_quests/hooks_and_rumors/ASHGARDEN_VALE_HOOKS.md`/`_RUMORS.md` · 8 Vale `Q_*` quests
+- **Secrecy:** the Vale's "the rites always held" is denial; cap at R1. Saint Veddow's Tomb gives M2/M6 *fragments* only; never the Court.
+
+### Tollwood (E — most dangerous Ring 1, Lvl 2–7)
+- `05_regions/TOLLWOOD.md` — region overview
+- `06_settlements/HARTFELL.md` (hub) · `COLDHEARTH.md` (deep village; the bargain) · `TOLLSTONE_CROSS.md` (toll-war)
+- `05_regions/wilderness/TOLLWOOD_SITES.md` — 6 sites; the deep wood gated
+- Dungeons: `10_dungeons_and_ruins/THE_GREENWARD_TOLL_STATION.md` (L2–4) · `THE_HANGING_OAKS.md` (L4–6) · `THE_OLD_MAST.md` (**gated apex, L6–10**)
+- `13_encounters_and_bestiary/TOLLWOOD_ENCOUNTERS.md` (deep-wood table is deadliest) · `TOLLWOOD_HOOKS.md`/`_RUMORS.md` · 7 Tollwood `Q_*` quests
+- **Secrecy:** the Old Mast's pre-Concord "presence" is a **gated regional landmark-power, NOT the Hollow Court or a new god**; it gives oblique M5/M6 *fragments and dread* only. The deep wood pushes the unworthy out alive (telegraphed).
+
+### Pale Coast (W — sea-and-survival, Lvl 2–7; Saltmargin is the existing gateway)
+- `05_regions/PALE_COAST.md` — region overview
+- `06_settlements/WRACKMOUTH.md` (hub/port; water-route to Caradril) · `COBBLE_STRAND.md` (honest M5/M2 window; salt-and-tide rite) · `SALTMARGIN.md` *(existing Reach town; the gateway — do not recreate)*
+- `05_regions/wilderness/PALE_COAST_SITES.md` — 6 sites; the Skerries gated
+- Dungeons: `10_dungeons_and_ruins/THE_DROWNED_LAMP.md` (coastal node; L4–6; tide-locked) · `THE_WRECKERS_CAVES.md` (social/tide; L3–5) · `THE_SKERRY_SHRINE.md` (**gated apex, L6–9**)
+- `13_encounters_and_bestiary/PALE_COAST_ENCOUNTERS.md` (Skerries table is deadliest) · `PALE_COAST_HOOKS.md`/`_RUMORS.md` · 5 Coast `Q_*` quests
+- **Secrecy:** the lighthouses/sea-shrines were maritime harvest-nodes — gated M2/M5/M6 *fragments* only; never the Court. The tide and weather are the safety valves (telegraph constantly).
+
+### Ring 1 NPCs / Clocks
+- `08_npcs/SECONDARY_NPCS.md` (Ring 1 sections) + `MINOR_NPCS.md` (Ring 1 sections) — load by region/settlement
+- Regional clocks (add to `02_runtime_state/WORLD_CLOCKS.md` on first engagement): Vale **"The Harvest-Moot's Silence"**, Tollwood **"The Old Mast Stirs"**, Coast **"The Drowned Tide Rises"**. The Tollmen are a minor regional faction (`FACTION_STATE.md` if engaged).
+- The Mourner folk-truth network (Wend→Combe→Sennet→Bryd) is a slow, gated M6 thread linking the regions; carrying their messages is the through-line.
+
+**Ring 1 secrecy reminder:** every Ring 1 region has an *honest window* (Tilbrook / Coldhearth-Sennet / Cobble Strand-Bryd) that confirms **the failures spread outward from the Reach (M5)** — that is the intended Ring 1 takeaway. The gated apex sites (Old Mast, Skerry Shrine, deep Saint Veddow's/Drowned Lamp) give *fragments and danger*, never the apex truth. **Never name the Hollow Court or the harvest mechanism in any Ring 1 content.**
 
 ---
 

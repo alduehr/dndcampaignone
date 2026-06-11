@@ -4,11 +4,11 @@
 type: npc
 secrecy: mixed
 status: static
-region: Sundering Reach; Caradril
-factions: [Reachward Compact, Mourners' Circle, Ashen Wardens, Cinder Ledger, Gravecallers, Concord Remnant, Tidewater Council, Salt Syndicate, The Hush]
+region: Sundering Reach; Caradril; Ashgarden Vale; Tollwood; Pale Coast
+factions: [Reachward Compact, Mourners' Circle, Ashen Wardens, Cinder Ledger, Gravecallers, Concord Remnant, Tidewater Council, Salt Syndicate, The Hush, Tollmen]
 level_range: 1-12
 related: [MAJOR_NPCS.md, SECONDARY_NPCS.md, NPC_INDEX.md, ../06_settlements/CARADRIL.md]
-tags: [type:npc, secrecy:mixed, minor-npc, region:sundering-reach, region:caradril]
+tags: [type:npc, secrecy:mixed, minor-npc, region:sundering-reach, region:caradril, region:ashgarden-vale, region:tollwood, region:pale-coast]
 ---
 
 ## AI Use
@@ -160,6 +160,92 @@ Named minor NPCs (local color with utility) of the Sundering Reach, by location.
 |---|---|---|---|---|---|
 | Delver Coorn | Salvage-delver below | Greedy, reckless, lucky | Knows some dry routes (rivals Dunk) | guard-like | Took a relic he shouldn't; it's changing him (thin-touch) |
 | Lantern-girl Esha | Dunk's young guide-apprentice | Watchful, brave, quiet | Carries the lantern; reads the floods | none (commoner) | Hears the Wards "whispering" and is afraid to say |
+
+---
+
+## Ashgarden Vale (Stage 7 — Ring 1, South)
+
+### Orchardmere
+
+| Name | Role | Personality Hook | Useful Detail | Combat Relevance | Optional Secret (DM) |
+|---|---|---|---|---|---|
+| Press-master Goodwife Orrel | Cider-yard mistress | Brisk, proud, sharp-tongued | Knows who's been quietly reburied | none (commoner) | Keeps a tally of the hushed funerals (M1/M5) |
+| Innkeep Dab Hollith | The Cider Star's host | Genial, gossipy, indiscreet | Pilgrim and trader news; the Reeve's moods | none (commoner) | Overheard the Reeve order a reburial "done over" |
+| Bell-clerk Wessa | Moot-Hall clerk | Timid, precise, frightened | The suppressed failure-reports | none (commoner) | Could leak the cover-up if protected (AV-H2) |
+
+### Saint Veddow's Rest
+
+| Name | Role | Personality Hook | Useful Detail | Combat Relevance | Optional Secret (DM) |
+|---|---|---|---|---|---|
+| Relic-monger Coyle Tamm | Sells "saint's relics" | Oily, devout, profitable | Where the relics come from (Pell, grave-diggers) | none (commoner) | Some of his relics are real Remembrance relics (M3) |
+| Hosteler Wenna Frey | Pilgrim-hostel keeper | Warm, weary, a confessor | Pilgrims' fears and the hidden failures | none (commoner) | Knows of the lower-cell failed-rest pilgrims |
+| Pilgrim Goodman Sael | A grieving pilgrim | Desperate, devout, breaking | His "rested" father came back wrong | none (commoner) | The shrine's failing rite, made personal (M1) |
+| Well-keeper Brother Ode | Tends Saint Veddow's Spring | Fretful, devout, evasive | The holy water has "turned cold and iron" | none (commoner) | Hushes the spring's thin-touch taint to save the trade (M2/M3) |
+
+### Tilbrook & the Country
+
+| Name | Role | Personality Hook | Useful Detail | Combat Relevance | Optional Secret (DM) |
+|---|---|---|---|---|---|
+| Ale-wife Genna Brunt | The Plough & Star | Blunt, kind, no-nonsense | The Vale's bluntest honest gossip | none (commoner) | Knows Pell's foreclosure pattern by heart |
+| Widow Hessit | Foreclosed farmer | Hollow-eyed, grieving | Tempted by "a last word" | none (commoner) | The Vale Gravecaller cult-seed (AV-H13) |
+| Goodman Orrick | Nettlecombe hamlet-elder | Stubborn, frightened | The Sheep Stone field-shrine and its dusk-walker | none (commoner) | Uses a Concord field-shrine as a byre (M2/M5) |
+| Gibbet-keeper Sorle | Tends Marrow Cross | Lonely, grim, superstitious | Who's been hanged; who recruits at the cross | guard-like | Knows the gibbet-dead walk; afraid to say (AV-H17) |
+| Foreman Drust | Pellow Grange dig-boss | Hard, wage-loyal, uneasy | The dig-ledger; the relic-quarry | thug-like | A wage-man, not a fanatic; turnable/ransomable |
+
+---
+
+## Tollwood (Stage 7 — Ring 1, East)
+
+### Hartfell
+
+| Name | Role | Personality Hook | Useful Detail | Combat Relevance | Optional Secret (DM) |
+|---|---|---|---|---|---|
+| Innkeep Marrec Tull | The Antlers' host | Loud, shrewd, well-connected | Hires out the wood's best guides | none (commoner) | A Gravecaller courier uses his back room |
+| Smith-master Holt | Hartfell smith | Gruff, skilled, practical | Best axes and woodcraft gear in the wood | guard-like | Forged "breaking-tools" once, to his regret |
+| Cutter-foreman Vask | Logging-crew foreman | Hard, frightened, drinking | Which crews went deep and came back short | thug-like | Saw something at the deep-cutting front he won't name |
+| Widow Sefa Quist | A lost cutter's wife | Grieving, sharp, unquiet | Her man's crew went east and vanished | none (commoner) | Begs the player to find the lost crew (Q_THE_LOST_CREW) |
+| Herbwife Onn | Deep-wood herb-gatherer | Quiet, canny, half-feral | Where the safe and unsafe stands lie; rare healing-herbs | commoner-like | Trades at the Coppice Shrines; reads the wood's mood |
+
+### Tollstone Cross
+
+| Name | Role | Personality Hook | Useful Detail | Combat Relevance | Optional Secret (DM) |
+|---|---|---|---|---|---|
+| Smith Doune | Honest resident | Stubborn, decent, trapped | The Drowned Vault's secret; the Tollmen's splits | guard-like | Hates the toll; would help break it quietly |
+| Ale-wife Pell | The road's only ale | Watchful, dry, knows all | Everyone's business on the road | none (commoner) | (Common frontier surname; distinct from other "Pells") |
+| Toll-clerk Wenny | Renn's toll-tallier | Nervous, decent, observant | The toll-takes; who pays and who's marked for Skell | none (commoner) | Loyal to Renn, terrified of Skell; a turn-lever (Q_THE_TOLL_WAR) |
+
+### Coldhearth & the Deep Wood
+
+| Name | Role | Personality Hook | Useful Detail | Combat Relevance | Optional Secret (DM) |
+|---|---|---|---|---|---|
+| Old Gethin | Charcoal-foreman | Slow, sure, kind | The near wood and the burns | guard-like | Knows the bargain is breaking; defers to Sennet |
+| Wren-of-the-Wood | Young Coldhearth guide | Reckless, gifted, haunted | Has been deeper than anyone should | scout-like | Drawn toward the Old Mast by the deep dead (TW-H11) |
+| Burn-boy Tam | Charcoal apprentice | Eager, scared, loyal | Which clamps the dead drift near at night | none (commoner) | Saw a "grey watcher" at the Sentinel Oaks and won't go back |
+
+---
+
+## Pale Coast (Stage 7 — Ring 1, West)
+
+### Wrackmouth
+
+| Name | Role | Personality Hook | Useful Detail | Combat Relevance | Optional Secret (DM) |
+|---|---|---|---|---|---|
+| Innkeep Sella Vane | The Gull & Anchor | Brassy, kind, tireless | Hires skippers and guides; sea-gossip | none (commoner) | Knows which skippers run for the wreckers |
+| Fence "Cuttle" Dree | Sea-relic fence (the Wrack) | Sly, twitchy, greedy | The sea-relic black market; a Gravecaller contact | thug-like | Moves Remembrance "sea-relics" for Cole (M3) |
+| Harbormaster Oll | Runs the quays | Bluff, busy, bribable | Sailings to Caradril; who ships what | guard-like | Looks away from Cole's relic-hulls for a cut |
+| Tally-clerk Verrin | Cole's salt-weigh clerk | Meek, precise, frightened | The rigged salt-terms and salvage-ledger | none (commoner) | Could leak Cole's salvage-ledger if shielded (Q_THE_SKIPPERS_DEBT) |
+| Mate Doss | Roke's deckhand | Loyal, salt-tongued, brave | The water-route's safe and foul stretches | scout-like | Would crew for the player if Roke goes under |
+
+### Cobble Strand
+
+| Name | Role | Personality Hook | Useful Detail | Combat Relevance | Optional Secret (DM) |
+|---|---|---|---|---|---|
+| Net-wife Senna | Sharp-eyed fisher | Blunt, grieving, fierce | The drowned-tide; the cove caves | none (commoner) | Lost a son to the sea; watches for his return |
+| Young Ferec | Grieving fisher-lad | Hollow, drawn, gentle | Slips to the cove caves to "hear the dead" | none (commoner) | The Coast cult-seed; half-claimed by the current (PC-H12) |
+| Boatman Crae | Cove guide | Quiet, tide-wise, careful | The coves, the tides, the safe waters | scout-like | Won't go near the Skerries or the Lamp at high tide |
+| Bell-keeper Odd | Rings the Tide-Bell shrine | Sleepless, devout, kindly | When and where the drowned come in | none (commoner) | The bell rings more each tide; he hides how much (PC-H4) |
+| Widow Mahalf | A drowned man's widow | Hoping, brittle, defiant | Her husband "came home" wrong (the empty hearth) | none (commoner) | Won't give him to the rite; a Gravecaller courts her (Q_THE_EMPTY_HEARTH) |
+| Salt-raker Tibba | Salt-pan worker | Hard, gouged-poor, angry | The Ledger quota; who's drifting to wrecking | commoner-like | Her brother turned wrecker to eat (salt-gouge cost) |
 
 ---
 

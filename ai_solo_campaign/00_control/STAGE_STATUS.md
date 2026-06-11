@@ -6,8 +6,8 @@ Live status of each development stage. Updated after every stage completes, part
 
 ## Current Status
 
-**Active Stage:** Stage 7 — Regional Expansion Ring 1 (not started)
-**Last Completed Stage:** Stage 6 — First Full Audit (complete 2026-06-10)
+**Active Stage:** Stage 8 — Faction Deepening (not started)
+**Last Completed Stage:** Stage 7 — Regional Expansion Ring 1 (complete 2026-06-10)
 
 ---
 
@@ -22,7 +22,7 @@ Live status of each development stage. Updated after every stage completes, part
 | 4 | First Major City Deep Build | complete | 100% | none | 2026-06-10: **Caradril** deep-built — city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary + 25 city minor NPCs, 11 developed city quests, 36 hooks + 30 rumors, city encounter/social-scene tables; 4 city-internal factions + 3 city clocks (C1/C2/C3); city clue access feeds existing M2/M3/M4/M6/M8/M9; Ledger HQ + Remnant seat located; all indexed/cross-linked. Targets met or exceeded. No new central mystery/faction/god/cosmology/artifact created |
 | 5 | Level 1–4 Play Arc | complete | 100% | none | 2026-06-10: open-world Act 1 play kit — arc spine + 6 faction-alignment quests (`act_1_quests/`) + 5 recurring early-threat profiles (`ACT_1_THREATS.md`) + Act 1 clue-trails overlay (existing M1–M9; R1 cap) + 9 failure-redirect states + L2/3/4 milestone/XP triggers + Act 1 NPC casting guide; runtime ACTIVE_QUESTS/OPEN_THREADS seeded; anti-railroad verified; all L1–4 content mechanically complete. No new central mystery/faction/god/cosmology/artifact; reveals capped at R1; Hollow Court never exposed (no friendly Court quest by design) |
 | 6 | First Full Audit | complete | 100% | none | 2026-06-10: all 10 audit categories run across Stages 1–5; foundation sound (0 Critical, 1 High fixed inline, 4 Medium, 5 Low). Report: `18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`. Scaling to Stage 7 approved |
-| 7 | Regional Expansion Ring 1 | not started | 0% | — | Depends on Stage 6 (now complete) — unblocked |
+| 7 | Regional Expansion Ring 1 | complete | 100% | none | 2026-06-10: three adjacent regions deep-built — **Ashgarden Vale** (S), **Tollwood** (E), **Pale Coast** (W). 3 region files + 8 settlements (Saltmargin reused as Coast gateway) + 3 wilderness files (10 named sites per region; Ashgarden also has 3 hamlets) + 9 dungeons (3 gated higher-tier) + 3 encounter tables + 66 hooks/60 rumors + **24 developed regional quests (8 per region)** + ~62 Ring 1 NPCs (29 secondary + 33 minor; below per-region target of 30–60 — expand in Stage 9) + 1 minor regional faction (the Tollmen) + **6 regional clocks (2 per region: V1/V2, T1/T2, C-PC1/C-PC2)** + `TRAVEL_ROUTES_RING1.md` (6 routes). Player can leave the Reach in 3 directions; all routes funnel to Caradril. No new central mystery/major faction/god/cosmology/artifact; gated/oblique reveals feed existing M2/M3/M5 (gated M6); Hollow Court never named. All indexed/cross-linked |
 | 8 | Faction Deepening | not started | 0% | — | Depends on Stages 1, 3 |
 | 9 | NPC Codex Expansion | not started | 0% | — | Depends on Stages 1, 3 |
 | 10 | Quest Library Expansion | not started | 0% | — | Depends on Stages 3, 8 |

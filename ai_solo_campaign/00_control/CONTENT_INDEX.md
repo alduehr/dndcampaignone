@@ -6,7 +6,7 @@ Global inventory of campaign content. Tells the AI DM what exists and where to f
 
 ## Current Status
 
-**Stages 1, 2, 3, 4, and 5 complete.** Campaign foundation (Stage 1) + AI runtime (Stage 2) + Starting Region Deep Build (Stage 3) + First Major City Deep Build (Stage 4 — Caradril) + **Level 1–4 Play Arc (Stage 5)**. The Sundering Reach has 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, and zone encounter tables. **Caradril** adds: a city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary NPCs + 25 city minor NPCs, 11 developed city quests, 36 city hooks + 30 city rumors, and a city encounter/social-scene table. **Stage 5 (Act 1)** adds the open-world Level 1–4 play kit: the Act 1 arc spine, 6 faction-alignment quests (`act_1_quests/`), 5 recurring early-threat profiles, an Act 1 clue-trails overlay (existing M1–M9; R1 cap), Act 1 failure-redirect states, Act 1 milestone/XP triggers, and an Act 1 NPC casting guide — all reusing existing mysteries, NPCs, factions, and clocks. City + Act 1 clue access feeds the existing M2/M3/M4/M6/M8/M9 chains; 3 city faction clocks (C1/C2/C3) and 4 city-internal factions exist. **No new central mystery/faction/god/cosmology/artifact created in Stage 5.** Stage 6 (first full audit) is complete — foundation verified sound. **Stage 7 (Regional Expansion Ring 1) is next.**
+**Stages 1, 2, 3, 4, and 5 complete.** Campaign foundation (Stage 1) + AI runtime (Stage 2) + Starting Region Deep Build (Stage 3) + First Major City Deep Build (Stage 4 — Caradril) + **Level 1–4 Play Arc (Stage 5)**. The Sundering Reach has 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, and zone encounter tables. **Caradril** adds: a city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary NPCs + 25 city minor NPCs, 11 developed city quests, 36 city hooks + 30 city rumors, and a city encounter/social-scene table. **Stage 5 (Act 1)** adds the open-world Level 1–4 play kit: the Act 1 arc spine, 6 faction-alignment quests (`act_1_quests/`), 5 recurring early-threat profiles, an Act 1 clue-trails overlay (existing M1–M9; R1 cap), Act 1 failure-redirect states, Act 1 milestone/XP triggers, and an Act 1 NPC casting guide — all reusing existing mysteries, NPCs, factions, and clocks. City + Act 1 clue access feeds the existing M2/M3/M4/M6/M8/M9 chains; 3 city faction clocks (C1/C2/C3) and 4 city-internal factions exist. **No new central mystery/faction/god/cosmology/artifact created in Stage 5.** Stage 6 (first full audit) is complete — foundation verified sound. **Stage 7 (Regional Expansion Ring 1) is complete:** the three adjacent regions (Ashgarden Vale S, Tollwood E, Pale Coast W) are deep-built — 3 region files, 8 new settlements (Saltmargin reused as Coast gateway), 3 wilderness files (~30 sites + 6 hamlets, after the completion pass added 12 sites), 9 dungeons/ruins (3 per region; 3 gated higher-tier: Old Mast, Skerry Shrine, + the deep levels of Saint Veddow's Tomb/Drowned Lamp), 3 encounter tables, 66 hooks + 60 rumors, 24 developed regional quests (after the completion pass added 4: Lost Crew, Drowned-Bell, Skipper's Debt, Empty Hearth), ~62 Ring 1 NPCs (29 secondary + 33 minor, after the completion pass added 9 secondary + 13 minor), 1 new minor regional faction (the Tollmen), 6 formalized regional clocks (Vale V1/V2, Tollwood T1/T2, Coast C-PC1/C-PC2), and a Ring 1 travel-routes file (6 routes). All new sites feed existing M1–M9 (M2/M3/M5 fragments, gated/oblique M6); the deep-wood and maritime "presences" are gated regional landmark-powers (NOT the Hollow Court). **No new central mystery/major faction/god/cosmology/artifact created in Stage 7.**
 
 ---
 
@@ -21,6 +21,9 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Name | File | Secrecy | Status | Summary | Tags |
 |---|---|---|---|---|---|
 | Sundering Reach | `05_regions/SUNDERING_REACH.md` | mixed | static (deep-built Stage 3) | Starting region; ruin-haunted frontier; keystone of the harvest; 8 settlements, 4 wilderness zones, 6 dungeons | starting-region |
+| Ashgarden Vale (S) | `05_regions/ASHGARDEN_VALE.md` | mixed | static (deep-built Stage 7) | Ring 1 south; farmland/shrine-towns; the Vale's denial; Saint Veddow's node; Lvl 1–6 | ring-1, region:ashgarden-vale |
+| Tollwood (E) | `05_regions/TOLLWOOD.md` | mixed | static (deep-built Stage 7) | Ring 1 east; old-growth forest; toll-roads; pre-Concord Old Mast presence (gated); Lvl 2–7 | ring-1, region:tollwood |
+| Pale Coast (W) | `05_regions/PALE_COAST.md` | mixed | static (deep-built Stage 7) | Ring 1 west; fishing/salt; maritime nodes (Drowned Lamp); the drowned-tide; Lvl 2–7 | ring-1, region:pale-coast |
 | Caradril (city-state, SE) | `06_settlements/CARADRIL.md` | mixed | static (deep-built Stage 4) | First major city; mid-game hub; 8 districts; Ledger HQ + Remnant seat | major-city, region:caradril |
 | (Orrun world overview) | `04_world_atlas/WORLD_OVERVIEW.md` | mixed | static | Continent overview; 5 named regions | world |
 
@@ -39,6 +42,14 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Reedford | `06_settlements/REEDFORD.md` | Sundering Reach | mixed | static | Tiny ford-hamlet; gentle Lvl-1 waypoint | hamlet |
 | The Ashwalk Rest | `06_settlements/THE_ASHWALK_REST.md` | Sundering Reach | mixed | static | Warden waystation; open-Reach solo-safety sanctuary | outpost, solo-safety, patron |
 | **Caradril** | `06_settlements/CARADRIL.md` | Caradril (Orrun, SE) | mixed | static | **First major city**; city-state; Ledger HQ + Remnant seat; mid-game hub (Lvl 5–12); 8 districts | major-city, hub |
+| Orchardmere | `06_settlements/ORCHARDMERE.md` | Ashgarden Vale | mixed | static | Vale hub; cider-town; the cover-up; harvest-moot (Lvl 1–5) | ring-1, town, hub |
+| Saint Veddow's Rest | `06_settlements/SAINT_VEDDOWS_REST.md` | Ashgarden Vale | mixed | static | Pilgrimage shrine-town over a capped Concord node (Lvl 2–6) | ring-1, town, clue |
+| Tilbrook | `06_settlements/TILBROOK.md` | Ashgarden Vale | mixed | static | Mill village; honest M5 window; Ledger debt (Lvl 1–3) | ring-1, village |
+| Hartfell | `06_settlements/HARTFELL.md` | Tollwood | mixed | static | Tollwood hub; stockaded road-town; logging push (Lvl 2–6) | ring-1, town, hub |
+| Coldhearth | `06_settlements/COLDHEARTH.md` | Tollwood | mixed | static | Charcoal village; forest-bargain; deep-secret keeper (Lvl 3–6) | ring-1, village, clue |
+| Tollstone Cross | `06_settlements/TOLLSTONE_CROSS.md` | Tollwood | mixed | static | Bandit toll-hamlet; the toll-war; road-node (Lvl 2–4) | ring-1, hamlet, combat |
+| Wrackmouth | `06_settlements/WRACKMOUTH.md` | Pale Coast | mixed | static | Coast hub/port; salt monopoly; water-route to Caradril (Lvl 2–6) | ring-1, town, hub |
+| Cobble Strand | `06_settlements/COBBLE_STRAND.md` | Pale Coast | mixed | static | Shingle-cove fishing village; honest M5/M2 window; salt-and-tide rite (Lvl 2–5) | ring-1, village, clue |
 
 ### Caradril Districts (Stage 4)
 
@@ -70,6 +81,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Tide-Watch | `06_settlements/caradril_districts/THE_MAGISTERIUM.md` | Caradril | mixed | City-internal: city watch (turnable captain) | city-faction |
 | Salt Syndicate | `06_settlements/caradril_districts/THE_ASHMARKET.md` | Caradril | mixed | City-internal: smuggling + relic black market (M3) | city-faction, clue |
 | The Hush | `06_settlements/caradril_districts/THE_SILL.md` | Caradril | mixed | City-internal: information/blackmail; clue-shortcuts | city-faction, clue |
+| The Tollmen | `06_settlements/TOLLSTONE_CROSS.md` | Tollwood | mixed | Minor regional: East Road toll-bandits; turnable (Renn) vs murderous (Skell) | ring-1, regional-faction |
 | (Faction index) | `07_factions/FACTION_INDEX.md` | — | mixed | Master faction table + relationship map (incl. city factions) | index |
 
 ---
@@ -79,8 +91,8 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Name | File | Tier | Location | Faction | Secrecy | Summary | Tags |
 |---|---|---|---|---|---|---|---|
 | 20 Major NPCs | `08_npcs/MAJOR_NPCS.md` | Major | Reach/Caradril | all | mixed | Full profiles for the 20 foundation NPCs | major-npc |
-| ~36 Secondary NPCs | `08_npcs/SECONDARY_NPCS.md` | Secondary | Reach + Caradril | all | mixed | Stage 3 Reach locals + Stage 4 15 Caradril city NPCs | secondary-npc |
-| ~60 Minor NPCs | `08_npcs/MINOR_NPCS.md` | Minor | Reach + Caradril | all | mixed | Stage 3 Reach + Stage 4 25 Caradril minor NPCs by district | minor-npc |
+| ~65 Secondary NPCs | `08_npcs/SECONDARY_NPCS.md` | Secondary | Reach + Caradril + Ring 1 | all | mixed | Stage 3 Reach + Stage 4 Caradril (15) + Stage 7 Ring 1 (29; +9 in completion pass) NPCs | secondary-npc |
+| ~93 Minor NPCs | `08_npcs/MINOR_NPCS.md` | Minor | Reach + Caradril + Ring 1 | all | mixed | Stage 3 Reach + Stage 4 Caradril (25) + Stage 7 Ring 1 (33; +13 in completion pass) minor NPCs | minor-npc |
 | Act 1 NPC Guide (Stage 5) | `08_npcs/ACT_1_NPC_GUIDE.md` | — | Reach | all | mixed | Casting guide: existing NPCs as Act 1 allies/patrons/rivals/witnesses/complications + safe re-entry points. No new NPCs | npc, act:1, level:1-4 |
 | (NPC index) | `08_npcs/NPC_INDEX.md` | — | — | — | mixed | Master NPC table (major/secondary/minor; Reach + Caradril) | index |
 
@@ -99,6 +111,12 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Caradril Rumors (CR1–30) | `09_quests/hooks_and_rumors/CARADRIL_RUMORS.md` | Rumors | 3-12 | Caradril | static | 30 city rumors by district | rumor, region:caradril |
 | 11 Developed City Quests | `09_quests/city_quests/*.md` | City/Faction/Mystery | 3-12 | Caradril | static | Full-standard city quests (Sealed Letter, Open Charter, Quay Charter, Lantern & Lamp, Sealed Archive, Quiet Coin, Funeral That Wouldn't Take, Smelting, Bellman's Price, Below the Stilling, Tide Turns) | quest, region:caradril |
 | 6 Act 1 Faction Quests | `09_quests/act_1_quests/*.md` | Faction (Act 1) | 1-4 | Sundering Reach | static | Faction-alignment quests, one per major faction (Warden True Rite, Compact Reeve's Doubt, Ledger Quiet Salvage, Mourner Salt & Song, Gravecaller Last Word, Remnant Visiting Scholar). Hollow Court has none by design | quest, act:1, level:1-4 |
+| Ashgarden Vale Hooks (AV-H1–22) + Rumors (AV-R1–20) | `09_quests/hooks_and_rumors/ASHGARDEN_VALE_*.md` | Hooks/Rumors | 1-6 | Ashgarden Vale | static | 22 hooks + 20 rumors, all to authored Vale content | ring-1, quest-hook, rumor |
+| 8 Vale Developed Quests | `09_quests/regional_quests/Q_*.md` (Vale) | Regional/Mystery | 1-6 | Ashgarden Vale | static | Funeral Done Twice, Saint's Bones, Sealed Door, Loaf That Moves, Marks on the Doors, Saint Who Weeps, Crows of Marrow Cross, What's Under the Orchard | ring-1, quest |
+| Tollwood Hooks (TW-H1–22) + Rumors (TW-R1–20) | `09_quests/hooks_and_rumors/TOLLWOOD_*.md` | Hooks/Rumors | 2-7 | Tollwood | static | 22 hooks + 20 rumors, all to authored Tollwood content | ring-1, quest-hook, rumor |
+| 8 Tollwood Developed Quests | `09_quests/regional_quests/Q_*.md` (Tollwood) | Regional/Mystery | 2-8 | Tollwood | static | Marked Oaks, Toll-War, Drowned Vault, The Bargain, Hanging Oaks, To the Edge (gated), Reckless Guide, Lost Crew | ring-1, quest |
+| Pale Coast Hooks (PC-H1–22) + Rumors (PC-R1–20) | `09_quests/hooks_and_rumors/PALE_COAST_*.md` | Hooks/Rumors | 2-7 | Pale Coast | static | 22 hooks + 20 rumors, all to authored Coast content | ring-1, quest-hook, rumor |
+| 8 Coast Developed Quests | `09_quests/regional_quests/Q_*.md` (Coast) | Regional/Mystery | 2-6 | Pale Coast | static | Salt-Price, Salt-Mother's Burden, What the Lamp Holds, Cove Caves, Wreckers, Drowned-Bell, Skipper's Debt, Empty Hearth | ring-1, quest |
 
 ---
 
@@ -130,6 +148,9 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Sunder Heights sites | `05_regions/wilderness/SUNDER_HEIGHTS_SITES.md` | Sundering Reach | 2-6 | static | 6 named highland-ruin sites; Reclamation race | sunder-heights |
 | Mirewend & Roads sites | `05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md` | Sundering Reach | 1-4 | static | Star-Stones, causeways, river; travel layer | roads, river, travel |
 | Basin Shore & Holms sites | `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md` | Sundering Reach | 1-5 | static | Shore, Surfacing Ruin (M2), Reed Holms; deep basin off-limits early | basin, clue |
+| Ashgarden Vale sites | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` | Ashgarden Vale | 1-5 | static | 10 sites + 3 hamlets; orchard ruins, Marrow Cross, the downs, Cider-Wake Orchard, Drowned Lane, Beacon Tump, Saint Veddow's Spring | ring-1, clue |
+| Tollwood sites | `05_regions/wilderness/TOLLWOOD_SITES.md` | Tollwood | 2-7 | static | 10 sites; East Road, Coppice Shrines, Green Mile, Hanging Oaks, Old Mast edge (gated), Charcoal Burns, Withy Bog, Mast-Beasts' Range, Sentinel Oaks | ring-1, clue |
+| Pale Coast sites | `05_regions/wilderness/PALE_COAST_SITES.md` | Pale Coast | 2-7 | static | 10 sites; cliff-road, sea-caves, Drowned Lamp headland, the Skerries (gated), Drowned-Cairns, Salt-Pan Flats, Lantern Stacks, Weeping Light | ring-1, clue |
 
 ---
 
@@ -143,6 +164,15 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | The Ledger Vault | `10_dungeons_and_ruins/THE_LEDGER_VAULT.md` | Sundering Reach | 2-4 | static | Social/stealth heist; vault relic (C-M3-3) | dungeon, heist |
 | The Barrow of Nine Doors | `10_dungeons_and_ruins/THE_BARROW_OF_NINE_DOORS.md` | Sundering Reach | 3-5 | static | Greyfens barrow; parley-boss; M5/M6 testimony | dungeon, clue |
 | The Deep Adit | `10_dungeons_and_ruins/THE_DEEP_ADIT.md` | Sundering Reach | 3-5 | static | Secondary harvest node; M3/M6; Reclamation race | dungeon, clue, secondary-node |
+| Saint Veddow's Tomb | `10_dungeons_and_ruins/SAINT_VEDDOWS_TOMB.md` | Ashgarden Vale | 4-6 | static | Capped Concord shrine / secondary node; M2/M6 fragments (gated) | ring-1, clue, secondary-node |
+| The Buried Cloister | `10_dungeons_and_ruins/THE_BURIED_CLOISTER.md` | Ashgarden Vale | 2-4 | static | Concord wayside ruin; Script + relics (M2/M3 fragment) | ring-1, ruin, clue |
+| The Pellow Grange | `10_dungeons_and_ruins/THE_PELLOW_GRANGE.md` | Ashgarden Vale | 2-4 | static | Ledger relic-quarry; social/stealth (M3) | ring-1, heist, clue |
+| The Greenward Toll-Station | `10_dungeons_and_ruins/THE_GREENWARD_TOLL_STATION.md` | Tollwood | 2-4 | static | Drowned road-node (M2/M5 fragment); cousin of the Sunken Tollhouse | ring-1, dungeon, clue |
+| The Hanging Oaks | `10_dungeons_and_ruins/THE_HANGING_OAKS.md` | Tollwood | 4-6 | static | Pre-Concord grove; Gravecaller cell; oblique M5/M6 (gated) | ring-1, clue, social |
+| The Old Mast | `10_dungeons_and_ruins/THE_OLD_MAST.md` | Tollwood | 6-10 | static | Deep-wood pre-Concord presence; gated apex; oblique M5/M6 | ring-1, gated, secondary-presence |
+| The Drowned Lamp | `10_dungeons_and_ruins/THE_DROWNED_LAMP.md` | Pale Coast | 4-6 | static | Coastal Concord node; M2/M5/M6 fragments (gated); tide-locked | ring-1, clue, secondary-node |
+| The Wreckers' Caves | `10_dungeons_and_ruins/THE_WRECKERS_CAVES.md` | Pale Coast | 3-5 | static | Tidal sea-caves; wreckers/cult; social/stealth (M3) | ring-1, heist, clue |
+| The Skerry Shrine | `10_dungeons_and_ruins/THE_SKERRY_SHRINE.md` | Pale Coast | 6-9 | static | Offshore sea-shrine; largest coastal node; gated apex (oblique M2/M5/M6) | ring-1, gated, secondary-node |
 | Drowned shrine (referenced) | `07_factions/major_factions/HOLLOW_COURT.md` | Sundering Reach | scaling | concept (full build Stage 12) | The harvest keystone / under-shrine | boss, main-arc, dm-only |
 
 ---
@@ -154,6 +184,9 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Sundering Reach encounters | `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md` | Encounter tables | 1-6 | Four solo-tuned zone tables (Roads/River, Greyfens, Heights, Basin); stat-referenced, non-combat-default | encounter, solo-safety |
 | Caradril encounters | `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md` | Encounter/social-scene tables | 3-14 | Eight district social/intrigue tables + Sunken Wards dungeon table; social-default, stat-referenced | encounter, social, solo-safety, region:caradril |
 | Act 1 recurring threats (Stage 5) | `13_encounters_and_bestiary/ACT_1_THREATS.md` | Adversary profiles | 1-4 | 5 recurring early threats (Restless/Wrathful Remembrance, Frontier Toughs, Cult Radical's Hand, Rival Salvage Crew); full stat profiles; solo-safe, noncombat outs, scaling | encounter, act:1, level:1-4, solo-safety, combat |
+| Ashgarden Vale encounters | `13_encounters_and_bestiary/ASHGARDEN_VALE_ENCOUNTERS.md` | Encounter tables | 1-6 | 3 solo-tuned sub-tables (Orchard-Country, Saint Veddow's, Marrow Cross/Downs); social/tragic-default | ring-1, encounter, solo-safety |
+| Tollwood encounters | `13_encounters_and_bestiary/TOLLWOOD_ENCOUNTERS.md` | Encounter tables | 2-7 | 3 depth-zone sub-tables (Road/Tolls, Mid-Wood, Deep Wood/Old Mast [gated]); survival-default | ring-1, encounter, solo-safety |
+| Pale Coast encounters | `13_encounters_and_bestiary/PALE_COAST_ENCOUNTERS.md` | Encounter tables | 2-7 | 3 sub-tables (Cliff-Road/Pans, Coves/Lamp, Skerries/Sea [gated]); tide/sea-default | ring-1, encounter, solo-safety |
 
 ---
 
@@ -183,6 +216,7 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 |---|---|---|---|---|
 | World Overview | `04_world_atlas/WORLD_OVERVIEW.md` | mixed | static | Top-level world description — player-safe overview + DM truth |
 | Map Description | `04_world_atlas/MAP_DESCRIPTION.md` | player-safe | static | Written map + travel table for AI DM navigation |
+| Travel Routes (Ring 1) | `04_world_atlas/TRAVEL_ROUTES_RING1.md` | mixed | static | 6 routes: Reach→each Ring 1 region; each region→Caradril; times, dangers, faction presence, events |
 
 ---
 

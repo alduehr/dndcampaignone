@@ -6,7 +6,7 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stages 1, 2, 3, 4, and 5 complete.** Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region Deep Build + Stage 4 First Major City Deep Build (Caradril) + **Stage 5 Level 1–4 Play Arc**. Stage 4 added the Caradril files (see `region:caradril`). **Stage 5 added:** `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `ACT_1_MILESTONES.md`, `ACT_1_FAILURE_STATES.md`; `09_quests/act_1_quests/` (6 faction quests); `13_encounters_and_bestiary/ACT_1_THREATS.md`; `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`; `08_npcs/ACT_1_NPC_GUIDE.md`. New tag introduced: `act:1`. All Stage 5 files registered below. No active Stage 1–5 content files remain placeholder-only; future-stage placeholder files (`_PLACEHOLDER.md` in minor_factions, npcs root, quests root, etc.) still exist by design as structural anchors for Stage 8+ work — they are not content files. Stage 6 (first full audit) is complete — foundation verified sound. **Stage 7 (Regional Expansion Ring 1) is next.**
+**Stages 1, 2, 3, 4, and 5 complete.** Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region Deep Build + Stage 4 First Major City Deep Build (Caradril) + **Stage 5 Level 1–4 Play Arc**. Stage 4 added the Caradril files (see `region:caradril`). **Stage 5 added:** `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `ACT_1_MILESTONES.md`, `ACT_1_FAILURE_STATES.md`; `09_quests/act_1_quests/` (6 faction quests); `13_encounters_and_bestiary/ACT_1_THREATS.md`; `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`; `08_npcs/ACT_1_NPC_GUIDE.md`. New tag introduced: `act:1`. All Stage 5 files registered below. No active content files remain placeholder-only; future-stage placeholder files (`_PLACEHOLDER.md`) still exist by design as structural anchors. Stage 6 (first full audit) is complete. **Stage 7 (Regional Expansion Ring 1) is complete:** the three adjacent regions (Ashgarden Vale, Tollwood, Pale Coast) added 3 region files, 8 settlements, 3 wilderness files, 9 dungeons, 3 encounter tables, 6 hooks/rumors files, 20 developed quests, 40 NPCs (in the existing NPC files), 1 minor regional faction (the Tollmen), and `04_world_atlas/TRAVEL_ROUTES_RING1.md`. New tags introduced: `ring-1`, `region:ashgarden-vale`, `region:tollwood`, `region:pale-coast`. All Stage 7 files registered below.
 
 > Caradril file membership is consolidated under **`region:caradril`** (Region Tags section) for fast retrieval; individual files also appear under their type/secrecy/status tags.
 
@@ -22,8 +22,12 @@ When an AI DM or production agent needs to find content of a certain type, searc
 
 ### type:region
 - `05_regions/SUNDERING_REACH.md`
+- `05_regions/ASHGARDEN_VALE.md` (ring-1)
+- `05_regions/TOLLWOOD.md` (ring-1)
+- `05_regions/PALE_COAST.md` (ring-1)
 - `04_world_atlas/WORLD_OVERVIEW.md`
 - `04_world_atlas/MAP_DESCRIPTION.md`
+- `04_world_atlas/TRAVEL_ROUTES_RING1.md` (ring-1 travel)
 
 ### type:settlement
 - `06_settlements/HOLLOWMERE.md`
@@ -43,12 +47,23 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `06_settlements/caradril_districts/THE_CRUCIBLE.md` (district)
 - `06_settlements/caradril_districts/THE_SILL.md` (district)
 - `06_settlements/caradril_districts/THE_SUNKEN_WARDS.md` (district/ruin)
+- `06_settlements/ORCHARDMERE.md` (ring-1, Vale hub)
+- `06_settlements/SAINT_VEDDOWS_REST.md` (ring-1, Vale)
+- `06_settlements/TILBROOK.md` (ring-1, Vale)
+- `06_settlements/HARTFELL.md` (ring-1, Tollwood hub)
+- `06_settlements/COLDHEARTH.md` (ring-1, Tollwood)
+- `06_settlements/TOLLSTONE_CROSS.md` (ring-1, Tollwood)
+- `06_settlements/WRACKMOUTH.md` (ring-1, Coast hub)
+- `06_settlements/COBBLE_STRAND.md` (ring-1, Coast)
 
 ### type:wilderness_location
 - `05_regions/wilderness/GREYFENS_SITES.md`
 - `05_regions/wilderness/SUNDER_HEIGHTS_SITES.md`
 - `05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md`
 - `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md`
+- `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` (ring-1)
+- `05_regions/wilderness/TOLLWOOD_SITES.md` (ring-1)
+- `05_regions/wilderness/PALE_COAST_SITES.md` (ring-1)
 
 ### type:npc
 - `08_npcs/MAJOR_NPCS.md`
@@ -105,6 +120,12 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `09_quests/act_1_quests/Q_ACT1_MOURNER_SALT_AND_SONG.md`
 - `09_quests/act_1_quests/Q_ACT1_GRAVECALLER_A_LAST_WORD.md`
 - `09_quests/act_1_quests/Q_ACT1_REMNANT_THE_VISITING_SCHOLAR.md`
+- `09_quests/hooks_and_rumors/ASHGARDEN_VALE_HOOKS.md`, `ASHGARDEN_VALE_RUMORS.md` (ring-1)
+- `09_quests/hooks_and_rumors/TOLLWOOD_HOOKS.md`, `TOLLWOOD_RUMORS.md` (ring-1)
+- `09_quests/hooks_and_rumors/PALE_COAST_HOOKS.md`, `PALE_COAST_RUMORS.md` (ring-1)
+- `09_quests/regional_quests/` Vale quests (ring-1): `Q_THE_FUNERAL_DONE_TWICE.md`, `Q_SAINTS_BONES.md`, `Q_THE_SEALED_DOOR.md`, `Q_THE_LOAF_THAT_MOVES.md`, `Q_THE_MARKS_ON_THE_DOORS.md`, `Q_THE_SAINT_WHO_WEEPS.md`, `Q_THE_CROWS_OF_MARROW_CROSS.md`, `Q_WHATS_UNDER_THE_ORCHARD.md`
+- `09_quests/regional_quests/` Tollwood quests (ring-1): `Q_THE_MARKED_OAKS.md`, `Q_THE_TOLL_WAR.md`, `Q_THE_DROWNED_VAULT.md`, `Q_THE_BARGAIN.md`, `Q_THE_HANGING_OAKS.md`, `Q_TO_THE_EDGE.md`, `Q_THE_RECKLESS_GUIDE.md`, `Q_THE_LOST_CREW.md`
+- `09_quests/regional_quests/` Coast quests (ring-1): `Q_THE_SALT_PRICE.md`, `Q_THE_SALT_MOTHERS_BURDEN.md`, `Q_WHAT_THE_LAMP_HOLDS.md`, `Q_THE_COVE_CAVES.md`, `Q_THE_WRECKERS.md`, `Q_THE_DROWNED_BELL.md`, `Q_THE_SKIPPERS_DEBT.md`, `Q_THE_EMPTY_HEARTH.md`
 
 ### type:mystery
 - `11_mysteries_and_secrets/MYSTERY_WEB.md`
@@ -122,16 +143,28 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `10_dungeons_and_ruins/THE_LEDGER_VAULT.md`
 - `10_dungeons_and_ruins/THE_BARROW_OF_NINE_DOORS.md`
 - `10_dungeons_and_ruins/THE_DEEP_ADIT.md`
+- `10_dungeons_and_ruins/THE_PELLOW_GRANGE.md` (ring-1, Vale)
+- `10_dungeons_and_ruins/THE_GREENWARD_TOLL_STATION.md` (ring-1, Tollwood)
+- `10_dungeons_and_ruins/THE_HANGING_OAKS.md` (ring-1, Tollwood)
+- `10_dungeons_and_ruins/THE_OLD_MAST.md` (ring-1, Tollwood; gated)
+- `10_dungeons_and_ruins/THE_DROWNED_LAMP.md` (ring-1, Coast; secondary-node)
+- `10_dungeons_and_ruins/THE_WRECKERS_CAVES.md` (ring-1, Coast)
+- `10_dungeons_and_ruins/THE_SKERRY_SHRINE.md` (ring-1, Coast; gated)
 - Drowned shrine — referenced in `07_factions/major_factions/HOLLOW_COURT.md` (full build Stage 12)
 
 ### type:ruin
 - `10_dungeons_and_ruins/THE_PEAT_CHAPEL.md`
 - `10_dungeons_and_ruins/THE_WHISPERING_CAIRN.md`
+- `10_dungeons_and_ruins/SAINT_VEDDOWS_TOMB.md` (ring-1, Vale; secondary-node)
+- `10_dungeons_and_ruins/THE_BURIED_CLOISTER.md` (ring-1, Vale)
 
 ### type:encounter
 - `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
 - `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`
 - `13_encounters_and_bestiary/ACT_1_THREATS.md` (5 recurring Act 1 adversary profiles; act:1)
+- `13_encounters_and_bestiary/ASHGARDEN_VALE_ENCOUNTERS.md` (ring-1)
+- `13_encounters_and_bestiary/TOLLWOOD_ENCOUNTERS.md` (ring-1)
+- `13_encounters_and_bestiary/PALE_COAST_ENCOUNTERS.md` (ring-1)
 
 ### type:artifact
 - Remembrance relics — referenced in `03_canon/MAGIC_RULES.md` (full build Stage 14)
@@ -620,6 +653,37 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `09_quests/hooks_and_rumors/CARADRIL_HOOKS.md`, `CARADRIL_RUMORS.md`
 - `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`
 - Cinder Ledger + Concord Remnant faction files (HQ/seat in Caradril); city-internal factions listed in `07_factions/FACTION_INDEX.md`
+
+### region:ashgarden-vale (Stage 7 — Ring 1, South)
+- `05_regions/ASHGARDEN_VALE.md`
+- `05_regions/wilderness/ASHGARDEN_VALE_SITES.md`
+- `06_settlements/ORCHARDMERE.md`, `SAINT_VEDDOWS_REST.md`, `TILBROOK.md`
+- `10_dungeons_and_ruins/SAINT_VEDDOWS_TOMB.md`, `THE_BURIED_CLOISTER.md`, `THE_PELLOW_GRANGE.md`
+- `13_encounters_and_bestiary/ASHGARDEN_VALE_ENCOUNTERS.md`
+- `09_quests/hooks_and_rumors/ASHGARDEN_VALE_HOOKS.md`, `ASHGARDEN_VALE_RUMORS.md`; 8 Vale `Q_*` quests
+- `08_npcs/SECONDARY_NPCS.md` + `MINOR_NPCS.md` (Vale sections)
+
+### region:tollwood (Stage 7 — Ring 1, East)
+- `05_regions/TOLLWOOD.md`
+- `05_regions/wilderness/TOLLWOOD_SITES.md`
+- `06_settlements/HARTFELL.md`, `COLDHEARTH.md`, `TOLLSTONE_CROSS.md`
+- `10_dungeons_and_ruins/THE_GREENWARD_TOLL_STATION.md`, `THE_HANGING_OAKS.md`, `THE_OLD_MAST.md` (gated)
+- `13_encounters_and_bestiary/TOLLWOOD_ENCOUNTERS.md`
+- `09_quests/hooks_and_rumors/TOLLWOOD_HOOKS.md`, `TOLLWOOD_RUMORS.md`; 7 Tollwood `Q_*` quests
+- `08_npcs/SECONDARY_NPCS.md` + `MINOR_NPCS.md` (Tollwood sections); the Tollmen (regional faction)
+
+### region:pale-coast (Stage 7 — Ring 1, West)
+- `05_regions/PALE_COAST.md`
+- `05_regions/wilderness/PALE_COAST_SITES.md`
+- `06_settlements/WRACKMOUTH.md`, `COBBLE_STRAND.md` (Saltmargin reused as gateway)
+- `10_dungeons_and_ruins/THE_DROWNED_LAMP.md`, `THE_WRECKERS_CAVES.md`, `THE_SKERRY_SHRINE.md` (gated)
+- `13_encounters_and_bestiary/PALE_COAST_ENCOUNTERS.md`
+- `09_quests/hooks_and_rumors/PALE_COAST_HOOKS.md`, `PALE_COAST_RUMORS.md`; 5 Coast `Q_*` quests
+- `08_npcs/SECONDARY_NPCS.md` + `MINOR_NPCS.md` (Coast sections)
+
+### ring-1 (Stage 7 — all three adjacent regions)
+- All `region:ashgarden-vale`, `region:tollwood`, `region:pale-coast` files above
+- `04_world_atlas/TRAVEL_ROUTES_RING1.md` (the 6 Ring 1 travel routes)
 
 ### region:orrun
 - `04_world_atlas/WORLD_OVERVIEW.md`

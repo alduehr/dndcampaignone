@@ -6,7 +6,9 @@ Master registry of all proper nouns used in the campaign. Check this file before
 
 ## Current Status
 
-**Stages 1–5 populated.** Core campaign proper nouns registered through Stage 4 (Caradril city: districts, city factions, city NPCs, new terms). **Stage 5 (Level 1–4 Play Arc) introduced NO new proper nouns** — it reused existing mysteries, NPCs, factions, clocks, and locations. Quest titles (e.g. "The True Rite," "A Last Word") and file names are not registered proper nouns; the Act 1 threat profiles (Restless/Wrathful Remembrance, Frontier Toughs, Rival Salvage Crew) are generic descriptors built on existing setting terms, not new named entities. Add new entries immediately when creating named content.
+**Stages 1–7 populated (Stage 7 complete, incl. completion pass).** Core campaign proper nouns registered through Stage 4 (Caradril city: districts, city factions, city NPCs, new terms). **Stage 5 (Level 1–4 Play Arc) introduced NO new proper nouns.** **Stage 7 (Regional Expansion Ring 1) added the three adjacent regions' proper nouns** — Ashgarden Vale, Tollwood, and Pale Coast settlements, landmark sites, dungeons, one minor regional faction (the Tollmen), Ring 1 NPCs, and a few setting terms; see the Stage 7 subsections below. **The Stage 7 completion pass added 4 new quests, 12 new wilderness landmark-sites (4/region), 9 new secondary + 13 new minor Ring 1 NPCs, and 6 named regional clocks (V1/V2, T1/T2, C-PC1/C-PC2 — see each region file's "Regional Clocks" and `02_runtime_state/WORLD_CLOCKS.md`).** No new central mystery, major faction, god, cosmology, or legendary artifact in the completion pass. **No new central mystery, major faction, god, cosmology, or legendary artifact was created in Stage 7;** new sites feed existing M1–M9 (mostly M2/M3/M5 fragments, gated/oblique M6) and the deep-wood/maritime "presences" are regional landmark-powers, NOT the Hollow Court or new gods. Quest titles and file names are not registered proper nouns. Add new entries immediately when creating named content.
+
+> **Stage 7 naming disambiguation:** "Pell" is a common frontier surname for several distinct minor figures (Warden Pell [Reach Ashen Warden, secondary]; Pell Oster [Saltmargin salt-warden, minor]; Factor Wymar Pell [Vale Ledger, secondary]; Ale-wife Pell [Tollstone Cross, minor]) — always keep epithet/role. "Sennet" names two distinct elders: **Mother Sennet** (Saint Veddow's shrine-keeper) and **Goodwife Sennet** (Coldhearth forest-elder) — always qualify by location. **Wren-of-the-Wood** (Coldhearth minor guide) is distinct from major NPC **Wren Hollowmere** — always use the full epithet. "Pilgrim Goodman Sael" (Saint Veddow's minor) is distinct from "Domic Sael" (Ledger major) and "Sael Brunt" (Tilbrook secondary) — given name only; keep surnames.
 
 ## Rules
 
@@ -56,6 +58,7 @@ Master registry of all proper nouns used in the campaign. Check this file before
 | The Salt Syndicate | Criminal network (Caradril) | `06_settlements/CARADRIL.md` | Smuggling + relic black market. |
 | The Hush | Criminal network (Caradril) | `06_settlements/CARADRIL.md` | Information/blackmail brokers. |
 | The Lampwrights' Collegium | Guild (Caradril scholars' guild; Remnant-linked) | `06_settlements/caradril_districts/THE_LANTERN_REACH.md` | Public face of Remnant scholarship. |
+| The Tollmen | Minor regional faction (Tollwood road-bandits) | `06_settlements/TOLLSTONE_CROSS.md` | Stage 7 — East Road toll-bandits at Tollstone Cross; turnable (Renn) vs. murderous (Skell). NOT a major faction. |
 
 ## Place Names
 
@@ -128,6 +131,72 @@ Master registry of all proper nouns used in the campaign. Check this file before
 | The Last Tally | Tavern (Counting-Quays) | Caradril | `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` |
 | The Brass Ferry | Tavern (the Sill) | Caradril | `06_settlements/caradril_districts/THE_SILL.md` |
 | The Sealgate | Landmark (sealed stair into the Sunken Wards) | Caradril | `06_settlements/caradril_districts/THE_SUNKEN_WARDS.md` |
+
+### Ashgarden Vale (Stage 7 — Ring 1, South)
+
+| Name | Type | Region | File |
+|---|---|---|---|
+| Orchardmere | Town (Vale hub) | Ashgarden Vale | `06_settlements/ORCHARDMERE.md` |
+| Saint Veddow's Rest | Town (pilgrimage shrine-town) | Ashgarden Vale | `06_settlements/SAINT_VEDDOWS_REST.md` |
+| Saint Veddow | Saint/legend (over a capped Concord shrine) | Ashgarden Vale | `06_settlements/SAINT_VEDDOWS_REST.md` |
+| Tilbrook | Village (mill village) | Ashgarden Vale | `06_settlements/TILBROOK.md` |
+| The Ammet | River (the Vale's river) | Ashgarden Vale | `05_regions/ASHGARDEN_VALE.md` |
+| Orchardmere lake | Geographic (the Vale hub's lake) | Ashgarden Vale | `06_settlements/ORCHARDMERE.md` |
+| The South Road | Travel route (Concord causeway) | Ashgarden Vale | `04_world_atlas/TRAVEL_ROUTES_RING1.md` |
+| Nettlecombe | Hamlet (orchard/field-shrine) | Ashgarden Vale | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` |
+| Marrow Cross | Hamlet (gibbet crossroads) | Ashgarden Vale | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` |
+| The Pellow Grange | Site/dungeon (Ledger relic-quarry) | Ashgarden Vale | `10_dungeons_and_ruins/THE_PELLOW_GRANGE.md` |
+| The Buried Cloister | Dungeon (Concord ruin) | Ashgarden Vale | `10_dungeons_and_ruins/THE_BURIED_CLOISTER.md` |
+| Saint Veddow's Tomb (the Inner Shrine) | Dungeon (capped Concord shrine; M2/M6) | Ashgarden Vale | `10_dungeons_and_ruins/SAINT_VEDDOWS_TOMB.md` |
+| The Old Circle | Landmark (Orchardmere grave-garden) | Ashgarden Vale | `06_settlements/ORCHARDMERE.md` |
+| The Cider Star | Inn (Orchardmere) | Ashgarden Vale | `06_settlements/ORCHARDMERE.md` |
+| The Plough & Star | Ale-house (Tilbrook) | Ashgarden Vale | `06_settlements/TILBROOK.md` |
+| The Harvest-Moot | Civic body (Vale council) | Ashgarden Vale | `06_settlements/ORCHARDMERE.md` |
+| The Cider-Wake Orchard | Landmark (Orchardmere wake-orchard; Stage 7 pass) | Ashgarden Vale | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` |
+| The Drowned Lane | Landmark (Ammet flood-road ford; Stage 7 pass) | Ashgarden Vale | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` |
+| The Beacon Tump | Landmark (downs hill-fort; pre-Concord, false-lead; Stage 7 pass) | Ashgarden Vale | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` |
+| Saint Veddow's Spring | Landmark (holy well over the Tomb works; M2/M3; Stage 7 pass) | Ashgarden Vale | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` |
+
+### Tollwood (Stage 7 — Ring 1, East)
+
+| Name | Type | Region | File |
+|---|---|---|---|
+| Hartfell | Town (Tollwood hub) | Tollwood | `06_settlements/HARTFELL.md` |
+| Coldhearth | Village (charcoal-burners; deep wood) | Tollwood | `06_settlements/COLDHEARTH.md` |
+| Tollstone Cross | Hamlet (bandit toll-station) | Tollwood | `06_settlements/TOLLSTONE_CROSS.md` |
+| The East Road | Travel route (Concord toll-causeway) | Tollwood | `04_world_atlas/TRAVEL_ROUTES_RING1.md` |
+| The Old Mast | Landmark/dungeon (deep wood; pre-Concord presence; gated) | Tollwood | `10_dungeons_and_ruins/THE_OLD_MAST.md` |
+| The Hanging Oaks | Landmark/dungeon (pre-Concord grove; Gravecaller cell) | Tollwood | `10_dungeons_and_ruins/THE_HANGING_OAKS.md` |
+| The Greenward Toll-Station (the Drowned Vault) | Dungeon (Concord road-node) | Tollwood | `10_dungeons_and_ruins/THE_GREENWARD_TOLL_STATION.md` |
+| The Green Mile | Landmark (drowned road stretch) | Tollwood | `05_regions/wilderness/TOLLWOOD_SITES.md` |
+| The Coppice Shrines | Landmark (pre-Concord offering-stones) | Tollwood | `05_regions/wilderness/TOLLWOOD_SITES.md` |
+| The Antlers | Inn (Hartfell) | Tollwood | `06_settlements/HARTFELL.md` |
+| The Mark-Stone | Landmark (Coldhearth's toll-shrine) | Tollwood | `06_settlements/COLDHEARTH.md` |
+| The Charcoal Burns | Landmark (deep-wood camp belt; Stage 7 pass) | Tollwood | `05_regions/wilderness/TOLLWOOD_SITES.md` |
+| The Withy Bog | Landmark (bog off the Green Mile; M2/M5 fragment; Stage 7 pass) | Tollwood | `05_regions/wilderness/TOLLWOOD_SITES.md` |
+| The Mast-Beasts' Range | Landmark (deep-wood predator country; Stage 7 pass) | Tollwood | `05_regions/wilderness/TOLLWOOD_SITES.md` |
+| The Sentinel Oaks | Landmark (offering-road toward the Old Mast; gated; Stage 7 pass) | Tollwood | `05_regions/wilderness/TOLLWOOD_SITES.md` |
+
+### Pale Coast (Stage 7 — Ring 1, West)
+
+| Name | Type | Region | File |
+|---|---|---|---|
+| Wrackmouth | Town (Coast hub/port) | Pale Coast | `06_settlements/WRACKMOUTH.md` |
+| Cobble Strand | Village (shingle-cove fishing village) | Pale Coast | `06_settlements/COBBLE_STRAND.md` |
+| The Drowned Lamp | Landmark/dungeon (coastal Concord node; M2/M5/M6) | Pale Coast | `10_dungeons_and_ruins/THE_DROWNED_LAMP.md` |
+| The Skerries | Landmark (offshore sea-stacks; gated) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
+| The Skerry Shrine | Dungeon (largest coastal node; gated) | Pale Coast | `10_dungeons_and_ruins/THE_SKERRY_SHRINE.md` |
+| The Wreckers' Caves | Dungeon (sea-caves; wreckers/cult) | Pale Coast | `10_dungeons_and_ruins/THE_WRECKERS_CAVES.md` |
+| The Pale Road | Travel route (coast road) | Pale Coast | `04_world_atlas/TRAVEL_ROUTES_RING1.md` |
+| The Gull & Anchor | Inn (Wrackmouth) | Pale Coast | `06_settlements/WRACKMOUTH.md` |
+| The Tide-Bell | Landmark (Wrackmouth Mourners' shrine) | Pale Coast | `06_settlements/WRACKMOUTH.md` |
+| The Wrack | District (Wrackmouth's rough lower harbor) | Pale Coast | `06_settlements/WRACKMOUTH.md` |
+| The Tide-Shrine | Landmark (Cobble Strand salt-and-tide shrine) | Pale Coast | `06_settlements/COBBLE_STRAND.md` |
+| The Verdance Mouth | Geographic (river-mouth; water-route to Caradril) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
+| The Drowned-Cairns | Landmark (tide-line burial shore; M5; Stage 7 pass) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
+| The Salt-Pan Flats | Landmark (salt-pans + workers' camp; Stage 7 pass) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
+| The Lantern Stacks | Landmark (false-light wrecking reef; Stage 7 pass) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
+| The Weeping Light | Landmark (minor headland sea-shrine node; M2/M5; Stage 7 pass) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
 
 ## NPC Names
 
@@ -212,6 +281,51 @@ Steward Maell, Crier Bosh, Doorward Sile [Magisterium]; Tally-clerk Vinn, Wharf-
 
 > Note: "Copyist Hale-of-Lampgate" (Caradril minor) is distinct from "Warden Brother Hale" (major). "Fence Greel-of-the-Ash" (Caradril Ashmarket minor) is distinct from "Hayward Tomas Greel" (Candlewick secondary). Disambiguating epithets are kept in the minor-NPC table.
 
+### Ring 1 Secondary NPCs (Stage 7) — `08_npcs/SECONDARY_NPCS.md`
+
+| Name | Role | Region/Location |
+|---|---|---|
+| Moot-Reeve Halsa Tindle | Vale governor (cover-up) | Vale/Orchardmere |
+| Mother Ezrith Combe | Eldest Vale Mourners' elder (M6) | Vale/Orchardmere |
+| Factor Wymar Pell | Ledger Vale factor (M3) | Vale/Orchardmere |
+| Warden Sister Adwen | Resident seal-keeper (M6 conditional) | Vale/Saint Veddow's |
+| Mother Sennet | Saint Veddow's shrine-keeper | Vale/Saint Veddow's |
+| Sub-Lector Oneth Vael | Remnant scholar-pilgrim | Vale/Saint Veddow's |
+| Miller Sael Brunt | Tilbrook village leader | Vale/Tilbrook |
+| Old Mam Tace | Tilbrook grave-singer (honest M5) | Vale/Tilbrook |
+| Factor Hesk Dorr | Ledger logging-driver | Tollwood/Hartfell |
+| Road-Warden Captain Brannoch Vey | Road-warden (turnable) | Tollwood/Hartfell |
+| Goodwife Edda Sorrel | Forest-custom keeper | Tollwood/Hartfell |
+| Brann the Guide | The wood's guide (solo-safety) | Tollwood/Coldhearth |
+| Goodwife Sennet | Coldhearth forest-elder (deep secret; gated) | Tollwood/Coldhearth |
+| Toll-Boss Cady Renn | Tollmen leader (turnable) | Tollwood/Tollstone Cross |
+| Skell | Tollmen lieutenant (murderous) | Tollwood/Tollstone Cross |
+| Factor Maris Cole | Ledger coastal factor (salt; M3) | Coast/Wrackmouth |
+| Harbor-Reeve Ond Falk | Harbor governor | Coast/Wrackmouth |
+| Skipper Wenna Roke | Honest skipper (water-route; solo-safety) | Coast/Wrackmouth |
+| Salt-Mother Bryd | Salt-and-tide rite-keeper (M5/M6 gated) | Coast/Cobble Strand |
+| Headman Corl Strand | Eldest fisher | Coast/Cobble Strand |
+
+### Ring 1 Secondary NPCs (Stage 7 completion pass) — `08_npcs/SECONDARY_NPCS.md`
+
+| Name | Role | Region/Location |
+|---|---|---|
+| Wreck-Master Tomas Quint | Wreckers' leader (grey; M3 chain) | Coast/wild coast |
+| Tide-Reader Mabon Crale | Tide/weather guide (solo-safety; M5 witness) | Coast/Wrackmouth–Cobble Strand |
+| Anchorite Sef | Wandering Warden ("Warden Brother Sef"; M5/M6 gated) | Coast/coast-wide |
+| Provost Anselm Verge | Resident Warden seal-keeper at the Lamp (M6 conditional) | Coast/Drowned Lamp headland |
+| Sub-Lector Maren Voll | Remnant scholar mapping coastal nodes (M2) | Coast/Wrackmouth |
+| Cutter-Captain Holm Dunnal | Ledger camp-guard captain (turnable witness) | Tollwood/Hartfell–camps |
+| Warden Brother Ošric | Wandering Tollwood Warden (M5/M6 gated) | Tollwood/wood-wide |
+| Moot-Warden Sergeant Idony Frost | Vale road-warden captain (cover-up lever) | Vale/Orchardmere |
+| Lay-Sister Petronel | Sennet's deputy; failed-rest cell (conscience-lever) | Vale/Saint Veddow's |
+
+### Ring 1 Minor NPCs (Stage 7) — `08_npcs/MINOR_NPCS.md`
+
+Goodwife Orrel, Innkeep Dab Hollith, Bell-clerk Wessa [Orchardmere]; Relic-monger Coyle Tamm, Hosteler Wenna Frey, Pilgrim Goodman Sael, Well-keeper Brother Ode [Saint Veddow's]; Ale-wife Genna Brunt, Widow Hessit, Goodman Orrick, Gibbet-keeper Sorle, Foreman Drust [Tilbrook/Vale country]; Innkeep Marrec Tull, Smith-master Holt, Cutter-foreman Vask, Widow Sefa Quist, Herbwife Onn [Hartfell]; Smith Doune, Ale-wife Pell, Toll-clerk Wenny [Tollstone Cross]; Old Gethin, Wren-of-the-Wood, Burn-boy Tam [Coldhearth]; Innkeep Sella Vane, Fence "Cuttle" Dree, Harbormaster Oll, Tally-clerk Verrin, Mate Doss [Wrackmouth]; Net-wife Senna, Young Ferec, Boatman Crae, Bell-keeper Odd, Widow Mahalf, Salt-raker Tibba [Cobble Strand].
+
+> Note: See the Stage 7 disambiguation block at the top — "Pell," "Sennet," "Wren-of-the-Wood," and "Goodman Sael" all require epithet/location qualifiers to avoid collision with existing names. Stage 7 completion-pass additions: "Anchorite Sef" / "Warden Brother Sef" is the Coast wandering Warden already named in `PALE_COAST.md`; "Warden Brother Ošric" already named in `TOLLWOOD.md`. "Widow Sefa Quist" (Hartfell) and "Anchorite Sef" (Coast) are distinct (shared name-root; keep epithet/location). "Bell-keeper Odd" (Cobble Strand) is distinct from any "Odd"-rooted term; keep role.
+
 ## God and Divine Entity Names
 
 | Name | Domain | Faith File | Notes |
@@ -245,6 +359,12 @@ Steward Maell, Crier Bosh, Doorward Sile [Magisterium]; Tally-clerk Vinn, Wharf-
 | Charter | A Caradril trade-license; basis of the Charter Houses' power and the Tidewater Council franchise | `06_settlements/CARADRIL.md` |
 | The Stilling | Caradril's term for its golden age of calm after the Quietfall; folk pride masking complacency | `06_settlements/CARADRIL.md` |
 | Quiet-coin | Black-market slang in Caradril for relics rumored to "hold" the dead (raw Remembrance relics) | `06_settlements/caradril_districts/THE_ASHMARKET.md` |
+| Saint's relics / saint's-bones | Vale folk/trade term for relics sold at Saint Veddow's that are really Remembrance relics (M3) | `06_settlements/SAINT_VEDDOWS_REST.md` |
+| The forest-rules / the bargain | Tollwood woodfolk customs (offer at the toll-shrines, never cut marked trees) that keep the Old Mast's presence asleep | `06_settlements/COLDHEARTH.md` |
+| The grey lords | Coldhearth/old-song term for whoever "took the dead before the roads fell" — an oblique pre-Concord half-memory of the harvest (gated M5/M6); NOT a new entity/god | `06_settlements/COLDHEARTH.md`, `10_dungeons_and_ruins/THE_OLD_MAST.md` |
+| The salt-and-tide rite | Pale Coast Mourners' death-rite for settling the sea's drowned dead | `06_settlements/COBBLE_STRAND.md` |
+| Sea-relics / sea-relic trade | Coast term for Remembrance relics salvaged from sea-shrines and wrecks (M3; the Ledger's coastal Monopoly arm) | `06_settlements/WRACKMOUTH.md` |
+| The drowned-tide | Coast term for the sea returning its dead worse than before (the maritime harvest leaking; M5 oblique) | `06_settlements/COBBLE_STRAND.md` |
 
 ## Forbidden / Retired Names
 

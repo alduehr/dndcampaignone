@@ -6,6 +6,47 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-10 — Stage 7: Regional Expansion Ring 1
+
+### Stage
+Stage 7 — Regional Expansion Ring 1 (complete)
+
+### Summary
+Deep-built the three regions adjacent to the Sundering Reach so the player can travel outward in multiple directions: **Ashgarden Vale** (south — gentle farmland/shrine-towns; the region of *denial*, where the rites "always held" and now quietly fail; capped Concord shrine under the Saint Veddow's pilgrimage), **Tollwood** (east — deep old-growth forest and Concord toll-roads; a gated pre-Concord landmark-power in the deep Old Mast that the Concord built its roads *around*; bandit toll-war), and **Pale Coast** (west — fishing/salt-trade; ruined Concord lighthouses that were maritime harvest-nodes; the "drowned-tide"; Saltmargin reused as the existing gateway). Each region has an *honest window* settlement (Tilbrook / Coldhearth / Cobble Strand) that confirms the failures **radiate outward from the Reach keystone** (M5 corroboration) — the intended Ring 1 takeaway. All three regions, plus the Coast's sea-route, funnel to Caradril (the mid-game hub), with a dedicated travel-routes file. Every dungeon/encounter is solo-tuned and telegraphed; the three apex sites (Old Mast, Skerry Shrine, and the deep node-levels of Saint Veddow's Tomb / the Drowned Lamp) are explicitly gated and capped to *fragments and danger*, never the apex truth. **No new central mystery, major faction, god, cosmology, or legendary artifact was created;** new sites feed existing M2/M3/M5 (gated/oblique M6), and the Hollow Court (M7) is never named in any Ring 1 content.
+
+### Files Created
+- Regions: `05_regions/ASHGARDEN_VALE.md`, `TOLLWOOD.md`, `PALE_COAST.md`
+- Settlements (8): `06_settlements/ORCHARDMERE.md`, `SAINT_VEDDOWS_REST.md`, `TILBROOK.md`, `HARTFELL.md`, `COLDHEARTH.md`, `TOLLSTONE_CROSS.md`, `WRACKMOUTH.md`, `COBBLE_STRAND.md`
+- Wilderness (3): `05_regions/wilderness/ASHGARDEN_VALE_SITES.md`, `TOLLWOOD_SITES.md`, `PALE_COAST_SITES.md`
+- Dungeons (9): `10_dungeons_and_ruins/SAINT_VEDDOWS_TOMB.md`, `THE_BURIED_CLOISTER.md`, `THE_PELLOW_GRANGE.md`, `THE_GREENWARD_TOLL_STATION.md`, `THE_HANGING_OAKS.md`, `THE_OLD_MAST.md` (gated), `THE_DROWNED_LAMP.md`, `THE_WRECKERS_CAVES.md`, `THE_SKERRY_SHRINE.md` (gated)
+- Encounters (3): `13_encounters_and_bestiary/ASHGARDEN_VALE_ENCOUNTERS.md`, `TOLLWOOD_ENCOUNTERS.md`, `PALE_COAST_ENCOUNTERS.md`
+- Hooks/Rumors (6): `09_quests/hooks_and_rumors/{ASHGARDEN_VALE,TOLLWOOD,PALE_COAST}_{HOOKS,RUMORS}.md` (66 hooks + 60 rumors)
+- Developed quests (20): 8 Vale + 7 Tollwood + 5 Coast in `09_quests/regional_quests/`
+- Travel: `04_world_atlas/TRAVEL_ROUTES_RING1.md` (6 routes)
+
+### Files Changed
+- `08_npcs/SECONDARY_NPCS.md` (+20 Ring 1 secondary NPCs + combat-reference rows + metadata), `MINOR_NPCS.md` (+20 Ring 1 minor NPCs + metadata), `NPC_INDEX.md` (Ring 1 secondary table + minor count)
+- `03_canon/CANON.md` (geography + revision-log entry), `PLAYER_SAFE_CANON.md` (Ring 1 player-safe facts)
+- `00_control/NAMING_REGISTRY.md` (Ring 1 places, NPCs, the Tollmen, terms, disambiguation notes), `CONTENT_INDEX.md`, `TAG_INDEX.md`, `RETRIEVAL_GUIDE.md`, `STAGE_STATUS.md`, `STAGE_7_PROGRESS.md`
+- `17_generation_backlog/CONTENT_GAPS.md`, `EXPANSION_PLAN.md`, `TODO.md`, `CONSISTENCY_AUDIT.md`
+
+### Canon Established
+- Ring 1 geography (3 regions, 8 settlements, sites, dungeons, travel routes) registered; 1 minor regional faction (the Tollmen); 3 regional clocks; new setting terms (saint's relics, the forest-rules/the bargain, the grey lords, the salt-and-tide rite, sea-relics, the drowned-tide).
+- DM-only: the Vale's Saint Veddow's and the Coast's lighthouses are harvest *cousin-nodes*; the Tollwood's Old Mast is a *gated pre-Concord landmark-power* (not the Court/a god) — all corroborate M2/M3/M5 obliquely from outside the Reach, never the apex.
+
+### Indexes Updated
+NAMING_REGISTRY, CONTENT_INDEX, TAG_INDEX, RETRIEVAL_GUIDE, NPC_INDEX.
+
+### Gaps Identified
+- Ring 1 has no standalone bestiary entries yet (encounter tables use stat-references; full bestiary = Stage 13).
+- Ring 1 faction-deepening (regional faction clocks formalized in `WORLD_CLOCKS.md`/`FACTION_STATE.md`) belongs to Stage 8 and live-state seeding.
+- Treasure/rewards are described inline; level-banded reward tables = Stage 14.
+
+### Next Recommended Pass
+Stage 8 (Faction Deepening): formalize the three regional clocks and the Tollmen into `WORLD_CLOCKS.md`/`FACTION_STATE.md`, and extend the major factions' Ring 1 presence (Ledger Vale/Coast arms, the Mourner folk-truth network, the Gravecaller wood/cove currents) with full clocks and quest chains.
+
+---
+
 ## 2026-06-10 — Stage 6: First Full Audit (Stages 1–5 AI-Readiness)
 
 ### Stage

@@ -4,11 +4,11 @@
 type: npc
 secrecy: mixed
 status: static
-region: Sundering Reach; Caradril
-factions: [Ashen Wardens, Cinder Ledger, Mourners' Circle, Reachward Compact, Gravecallers, Concord Remnant, Tidewater Council, Tide-Watch, Salt Syndicate, The Hush]
+region: Sundering Reach; Caradril; Ashgarden Vale; Tollwood; Pale Coast
+factions: [Ashen Wardens, Cinder Ledger, Mourners' Circle, Reachward Compact, Gravecallers, Concord Remnant, Tidewater Council, Tide-Watch, Salt Syndicate, The Hush, Tollmen]
 level_range: 1-14
 related: [MAJOR_NPCS.md, MINOR_NPCS.md, NPC_INDEX.md, ../07_factions/FACTION_INDEX.md, ../06_settlements/CARADRIL.md]
-tags: [type:npc, secrecy:mixed, secondary-npc, region:sundering-reach, region:caradril]
+tags: [type:npc, secrecy:mixed, secondary-npc, region:sundering-reach, region:caradril, region:ashgarden-vale, region:tollwood, region:pale-coast]
 ---
 
 ## AI Use
@@ -418,6 +418,311 @@ Secondary NPCs of the Sundering Reach — recurring local characters tied to set
 
 ---
 
+## Ashgarden Vale (Stage 7 — Ring 1, South)
+
+### Moot-Reeve Halsa Tindle — harvest-moot (Orchardmere)
+- **Location:** Orchardmere Moot-Hall. **Role:** Chairs the Vale's harvest-moot; speaks for the Vale.
+- **First Impression:** A brisk, anxious administrator with a fixed, reassuring smile that doesn't reach her eyes.
+- **Motivation:** Keep the Vale calm, prosperous, and proud; protect the pilgrim trade.
+- **Secret / Complication (DM):** Runs the soft cover-up — suppressing failed-rite reports, pressuring families to silence — "for everyone's good." Not malign; frightened and out of her depth. Holds the suppressed reports (M1/M5 Vale echo).
+- **Relationship Link:** At odds with Mother Combe; funded/soothed by Factor Pell; nominal Compact tie.
+- **What They Know:** Every hushed failure; who's been reburied; the Vale's true fear.
+- **How They Enter Play:** AV-H2/H5 (the cover-up); the moral fork of helping or breaking the silence.
+- **Combat Relevance:** **Noble-like**, noncombatant; commands the moot-wardens (Guard-like).
+
+### Mother Ezrith Combe — Mourners' Circle (Orchardmere)
+- **Location:** Orchardmere, the Old Circle. **Role:** Eldest Mourners' elder in the region.
+- **First Impression:** A stern, grief-worn old woman with hands stained from washing the dead and eyes that miss nothing.
+- **Motivation:** Let the dead rest truly; defend the old ways against the cover-up and the relic-fraud.
+- **Secret / Complication (DM):** Holds the fullest "the Concord ate the dead" folk-memory in the Vale (M6; Act 3 gated). Opposes Tindle's cover-up. The Vale's moral conscience; a key M6 folk-truth holder linked to Wend/Sennet/Bryd.
+- **Relationship Link:** At odds with Tindle and Pell; kin in spirit to Grandmother Wend (Reach) and Salt-Mother Bryd (Coast).
+- **What They Know:** The Vale's hushed failures; the relic-fraud's blasphemy; the old songs (gated).
+- **How They Enter Play:** AV-H1/H2/H3; the gateway to the Vale's Mourner threads and the M6 network.
+- **Combat Relevance:** **Priest-like**, noncombatant unless the dead are threatened.
+
+### Factor Wymar Pell — Cinder Ledger (Orchardmere)
+- **Location:** Orchardmere, Pell's Counting-Yard. **Role:** The Ledger's Vale factor; buys "saint's relics."
+- **First Impression:** A warm, generous, impeccably courteous man who makes ruin feel like a favor.
+- **Motivation:** Corner the Vale's relic supply for the Ledger; keep the trade calm and profitable.
+- **Secret / Complication (DM):** Forecloses farms over field-shrines to quarry Remembrance relics (M3; the Pellow Grange); funds Tindle's cover-up because panic is bad for trade. The coastal/Vale arm of Vyre's Monopoly clock.
+- **Relationship Link:** Ledger superior is Vyre; rival of Combe and Tilbrook's Brunt; mirrors Saltmargin's Marlow and the Coast's Cole.
+- **What They Know:** What the relics are; which farms sit on shrines; the Ledger's relic-chain south.
+- **How They Enter Play:** AV-H3/H12; the Pellow Grange; the M3/Monopoly thread.
+- **Combat Relevance:** **Noble-like**, noncombatant; fields hired Thug-like enforcers. (Distinct from Warden Pell and the Tollstone/Coast "Pell" surnames — common frontier name.)
+
+### Warden Sister Adwen — Ashen Wardens (Saint Veddow's Rest)
+- **Location:** Saint Veddow's Rest, the Warden House. **Role:** Resident seal-keeper of the inner tomb.
+- **First Impression:** A quiet, watchful Warden who stands a little too still by the sealed door, as if listening.
+- **Motivation:** Guard the inner tomb; aid the pilgrims; keep a vow she only half-understands.
+- **Secret / Complication (DM):** Like Othetha, holds a fragment of the Wardens' true purpose — she guards a *seal* (M6 conditional). Resists the tomb's opening on instinct she can't name. A turnable truth-source (AV-H7).
+- **Relationship Link:** Answers to the Ashen Wardens, not the town; wary of Oneth Vael; Othetha-parallel.
+- **What They Know:** That the tomb must stay sealed; a fragment of why; the Warden records.
+- **How They Enter Play:** AV-H7/H9; the Sealed Door; the Saint Veddow's Tomb climax.
+- **Combat Relevance:** **Veteran/Priest-like** (AC 17, ~58 HP); competent but guards, not hunts — prefers to talk a trespasser out.
+
+### Mother Sennet — Mourners' Circle (Saint Veddow's Rest)
+- **Location:** Saint Veddow's Rest, the Shrine Crown. **Role:** Shrine-keeper of the pilgrimage.
+- **First Impression:** A serene, beloved shrine-mother whose calm is a held breath.
+- **Motivation:** Keep the pilgrimage and its comfort alive; hide the failing rests to spare the faithful (and the trade).
+- **Secret / Complication (DM):** Knows the rests are failing and the relics are wrong; keeps a lower cell of failed-rest pilgrims (M1/M5 echo). Torn between truth and the trade. (Family-name shared with Coldhearth's Goodwife Sennet — distinct people; see naming note.)
+- **Relationship Link:** Defers to Adwen on the tomb; pressed by Oneth Vael; kin-in-faith to Combe.
+- **What They Know:** The hidden failures; the relic-trade's nature; the shrine's growing wrongness.
+- **How They Enter Play:** AV-H8/H9; "The Saint Who Weeps."
+- **Combat Relevance:** **Priest-like**, noncombatant.
+
+### Sub-Lector Oneth Vael — Concord Remnant (Saint Veddow's Rest)
+- **Location:** Saint Veddow's Rest / Orchardmere; the Vale's ruins. **Role:** Scholar-pilgrim seeking tomb access.
+- **First Impression:** A courteous, hungry-eyed scholar who talks of "preservation" and means "access."
+- **Motivation:** Get into the inner tomb and the Buried Cloister; advance the Remnant's reconstruction (and its claim on the node).
+- **Secret / Complication (DM):** Briss-linked; serves the Remnant's Reclamation interest at a Vale node (advances that clock). Idealistic dupe more than villain — but his success hands the node to the Remnant.
+- **Relationship Link:** Remnant (Briss/Quorrin's reach); rival of Adwen; works the Buried Cloister.
+- **What They Know:** Concord Script; the Vale ruins' network-shape (M2); the Remnant's aims.
+- **How They Enter Play:** AV-H6/H9/H16; the Sealed Door; the Buried Cloister.
+- **Combat Relevance:** **Mage/Sage-like**, low-combat; relies on Remnant resources.
+
+### Miller Sael Brunt — independent (Tilbrook)
+- **Location:** Tilbrook, the Mill. **Role:** Village leader; mill-master; debtor.
+- **First Impression:** A broad, weary man with flour in his beard and a foreclosure-mark fear in his eyes.
+- **Motivation:** Save the mill and his village from the Ledger; protect his people.
+- **Secret / Complication (DM):** Crushed between the Ledger's debt and the moot's indifference; one bad season from ruin. A sympathetic lever against Pell (AV-H12).
+- **Relationship Link:** Owes Pell; resents Orchardmere; respects Mam Tace.
+- **What They Know:** Pell's foreclosure pattern (shrine-land); the village's plain truth about the failing rites.
+- **How They Enter Play:** AV-H12; "The Marks on the Doors."
+- **Combat Relevance:** **Commoner/Guard-like**, will fight for his village if cornered.
+
+### Old Mam Tace — Mourners' Circle (Tilbrook)
+- **Location:** Tilbrook, the grave-field. **Role:** Grave-singer; the village's spiritual voice.
+- **First Impression:** A tiny, sharp old woman who sings the dead down and says exactly what she thinks.
+- **Motivation:** Settle the village's dead; tell the honest truth the Vale denies.
+- **Secret / Complication (DM):** Freely gives the honest M1/M5 read Orchardmere hides ("it started up north and it's coming to us"). A warm folk-mentor and the Vale's honest window. Linked to Combe and the M6 network.
+- **Relationship Link:** Trusts Brunt; kin-in-faith to Combe/Wend/Bryd.
+- **What They Know:** The Vale's failing rites, plainly; the grave-drift toward water (M5).
+- **How They Enter Play:** AV-H11; "The Loaf That Moves"; the gentle M5 on-ramp.
+- **Combat Relevance:** **Commoner/Priest-like**, noncombatant.
+
+---
+
+## Tollwood (Stage 7 — Ring 1, East)
+
+### Factor Hesk Dorr — Cinder Ledger (Hartfell)
+- **Location:** Hartfell, the Timber-Weigh. **Role:** Drives the Ledger's logging and road-trade.
+- **First Impression:** A bluff, back-slapping timber-man who laughs off every warning.
+- **Motivation:** Cut more timber, ship more charcoal, make more coin; the deep wood is just trees.
+- **Secret / Complication (DM):** Drives the deep-cutting toward the Old Mast and suppresses the woodfolk's warnings — *commercial denial, not conspiracy* (a Reke-light figure; greedy, not a Court agent). His cutting is the regional clock's engine.
+- **Relationship Link:** Ledger superior is Vyre; uneasy partner of Captain Vey; scorned by the woodfolk.
+- **What They Know:** The logging's profit; the vanishing crews he explains away; the road-trade to Caradril.
+- **How They Enter Play:** TW-H1; "The Marked Oaks"; the master Tollwood quest.
+- **Combat Relevance:** **Noble/Commoner-like**, noncombatant; fields Thug/Scout-like loggers.
+
+### Road-Warden Captain Brannoch Vey — Reachward Compact (Hartfell)
+- **Location:** Hartfell, the Stockade. **Role:** Keeps the East Road and the barred east gate.
+- **First Impression:** A grizzled, careful captain who watches the treeline more than the road.
+- **Motivation:** Keep the road and town safe; survive the wood.
+- **Secret / Complication (DM):** Privately keeps the forest-rules he publicly enforces against; heeds the wood more than he admits. A turnable Compact ally against Dorr (TW-H8).
+- **Relationship Link:** Uneasy partner of Dorr; respects the woodfolk and Brann; thin watch under him.
+- **What They Know:** The wood's rules; the toll-war; the deep-cutting's danger.
+- **How They Enter Play:** TW-H1/H2/H8; the Marked Oaks, the Toll-War, Vey's Doubt.
+- **Combat Relevance:** **Veteran-like** (AC 17, ~58 HP); the toughest lawful fighter in the Tollwood.
+
+### Goodwife Edda Sorrel — Mourners' Circle (Hartfell)
+- **Location:** Hartfell, the Coppice Shrine. **Role:** Forest-custom keeper in the road-town.
+- **First Impression:** A weathered woman who tends the offering-stone and watches strangers for respect.
+- **Motivation:** Keep the forest-customs alive even in the trade-town; warn outsiders of the wood's rules.
+- **Secret / Complication (DM):** The town's link to Coldhearth and the deep old ways; carries the lighter Hartfell version of the wood's bargain. Part of the Mourner folk-truth network.
+- **Relationship Link:** Kin-in-faith to Goodwife Sennet (Coldhearth); wary of Dorr; trusts Brann.
+- **What They Know:** The forest-rules; the deep-cutting's danger; the way to Coldhearth.
+- **How They Enter Play:** TW-H1/H20; the wood's rules; the Mourner network.
+- **Combat Relevance:** **Priest/Commoner-like**, noncombatant.
+
+### Brann the Guide — independent (Coldhearth/Hartfell)
+- **Location:** Hartfell (the Antlers) and Coldhearth. **Role:** The wood's best guide for outsiders.
+- **First Impression:** A lean, quiet woodsman who names a fair price and means every word about the rules.
+- **Motivation:** Keep his charges (and himself) alive in the wood; honor the bargain.
+- **Secret / Complication (DM):** Won't guide for Dorr anymore ("the wood's gone wrong out east"). The Tollwood's Sashe-equivalent — the key solo-safety guide; brings the player to the Old Mast edge and no further.
+- **Relationship Link:** Coldhearth woodsman; trusts Sennet/Sorrel; refuses the Ledger.
+- **What They Know:** The deep wood's safe paths and rules; how far is too far; the Old Mast's dread.
+- **How They Enter Play:** TW-H3/H7; the guide on-ramp; the Old Mast approach.
+- **Combat Relevance:** **Scout/Druid-lite** (AC 14, ~30 HP); avoids fights, lives by woodcraft.
+
+### Goodwife Sennet — Mourners' Circle forest-elder (Coldhearth)
+- **Location:** Coldhearth, the Elder's Hut. **Role:** Forest-elder; keeper of the deep secret and the old bargain.
+- **First Impression:** A still, ancient woman whose silences carry more than most people's words.
+- **Motivation:** Keep the Old Mast's presence asleep and the bargain intact; protect her people and the wood.
+- **Secret / Complication (DM):** Holds the deep secret (the pre-Concord presence; gated) and the old songs with their oblique M5/M6 witness ("the grey lords took the dead before the roads fell"). The Tollwood's wisest voice. (Distinct from Saint Veddow's Mother Sennet — shared family-name; see naming note.)
+- **Relationship Link:** Leads the woodfolk; wary of the sheltered Gravecallers; kin-in-faith to Combe/Bryd/Wend.
+- **What They Know:** The wood's deep history; the bargain; the way the cutting and the cult endanger it.
+- **How They Enter Play:** TW-H10/H12/H15; "The Bargain"; the gated M5/M6 fragment.
+- **Combat Relevance:** **Druid/Priest-like**, noncombatant; her power is knowledge and the wood's regard.
+
+### Toll-Boss Cady Renn — the Tollmen (Tollstone Cross)
+- **Location:** Tollstone Cross, the Chain & Gate. **Role:** Leader of the East Road bandits.
+- **First Impression:** A hard-eyed woman in a road-watch's old coat who names a toll like a fair price.
+- **Motivation:** Keep her people fed and the road in *some* order; survive Skell.
+- **Secret / Complication (DM):** A deserter from a Compact road-watch the Compact abandoned; runs the toll as a real protection racket and keeps worse dangers off the road. Turnable to honest work (TW-H2/H4); a grey ally, not a simple villain.
+- **Relationship Link:** Losing her grip to Skell; ex-Compact; resented and needed by the road-folk.
+- **What They Know:** The road's true dangers; the Drowned Vault's secret; the toll-war's stakes.
+- **How They Enter Play:** TW-H2/H4; the Toll-War.
+- **Combat Relevance:** **Veteran/Spy-like** (AC 15, ~45 HP); prefers the toll to blood; dangerous if forced.
+
+### Skell — the Tollmen (Tollstone Cross)
+- **Location:** Tollstone Cross, the Broken Arch. **Role:** Renn's lieutenant; the murderous faction.
+- **First Impression:** A grinning, restless man who fingers his knife when anyone mentions mercy.
+- **Motivation:** Take over the Tollmen; turn the toll into outright robbery and murder.
+- **Secret / Complication (DM):** Plotting to oust Renn; the road's real threat. If he wins, the Tollmen turn road-pirate and choke the Caradril route. The lethal edge of the toll-war.
+- **Relationship Link:** Undermines Renn; commands the worst of the gang.
+- **What They Know:** The gang's weak points; Renn's fraying grip; the plunder routes.
+- **How They Enter Play:** TW-H2/H4; "Renn or Skell."
+- **Combat Relevance:** **Thug/Berserker-like** (AC 13, ~40 HP); fights to win; no morale-mercy.
+
+### Skipper-equivalent note
+*(The Tollwood's honest-guide role is Brann, above. Wren-of-the-Wood and Old Gethin are minor NPCs — see `MINOR_NPCS.md`.)*
+
+---
+
+## Pale Coast (Stage 7 — Ring 1, West)
+
+### Factor Maris Cole — Cinder Ledger (Wrackmouth)
+- **Location:** Wrackmouth, the Weigh-House. **Role:** The Ledger's coastal factor; sets the salt-price.
+- **First Impression:** A smooth, generous man who makes the salt-gouge sound like a kindness.
+- **Motivation:** Control the frontier's salt-price and corner the sea-relic trade for the Ledger.
+- **Secret / Complication (DM):** Runs the salt-gouge *and* the sea-relic trade (M3; salvaged off the Lamp and wrecks), feeding Vyre's Monopoly clock. The upstream heart of the salt thread the player may know from Saltmargin. Keeps a damning salvage-ledger.
+- **Relationship Link:** Ledger superior is Vyre; mirrors Saltmargin's Marlow and the Vale's Pell; uses the wreckers.
+- **What They Know:** The salt-trade; the sea-relics' nature and chain south; the Drowned Lamp's salvage.
+- **How They Enter Play:** PC-H1/H5/H6; "The Salt-Price"; the M3/Monopoly thread.
+- **Combat Relevance:** **Noble/Spy-like**, noncombatant; fields Thug/Bandit-like salt-toughs and wreckers.
+
+### Harbor-Reeve Ond Falk — Reachward Compact-adjacent (Wrackmouth)
+- **Location:** Wrackmouth, the Moot-Stair. **Role:** Chairs the harbor-moot; speaks for the Coast.
+- **First Impression:** A weathered ex-skipper who reads weather and people the same shrewd way.
+- **Motivation:** Keep the harbor running and the Coast's fear in check; manage the drowned-tide.
+- **Secret / Complication (DM):** Half-knows the drowned-tide is worsening and manages the fear rather than facing it (a coastal echo of the Vale's and Caradril's denial). Not corrupt — pragmatic and overwhelmed.
+- **Relationship Link:** Outmatched by Cole's salt-power; respects Bryd; thin watch under him.
+- **What They Know:** The drowned-tide's true scale; the moot's debates; the wreckers' reach.
+- **How They Enter Play:** PC-H1/H6; the moot; the salt and wrecker quests.
+- **Combat Relevance:** **Commoner/Veteran-like**, can fight (ex-skipper) but governs, not brawls.
+
+### Skipper Wenna Roke — independent (Wrackmouth)
+- **Location:** Wrackmouth harbor / the coast. **Role:** Honest boat-skipper; the player's lift and guide.
+- **First Impression:** A blunt, sun-creased woman who trusts the tide more than any person.
+- **Motivation:** Keep her boat out from under the Ledger and the wreckers; make an honest living.
+- **Secret / Complication (DM):** The player's best lift to Caradril (the water-route) and guide to the coves/Skerries; squeezed by Cole and the wreckers (PC-H19). The Coast's solo-safety skipper.
+- **Relationship Link:** Resents Cole; wary of the wreckers; a recurring honest ally.
+- **What They Know:** The tides, the coves, the safe and unsafe waters; the way to Caradril by sea.
+- **How They Enter Play:** PC-H2/H19; "Passage to the City"; the coast/Skerry crossings.
+- **Combat Relevance:** **Scout/Commoner-like** (AC 14, ~22 HP); avoids fights; lives by seamanship.
+
+### Salt-Mother Bryd — Mourners' Circle (Cobble Strand)
+- **Location:** Cobble Strand, the Tide-Shrine. **Role:** Keeper of the salt-and-tide death-rites.
+- **First Impression:** A gaunt, grave woman with salt-cracked hands who looks like she hasn't slept since the tide turned.
+- **Motivation:** Settle the sea's drowned; keep the strand at peace as the drowned-tide rises.
+- **Secret / Complication (DM):** Holds the fullest coastal old songs — "the Lamps kept the drowned for the Concord" (M5/M6 oblique; gated). The Coast's honest M5/M2 window and moral conscience; teaches the salt-and-tide rite. Part of the Mourner folk-truth network. (Mother-of-the-rites parallel to Wend/Combe/Sennet.)
+- **Relationship Link:** Kin-in-faith to Wend/Combe/Sennet; defers to Headman Strand on worldly matters; hates the wreckers.
+- **What They Know:** The salt-and-tide rite; the drowned's homing toward the Lamp (M5); the old songs (gated).
+- **How They Enter Play:** PC-H8/H9/H11; "The Salt-Mother's Burden"; the Lamp and the M6 network.
+- **Combat Relevance:** **Priest-like**, noncombatant; her power is the rite.
+
+### Headman Corl Strand — independent (Cobble Strand)
+- **Location:** Cobble Strand, the Boat-Hall. **Role:** Eldest fisher; the village's worldly voice.
+- **First Impression:** A leathery old fisher who's buried more kin to the sea than he can count.
+- **Motivation:** Keep the village fed and afloat; defer to Bryd on the dead.
+- **Secret / Complication (DM):** Weary of the salt-price and the drowned-tide; speaks plainly to Wrackmouth's moot. A sympathetic lever and the village's worldly authority.
+- **Relationship Link:** Defers to Bryd; speaks to Falk's moot; protective of the village.
+- **What They Know:** The village's hardships; the salt-gouge's bite; the wreckers' use of the coves.
+- **How They Enter Play:** PC-H8/H10/H13; the village's worldly affairs.
+- **Combat Relevance:** **Commoner/Veteran-like**, can fight for his people; noncombatant by choice.
+
+### Wreck-Master Tomas Quint — the wreckers (the wild coast)
+- **Location:** The wreckers' strand, the cove caves, the Lantern Stacks. **Role:** Leader of the coast's wrecking trade.
+- **First Impression:** A big, soft-spoken man with a drowned-saint's medal at his throat who talks of "the sea's bounty" and means stolen dead men's coin.
+- **Motivation:** Keep his desperate people fed off salvage; stay one cut ahead of the moot and the Ledger both.
+- **Secret / Complication (DM):** Feeds Cole's sea-relic chain (M3) and breaks the salt-rites — but half his crew are salt-pan folk the gouge ruined, and he'd quit for honest work if the salt-price let him eat. The grey heart of "The Wreckers": villain and victim. Knows the false-lights run out to the Skerries (gated).
+- **Relationship Link:** Sells salvage to Cole/Dree; hated by Bryd and the moot; commands the wreckers and the Skerries' worst secrets.
+- **What They Know:** The wrecking method and chain; the Skerries' use; which of his people are merely desperate.
+- **How They Enter Play:** PC-H6 "The Wreckers"; PC-H10 "The Cove Caves"; the Lantern Stacks.
+- **Combat Relevance:** **Veteran/Spy-like** (AC 15, ~45 HP); dangerous, but morale-driven and turnable if the gouge that drove his people is broken.
+
+### Tide-Reader Mabon Crale — independent (Wrackmouth/Cobble Strand)
+- **Location:** The cliff-road, the coves, the salt-pans (itinerant tide-wise man). **Role:** The Coast's tide- and weather-reader; the second honest guide after Roke.
+- **First Impression:** A wiry old man with a driftwood staff who reads the sky and the water like other people read faces, and trusts neither Ledger nor wreckers.
+- **Motivation:** Keep travelers and fishers off the killing tides; pass the old sea-craft to anyone who'll honor it.
+- **Secret / Complication (DM):** Has watched the tide turn *wrong* for two seasons — the drowned "coming home" toward the lights faster every moon (oblique M5) — and quietly steers folk away from the Lamp and the Skerries. A solo-safety guide (land-and-shore counterpart to Roke's boat) and a sober M5 witness.
+- **Relationship Link:** Trusts Roke and Bryd; despises Cole and the wreckers; teaches the cliff-road and the safe tides.
+- **What They Know:** The tides, the safe shores, the storm-signs; where the drowned now gather; which coves the wreckers use.
+- **How They Enter Play:** PC-H20 "Learn the Tide"; PC-H8/H18; the cliff-road and coves' safety on-ramp.
+- **Combat Relevance:** **Commoner/Scout-like** (AC 13, ~18 HP); avoids all fights; his value is knowledge and the tide-tables.
+
+### Anchorite Sef — Ashen Wardens (wandering, the Pale Coast)
+- **Location:** The coast's drowned-cairns, sea-shrines, and wreck-shores (itinerant). **Role:** The Coast's lone wandering Warden (the "Warden Brother Sef" of the region file).
+- **First Impression:** A salt-stained Warden who walks the tide-line laying the drowned, losing ground a little more each storm.
+- **Motivation:** Settle the sea's endless drowned; hold his oath as the tide rises past him.
+- **Secret / Complication (DM):** Like the Reach's Wardens, he half-knows his order's true burden and is breaking under the drowned-tide (the Wardens-Break clock, made maritime); the *oldest* drowned at the Lamp resist his rites in a way that frightens him (oblique M5/M6, gated). Honest, overworked, a rite-ally and worried witness.
+- **Relationship Link:** Othetha/Verge-aligned; defers to Bryd's salt-lore; can't keep pace with the cult and the tide.
+- **What They Know:** Which drowned won't lie down; the cult's coastal reach; the rites that work and don't on the sea's dead.
+- **How They Enter Play:** PC-H4/H7/H21; the cairns and sea-shrines; a rite-ally.
+- **Combat Relevance:** **Priest/Veteran-like** (AC 16, ~45 HP); strong vs. ordinary drowned, struggles with the Lamp's oldest.
+
+### Provost Anselm Verge — Ashen Wardens (the Drowned Lamp headland)
+- **Location:** A Warden cell above Cobble Strand, near the Drowned Lamp. **Role:** The Coast's resident seal-keeper, paralleling Othetha and Adwen.
+- **First Impression:** A grey, sleepless Warden who keeps the Lamp's headland and flinches when the broken light gleams.
+- **Motivation:** Keep the Drowned Lamp "quiet" and the drowned settled; hold a vow he only half-understands.
+- **Secret / Complication (DM):** Like Othetha and Adwen, holds a fragment of the Wardens' true purpose — he tends a *seal* on a warming node (M6 conditional, gated). The drowned-tide is breaking him; a turnable truth-source about the Lamp short of the apex.
+- **Relationship Link:** Othetha/Adwen-parallel; wary of the Remnant's interest in the Lamp; respects Bryd's rites.
+- **What They Know:** That the Lamp must stay quiet; a fragment of why; the Warden coastal records.
+- **How They Enter Play:** PC-H3/H7/H9; "What the Lamp Holds"; the Drowned Lamp climax.
+- **Combat Relevance:** **Veteran/Priest-like** (AC 17, ~52 HP); competent vs. the drowned; guards, not hunts.
+
+### Sub-Lector Maren Voll — Concord Remnant (Wrackmouth)
+- **Location:** Wrackmouth; the headland sea-shrines and the Drowned Lamp. **Role:** Scholar-pilgrim mapping the coastal lights.
+- **First Impression:** A wind-burned, eager scholar who calls the ruined lights "the most important things on this whole coast" and means it.
+- **Motivation:** Prove the lighthouses and sea-shrines are a Concord network; get into the Drowned Lamp; advance the Remnant's reconstruction.
+- **Secret / Complication (DM):** Oneth Vael's coastal counterpart and Briss-linked; serves the Remnant's Reclamation interest at the coastal nodes (advances that clock). An idealist whose success hands the Lamp to the Remnant. The Coast's M2-bearer.
+- **Relationship Link:** Remnant (Briss/Quorrin's reach); wary of Provost Verge; courts Falk's moot for access.
+- **What They Know:** Concord Script; the coastal nodes' network-shape (M2); the Remnant's coastal aims.
+- **How They Enter Play:** PC-H14 "The Lights on the Headland"; PC-H3 "What the Lamp Holds"; the Weeping Light.
+- **Combat Relevance:** **Mage/Sage-like**, low-combat; relies on Remnant coin and Ledger backing.
+
+### Cutter-Captain Holm Dunnal — Reachward Compact (Hartfell)
+- **Location:** Hartfell, the east gate; the woodcutter camps. **Role:** Captains the Ledger's hired camp-guard and the deep-cut escorts.
+- **First Impression:** A scarred, plain-spoken sergeant-type who'd rather guard a grain-cart than march another crew into the deep wood.
+- **Motivation:** Bring his men home; collect Dorr's wages; not die for timber.
+- **Secret / Complication (DM):** Caught between Dorr's quotas and the wood's real danger; has lost men he can't explain and is one bad cut from refusing orders. A turnable witness to the deep-cutting's toll — Vask's harder, armed counterpart. Not a Court figure; a frightened professional.
+- **Relationship Link:** Paid by Dorr (Ledger); uneasy with Captain Vey's road-watch; respects Brann's warnings privately.
+- **What They Know:** Which cuts cost men; where the dead drift; the camps' true mood.
+- **How They Enter Play:** TW-H1/H19; "The Marked Oaks," "The Lost Crew"; the camps.
+- **Combat Relevance:** **Veteran-like** (AC 16, ~52 HP); a real fighter who'd rather not; breaks orders before he breaks faith with his men.
+
+### Warden Brother Ošric — Ashen Wardens (wandering, the Tollwood)
+- **Location:** The Tollwood's roads, camps, and Coppice Shrines (itinerant). **Role:** The wood's lone wandering Warden.
+- **First Impression:** A gaunt, foot-sore Warden who walks the wood alone, laying what dead he can and failing more than he settles.
+- **Motivation:** Settle the wood's restless dead; understand why his rites fail on the oldest of them.
+- **Secret / Complication (DM):** The forest dead are *older than the harvest* and resist his Concord-era rites — a quiet anomaly that, pressed, hints the wood holds something predating the Concord (oblique M5/M6, gated). Overworked, half-broken, honest; the Wardens-Break clock made personal in the wood.
+- **Relationship Link:** Respected by the woodfolk and Brann; can't keep pace with the cult's spread; Othetha-aligned.
+- **What They Know:** Which dead won't lie down and why he fears it; the cult's deep-wood reach; the rites that work and don't.
+- **How They Enter Play:** TW-H6/H17; the mid-wood; a rite-ally and a worried witness.
+- **Combat Relevance:** **Priest/Veteran-like** (AC 16, ~45 HP); strong vs. ordinary dead, struggles with the wood's oldest.
+
+### Moot-Warden Sergeant Idony Frost — harvest-moot (Orchardmere)
+- **Location:** Orchardmere and the Vale roads. **Role:** Captains the harvest-moot's road-wardens; the Vale's nearest thing to law.
+- **First Impression:** A correct, tight-jawed officer who enforces the Reeve's quiet with visible distaste.
+- **Motivation:** Keep the Vale's roads safe and its peace; do her duty even when the duty is a cover-up.
+- **Secret / Complication (DM):** Knows she's been ordered to move bodies, hush families, and turn grave-robbers over to Marrow Cross's gibbet — and it's eating her. A turnable lever inside Tindle's cover-up (AV-H2); honest law trapped serving a lie.
+- **Relationship Link:** Serves Moot-Reeve Tindle (reluctantly); respects Mother Combe; commands the moot-wardens.
+- **What They Know:** Every order to hush a failure; who was hanged for grave-robbing; the cover-up's mechanics.
+- **How They Enter Play:** AV-H2/H17; the cover-up; the Crows of Marrow Cross.
+- **Combat Relevance:** **Veteran-like** (AC 16, ~45 HP); the Vale's toughest lawful fighter; reluctant to draw on the desperate.
+
+### Lay-Sister Petronel — Mourners' Circle (Saint Veddow's Rest)
+- **Location:** Saint Veddow's Rest, the lower shrine and the pilgrim-graves. **Role:** Mother Sennet's young deputy; tends the failed-rest pilgrims in secret.
+- **First Impression:** A pale, kind young Mourner whose calm cracks when she thinks no one's watching.
+- **Motivation:** Care for the pilgrims who "rested wrong"; do right by the dead though her elders hush it.
+- **Secret / Complication (DM):** Keeps the lower cell of failed-rest pilgrims Sennet hides (M1/M5 echo) and is sick with the lie; the likeliest person at the shrine to *break* and tell the player the truth. A conscience-lever inside the Vale's cover-up.
+- **Relationship Link:** Defers to (and is troubled by) Mother Sennet; trusts Warden Adwen; would-be ally to an honest player.
+- **What They Know:** The hidden failed-rest pilgrims; the shrine's growing wrongness; the relic-fraud's victims.
+- **How They Enter Play:** AV-H8/H9; "The Saint Who Weeps"; a crack in the shrine's silence.
+- **Combat Relevance:** **Acolyte/Commoner-like**, noncombatant.
+
+---
+
 ## Combat Relevance Reference
 
 | NPC | Profile | Solo Danger |
@@ -458,6 +763,26 @@ Secondary NPCs of the Sundering Reach — recurring local characters tied to set
 | Renna Sill | Commoner | none |
 | Old Pater Dunk | Scout | low (guides) |
 | Custodian Orre | Tier 4 (DM) | endgame |
+| Halsa Tindle | Noble | none |
+| Ezrith Combe | Priest | none-low (vs. dead) |
+| Wymar Pell | Noble | none (fields Thugs) |
+| Adwen | Veteran/Priest | moderate (guards, not hunts) |
+| Sennet (Saint Veddow's) | Priest | none |
+| Oneth Vael | Mage/Sage | low |
+| Sael Brunt | Commoner/Guard | low (cornered) |
+| Mam Tace | Commoner/Priest | none |
+| Hesk Dorr | Noble/Commoner | none (fields Thugs) |
+| Brannoch Vey | Veteran | moderate (lawful) |
+| Edda Sorrel | Priest/Commoner | none |
+| Brann the Guide | Scout/Druid-lite | low (avoids fights) |
+| Goodwife Sennet (Coldhearth) | Druid/Priest | none |
+| Cady Renn | Veteran/Spy | moderate (turnable) |
+| Skell | Thug/Berserker | high (no morale-mercy) |
+| Maris Cole | Noble/Spy | none (fields Thugs/wreckers) |
+| Ond Falk | Commoner/Veteran | low |
+| Wenna Roke | Scout/Commoner | low (avoids fights) |
+| Salt-Mother Bryd | Priest | none |
+| Corl Strand | Commoner/Veteran | low (cornered) |
 
 ## Related Files
 

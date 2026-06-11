@@ -12,7 +12,7 @@ All world facts that are safe to share with or in the presence of the player. Th
 
 ## Current Status
 
-**Stages 1–5 complete.** Baseline player-safe canon established in Stage 1; Stages 3–5 added region facts, city facts, and Act 1 world-start context. The "Discovered During Play" section starts empty and grows as the campaign runs.
+**Stages 1–5 and 7 complete.** Baseline player-safe canon established in Stage 1; Stages 3–5 added region/city/Act 1 facts; **Stage 7 added player-safe facts about the three Ring 1 regions** (Ashgarden Vale, Tollwood, Pale Coast) — see "Known Facts About the Ring 1 Regions." The "Discovered During Play" section starts empty and grows as the campaign runs.
 
 ---
 
@@ -68,6 +68,14 @@ Known landmarks: the **Concord roads** (raised causeways) and their **Star-Stone
 - **Tollwood** — deep forest and old toll-roads to the east.
 - **Pale Coast** — fishing and salt-trade to the west.
 - **Caradril** — the nearest true city, an inland city-state to the southeast (~10–12 days from Hollowmere).
+
+## Known Facts About the Ring 1 Regions (Player-Safe)
+
+A traveler leaving the Reach can go three ways — south (the Vale), east (the Tollwood), or west (the Coast) — and all three roads, plus the Coast's sea-route, eventually reach Caradril.
+
+- **Ashgarden Vale (south, via Candlewick & the South Road, ~5–6 days to its hub):** Orrun's nearest breadbasket — gentle hills, cider-orchards, and tidy, devout **shrine-towns** that kept the death-rites the old way and were proud the rites "always held in the Vale." Its hub is the orchard-and-cider town of **Orchardmere** (on Orchardmere lake), governed by a **harvest-moot**; its great pilgrimage is the hill-shrine of **Saint Veddow's Rest**, the oldest standing Threshold shrine in the region. The working mill-village of **Tilbrook** sits between. The Vale is the safest, mellowest neighbor — and lately, quietly frightened, because the rites are starting to fail here too.
+- **Tollwood (east, via Kettle Bridge & the East Road, ~4–5 days to its hub):** a vast, ancient old-growth forest threaded by overgrown Concord **toll-roads**. People live in clearings — woodcutters and charcoal-burners — and keep to the roads; the deep wood is feared, and folk keep old forest-customs (offering at the crossing-stones, never cutting marked trees). Its hub is the stockaded road-town of **Hartfell**; the deep charcoal-village of **Coldhearth** keeps the oldest ways; the road-hamlet of **Tollstone Cross** sits at a bandit-run toll. Toll-bandits, real predators, and getting lost in the deep wood are the dangers.
+- **Pale Coast (west, via Saltmargin & the Pale Road, ~7–8 days to its hub):** a storm-battered, independent coast of fishing villages, salt-pans, sea-cliffs, and ruined Concord **lighthouses and sea-shrines**. The Coast supplies the frontier's rite-salt and lives close to the sea's drowned dead, which it settles with its own salt-and-tide rites. Its hub is the cliff-harbor town of **Wrackmouth** (the main port; a ship can sail from here down the coast and up the Verdance to Caradril — often the fastest route); the shingle-cove village of **Cobble Strand** sits under the famous ruined lighthouse the locals call the **Drowned Lamp**. Storms, tides, cliffs, and wreckers are the dangers — and, lately, a "drowned-tide" of the dead the rites can barely keep pace with.
 
 ## Known Facts About Caradril (Player-Safe)
 
