@@ -12,7 +12,7 @@ All world facts that are safe to share with or in the presence of the player. Th
 
 ## Current Status
 
-**Stages 1–5 and 7 complete.** Baseline player-safe canon established in Stage 1; Stages 3–5 added region/city/Act 1 facts; **Stage 7 added player-safe facts about the three Ring 1 regions** (Ashgarden Vale, Tollwood, Pale Coast) — see "Known Facts About the Ring 1 Regions." The "Discovered During Play" section starts empty and grows as the campaign runs.
+**Stages 1–5 and 7 complete; Full-World Cartographic Expansion pass added wider-continent player-safe geography.** Baseline player-safe canon established in Stage 1; Stages 3–5 added region/city/Act 1 facts; **Stage 7 added player-safe facts about the three Ring 1 regions** (Ashgarden Vale, Tollwood, Pale Coast) — see "Known Facts About the Ring 1 Regions." The **Full-World pass added "The Wider Continent of Orrun"** — the broad shape of the rest of the continent a well-traveled person has heard of (far-future content; not required for early play). The "Discovered During Play" section starts empty and grows as the campaign runs.
 
 ---
 
@@ -68,6 +68,34 @@ Known landmarks: the **Concord roads** (raised causeways) and their **Star-Stone
 - **Tollwood** — deep forest and old toll-roads to the east.
 - **Pale Coast** — fishing and salt-trade to the west.
 - **Caradril** — the nearest true city, an inland city-state to the southeast (~10–12 days from Hollowmere).
+
+## Known Geography (Player-Safe Map Facts)
+
+The shape of the land a well-traveled frontier person would know (orientation: north toward the cold heights, west toward the sea):
+
+- The campaign's known world is the **northwestern corner of Orrun** — a cold, wet shelf of land between mountains and sea, roughly a dozen days' travel corner to corner.
+- **Hollowmere and the Sundering Reach sit at the center**, in a low fen basin; the land tilts and drains toward the dark flooded **Hollowmere basin**.
+- **North:** the broken highlands of the **Sunder Heights** rise toward a far mountain wall on the horizon, the **Highmark Spine** — the cold edge of the known land.
+- **West:** the **Pale Coast** and the open **Pale Sea**; offshore lie the dangerous rocks called the **Skerries**.
+- **East:** the deep **Tollwood**.
+- **South:** the gentle **Ashgarden Vale**, then open sheep-downs.
+- **Southeast:** the city-state **Caradril**, on the **Verdance** river and the **Stillwater** harbor-lake; beyond it the river runs on into the richer, older interior of Orrun (most frontier folk never go that far).
+- **Rivers:** the **Mirewend** (the Reach), the **Ammet** (the Vale), and the great **Verdance** (down to Caradril and the sea).
+- The old **Concord roads** (raised stone causeways) and the Coast's sea-route are the safe ways to travel; all of them eventually lead to Caradril.
+
+## The Wider Continent of Orrun (Player-Safe — What a Well-Traveled Person Has Heard)
+
+The campaign frontier is only the **cold northwestern corner** of Orrun. A merchant, sailor, or scholar knows the broad shape of the rest, even if frontier folk rarely go there. (Detail is for far-future play; this is the "what's out there" a traveler could repeat.)
+
+- **Orrun is a large continent** — months of road end to end. It **tilts from the cold, broken, ruin-strewn northwest** (where the campaign is) **to the warm, rich, settled south and southeast**, where great rivers run down to a warm southern sea.
+- **Past Caradril, up the Verdance,** the river runs into the settled interior (the **Verdance Reaches**) and on to great free trading river-cities on the continent's main river, the **Glasswater** — folk speak of the **Glassmere League**, the real urban heart of the north-center.
+- A vast mountain range, the **Greatspine** (also called the **Sundering Wall**), **splits the continent**; whoever holds its passes controls inland trade. Somewhere astride it lie the broken ruins of the old Concord's heart-country — the "**Ruin'd Crown**" — fallen, dangerous, and coveted by many.
+- **To the south** are chalk sheep-downs (the **Marrowdowns**), a warm forest of sacred groves (the **Sunmark**), a great fever-ridden river-delta (the **Sallow Marches**) held under a distant southern crown, and warm-water ports on the **Hollow Gulf** facing the **Calm Reach** sea.
+- **To the north and northeast,** beyond the mountains, lie a cold open grass-steppe ridden by horse-clans (the **Wender Steppe**) and a jagged outlaw-and-mining frontier (the **Karran Marches**, in the **Karran Teeth**).
+- **To the southeast** stands a land of **fire-mountains** — the **Emberfells**, where ash-priests read the volcanoes as divine — and a dying inland salt-sea (the **Saltmere**) ringed by salt-flats and drowned towns.
+- **Overseas** (sailors' tales): a great southern continent, **Surren**, across the ocean; cold isles far to the north (the **Iron Skards**); and storm-broken islands far to the west (the **Sundered Isles**). Few have been and returned.
+
+None of this is required to play the early campaign; it is the horizon the world opens onto.
 
 ## Known Facts About the Ring 1 Regions (Player-Safe)
 

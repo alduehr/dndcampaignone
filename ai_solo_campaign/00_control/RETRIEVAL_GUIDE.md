@@ -6,7 +6,7 @@ Tells the AI DM which files to load, when to load them, and how to use them. Thi
 
 ## Current Status
 
-Stages 1–5 and 7 complete. Session load order, contextual load rules, pre-content-generation checks, and secrecy enforcement are operational. Sundering Reach (Stage 3), Caradril city (Stage 4), the Level 1–4 Act 1 play kit (Stage 5), and the three Ring 1 adjacent regions (Stage 7 — Ashgarden Vale, Tollwood, Pale Coast) world content load entries are live below.
+Stages 1–5 and 7 complete. Session load order, contextual load rules, pre-content-generation checks, and secrecy enforcement are operational. Sundering Reach (Stage 3), Caradril city (Stage 4), the Level 1–4 Act 1 play kit (Stage 5), and the three Ring 1 adjacent regions (Stage 7 — Ashgarden Vale, Tollwood, Pale Coast) world content load entries are live below. **Full-World Cartographic Expansion pass:** the World map / cartography section now lists both the **campaign-area** (NW Orrun) and **full-continent** atlas file sets.
 
 ---
 
@@ -264,6 +264,23 @@ The three regions adjacent to the Reach. Load the relevant region file when the 
 
 ### Travel (load when leaving or crossing between regions)
 - `04_world_atlas/TRAVEL_ROUTES_RING1.md` — 6 routes (Reach→each region; each region→Caradril); times, dangers, faction presence, travel events. Use with `TRAVEL_PROTOCOL.md` and the regional encounter tables.
+
+### World map / cartography (load for placement, "what lies beyond," or to generate a map)
+
+**Two scopes:** the **campaign-area** files (NW Orrun cluster — the day-to-day play map) and the **full-continent** files (whole of Orrun — "what lies beyond the frontier"). Load the campaign-area set for ordinary placement and play maps; load the full set when the player asks about the wider continent or you need a whole-world map.
+
+*Campaign-area (NW Orrun cluster):*
+- `04_world_atlas/WORLD_MAP_AUTHORITY.md` — **campaign-area cartographic authority.** Load to place any new location within the cluster, confirm travel-time plausibility, or before commissioning a cluster map. Player-safe §11 facts only to the player.
+- `04_world_atlas/WORLD_MAP_COORDINATES.md` — campaign-area 0–100 grid (~3× zoom on the NW corner); confidence-rated; DM-only rows flagged.
+- `04_world_atlas/WORLD_MAP_LAYERS.md` — 7 campaign-area map layers. **Layers 2 & 7 are DM-only.**
+- `04_world_atlas/WORLD_MAP_PROMPTS.md` — 4 campaign-area image prompts. **Prompts 1 & 3 are player-safe.** Recommended first cluster map: Prompt 3 (Reach + Ring 1 regional).
+
+*Full continent (Orrun + Vael landmasses):*
+- `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` — **full-continent master reference.** Load to answer "what lies beyond the frontier," place a far region, or before commissioning a whole-world map. NW→SE axis; 18 regions (5 built + 13 placeholder); player-safe §11 only to the player; keep DM-only (Concord Deep, keystone, far-ruin truth) hidden. **Endgame stays vertical under Hollowmere — never a distant land.**
+- `04_world_atlas/FULL_WORLD_MAP_COORDINATES.md` — full-continent 0–100 grid (124 entries; embeds the cluster in the NW corner via a documented rescale); confidence-rated; DM-only rows flagged.
+- `04_world_atlas/FULL_WORLD_MAP_LAYERS.md` — 8 full-world map layers (incl. a campaign-area inset). **Layers 2, 4, & 7 are DM-only — never render for the player.**
+- `04_world_atlas/FULL_WORLD_MAP_PROMPTS.md` — 5 full-world image prompts. **Prompts 1, 3, & 5 are player-safe; Prompt 2 and Prompt 4's DM toggles are DM-only.** Recommended first map overall: Prompt 5 (campaign inset); then Prompt 1 (player-safe continent); then Prompt 3 (parchment artifact).
+- `04_world_atlas/REGION_INDEX.md` — index of authored regions + campaign-area + full-continent placeholders (directions, levels, grid, secrecy).
 
 ### Ashgarden Vale (S — gentlest Ring 1, Lvl 1–6)
 - `05_regions/ASHGARDEN_VALE.md` — region overview

@@ -23,6 +23,30 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## Medium
 
+- [ ] Generate the actual map images
+  - Why it matters: cartographic canon and prompts are ready (campaign-area AND full-continent); the visual maps themselves do not exist yet. **Recommended order:** `FULL_WORLD_MAP_PROMPTS.md` Prompt 5 (campaign-area inset = the day-to-day play map) first; then Prompt 1 (player-safe full continent); then Prompt 3 (parchment artifact to hand the player); then Prompt 2 / Prompt 4-toggle (DM-only). The campaign-area-only prompts in `WORLD_MAP_PROMPTS.md` remain valid for cluster-only renders.
+  - Related files: `04_world_atlas/FULL_WORLD_MAP_PROMPTS.md`, `FULL_WORLD_MAP_COORDINATES.md`, `FULL_WORLD_MAP_LAYERS.md`; `WORLD_MAP_PROMPTS.md` (campaign-area)
+  - Suggested agent: world-atlas-builder (or external image tool)
+  - Stage: interstitial (post-Stage-7)
+
+- [ ] Note: `WORLD_MAP_AUTHORITY.md` / `WORLD_MAP_COORDINATES.md` are now the **campaign-area (NW Orrun)** authority; `FULL_WORLD_MAP_*` supersede them for **whole-continent** use
+  - Why it matters: the Full-World Cartographic Expansion pass split map scope into campaign-area vs full-continent. The two `WORLD_MAP_*` files are retained and authoritative for the NW cluster; the four `FULL_WORLD_MAP_*` files are authoritative for the whole continent. Keep them consistent when either is edited.
+  - Related files: `04_world_atlas/WORLD_MAP_AUTHORITY.md`, `WORLD_MAP_COORDINATES.md`, `FULL_WORLD_MAP_AUTHORITY.md`, `FULL_WORLD_MAP_COORDINATES.md`
+  - Suggested agent: world-atlas-builder / indexer-librarian
+  - Stage: interstitial (post-Stage-7)
+
+- [ ] Deep-build the placeholder regions when play warrants
+  - Why it matters: Ring 2 placeholders (Verdance Reaches SE Lvl 8–12; deep Sunder Heights N Lvl 6–10; Highmark passes far-N Lvl 12–16) AND the 13 new full-continent placeholders (Glassmere League, Marrowdowns, Sallowmarch Protectorate, Hollow Gulf Ports, Wender Steppe, Karran Marches, Emberfell Theocracy, Saltmere Reaches, Concord Heartlands/Ruin'd Crown, Hethewald Free Holds, Sunmark) are named/positioned with political form + 1-sentence identity only. They need full region builds before any play ranges into them. **The Concord Heartlands is a surface fallen-ruin — NEVER the keystone/Hollow Court seat.**
+  - Related files: `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` §6, `WORLD_MAP_AUTHORITY.md` §6–§8, `REGION_INDEX.md`
+  - Suggested agent: world-atlas-builder
+  - Stage: future (Ring 2+ / continental expansion)
+
+- [ ] Pin down low-confidence map coordinates as regions are built
+  - Why it matters: 22 campaign-area grid entries (`WORLD_MAP_COORDINATES.md`) and ~86 full-continent entries (`FULL_WORLD_MAP_COORDINATES.md`) are low-confidence placeholders; deep-building those areas should upgrade them to medium/high and keep both grids self-consistent.
+  - Related files: `04_world_atlas/WORLD_MAP_COORDINATES.md`, `FULL_WORLD_MAP_COORDINATES.md`
+  - Suggested agent: world-atlas-builder
+  - Stage: ongoing
+
 - [ ] Build the standalone bestiary (mid/high tiers especially)
   - Why it matters: Stage 6 audit Medium finding. Adversary stats currently live only inside zone/city encounter tables + the 5 Act 1 threat profiles; Acts 2–5 threats above ~L6 are not yet mechanically usable.
   - Related files: `13_encounters_and_bestiary/`

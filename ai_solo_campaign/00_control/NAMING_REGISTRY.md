@@ -6,7 +6,7 @@ Master registry of all proper nouns used in the campaign. Check this file before
 
 ## Current Status
 
-**Stages 1–7 populated (Stage 7 complete, incl. completion pass).** Core campaign proper nouns registered through Stage 4 (Caradril city: districts, city factions, city NPCs, new terms). **Stage 5 (Level 1–4 Play Arc) introduced NO new proper nouns.** **Stage 7 (Regional Expansion Ring 1) added the three adjacent regions' proper nouns** — Ashgarden Vale, Tollwood, and Pale Coast settlements, landmark sites, dungeons, one minor regional faction (the Tollmen), Ring 1 NPCs, and a few setting terms; see the Stage 7 subsections below. **The Stage 7 completion pass added 4 new quests, 12 new wilderness landmark-sites (4/region), 9 new secondary + 13 new minor Ring 1 NPCs, and 6 named regional clocks (V1/V2, T1/T2, C-PC1/C-PC2 — see each region file's "Regional Clocks" and `02_runtime_state/WORLD_CLOCKS.md`).** No new central mystery, major faction, god, cosmology, or legendary artifact in the completion pass. **No new central mystery, major faction, god, cosmology, or legendary artifact was created in Stage 7;** new sites feed existing M1–M9 (mostly M2/M3/M5 fragments, gated/oblique M6) and the deep-wood/maritime "presences" are regional landmark-powers, NOT the Hollow Court or new gods. Quest titles and file names are not registered proper nouns. Add new entries immediately when creating named content.
+**Stages 1–7 populated (Stage 7 complete, incl. completion pass); Full-World Cartographic Expansion pass added full-continent geographic placeholders.** The Full-World pass registered the rest of the continent of Orrun (oceans, seas, ranges, rivers, forests, badlands, wetlands, steppe, islands) and ~11 placeholder political/cultural regions, plus 3 placeholder overseas landmasses of Vael — all map-authoritative placeholders only (named/positioned, NOT deep-built); **no new factions, gods, central mysteries, or artifacts.** See the "Full-World Cartographic Expansion" subsection under Place Names and `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md`. Core campaign proper nouns registered through Stage 4 (Caradril city: districts, city factions, city NPCs, new terms). **Stage 5 (Level 1–4 Play Arc) introduced NO new proper nouns.** **Stage 7 (Regional Expansion Ring 1) added the three adjacent regions' proper nouns** — Ashgarden Vale, Tollwood, and Pale Coast settlements, landmark sites, dungeons, one minor regional faction (the Tollmen), Ring 1 NPCs, and a few setting terms; see the Stage 7 subsections below. **The Stage 7 completion pass added 4 new quests, 12 new wilderness landmark-sites (4/region), 9 new secondary + 13 new minor Ring 1 NPCs, and 6 named regional clocks (V1/V2, T1/T2, C-PC1/C-PC2 — see each region file's "Regional Clocks" and `02_runtime_state/WORLD_CLOCKS.md`).** No new central mystery, major faction, god, cosmology, or legendary artifact in the completion pass. **No new central mystery, major faction, god, cosmology, or legendary artifact was created in Stage 7;** new sites feed existing M1–M9 (mostly M2/M3/M5 fragments, gated/oblique M6) and the deep-wood/maritime "presences" are regional landmark-powers, NOT the Hollow Court or new gods. Quest titles and file names are not registered proper nouns. Add new entries immediately when creating named content.
 
 > **Stage 7 naming disambiguation:** "Pell" is a common frontier surname for several distinct minor figures (Warden Pell [Reach Ashen Warden, secondary]; Pell Oster [Saltmargin salt-warden, minor]; Factor Wymar Pell [Vale Ledger, secondary]; Ale-wife Pell [Tollstone Cross, minor]) — always keep epithet/role. "Sennet" names two distinct elders: **Mother Sennet** (Saint Veddow's shrine-keeper) and **Goodwife Sennet** (Coldhearth forest-elder) — always qualify by location. **Wren-of-the-Wood** (Coldhearth minor guide) is distinct from major NPC **Wren Hollowmere** — always use the full epithet. "Pilgrim Goodman Sael" (Saint Veddow's minor) is distinct from "Domic Sael" (Ledger major) and "Sael Brunt" (Tilbrook secondary) — given name only; keep surnames.
 
@@ -106,6 +106,17 @@ Master registry of all proper nouns used in the campaign. Check this file before
 | The Drowned Kettle | Inn (Kettle Bridge) | Sundering Reach | `06_settlements/KETTLE_BRIDGE.md` |
 | The Cold Drum | Tavern (Harrowgast) | Sundering Reach | `06_settlements/HARROWGAST.md` |
 
+### World Map Authority Pass (geographic features)
+
+| Name | Type | Region | File |
+|---|---|---|---|
+| The Pale Sea | Ocean (W/NW; against the Pale Coast) | Orrun | `04_world_atlas/WORLD_MAP_AUTHORITY.md` |
+| The Highmark Spine | Mountain range (far-N barrier; parent of the Sunder Heights); also a low-confidence placeholder late-frontier region | Orrun | `04_world_atlas/WORLD_MAP_AUTHORITY.md` |
+| The Verdance Reaches | Region (Ring 2 placeholder; up the Verdance, SE toward inland Orrun; Lvl 8–12) | Orrun | `04_world_atlas/WORLD_MAP_AUTHORITY.md` |
+| The Concord Deep | **DM-ONLY** — buried node-network ("map beneath the map") radiating from the Hollowmere keystone; NOT a surface region, entity, god, or faction | Orrun (subsurface) | `04_world_atlas/WORLD_MAP_LAYERS.md`, `WORLD_MAP_AUTHORITY.md` |
+
+> **Map Authority Pass note:** "The Under-Shrine / the Drowned Keystone" (DM-only endgame place beneath the Hollowmere basin) is a *descriptive label* for the already-registered "Drowned shrine" / Hollow Court seat, not a new proper noun. "The Verdance Reaches" reuses the registered river-name "Verdance." No new factions, gods, cosmology, or central mysteries were coined this pass; the new names are geographic features supporting the existing world.
+
 ### Caradril (Stage 4 — First Major City; SE Orrun)
 
 | Name | Type | Region | File |
@@ -197,6 +208,70 @@ Master registry of all proper nouns used in the campaign. Check this file before
 | The Salt-Pan Flats | Landmark (salt-pans + workers' camp; Stage 7 pass) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
 | The Lantern Stacks | Landmark (false-light wrecking reef; Stage 7 pass) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
 | The Weeping Light | Landmark (minor headland sea-shrine node; M2/M5; Stage 7 pass) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
+
+### Full-World Cartographic Expansion (full continent of Orrun + Vael landmasses) — placeholders
+
+New geographic names coined in the Full-World Cartographic Expansion pass. All are **map-authoritative placeholders** (named, positioned, NOT deep-built). None is a new faction, god, or central mystery; placeholder **regions** carry a political/cultural *form* only. See `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md`.
+
+**Other landmasses of Vael (placeholder, non-campaign):**
+
+| Name | Type | Position | File |
+|---|---|---|---|
+| Surren | Continent (overseas) | Far S/SW, across the ocean | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Iron Skards | Island chain (overseas) | Far N, past the Highmark Spine's seaward end | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Sundered Isles / The Far Wrack | Island chain | Far W, mid-ocean (Pale Sea) | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+
+**Bodies of water (full continent):**
+
+| Name | Type | Position | File |
+|---|---|---|---|
+| The Sunder Ocean | Ocean | N, beyond the Highmark Spine | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Calm Reach | Warm sea | SE/S | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Saltmere | Inland salt sea | S-central interior | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Hollow Gulf | Major bay | S coast | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Wracking Straits | Strait | Far W | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Glasswater | Major river system | Central, runs SE to the Calm Reach | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Mardenflow | Major river system | S-central, runs S to the delta | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Hethe | Major river system | E, runs to the Calm Reach | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+
+**Geographic features (full continent):**
+
+| Name | Type | Position | File |
+|---|---|---|---|
+| The Karran Teeth | Mountain range | NE | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Sundering Wall / The Greatspine | Continental cordillera | Central, NW–SE axis | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Emberfells | Volcanic highland | SE-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Ghostmark Range | Low mountains | S-central, ringing the Saltmere | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Hethewood | Great forest | E-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Sunmark Wilds | Warm forest | S | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Ashen Reach Woods | Volcanic woodland | Around the Emberfells | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Cindern Waste | Ash badland | SE interior | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Bonepan Flats | Salt badland | Around the Saltmere | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Sallow Marches | Deltaic wetland | S coast (Mardenflow delta) | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Mirewend Sinks | Boglands | NW-to-central transition, S of the cluster | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Wender Steppe | Cold steppe | N-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Marrowdowns | Chalk downs | S-central uplands | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Wracking Isles | Island chain | Far W (the Straits) | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Glass Coast | Volcanic-glass coast | SE | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Drowned Steps | Submerged ruin-causeway | Off the S coast | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+
+**Placeholder political/cultural regions (full continent; form only, NOT deep-built):**
+
+| Name | Political form | Position | File |
+|---|---|---|---|
+| The Glassmere League | Mercantile city-league/confederacy | Central, on the Glasswater | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Marrowdowns (region) | Manorial holds / shire-moots | S-central uplands | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Sallowmarch Protectorate | Protectorate (a distant crown's claim) | S coast delta | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Hollow Gulf Ports | Rival port city-states | S coast | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Wender Steppe (region) | Nomadic tribal confederacy | N-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Karran Marches | Ungoverned / petty warlord holds | NE | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Emberfell Theocracy / The Ashfast | Theocracy (volcanic fire-cult) | SE-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Saltmere Reaches | Salt-clan holds / fallen realm | S-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Concord Heartlands / The Ruin'd Crown | Fallen realm (contested ruin) | Central-SE, astride the Greatspine | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Hethewald Free Holds | Confederacy of forest free-holds | E-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Sunmark | Sacred tribal territory | S | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+
+> **Disambiguation:** "The Emberfell Theocracy" and "the Ashfast" are the same placeholder region (two names). "The Concord Heartlands / the Ruin'd Crown" is a **surface** fallen-ruin region — distinct from the DM-only **Concord Deep** (buried network) and the **Under-Shrine / Drowned Keystone** (endgame, beneath Hollowmere); the Heartlands are NOT the keystone and NOT the Hollow Court's seat. "The Sunmark" (region) shares a root with its forest "the Sunmark Wilds" — keep full names. "The Wracking Straits," "the Wracking Isles," and "the Far Wrack / Sundered Isles" form a far-W naming family — keep full names. The **Greatspine / Sundering Wall** is distinct from the **Sundering Reach** (campaign region) and from the **Sunder Heights / Sunder Ocean** (the "Sunder-" prefix is a deliberate naming family). The **Marrowdowns** (S-central downs) is distinct from **Marrow Cross** (Vale hamlet).
 
 ## NPC Names
 

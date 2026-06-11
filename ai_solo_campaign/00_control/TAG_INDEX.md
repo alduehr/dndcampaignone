@@ -6,7 +6,7 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stages 1, 2, 3, 4, and 5 complete.** Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region Deep Build + Stage 4 First Major City Deep Build (Caradril) + **Stage 5 Level 1–4 Play Arc**. Stage 4 added the Caradril files (see `region:caradril`). **Stage 5 added:** `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `ACT_1_MILESTONES.md`, `ACT_1_FAILURE_STATES.md`; `09_quests/act_1_quests/` (6 faction quests); `13_encounters_and_bestiary/ACT_1_THREATS.md`; `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`; `08_npcs/ACT_1_NPC_GUIDE.md`. New tag introduced: `act:1`. All Stage 5 files registered below. No active content files remain placeholder-only; future-stage placeholder files (`_PLACEHOLDER.md`) still exist by design as structural anchors. Stage 6 (first full audit) is complete. **Stage 7 (Regional Expansion Ring 1) is complete:** the three adjacent regions (Ashgarden Vale, Tollwood, Pale Coast) added 3 region files, 8 settlements, 3 wilderness files, 9 dungeons, 3 encounter tables, 6 hooks/rumors files, 20 developed quests, 40 NPCs (in the existing NPC files), 1 minor regional faction (the Tollmen), and `04_world_atlas/TRAVEL_ROUTES_RING1.md`. New tags introduced: `ring-1`, `region:ashgarden-vale`, `region:tollwood`, `region:pale-coast`. All Stage 7 files registered below.
+**Stages 1, 2, 3, 4, and 5 complete.** Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region Deep Build + Stage 4 First Major City Deep Build (Caradril) + **Stage 5 Level 1–4 Play Arc**. Stage 4 added the Caradril files (see `region:caradril`). **Stage 5 added:** `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `ACT_1_MILESTONES.md`, `ACT_1_FAILURE_STATES.md`; `09_quests/act_1_quests/` (6 faction quests); `13_encounters_and_bestiary/ACT_1_THREATS.md`; `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`; `08_npcs/ACT_1_NPC_GUIDE.md`. New tag introduced: `act:1`. All Stage 5 files registered below. No active content files remain placeholder-only; future-stage placeholder files (`_PLACEHOLDER.md`) still exist by design as structural anchors. Stage 6 (first full audit) is complete. **Stage 7 (Regional Expansion Ring 1) is complete:** the three adjacent regions (Ashgarden Vale, Tollwood, Pale Coast) added 3 region files, 8 settlements, 3 wilderness files, 9 dungeons, 3 encounter tables, 6 hooks/rumors files, 20 developed quests, 40 NPCs (in the existing NPC files), 1 minor regional faction (the Tollmen), and `04_world_atlas/TRAVEL_ROUTES_RING1.md`. New tags introduced: `ring-1`, `region:ashgarden-vale`, `region:tollwood`, `region:pale-coast`. All Stage 7 files registered below. **Full-World Cartographic Expansion pass (post-Stage-7):** added 4 full-continent atlas files (`FULL_WORLD_MAP_AUTHORITY/COORDINATES/LAYERS/PROMPTS.md`); new tags introduced: `full-continent` (and `campaign-area` to disambiguate the existing `WORLD_MAP_*` files). Both sets are registered under `type:map / function:cartography`.
 
 > Caradril file membership is consolidated under **`region:caradril`** (Region Tags section) for fast retrieval; individual files also appear under their type/secrecy/status tags.
 
@@ -28,6 +28,34 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `04_world_atlas/WORLD_OVERVIEW.md`
 - `04_world_atlas/MAP_DESCRIPTION.md`
 - `04_world_atlas/TRAVEL_ROUTES_RING1.md` (ring-1 travel)
+- `04_world_atlas/WORLD_MAP_AUTHORITY.md` (type:map; cartography; campaign-area)
+- `04_world_atlas/WORLD_MAP_COORDINATES.md` (type:map; cartography; campaign-area)
+- `04_world_atlas/WORLD_MAP_LAYERS.md` (type:map; cartography; campaign-area)
+- `04_world_atlas/WORLD_MAP_PROMPTS.md` (type:map; cartography; campaign-area)
+- `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` (type:map; cartography; full-continent)
+- `04_world_atlas/FULL_WORLD_MAP_COORDINATES.md` (type:map; cartography; full-continent)
+- `04_world_atlas/FULL_WORLD_MAP_LAYERS.md` (type:map; cartography; full-continent)
+- `04_world_atlas/FULL_WORLD_MAP_PROMPTS.md` (type:map; cartography; full-continent)
+
+### full-continent (Full-World Cartographic Expansion)
+- `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md`
+- `04_world_atlas/FULL_WORLD_MAP_COORDINATES.md`
+- `04_world_atlas/FULL_WORLD_MAP_LAYERS.md`
+- `04_world_atlas/FULL_WORLD_MAP_PROMPTS.md`
+
+### type:map / function:cartography
+**Campaign-area (NW Orrun cluster):**
+- `04_world_atlas/WORLD_MAP_AUTHORITY.md` — campaign-area cartographic authority (cluster shape, placement, scale, secrecy)
+- `04_world_atlas/WORLD_MAP_COORDINATES.md` — campaign-area 0–100 grid (~3× zoom on the NW corner); confidence-rated; DM-only rows flagged
+- `04_world_atlas/WORLD_MAP_LAYERS.md` — 7 campaign-area map layers (player-safe → hidden-truth)
+- `04_world_atlas/WORLD_MAP_PROMPTS.md` — 4 campaign-area image-generation prompts
+
+**Full continent (Orrun + Vael landmasses):**
+- `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` — full-continent master reference (NW→SE axis, all features, 18 regions, routes, forbidden zones, scale, secrecy)
+- `04_world_atlas/FULL_WORLD_MAP_COORDINATES.md` — full-continent 0–100 grid (124 entries; embeds the cluster in the NW corner); confidence-rated; DM-only rows flagged
+- `04_world_atlas/FULL_WORLD_MAP_LAYERS.md` — 8 full-world map layers (incl. campaign-area inset)
+- `04_world_atlas/FULL_WORLD_MAP_PROMPTS.md` — 5 full-world image-generation prompts
+- `04_world_atlas/REGION_INDEX.md` — region index incl. placeholders (type:index)
 
 ### type:settlement
 - `06_settlements/HOLLOWMERE.md`

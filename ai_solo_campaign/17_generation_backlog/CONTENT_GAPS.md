@@ -6,7 +6,7 @@ Track missing or underdeveloped content by category. Use this for category-level
 
 ## Current Status
 
-**Stages 0–7 complete.** Stage 7 (Regional Expansion Ring 1) added 3 regions (Ashgarden Vale, Tollwood, Pale Coast), 8 settlements, 3 wilderness files, 9 dungeons, 3 encounter tables, 6 hooks/rumors files, 20 developed quests, ~60 NPCs, and travel routes. The world now opens outward in multiple directions from the Sundering Reach.
+**Stages 0–7 complete; Full-World Cartographic Expansion pass done.** Stage 7 (Regional Expansion Ring 1) added 3 regions (Ashgarden Vale, Tollwood, Pale Coast), 8 settlements, 3 wilderness files, 9 dungeons, 3 encounter tables, 6 hooks/rumors files, 20 developed quests, ~60 NPCs, and travel routes. The **Full-World Cartographic Expansion pass** then expanded the map from the NW campaign quarter to the **whole continent of Orrun** — 4 new full-continent atlas files, 13 placeholder regions, all continental geographic features, 3 overseas landmasses, 8 map layers, 5 image prompts (cartography only; the new regions are NOT deep-built). The world now opens outward in multiple directions from the Sundering Reach, with the rest of the continent named and positioned as a placeholder horizon.
 
 **Stages 0, 1, 2, 3, 4, and 5 complete.** The campaign foundation + AI runtime exist, the starting region is deep-built, the **first major city (Caradril) is deep-built**, and the **Level 1–4 Act 1 play kit (Stage 5) now exists** (open-world arc spine, 6 faction-alignment quests, 5 recurring early-threat profiles, an existing-clue Act 1 access overlay with R1 cap, 9 failure-redirect states, milestone/XP triggers, and an Act 1 NPC casting guide). The campaign now has a frontier sandbox, a mid-game city hub, and a runnable early-game arc.
 
@@ -20,7 +20,11 @@ Track missing or underdeveloped content by category. Use this for category-level
 |---|---|---|---|---|
 | ~~Starting region exists as a frame only~~ — **deep-built in Stage 3** (8 settlements, 4 wilderness zones, 6 dungeons, encounter/rumor tables, 12 developed quests) | — (no gap) | — | — | done in Stage 3 |
 | ~~No adjacent (Ring 1) regions~~ — **deep-built in Stage 7**: Ashgarden Vale (3 settlements, 3 dungeons, 8 quests), Tollwood (3 settlements, 3 dungeons, 7 quests), Pale Coast (2 settlements, 3 dungeons, 5 quests), travel routes | — (no gap) | — | — | done in Stage 7 |
-| Distant named regions are world-overview stubs only | Low | Long-term travel and high-tier play | Expand later as arc reaches them | 7, 15 |
+| ~~Distant named regions are world-overview stubs only~~ — **Full-World Cartographic Expansion** named/positioned the whole continent: 13 placeholder regions with political form + 1-line identity, all continental water/terrain features, 3 overseas Vael landmasses | Low (cartography done; deep builds pending) | Long-term travel and high-tier play | Deep-build individual regions as the arc reaches them; placeholders in `FULL_WORLD_MAP_AUTHORITY.md`/`REGION_INDEX.md` | 15+ |
+| Ring 2 + 13 continental placeholder regions are map-authoritative only (Verdance Reaches, deep Sunder Heights, Highmark passes; Glassmere League, Marrowdowns, Sallowmarch Protectorate, Hollow Gulf Ports, Wender Steppe, Karran Marches, Emberfell Theocracy, Saltmere Reaches, Concord Heartlands, Hethewald Free Holds, Sunmark) | Medium | Midgame/late/continental play past Caradril | Deep-build when play warrants; positions + political form + 1-line identities exist | future (Ring 2+ / continental) |
+| Overseas Vael landmasses (Surren, Iron Skards, Sundered Isles) are 1-line placeholders | Low | Possible far-future overseas play | Develop only if the campaign ever leaves Orrun (not arc-required) | far-future |
+| Map images not yet generated | Low | Player-facing & DM visual reference | Prompts ready (campaign-area + full-continent); generate `FULL_WORLD_MAP_PROMPTS.md` Prompt 5 then Prompt 1 then Prompt 3 first | interstitial |
+| Low-confidence map coordinates (~22 campaign-area + ~86 full-continent) | Low | Map self-consistency | Upgrade to medium/high as the placeholder regions are built | ongoing |
 
 ---
 

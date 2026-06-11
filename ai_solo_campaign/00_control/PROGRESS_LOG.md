@@ -6,6 +6,86 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-11 — Full-World Cartographic Expansion Pass
+
+### Stage
+Interstitial cartographic pass (not a development stage). Expands the map-authority layer from the NW campaign quarter to the **full continent of Orrun**.
+
+### Summary
+Expanded the cartographic layer from the **northwestern campaign quarter** to a **true full continent of Orrun**, without changing any world fact, contradicting any travel time, or moving the climax. Authored 4 full-continent atlas files. Decided the primary map is **all of Orrun** (Vael's other landmasses placed at placeholder level only: Surren, the Iron Skards, the Sundered Isles). Established the continent's dominant **NW (cold-poor frontier) → SE (warm-rich settled)** axis; named all major continental water, mountain ranges (incl. the continent-splitting Greatspine/Sundering Wall cordillera and a **volcanic** SE highland, the Emberfells), forests, deserts/badlands, marshes, steppe, downs, and island chains; defined **13 placeholder political/cultural regions** spanning a city-league, manorial holds, a protectorate, port city-states, a nomadic confederacy, ungoverned marches, a volcanic theocracy, salt-clan holds, a **fallen-realm Concord surface ruin**, forest free-holds, and sacred tribal land (variety over symmetry; no biome-per-direction; no all-kingdoms). Embedded the existing campaign cluster in the NW corner via a **documented coordinate rescale** (campaign grid → full-grid X 8–40, Y 8–42). Defined 8 full-world map layers (incl. a campaign-area inset) and 5 image prompts (3 player-safe, 2 DM-only). Clarified the existing `WORLD_MAP_*` files as the **campaign-area** authority. **The endgame stays vertical (beneath Hollowmere); the new far ruins are surface/pre-Concord echoes, never the keystone or the Hollow Court's seat. No new factions, gods, cosmology, central mysteries, or artifacts; placeholders are not deep-built.**
+
+### Files Created
+- `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` — full-continent master cartographic reference
+- `04_world_atlas/FULL_WORLD_MAP_COORDINATES.md` — full-continent normalized 0–100 grid (124 entries; rescale documented)
+- `04_world_atlas/FULL_WORLD_MAP_LAYERS.md` — 8 full-world map layers
+- `04_world_atlas/FULL_WORLD_MAP_PROMPTS.md` — 5 full-world image-generation prompts
+
+### Files Changed
+- `04_world_atlas/WORLD_MAP_PROMPTS.md` — re-scoped/clarified as campaign-area (NW Orrun) prompts; cross-linked to the full-world prompts
+- `04_world_atlas/REGION_INDEX.md` — added full-continent placeholder-region table
+- `00_control/NAMING_REGISTRY.md` — registered all new continental/landmass geographic names
+- `03_canon/CANON.md` — revision-log entry
+- `03_canon/PLAYER_SAFE_CANON.md` — "The Wider Continent of Orrun" player-safe geography
+- `03_canon/DM_ONLY_CANON.md` — full-world geographic DM context (far ruins ≠ keystone; reach of factions; secrecy)
+- `00_control/CONTENT_INDEX.md`, `TAG_INDEX.md`, `RETRIEVAL_GUIDE.md`, `TODO.md`, `17_generation_backlog/CONTENT_GAPS.md` — indexed/registered the 4 new files and the campaign-area vs full-continent split
+
+### Canon Established
+- Orrun's full shape: large continent, NW→SE cold-to-warm axis; the campaign is its NW corner; Caradril is a frontier-edge city at continental scale.
+- All major continental bodies of water, ranges, forests, badlands, wetlands, steppe, downs, and islands named and positioned.
+- 13 placeholder political/cultural regions + 3 overseas Vael landmasses, all placeholder-level.
+- Documented coordinate rescale embedding the campaign cluster in the full-continent NW corner.
+
+### Indexes Updated
+- CONTENT_INDEX, TAG_INDEX, RETRIEVAL_GUIDE, REGION_INDEX, NAMING_REGISTRY.
+
+### Gaps Identified
+- The 13 continental placeholder regions and 3 overseas landmasses are named/positioned but not deep-built; map images not yet generated; ~86 low-confidence full-continent coordinates pending build-time refinement. (Logged in CONTENT_GAPS/TODO.)
+
+### Next Recommended Pass
+- Generate map images (FULL_WORLD_MAP_PROMPTS Prompt 5 → Prompt 1 → Prompt 3). Continue the planned stage roadmap (Stage 8 Faction Deepening). Deep-build a continental placeholder region only when play actually approaches it.
+
+---
+
+## 2026-06-11 — World Map Authority Pass (cartographic canon)
+
+### Stage
+Interstitial cartographic pass (not a development stage). Establishes the map-authority layer over the existing world.
+
+### Summary
+Authored the **master cartographic reference** for Vael/Orrun's mapped NW quarter so an AI DM (and future image-generation) can place, navigate, and draw the world without inventing geography. Recorded the spatial frame the existing travel times already imply (Hollowmere center; Vale S, Tollwood E, Coast W, Caradril SE, Sunder Heights N, Pale Sea W), added a normalized 0–100 coordinate grid (77 entries; confidence-rated), defined 7 map layers (player-safe → DM-only hidden-truth), and wrote 4 image-generation prompts (2 player-safe, 2 DM-only). Named 4 supporting geographic features (Pale Sea, Highmark Spine, Verdance Reaches, the DM-only Concord Deep) and placed map-authoritative **placeholders** for midgame (Verdance Reaches; deep Sunder Heights), late-game (Concord Deep; Highmark passes), and endgame (the Under-Shrine/Drowned Keystone — placed **vertically beneath Hollowmere**, consistent with the existing arc). **No travel times or region descriptions contradicted; no new factions, gods, cosmology, central mysteries, or artifacts.**
+
+### Files Created
+- `04_world_atlas/WORLD_MAP_AUTHORITY.md` — master cartographic reference
+- `04_world_atlas/WORLD_MAP_COORDINATES.md` — normalized 0–100 grid
+- `04_world_atlas/WORLD_MAP_LAYERS.md` — 7 map layers
+- `04_world_atlas/WORLD_MAP_PROMPTS.md` — 4 image-generation prompts
+- `04_world_atlas/REGION_INDEX.md` — region index incl. placeholders
+
+### Files Changed
+- `03_canon/CANON.md` — revision-log entry; `PLAYER_SAFE_CANON.md` — "Known Geography" section; `DM_ONLY_CANON.md` — "World Map Authority Pass (Geographic Truths)"
+- `00_control/NAMING_REGISTRY.md` — registered 4 new geographic names
+- `00_control/CONTENT_INDEX.md`, `TAG_INDEX.md`, `RETRIEVAL_GUIDE.md` — indexed the 5 new files
+- `00_control/TODO.md`, `17_generation_backlog/CONTENT_GAPS.md` — map follow-ups/gaps
+
+### Canon Established
+- The mapped world is the NW quarter of Orrun; Hollowmere is the spatial keystone; the land drains toward the basin (player-observable; cause gated).
+- New geographic names: the Pale Sea, the Highmark Spine, the Verdance Reaches, the Concord Deep (DM-only).
+- The endgame is **vertical** (down through the keystone beneath Hollowmere), not a distant forbidden region.
+
+### Indexes Updated
+- CONTENT_INDEX, TAG_INDEX, RETRIEVAL_GUIDE, REGION_INDEX (new), NAMING_REGISTRY.
+
+### Gaps Identified
+- Placeholder regions (Verdance Reaches, deep Sunder Heights, Highmark passes) need deep-build before Ring 2 play.
+- The map images are not yet generated (prompts are ready).
+- Low-confidence grid coordinates need pinning down as those regions are built.
+
+### Next Recommended Pass
+- Generate the regional reference image (Prompt 3) first, then the player-safe world map (Prompt 1).
+- When the player commits past Caradril, deep-build the Verdance Reaches (Ring 2).
+
+---
+
 ## 2026-06-10 — Stage 7: Regional Expansion Ring 1
 
 ### Stage
