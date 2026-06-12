@@ -198,7 +198,22 @@ Spot-checks (campaign → full): Hollowmere (50,45) → **(24.0, 23.3)**; Caradr
 6. **Variety over symmetry:** wetlands appear NW (Greyfens) and S (Sallow Marches); forests NW (Tollwood) and E/S (Hethewood/Sunmark); no single biome owns a compass direction.
 7. **Other Vael landmasses** are off-grid placeholders (negative or >100 coords) and must never be drawn as part of Orrun proper.
 
+## Duplicate-Prone Entries (render notes)
+
+Several features in this file are referenced in more than one table here (and across `WORLD_MAP_COORDINATES.md`, `FULL_WORLD_MAP_AUTHORITY.md`, and `REGION_INDEX.md`) and could be accidentally rendered with more than one label. For each, the **single canonical player-safe map label lives in `PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` §4. All other references in this file are aliases, context, or route anchors — not additional labels.**
+
+- **Caradril** — appears as a city, a political region, the Stillwater settlement, and a route anchor (Verdance Road, Pale Coast Sea-Route). Render note: canonical player-safe label in PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md §4. All other references are aliases.
+- **The Pale Sea** — water body plus coastline/route context. Render note: canonical player-safe label in PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md §4. All other references are aliases.
+- **The Greatspine / Sundering Wall** — two range-endpoint rows (one range), two names, plus the Crown Road runs over it. Render note: canonical player-safe label in PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md §4. All other references are aliases.
+- **The Glassmere League** — region row plus Glasswater river rows plus three route anchors. Render note: canonical player-safe label in PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md §4. All other references are aliases.
+- **The Sunder Heights** — highlands row plus the "deep" placeholder sub-region plus a ruins sub-point. Render note: canonical player-safe label in PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md §4. All other references are aliases.
+- **The Greyfens** — wetland row plus travel-hazard/route context. Render note: canonical player-safe label in PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md §4. All other references are aliases.
+- **Hollowmere** — settlement row plus "Hollowmere basin" water row plus a Mirewend river course point (same X,Y). Render note: canonical player-safe label in PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md §4. All other references are aliases.
+- **Saltmere / Saltmere Reaches** — inland-sea water row plus the region row (shared root, shared area; two DISTINCT labels). Render note: canonical player-safe labels in PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md §4. All other references are aliases.
+- **Route-anchor settlements** (Wrackmouth, Caradril, and any settlement named in the Long-Distance Travel-Route Anchor Points table) — must not be re-labeled as separate route-point places. Render note: canonical player-safe label in PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md §4. All other references are aliases.
+
 ## Related Files
 
+- [`PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md`](PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md) (player-safe render label authority)
 - [`FULL_WORLD_MAP_AUTHORITY.md`](FULL_WORLD_MAP_AUTHORITY.md) · [`FULL_WORLD_MAP_LAYERS.md`](FULL_WORLD_MAP_LAYERS.md) · [`FULL_WORLD_MAP_PROMPTS.md`](FULL_WORLD_MAP_PROMPTS.md)
 - [`WORLD_MAP_COORDINATES.md`](WORLD_MAP_COORDINATES.md) (campaign-area grid) · [`WORLD_MAP_AUTHORITY.md`](WORLD_MAP_AUTHORITY.md)

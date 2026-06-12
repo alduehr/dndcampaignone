@@ -25,10 +25,10 @@ For the **campaign-area-only** maps (the most-used play maps), use `WORLD_MAP_PR
 
 > **Style/medium:** Hand-drawn fantasy cartography on aged parchment; ink linework with soft watercolor washes; compass rose, decorative border, and a legend. Palette graded along a cold-to-warm axis: cold greys, peat-browns, and sea-greys in the northwest; greens through the settled center; warm ochres, ash-greys, and obsidian-blacks in the volcanic southeast; warm blues in the southern sea.
 > **Orientation:** North at top, west at left. Compass rose top-right.
-> **Scale reference:** Scale bar reading "approx. 2–3 months' travel corner to corner"; a small inset box in the NW corner labeled "Campaign frontier — see detail map."
+> **Scale reference:** Scale bar reading "approx. 2–3 months' travel corner to corner." The NW campaign frontier (Sundering Reach, Ring 1 regions, Pale Coast, Tollwood, Ashgarden Vale, Caradril) is shown directly on the main continent map, with somewhat higher local detail, NOT as an inset, box, overlay, or separate mini-map.
 > **Area:** The entire continent of **Orrun** (world of **Vael**) — a large continent that tilts from a cold, broken, ruin-strewn **northwest frontier** to a warm, rich, settled **south and southeast**.
 > **Show and label:**
-> - **NW corner (the campaign frontier, drawn as a small high-detail cluster / inset):** the **Sundering Reach** with **Hollowmere** on its dark flooded basin; the **Sunder Heights** (N) below the **Highmark Spine** mountain wall; the **Pale Coast** and **Pale Sea** (W) with **Wrackmouth**; the **Tollwood** (E) with **Hartfell**; the **Ashgarden Vale** (S) with **Orchardmere**; and the city-state **Caradril** at the cluster's SE edge, on the **Verdance** river and **Stillwater**.
+> - **NW corner (the campaign frontier, drawn directly on the main map at somewhat higher local detail — NOT as an inset or box):** the **Sundering Reach** with **Hollowmere** on its dark flooded basin; the **Sunder Heights** (N) below the **Highmark Spine** mountain wall; the **Pale Coast** and **Pale Sea** (W) with **Wrackmouth**; the **Tollwood** (E) with **Hartfell**; the **Ashgarden Vale** (S) with **Orchardmere**; and the city-state **Caradril** at the cluster's SE edge, on the **Verdance** river and **Stillwater**.
 > - **North:** the **Sunder Ocean** along the top; the **Highmark Spine** running NW; the cold **Wender Steppe** (open grassland) beyond the Spine; the jagged **Karran Teeth** range and the **Karran Marches** (NE outlaw frontier).
 > - **Center:** the great **Greatspine / Sundering Wall** cordillera splitting the continent NW–SE; the **Verdance Reaches** and the river-city **Glassmere League** on the **Glasswater** river; the **Hethewood** forest and **Hethewald Free Holds** (E) along the **Hethe** river.
 > - **South-central:** the **Marrowdowns** (chalk downs); the dying inland **Saltmere** sea ringed by the **Ghostmark Range** and the **Bonepan Flats**; the **Saltmere Reaches**.
@@ -36,9 +36,12 @@ For the **campaign-area-only** maps (the most-used play maps), use `WORLD_MAP_PR
 > - **South:** the **Sunmark** (warm forest & sacred groves); the **Mardenflow** river and the **Sallow Marches** delta; the **Sallowmarch Protectorate**; the **Hollow Gulf** and its **Hollow Gulf Ports**.
 > - **A distant labeled ruin-country** in the central-SE: "**the fallen Concord heart — ruins, contested**" (the Concord Heartlands), drawn as broken towers, NOT explained.
 > - **Long-distance routes** as threads: the Verdance Road, the Glasswater Run, the Greatspine Crown Road (marked "contested"), the Salt Road, the Hethe Tollway, the Pale Coast Sea-Route, and dotted South Sea Lanes with edge-arrows "to overseas lands."
+> **Render authority:** Use `PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` as the label authority. Do not generate labels from any other table if they would duplicate a manifest feature. Every feature with `duplicate_rule: render exactly once` must appear no more than once. Route-anchor labels, region-context labels, and alias labels must not be rendered as separate locations unless they have their own canonical manifest entry.
 > **Do NOT show or label:** anything subterranean; node-links or network lines; the Concord Deep; the Under-Shrine/keystone; the Hollow Court; any implication that the far ruins are a "machine"; the interiors of placeholder regions (label + tinted area only, drawn faint).
 > **Color/shading conventions:** campaign NW = crisp detail; far regions = softer, "less-surveyed" linework; rumored ruins (Cindern, Drowned Steps, Saltmere towns, Concord heart) get a faint ominous wash but no explanation.
 > **Dimensions:** landscape, ~3:2 or 16:10 aspect ratio; high resolution for continental label density.
+>
+> **Before generating:** verify labels against Section 4 (canonical feature table) and Section 7 (duplicate-prone audit) of `PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md`. **After generating:** run the Section 8 audit checklist.
 
 ## Prompt 2 — DM-Only Full-World / Full-Continent Map (NEVER SHOW THE PLAYER)
 
