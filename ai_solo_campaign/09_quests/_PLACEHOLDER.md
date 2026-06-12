@@ -6,7 +6,7 @@ This folder will contain quest files, hook tables, rumor tables, and quest index
 
 ## Current Status
 
-**Empty — Stage 0 scaffold.** Initial hooks and rumors will be created during Stage 1. Full quest development during Stages 5 and 10.
+**Active — Stages 1–8 complete.** This folder contains ~83 developed quests across five subfolders, plus hooks/rumors tables and a master quest index. See `QUEST_INDEX.md` for the full inventory.
 
 ## Expected File Types
 

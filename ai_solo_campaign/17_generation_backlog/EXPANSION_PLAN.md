@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0–7 complete (Stage 7 Regional Expansion Ring 1: 2026-06-10).** The campaign now has a deep-built starting region, a first major city (Caradril), a runnable Level 1–4 play arc, and **three fully authored adjacent regions** (Ashgarden Vale, Tollwood, Pale Coast) with settlements, dungeons, quests, NPCs, encounter tables, and travel routes. The world opens outward in multiple directions. **Stage 8 — Faction Deepening is the recommended next pass.**
+**Stages 0–8 complete (Stage 8 Faction Deepening: 2026-06-11).** The campaign now has a deep-built starting region, a first major city (Caradril), a runnable Level 1–4 play arc, three fully authored adjacent regions, and **all seven major factions fully operational** (quest chains, relationship map, faction-turn rules, escalation clocks, solo-play support and threat profiles, D&D-compatible adversary profiles). **Stage 9 — NPC Codex Expansion is the recommended next pass.**
 
 ---
 
@@ -14,10 +14,10 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 | Field | Value |
 |---|---|
-| Stage | 8 — Faction Deepening (recommended next) |
-| Goal | Make all seven major factions fully operational: full quest chains, internal conflict, relationship maps, named members at multiple levels, concrete ignore-behavior tied to world clocks |
+| Stage | 9 — NPC Codex Expansion (recommended next) |
+| Goal | Expand the NPC population toward project targets (50–100 major, 200–500 secondary, 500+ minor); build NPC relationship web, secret ledger, and voice guide; close Ring 1 NPC density gap |
 | Status | Not started |
-| Blocking Issues | None — Stage 7 complete |
+| Blocking Issues | None — Stage 8 complete |
 
 ---
 
@@ -43,23 +43,26 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 **Complete 2026-06-10.** Built three adjacent regions: **Ashgarden Vale** (south — 3 settlements; 3 dungeons; **8 quests**; 10 wilderness sites + 3 hamlets; M2/M5/M6 clue access; 2 clocks V1/V2), **Tollwood** (east — 3 settlements; 3 dungeons incl. gated Old Mast; **8 quests**; 10 wilderness sites; 1 minor regional faction the Tollmen; 2 clocks T1/T2), **Pale Coast** (west — 2 settlements + Saltmargin as gateway; 3 dungeons incl. gated Skerry Shrine; **8 quests**; 10 wilderness sites; M2/M3/M5 sea-shrine clue access; 2 clocks C-PC1/C-PC2). Plus `TRAVEL_ROUTES_RING1.md` (6 routes). **~62 Ring 1 NPCs total (29 secondary + 33 minor)** — below the per-region 30–60 target; Ring 1 NPC density deferred to Stage 9 NPC Codex Expansion. All proper nouns registered. Solo-safe, secrecy-separated, fully indexed/cross-linked. No new central mystery/faction/god/cosmology/artifact.
 
-### Pass 6 — Faction Deepening (Stage 8) — RECOMMENDED NEXT
+### Pass 6 — DONE: Faction Deepening (Stage 8)
 
-- **Goal:** Make all major factions fully operational: full quest chains, internal conflict, relationship maps, named members at multiple levels, and concrete "what they do if ignored" behavior tied to the world clocks.
+**Complete 2026-06-11.** All seven major factions made fully operational. Delivered: 4-quest chains per faction (28 quest files + 7 `_CHAIN_INDEX.md` files in `09_quests/faction_quests/`); "Combat Capability And Stat References" sections with rank-and-file adversary profiles + leader/champion abbreviated stat profiles added to all seven faction files; `FACTION_RELATIONSHIP_MAP.md` (full pairwise table incl. Hollow Court hidden ties) and `FACTION_TURN_RULES.md` (AI DM inter-session faction turn rules) created; `FACTION_INDEX.md`, `FACTION_STATE.md`, and `WORLD_CLOCKS.md` updated. No new proper nouns, central mysteries, gods, cosmology, or artifacts. Hollow Court secrecy fully preserved. All Stage 8 completion criteria met per `DEVELOPMENT_STAGES.md`.
+
+### Pass 7 — NPC Codex Expansion (Stage 9) — RECOMMENDED NEXT
+
+- **Goal:** Expand the NPC population toward project targets (50–100 major, 200–500 secondary, 500+ minor); close Ring 1 NPC density gap (~20/region vs. 30–60 target, esp. Pale Coast and Tollwood); build `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`.
 - **Files to create/edit:**
-  - Expand each file in `07_factions/major_factions/`
-  - Update `07_factions/FACTION_INDEX.md`, `02_runtime_state/FACTION_STATE.md`, `02_runtime_state/WORLD_CLOCKS.md`
-- **Suggested agent:** `faction-weaver`
-- **Completion criteria:** Every major faction can help, hinder, recruit, deceive, or retaliate; every faction has a clock, named members, resources, and a quest chain.
+  - Expand `08_npcs/MAJOR_NPCS.md`, `SECONDARY_NPCS.md`, `MINOR_NPCS.md`, `NPC_INDEX.md`
+  - Create `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`
+- **Suggested agent:** `npc-codex-builder`
+- **Completion criteria:** NPC population substantially broader; Ring 1 density gap closed; relationship/secret/voice tooling exists for the AI DM.
 
 ---
 
 ## Later Expansion (Stages 9–16)
 
-Rough order after the first audit and the passes above:
+Rough order after Stage 8:
 
-1. **Stage 7** — Regional expansion ring 1 (adjacent regions)
-2. **Stage 9** — NPC codex expansion (toward 50–100 major, 200–500 secondary, 500+ minor)
+1. **Stage 9** — NPC codex expansion (toward 50–100 major, 200–500 secondary, 500+ minor) ← **next**
 3. **Stage 10** — Quest library expansion (toward 300–600 hooks)
 4. **Stage 11** — Mystery, secret, and clue expansion (false leads, omens, per-clue files)
 5. **Stage 12** — Dungeons and adventure sites (including the keystone dungeon)
