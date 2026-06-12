@@ -19,6 +19,10 @@ Five ready-to-use prompts for generating **full-continent / full-world** maps of
 
 For the **campaign-area-only** maps (the most-used play maps), use `WORLD_MAP_PROMPTS.md` (the Reach + Ring 1 + Caradril zoom). This file is for the **whole continent**.
 
+> **Generation mode:**
+> - **Prompt 1 is repo-aware** and assumes the renderer can access `PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` for the full canonical feature table, duplicate rules, route geometry, region footprints, and post-generation audit checklist.
+> - **If using an external image model that cannot read repo files**, use `PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md` instead — it is a self-contained copy-paste prompt with all manifest content included directly.
+
 ---
 
 ## Prompt 1 — Player-Safe Full-World / Full-Continent Map (SAFE TO SHOW)
@@ -34,7 +38,7 @@ For the **campaign-area-only** maps (the most-used play maps), use `WORLD_MAP_PR
 > - **South-central:** the **Marrowdowns** (chalk downs); the dying inland **Saltmere** sea ringed by the **Ghostmark Range** and the **Bonepan Flats**; the **Saltmere Reaches**.
 > - **Southeast:** the **Emberfells** (volcanic highlands, ash-plains, vents) and the **Emberfell Theocracy / the Ashfast**; the **Cindern Waste** badland; the **Glass Coast** of black sea-stacks; the warm **Calm Reach** sea.
 > - **South:** the **Sunmark** (warm forest & sacred groves); the **Mardenflow** river and the **Sallow Marches** delta; the **Sallowmarch Protectorate**; the **Hollow Gulf** and its **Hollow Gulf Ports**.
-> - **A distant labeled ruin-country** in the central-SE: "**the fallen Concord heart — ruins, contested**" (the Concord Heartlands), drawn as broken towers, NOT explained.
+> - **A distant labeled ruin-country** in the central-SE: "**Concord Heartlands**" with optional subtitle italic "the fallen Concord heart — ruins, contested," drawn as broken towers, NOT explained. Use "Concord Heartlands" as the primary label — never render only the subtitle as the primary label.
 > - **Long-distance routes** as threads: the Verdance Road, the Glasswater Run, the Greatspine Crown Road (marked "contested"), the Salt Road, the Hethe Tollway, the Pale Coast Sea-Route, and dotted South Sea Lanes with edge-arrows "to overseas lands."
 > **Render authority:** Use `PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` as the label authority. Do not generate labels from any other table if they would duplicate a manifest feature. Every feature with `duplicate_rule: render exactly once` must appear no more than once. Route-anchor labels, region-context labels, and alias labels must not be rendered as separate locations unless they have their own canonical manifest entry.
 > **Do NOT show or label:** anything subterranean; node-links or network lines; the Concord Deep; the Under-Shrine/keystone; the Hollow Court; any implication that the far ruins are a "machine"; the interiors of placeholder regions (label + tinted area only, drawn faint).

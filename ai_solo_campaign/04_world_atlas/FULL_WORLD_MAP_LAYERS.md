@@ -15,7 +15,9 @@ tags: [type:map, secrecy:mixed, function:cartography, layers, orrun, full-contin
 
 Defines the **eight map layers** for the full continent of Orrun. Each is a filtered view of the same base geography (`FULL_WORLD_MAP_COORDINATES.md`). Use this to decide **what to show, label, and hide** when generating a whole-world map, and to keep DM-only geography off player-facing renders. **Layers 2, 4, and 7 are DM-only — never show them to the player.**
 
-**Golden rule:** only **Layer 1**, the player-safe parts of **Layer 6**, the softened player-version of **Layer 5**, and the **Layer 8 inset** (campaign area) may be shown to the player. Everything else is prep-only. `WORLD_MAP_LAYERS.md` remains the layer authority for the **campaign-area zoom**; this file governs the **full continent**.
+**Golden rule:** only **Layer 1**, the player-safe parts of **Layer 6**, the softened player-version of **Layer 5**, and the **Layer 8 standalone zoom map** (campaign area) may be shown to the player. Everything else is prep-only. `WORLD_MAP_LAYERS.md` remains the layer authority for the **campaign-area zoom**; this file governs the **full continent**.
+
+**Important (no inset on the player-safe full-continent map):** the player-safe full-continent map (Prompt 1) is **one continuous map**. The NW campaign frontier is shown directly on the main continent with somewhat higher local detail — **NOT** as an inset, mini-map, overlay, callout map, or "you are here" box. Layer 8 (the campaign-area standalone zoom map) is a **separate** map (Prompt 5); it is **never embedded into Prompt 1**.
 
 ---
 
@@ -94,14 +96,14 @@ Defines the **eight map layers** for the full continent of Orrun. Each is a filt
 - **Hidden:** this layer IS the hidden truth; exists only for DM consistency.
 - **Notes:** the **"map beneath the map" is local and vertical.** Continental far-ruins explain how *big the Concord was on the surface*; they do not move the underground heart, which stays under Hollowmere. Do not let any rendered artifact of this layer leak into player-facing files or prompts.
 
-## Layer 8 — Current Campaign Area Inset Map
+## Layer 8 — Current Campaign Area Standalone Zoom Map
 
-**Audience:** the player + DM (the inset is the day-to-day play map).
+**Audience:** the player + DM (this standalone zoom is the day-to-day play map).
 
 - **Shown:** a **zoomed-in view of the NW cluster** — the Sundering Reach (center) + Ring 1 (Vale S, Tollwood E, Coast W) + Caradril (SE corner) — at the detail of `WORLD_MAP_COORDINATES.md`. All 8 Reach settlements, all Ring 1 hubs/villages, the Greyfens, Sunder Heights, Hollowmere basin, the Mirewend/Ammet, the Pale Sea edge, the named roads and the Coast sea-route, and Caradril as a labeled city.
 - **Labels:** everything on the campaign-area player-safe map (Prompt 3 in `WORLD_MAP_PROMPTS.md`).
 - **Hidden:** subterranean anything, node-links, keystone truth, dungeon depths (identical secrecy to the campaign-area Layer 1).
-- **Notes:** this is the **most-used map in actual play.** On a full-world render it appears as a "you are here" inset box in the NW corner. It is governed by the existing `WORLD_MAP_LAYERS.md` Layer 1 / Prompt 3.
+- **Notes:** this is the **most-used map in actual play.** It is a **separate standalone zoom map (Prompt 5)** — NOT an inset embedded into the player-safe full-continent map (Prompt 1). It is governed by the existing `WORLD_MAP_LAYERS.md` Layer 1 / Prompt 3.
 
 ---
 
@@ -109,11 +111,13 @@ Defines the **eight map layers** for the full continent of Orrun. Each is a filt
 
 | Map prompt (in `FULL_WORLD_MAP_PROMPTS.md`) | Layers used |
 |---|---|
-| 1. Player-safe full-world/continent map | Layer 1 (+ player-safe Layer 6 + softened Layer 5 + Layer 8 inset) |
+| 1. Player-safe full-world/continent map | Layers 1–7 main-continent layers used as player-safe (Layer 1 + player-safe Layer 6 route styling + softened Layer 5 danger styling). **Layer 8 (standalone zoom) is NOT embedded into Prompt 1.** |
 | 2. DM-only full-world/continent map | Layers 1+2+3+4+5+6+7+8 (full) |
 | 3. Parchment full-world map (in-world artifact) | Layer 1 (player-safe; aged/incomplete styling) |
 | 4. Clean functional AI/reference map | Layer 1 base + DM toggles for Layers 2–7 |
-| 5. Current campaign area inset | Layer 8 (= campaign-area Layer 1 / Prompt 3) |
+| 5. Current campaign area standalone zoom map | Layer 8 only (= campaign-area Layer 1 / Prompt 3); a **separate** map, not an inset on Prompt 1 |
+
+> Note: "Layers 1–7 main-continent layers" means the seven continent-scale layers above; for the player-safe Prompt 1 only their player-safe content is rendered (Layers 2, 4, 7 are DM-only and must not appear; Layers 5 and 6 are used in their softened/player-safe form). Layer 8 is the campaign-area standalone zoom and is reserved for Prompt 5.
 
 ## Related Files
 

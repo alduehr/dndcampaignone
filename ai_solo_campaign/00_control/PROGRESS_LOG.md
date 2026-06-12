@@ -6,6 +6,41 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-12 — Cartographic Consistency and Render-Control Audit Pass
+
+### Stage
+Between Stage 8 (complete) and Stage 9 (queued). Cartographic precision pass — no new canon geography.
+
+### Summary
+Audited and tightened full-continent player-safe map generation instructions across seven files. Removed contradictory inset guidance (Layer 8 renamed from "Inset Map" to "Standalone Zoom Map"; all six target files updated). Fixed Verdance river geometry (no longer implies it flows to the Calm Reach; correctly routed to the Pale Sea south of the Pale Coast). Resolved six co-located terrain/region label pairs with explicit priority and stacking rules (Wender Steppe → one label only; Hethewald/Hethewood, Sunmark/Sunmark Wilds, Sallowmarch/Sallow Marches → political first; Emberfells/Emberfell Theocracy → terrain first; Saltmere sea/Saltmere Reaches → two distinct positions). Standardized Concord Heartlands as the primary display label with optional subtitle. Promoted water.saltmere to required priority. Created a self-contained generation packet for external image models. Added generation-mode routing rule to FULL_WORLD_MAP_PROMPTS.md. No new geography, factions, secrets, or lore.
+
+### Files Created
+- `ai_solo_campaign/04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md` — self-contained copy-paste prompt for external image generators (Sections A–K; derived from the render manifest)
+
+### Files Changed
+- `ai_solo_campaign/04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` — river.verdance corrected; all six terrain/region co-located pairs resolved with priority rules in §4; water.saltmere upgraded to required; region.saltmere_reaches render_as updated to text-over-terrain; Concord Heartlands display_label standardized; terrain.wender_steppe_terrain set to omit (visual fill only); §7 co-located pair table added with resolved rules
+- `ai_solo_campaign/04_world_atlas/FULL_WORLD_MAP_PROMPTS.md` — generation-mode routing rule added before Prompt 1; Concord Heartlands label corrected in Prompt 1 body; both changes to Prompt 1 from the previous render-manifest pass retained
+- `ai_solo_campaign/04_world_atlas/FULL_WORLD_MAP_LAYERS.md` — Layer 8 renamed to "Standalone Zoom Map"; inset-on-Prompt-1 language removed; layer-to-prompt mapping updated; clarifying note added
+- `ai_solo_campaign/04_world_atlas/WORLD_MAP_PROMPTS.md` — scope note corrected (removed "embeds this map as its NW inset"; replaced with standalone zoom language)
+- `ai_solo_campaign/00_control/CONTENT_INDEX.md` — FULL_WORLD_MAP_LAYERS and FULL_WORLD_MAP_PROMPTS entries corrected (inset → standalone zoom map)
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md` — both full-world map entries corrected (inset → standalone zoom map)
+- `ai_solo_campaign/00_control/TODO.md` — map generation TODO updated to reference generation packet and standalone zoom language
+
+### Canon Established
+- No new canon. Precision and consistency pass only.
+
+### Indexes Updated
+- CONTENT_INDEX.md (entry wording)
+- RETRIEVAL_GUIDE.md (entry wording)
+
+### Gaps Identified
+- None new.
+
+### Next Recommended Pass
+- Stage 9: NPC Codex Expansion.
+
+---
+
 ## 2026-06-11 — Stage 8: Faction Deepening
 
 ### Stage
@@ -82,7 +117,7 @@ Expanded the cartographic layer from the **northwestern campaign quarter** to a 
 - The 13 continental placeholder regions and 3 overseas landmasses are named/positioned but not deep-built; map images not yet generated; ~86 low-confidence full-continent coordinates pending build-time refinement. (Logged in CONTENT_GAPS/TODO.)
 
 ### Next Recommended Pass
-- Generate map images (FULL_WORLD_MAP_PROMPTS Prompt 5 → Prompt 1 → Prompt 3). Continue the planned stage roadmap (Stage 8 Faction Deepening). Deep-build a continental placeholder region only when play actually approaches it.
+- Generate map images (FULL_WORLD_MAP_PROMPTS Prompt 5 → Prompt 1 → Prompt 3). Continue the planned stage roadmap (Stage 8 Faction Deepening). Deep-build a continental placeholder region only when play actually approaches it. Note: the campaign-area map (Prompt 5) is a separate standalone zoom map, not an inset embedded into the player-safe full-continent map (Prompt 1) — see the 2026-06-12 cartographic consistency pass.
 
 ---
 

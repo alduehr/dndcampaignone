@@ -11,7 +11,7 @@ related: [WORLD_MAP_AUTHORITY.md, WORLD_MAP_COORDINATES.md, WORLD_MAP_LAYERS.md,
 tags: [type:map, secrecy:mixed, function:cartography, image-prompts, orrun, campaign-area]
 ---
 
-> **SCOPE NOTE (read first):** These prompts render the **current campaign area only** — the **northwestern corner cluster** of Orrun (Sundering Reach + Ring 1 + Caradril), NOT the whole continent. Earlier text below calls Prompt 1 a "full-world map"; that label is **historical and now means "campaign-area world map."** For true **full-continent / full-world** maps of Orrun, use **`FULL_WORLD_MAP_PROMPTS.md`** (5 prompts), which embeds this campaign-area map as its NW inset (Prompt 5 there = Prompt 3 here).
+> **SCOPE NOTE (read first):** These prompts render the **current campaign area only** — the **northwestern corner cluster** of Orrun (Sundering Reach + Ring 1 + Caradril), NOT the whole continent. Earlier text below calls Prompt 1 a "full-world map"; that label is **historical and now means "campaign-area world map."** For true **full-continent / full-world** maps of Orrun, use **`FULL_WORLD_MAP_PROMPTS.md`** (5 prompts). The current campaign-area map is a separate standalone zoom map, not an inset embedded into the player-safe full-continent map (Prompt 5 there is the standalone zoom = Prompt 3 here).
 
 ## AI Use
 

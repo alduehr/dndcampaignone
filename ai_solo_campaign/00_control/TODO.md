@@ -28,7 +28,7 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 ## Medium
 
 - [ ] Generate the actual map images
-  - Why it matters: cartographic canon and prompts are ready (campaign-area AND full-continent); the visual maps themselves do not exist yet. **Recommended order:** `FULL_WORLD_MAP_PROMPTS.md` Prompt 5 (campaign-area inset = the day-to-day play map) first; then Prompt 1 (player-safe full continent); then Prompt 3 (parchment artifact to hand the player); then Prompt 2 / Prompt 4-toggle (DM-only). The campaign-area-only prompts in `WORLD_MAP_PROMPTS.md` remain valid for cluster-only renders.
+  - Why it matters: cartographic canon and prompts are ready (campaign-area AND full-continent); the visual maps themselves do not exist yet. **Recommended order:** `FULL_WORLD_MAP_PROMPTS.md` Prompt 5 (campaign-area standalone zoom map = the day-to-day play map; a separate map, not an inset on the player-safe full-continent map) first; then Prompt 1 (player-safe full continent); then Prompt 3 (parchment artifact to hand the player); then Prompt 2 / Prompt 4-toggle (DM-only). The campaign-area-only prompts in `WORLD_MAP_PROMPTS.md` remain valid for cluster-only renders. The player-safe full continent (Prompt 1) is repo-aware via `PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md`; for an external image model that cannot read repo files, use `PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md`.
   - Related files: `04_world_atlas/FULL_WORLD_MAP_PROMPTS.md`, `FULL_WORLD_MAP_COORDINATES.md`, `FULL_WORLD_MAP_LAYERS.md`; `WORLD_MAP_PROMPTS.md` (campaign-area)
   - Suggested agent: world-atlas-builder (or external image tool)
   - Stage: interstitial (post-Stage-7)

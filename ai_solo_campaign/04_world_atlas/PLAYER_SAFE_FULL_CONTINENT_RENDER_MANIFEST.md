@@ -116,15 +116,15 @@ Positions are full-continent grid values from `FULL_WORLD_MAP_COORDINATES.md` (u
 |---|---|---|---|---|---|---|---|---|
 | region.glassmere_league | The Glassmere League | region (placeholder) | 55 | 50 | standard | faint-area | Central river-city league on the Glasswater. Draw faint, label only. | render exactly once; all other references are aliases (shares root with the Glasswater river — keep both full names) |
 | region.marrowdowns | The Marrowdowns | region (placeholder) | 50 | 66 | standard | faint-area | S-central chalk downs. Region and terrain share this position/label; render once. | render exactly once; the chalk-downs terrain and the region are the SAME label — render once |
-| region.saltmere_reaches | The Saltmere Reaches | region (placeholder) | 60 | 70 | standard | faint-area | S-central salt-clan country, ringing the Saltmere inland sea. Distinct from water.saltmere. | render exactly once; all other references are aliases |
-| region.sallowmarch_protectorate | The Sallowmarch Protectorate | region (placeholder) | 58 | 84 | optional | faint-area | S coast, Mardenflow delta. Sits over the Sallow Marches terrain; keep region vs. terrain distinct. | render exactly once; all other references are aliases |
+| region.saltmere_reaches | The Saltmere Reaches | region (placeholder) | 60 | 70 | standard | text-over-terrain | S-central salt-clan country, ringing the Saltmere inland sea. **Render on the surrounding land, not on the water body.** water.saltmere label goes on the water. Do not stack these labels. | render exactly once on the surrounding land; do not place this label on the water body |
+| region.sallowmarch_protectorate | The Sallowmarch Protectorate | region (placeholder) | 58 | 84 | standard | faint-area | S coast, Mardenflow delta. Political label has priority over terrain.sallow_marches text label. If both appear, political label is larger/first; terrain label is smaller italic below or adjacent. Never at the same position. | render exactly once; if space is tight, omit terrain.sallow_marches text label and keep this one |
 | region.hollow_gulf_ports | The Hollow Gulf Ports | region (placeholder) | 66 | 90 | standard | faint-area | S-coast rival port city-states around the Hollow Gulf. Distinct from water.hollow_gulf. | render exactly once; all other references are aliases |
-| region.wender_steppe | The Wender Steppe | region (placeholder) | 46 | 16 | standard | faint-area | N-central nomadic confederacy on the steppe. Region label; the physical steppe is terrain.wender_steppe_terrain. | render exactly once; render the political region label once and the terrain label once, distinct (see notes) |
+| region.wender_steppe | The Wender Steppe | region (placeholder) | 46 | 16 | standard | faint-area | N-central nomadic confederacy on the steppe. **This is the single visible Wender Steppe label.** Do not render "The Wender Steppe (steppe)" or any terrain-type suffix as a separate label. terrain.wender_steppe_terrain uses faint-area fill only (no text). | render exactly once; this is the one visible Wender Steppe label — terrain.wender_steppe_terrain must not add a second text label |
 | region.karran_marches | The Karran Marches | region (placeholder) | 74 | 18 | standard | faint-area | NE outlaw/warlord frontier in the Karran Teeth. Distinct from range.karran_teeth. | render exactly once; all other references are aliases |
-| region.emberfell_theocracy | The Emberfell Theocracy / The Ashfast | region (placeholder) | 80 | 62 | standard | faint-area | SE-central volcanic theocracy. Two names = one region. Distinct from range.emberfells. | render exactly once; the two names are aliases of one region — render one label (may show "/ The Ashfast" as subtitle) |
-| region.concord_heartlands | The fallen Concord heart — ruins, contested | region (placeholder; fallen ruin) | 62 | 56 | standard | faint-area | Central-SE distant ruin-country, astride the Greatspine. Draw as broken towers, UNEXPLAINED. Surface ruin only — never a network/machine. | render exactly once; all other references are aliases |
-| region.hethewald_free_holds | The Hethewald Free Holds | region (placeholder) | 72 | 40 | standard | faint-area | E-central forest free-holds in the Hethewood. Distinct from terrain.hethewood. | render exactly once; all other references are aliases |
-| region.sunmark | The Sunmark | region (placeholder) | 44 | 80 | standard | faint-area | S warm sacred-grove territory. Distinct from terrain.sunmark_wilds. | render exactly once; all other references are aliases |
+| region.emberfell_theocracy | The Emberfell Theocracy / The Ashfast | region (placeholder) | 80 | 62 | optional | faint-area | SE-central volcanic theocracy. Two names = one region. **Range.emberfells is the terrain label (standard priority); this political label is secondary.** Render below or adjacent to the range label; never stack on the same line. | render exactly once; two names are aliases of one region; if space is tight, omit this label and let range.emberfells stand alone |
+| region.concord_heartlands | Concord Heartlands | region (placeholder; fallen ruin) | 62 | 56 | standard | faint-area | Central-SE distant ruin-country, astride the Greatspine. Subtitle (optional italic below): "the fallen Concord heart — ruins, contested." Draw as broken towers, UNEXPLAINED. Surface ruin only — never a network/machine. No DM-only annotations. | render exactly once; subtitle is optional italic; never render only the subtitle as the primary label |
+| region.hethewald_free_holds | The Hethewald Free Holds | region (placeholder) | 72 | 40 | standard | faint-area | E-central forest free-holds in the Hethewood. Political label has priority over terrain.hethewood text label. If both appear, political label is first; terrain label is smaller italic adjacent. Never stacked at the same position. | render exactly once; if space is tight, omit terrain.hethewood text label and keep this one |
+| region.sunmark | The Sunmark | region (placeholder) | 44 | 80 | standard | faint-area | S warm sacred-grove territory. Political label has priority over terrain.sunmark_wilds text label. If both appear, political label is first; terrain label is smaller italic adjacent. Never stacked at the same position. | render exactly once; if space is tight, omit terrain.sunmark_wilds text label and keep this one |
 
 ### Bodies of Water
 
@@ -134,7 +134,7 @@ Positions are full-continent grid values from `FULL_WORLD_MAP_COORDINATES.md` (u
 | water.sunder_ocean | The Sunder Ocean | ocean | 50 | 2 | required | text-over-water | N ocean beyond the Highmark Spine. | render once as a body label; one primary label only |
 | water.calm_reach | The Calm Reach | warm sea | 82 | 92 | required | text-over-water | SE/S warm sea; southern trade heart. | render once as a body label; one primary label only |
 | water.hollow_gulf | The Hollow Gulf | major bay | 66 | 92 | standard | text-over-water | S-coast bay; Mardenflow delta mouth. Distinct from region.hollow_gulf_ports. | render exactly once; all other references are aliases |
-| water.saltmere | The Saltmere | inland salt sea | 60 | 70 | standard | text-over-water | S-central brackish inland sea. Distinct from region.saltmere_reaches. | render exactly once; all other references are aliases |
+| water.saltmere | The Saltmere | inland salt sea | 60 | 70 | required | text-over-water | S-central brackish inland sea. **Render on the water body itself.** Distinct from region.saltmere_reaches (which is rendered on the surrounding land). Do not stack these labels. | render exactly once on the water body; region.saltmere_reaches label goes on the surrounding land, not on the water |
 | water.wracking_straits | The Wracking Straits | strait | 2 | 64 | optional | text-over-water | Far-W narrows toward the open ocean. | render exactly once; all other references are aliases |
 
 ### Mountain Ranges
@@ -150,12 +150,12 @@ Positions are full-continent grid values from `FULL_WORLD_MAP_COORDINATES.md` (u
 
 | feature_id | display_label | type | x | y | label_priority | render_as | notes | duplicate_rule |
 |---|---|---|---|---|---|---|---|---|
-| terrain.hethewood | The Hethewood | forest | 72 | 38 | standard | text-over-terrain | Great eastern forest; the Tollwood is its NW finger. Distinct from region.hethewald_free_holds. | render exactly once; all other references are aliases |
-| terrain.sunmark_wilds | The Sunmark Wilds | forest | 44 | 80 | optional | text-over-terrain | S warm sacred-grove forest. Distinct from region.sunmark. | render exactly once; all other references are aliases |
+| terrain.hethewood | The Hethewood | forest | 72 | 38 | optional | text-over-terrain | Great eastern forest; the Tollwood is its NW finger. **region.hethewald_free_holds is the primary label for this footprint.** Render as smaller italic adjacent to the political label, not stacked on it. Omit if space is tight. | render exactly once; secondary to region.hethewald_free_holds; never stack at the same position |
+| terrain.sunmark_wilds | The Sunmark Wilds | forest | 44 | 80 | optional | text-over-terrain | S warm sacred-grove forest. **region.sunmark is the primary label for this footprint.** Render as smaller italic adjacent to the political label, not stacked on it. Omit if space is tight. | render exactly once; secondary to region.sunmark; never stack at the same position |
 | terrain.cindern_waste | The Cindern Waste | badland | 84 | 66 | optional | text-over-terrain | Ash badland in the Emberfells' rain-shadow. Draw with a faint ominous wash; no explanation. | render exactly once; all other references are aliases |
 | terrain.bonepan_flats | The Bonepan Flats | badland | 56 | 74 | optional | text-over-terrain | Salt-pan badland around the Saltmere. | render exactly once; all other references are aliases |
-| terrain.sallow_marches | The Sallow Marches | wetland | 58 | 84 | optional | text-over-terrain | S-coast deltaic wetland. Distinct from region.sallowmarch_protectorate. | render exactly once; all other references are aliases |
-| terrain.wender_steppe_terrain | The Wender Steppe (steppe) | steppe (terrain) | 46 | 16 | optional | text-over-terrain | The physical cold grass-sea, distinct from the political region.wender_steppe. May share position; label the terrain once and the region once. | render exactly once; the terrain and the political region are co-located but distinct — at most one of each label, do not stack three |
+| terrain.sallow_marches | The Sallow Marches | wetland | 58 | 84 | optional | text-over-terrain | S-coast deltaic wetland. **region.sallowmarch_protectorate is the primary label for this footprint.** Render as smaller italic adjacent, not stacked. Omit if space is tight. | render exactly once; secondary to region.sallowmarch_protectorate; never stack at the same position |
+| terrain.wender_steppe_terrain | (no text label) | steppe (terrain) | 46 | 16 | omit | faint-area | The physical cold grass-sea. **Do NOT render a text label for this terrain.** region.wender_steppe is the single visible Wender Steppe label. This entry exists for visual fill styling only (faint grass-green wash). | render as visual fill only; no text label; do not render "The Wender Steppe (steppe)" or any steppe-type suffix |
 | terrain.mirewend_sinks | The Mirewend Sinks | wetland (boglands) | 28 | 40 | optional | text-over-terrain | Boglands S of the cluster, before the land rises. | render exactly once; all other references are aliases |
 
 ### Overseas Placeholder (off-grid; edge annotation only)
@@ -181,7 +181,7 @@ Routes and rivers use **feature_id anchors** from Section 4, not prose. Draw eac
 | route.hethe_tollway | Hethe Tollway | land route | `region.karran_marches` (74,18) → `water.calm_reach` (80,50 coast) | around (77,34) | Forest-river toll corridor; outlaw-shadowed. |
 | route.pale_coast_sea_route | Pale Coast Sea-Route | sea route | `settlement.wrackmouth` (12,23) → `city.caradril` (34,35) → south | west coast / NW waters | The campaign's fast water-route; continues S past the cluster. |
 | route.south_sea_lanes | South Sea Lanes | sea route | `water.hollow_gulf` (66,90) → off-map overseas | southern sea | Render as dashed arrows with edge annotation "to overseas lands." |
-| river.verdance | Verdance | river | `region.verdance_reaches` (42,42 / upland source 48,46) → `water.stillwater` (34,35) → `water.calm_reach` (sea-mouth direction; NW-quarter mouth at 15,32) | along the river mid-course | NW-quarter great river at Caradril; reaches the Pale Sea S of the Coast. Label once. |
+| river.verdance | Verdance | river | interior/upland source ~(48,46) → city.caradril/water.stillwater (34,35) → Pale Sea mouth ~(15,32) | label near (34,35) or along mid-course | NW-quarter great river at Caradril; reaches the Pale Sea south of the Pale Coast. Label once. |
 | river.glasswater | Glasswater | river | central highlands (Greatspine source 58,40) → `region.glassmere_league` (55,50) → delta at `water.calm_reach` (to Hollow Gulf 64,88) | mid-course near (58,68) | The continent's largest river. Label once; do not duplicate with the Glassmere League label. |
 | river.mardenflow | Mardenflow | river | south-central source (Marrowdowns 52,64) → `terrain.sallow_marches` (58,84) → `water.hollow_gulf` (66,92) | mid-course near (55,76) | Drains the southern plains; floods seasonally. |
 | river.hethe | Hethe | river | `terrain.hethewood` (Karran Teeth source 74,22) → east → `water.calm_reach` (80,50) | mid-course near (78,40) | Eastern trade river; contested for tolls. |
@@ -274,15 +274,22 @@ Each entry below is referenced in **multiple source tables** and could be render
 | Saltmere / Saltmere Reaches | FULL_WORLD_MAP_COORDINATES.md (Bodies of Water row "The Saltmere" + Major Regions row "The Saltmere Reaches"), FULL_WORLD_MAP_AUTHORITY.md §4/§6, Salt Road anchor, REGION_INDEX.md | water: `water.saltmere`; region: `region.saltmere_reaches` | The inland sea and the political region share a name root and a position. Two DISTINCT labels (one water, one region); render each once; do not stack or duplicate. |
 | Route-anchor settlements (Wrackmouth, Caradril, etc.) | FULL_WORLD_MAP_COORDINATES.md (Long-Distance Travel-Route Anchor Points), Section 5 here | their own §4 entries (`settlement.wrackmouth`, `city.caradril`, …) | Settlements named as route endpoints (e.g., Wrackmouth on the Pale Coast Sea-Route; Caradril on Verdance Road) must NOT be re-labeled as separate route-point places. The settlement's single §4 label is the only label. |
 
-Additional co-located distinct pairs to render carefully (one label each, never stacked into three):
-- `region.wender_steppe` (political) vs `terrain.wender_steppe_terrain` (physical) — same area, two distinct labels max.
-- `region.emberfell_theocracy` vs `range.emberfells` — region label and range label are distinct.
-- `region.hethewald_free_holds` vs `terrain.hethewood` — region label and forest label are distinct.
-- `region.sunmark` vs `terrain.sunmark_wilds` — region label and forest label are distinct.
-- `region.sallowmarch_protectorate` vs `terrain.sallow_marches` — region label and wetland label are distinct.
-- `region.hollow_gulf_ports` vs `water.hollow_gulf` — region label and bay label are distinct.
-- `region.karran_marches` vs `range.karran_teeth` — region label and range label are distinct.
-- `region.marrowdowns` — region and chalk-downs terrain are the SAME label; render once only.
+### Co-Located Terrain/Region Pair Resolutions
+
+The following pairs share a footprint. Each has a **resolved priority rule** — follow it exactly:
+
+| Pair | Resolution |
+|---|---|
+| `region.wender_steppe` vs `terrain.wender_steppe_terrain` | **One label only: "The Wender Steppe."** terrain.wender_steppe_terrain = visual fill (faint-area), no text label. Never render "The Wender Steppe (steppe)" or any terrain-type suffix. |
+| `region.hethewald_free_holds` vs `terrain.hethewood` | Political label first (standard). Terrain label optional italic adjacent if space allows. Never stacked at the same position. If tight, omit terrain. |
+| `region.sunmark` vs `terrain.sunmark_wilds` | Political label first (standard). Terrain label optional italic adjacent if space allows. Never stacked at the same position. If tight, omit terrain. |
+| `region.sallowmarch_protectorate` vs `terrain.sallow_marches` | Political label first (standard). Terrain label optional italic adjacent if space allows. Never stacked. If tight, omit terrain. |
+| `region.emberfell_theocracy` vs `range.emberfells` | Terrain/range label first (standard: "The Emberfells"). Political label optional italic below if space allows. If tight, omit political label. |
+| `region.saltmere_reaches` vs `water.saltmere` | **Two distinct labels, distinct positions.** water.saltmere = on the water body (required). region.saltmere_reaches = on the surrounding land (standard). Never stack. |
+| `region.hollow_gulf_ports` vs `water.hollow_gulf` | Region label on the land; bay label on the water. Distinct positions. |
+| `region.karran_marches` vs `range.karran_teeth` | Range label first (line/terrain). Region label faint-area adjacent. |
+| `region.marrowdowns` | Region and chalk-downs terrain are the SAME label — render once only as "The Marrowdowns." |
+| `region.concord_heartlands` | Primary label: "Concord Heartlands." Optional subtitle italic: "the fallen Concord heart — ruins, contested." Never render only the subtitle as the primary label. |
 
 ---
 
