@@ -108,11 +108,16 @@ Each major faction has a 4-quest chain (intro → trust → moral complication �
 
 | Name | File | Tier | Location | Faction | Secrecy | Summary | Tags |
 |---|---|---|---|---|---|---|---|
-| 20 Major NPCs | `08_npcs/MAJOR_NPCS.md` | Major | Reach/Caradril | all | mixed | Full profiles for the 20 foundation NPCs | major-npc |
-| ~65 Secondary NPCs | `08_npcs/SECONDARY_NPCS.md` | Secondary | Reach + Caradril + Ring 1 | all | mixed | Stage 3 Reach + Stage 4 Caradril (15) + Stage 7 Ring 1 (29; +9 in completion pass) NPCs | secondary-npc |
-| ~93 Minor NPCs | `08_npcs/MINOR_NPCS.md` | Minor | Reach + Caradril + Ring 1 | all | mixed | Stage 3 Reach + Stage 4 Caradril (25) + Stage 7 Ring 1 (33; +13 in completion pass) minor NPCs | minor-npc |
+| 50 Major NPCs | `08_npcs/MAJOR_NPCS.md` (+ `08_npcs/by_region/CARADRIL_MAJOR_NPCS.md` + `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md`) | Major | Reach/Caradril/Ring 1 | all | mixed | 20 foundation + 30 Stage 9 (pass-1: Drane, 3 elevated Ring-1 anchors, 8 Caradril majors; pass-2: 18 covering thin Reach settlements, Caradril district gaps, third-majors for thin factions, moral-dilemma/social-play figures) | major-npc, stage-9 |
+| Stage 9 Pass-2 Major NPCs | `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` | Major | Reach/Caradril/Ring 1 | all | mixed | M33–M48 + M49b/M50b (18 new/elevated): mine-lord, bridge-keeper, labor-leader, cult cell-mother, Script-keeper, Sill advocate, relic-auctioneer, Hush broker, undercity guide, Warden dissident, honest Compact authority, Ledger enforcer-captain, physician-sage, Vale magnate, Tollmen boss, Coast reeve, Script-tutor, wrecker-lord | major-npc, stage-9, pass-2 |
+| ~200 Secondary NPCs | `08_npcs/SECONDARY_NPCS.md` (+ `08_npcs/by_region/STAGE_9_SECONDARY_NPCS.md`) | Secondary | Reach + Caradril + Ring 1 | all | mixed | Stage 3/4/7 (64) + Stage 9 (~136: services, authority, faction contacts, witnesses, hook-givers across all regions) | secondary-npc, stage-9 |
+| 521 Minor NPCs | `08_npcs/MINOR_NPCS.md` (+ `08_npcs/by_region/STAGE_9_MINOR_NPCS.md`) | Minor | Reach + Caradril + Ring 1 | all | mixed | Stage 3/4/7 (92) + Stage 9 full-population fill (403 entries, Waves 1–7, all settlements) + far-continent scaffold (26) | minor-npc, stage-9 |
+| Far-continent NPC scaffold | `08_npcs/by_region/FAR_CONTINENT_NPCS.md` | Minor | 12 placeholder regions | mixed | mixed | 26 light horizon-figures (rumor/letter/agent/far-trade hooks); NOT deep-built | minor-npc, placeholder, stage-9 |
+| NPC Relationship Web | `08_npcs/NPC_RELATIONSHIP_WEB.md` | — | all | all | mixed | Death/exposure reactions, faction & settlement clusters, leverage map | npc, relationships, stage-9 |
+| NPC Secret Ledger | `08_npcs/NPC_SECRET_LEDGER.md` | — | all | all | dm-only | Per-NPC secret, secrecy tier, reveal gate, mystery fed | npc, secrets, dm-only, stage-9 |
+| NPC Voice Guide | `08_npcs/NPC_VOICE_GUIDE.md` | — | all | all | mixed | Voice handles + regional/faction speech tendencies + sample lines | npc, voice, stage-9 |
 | Act 1 NPC Guide (Stage 5) | `08_npcs/ACT_1_NPC_GUIDE.md` | — | Reach | all | mixed | Casting guide: existing NPCs as Act 1 allies/patrons/rivals/witnesses/complications + safe re-entry points. No new NPCs | npc, act:1, level:1-4 |
-| (NPC index) | `08_npcs/NPC_INDEX.md` | — | — | — | mixed | Master NPC table (major/secondary/minor; Reach + Caradril) | index |
+| (NPC index) | `08_npcs/NPC_INDEX.md` | — | — | — | mixed | Master NPC table + codex file map (major/secondary/minor/infrastructure) | index |
 
 ---
 

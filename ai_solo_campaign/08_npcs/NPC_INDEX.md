@@ -9,9 +9,74 @@ tags: [index, npc]
 
 ## AI Use
 
-Master table of all NPCs. Full profiles live in `MAJOR_NPCS.md`. Player-safe roles are shown; secrets are DM-only (see profiles). Secondary and minor NPCs are added in Stages 3 and 9.
+Master table of all NPCs. Full profiles live in `MAJOR_NPCS.md` (+ `by_region/CARADRIL_MAJOR_NPCS.md`, `by_region/STAGE_9_MAJOR_NPCS.md`). Player-safe roles are shown; secrets are DM-only (see profiles). **Stage 9 expanded the codex:** new infrastructure (`NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`), **30 new major NPCs (12 pass-1 + 18 pass-2 → 50 total)**, and large secondary (~200) / minor (~521) pools in `by_region/`.
 
-## Major NPCs (20)
+## NPC Codex File Map
+
+| File | Contents |
+|---|---|
+| `MAJOR_NPCS.md` | Foundation 20 majors + Stage 9 majors 21–24 (Drane; elevated Combe/Sennet/Bryd) |
+| `by_region/CARADRIL_MAJOR_NPCS.md` | Stage 9 Caradril majors C25–C32 (council, charter, crime, temple, guild, Remnant) |
+| `by_region/STAGE_9_MAJOR_NPCS.md` | Stage 9 pass-2 majors M33–M48 + M49b/M50b (thin Reach settlements; Caradril district anchors; third majors for thin factions; social/cross-pressure/moral-dilemma figures) |
+| `SECONDARY_NPCS.md` | Stage 3/4/7 secondaries (64) |
+| `by_region/STAGE_9_SECONDARY_NPCS.md` | Stage 9 secondaries (services, authority, contacts, hooks) |
+| `MINOR_NPCS.md` | Stage 3/4/7 minors (~92) |
+| `by_region/STAGE_9_MINOR_NPCS.md` | Stage 9 minor pools (Waves 1–7; all regions; 403 entries) |
+| `by_region/FAR_CONTINENT_NPCS.md` | Placeholder-region horizon-figures (light scaffold) |
+| `NPC_RELATIONSHIP_WEB.md` | Who reacts when an NPC dies/leaves/is exposed; clusters; leverage |
+| `NPC_SECRET_LEDGER.md` | DM-only: each NPC's secret, secrecy tier, reveal gate, mystery fed |
+| `NPC_VOICE_GUIDE.md` | Voice handles, regional/faction speech tendencies, sample lines |
+| `ACT_1_NPC_GUIDE.md` | Act 1 casting guide (Stage 5) |
+
+## Major NPCs (50 total: 20 foundation + 12 Stage 9 pass-1 + 18 Stage 9 pass-2)
+
+> Foundation 20 below; Stage 9 pass-1 majors 21–24 in `MAJOR_NPCS.md`; Caradril majors C25–C32 in `by_region/CARADRIL_MAJOR_NPCS.md`; Stage 9 pass-2 majors M33–M48 + M49b/M50b in `by_region/STAGE_9_MAJOR_NPCS.md`. (M49/M50 are cross-reference notes to existing foundation majors #18 Tomas Brevin and #10 Sister Knell — not new NPCs; the true new count is M33–M48 + M49b + M50b = 18.)
+
+### Stage 9 Pass-2 Major Additions (M33–M50b)
+
+| # | Name | Faction | Location | Public Role | Combat | File |
+|---|---|---|---|---|---|---|
+| M33 | Dredgemaster Osrin Vole | Independent (Ledger-contracted) | Reach/Harrowgast | Mine-lord of the Deep Adit | T2 (resources) | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M34 | Bridge-Keeper Mahalf Dunmore | Independent (toll-family) | Reach/Kettle Bridge | River-crossing power | T2 noncombat | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M35 | Pan-Mother Decca Rull | Independent (labor) | Reach/Saltmargin | Salt-pan labor leader | T2 (mob-mover) | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M36 | Fenwife "Mother Osset" | Gravecallers | Reach/Greyfens | Cult cell-mother | T1 lite | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M37 | Hayward-Elder Tomas Greel | Reachward Compact | Reach/Candlewick | Village head; Script-gate keeper | T2 noncombat | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M38 | Renna Sill | Independent (Sill advocate) | Caradril/the Sill | Refugee/thin-born advocate | T2 noncombat | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M39 | Auctioneer Cassia Mourn | Independent (relic-auction) | Caradril/Ashmarket | Relic-market mistress | T2 (resources) | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M40 | The Bellman | The Hush | Caradril (citywide) | Information apex | T1 lite (vanishes) | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M41 | Delve-Captain Old Pater Dunk | Independent | Caradril/Sunken Wards | Undercity delver-guide | T2 (solo-safety) | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M42 | Warden-Confessor Brother Voss | Ashen Wardens | Reach (roams) | Order's heretic-of-conscience | T2/T1 if pushed | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M43 | Magister-Reeve Sela Coalmont | Reachward Compact | Reach (circuit) | Senior honest Compact authority | T2 (can fight) | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M44 | Collector-Captain Mauld Tallow | Cinder Ledger | Reach (roams) | Ledger enforcer-captain | T1 (high; telegraphed) | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M45 | Doctor Onaia Veen | Independent (physician-sage) | Reach/Ring 1 (circuit) | Frontier physician-scholar | T2 noncombat | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M46 | Ser Aldous Penhew | Independent (Vale magnate) | Vale/Orchardmere | Cross-pressured land-patron | T2 noncombat | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M47 | Toll-Boss Cady Renn | Tollmen | Tollwood/Tollstone Cross | Grey toll-power | T1 lite (telegraphed) | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M48 | Harbor-Reeve Ond Falk | Compact-adjacent | Coast/Wrackmouth | Overwhelmed civic authority | T2 noncombat | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M49 | (Tomas Brevin — see #18) | — | — | cross-ref only (not new) | — | `MAJOR_NPCS.md` #18 |
+| M50 | (Sister Knell — see #10) | — | — | cross-ref only (not new) | — | `MAJOR_NPCS.md` #10 |
+| M49b | Sub-Lector Tamsin Orr | Concord Remnant | Caradril/Lantern Reach | Innocent Script-gate | T2 noncombat | `by_region/STAGE_9_MAJOR_NPCS.md` |
+| M50b | Wreck-Master Tomas Quint | the wreckers | Coast/wild coast | Grey wrecker-predator | T1 (high; telegraphed) | `by_region/STAGE_9_MAJOR_NPCS.md` |
+
+> **Elevations:** M35 (Decca Rull), M37 (Tomas Greel), M38 (Renna Sill), M40 (the Bellman), M41 (Pater Dunk), M47 (Cady Renn), M48 (Ond Falk), M49b (Tamsin Orr), M50b (Tomas Quint) were Stage 3/4/7 **secondaries elevated to major** — their secondary stubs remain in `SECONDARY_NPCS.md`/`STAGE_9_SECONDARY_NPCS.md` for quick reference; the major file holds the full profile. M33, M34, M36, M39, M42, M43, M44, M45, M46 are wholly new.
+
+### Stage 9 Pass-1 Major Additions
+
+| # | Name | Faction | Location | Public Role | Combat | File |
+|---|---|---|---|---|---|---|
+| 21 | Hewett Drane "the Reedwarden" | Independent (fen warlord) | Greyfens | Fen-strongman/toll-warlord | T1 (high in-fen) | `MAJOR_NPCS.md` |
+| 22 | Mother Ezrith Combe | Mourners' Circle | Vale/Orchardmere | Vale's eldest grief-keeper | T2 noncombat | `MAJOR_NPCS.md` |
+| 23 | Goodwife Sennet | Mourners' (forest-elder) | Tollwood/Coldhearth | Forest-elder; bargain-keeper | T2 noncombat | `MAJOR_NPCS.md` |
+| 24 | Salt-Mother Bryd | Mourners' Circle | Coast/Cobble Strand | Salt-and-tide rite-keeper | T2 noncombat | `MAJOR_NPCS.md` |
+| C25 | Magister Otho Brail | Tidewater Council | Caradril | Council swing vote | T2 noncombat | `by_region/CARADRIL_MAJOR_NPCS.md` |
+| C26 | Charter-Lady Imris Vane-Tolm | Charter Houses | Caradril | Reforming junior-House heir | T2 noncombat | `by_region/CARADRIL_MAJOR_NPCS.md` |
+| C27 | Sister-Commander Veil Ansele | Tide-Watch | Caradril | Watch's iron hand | T1 (high; never default) | `by_region/CARADRIL_MAJOR_NPCS.md` |
+| C28 | Hierarch Casmir Vole | Three Thresholds (dissident) | Caradril/Highmourn | Schismatic relic-faith preacher | T2 noncombat | `by_region/CARADRIL_MAJOR_NPCS.md` |
+| C29 | Grandmaster Edrin Cole | craft guilds | Caradril/Crucible | Foundry-guilds overlord | T2 (resources) | `by_region/CARADRIL_MAJOR_NPCS.md` |
+| C30 | Lector-General Sabine Ferrant | Concord Remnant | Caradril/Lantern Reach | Remnant institutional head | T1 boss-class | `by_region/CARADRIL_MAJOR_NPCS.md` |
+| C31 | "Mother" Silque | Salt Syndicate (true head) | Caradril/Sill | Quiet-coin trade's owner | T1 (high if crossed) | `by_region/CARADRIL_MAJOR_NPCS.md` |
+| C32 | Magister Ophir Lensk | Tidewater Council | Caradril | Anti-Reach council bloc head | T2 noncombat | `by_region/CARADRIL_MAJOR_NPCS.md` |
+
+### Foundation Major NPCs (20)
 
 | # | Name | Tier | Faction | Location | Public Role | Combat Tier | File |
 |---|---|---|---|---|---|---|---|
@@ -122,14 +187,34 @@ Full entries in `SECONDARY_NPCS.md` (Ring 1 sections). 29 NPCs across the three 
 | Sgt. Idony Frost | harvest-moot | Vale/Orchardmere | Road-warden captain (cover-up lever) | Veteran |
 | Lay-Sister Petronel | Mourners' Circle | Vale/Saint Veddow's | Sennet's deputy (conscience-lever) | Acolyte/Commoner |
 
-## Minor NPCs (Stage 3 + Stage 4 + Stage 7)
+## Secondary NPCs (Stage 9 expansion)
 
-Full tables by location in `MINOR_NPCS.md`. Stage 3: ~35 named local-color NPCs across the eight Reach settlements and the Ashwalk Rest. Stage 4: 25 named Caradril minor NPCs across the eight city districts. **Stage 7: ~33 named Ring 1 minor NPCs** (20 original + 13 added in the Stage 7 completion pass) across the Vale (Orchardmere, Saint Veddow's, Tilbrook & country), Tollwood (Hartfell, Tollstone Cross, Coldhearth), and Pale Coast (Wrackmouth, Cobble Strand). Promote to Secondary if any becomes important in play.
+Full entries in `by_region/STAGE_9_SECONDARY_NPCS.md` (136 new across all regions in Waves 1–7: services, local authority, faction contacts, witnesses, hook-givers). Covers Reach (Hollowmere/Kettle Bridge/Saltmargin/Greywater/Candlewick/Harrowgast/Ashwalk + roving), a Caradril deepening pass (council/charter/Watch/Ledger/Remnant/temple/guild/Syndicate), and Ring 1 (Vale/Tollwood/Coast). Each carries Tier 2 fallback combat profiles. **Secondary total: 200** (64 Stage 3/4/7 + 136 Stage 9). Note: nine of these stubs were elevated to *major* in pass-2 (Decca Rull, Tomas Greel, Renna Sill, the Bellman, Pater Dunk, Cady Renn, Ond Falk, Tamsin Orr, Tomas Quint) — full profiles now in `by_region/STAGE_9_MAJOR_NPCS.md`; the stubs remain here for quick reference.
+
+## Minor NPCs (Stage 3 + Stage 4 + Stage 7 + Stage 9)
+
+Stage 3/4/7 pools (92) in `MINOR_NPCS.md`. **Stage 9** adds large pools in `by_region/STAGE_9_MINOR_NPCS.md` (Waves 1–7, 403 entries: full-population fill across every authored settlement — bakers, smiths, healers, guards, priests, children, elders, refugees, travelers, criminals, color) plus a **placeholder-region horizon scaffold** in `by_region/FAR_CONTINENT_NPCS.md` (26 light figures for the 12 distant regions). **Minor total: 521** (92 + 403 + 26). Promote to Secondary if any becomes important in play.
+
+> **Counting method (Stage 9 completion pass, 2026-06-12):** countable unique named entries only — table data rows (excluding header/separator rows) and `- **`-prefixed bullets. MINOR_NPCS.md = 92 (116 table rows − 24 headers). STAGE_9_MINOR_NPCS.md = 403 (183 Wave 1–2 table rows [216 − 33 headers] + 220 Wave 3–7 bullets). FAR_CONTINENT_NPCS.md = 26. Major = 50 (24 in MAJOR_NPCS + 8 in CARADRIL_MAJOR + 18 new/elevated in STAGE_9_MAJOR; M49/M50 are cross-refs, not counted). Secondary = ~200 (64 base + 136 Stage 9).
+
+## Infrastructure Files (Stage 9)
+
+- `NPC_RELATIONSHIP_WEB.md` — death/exposure reactions, faction & settlement clusters, leverage map.
+- `NPC_SECRET_LEDGER.md` — DM-only: per-NPC secret, secrecy tier, reveal gate, mystery fed.
+- `NPC_VOICE_GUIDE.md` — voice handles + regional/faction speech tendencies + sample lines.
 
 ## Related Files
 
 - [`MAJOR_NPCS.md`](MAJOR_NPCS.md)
+- [`by_region/CARADRIL_MAJOR_NPCS.md`](by_region/CARADRIL_MAJOR_NPCS.md)
+- [`by_region/STAGE_9_MAJOR_NPCS.md`](by_region/STAGE_9_MAJOR_NPCS.md)
 - [`SECONDARY_NPCS.md`](SECONDARY_NPCS.md)
+- [`by_region/STAGE_9_SECONDARY_NPCS.md`](by_region/STAGE_9_SECONDARY_NPCS.md)
 - [`MINOR_NPCS.md`](MINOR_NPCS.md)
+- [`by_region/STAGE_9_MINOR_NPCS.md`](by_region/STAGE_9_MINOR_NPCS.md)
+- [`by_region/FAR_CONTINENT_NPCS.md`](by_region/FAR_CONTINENT_NPCS.md)
+- [`NPC_RELATIONSHIP_WEB.md`](NPC_RELATIONSHIP_WEB.md)
+- [`NPC_SECRET_LEDGER.md`](NPC_SECRET_LEDGER.md)
+- [`NPC_VOICE_GUIDE.md`](NPC_VOICE_GUIDE.md)
 - [`../07_factions/FACTION_INDEX.md`](../07_factions/FACTION_INDEX.md)
 - [`../02_runtime_state/NPC_MEMORY.md`](../02_runtime_state/NPC_MEMORY.md)

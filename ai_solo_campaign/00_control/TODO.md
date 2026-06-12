@@ -12,15 +12,22 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## High
 
-- [ ] Begin Stage 9: NPC Codex Expansion
-  - Why it matters: Stage 8 (Faction Deepening) is complete. The next scaling step is to expand the NPC population toward the project targets (50–100 major, 200–500 secondary, 500+ minor) so the AI DM rarely invents recurring characters. Faction chains created in Stage 8 reference existing named members at every level; Stage 9 should broaden the supporting cast (esp. Ring 1 regions, which are below the per-region NPC target) and add NPC relationship-web and secret-ledger depth.
-  - Related files: `08_npcs/NPC_INDEX.md`, `MAJOR_NPCS.md`, `SECONDARY_NPCS.md`, `MINOR_NPCS.md`, `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`
-  - Suggested agent: `npc-codex-builder`
-  - Stage: 9
-  - Blocker: none — Stage 8 complete
+- [ ] Begin Stage 10: Quest Library Expansion
+  - Why it matters: Stage 9 (NPC Codex Expansion) is complete (50 major / ~200 secondary / 521 minor; relationship web, secret ledger, voice guide all cover the 50 majors). The next scaling step per `DEVELOPMENT_STAGES.md` is the quest library (25–40 major campaign quests, 75–150 developed quests, 300–600 hooks/rumors/jobs/events), indexed by level/region/faction/type. Stage 8 faction chains + Stage 9 NPC casts give quest-givers, rivals, and patrons to build on.
+  - Related files: `09_quests/`, `CONTENT_INDEX.md`, the (to-be-created) `QUEST_INDEX.md`
+  - Suggested agent: `quest-arc-designer`
+  - Stage: 10
+  - Blocker: none — Stage 9 complete. Recommend a brief Stage 9 continuity audit (secret-leak + naming-collision check on `08_npcs/by_region/`) before or alongside Stage 10.
+
+- [ ] (Recommended) Stage 9 continuity audit before heavy Stage 10 quest-building
+  - Why it matters: Stage 9 added ~360 new named NPCs across many files using shared frontier surname families (Pell, Vane, Wend, Sael, Cole, Vole, Tace, Coalmont, Tallow, Dree, etc.). A focused audit should confirm no exact-duplicate names, no NPCs on nonexistent settlements, and no DM-only secret (Hollow Court / the harvest) leaking into player-safe description fields. The completion pass spot-checked these and found them clean, but a dedicated `canon-continuity-auditor` pass is prudent before quests reference the new cast heavily.
+  - Related files: `08_npcs/by_region/`, `08_npcs/NPC_INDEX.md`, `00_control/NAMING_REGISTRY.md`
+  - Suggested agent: `canon-continuity-auditor`
+  - Stage: 9 (follow-up) / pre-10
 
 ## Completed Recently
 
+- [x] Stage 9: NPC Codex Expansion — 2026-06-12 (pass 1 + pass 2 + completion/cleanup pass). Final counts: **50 major** (24 in `MAJOR_NPCS.md` + 8 in `by_region/CARADRIL_MAJOR_NPCS.md` + 18 new/elevated in `by_region/STAGE_9_MAJOR_NPCS.md`), **~200 secondary** (64 base + 136 in `by_region/STAGE_9_SECONDARY_NPCS.md`), **521 minor** (92 base + 403 in `by_region/STAGE_9_MINOR_NPCS.md` Waves 1–7 + 26 far-continent). Infrastructure (`NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md` [DM-only], `NPC_VOICE_GUIDE.md`) created and now covers all 50 majors. Faction ladders complete at every level; Hollow Court secrecy preserved; no new factions/gods/mysteries/artifacts. Counts reconciled across STAGE_9_PROGRESS / STAGE_STATUS / NPC_INDEX / CONTENT_INDEX.
 - [x] Stage 8: Faction Deepening — 2026-06-11. All seven major factions made fully operational: 4-quest chains per faction (28 quest files + 7 chain indexes in `09_quests/faction_quests/`), "Combat Capability And Stat References" sections with rank-and-file profiles added to all seven faction files, `FACTION_RELATIONSHIP_MAP.md` (full pairwise + Court hidden ties) and `FACTION_TURN_RULES.md` created, `FACTION_INDEX.md`/`FACTION_STATE.md`/`WORLD_CLOCKS.md` updated. No new proper nouns/central mysteries/factions; Hollow Court secrecy preserved.
 
 ---
@@ -63,12 +70,6 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Suggested agent: `encounter-bestiary-designer`
   - Stage: 14
 
-- [ ] Expand Ring 1 NPC density (Stage 9)
-  - Why it matters: Ring 1 delivered ~62 NPCs total (~20 per region) against the 30–60-per-region target. Pale Coast and Tollwood are the thinnest. The AI DM will need to improvise minor locals more than intended.
-  - Related files: `08_npcs/SECONDARY_NPCS.md`, `08_npcs/MINOR_NPCS.md`, `08_npcs/NPC_INDEX.md`, `05_regions/PALE_COAST.md`, `05_regions/TOLLWOOD.md`, `05_regions/ASHGARDEN_VALE.md`
-  - Suggested agent: `npc-codex-builder`
-  - Stage: 9
-
 - [ ] Build standalone Acts 2–5 arc files
   - Why it matters: Stage 6 audit Medium finding. The arc above level 4 exists as shape only; play beyond L4 is not yet runnable in detail.
   - Related files: `12_campaign_arc/`
@@ -91,12 +92,6 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Suggested agent: `world-atlas-builder`
   - Stage: 3+
 
-- [ ] Create `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`
-  - Why it matters: These are quality-of-life tools for managing large NPC populations.
-  - Related files: `NPC_STANDARDS.md`
-  - Suggested agent: `npc-codex-builder`
-  - Stage: 9
-
 - [ ] Resolve any duplicate content between `CLAUDE.md` and `PROJECT_RULES.md`
   - Why it matters: Duplicate rules diverge over time and create confusion.
   - Related files: `CLAUDE.md`, `PROJECT_RULES.md`
@@ -106,12 +101,6 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 ---
 
 ## Post-Stage-4 Follow-Ups
-
-- [ ] Expand Caradril NPC count to approach Stage 4 target (75–100 total city NPCs)
-  - Why it matters: Stage 4 delivered ~40 useful city NPCs (20 major from Stage 1 + 15 secondary + 25 minor); the target was 75–100. Quality over quantity was the right call, but the gap should be closed before heavy city play begins.
-  - Related files: `08_npcs/SECONDARY_NPCS.md`, `08_npcs/MINOR_NPCS.md`, `08_npcs/NPC_INDEX.md`, `06_settlements/caradril_districts/`
-  - Suggested agent: `npc-codex-builder`
-  - Stage: 9 (NPC Codex Expansion)
 
 - [ ] Create `QUEST_INDEX.md` covering all authored quests across stages
   - Why it matters: Quests currently indexed inline in `CONTENT_INDEX.md`; a dedicated QUEST_INDEX would allow faster lookup by level, region, type, and faction as the quest library grows.

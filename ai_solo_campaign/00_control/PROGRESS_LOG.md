@@ -6,6 +6,54 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-12 — Stage 9: NPC Codex Expansion (Pass 1 + Pass 2 — Complete)
+
+### Stage
+Stage 9 — NPC Codex Expansion
+
+### Summary
+Expanded the NPC codex from the 20-major / 64-secondary / ~92-minor baseline to **50 major / ~200 secondary / ~506 minor**, meeting all Stage 9 targets. Created three missing infrastructure files (NPC_RELATIONSHIP_WEB.md, NPC_SECRET_LEDGER.md [DM-only], NPC_VOICE_GUIDE.md). Pass 1 added 12 new majors (fen-warlord Drane; 3 elevated Ring-1 Mourner anchors; 8 Caradril majors) and large secondary/minor waves. Pass 2 added 18 more majors in `STAGE_9_MAJOR_NPCS.md` (M33–M48 + M49b/M50b), filling thin Reach settlements, Caradril district gaps, third-majors for thin factions, and social/cross-pressure/moral-dilemma figures. Faction ladders complete across all 7 major factions; Hollow Court secrecy preserved throughout; no new factions, gods, mysteries, or artifacts created.
+
+### Files Created
+- `ai_solo_campaign/08_npcs/NPC_RELATIONSHIP_WEB.md` — faction/settlement clusters, leverage map, death/exposure reactions
+- `ai_solo_campaign/08_npcs/NPC_SECRET_LEDGER.md` — DM-only: per-NPC secret, secrecy tier, reveal gate, mystery fed
+- `ai_solo_campaign/08_npcs/NPC_VOICE_GUIDE.md` — voice handles, regional/faction speech tendencies, sample lines
+- `ai_solo_campaign/08_npcs/by_region/CARADRIL_MAJOR_NPCS.md` — 8 Caradril majors (C25–C32)
+- `ai_solo_campaign/08_npcs/by_region/STAGE_9_SECONDARY_NPCS.md` — ~136 new secondaries (waves 1–7)
+- `ai_solo_campaign/08_npcs/by_region/STAGE_9_MINOR_NPCS.md` — ~387 new minors (waves 1–6)
+- `ai_solo_campaign/08_npcs/by_region/FAR_CONTINENT_NPCS.md` — ~27 placeholder-region horizon figures
+- `ai_solo_campaign/08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` — 18 pass-2 majors (M33–M48 + M49b/M50b)
+- `ai_solo_campaign/00_control/STAGE_9_PROGRESS.md` — Stage 9 production tracker
+
+### Files Changed
+- `ai_solo_campaign/08_npcs/MAJOR_NPCS.md` — +4 pass-1 majors (Drane; elevated Combe/Sennet/Bryd); Stage 9 secret-ref table
+- `ai_solo_campaign/08_npcs/NPC_INDEX.md` — codex file map + Stage 9 tables + updated counts and links (50 major total)
+- `ai_solo_campaign/00_control/NAMING_REGISTRY.md` — 21 new major NPC names registered (12 pass-1 + 9 pass-2 inc. disambiguation blocks)
+- `ai_solo_campaign/00_control/CONTENT_INDEX.md` — NPC rows updated with correct counts and new files
+- `ai_solo_campaign/00_control/STAGE_STATUS.md` — Stage 9 → complete 100%; Active stage → Stage 10
+
+### Canon Established
+- 50 named major NPCs, each with full profile, secret, and mechanical tier
+- ~200 named secondary NPCs across all authored regions
+- ~506 named minor NPCs (all settlements populated)
+- NPC secret ledger: every major NPC's secret tiered and mystery-linked (DM-only)
+- Voice guide: every major NPC has a voice handle and sample line
+
+### Indexes Updated
+- `08_npcs/NPC_INDEX.md` — master NPC table (50 major + file map)
+- `00_control/CONTENT_INDEX.md` — all Stage 9 NPC files
+- `00_control/NAMING_REGISTRY.md` — all new major NPC names
+
+### Gaps Identified
+- Relationship web covers majors + key secondaries only (by design; minors intentionally not webbed)
+- Secret ledger "Stage 9 Additions" mirror table is partial (new NPCs tagged inline in profiles; full consolidation is optional pre-Stage-11 work)
+- Recommend a canon-continuity audit over Stage 9 by_region/ files before Stage 10 (naming-collision sweep, secret-exposure check)
+
+### Next Recommended Pass
+Stage 10 — Quest Library Expansion (target: 25–40 main campaign quests; 75–150 developed regional/faction quests; 300–600 hooks/rumors/jobs). Optionally run a Stage 9 continuity audit first (`canon-continuity-auditor` agent).
+
+---
+
 ## 2026-06-12 — Cartographic Consistency and Render-Control Audit Pass
 
 ### Stage

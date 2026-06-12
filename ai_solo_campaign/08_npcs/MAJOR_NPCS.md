@@ -292,9 +292,113 @@ The 20 major NPCs of the campaign foundation. **Player-Facing** blocks are safe 
 | 19 | Halla Coalmont | Town's ear; quietly watching Reke for her sister. |
 | 20 | Old Sashe | Mapped the dead's drift toward the shrine. |
 
+---
+
+# Stage 9 — Major NPC Expansion
+
+> These NPCs fill gaps the foundation 20 left open: a non-Ledger/Compact early Reach antagonist, Ring 1 regional anchors elevated to major, and Caradril's full power-structure (council, Charter Houses, crime, temple, guild, Remnant inner circle). **Player-safe blocks are surfaceable; Secret/DM-Only blocks are earned.** Mechanics use reference profiles, not copied stat blocks. Numbering continues 21+.
+
+## 21. Hewett Drane, "the Reedwarden"
+- **Tier:** Major (early Reach antagonist; non-faction). **Faction:** Independent (a self-appointed "protector" with a private armed band). **Location:** The Greyfens' inner channels; a fortified reed-island camp.
+- **First Impression (player-safe):** A huge, soft-voiced fenman in a coat of stitched hides who speaks of the marsh as *his*, and of strangers as guests who haven't yet earned leaving.
+- **Public Role:** A feared fen-strongman who "keeps order" in the lawless Greyfens — part guide, part toll-taker, part warlord; the Compact pretends he doesn't exist.
+- **Voice:** Slow, courteous, possessive; calls the fen "the lady" and everyone "guest."
+- **Motivation (player-safe):** Keep the fens his; profit from anyone crossing them; be the one strong thing in a drowning land.
+- **Secret / True Motivation (DM-Only):** Drane has been quietly **robbing the drowned dead and the failed-rite graves** for grave-goods and "old glass," selling to Gull and the Ledger — and he's started losing men to the drift himself. He half-believes the fen is "feeding," and feeds it bodies to keep his luck. A grubby, dangerous obstacle who sits astride the player's route to the shrine, **not** a Court agent — a frontier predator profiting off the crisis (M3/M5 grit).
+- **Fear:** The fen turning on *him*; being made to leave the only place he matters.
+- **Leverage:** Controls the safest deep-fen channels; holds hostages/debts; knows where Sashe won't go.
+- **What he knows:** The deep-fen routes; which graves he's robbed (M5 evidence); that the dead "drift toward the deep water."
+- **What he wants from the player:** Tribute, service, or to be left alone; failing that, to make an example.
+- **What he can offer:** Deep-fen passage (rival to Sashe), grave-goods, blunt local muscle — at a price and a moral cost.
+- **How he can harm the player:** Ambush in his own marsh; turning fen-folk against them; holding a needed person hostage.
+- **Relationship Links:** Buys from / sells to Gull Heddwyn and (via cutouts) Nessa Coyle/the Ledger; despised by Old Sashe and the Mourners; the Compact ignores him.
+- **Current Attitude:** Territorial, transactional. Tests newcomers; respects strength, punishes disrespect.
+- **Possible Evolution:** A defeated/turned local power who guides the player to the shrine's approaches; a recurring fen-tyrant; or fen-drift fodder himself (his camp found empty).
+- **Mechanics:** **Tier 1 — Berserker/Veteran-like** (AC 15, ~75 HP, two-handed maul + net; Reckless; commands 3–5 **Bandit/Thug-like** fenmen). Solo danger: high *in the fen*, telegraphed (his tolls and reputation precede him); low if met on open road. Noncombat: pay the toll, out-guide him with Sashe, turn his frightened men, expose his grave-robbing to the Mourners. **Scaling:** drop the band / add fen-hazards.
+- **DM-Only Notes:** Use him to make the Greyfens feel *owned* and the route to the shrine *contested* without invoking any major faction. His grave-robbing is a clean M5 evidence source.
+- **Related:** M3, M5; the Greyfens sites; Old Sashe, Gull, the Mourners.
+
+## 22. Mother Ezrith Combe — *(elevated to Major; Ashgarden Vale anchor)*
+> Combe already exists as a secondary in `SECONDARY_NPCS.md`; Stage 9 **elevates** her to major as the Vale's moral anchor and a node of the M6 folk-truth network. Use this fuller profile; the secondary entry remains as a quick-reference stub.
+- **Tier:** Major. **Faction:** Mourners' Circle (eldest, Ashgarden Vale). **Location:** Orchardmere, the Old Circle grave-garden.
+- **First Impression:** A stern, grief-worn old woman with hands stained from washing the dead and eyes that weigh you before you speak.
+- **Public Role:** The Vale's most respected grief-keeper; the one who says aloud what the comfortable Vale would rather not hear.
+- **Voice:** Proverbs and flat truths; "the dead are owed, and the Vale's stopped paying."
+- **Motivation (player-safe):** Let the Vale's dead rest truly; break the cover-up and the relic-fraud.
+- **Secret / True Motivation (DM-Only):** Holds the **fullest Vale version of the "Concord ate the dead" folk-memory** (M6; gated to Act 3) and knows some Mourner elders Reach-wide are stockpiling shrine-breaking resolve. She is the Vale twin of Grandmother Wend, and a key to the "let the dead rest" endings.
+- **Fear:** That the Vale's pride will doom it the way denial doomed the old roads; that the songs die with her.
+- **Leverage:** The Vale's deepest community trust; the old songs.
+- **What she knows:** Every hushed Vale failure; the relic-fraud's blasphemy; the gated folk-truth.
+- **What she wants from the player:** Proof of respect for the dead before she opens the old songs; an honest agent against Tindle's cover-up and Pell's quarrying.
+- **What she can offer:** The Vale Mourner network, the M6 folk-path, moral authority, safe houses among the devout.
+- **How she can harm the player:** Turn the devout Vale against a desecrator; withhold the one path she guards.
+- **Relationship Links:** Kin-in-spirit to Wend (Reach), both Sennets, Bryd (Coast), Mam Tace; at open odds with Tindle and W. Pell; conscience-pull on Frost and Petronel.
+- **Current Attitude:** Watchful, testing. Warmer fast to anyone who honors a grave.
+- **Possible Evolution:** The Vale's conscience and the player's M6 mentor; a martyr if the cover-up turns ugly; or radicalized toward the shrine-breakers.
+- **Mechanics:** **Tier 2 noncombat — Priest-like** (AC 12, ~30 HP; high Insight/Religion; *Cure Wounds, Gentle Repose, Spirit Guardians* if the dead are threatened). Noncombatant by choice.
+- **DM-Only Notes:** She and Wend should *feel* like the same faith across two regions — reuse cadence. Gate her apex song per `REVELATION_MAP.md`.
+- **Related:** M5, M6; Orchardmere, Saint Veddow's; Wend, Bryd, Tindle, W. Pell.
+
+## 23. Goodwife Sennet — *(elevated to Major; Tollwood anchor)*
+> Elevated from secondary. The Tollwood's wisest voice and keeper of the gated deep-wood secret.
+- **Tier:** Major. **Faction:** Mourners' Circle forest-elder. **Location:** Coldhearth, the Elder's Hut, deep in the Tollwood.
+- **First Impression:** A still, ancient woman whose silences carry more than most people's words; the wood seems to listen when she speaks.
+- **Public Role:** Coldhearth's forest-elder and keeper of the old bargain that keeps the deep wood asleep.
+- **Voice:** Spare, weighted; long pauses; "the wood keeps its rules, or it keeps you."
+- **Motivation (player-safe):** Keep the deep wood and her people safe; uphold the bargain (offer at the toll-shrines, never cut the marked trees).
+- **Secret / True Motivation (DM-Only):** Holds the **deep secret of the Old Mast's pre-Concord presence** (gated regional landmark-power, NOT the Hollow Court) and the oblique "the grey lords took the dead before the roads fell" witness (M5/M6, gated). She knows Dorr's cutting and the cult's spread are waking what should sleep.
+- **Fear:** The bargain breaking in her lifetime; the wood's old presence stirring; her people paying for outsiders' greed.
+- **Leverage:** The woodfolk's absolute trust; the only living knowledge of the bargain.
+- **What she knows:** The wood's deep history and rules; the oblique pre-Concord/harvest half-memory; how the cutting and the cult endanger it.
+- **What she wants from the player:** Respect for the wood's rules; help curbing Dorr's deep-cutting and the cult before the bargain fails.
+- **What she can offer:** The Tollwood M5/M6 fragment, safe deep-wood guidance (with Brann), the woodfolk's aid.
+- **How she can harm the player:** Refuse the wood to the disrespectful; the woodfolk close ranks; the guides won't take them deep.
+- **Relationship Links:** Leads the woodfolk; Gethin and Brann defer to her; kin-in-faith to Combe/Bryd/Wend; wary of the sheltered Gravecallers.
+- **Current Attitude:** Reserved, patient, testing respect for "the rules."
+- **Possible Evolution:** The Tollwood's sage-ally on the gated Old Mast path; a casualty if the bargain breaks; the voice that warns of the deep-wood catastrophe.
+- **Mechanics:** **Tier 2 noncombat — Druid/Priest-like** (AC 12, ~33 HP; Nature/Survival/Insight; minor primal magic *Speak with Animals, Entangle, Gust*). Power is knowledge and the wood's regard, not combat.
+- **DM-Only Notes:** Distinct from Mother Sennet of Saint Veddow's (shared surname, different people). The Old Mast presence is a **regional power**, never named as the Court or a new god.
+- **Related:** M5, M6 (gated), Tollwood clocks; the Old Mast; Brann, Combe, Hesk Dorr.
+
+## 24. Salt-Mother Bryd — *(elevated to Major; Pale Coast anchor)*
+> Elevated from secondary. The Coast's rite-keeper and honest maritime mystery-window.
+- **Tier:** Major. **Faction:** Mourners' Circle (Cobble Strand). **Location:** Cobble Strand, the Tide-Shrine, under the Drowned Lamp.
+- **First Impression:** A gaunt, grave woman with salt-cracked hands who looks like she hasn't slept since the tide turned.
+- **Public Role:** Keeper of the salt-and-tide death-rites; the one who settles the sea's drowned dead.
+- **Voice:** Tide-slow, salt-dry, sorrowful; "the sea keeps its own — but it's keeping too many now."
+- **Motivation (player-safe):** Settle the sea's drowned; hold the strand at peace as the drowned-tide rises.
+- **Secret / True Motivation (DM-Only):** Holds the **fullest coastal old songs** — "the Lamps kept the drowned for the Concord" (M5/M6 oblique, gated) — and has watched the drowned "come home" toward the Drowned Lamp faster every season (M5). The Coast's honest M2/M5 window and moral conscience.
+- **Fear:** The day the salt-and-tide rite fails outright and the sea gives back everyone it took.
+- **Leverage:** The only one who can teach the salt-and-tide rite; the coast's deepest trust.
+- **What she knows:** The salt-and-tide rite; the drowned's homing toward the Lamp (M5); the gated old songs (M6).
+- **What she wants from the player:** Respect for the drowned and the rite; help against the wreckers and the relic-trade fouling the dead.
+- **What she can offer:** The salt-and-tide rite (a real tool vs. coastal restless dead), the Coast M5/M6 path, the Mourner network's coastal arm.
+- **How she can harm the player:** Withhold the rite and the songs; turn the devout coast against a desecrator.
+- **Relationship Links:** Kin-in-faith to Wend/Combe/both Sennets; defers to Headman Strand on worldly matters; hates the wreckers (Quint); wary of the Remnant (Voll) and the Wardens' silence (Verge/Sef).
+- **Current Attitude:** Exhausted, grave, testing. Opens to genuine reverence for the dead.
+- **Possible Evolution:** The Coast's conscience and rite-mentor; broken by a mass drowned-tide event; the voice for the "let the sea's dead rest" outcome.
+- **Mechanics:** **Tier 2 noncombat — Priest-like** (AC 12, ~30 HP; Religion/Insight; salt-and-tide rite + *Gentle Repose, Cure Wounds*). Noncombatant.
+- **DM-Only Notes:** The Lamp's "presence" and the drowned-tide are gated **maritime** echoes, never the Court. Keep her songs oblique until Act 3.
+- **Related:** M2, M5, M6 (gated); the Drowned Lamp; Wenna Roke, Mabon Crale, Quint, Verge.
+
+## Quick Secret Reference — Stage 9 Major Additions (DM-Only)
+
+| # | NPC | One-Line Secret |
+|---|---|---|
+| 21 | Hewett Drane | Robs the drowned/failed-rite graves; "feeds the fen" bodies; M3/M5 predator, not Court. |
+| 22 | Ezrith Combe | Fullest Vale "Concord ate the dead" folk-memory (M6, gated). |
+| 23 | Goodwife Sennet | Keeps the gated Old Mast deep secret + oblique pre-harvest witness (M5/M6). |
+| 24 | Salt-Mother Bryd | Fullest coastal old songs ("Lamps kept the drowned for the Concord"); drowned home toward the Lamp (M5/M6). |
+
+---
+
 ## Related Files
 
 - [`NPC_INDEX.md`](NPC_INDEX.md)
+- [`SECONDARY_NPCS.md`](SECONDARY_NPCS.md)
+- [`NPC_RELATIONSHIP_WEB.md`](NPC_RELATIONSHIP_WEB.md)
+- [`NPC_SECRET_LEDGER.md`](NPC_SECRET_LEDGER.md)
+- [`NPC_VOICE_GUIDE.md`](NPC_VOICE_GUIDE.md)
 - [`../07_factions/FACTION_INDEX.md`](../07_factions/FACTION_INDEX.md)
 - [`../03_canon/DM_ONLY_CANON.md`](../03_canon/DM_ONLY_CANON.md)
 - [`../11_mysteries_and_secrets/SECRET_INDEX.md`](../11_mysteries_and_secrets/SECRET_INDEX.md)
