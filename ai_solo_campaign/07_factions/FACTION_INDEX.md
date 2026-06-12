@@ -9,19 +9,27 @@ tags: [index, factions]
 
 ## AI Use
 
-Master list of all factions. Load to find which faction file to open. Public faces are player-safe; hidden agendas are DM-only (see each file's DM-Only section and `../03_canon/DM_ONLY_CANON.md`).
+Master list of all factions. Load to find which faction file to open. Public faces are player-safe; hidden agendas are DM-only (see each file's DM-Only section and `../03_canon/DM_ONLY_CANON.md`). For the full pairwise relationship map see `FACTION_RELATIONSHIP_MAP.md`; for between-session faction behavior see `FACTION_TURN_RULES.md`.
+
+## Stage 8 Faction Deepening Companion Files
+
+| File | Purpose |
+|---|---|
+| `FACTION_RELATIONSHIP_MAP.md` | Full pairwise relationships (every pair + the Hollow Court's hidden ties); blocs for faction turns |
+| `FACTION_TURN_RULES.md` | When/how the AI DM runs faction turns between sessions; clock advancement; rumors; state updates |
+| `../09_quests/faction_quests/[FACTION]/` | Each faction's 4-quest chain (intro → trust → moral complication → internal-conflict decision point) |
 
 ## Major Factions
 
-| Faction | File | Scope | Public Face | Hidden Agenda (DM) | Clock |
-|---|---|---|---|---|---|
-| Ashen Wardens | `major_factions/ASHEN_WARDENS.md` | Reach/Orrun | Lay the restless dead to rest | Unknowing guardians of the seal | The Wardens Break |
-| Cinder Ledger | `major_factions/CINDER_LEDGER.md` | Orrun | Bank/merchants; buy salvage | Monopolize and sell the Remembrance | The Monopoly Closes |
-| Mourners' Circle | `major_factions/MOURNERS_CIRCLE.md` | Reach | Folk grief-faith; tend the dead | Closest to the moral truth; may destroy the shrines | The Circle Turns Militant |
-| Reachward Compact | `major_factions/REACHWARD_COMPACT.md` | Reach | Frontier council/government | Infiltrated; steered to reopen the shrine | The Basin Drains (master infrastructure clock) |
-| Gravecallers | `major_factions/GRAVECALLERS.md` | Reach | Outlawed cult that speaks to the dead | Right about the harvest; would break it catastrophically | The Breaking |
-| Concord Remnant | `major_factions/CONCORD_REMNANT.md` | Orrun/Caradril | Scholars rebuilding the Concord | Inner circle would seize the harvest | The Reclamation |
-| Hollow Court | `major_factions/HOLLOW_COURT.md` | Sundering Reach (under-shrine) | Legend / ghost story | **Apex power: surviving Custodians restarting the harvest** | The Harvest Restarts (MASTER CLOCK) |
+| Faction | File | Scope | Public Face | Hidden Agenda (DM) | Clock | Player can | Quest Chain |
+|---|---|---|---|---|---|---|---|
+| Ashen Wardens | `major_factions/ASHEN_WARDENS.md` | Reach/Orrun | Lay the restless dead to rest | Unknowing guardians of the seal | The Wardens Break | join / aid / ignore | `../09_quests/faction_quests/ASHEN_WARDENS/` (QW1-4) |
+| Cinder Ledger | `major_factions/CINDER_LEDGER.md` | Orrun | Bank/merchants; buy salvage | Monopolize and sell the Remembrance | The Monopoly Closes | work for / oppose / ignore | `../09_quests/faction_quests/CINDER_LEDGER/` (QL1-4) |
+| Mourners' Circle | `major_factions/MOURNERS_CIRCLE.md` | Reach | Folk grief-faith; tend the dead | Closest to the moral truth; may destroy the shrines | The Circle Turns Militant | join / aid / oppose | `../09_quests/faction_quests/MOURNERS_CIRCLE/` (QM1-4) |
+| Reachward Compact | `major_factions/REACHWARD_COMPACT.md` | Reach | Frontier council/government | Infiltrated; steered to reopen the shrine | The Basin Drains (master infrastructure clock) | serve / reform / oppose | `../09_quests/faction_quests/REACHWARD_COMPACT/` (QC1-4) |
+| Gravecallers | `major_factions/GRAVECALLERS.md` | Reach | Outlawed cult that speaks to the dead | Right about the harvest; would break it catastrophically | The Breaking | join / learn from / oppose | `../09_quests/faction_quests/GRAVECALLERS/` (QG1-4) |
+| Concord Remnant | `major_factions/CONCORD_REMNANT.md` | Orrun/Caradril | Scholars rebuilding the Concord | Inner circle would seize the harvest | The Reclamation | study with / expose / join | `../09_quests/faction_quests/CONCORD_REMNANT/` (QR1-4) |
+| Hollow Court | `major_factions/HOLLOW_COURT.md` | Sundering Reach (under-shrine) | Legend / ghost story | **Apex power: surviving Custodians restarting the harvest** | The Harvest Restarts (MASTER CLOCK) | uncover / oppose / (late) join | `../09_quests/faction_quests/HOLLOW_COURT/` (QH1-4, **DM-only**; no early recruit) |
 
 ## Caradril City Factions (Stage 4 — city-internal)
 
@@ -55,6 +63,8 @@ Master list of all factions. Load to find which faction file to open. Public fac
 
 ## Related Files
 
+- [`FACTION_RELATIONSHIP_MAP.md`](FACTION_RELATIONSHIP_MAP.md)
+- [`FACTION_TURN_RULES.md`](FACTION_TURN_RULES.md)
 - [`../03_canon/DM_ONLY_CANON.md`](../03_canon/DM_ONLY_CANON.md)
 - [`../02_runtime_state/FACTION_STATE.md`](../02_runtime_state/FACTION_STATE.md)
 - [`../02_runtime_state/WORLD_CLOCKS.md`](../02_runtime_state/WORLD_CLOCKS.md)

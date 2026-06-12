@@ -6,7 +6,9 @@ Current state of all major factions relative to the player character and relativ
 
 ## Current Status
 
-**Seeded — campaign start baseline (Stage 2).** All seven major factions are at their Stage 1 starting posture, drawn from `../07_factions/FACTION_INDEX.md` and `WORLD_CLOCKS.md`. At campaign start the player is a newcomer: every faction is **unaware of the player as an individual** (except Sefra's hidden patron, who has steered the player here without the player's knowledge). Hidden agendas are DM-only — never narrate them.
+**Seeded — campaign start baseline (Stage 2; confirmed current at Stage 8).** All seven major factions are at their Stage 1 starting posture, drawn from `../07_factions/FACTION_INDEX.md` and `WORLD_CLOCKS.md`. At campaign start the player is a newcomer: every faction is **unaware of the player as an individual** (except Sefra's hidden patron, who has steered the player here without the player's knowledge). Hidden agendas are DM-only — never narrate them.
+
+**Stage 8 note:** all seven factions now have full quest chains (`../07_factions/FACTION_INDEX.md` → quest-chain column), a full pairwise relationship map (`../07_factions/FACTION_RELATIONSHIP_MAP.md`), and between-session behavior rules (`../07_factions/FACTION_TURN_RULES.md`). When running a faction turn, update *this file* (attitude, activity, next action), `WORLD_CLOCKS.md` (clock stages), and `CONSEQUENCES.md` per `FACTION_TURN_RULES.md`. The baseline below is the campaign-start snapshot; it is correct until play begins.
 
 ---
 
@@ -204,3 +206,5 @@ All at Stage 1 (campaign start). Full detail in `WORLD_CLOCKS.md`.
 - [`WORLD_CLOCKS.md`](WORLD_CLOCKS.md)
 - [`CONSEQUENCES.md`](CONSEQUENCES.md)
 - [`../07_factions/FACTION_INDEX.md`](../07_factions/FACTION_INDEX.md)
+- [`../07_factions/FACTION_RELATIONSHIP_MAP.md`](../07_factions/FACTION_RELATIONSHIP_MAP.md)
+- [`../07_factions/FACTION_TURN_RULES.md`](../07_factions/FACTION_TURN_RULES.md)

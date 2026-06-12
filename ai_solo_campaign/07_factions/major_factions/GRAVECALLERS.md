@@ -89,6 +89,9 @@ Persecution; failed rites; the shrine being exposed (basin clock); the radicals 
 ### How The Player Can Slow/Stop/Redirect/Exploit It
 Learn the truth from them; protect them from a purge; talk the radicals down; help them break the harvest *safely* (the hard synthesis path); or expose/stop them if the player fears the catastrophe.
 
+## Faction Quest Chain (Stage 8)
+Full 4-quest chain in `../../09_quests/faction_quests/GRAVECALLERS/` (intro → trust → moral complication → internal-conflict decision point): QG1 A Knock in the Dark → QG2 The Tallow Man's Word → QG3 What the Dead Want → QG4 The Breaking-Tools. On-ramp: `../../09_quests/act_1_quests/Q_ACT1_GRAVECALLER_A_LAST_WORD.md`.
+
 ## Quests Offered By This Faction
 Steal a Concord relic; protect a cell from the watch; carry a message from the dead to the living; help breach a ruin; learn the Gravecaller Knock.
 
@@ -106,6 +109,20 @@ The richest *truth* source in Act 1–2; access to the dead's own testimony; for
 
 ## How They Can Threaten A Solo Player Without Cheap Death
 They can mark the player as an enemy of the dead, send Remembrances to harass, lure the player into the fens, or (radicals) treat the player as an obstacle to "the Breaking." Cole Ashby is the most dangerous.
+
+## Combat Capability And Stat References
+
+The Gravecallers are **few, hidden, and desperate** — grief-mad folk, not warriors, whose true weapons are forbidden knowledge, the ability to call the dead, and (in radical hands) Concord breaking-tools. Solo-PC danger of a confrontation: **moderate** (a cell with the Tallow Man's spectral backup, or a committed Cole Ashby, is dangerous; their numbers are small). Their *catastrophic* danger is shattering a shrine, not winning a brawl.
+
+| Member / type | Profile (reference, not copied) | Notes |
+|---|---|---|
+| **The Tallow Man** (speaker) | Tier 1 — **Cult Fanatic/Warlock-like**, AC 12, ~45 HP, *Speak with Dead* at will, *Hold Person, Spare the Dying, Phantasmal Force*; calls a spectral Remembrance as backup | Avoids cheap death; flees into the fens |
+| **Cole Ashby** (radical) | Tier 1 lite — **Acolyte/Berserker-like** zealot, AC 13, ~30-45 HP (scales) | Dangerous when committed to "the Breaking"; never a cheap-death ambush |
+| **Sister Knell** (recruiter) | Tier 2 noncombat — **Acolyte/Spy-like**, AC 12, ~22 HP, persuasion | Gentle; a conscience-ally |
+| **Gravecaller cultist** (rank-and-file) | **Cultist-like baseline**, AC 12, ~9-16 HP, dagger, *Speak with Dead* (cell rites) | Grieving recruits; fierce in numbers, breaks if their cause is shaken |
+| **Summoned Remembrance** (called dead) | **Specter/Ghost-like**, AC 12-13, ~17-45 HP (scales) | Telegraph; allow social/rite resolution; sorrowful, not mindless |
+
+Scaling: the cult never fields an army — at higher tiers it grows by recruiting the grieving (swelling cells), gains more breaking-tools, and the Tallow Man calls stronger/more numerous Remembrances (Wraith-like at high tiers). Their endgame danger is the *Breaking* (catastrophic shrine-destruction; clock #5 / `QG4`), heavily telegraphed. Adversary stat refs: `../../13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`.
 
 ## Mechanical Notes
 - **The Tallow Man:** Tier 1 — **Cult Fanatic/Warlock-like** (AC 12, ~45 HP, *Speak with Dead* at will, *Hold Person, Spare the Dying, Phantasmal Force*; can briefly call a spectral Remembrance as backup). Avoids cheap death; flees into the fens.

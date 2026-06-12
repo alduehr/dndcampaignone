@@ -191,8 +191,11 @@ These files exist and are loadable as of Stage 3. Always load the minimum needed
 - `11_mysteries_and_secrets/MYSTERY_WEB.md` — full mystery network (DM-only)
 
 ### Factions
-- `07_factions/major_factions/` — load relevant faction file when faction is active in current scene
-- `07_factions/FACTION_INDEX.md` — master table and relationship map
+- `07_factions/major_factions/` — load relevant faction file when faction is active in current scene (each now has a "Combat Capability And Stat References" section + a "Faction Quest Chain" cross-link)
+- `07_factions/FACTION_INDEX.md` — master table; per-faction quest-chain links; "Player can" column
+- `07_factions/FACTION_RELATIONSHIP_MAP.md` — **load when the player's action affects more than one faction**, or when narrating cross-faction ripples (full pairwise map + the Court's hidden ties + blocs)
+- `07_factions/FACTION_TURN_RULES.md` — **load between sessions / at any time-skip** to make factions act when the player isn't watching (clock advancement, rumor generation, state updates, solo-play guardrails)
+- `09_quests/faction_quests/[FACTION]/` — load the faction's quest chain (`_CHAIN_INDEX.md` + 4 quests) when the player aligns with or against that faction. **The Hollow Court chain (`HOLLOW_COURT/`) is DM-only — never surface it; it is paced to the main-arc reveal schedule.**
 
 ---
 

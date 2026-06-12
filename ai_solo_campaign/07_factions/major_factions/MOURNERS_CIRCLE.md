@@ -90,6 +90,9 @@ Failed rites; the shrine reopening; the Ledger buying grave-relics; the Compact 
 ### How The Player Can Slow/Stop/Redirect/Exploit It
 Honor the dead; help with funerals; earn Wend's trust and the old songs; keep relic-buyers out of town; mediate between elders; or *use* their fervor against the harvest (carefully).
 
+## Faction Quest Chain (Stage 8)
+Full 4-quest chain in `../../09_quests/faction_quests/MOURNERS_CIRCLE/` (intro → trust → moral complication → internal-conflict decision point): QM1 The Unwashed Dead → QM2 The Old Songs → QM3 The Buyer at the Graveside → QM4 Salt, Oil, and Iron. On-ramp: `../../09_quests/act_1_quests/Q_ACT1_MOURNER_SALT_AND_SONG.md`.
+
 ## Quests Offered By This Faction
 Recover a body lost in the fens; stop a grave-robber; help a family whose rite failed; learn (and protect) the old songs; investigate the basin-drainage scheme.
 
@@ -107,6 +110,21 @@ Safe harbor in any town, folk-lore and the old songs (major clues), warning of d
 
 ## How They Can Threaten A Solo Player Without Cheap Death
 Social exile, refusal of burial/aid, mob violence (telegraphed), and turning whole towns against the player.
+
+## Combat Capability And Stat References
+
+The Circle's power is **numbers, custom, and mobs**, not trained soldiers — grave-diggers, grieving families, and folk who can shut a town's cooperation or raise a riot. Solo-PC danger of a confrontation: **low individually, moderate-to-high as a mob** (a furious crowd is a telegraphed crowd-hazard, not an ambush). The militant wing's true danger is *catastrophic sabotage* (breaking a shrine), not duels.
+
+| Member / type | Profile (reference, not copied) | Notes |
+|---|---|---|
+| **Grandmother Wend** (eldest) | Tier 2 noncombat — **Priest/Acolyte-like**, AC 11, high Insight/Religion | Non-combatant; commands moral authority |
+| **Bann Oester** (grave-digger / muscle) | Tier 1 lite — **Guard/Thug-like**, AC 14, ~30 HP, heavy spade as a maul | Protective ally or telegraphed brawler |
+| **Iola Wend** (apprentice / bridge) | Tier 3 noncombat — **Commoner/Acolyte-like**, AC 11, ~9 HP | The Gravecaller bridge; not a fighter |
+| **Elder Mabb Tay** (village elder) | Tier 2 noncombat — **Acolyte-like**, AC 11 | Grief-keeper; non-combatant |
+| **Circle grave-digger / griever** (rank-and-file) | **Commoner-to-Guard-like**, AC 10-13, ~9-16 HP, spade/cudgel | A mob, not soldiers; fierce in numbers, breaks if shamed or reasoned with |
+| **Militant elder cell** (radical wing) | **Acolyte/Cultist-like** + Concord breaking-tools | Their threat is sabotage/arson at a shrine, not melee (see clock #4 / `QM4`) |
+
+Scaling: the Circle never becomes an army — at higher stakes it becomes a *Reach-wide mob* (towns refusing cooperation, caravans blocked) and, at its most dangerous, a shrine-breaking force (catastrophic, telegraphed). A mob can overwhelm a lone PC by numbers, so it is always foreshadowed and resolvable by persuasion, law, or de-escalation. Adversary stat refs: `../../13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`.
 
 ## Mechanical Notes
 - **Grandmother Wend:** Tier 2 noncombat (Priest/Acolyte-like, high Insight/Religion). Non-combatant.

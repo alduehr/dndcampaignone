@@ -10,7 +10,9 @@ Track missing or underdeveloped content by category. Use this for category-level
 
 **Stages 0, 1, 2, 3, 4, and 5 complete.** The campaign foundation + AI runtime exist, the starting region is deep-built, the **first major city (Caradril) is deep-built**, and the **Level 1–4 Act 1 play kit (Stage 5) now exists** (open-world arc spine, 6 faction-alignment quests, 5 recurring early-threat profiles, an existing-clue Act 1 access overlay with R1 cap, 9 failure-redirect states, milestone/XP triggers, and an Act 1 NPC casting guide). The campaign now has a frontier sandbox, a mid-game city hub, and a runnable early-game arc.
 
-**Stage 6 (First Full Audit) complete 2026-06-10** — foundation verified sound; 0 Critical, 1 High (fixed inline), 4 Medium, 5 Low. See `../18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`. The gaps below reflect what remains for **Stage 7+ depth and scale** (faction quest chains, the keystone + Caradril dungeon builds, treasure-by-level, the bestiary, Acts 2–5, adjacent regions). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
+**Stage 6 (First Full Audit) complete 2026-06-10** — foundation verified sound; 0 Critical, 1 High (fixed inline), 4 Medium, 5 Low. See `../18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`.
+
+**Stage 8 (Faction Deepening) complete 2026-06-11** — the faction-quest-chain gap is closed: all 7 major factions now have 4-quest chains (intro → trust → moral complication → internal-conflict decision point), rank-and-file "Combat Capability" profiles, a full pairwise relationship map (`FACTION_RELATIONSHIP_MAP.md`), and between-session faction-turn rules (`FACTION_TURN_RULES.md`). The gaps below now reflect what remains for **Stage 9+ depth and scale** (NPC codex expansion, the keystone + Caradril dungeon builds, treasure-by-level, the bestiary, Acts 2–5). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
 
 ---
 
@@ -43,7 +45,9 @@ Track missing or underdeveloped content by category. Use this for category-level
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
 | Seven major factions exist with public face, hidden agenda, leader, members, resources, and a clock each | — (no gap) | — | — | done in Stage 1 |
-| Faction quest chains are not yet fully built out (intro → trust → complication → decision point) | Medium | Repeatable faction play and consequences | Build per-faction quest chains | 8, 10 |
+| ~~Faction quest chains are not yet fully built out (intro → trust → complication → decision point)~~ — **built in Stage 8: all 7 factions have 4-quest chains** in `09_quests/faction_quests/[FACTION]/` (28 quests + 7 chain indexes) | — (no gap) | — | — | done in Stage 8 |
+| ~~Factions lack rank-and-file combat profiles / "Combat Capability" sections~~ — **added in Stage 8** to all 7 faction files | — (no gap) | — | — | done in Stage 8 |
+| ~~No full pairwise faction relationship map / no between-session faction-turn rules~~ — **`FACTION_RELATIONSHIP_MAP.md` + `FACTION_TURN_RULES.md` created in Stage 8** | — (no gap) | — | — | done in Stage 8 |
 | ~~Secondary/minor faction members lack full entries~~ — **all five registered placeholders + ~16 more secondary faction agents created in Stage 3** | — (no gap for the registered set) | — | — | done in Stage 3 |
 | No minor/local factions | Low | Texture in settlements and wilderness | Add minor factions during regional builds | 7+ |
 
@@ -67,7 +71,7 @@ Track missing or underdeveloped content by category. Use this for category-level
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
 | 10 session hooks + 20 rumors exist (Act 1) | — (no gap) | — | — | done in Stage 1 |
-| Developed quest files: **12 (Stage 3) + 11 (Stage 4) + 6 (Stage 5 Act 1) = ~29** (toward 75–150 target); region/city/Act-1 coverage good | Medium | Continue toward target; add faction quest chains | Build per-faction quest chains | 8, 10 |
+| Developed quest files: **12 (Stage 3) + 11 (Stage 4) + 6 (Stage 5 Act 1) + 24 (Stage 7 Ring 1) + 28 (Stage 8 faction chains) = ~81** (within 75–150 target); region/city/Act-1/faction coverage good | Low | Continue toward upper target with regional/personal quests | Stage 10 quest-library expansion | 10 |
 | ~~No fully shaped main-arc Act 1 quest line (level 1–4)~~ — **Act 1 play kit built in Stage 5** (arc spine, 6 faction quests, threats, clue trails, failure states, milestones, NPC guide) | — (no gap) | — | — | done in Stage 5 |
 | Hook/rumor library: **39 hooks + 50 rumors** after Stage 3 (toward 300–600 target) | Medium | Continue toward target with each region/city | Expand hook/rumor library | 10 |
 | ~~Failure states not yet attached to developed quests~~ — **every Stage 3/4/5 quest now has a Failure State + State Updates; Stage 5 added a dedicated `ACT_1_FAILURE_STATES.md` redirect playbook** | — (no gap for Act 1) | — | — | done through Stage 5 |

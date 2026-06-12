@@ -90,6 +90,9 @@ Time; Reke's maneuvering; Ledger funding; the player ignoring Compact politics.
 ### How The Player Can Slow/Stop/Redirect/Exploit It
 Expose Reke; sway Coalmont and the cautious bloc; sabotage the works; rally the Mourners' Circle; win a council vote; or (darkly) help the drainage to reach the shrine first.
 
+## Faction Quest Chain (Stage 8)
+Full 4-quest chain in `../../09_quests/faction_quests/REACHWARD_COMPACT/` (intro → trust → moral complication → internal-conflict decision point): QC1 The Watch Can't Spare a Man → QC2 The Doctored Survey → QC3 The Reed Holms Eviction → QC4 The Basin Vote. The chain is the player's clearest handle on the Basin/master clocks (#2/#1). On-ramp: `../../09_quests/act_1_quests/Q_ACT1_COMPACT_THE_REEVES_DOUBT.md`.
+
 ## Quests Offered By This Faction
 Investigate failed rites "officially"; hunt a fen predator menacing the works; deliver a sealed message to Caradril; mediate a water dispute; guard the drainage site (with hidden consequences).
 
@@ -107,6 +110,22 @@ Legitimate work and pay, legal cover, the town watch as backup, permits and acce
 
 ## How They Can Threaten A Solo Player Without Cheap Death
 Arrest, fines, outlawry, withdrawing the watch's protection, and legal entanglement. Reke can frame or politically isolate the player.
+
+## Combat Capability And Stat References
+
+The Compact's force is the **town watch** — a thin, under-resourced constabulary, not an army. Solo-PC danger of a confrontation: **moderate** (the watch can arrest, fine, and outlaw the player and field a sergeant with a few guards; it cannot wage war). The Compact's real weapons are *law and legitimacy* (arrest, outlawry, withdrawn protection), not battle. Reke's deniable agents are the one lethal-capable arm — telegraphed, never cheap.
+
+| Member / type | Profile (reference, not copied) | Notes |
+|---|---|---|
+| **Reeve Marda Coalmont** (honest reeve) | Tier 2 — **Veteran/Noble hybrid**, AC 15, ~40 HP, can fight if cornered but prefers law | A potential ally |
+| **Councilor Aldous Reke** (infiltrator) | Tier 2 social / Tier 1 forced — **Mage/Spy-like**, AC 12, ~45 HP, *Counterspell, Hold Person, Dimension Door* (higher tiers); partly Remembrance-touched | Flees rather than dies cheaply; telegraph before any fight |
+| **Sergeant Hesk** (watch leader) | **Veteran-like**, AC 16, ~58 HP, multiattack | The watch's best blade; honest |
+| **Clerk Pevin Oss** (records-keeper) | **Commoner**, AC 10, ~9 HP | Non-combatant; hides, never fights |
+| **Bailiff Aldwin Cray** (grey official) | **Noble/Spy-like**, AC 13, ~30 HP | Kettle Bridge; turnable, ambiguous |
+| **Town watchman** (rank-and-file) | **Guard-like baseline**, AC 16, ~11 HP, spear | Thin, under-paid; morale breaks if outmatched or out-talked |
+| **Reke's deniable agent** (hidden arm) | **Spy/Assassin-lite-like**, AC 13-14, ~30-40 HP | Intimidation and "tidying"; prefers to vanish; never cheap-death |
+
+Scaling: the watch does not grow into an army — at higher tiers the Compact's danger is *political* (outlawry, framing, withdrawn protection, a hostile vote) and Reke's deniable agents grow more capable. The player can usually talk, lawyer, or out-vote the Compact rather than fight it. Adversary stat refs: `../../13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`.
 
 ## Mechanical Notes
 - **Marda Coalmont:** Tier 2 noncombat (Veteran/Noble hybrid — can fight if cornered, AC 15, ~40 HP, but prefers law).

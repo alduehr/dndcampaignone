@@ -90,6 +90,9 @@ Time; the player selling relics to the Ledger; the Remnant deal maturing; the sh
 ### How The Player Can Slow/Stop/Redirect/Exploit It
 Outbid or steal relics; expose the Remnant deal; turn Domic against Vyre; default and disappear; or use the Ledger's greed to fund the player's own goals.
 
+## Faction Quest Chain (Stage 8)
+Full 4-quest chain in `../../09_quests/faction_quests/CINDER_LEDGER/` (intro → trust → moral complication → internal-conflict decision point): QL1 The Debt of the Drowned → QL2 The Quiet Buyer → QL3 What the Vault Remembers → QL4 The Factor's Conscience. On-ramp: `../../09_quests/act_1_quests/Q_ACT1_LEDGER_A_QUIET_SALVAGE.md`.
+
 ## Quests Offered By This Faction
 Recover specific salvage; collect a debt; escort a caravan; appraise a relic; quietly acquire a competitor. Good early income for a solo PC.
 
@@ -107,6 +110,21 @@ Loans, gear, information, paid work, and (later) powerful relics for the right p
 
 ## How They Can Threaten A Solo Player Without Cheap Death
 Debt, blacklisting, hired pressure, framing, and turning a town against the player. Economic, social, and legal — not assassination (usually).
+
+## Combat Capability And Stat References
+
+The Ledger is **economically dangerous, not martially** — it prefers to *own* people, not kill them. It fields hired muscle and deniable agents, rarely soldiers. Solo-PC danger of a confrontation: **low-to-moderate** (a few thugs or a deniable killer at most early; the real threat is debt, blacklisting, and framing). The Ledger escalates to lethal force only when cornered and only through deniable proxies — never cheap death.
+
+| Member / type | Profile (reference, not copied) | Notes |
+|---|---|---|
+| **Mother Calla Vyre** (matriarch) | Tier 2 noncombat — **Noble-like**, AC 12, high Insight/Persuasion/Deception, deep resources | Never fights; commands proxies |
+| **Factor Domic Sael** (local face) | Tier 2 noncombat — **Noble/Spy-like**, AC 12, ~22 HP, high Insight | Conscience-lever; non-combatant |
+| **"Tallytooth" Ren** (enforcer) | Tier 1 lite — **Thug/Spy-like**, AC 13-14, ~30 HP, intimidation, sneak strike | Threatens, rarely kills; turnable |
+| **Provost Anneth Vell** (Caradril deputy) | **Spy/Veteran-like**, AC 14, ~40 HP | Vyre's loyal Caradril hand; protects the Keep |
+| **Ledger collector / hired tough** (rank-and-file) | **Thug-like baseline**, AC 12, ~22 HP, Intimidation, club/sap | Deniable muscle; morale breaks when out-matched or unpaid |
+| **Ledger caravan guard** (rank-and-file) | **Guard/Veteran-like**, AC 14-16, ~22-45 HP, spear/crossbow | Protects shipments and the vault; professional, not fanatical |
+
+Scaling: at higher tiers the Ledger hires *better* (Veterans, a deniable Assassin-like agent for "tidying"), buys watch/Tide-Watch complicity, and weaponizes contracts and debt rather than fielding armies. Its endgame danger is wealth and reach (`Q_THE_QUAY_CHARTER`, `Q_THE_SEALED_ARCHIVE`), not battle. Adversary stat refs: see `../../13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md` and `CARADRIL_ENCOUNTERS.md`.
 
 ## Mechanical Notes
 - **Calla Vyre:** Tier 2 noncombat (Noble-like, high Insight/Persuasion, deep resources). Non-combatant.

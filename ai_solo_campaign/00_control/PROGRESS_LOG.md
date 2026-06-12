@@ -6,6 +6,46 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-11 — Stage 8: Faction Deepening
+
+### Stage
+Stage 8 — Faction Deepening.
+
+### Summary
+Made all seven major factions fully operational campaign engines. Built a 4-quest chain for every faction (intro hook → trust-building → moral complication → internal-conflict decision point), added a "Combat Capability And Stat References" section with rank-and-file adversary profiles to every faction file, authored two new cross-faction files (a full pairwise relationship map including the Hollow Court's hidden ties, and between-session faction-turn rules), and wired the chains into the runtime clocks and state. The Hollow Court keeps its DM-only secrecy: no early recruit quest by design — its chain is an opposition-and-revelation arc paced to the main-arc reveal schedule. No new proper nouns, central mystery, major faction, god, cosmology, or artifact were created; all content reuses existing NPCs, clocks (#1–#10, C1–C3, regional), and mysteries (M1–M9), with reveals capped per the revelation map.
+
+### Files Created
+- `07_factions/FACTION_RELATIONSHIP_MAP.md` — full pairwise relationship map (every open-faction pair + the Court's hidden ties + blocs/triangles for faction turns)
+- `07_factions/FACTION_TURN_RULES.md` — when/how the AI DM runs faction turns between sessions; clock advancement; rumor generation; state updates; solo-play guardrails; per-faction cheat-sheet
+- `09_quests/faction_quests/ASHEN_WARDENS/` — `_CHAIN_INDEX.md` + QW1 The Empty Cloak, QW2 Salt and Ash, QW3 The Rite That Won't Take, QW4 The Oath and the Doubt
+- `09_quests/faction_quests/CINDER_LEDGER/` — `_CHAIN_INDEX.md` + QL1 The Debt of the Drowned, QL2 The Quiet Buyer, QL3 What the Vault Remembers, QL4 The Factor's Conscience
+- `09_quests/faction_quests/MOURNERS_CIRCLE/` — `_CHAIN_INDEX.md` + QM1 The Unwashed Dead, QM2 The Old Songs, QM3 The Buyer at the Graveside, QM4 Salt, Oil, and Iron
+- `09_quests/faction_quests/REACHWARD_COMPACT/` — `_CHAIN_INDEX.md` + QC1 The Watch Can't Spare a Man, QC2 The Doctored Survey, QC3 The Reed Holms Eviction, QC4 The Basin Vote
+- `09_quests/faction_quests/GRAVECALLERS/` — `_CHAIN_INDEX.md` + QG1 A Knock in the Dark, QG2 The Tallow Man's Word, QG3 What the Dead Want, QG4 The Breaking-Tools
+- `09_quests/faction_quests/CONCORD_REMNANT/` — `_CHAIN_INDEX.md` + QR1 The Visiting Scholar's Errand, QR2 The Reader of Ruins, QR3 The Idealist and the Archivist, QR4 The Reclaimers' Gambit
+- `09_quests/faction_quests/HOLLOW_COURT/` — `_CHAIN_INDEX.md` + QH1 The Hand That Moves the Vote, QH2 The Probe's Own Strings, QH3 The Court Beneath, QH4 The Fate of the Remembrance (all **DM-only**)
+
+### Files Changed
+- All 7 `07_factions/major_factions/*.md` — added "Combat Capability And Stat References" sections (rank-and-file adversary profiles + scaling) and "Faction Quest Chain (Stage 8)" cross-links
+- `07_factions/FACTION_INDEX.md` — Stage 8 companion-files section; per-faction "Player can" + quest-chain columns; related-files links
+- `02_runtime_state/FACTION_STATE.md` — Stage 8 note (chains/relationship-map/turn-rules wired in); related-files links
+- `02_runtime_state/WORLD_CLOCKS.md` — Stage 8 faction-chain levers table (which Q*4 decision-point sets which clock); related-files links
+- Tracking: `CONTENT_INDEX.md`, `TAG_INDEX.md`, `STAGE_STATUS.md`, `TODO.md`, `CONTENT_GAPS.md`, `NAMING_REGISTRY.md`, `RETRIEVAL_GUIDE.md`
+
+### Canon Established
+- No new world facts. Faction motives, relationships, and clocks unchanged from established canon — only deepened with authored quest structure and rank-and-file mechanical profiles. Hollow Court remains DM-only with no early recruit path.
+
+### Indexes Updated
+- `CONTENT_INDEX.md` (faction-quest-chains section + status), `TAG_INDEX.md` (new files + `faction-quest`/`quest-chain`/`faction-turn`/`relationships` tags), `FACTION_INDEX.md`, `STAGE_STATUS.md`, `RETRIEVAL_GUIDE.md`.
+
+### Gaps Identified
+- Ring 1 regions remain below the per-region NPC target (carried to Stage 9). Faction-quest chains reference existing named members; broadening the supporting cast is Stage 9 work.
+
+### Next Recommended Pass
+- Stage 9 — NPC Codex Expansion (broaden secondary/minor NPCs toward targets; NPC relationship web + secret ledger; Ring 1 cast).
+
+---
+
 ## 2026-06-11 — Full-World Cartographic Expansion Pass
 
 ### Stage

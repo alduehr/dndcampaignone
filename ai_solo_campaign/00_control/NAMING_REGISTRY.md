@@ -10,6 +10,8 @@ Master registry of all proper nouns used in the campaign. Check this file before
 
 > **Stage 7 naming disambiguation:** "Pell" is a common frontier surname for several distinct minor figures (Warden Pell [Reach Ashen Warden, secondary]; Pell Oster [Saltmargin salt-warden, minor]; Factor Wymar Pell [Vale Ledger, secondary]; Ale-wife Pell [Tollstone Cross, minor]) — always keep epithet/role. "Sennet" names two distinct elders: **Mother Sennet** (Saint Veddow's shrine-keeper) and **Goodwife Sennet** (Coldhearth forest-elder) — always qualify by location. **Wren-of-the-Wood** (Coldhearth minor guide) is distinct from major NPC **Wren Hollowmere** — always use the full epithet. "Pilgrim Goodman Sael" (Saint Veddow's minor) is distinct from "Domic Sael" (Ledger major) and "Sael Brunt" (Tilbrook secondary) — given name only; keep surnames.
 
+> **Stage 8 (Faction Deepening) — no new proper nouns.** Stage 8 made all seven major factions operational (4-quest chains, rank-and-file "Combat Capability" profiles, `FACTION_RELATIONSHIP_MAP.md`, `FACTION_TURN_RULES.md`). It introduced **no new named NPCs, factions, faction sub-groups, places, gods, artifacts, or setting terms** — only generic rank-and-file adversary *types* (e.g. "Warden Initiate", "Ledger collector / caravan guard", "Circle grave-digger", "town watchman", "Gravecaller cultist", "Remnant scholar / Reclaimer agent", "leaked Remembrance"), which are descriptive role-types, not registered proper nouns. All named faction members referenced already exist in `08_npcs/`. Quest titles and file names are not registered proper nouns.
+
 ## Rules
 
 - Check this registry before naming anything major.

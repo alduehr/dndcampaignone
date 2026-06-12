@@ -90,6 +90,9 @@ Failures outpacing Wardens; Wardens dying or quitting; the Compact ignoring Othe
 ### How The Player Can Slow/Stop/Redirect/Exploit It
 Help with rites; recruit aid for the Wardens; protect Othetha; pressure the Compact to fund them; or (darkly) exploit their collapse to access the shrine.
 
+## Faction Quest Chain (Stage 8)
+Full 4-quest chain in `../../09_quests/faction_quests/ASHEN_WARDENS/` (intro → trust → moral complication → internal-conflict decision point): QW1 The Empty Cloak → QW2 Salt and Ash → QW3 The Rite That Won't Take → QW4 The Oath and the Doubt. On-ramp: `../../09_quests/act_1_quests/Q_ACT1_WARDEN_THE_TRUE_RITE.md`.
+
 ## Quests Offered By This Faction
 Lay a specific restless dead; escort a Warden through the Greyfens; recover rite-salt from the Pale Coast; investigate why a town's rites keep failing. (Hooks in `09_quests/HOOKS_TABLE.md`.)
 
@@ -107,6 +110,20 @@ A Warden ally is the campaign's gentlest **solo-safety patron**: rite knowledge,
 
 ## How They Can Threaten A Solo Player Without Cheap Death
 Social/moral pressure, refusal of aid, exposure of the player's grave-meddling to a town. Not assassins.
+
+## Combat Capability And Stat References
+
+The Wardens are a **non-militant order** — their power is ritual, mobility, and moral authority, not force. They are the least dangerous faction in a fight and the safest patron for a solo PC. Solo-PC danger of a confrontation: **low** (the player almost never has cause to fight Wardens; if they do, Wardens defend and flee rather than kill).
+
+| Member / type | Profile (reference, not copied) | Notes |
+|---|---|---|
+| **Warden Sister Othetha** (leader) | Tier 2 noncombat — **Priest-like**, AC 13, ~33 HP, high Insight/Religion, *Cure Wounds, Lesser Restoration, Gentle Repose, Spirit Guardians* | Non-combatant unless cornered; flees/defends |
+| **Warden Brother Hale** (companion) | Companion — **Priest/Acolyte-like**, AC 13, ~22-27 HP, *Cure Wounds, Bless, Sacred Flame*; *Spirit Guardians* at higher tiers | Supports, never solves fights; scales modestly |
+| **Warden Pell** (veteran, secondary) | **Acolyte/Veteran hybrid**, AC 14, ~30 HP, can fight defensively if pushed | The order's rare martial-capable member |
+| **Hospitaller Warden Sirrin** (quartermaster) | Tier 2 noncombat — **Acolyte-like**, AC 13, ~22 HP | Logistics, not combat |
+| **Warden Initiate** (rank-and-file) | **Acolyte-like baseline**, AC 12, ~13 HP, *Sacred Flame, Cure Wounds (1/day)*, the true rite | The order's foot-soldiers; ritualists, not warriors; morale breaks fast in violence |
+
+Scaling: Wardens do not "level up" as combatants — at higher tiers they gain stronger *rite* and *protective* magic (Spirit Guardians, Death Ward, Gentle Repose), never offensive power. A Warden ally's value is solo-safety (healing, rites, warnings), not damage. Their "weapons" against the player are social and moral (see Threat Profile), not blades.
 
 ## Mechanical Notes
 - **Brother Hale (companion/ally):** use a **Priest-like profile** (AC 13, ~27 HP, *Bless, Cure Wounds, Sacred Flame, Spirit Guardians* at higher tiers), noncombatant-leaning; scales modestly. Avoid letting him solve fights.

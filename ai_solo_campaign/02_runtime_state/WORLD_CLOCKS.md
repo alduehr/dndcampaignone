@@ -194,9 +194,28 @@ Six regional clocks for the Ring 1 regions (Ashgarden Vale, Tollwood, Pale Coast
 
 *None yet.*
 
+## Stage 8 Faction-Chain Levers
+
+The seven faction quest chains (`../07_factions/FACTION_INDEX.md` → quest-chain column) are the player's primary, authored ways to advance, slow, or redirect these clocks. The decision-point capstone of each chain (Q*4) sets that faction's posture and its clock for the endgame:
+
+| Clock | Chain decision-point that most directly sets it |
+|---|---|
+| 1 Harvest Restarts (MASTER) | QC4 The Basin Vote (via #2); QH3/QH4 (the Court) |
+| 2 The Basin Drains | QC4 The Basin Vote; QC3 Reed Holms Eviction |
+| 3 The Wardens Break | QW4 The Oath and the Doubt |
+| 4 The Circle Turns Militant | QM3 / QM4 Salt, Oil, and Iron |
+| 5 The Breaking (Gravecallers) | QG3 / QG4 The Breaking-Tools |
+| 6 The Monopoly Closes | QL4 The Factor's Conscience |
+| 7 The Reclamation | QR4 The Reclaimers' Gambit |
+| 8 The Steering Unravels | QH2 The Probe's Own Strings |
+
+Run faction turns (and advance/slow clocks off-screen) per `../07_factions/FACTION_TURN_RULES.md`.
+
 ## Related Files
 
 - [`FACTION_STATE.md`](FACTION_STATE.md)
 - [`CONSEQUENCES.md`](CONSEQUENCES.md)
 - [`../07_factions/FACTION_INDEX.md`](../07_factions/FACTION_INDEX.md)
+- [`../07_factions/FACTION_RELATIONSHIP_MAP.md`](../07_factions/FACTION_RELATIONSHIP_MAP.md)
+- [`../07_factions/FACTION_TURN_RULES.md`](../07_factions/FACTION_TURN_RULES.md)
 - [`../12_campaign_arc/MAIN_ARC_OVERVIEW.md`](../12_campaign_arc/MAIN_ARC_OVERVIEW.md)

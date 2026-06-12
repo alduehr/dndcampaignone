@@ -12,12 +12,16 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## High
 
-- [ ] Begin Stage 8: Faction Deepening
-  - Why it matters: Stage 7 is complete. All seven major factions need full quest chains, internal conflict, relationship maps, named members at multiple levels, and concrete "what they do if ignored" behavior tied to world clocks.
-  - Related files: `07_factions/major_factions/`, `FACTION_INDEX.md`, `02_runtime_state/FACTION_STATE.md`, `WORLD_CLOCKS.md`
-  - Suggested agent: `faction-weaver`
-  - Stage: 8
-  - Blocker: none — Stage 7 complete
+- [ ] Begin Stage 9: NPC Codex Expansion
+  - Why it matters: Stage 8 (Faction Deepening) is complete. The next scaling step is to expand the NPC population toward the project targets (50–100 major, 200–500 secondary, 500+ minor) so the AI DM rarely invents recurring characters. Faction chains created in Stage 8 reference existing named members at every level; Stage 9 should broaden the supporting cast (esp. Ring 1 regions, which are below the per-region NPC target) and add NPC relationship-web and secret-ledger depth.
+  - Related files: `08_npcs/NPC_INDEX.md`, `MAJOR_NPCS.md`, `SECONDARY_NPCS.md`, `MINOR_NPCS.md`, `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`
+  - Suggested agent: `npc-codex-builder`
+  - Stage: 9
+  - Blocker: none — Stage 8 complete
+
+## Completed Recently
+
+- [x] Stage 8: Faction Deepening — 2026-06-11. All seven major factions made fully operational: 4-quest chains per faction (28 quest files + 7 chain indexes in `09_quests/faction_quests/`), "Combat Capability And Stat References" sections with rank-and-file profiles added to all seven faction files, `FACTION_RELATIONSHIP_MAP.md` (full pairwise + Court hidden ties) and `FACTION_TURN_RULES.md` created, `FACTION_INDEX.md`/`FACTION_STATE.md`/`WORLD_CLOCKS.md` updated. No new proper nouns/central mysteries/factions; Hollow Court secrecy preserved.
 
 ---
 

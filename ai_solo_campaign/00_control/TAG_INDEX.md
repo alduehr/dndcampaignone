@@ -6,7 +6,7 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stages 1, 2, 3, 4, and 5 complete.** Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region Deep Build + Stage 4 First Major City Deep Build (Caradril) + **Stage 5 Level 1–4 Play Arc**. Stage 4 added the Caradril files (see `region:caradril`). **Stage 5 added:** `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `ACT_1_MILESTONES.md`, `ACT_1_FAILURE_STATES.md`; `09_quests/act_1_quests/` (6 faction quests); `13_encounters_and_bestiary/ACT_1_THREATS.md`; `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`; `08_npcs/ACT_1_NPC_GUIDE.md`. New tag introduced: `act:1`. All Stage 5 files registered below. No active content files remain placeholder-only; future-stage placeholder files (`_PLACEHOLDER.md`) still exist by design as structural anchors. Stage 6 (first full audit) is complete. **Stage 7 (Regional Expansion Ring 1) is complete:** the three adjacent regions (Ashgarden Vale, Tollwood, Pale Coast) added 3 region files, 8 settlements, 3 wilderness files, 9 dungeons, 3 encounter tables, 6 hooks/rumors files, 20 developed quests, 40 NPCs (in the existing NPC files), 1 minor regional faction (the Tollmen), and `04_world_atlas/TRAVEL_ROUTES_RING1.md`. New tags introduced: `ring-1`, `region:ashgarden-vale`, `region:tollwood`, `region:pale-coast`. All Stage 7 files registered below. **Full-World Cartographic Expansion pass (post-Stage-7):** added 4 full-continent atlas files (`FULL_WORLD_MAP_AUTHORITY/COORDINATES/LAYERS/PROMPTS.md`); new tags introduced: `full-continent` (and `campaign-area` to disambiguate the existing `WORLD_MAP_*` files). Both sets are registered under `type:map / function:cartography`.
+**Stages 1, 2, 3, 4, and 5 complete.** Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region Deep Build + Stage 4 First Major City Deep Build (Caradril) + **Stage 5 Level 1–4 Play Arc**. Stage 4 added the Caradril files (see `region:caradril`). **Stage 5 added:** `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `ACT_1_MILESTONES.md`, `ACT_1_FAILURE_STATES.md`; `09_quests/act_1_quests/` (6 faction quests); `13_encounters_and_bestiary/ACT_1_THREATS.md`; `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`; `08_npcs/ACT_1_NPC_GUIDE.md`. New tag introduced: `act:1`. All Stage 5 files registered below. No active content files remain placeholder-only; future-stage placeholder files (`_PLACEHOLDER.md`) still exist by design as structural anchors. Stage 6 (first full audit) is complete. **Stage 7 (Regional Expansion Ring 1) is complete:** the three adjacent regions (Ashgarden Vale, Tollwood, Pale Coast) added 3 region files, 8 settlements, 3 wilderness files, 9 dungeons, 3 encounter tables, 6 hooks/rumors files, 20 developed quests, 40 NPCs (in the existing NPC files), 1 minor regional faction (the Tollmen), and `04_world_atlas/TRAVEL_ROUTES_RING1.md`. New tags introduced: `ring-1`, `region:ashgarden-vale`, `region:tollwood`, `region:pale-coast`. All Stage 7 files registered below. **Full-World Cartographic Expansion pass (post-Stage-7):** added 4 full-continent atlas files (`FULL_WORLD_MAP_AUTHORITY/COORDINATES/LAYERS/PROMPTS.md`); new tags introduced: `full-continent` (and `campaign-area` to disambiguate the existing `WORLD_MAP_*` files). Both sets are registered under `type:map / function:cartography`. **Stage 8 (Faction Deepening):** added `07_factions/FACTION_RELATIONSHIP_MAP.md` and `FACTION_TURN_RULES.md`, and the `09_quests/faction_quests/[FACTION]/` chains (28 quests + 7 chain indexes). New tags introduced: `faction-quest`, `quest-chain`, `faction-turn`, `relationships`, `decision-point`, `moral-complication`.
 
 > Caradril file membership is consolidated under **`region:caradril`** (Region Tags section) for fast retrieval; individual files also appear under their type/secrecy/status tags.
 
@@ -109,6 +109,17 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `07_factions/major_factions/CONCORD_REMNANT.md`
 - `07_factions/major_factions/HOLLOW_COURT.md`
 - `07_factions/FACTION_INDEX.md`
+- `07_factions/FACTION_RELATIONSHIP_MAP.md` (Stage 8; full pairwise map)
+- `07_factions/FACTION_TURN_RULES.md` (Stage 8; between-session behavior)
+
+### faction-quest (Stage 8 — per-faction 4-quest chains)
+- `09_quests/faction_quests/ASHEN_WARDENS/` (QW1–QW4 + `_CHAIN_INDEX.md`)
+- `09_quests/faction_quests/CINDER_LEDGER/` (QL1–QL4 + `_CHAIN_INDEX.md`)
+- `09_quests/faction_quests/MOURNERS_CIRCLE/` (QM1–QM4 + `_CHAIN_INDEX.md`)
+- `09_quests/faction_quests/REACHWARD_COMPACT/` (QC1–QC4 + `_CHAIN_INDEX.md`)
+- `09_quests/faction_quests/GRAVECALLERS/` (QG1–QG4 + `_CHAIN_INDEX.md`)
+- `09_quests/faction_quests/CONCORD_REMNANT/` (QR1–QR4 + `_CHAIN_INDEX.md`)
+- `09_quests/faction_quests/HOLLOW_COURT/` (QH1–QH4 + `_CHAIN_INDEX.md`; **dm-only**)
 
 ### type:quest
 - `09_quests/HOOKS_TABLE.md`
@@ -723,18 +734,25 @@ When an AI DM or production agent needs to find content of a certain type, searc
 
 ### faction:ashen-wardens
 - `07_factions/major_factions/ASHEN_WARDENS.md`
+- `09_quests/faction_quests/ASHEN_WARDENS/` (QW1–QW4 chain)
 ### faction:cinder-ledger
 - `07_factions/major_factions/CINDER_LEDGER.md`
+- `09_quests/faction_quests/CINDER_LEDGER/` (QL1–QL4 chain)
 ### faction:mourners-circle
 - `07_factions/major_factions/MOURNERS_CIRCLE.md`
+- `09_quests/faction_quests/MOURNERS_CIRCLE/` (QM1–QM4 chain)
 ### faction:reachward-compact
 - `07_factions/major_factions/REACHWARD_COMPACT.md`
+- `09_quests/faction_quests/REACHWARD_COMPACT/` (QC1–QC4 chain)
 ### faction:gravecallers
 - `07_factions/major_factions/GRAVECALLERS.md`
+- `09_quests/faction_quests/GRAVECALLERS/` (QG1–QG4 chain)
 ### faction:concord-remnant
 - `07_factions/major_factions/CONCORD_REMNANT.md`
+- `09_quests/faction_quests/CONCORD_REMNANT/` (QR1–QR4 chain)
 ### faction:hollow-court
 - `07_factions/major_factions/HOLLOW_COURT.md` (dm-only)
+- `09_quests/faction_quests/HOLLOW_COURT/` (QH1–QH4 chain; dm-only)
 
 ---
 

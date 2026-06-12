@@ -92,6 +92,9 @@ Time; the player feeding them relics/knowledge; the Ledger deal; the shrine bein
 ### How The Player Can Slow/Stop/Redirect/Exploit It
 Expose Quorrin to the idealist rank-and-file; deny them relics; learn Concord Script from Briss and beat them to the truth; turn them against the Hollow Court; or join them (a dark path).
 
+## Faction Quest Chain (Stage 8)
+Full 4-quest chain in `../../09_quests/faction_quests/CONCORD_REMNANT/` (intro → trust → moral complication → internal-conflict decision point): QR1 The Visiting Scholar's Errand → QR2 The Reader of Ruins → QR3 The Idealist and the Archivist → QR4 The Reclaimers' Gambit. On-ramp: `../../09_quests/act_1_quests/Q_ACT1_REMNANT_THE_VISITING_SCHOLAR.md`.
+
 ## Quests Offered By This Faction
 Recover a specific Concord relic or text; escort a scholar into a ruin; translate a found inscription; deliver an archive to Caradril (with hidden strings).
 
@@ -109,6 +112,22 @@ The key to **reading Concord Script** (a major clue gate), access to archives, s
 
 ## How They Can Threaten A Solo Player Without Cheap Death
 Withhold translation; discredit the player academically; sabotage the player's standing in Caradril; and (Reclaimers) send agents to silence the player — telegraphed, escalating.
+
+## Combat Capability And Stat References
+
+The Remnant are **scholars first** — their power is knowledge (Concord Script, archives, relics), not arms. The rank-and-file are antiquarians and idealists who barely fight; the inner-circle Reclaimers, however, field deniable agents and a genuinely dangerous archmage-class leader, and will *kill to protect their secret*. Solo-PC danger: **low for the public face, high for the inner circle late-game** (Quorrin is a boss-class rival). Always telegraphed; never cheap death.
+
+| Member / type | Profile (reference, not copied) | Notes |
+|---|---|---|
+| **Archivist Quorrin Vane** (inner-circle leader) | Tier 1 boss — **Mage/Archmage-like** scaled to tier, AC 12-15, ~60-110 HP, *Counterspell, Wall of Force, Sending, Scrying*; Remembrance-relic one-offs | Late-game rival; wins by knowledge; never a cheap ambush |
+| **Lector Briss** (public face) | Tier 2 noncombat — **Scholar/Acolyte-like**, AC 11, ~16 HP | Non-combatant; an ally if disillusioned |
+| **Sub-Lector Tamsin Orr** (Script tutor) | Tier 2 noncombat — **Acolyte/Scholar-like**, AC 11 | Idealist; turnable ally |
+| **Keeper-Archivist Wessel Dree** (Reclaimer gatekeeper) | **Spy/Veteran-like**, AC 14, ~40 HP, guards the Sealed Archive | A Reclaimer enforcer; cold |
+| **Veska Dunn** (Reach field-agent) | **Scout/Spy-like**, AC 14, ~30 HP | Leads relic crews; the keystone push |
+| **Remnant scholar** (rank-and-file) | **Commoner/Acolyte-like baseline**, AC 11, ~9 HP | Idealist dupes; non-combatant |
+| **Reclaimer agent** (inner-circle muscle) | **Spy/Mage-apprentice-like**, AC 13, ~30-45 HP, a relic or two | Will silence threats to the secret; telegraphed, escalating |
+
+Scaling: the Remnant grows more dangerous as the player nears its secret — idealist scholars give way to Reclaimer agents and, finally, Quorrin himself (a Tier-1 boss tuned to L10-13). Its endgame danger is *seizing the harvest* (clock #7 / `QR4`), not field battle. Adversary stat refs: `../../13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md` and `SUNDERING_REACH_ENCOUNTERS.md`.
 
 ## Mechanical Notes
 - **Quorrin Vane:** Tier 1 — **Mage/Archmage-like** scaled to tier (AC 12–15, ~60–110 HP across tiers, *Counterspell, Wall of Force, Sending, Scrying*; uses Remembrance relics for one-off effects). A late-game rival; never a cheap-death ambush. Prefers to win by knowledge.
