@@ -169,6 +169,94 @@ One-line handles for the most reusable secondary NPCs (full entries in `SECONDAR
 
 ---
 
+## Stage 9.5 — Far-Continent Major NPC Voices
+
+> The 44 far-continent majors (12 placeholder regions). Each region has a *cultural voice base* (use it for unlisted locals there); the majors below carry their own tells on top. Format: **speech pattern** · *emotional tells* · negotiation style · sample line.
+
+### Regional voice bases (far continent)
+- **Verdance Reaches** — river-trade practical; "up-river / down-river"; money, tolls, water-levels.
+- **Concord Heartlands** — ruin-haunted gravity; "the Crown," "the old hands," "the work that ate them."
+- **Glassmere League** — confident, cosmopolitan, mercantile; "the floor," "good paper," polite condescension.
+- **Hethewald** — spare, free-proud, rule-bound; "the holds answer to no crown," "the wood's own law."
+- **Hollow Gulf** — warm, brash, polyglot, sea-superstitious; "the lanes," "the warm trade," "Surren-side."
+- **Saltmere** — spare, salt-dry, fatalistic, clan-proud; "the going-down," "the drowned ones," "the white flats."
+- **Emberfell** — fervent, formal, fire-imaged, certain; "the Pyre," "the unburnt," "ash to ash."
+- **Sallowmarch** — two registers: stiff imperial formality (occupiers) vs. soft wet marsh-fatalism (delta-folk).
+- **Marrowdowns** — orderly, old-fashioned, custom-bound; "the shire," "the moot," "the old barrows."
+- **Wender Steppe** — NON-Orrun; horse-and-sky imagery, kin-names, proud plain directness; "the long grass," "the Sky."
+- **Karran Marches** — hard, blunt, strength-respecting; "the holds," "the strong hand," "the deep dark," "old iron."
+- **Sunmark** — warm, gentle, grove-imaged, reverent, slow; "the green," "the grove-keepers," "the old green memory."
+
+### Verdance Reaches
+- **Wessel Crane** — quiet, unhurried, surgical, clean ledgered sentences. *Stress shows as deeper calm, never heat; a longer pause = a worse price.* Prices you exactly and never blinks first. "Down-river thinks small. Tell me what you actually want."
+- **Lord Ennis Marrow** — blustering, status-anxious, ancestor-dropping. *Turns wheedling the instant money or threat appears; flinches at "debt."* Bluffs grandly, folds fast. "Do you know how long the Marrows have held these locks?"
+- **Mossa Drenn** — brisk, profane, river-shrewd; measures all in water and weather. *Stress = clipped, fewer words, eyes on the water.* Names a fair price once, won't haggle twice. "Up-river's two weeks if the locks behave. Down-river I don't run no more — bad water."
+- **Hadwin Vael** — eager, over-precise, prone to lecturing. *Excitement runs away with him; fear makes him whisper and glance over his shoulder.* Trades knowledge for knowledge, hungrily. "You've *seen* a live node? Tell me everything."
+
+### Concord Heartlands
+- **Hollin Vane** — imperious, visionary, certain; speaks of "restoring what was lost." *Doubt shows as sharper certainty; he does not concede.* Offers grand purpose, brooks no haggling. "The Concord did not die. It was *interrupted*. We will finish the sentence."
+- **Lyssa Crownmouth** — terse, dry, command-hardened. *Weighs you as a future corpse; warmth is rationed and earned.* Deals in what helps the town, not coin. "Crownmouth's rules keep you alive. The Crown's rules just kill you slower."
+- **Father Casian Ord** — soft, sorrowful, scripture-worn fraying toward raw. *His reassurance keeps slipping toward heresy mid-sentence; he weeps easily.* Asks, never bargains. "The Door is *stuck*, friend — and I have begun to wonder if we should be the ones to open it."
+- **"Old Crown" Mab** — laconic, dry, riddling; warnings as proverbs. *Unflappable; the rare crack of doubt about the Crown "changing" is chilling.* States her fee, expects you to listen. "The Crown lets you in easy. Coming out's the toll."
+
+### Glassmere League
+- **Oren Glass** — warm, expansive, flattering, never quite committing. *Stress hides under smoother charm; a name forgotten = real alarm.* Turns every talk toward mutual use. "The League has always had room for useful friends. Tell me — what are you, exactly?"
+- **Sefwy Holt** — precise, cool, economical; risk-return-leverage; rare dry wit. *Almost no tell; she prices risk in real time behind her eyes.* Says exactly what she means and no more. "The Ledger thinks it owns the north. I think it has overextended."
+- **The Glass Ear (via cut-outs)** — mild, deferential, maddeningly indirect; every answer a question. *No tells — the broker is never in the room.* Everything is a commodity to be traded. "My principal might be persuaded to share it. What do you carry to trade?"
+- **Mareth Senn** — measured, erudite, quietly imperious; "the work," "the inheritance." *Pride bristles when her authority is questioned.* Trades interpretation for findings, on her terms. "The frontier finds things. *We* decide what they mean."
+- **Mother Wenna Lowwater** — soft, grave, song-laced, half-sung cadence. *Unafraid of the powerful; sorrow deepens, never anger.* Asks respect for the dead, not coin. "The League counts coins. We count the dead. Only one of those numbers comes due."
+
+### Hethewald Free Holds
+- **Bram Hethe** — spare, grave, proverb-laced; speaks for "the holds." *Few words; a longer silence = deeper distrust.* Weighs you against the wood's law before any deal. "The holds answer to no crown. We answer to the wood, and the wood remembers."
+- **Onn Greenward** — soft, song-laced, forest-slow, grove-rite cadence. *Patient, unafraid; her sorrow is ancient and steady.* Asks respect for the grove and the dead. "We sing the dead down, and the wood keeps them — when the bargain holds. Lately... the wood is hungry."
+- **"Greenfinger" Maddoc** — charming, theatrical, mock-courteous; robs you politely. *Genuine amusement; the smile thins when his lieutenant is named.* Loves a clever deal, respects nerve. "The Hethe's free — for those who pay its keepers. Shall we discuss the rate, or the alternative?"
+
+### Hollow Gulf Ports
+- **Ive Calder** — warm, commanding, mercantile-shrewd; flatters and prices together. *Bold proposals light her up; northern "ghost stories" bore her visibly.* Loves a bold wager with good terms. "The Gulf made me, and I made Calderport. Tell me what a hard northerner wants — and what you'll pay."
+- **Roke Mallin** — bold, profane, theatrical, sea-superstitious; spins tales. *Bravado covers real curiosity when the north comes up.* Every meeting is a wager. "The lanes are mine, the Crow is fast. Sail with me or sail careful — your pick."
+- **Doss Saltgate** — clipped, proud, scornful of Calderport. *Cold; the one heat is hatred of his rival.* Courts you as a tool against Calder. "Calder calls herself first of the Gulf. Saltgate will outlive her. Which side of that would you rather be on?"
+- **Sera Mardenmouth** — soft, tide-slow, song-and-saint-laced. *Calm and unafraid; dread shows only as deeper stillness.* Asks respect for the sea-dead, not coin. "The Gulf forgets its dead between cargoes. We remember. The sea remembers longest of all."
+- **Hadiz of Surren** — courteous, melodious, faintly amused by Orrun's parochialism. *Unflappable; curiosity is his one giveaway.* Trades goods and lore with old-world poise. "You northerners think Orrun is the world. There is *so* much you do not know."
+
+### Saltmere Reaches
+- **Bryd Saltmere** — spare, grave, fatalistic-proud; speaks for "the clans." *Weight in every word; no wasted emotion.* Asks respect for the drowned dead, gives little. "The lake is taking us back, town by town. We hold what we can and we don't ask why."
+- **Drowned-Town Delver Oss** — dry, sardonic, secretive; gives nothing free. *A guarded, haunted look when the drowned dead "move."* Mercenary; names a price and a partner-cut. "The clans say leave the drowned be. The clans are starving on principle. I eat what the lake gives up."
+- **Salt-Mother Tess Brackhold** — soft, dirge-slow, salt-and-song-laced. *Deep old sorrow; unafraid.* Asks remembrance, not coin. "We have sung the drowned down since the going-down. Lately the song doesn't hold them."
+
+### Emberfell Theocracy
+- **Vole Cindra** — formal, oracular, fire-imaged, unshakably certain. *Certainty hardens under pressure; the one crack is the Mountain's "growing wrath."* Commands rather than bargains; demands no threat to the Pyre. "Your northern dead linger because you bury them like seeds of rot. We give ours to the Pyre."
+- **Sef Embren** — clipped, hard, scripture-edged; threats as liturgy. *Zealot's stillness; grim alarm at the Waste's stirring breaks through.* Offers compliance or the Pyre, little else. "Cross into the Waste and you are unburnt already, outlander."
+- **Mira Cindra** — double-layered: orthodox in public, probing alone. *Curiosity straining against fear; she drops her voice when honest.* Trades forbidden knowledge in secret, at deadly risk. "The Mountain's will is not to be questioned... and yet the works *change*."
+- **Doss Ashfast** — blunt, practical, faith-as-formality; talks ore not theology. *Nervy when the wardens or his "ash-touched" crews come up.* Pragmatically corrupt; coin talks. "The Mountain provides, the priests say. *I* dig it out. Coin is coin, even here."
+
+### Sallowmarch Protectorate
+- **Vorr Sallow** — clipped, imperial, weary-formal; administration and disdain. *Deep fatigue under the cold courtesy; sweats and resents the climate.* Bargains from tired authority. "The Protectorate maintains the crown's peace, roads, and revenue. *You* — explain your business."
+- **Doll Fenn** — soft, dry, marsh-fatalistic, kind beneath. *Clinical calm; a flicker of real worry at the "unsettled dead."* Trades cures and trust, not coin. "The fever's fair — it takes the crown's men and the fen-folk alike. Now, what ails you?"
+- **"Heron" Maddox** — soft, patient, marsh-sly, never wasted; silence does half the talking. *Stillness; you never see him move first.* Quiet menace, dry humor; respects nerve. "The crown's boats draw three feet. The Channels run two. I go where the crown can't."
+- **Mother Sela Reed** — soft, wet, song-and-charm-laced, marsh-slow. *Sorrow as wide as the water; unafraid.* Asks respect for the delta's dead. "The fen takes so many we sing them down by the hundred. Lately... some don't go down."
+
+### Marrowdowns
+- **Aldous Penmark** — measured, courteous, custom-citing, fair. *Conservative discomfort at "change he can't control."* Deals by precedent and good manners. "We do things by custom in the shire — old custom, tested custom. Mind it, and you're welcome."
+- **Senna Crale** — soft, grave, song-and-custom-laced, downs-slow. *Knowing sorrow; patient certainty against the shire's denial.* Asks care for the old dead. "The shire blames robbers. But the *songs* say what wakes the old dead — and it's not spades."
+- **Doss Wether** — smooth, scholarly-roguish, self-justifying; theft in antiquarian dress. *Increasingly uneasy; charm thins when the barrow-dead "get up."* Charming and mercenary. "The barrows are *history*. Better I rescue it than let it rot under the chalk."
+
+### Wender Steppe
+- **Tamur Wend-Khar** — plain, proud, sky-and-horse-imaged, direct; courteous to guests, blunt with raiders. *Few words, much weight; honor is absolute.* Trades guest-honor and fair dealing. "You come as guest? Then you are kin while you ride with us."
+- **Wind-Singer Esha** — sung, fey, sky-imaged, unhurried; omen and wind-metaphor. *Eerie, kind, far-seeing; dread is sung, not spoken.* Trades omen-lore for truth. "The Sky has gone *thin* in the south. Something pulls at the dead down there, like wind through torn felt."
+- **Borr of the Black Horse** — bold, mocking, raid-proud, sky-defiant; scorns "tame talk." *Bravado masks unease at the seers' omens; theatrical fury.* Demands tribute or sport; respects strength. "The Black Horse *takes*. Which are you, settled-one — prey, or sport?"
+
+### Karran Marches
+- **"Iron" Brask** — blunt, hard, contemptuous of weakness, oddly honest. *Says exactly what he means; no treachery, no softness.* Deals straight, expects the same. "The Marches have no law but the strong hand, and mine's the strongest. Deal straight, fight straight."
+- **Mully Karr** — brisk, blunt, trade-shrewd, dryly funny; weights and grades. *Watchful; pays "strange prices" for old iron and won't say why.* Fair but ruthless bargainer. "Iron's iron — I pay for the grade, not the story. The *old* iron... I don't ask why it's strange."
+- **Wenna Stone** — clipped, pragmatic, scholar-soldier; little idealism, much hunger. *Tiring of the cost; doubt growing toward fear of the works.* Trades hands-for-access, half-disillusioned. "The forts are full of dead that won't lie still. I lose people every season. But the order says so."
+
+### Sunmark
+- **Sael Sunmark** — warm, slow, grove-imaged, reverent; speaks of the green as kin. *Confident, unafraid; a clear eye for those who'd take from the green.* Offers sanctuary, asks respect. "The groves remember every leaf, every grave. In the north they say the dead grow restless. Here the green still holds them."
+- **Sun-Singer Doll** — sung, gentle, green-imaged, deep-rooted; grove-memory metaphor. *Serene, far-perceiving; concern is sung, hopeful.* Trades deep-memory lore for truth. "The green remembers all who lie in it. Of late, a far root aches — something tugs at the deep green memory, from your cold lands."
+- **Doss Sunward** — smooth, reasonable, persuasive, faintly contemptuous of the tribes; greed dressed as progress. *Hollow warmth; the smile never reaches his eyes; nervous when warnings prove real.* Plausible, persistent pressure. "The groves are *wealth*, friend. I merely... encourage efficiency."
+
+---
+
 ## Voice-Building Cheat Sheet (for improvised minor NPCs)
 
 When you must voice an unlisted minor townsperson, build fast:

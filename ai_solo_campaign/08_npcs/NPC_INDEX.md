@@ -9,7 +9,7 @@ tags: [index, npc]
 
 ## AI Use
 
-Master table of all NPCs. Full profiles live in `MAJOR_NPCS.md` (+ `by_region/CARADRIL_MAJOR_NPCS.md`, `by_region/STAGE_9_MAJOR_NPCS.md`). Player-safe roles are shown; secrets are DM-only (see profiles). **Stage 9 expanded the codex:** new infrastructure (`NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`), **30 new major NPCs (12 pass-1 + 18 pass-2 → 50 total)**, and large secondary (~200) / minor (~521) pools in `by_region/`.
+Master table of all NPCs. Full profiles live in `MAJOR_NPCS.md` (+ `by_region/CARADRIL_MAJOR_NPCS.md`, `by_region/STAGE_9_MAJOR_NPCS.md`, and the 12 `by_region/*_NPCS.md` far-continent files). Player-safe roles are shown; secrets are DM-only (see profiles). **Stage 9 expanded the codex:** new infrastructure (`NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`), **30 new major NPCs (12 pass-1 + 18 pass-2 → 50 total)**, and large secondary (~200) / minor (~521) pools in `by_region/`. **Stage 9.5 (Full-Continent NPC Readiness, 2026-06-12; honest-recount cleanup pass 2026-06-12)** added 12 far-continent region NPC files: **+44 major (→ 94 total), +168 secondary [164 distinct-authored + 4 cross-listed] (→ 368), +432 minor (→ 953).** All 12 regions verified at 3+ major / 12+ secondary / 30+ minor. Light NPC-facing anchors registered in `NAMING_REGISTRY.md`. See the Stage 9.5 section below.
 
 ## NPC Codex File Map
 
@@ -22,13 +22,27 @@ Master table of all NPCs. Full profiles live in `MAJOR_NPCS.md` (+ `by_region/CA
 | `by_region/STAGE_9_SECONDARY_NPCS.md` | Stage 9 secondaries (services, authority, contacts, hooks) |
 | `MINOR_NPCS.md` | Stage 3/4/7 minors (~92) |
 | `by_region/STAGE_9_MINOR_NPCS.md` | Stage 9 minor pools (Waves 1–7; all regions; 403 entries) |
-| `by_region/FAR_CONTINENT_NPCS.md` | Placeholder-region horizon-figures (light scaffold) |
+| `by_region/FAR_CONTINENT_NPCS.md` | Placeholder-region horizon-figures (light scaffold; **superseded** by the 12 Stage 9.5 region files — retained for backward compatibility) |
+| `by_region/VERDANCE_REACHES_NPCS.md` | Stage 9.5 far-continent: Verdance Reaches (4 maj / 18 sec / 35 min) |
+| `by_region/CONCORD_HEARTLANDS_NPCS.md` | Stage 9.5 far-continent: Concord Heartlands / Ruin'd Crown (4 / 16 / 35) |
+| `by_region/GLASSMERE_LEAGUE_NPCS.md` | Stage 9.5 far-continent: Glassmere League (5 / 19 / 47) |
+| `by_region/HETHEWALD_FREE_HOLDS_NPCS.md` | Stage 9.5 far-continent: Hethewald Free Holds (3 / 15 / 35) |
+| `by_region/HOLLOW_GULF_PORTS_NPCS.md` | Stage 9.5 far-continent: Hollow Gulf Ports (5 / 15 / 43) |
+| `by_region/SALTMERE_REACHES_NPCS.md` | Stage 9.5 far-continent: Saltmere Reaches (3 / 12 / 34) |
+| `by_region/EMBERFELL_THEOCRACY_NPCS.md` | Stage 9.5 far-continent: Emberfell Theocracy / Ashfast (4 / 12 / 36) |
+| `by_region/SALLOWMARCH_PROTECTORATE_NPCS.md` | Stage 9.5 far-continent: Sallowmarch Protectorate (4 / 13 / 35) |
+| `by_region/MARROWDOWNS_NPCS.md` | Stage 9.5 far-continent: Marrowdowns (3 / 12 / 35) |
+| `by_region/WENDER_STEPPE_NPCS.md` | Stage 9.5 far-continent: Wender Steppe (3 / 12 / 31) |
+| `by_region/KARRAN_MARCHES_NPCS.md` | Stage 9.5 far-continent: Karran Marches (3 / 12 / 33) |
+| `by_region/SUNMARK_NPCS.md` | Stage 9.5 far-continent: Sunmark (3 / 12 / 33) |
 | `NPC_RELATIONSHIP_WEB.md` | Who reacts when an NPC dies/leaves/is exposed; clusters; leverage |
 | `NPC_SECRET_LEDGER.md` | DM-only: each NPC's secret, secrecy tier, reveal gate, mystery fed |
 | `NPC_VOICE_GUIDE.md` | Voice handles, regional/faction speech tendencies, sample lines |
 | `ACT_1_NPC_GUIDE.md` | Act 1 casting guide (Stage 5) |
 
-## Major NPCs (50 total: 20 foundation + 12 Stage 9 pass-1 + 18 Stage 9 pass-2)
+## Major NPCs (94 total: 50 core [20 foundation + 12 Stage 9 pass-1 + 18 Stage 9 pass-2] + 44 Stage 9.5 far-continent)
+
+> The 50 "core" majors (Reach / Caradril / Ring 1) are detailed below. The **44 Stage 9.5 far-continent majors** (12 placeholder regions, Lvl 6–17) live in the per-region `by_region/*_NPCS.md` files — see the Stage 9.5 section near the bottom of this index for the roster.
 
 > Foundation 20 below; Stage 9 pass-1 majors 21–24 in `MAJOR_NPCS.md`; Caradril majors C25–C32 in `by_region/CARADRIL_MAJOR_NPCS.md`; Stage 9 pass-2 majors M33–M48 + M49b/M50b in `by_region/STAGE_9_MAJOR_NPCS.md`. (M49/M50 are cross-reference notes to existing foundation majors #18 Tomas Brevin and #10 Sister Knell — not new NPCs; the true new count is M33–M48 + M49b + M50b = 18.)
 
@@ -202,6 +216,40 @@ Stage 3/4/7 pools (92) in `MINOR_NPCS.md`. **Stage 9** adds large pools in `by_r
 - `NPC_RELATIONSHIP_WEB.md` — death/exposure reactions, faction & settlement clusters, leverage map.
 - `NPC_SECRET_LEDGER.md` — DM-only: per-NPC secret, secrecy tier, reveal gate, mystery fed.
 - `NPC_VOICE_GUIDE.md` — voice handles + regional/faction speech tendencies + sample lines.
+
+## Stage 9.5 — Full-Continent NPC Files
+
+Stage 9.5 (Full-Continent NPC Readiness, 2026-06-12) added **12 far-continent region NPC files** so the AI DM can run play anywhere on Orrun without improvising major social infrastructure. Each file holds its region's major / secondary / minor rosters with player-safe and DM-only fields, mechanical profiles, and cross-links. **All 12 regions meet the per-region minimum (3+ major, 12+ secondary, 30+ minor).** No far-region NPC knows the apex truth.
+
+> **`by_region/FAR_CONTINENT_NPCS.md` is now superseded** by these 12 files — its 26 horizon-scaffold figures were elevated/expanded here (or remain as light color). It is retained for backward compatibility and still counts in the legacy minor pool.
+
+| Region | File | Major | Secondary | Minor | Lvl |
+|---|---|---|---|---|---|
+| Verdance Reaches | `by_region/VERDANCE_REACHES_NPCS.md` | 4 | 18 | 35 | 8–12 |
+| Concord Heartlands / Ruin'd Crown | `by_region/CONCORD_HEARTLANDS_NPCS.md` | 4 | 16 | 35 | 13–17 |
+| Glassmere League | `by_region/GLASSMERE_LEAGUE_NPCS.md` | 5 | 19 | 47 | 9–13 |
+| Hethewald Free Holds | `by_region/HETHEWALD_FREE_HOLDS_NPCS.md` | 3 | 15 | 35 | 7–12 |
+| Hollow Gulf Ports | `by_region/HOLLOW_GULF_PORTS_NPCS.md` | 5 | 15 | 43 | 10–15 |
+| Saltmere Reaches | `by_region/SALTMERE_REACHES_NPCS.md` | 3 | 12 | 34 | 11–15 |
+| Emberfell Theocracy / Ashfast | `by_region/EMBERFELL_THEOCRACY_NPCS.md` | 4 | 12 | 36 | 12–16 |
+| Sallowmarch Protectorate | `by_region/SALLOWMARCH_PROTECTORATE_NPCS.md` | 4 | 13 | 35 | 10–14 |
+| Marrowdowns | `by_region/MARROWDOWNS_NPCS.md` | 3 | 12 | 35 | 6–10 |
+| Wender Steppe | `by_region/WENDER_STEPPE_NPCS.md` | 3 | 12 | 31 | 8–13 |
+| Karran Marches | `by_region/KARRAN_MARCHES_NPCS.md` | 3 | 12 | 33 | 9–14 |
+| Sunmark | `by_region/SUNMARK_NPCS.md` | 3 | 12 | 33 | 8–13 |
+| **Stage 9.5 total** | — | **44** | **168** | **432** | — |
+
+> Secondary 168 = every secondary bullet as it appears per-file; **4 are cross-listed** references (Hadwin Vael, Mossa Drenn, Crown-Customs Legate Vorr) to NPCs authored in another region file, so distinct-authored secondaries = **164**. Counts verified by hand + script 2026-06-12. Every region meets 3+ major / 12+ secondary / 30+ minor.
+
+### Updated cumulative NPC totals (Stage 9 + Stage 9.5)
+
+| Tier | Stage 9 (core) | + Stage 9.5 (far) | Cumulative |
+|---|---|---|---|
+| Major | 50 | 44 | **94** |
+| Secondary | ~200 | 168 | **368** |
+| Minor | 521 | 432 | **953** |
+
+Voice handles, relationship links, and DM secret-routing for all 44 far-continent majors are appended in `NPC_VOICE_GUIDE.md`, `NPC_RELATIONSHIP_WEB.md`, and `NPC_SECRET_LEDGER.md` (Stage 9.5 sections). Naming registered in `NAMING_REGISTRY.md` ("Stage 9.5 Far-Continent NPCs").
 
 ## Related Files
 

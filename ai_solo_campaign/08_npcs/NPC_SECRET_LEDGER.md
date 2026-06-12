@@ -184,6 +184,106 @@ tags: [type:npc, secrecy:dm-only, secrets, mystery, clue-gate]
 
 ---
 
+## Stage 9.5 — Far-Continent Secrets
+
+> Routing for the 44 far-continent majors across 12 placeholder regions. Full prose in `by_region/*_NPCS.md`. **CRITICAL: NO far-region NPC knows the apex truth (the harvest mechanism / the Hollow Court / the surviving Custodians / the deliberate Quietfall / the Hollowmere keystone).** Far regions *corroborate the theme* (the troubled dead, stirring old works, the relic-supply) and carry the *oblique gated folk-fragment* ("the grey hands took the dead"), but never the mechanism. Court-adjacent material is DM-ONLY and labeled. Several far ruins (Saltmere drowned towns, Marrowdowns barrows) are **pre-Concord echoes** — they resonate, they are NOT the keystone. The Concord Heartlands are the Concord's *surface* fallen capital — NOT the Concord Deep, NOT the Under-Shrine.
+
+Tiers below as defined at top: PLAYER-SAFE PUBLIC = anyone knows · DISCOVERABLE = earned by play · DM-ONLY = AI knows, player cannot reach it here · LOCAL-COLOR = regional flavor.
+
+### Verdance Reaches
+| NPC | Player-safe public | Discoverable | DM-only | Local-color |
+|---|---|---|---|---|
+| Wessel Crane | Senior inland Ledger banker; immense reach. | Fighting a two-front trade-war (frontier below, League above). | **DM-ONLY:** quietly divesting deep down-river relic positions — may abandon the Reach to save the inland trade; reads the crisis as a *market omen*, not catastrophe. Knows nothing of the harvest. | Immaculate plain coats. |
+| Lord Ennis Marrow | Proud, indebted lock-lord of the Nine Locks. | His holding is insolvent; courted by both Crane and Holt. | **DM-ONLY:** the Nine Locks are a minor Concord water-node; the "wrongness" is the inland spread (M2/M5 corroboration), unknown to him. | Endless ancestor name-dropping. |
+| Mossa Drenn | Tough independent barge-captain; truthful about the water. | Refuses to run "bad-water" stretches; resists faction leashes. | **DM-ONLY:** keeps a private chart of every up-river stretch where rites failed — the cleanest artifact proving the crisis is *moving inland* (M5). | Measures everything in water and weather. |
+| Hadwin Vael | Keen road-worn Remnant scholar mapping ruins. | Believes the works are a recoverable inheritance (dupe's idealism). | **DM-ONLY (gated):** deduced the corridor nodes are a *connected network switching on* — reads it as restoration not harvest; a clean conduit toward the Heartlands chain; horrify-able into an ally (M6-oblique). | Lectures the moment you show curiosity. |
+
+### Concord Heartlands / Ruin'd Crown
+| NPC | Player-safe public | Discoverable | DM-only | Local-color |
+|---|---|---|---|---|
+| Hollin Vane | Magister leading the great expedition to reclaim the Crown. | Believes the Concord was benevolent and *restorable*; rival of the Ledger. | **DM-ONLY (APEX-ADJACENT, extreme care):** the figure most likely to stumble on the truth *from the wrong end* — would try to *master* a harvest-record, not destroy it. The Crown's deepest secret is a *record of what the Concord did*, NEVER the living machine, the Court, or the keystone. A bad-ending escalation lever. | "It was interrupted. We will finish the sentence." |
+| Lyssa Crownmouth | Iron war-captain of the only safe town at the Crown. | Crownmouth's own dead rise wrong — the oldest, worst such failure anywhere. | **DM-ONLY:** strongest *living* proof the crisis is worst near the Concord's heart — but surface-history horror, never the keystone; must stay unexplained. | Buries more delvers than she welcomes. |
+| Father Casian Ord | Gentle failing priest of the refugee camps. | His faith is cracking; the Last Door fails worst here. | **DM-ONLY (gated):** far-region *mirror of the Gravecaller tragedy* — compassion sliding toward catastrophic "freeing"; a natural cult-convert if a cell reaches the Crown. Holds only the folk-tragic half-truth ("the dead are held"), never the mechanism. | "The Door is *stuck*, friend." |
+| "Old Crown" Mab | Legendary ruin-guide who walks the deepest Crown and lives. | The deep Crown is "waking" — passages and dead moving as never in 30 years. | **DM-ONLY:** the highest-authority far-region witness to the works *reactivating* — but a *surface*-ruin guide; never knew of and must never reach the Concord Deep or the Hollowmere keystone. | Gives warnings as proverbs. |
+
+### Glassmere League
+| NPC | Player-safe public | Discoverable | DM-only | Local-color |
+|---|---|---|---|---|
+| Oren Glass | Smooth League trade-envoy; the face of the wider Orrun. | Quietly fighting to keep the civic government from Ledger capture. | **DM-ONLY:** demonstrates the Cinder Ledger's *true home is the League, not the frontier*. Not evil, not a Court agent; his blind spot is the frontier crisis (would suppress the rumor for trade). | Politician's memory for names. |
+| Sefwy Holt | Formidable banker aiming to break the Cinder Ledger. | Over-leveraged; sees the frontier crisis as counterparty risk only. | **DM-ONLY:** the clean continental *counterweight to the Ledger* — M3 proof can be weaponized through her; allying trades one monopolist for another. Must never learn the harvest (she'd corner the market on it). | Prices risk in real time behind her eyes. |
+| The Glass Ear | Faceless League master of secrets, reached via cut-outs. | Knows effectively everything *knowable* on the continent. | **DM-ONLY:** dramatizes that the apex truth is genuinely *unknown* — even the all-knowing broker cannot sell the harvest, because no living source holds it. True identity deliberately undefined; never reveal a face. | Every cut-out: "My principal might know such a thing." |
+| Mareth Senn | Learned lector heading the Remnant's grand chapter. | Embodies the Remnant "contain vs. reclaim" schism; rivals Hollin Vane. | **DM-ONLY:** the Remnant figure who could most plausibly turn toward *destruction* if shown the truth — but "contain to control" is still the wrong side. Knows deep history/language, never the live mechanism. | "We decide what they *mean*." |
+| Mother Wenna Lowwater | Ancient Mourner-eldest of the city's poor. | Takes the frontier failures seriously when no one else in the League does. | **DM-ONLY (M6-oblique, network):** League anchor of the continental old-songs network — carries the gated folk-fragment ("the grey hands took the dead"); does NOT know the mechanism, the Court, or the keystone. | Half-sung Mourner cadence. |
+
+### Hethewald Free Holds
+| NPC | Player-safe public | Discoverable | DM-only | Local-color |
+|---|---|---|---|---|
+| Bram Hethe | Free-proud Speaker of the forest holds. | The forest-bargains that kept the dead quiet are slipping. | **DM-ONLY:** the crisis read through *forest-paganism* (failing bargains) — the pagan cousin of the old songs; the Old Holds are surface-Concord ruins, never the keystone; "grey hands" is the same oblique fragment. | Speaks for "the holds," rarely himself. |
+| Onn Greenward | Ancient grove grief-keeper. | Grove-rites failing; the deep wood waking. | **DM-ONLY (M6-oblique, network):** eastern anchor of the old-songs network; gated folk-fragment only; never the mechanism/Court/keystone. | Grove-rite cadence; listens to trees. |
+| "Greenfinger" Maddoc | Charming outlaw toll-lord of the Hethe. | Relocating camps away from "bad wood"; a turnable grey contact. | **DM-ONLY:** the Hethewald's Cady Renn (turnable robber with a line he won't cross); grey-network witness to the deep-wood "going wrong"; cruel lieutenant is his turn-lever. | Robs you politely, genuinely amused. |
+
+### Hollow Gulf Ports
+| NPC | Player-safe public | Discoverable | DM-only | Local-color |
+|---|---|---|---|---|
+| Ive Calder | Magnificent merchant-ruler of the south's greatest port. | The frontier crisis is beneath her notice; her door leads overseas. | **DM-ONLY:** the *gateway to the overseas world* and proof the crisis is (so far) contained to the north. Not evil/faction-bound; would never spend a copper on a "northern ghost story." | Flatters and prices in one breath. |
+| Roke Mallin | Bold licensed privateer ruling the southern lanes. | A leash-straining wild card; has *heard* faint northern rumors. | **DM-ONLY:** the rare far-region NPC who *might believe* the crisis — a potential bridge to alarm the maritime world; keep his "north gone wrong" as vague sailor's-rumor, never confirmed. | Spins everything into a wager. |
+| Doss Saltgate | Cold ambitious port-lord, Calder's chief rival. | Would ally with anyone Calder has crossed. | **DM-ONLY:** the clean counterweight to Calder; the south's two poles, playable against each other. Blind to the north like all the Gulf. | Clipped scorn for Calderport. |
+| Sera Mardenmouth | Serene keeper of the Gulf's sea-death rites. | The Gulf's lone believer; connects sailors' rumors to the old songs. | **DM-ONLY (M6-oblique, network):** southernmost old-songs anchor; the link to alarm the sea-world (via Roke). Gated folk-fragment only; never the mechanism/Court. | "The sea remembers longest of all." |
+| Hadiz of Surren | Cultured overseas merchant of distant Surren. | Collects Orrun's ruin-lore as exotic curiosity. | **DM-ONLY (deeply gated, world-horizon):** carries the campaign's *faintest, most optional* hint that harvest-like history may not be Orrun's alone — keep extremely oblique, never confirm/develop, never let it pull focus from Hollowmere. | "Your young continent." |
+
+### Saltmere Reaches
+| NPC | Player-safe public | Discoverable | DM-only | Local-color |
+|---|---|---|---|---|
+| Bryd Saltmere | Iron matriarch of the dying salt-clans. | The drowned dead stir "as in the going-down." | **DM-ONLY:** the "going-down" is a *pre-Concord catastrophe-myth* that rhymes with the campaign secret — proof catastrophe is older/wider than the Concord; the drowned towns are pre-Concord, NEVER the keystone/Court. | Speaks for "the clans" and "the going-down." |
+| Drowned-Town Delver Oss | Notorious scavenger of the sacred drowned towns. | The drowned dead now move when he dives. | **DM-ONLY:** corroborates the crisis at the basin's *oldest* ruins; a Gravecaller-recruitment risk (waking dead); never finds the keystone there. | "I eat what the lake gives up." |
+| Salt-Mother Tess Brackhold | Sorrowful keeper of the salt-clans' rites. | Mourns "the drowned, old and new"; the songs no longer hold them. | **DM-ONLY (M6-oblique, network):** where the old-songs network *meets* the local "going-down" myth — strongest hint the troubled-dead pattern predates the Concord; folk-intuition, never the mechanism. | Dirge-slow, salt-and-song-laced. |
+
+### Emberfell Theocracy / The Ashfast
+| NPC | Player-safe public | Discoverable | DM-only | Local-color |
+|---|---|---|---|---|
+| Vole Cindra | Fire-crowned Ash-Hierophant; alien to the north. | Guards "buried works" the Ashfast was founded to contain; the Mountain "speaks louder." | **DM-ONLY (thematic mirror, NOT keystone):** guards a *separate, distinct southern complex* that rhymes with the harvest; the Pyre genuinely severing lingering is a real worldbuilding contrast. Never confirm the harvest/Court/keystone; never let the Forbidden Waste become the "real" endgame. | "It is not faith, outlander. It is observation." |
+| Sef Embren | Zealous warrior-priest guarding the forbidden ground. | The buried works are stirring beyond the wardens' power. | **DM-ONLY:** a *fervent undoubting mirror* of the Ashen Wardens (guards old works he doesn't understand); never grasps the apex truth. | Threats as liturgy. |
+| Mira Cindra | Devout-seeming ember-sage guarding the deepest lore. | Secretly questions the faith; correlates the Waste's stirring with northern rumors. | **DM-ONLY (scholar-bridge, gated):** could help piece together that the buried works are part of the Concord network — contributes a fragment, never the keystone/Court; exposure means death (protect her heresy). | Orthodox aloud; probing alone. |
+| Doss Ashfast | Soot-handed mining-lord working the volcano's wealth. | Sells forbidden "old glass" against the Pyre's law; deep crews come back "ash-touched." | **DM-ONLY:** unwitting *Remembrance-relic source* (southern thin-touch); oblique M2/M3 corroboration; knows nothing of meaning. | "Coin is coin, even here." |
+
+### Sallowmarch Protectorate
+| NPC | Player-safe public | Discoverable | DM-only | Local-color |
+|---|---|---|---|---|
+| Vorr Sallow | Weary imperial legate ruling the fever-delta. | Wants only revenue, order, and a recall home. | **DM-ONLY:** embodies the *wider world's empires* (a foreign governance-model); blind to the north; knows no apex truth. | "We tolerate each other." |
+| Doll Fenn | Marsh-wise plague-doctor; the delta's true leader. | The rare far-south figure to *notice* the dead "not settling." | **DM-ONLY:** the south's earliest, faintest *clinical* witness (frames it as a new sickness); a source of rare healing; knows no mechanism. | "The fever's fair — it takes all sorts." |
+| "Heron" Maddox | Patient smuggler-king of the hidden delta. | Avoids "bad-water" hideouts; turnable against the occupation. | **DM-ONLY:** the delta's smuggler-resistance and a grey witness to the delta "going strange"; not a faction. | Lets silence do half his talking. |
+| Mother Sela Reed | Reed-thin fen-witch singing the delta's dead. | The dead "not going down" match the old water-songs' warning. | **DM-ONLY (M6-oblique, network):** Sallowmarch old-songs anchor fused with marsh-lore; with Doll Fenn, the south's twin early-warning; gated fragment only. | "Some don't go down. As the old songs feared." |
+
+### Marrowdowns
+| NPC | Player-safe public | Discoverable | DM-only | Local-color |
+|---|---|---|---|---|
+| Aldous Penmark | Dignified shire-reeve keeping the downs' old law. | Blames barrow-robbers for the "restless" barrows. | **DM-ONLY:** the crisis through *pre-Concord barrow-lore*; the barrow-fields are older than the Concord (a resonant echo, NEVER the keystone); knows no apex truth. | Cites old custom and precedent. |
+| Senna Crale | Serene barrow-keeper of the downs' dead. | The lone true-seer against the shire's "it's only robbers." | **DM-ONLY (M6-oblique, network):** southern-downs old-songs anchor; half-conflates "the grey hands" with the older barrow-dead; gated fragment only. | "The *songs* say what wakes the old dead." |
+| Doss Wether | Charming antiquary-robber plundering the barrows. | The barrow-dead now wake when he digs (recently, worsening). | **DM-ONLY:** barrow witness to *pre-Concord* dead waking AND an *unwitting aggravator* — his robbing worsens the local stirring; stopping him eases it (a clean small win); never finds the keystone. | Calls grave-robbing "rescuing history." |
+
+### Wender Steppe
+| NPC | Player-safe public | Discoverable | DM-only | Local-color |
+|---|---|---|---|---|
+| Tamur Wend-Khar | Free-riding Speaker of the steppe clans. | The clans were never Concord; the crisis is a "settled-folk's sickness." | **DM-ONLY:** the *world beyond the Concord* — a free people the harvest never touched; the steppe has NO Concord ruins/harvest-history (keep it clean); the Sky-Stones are an independent shrine. | "The Sky will not find your bones." |
+| Wind-Singer Esha | Honored steppe seer who sings the dead to the wind. | Perceives a "thinning of the southern Sky" pulling at the dead. | **DM-ONLY (oblique cosmic echo, extreme care):** a deeply-oblique, deniable far-echo of the **Quiet Country thinning** — perceived through steppe-cosmology with no framework to name it; never let her name the harvest/Quiet Country/Court. | "The Sky has gone *thin* in the south." |
+| Borr of the Black Horse | Fierce raid-lord rejecting the confederacy. | Scorns the crisis as "settled-folk's troubles"; a steppe wild card. | **DM-ONLY:** the steppe's danger/dissent and "old way" foil; a steppe-internal clock; knows/cares nothing for the apex truth. | "The Black Horse *takes*." |
+
+### Karran Marches
+| NPC | Player-safe public | Discoverable | DM-only | Local-color |
+|---|---|---|---|---|
+| "Iron" Brask | Iron-handed warlord of the strongest hold. | The deep mines and Old Iron forts are "going wrong." | **DM-ONLY:** the crisis through a *brutal mining-frontier* lens; the Old Iron forts are thin peripheral Concord ruins, NEVER the keystone; a rough mirror of Harrowgast's Osrin Vole; knows no apex truth. | "I don't lie and I don't forgive a lie." |
+| Mully Karr | Sharp metals-trader running the NE ore-and-salvage. | Trades "humming old iron"; deep-mine suppliers come back changed. | **DM-ONLY:** unwitting *Remembrance-relic conduit* at the far NE; oblique M2/M3 corroboration; knows no meaning. | "I pay for the grade, not the story." |
+| Wenna Stone | Hard Remnant captain leading the deadly NE expedition. | Worn down by the forts' cost toward *fearing* the works. | **DM-ONLY (turnable):** the Remnant's most disillusion-prone field officer — turnable by a player who shows her the truth; the forts are peripheral ruins, never the keystone; no apex truth yet. | "What's *in* them is worth it. The order says so." |
+
+### Sunmark
+| NPC | Player-safe public | Discoverable | DM-only | Local-color |
+|---|---|---|---|---|
+| Sael Sunmark | Serene Grove-Keeper of the south's living faith. | The grove-faith *still holds its dead*; the Sun-Singers sense a faint stirring. | **DM-ONLY (hopeful contrast):** the campaign's *faith-that-works* — a thematic hint that proper consensual rites are possible (toward the endgame "just/transform" path), kept very oblique; the groves predate/stand apart from the Concord (keep clean of keystone). | "The green still holds them." |
+| Sun-Singer Doll | Honored grove-seer singing the deep green memory. | Senses "a far root aching" from the north tugging the deep memory. | **DM-ONLY (oblique hopeful echo, care):** a deeply-oblique far-echo of the harvest's pull on the dead, perceived through a *working* faith — the most hopeful far-region read; never name the harvest/Quiet Country/Court. | "A far root aches." |
+| Doss Sunward | Smooth plains-merchant who would open the groves to the saw. | Dismisses the grove-keepers' warnings as profit-guarding superstition. | **DM-ONLY:** the threat to the living green (settled-greed); a turnable-or-opposable trade-lord; if he defiles a deep grove, the wilds answer (a Sunmark clock); scoffs at the apex truth. | Dresses greed as "efficiency." |
+
+---
+
 ## Cross-Cutting Secret Clusters (DM map)
 
 - **The "seal-keeper" Wardens** (Othetha, Adwen, Verge, Pell-adjacent, Sef, Ošric): each holds a *fragment* of the same buried purpose. Together they triangulate M6 without any one of them knowing the whole. Never let a low-tier Warden state the apex truth.

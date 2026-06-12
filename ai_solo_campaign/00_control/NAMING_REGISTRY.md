@@ -342,6 +342,112 @@ New geographic names coined in the Full-World Cartographic Expansion pass. All a
 
 > **Stage 9 pass-2 naming disambiguation:** **Osrin Vole** (Harrowgast mine-lord) ≠ Hierarch Casmir **Vole** (Caradril) ≠ Mother Senna **Vole** (Caradril Mourner) ≠ Ash-Hierophant **Vole** Cindra (far-continent) — unrelated; "Vole" is a common frontier surname, keep full names. **Mahalf Dunmore** is the elder brother of minor NPC "Keeper Dunmore" (Drowned Kettle inn) and shares the given name "Mahalf" with minor NPC "Widow Mahalf" (Cobble Strand) — keep role/location. **Warden-Confessor Halloran Voss** (Warden) ≠ Magister **Halloran Voss** / Magistra Ondine Voss (Caradril council) — unrelated common name; always say "Warden-Confessor Voss." **Magister-Reeve Sela Coalmont** is kin to Reeve Marda / Halla Coalmont and **is the same person** as the Wave-6 secondary "Bailiff Sela Coalmont" (now given her full major profile); keep the "Magister-Reeve" title to distinguish from Reeve Marda. **Collector-Captain Mauld Tallow** (Ledger) ≠ the Tallow Man (Gravecaller epithet) ≠ Caravan-Master Ode Tallow (Ashmarket) — unrelated; keep full names. **Doctor Onaia Veen** heads the Veen healer-family (Onna/Maud Veen, the apothecary) — "Onaia" ≠ "Onna." **Ser Aldous Penhew** (Vale gentry) ≠ the Caradril "Penhallow" Charter House — different family/region; "Aldous" is shared with Reke, Cray (Aldwin), Frome, Penmark — keep surnames. **Auctioneer Cassia Mourn** shares a root with the Mourners' Circle but is **no kin** and not a Mourner (coincidental city trade-name). **Fenwife "Mother Osset"** is a cult-name with no prior collision.
 
+### Stage 9.5 Far-Continent NPCs — `08_npcs/by_region/*_NPCS.md`
+
+44 new far-continent **major** NPCs across the 12 placeholder regions (Lvl 6–17). Most are **elevations** of the horizon-scaffold figures previously named in `08_npcs/by_region/FAR_CONTINENT_NPCS.md` (now given full profiles in per-region files); the rest are wholly new. All are far-region anchors, NOT deep-built powers; **none knows the apex truth.** No new factions, gods, geography, or central mysteries were coined. (The far-continent **secondary/minor** NPCs carry their disambiguating epithets inline in each region file and are not individually registered here, per registry scope.)
+
+| Name | Role | Region/Location | File |
+|---|---|---|---|
+| Factor-General Wessel Crane | Ledger inland directorate head (elevated) | Verdance Reaches/Marrowfen Stair | `VERDANCE_REACHES_NPCS.md` |
+| Lord Ennis Marrow | Petty lord of the Nine Locks (new) | Verdance Reaches/Lord's Wend | `VERDANCE_REACHES_NPCS.md` |
+| River-Captain Mossa Drenn | Independent barge-captain (elevated) | Verdance/the Verdance | `VERDANCE_REACHES_NPCS.md` |
+| Sub-Lector Hadwin Vael | Remnant inland chapter (elevated) | Verdance Reaches | `VERDANCE_REACHES_NPCS.md` |
+| Crown-Reclaimer Magister Hollin Vane | Remnant expedition-lord (elevated; apex-adjacent) | Concord Heartlands/the Crown | `CONCORD_HEARTLANDS_NPCS.md` |
+| Warden Lyssa Crownmouth | Scavenger-town war-captain (new) | Concord Heartlands/Crownmouth | `CONCORD_HEARTLANDS_NPCS.md` |
+| Father Casian Ord | Heretic-priest of the Pilgrim Camps (new) | Concord Heartlands/Pilgrim Camps | `CONCORD_HEARTLANDS_NPCS.md` |
+| "Old Crown" Mab | Deep-ruin guide (elevated) | Concord Heartlands/the Crown | `CONCORD_HEARTLANDS_NPCS.md` |
+| League-Factor Oren Glass | League trade-envoy (elevated) | Glassmere League/Glassmere | `GLASSMERE_LEAGUE_NPCS.md` |
+| Banker-Magistra Sefwy Holt | Merchant-bank magnate; Ledger rival (elevated) | Glassmere/Three Bridges | `GLASSMERE_LEAGUE_NPCS.md` |
+| Spy-Broker "the Glass Ear" | Information-master (elevated) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` |
+| Reliquary-Lector Mareth Senn | Remnant grand-chapter head (new) | Glassmere/the Reliquary | `GLASSMERE_LEAGUE_NPCS.md` |
+| Mother Wenna Lowwater | Urban Mourner eldest; old-songs node (new) | Glassmere/Lowwater | `GLASSMERE_LEAGUE_NPCS.md` |
+| Hold-Speaker Bram Hethe | Free-holds Speaker (elevated) | Hethewald/Hethemoot | `HETHEWALD_FREE_HOLDS_NPCS.md` |
+| Forest-Mother Onn Greenward | Grove grief-keeper; old-songs node (elevated) | Hethewald/Greenward | `HETHEWALD_FREE_HOLDS_NPCS.md` |
+| Toll-Lord "Greenfinger" Maddoc | Outlaw river-toller (new) | Hethewald/Tollreach | `HETHEWALD_FREE_HOLDS_NPCS.md` |
+| Port-Mistress Ive Calder | Gulf port-ruler (elevated) | Hollow Gulf/Calderport | `HOLLOW_GULF_PORTS_NPCS.md` |
+| Privateer-Captain Roke Mallin | Licensed sea-raider (elevated) | Hollow Gulf/the Reach Lanes | `HOLLOW_GULF_PORTS_NPCS.md` |
+| Saltgate Port-Lord Doss Saltgate | Rival port-lord (new) | Hollow Gulf/Saltgate | `HOLLOW_GULF_PORTS_NPCS.md` |
+| Tide-Mother Sera Mardenmouth | Sea-Mourner eldest; old-songs node (new) | Hollow Gulf/Mardenmouth | `HOLLOW_GULF_PORTS_NPCS.md` |
+| Foreign-Factor Hadiz of Surren | Overseas merchant; world-horizon (new) | Hollow Gulf/Foreign Quarter | `HOLLOW_GULF_PORTS_NPCS.md` |
+| Salt-Clan Matriarch Bryd Saltmere | Salt-clan confederacy head (elevated) | Saltmere/Brackhold | `SALTMERE_REACHES_NPCS.md` |
+| Drowned-Town Delver Oss | Drowned-ruin scavenger (elevated) | Saltmere/the Drowned Towns | `SALTMERE_REACHES_NPCS.md` |
+| Salt-Mother Tess Brackhold | Salt-clan grief-keeper; old-songs node (new) | Saltmere/Brackhold | `SALTMERE_REACHES_NPCS.md` |
+| Ash-Hierophant Vole Cindra | Fire-theocracy ruler (elevated; thematic mirror) | Emberfell/Ashfast | `EMBERFELL_THEOCRACY_NPCS.md` |
+| Pyre-Warden Sef Embren | Theocracy enforcer (elevated) | Emberfell/Ashfast | `EMBERFELL_THEOCRACY_NPCS.md` |
+| Ember-Sage Mira Cindra | Heretic-scholar (new) | Emberfell/Ashfast | `EMBERFELL_THEOCRACY_NPCS.md` |
+| Cinder-Master Doss Ashfast | Volcanic mining-lord (new) | Emberfell/Cinderhold | `EMBERFELL_THEOCRACY_NPCS.md` |
+| Protector-Legate Vorr Sallow | Distant crown's legate (elevated) | Sallowmarch/Fenward | `SALLOWMARCH_PROTECTORATE_NPCS.md` |
+| Marsh-Healer Doll Fenn | Plague-doctor; delta's true leader (elevated) | Sallowmarch/Reedmouth | `SALLOWMARCH_PROTECTORATE_NPCS.md` |
+| Reed-Boss "Heron" Maddox | Delta smuggler-king (new) | Sallowmarch/Reedmouth | `SALLOWMARCH_PROTECTORATE_NPCS.md` |
+| Fen-Witch Mother Sela Reed | Delta grief-keeper; old-songs node (new) | Sallowmarch/Rice Sallows | `SALLOWMARCH_PROTECTORATE_NPCS.md` |
+| Shire-Reeve Aldous Penmark | Downs landed law (elevated) | Marrowdowns/Penmark Hold | `MARROWDOWNS_NPCS.md` |
+| Moot-Mother Senna Crale | Downs grief-keeper; old-songs node (elevated) | Marrowdowns/Marrowmoot | `MARROWDOWNS_NPCS.md` |
+| Barrow-Master Doss Wether | Barrow-robber-guide (new) | Marrowdowns/Barrow-Fields | `MARROWDOWNS_NPCS.md` |
+| Clan-Speaker Tamur Wend-Khar | Steppe confederacy Speaker (elevated) | Wender Steppe/Cold Springs | `WENDER_STEPPE_NPCS.md` |
+| Wind-Singer Esha | Steppe seer; cosmic-echo (elevated) | Wender Steppe/Sky-Stones | `WENDER_STEPPE_NPCS.md` |
+| Raid-Lord Borr of the Black Horse | Steppe reaver (new) | Wender Steppe/far steppe | `WENDER_STEPPE_NPCS.md` |
+| Warlord "Iron" Brask | Strongest petty warlord (elevated) | Karran Marches/Brask's Hold | `KARRAN_MARCHES_NPCS.md` |
+| Ore-Factor Mully Karr | Metals-trader (elevated) | Karran Marches/Karran-Gate | `KARRAN_MARCHES_NPCS.md` |
+| Reclaimer-Captain Wenna Stone | Remnant NE expedition (new; turnable) | Karran/Old Iron forts | `KARRAN_MARCHES_NPCS.md` |
+| Grove-Keeper Sael Sunmark | Living-faith head (elevated; hopeful contrast) | Sunmark/Sunhollow | `SUNMARK_NPCS.md` |
+| Sun-Singer Doll | Grove seer; hopeful echo (elevated) | Sunmark/Sunward Wilds | `SUNMARK_NPCS.md` |
+| Plains-Factor Doss Sunward | Cut-and-trade lord (new) | Sunmark/Green Roads | `SUNMARK_NPCS.md` |
+
+> **Stage 9.5 naming disambiguation:** **Hadwin Vael** (Verdance Remnant), **Hollin Vane** (Heartlands Remnant), **Mira/Brann Senn** & city **Sennfort/Cairnwater** & **Mareth Senn** (Glassmere), and **Wenn Vael** (Hethewald) are all **non-kin** to Quorrin Vane, Imris Vane-Tolm, Oneth Vael, Doss Vane, or each other — "Vane / Vael / Senn" are common scholarly/civic surnames; keep full names. **Ash-Hierophant Vole Cindra** (Emberfell, foreign root) ≠ Osrin/Casmir/Senna **Vole** (north) — coincidental; keep full names. **Salt-Clan Matriarch Bryd Saltmere** (Saltmere) ≠ **Salt-Mother Bryd** (Pale Coast/Cobble Strand) — shared salt-folk given-name across distant regions; always full names. **Salt-Mother Tess Brackhold** (Saltmere rite-title) shares the "Salt-Mother" title with Coast's Bryd — distinct people; keep full names. **Senna Crale** (Marrowdowns Mourner) ≠ Mother/Goodwife Sennet (Vale/Tollwood) ≠ the Senns of Glassmere/Emberfell — keep full names. **"Greenfinger" Maddoc** (Hethewald) keeps its spelling, distinct from the **"Maddox"** outlaw-name family (Eel/Carp/Crow/"Heron"/the Crown's bandit-lord — all separate, unrelated common outlaw surname). **"Iron" Brask** (Karran) ≠ Pass-Warden Brask Tarn (Heartlands) ≠ steppe Borr — common hard-frontier names; keep full names. **Tamur Wend-Khar** (steppe clan-name) ≠ the Reach Wends — coincidental root. **Sael Sunmark** (grove given-name) ≠ the northern Saels (Domic, Brunt, Goodman). The many far-region **"Doss"** (Saltgate, Ashfast, Wether, Sunward) and **"Doll"** (Fenn, Sun-Singer, Vard, Cairn, Tull) and **"Wenna"** (Lowwater, Stone, Roke, Drove, Stair) are common given-names across distant regions — always carry the surname/epithet. **Wind-Singer Esha** & **Sun-Singer Doll** are seer-titles, not the minor-NPC "Esha"/"Doll" color-figures.
+
+### Stage 9.5 — Light NPC-Facing Anchors — `08_npcs/by_region/*_NPCS.md`
+
+Local place-names coined to *anchor* the Stage 9.5 far-continent NPC rosters (towns, camps, districts, wharves, gathering-places, ruin-edge camps, roads, groves). **Each is a light NPC-facing anchor — not a full settlement, not a major map feature, and NOT deep-built.** They exist so the AI DM can locate far-region NPCs in play; they reuse or sit within already-registered geographic features (see `FULL_WORLD_MAP_AUTHORITY.md`) and do not add new major geography or factions. Names that ARE already registered as map features (e.g. the Bonepan Flats, the Cindern/Forbidden Waste, the Sunmark Wilds, the Ruin'd Crown, the Greatspine passes, the Reach Lanes, the Summer-Riding host) are not repeated here.
+
+| Name | Type | Region | File | Notes |
+|---|---|---|---|---|
+| Marrowfen Stair | River-town (locks/wharves; corridor hub) | Verdance Reaches | `VERDANCE_REACHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Lord's Wend | Petty-lord's hall-town | Verdance Reaches | `VERDANCE_REACHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Cresswater | Barge-village | Verdance Reaches | `VERDANCE_REACHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Nine Locks | Lock-staircase landmark (on the Verdance) | Verdance Reaches | `VERDANCE_REACHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Crownmouth | Fortified scavenger-town (ruin-edge) | Concord Heartlands | `CONCORD_HEARTLANDS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Pilgrim Camps | Refugee/relic-seeker shanty-camps | Concord Heartlands | `CONCORD_HEARTLANDS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Glassmere (city) | League-capital city (greatest river-city) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` | light NPC-facing anchor — names the placeholder region's capital; not deep-built |
+| The Floor | Merchant-exchange (Glassmere) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` | light NPC-facing anchor — a city locale, not a settlement |
+| The Three Bridges | Banking quarter (Glassmere) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` | light NPC-facing anchor — a city locale, not a settlement |
+| The Reliquary | Remnant great chapter-house (Glassmere) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` | light NPC-facing anchor — a building, not a settlement |
+| Lowwater | Poor riverside district (Glassmere) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` | light NPC-facing anchor — a city district, not a settlement |
+| Sennfort / Cairnwater | Smaller league-cities (referenced) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` | light NPC-facing anchors — named-in-passing, not deep-built |
+| Hethemoot | Great gathering free-hold | Hethewald Free Holds | `HETHEWALD_FREE_HOLDS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Greenward | Grove-village (Onn's seat) | Hethewald Free Holds | `HETHEWALD_FREE_HOLDS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Tollreach | Outlaw river-toll camp (on the Hethe) | Hethewald Free Holds | `HETHEWALD_FREE_HOLDS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Old Holds | Deep-wood Concord ruins (forbidden) | Hethewald Free Holds | `HETHEWALD_FREE_HOLDS_NPCS.md` | light NPC-facing anchor — ruin-cluster label, not deep-built (cf. Tollwood's Old Mast) |
+| Calderport | Greatest Gulf port city-state | Hollow Gulf Ports | `HOLLOW_GULF_PORTS_NPCS.md` | light NPC-facing anchor — names the placeholder region's chief port; not deep-built |
+| Saltgate | Rival Gulf port city-state | Hollow Gulf Ports | `HOLLOW_GULF_PORTS_NPCS.md` | light NPC-facing anchor — not deep-built |
+| The Foreign Quarter | Overseas-traders' district (Calderport) | Hollow Gulf Ports | `HOLLOW_GULF_PORTS_NPCS.md` | light NPC-facing anchor — a city locale |
+| The Mardenmouth | Delta-mouth wharves (Calderport) | Hollow Gulf Ports | `HOLLOW_GULF_PORTS_NPCS.md` | light NPC-facing anchor — a wharf-district, not a settlement |
+| Brackhold | Largest surviving salt-clan hold | Saltmere Reaches | `SALTMERE_REACHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Drowned Towns | Receding-lake submerged ruins | Saltmere Reaches | `SALTMERE_REACHES_NPCS.md` | light NPC-facing anchor — pre-Concord ruin-cluster, NOT the keystone |
+| Saltcairn | Ghostmark-edge clan-town | Saltmere Reaches | `SALTMERE_REACHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Ashfast (city) | Fortress-temple-city (theocracy seat) | Emberfell Theocracy | `EMBERFELL_THEOCRACY_NPCS.md` | light NPC-facing anchor — names the placeholder region's seat; not deep-built |
+| Cinderhold | Volcanic mining town | Emberfell Theocracy | `EMBERFELL_THEOCRACY_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Ash Roads | Pilgrim-ways through the highland | Emberfell Theocracy | `EMBERFELL_THEOCRACY_NPCS.md` | light NPC-facing anchor — a route-label, not a settlement |
+| Fenward | Garrison-capital (the crown's seat) | Sallowmarch Protectorate | `SALLOWMARCH_PROTECTORATE_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Reedmouth | Delta smuggling-village | Sallowmarch Protectorate | `SALLOWMARCH_PROTECTORATE_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Rice Sallows | Flooded paddy-country | Sallowmarch Protectorate | `SALLOWMARCH_PROTECTORATE_NPCS.md` | light NPC-facing anchor — a sub-area label, not a settlement |
+| The Fever Channels | Deep delta backwaters | Sallowmarch Protectorate | `SALLOWMARCH_PROTECTORATE_NPCS.md` | light NPC-facing anchor — a waterway-label, not a settlement |
+| Marrowmoot | Shire-town (where moots gather) | Marrowdowns | `MARROWDOWNS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Penmark Hold | Shire-reeve's manor | Marrowdowns | `MARROWDOWNS_NPCS.md` | light NPC-facing anchor — a manor, not a settlement |
+| The Barrow-Fields | Ancient burial-downs | Marrowdowns | `MARROWDOWNS_NPCS.md` | light NPC-facing anchor — pre-Concord barrow-cluster, NOT the keystone |
+| Wether | Wool-trade village | Marrowdowns | `MARROWDOWNS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Winter-Camp at Cold Springs | Largest clans' cold-season gathering | Wender Steppe | `WENDER_STEPPE_NPCS.md` | light NPC-facing anchor — a seasonal camp, not a settlement |
+| The Sky-Stones | Ancient steppe shrine-circle (NOT Concord) | Wender Steppe | `WENDER_STEPPE_NPCS.md` | light NPC-facing anchor — independent steppe holy site, not deep-built |
+| The Spine-Foot trade-meet | Steppe/settled trade-meeting ground | Wender Steppe | `WENDER_STEPPE_NPCS.md` | light NPC-facing anchor — a meeting-ground, not a settlement |
+| Brask's Hold | Iron Brask's fortress-town | Karran Marches | `KARRAN_MARCHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Karran-Gate | Mining-and-mercenary town | Karran Marches | `KARRAN_MARCHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Deep Cuts | Great ore-mines | Karran Marches | `KARRAN_MARCHES_NPCS.md` | light NPC-facing anchor — a mine-complex label, not a settlement |
+| The Old Iron forts | Scattered peripheral Concord ruins | Karran Marches | `KARRAN_MARCHES_NPCS.md` | light NPC-facing anchor — ruin-cluster, NOT the keystone |
+| The Great Grove at Sunhollow | Grove-tribes' holy heart/gathering-place | Sunmark | `SUNMARK_NPCS.md` | light NPC-facing anchor — a sacred grove + gathering, not a settlement |
+| The Grove-Camps | Grove-tribes' settlements | Sunmark | `SUNMARK_NPCS.md` | light NPC-facing anchor — dispersed camps, not deep-built |
+| The Green Roads | Pilgrim-and-trade paths through the groves | Sunmark | `SUNMARK_NPCS.md` | light NPC-facing anchor — a route-label, not a settlement |
+
+> **Stage 9.5 cleanup-pass secondary additions (2026-06-12):** six far-region **secondary** NPCs added to bring five regions from 11→12 and Sallowmarch to 12 distinct-authored secondaries — Marek Bonepan (Saltmere salt-caravan master), Horse-Reeve Edony Marrow (Marrowdowns mounted lawkeeper), Kin-Mother Tamur-Sai (Wender clan-matriarch; explicitly no kin to Clan-Speaker Tamur Wend-Khar), Pass-Toll Warlord Hessa Teeth (Karran pass-warlord), Greenway-Warden Tamsin Greenway (Sunmark road-captain; distinct from Sub-Lector Tamsin Orr), Rice-Moot Speaker Pell Sallows (Sallowmarch village-speaker; no kin to the crown's Sallow-line). Per registry scope, far-region secondaries carry disambiguating epithets inline in their region files and are listed here only as a cleanup note.
+
 ### Secondary NPCs (Stage 3) — `08_npcs/SECONDARY_NPCS.md`
 
 | Name | Role | Location |

@@ -198,6 +198,54 @@ Load when an NPC dies, leaves, is exposed, or allies with the player — to know
 
 ---
 
+## Stage 9.5 — Full-Continent Relationship Web
+
+> Covers the 44 far-continent majors across 12 placeholder regions (Lvl 6–17). These links are for play *beyond* Caradril. Three campaign-wide spines run through every region: (1) the **Cinder Ledger / Glassmere-bank** continental trade-war; (2) the **Concord Remnant** scholarly chain leading up to the Ruin'd Crown; (3) the **Mourners' old-songs network** carrying the gated folk-truth. All death-rite/relic links feed existing M2/M3/M5/M6 obliquely; no far-region NPC knows the apex truth.
+
+### Three continental spines (cross-region)
+
+**A. The Ledger vs. the Glassmere bank (trade-war).** `Sefwy Holt` (Glassmere bank) is the continental counterweight to the Cinder Ledger. Chain of command/rivalry: `Sefwy Holt` ⟂ `Wessel Crane` (Ledger inland head, *Vyre's superior*) ⟂ Iss Vyre (Ledger heartland-provost, Calla Vyre's kin). The war's foot-soldiers reach every region: Ondine Holt (Verdance), Iss Mallorn (Hollow Gulf southern arm), Mira Crane (the Crown), the Ledger's Karran/Emberfell/Sunmark edge-agents. **A frontier player carrying M3 Ledger-abuse proof can weaponize it through `Holt`.**
+
+**B. The Remnant scholarly chain (leads to the Crown).** Up-chain ambition: frontier (`Hadwin Vael` Verdance, plus Quorrin Vane/Briss in Caradril) → institution (`Mareth Senn` Glassmere Reliquary, peer of Sabine Ferrant) → field-command apex (`Hollin Vane`, the Ruin'd Crown). Internal schism: `Mareth Senn` (contain) vs. `Hollin Vane` (reclaim). Far-flung field officers feed the chain: `Wenna Stone` (Karran, *turnable conscience*), Wessel Ferrant (the Crown), Wenn Vael (Hethewald). **The Remnant succeeding at the Crown is a bad-ending escalation clock.**
+
+**C. The Mourners' old-songs network (folk-truth thread).** A continental correspondence in songs/tokens binds every regional grief-keeper: `Wenna Lowwater` (Glassmere) · `Onn Greenward` (Hethewald) · `Sera Mardenmouth` (Hollow Gulf) · `Tess Brackhold` (Saltmere) · `Senna Crale` (Marrowdowns) · `Sela Reed` (Sallowmarch) · Grave-Sister Onn Crale (the Crown) · Odila Cress (Verdance) — all linked back to the campaign's anchors Combe (Vale) and Grandmother Wend (Hollowmere). Steppe `Wind-Singer Esha` and Sunmark `Sun-Singer Doll` reach the *same perception independently* (no contact). **If any node dies untended, a strand of the gated M6 folk-memory frays.**
+
+### Per-region webs
+
+**Verdance Reaches (Lvl 8–12).** `Wessel Crane` (Ledger) is superior to Caradril's Vyre/Vell and funds `Hadwin Vael` (Remnant) selectively; he employs Toll-Reeve Halsa Wend and enforcer-nephew Vesk Crane; trade-rival of `Sefwy Holt`. `Lord Ennis Marrow` holds the Nine Locks chokepoint, indebted to both Crane and Holt; his Lockmaster Dob Cress witnesses the lock-node's "wrongness." `Mossa Drenn` (independent barge-captain) ferries Vael, resists Crane's leash, links to Caradril's Skipper Wenna Roke and Kettle Bridge's Bargemaster Tibb. *If Crane divests the frontier:* Vyre gains a harder master, Marrow gets bought out, the corridor's relic-market wobbles.
+
+**Concord Heartlands / Ruin'd Crown (Lvl 13–17).** `Hollin Vane` (Remnant apex) is senior to the whole Remnant chain; rival of the Ledger's salvagers (Mira Crane) and the Emberfell's Brother Vurr Cindra; hires `"Old Crown" Mab`. `Lyssa Crownmouth` holds the only safe town against all factions; tolerates Mab, trades with Grave-Sister Onn Crale. `Father Casian Ord` shepherds the Pilgrim Camps, tolerated by Lyssa, kin-in-grief to Onn Crale, and **(DM) a Gravecaller-conversion risk** if a cell reaches the Crown. `Mab` is hired warily by Vane and trusted by Lyssa. *If Lyssa falls:* the Crown loses its only safe ground. *If Vane reaches a deep harvest-record vault:* late-game catastrophe lever.
+
+**Glassmere League (Lvl 9–13).** `Oren Glass` (civic envoy) ⟂ `Sefwy Holt` (bank) — city vs. bank, both wary of the Ledger's heartland capture (Iss Vyre). `Glass` employs `the Glass Ear` (spy-broker, trades with Caradril's Bellman). `Mareth Senn` (Remnant institution) rivals `Hollin Vane`, receives the frontier chain's reports. `Wenna Lowwater` (Mourner) is the network's League node, defies Glass's rumor-suppression. *If Holt wins the trade-war:* one monopolist replaces another (a genuine player choice).
+
+**Hethewald Free Holds (Lvl 7–12).** `Bram Hethe` (Speaker) allied-in-faith with `Onn Greenward`, opposes the Ledger's logging (Hesk Dorr/Vask Dorr), wary of `"Greenfinger" Maddoc` (outlaw-toller). Greenfinger is tolerated by Bram, preys on Ledger cargo, strained by cruel lieutenant Skell-the-Younger (his dark mirror / turn-lever). Bram & Onn are kin-in-custom to Tollwood's Goodwife Sennet. *If Greenfinger's lieutenant rises:* the river-tolls turn murderous.
+
+**Hollow Gulf Ports (Lvl 10–15).** `Ive Calder` (Calderport) ⟂ `Doss Saltgate` — the south's two poles, fully playable against each other. Calder licenses (and fears) `Roke Mallin` (privateer, a leash-straining clock); both courted by the Ledger (Iss Mallorn) and League. `Sera Mardenmouth` (Mourner, network node) is the Gulf's lone believer and the one who'd convince Roke the northern rumors are real. `Hadiz of Surren` is the door overseas, dealing with Calder, Saltgate, and Roke. *If Roke slips Calder's leash:* the Gulf erupts in sea-war. **Roke is the bridge to alarm the maritime world.**
+
+**Saltmere Reaches (Lvl 11–15).** `Bryd Saltmere` (clan matriarch) tolerates `Oss` (drowned-town delver) warily and honors `Tess Brackhold` (Mourner network node). Oss fences to the Ledger and **(DM) draws Gravecaller interest** (waking drowned dead). Tess corresponds with the whole old-songs network. *If the clans scatter:* the realm dies; the drowned towns go unguarded.
+
+**Emberfell Theocracy (Lvl 12–16).** `Vole Cindra` (Ash-Hierophant) commands `Sef Embren` (enforcer, Waste-gate) and sends Vurr Cindra to the Crown; violently opposes Remnant/Ledger breaches. `Mira Cindra` (heretic-scholar) outwardly serves Vole, secretly evades Embren, would correspond with the Remnant (Mareth Senn) — **exposure means the Pyre.** `Doss Ashfast` (mining-lord) bribes around Embren, secretly trades forbidden "old glass" to the Ledger's Iss Mallorn. *If Mira is exposed:* martyrdom; an indictment of the theocracy. *If Doss is exposed to the wardens:* ruined.
+
+**Sallowmarch Protectorate (Lvl 10–14).** `Vorr Sallow` (imperial legate) rules the delta-folk coldly; his garrison clashes with `"Heron" Maddox` (smuggler-king) who shelters among `Doll Fenn's` people. Doll Fenn (healer, true delta-leader) works with `Sela Reed` (Mourner network node) — medicine + rite are the south's **twin early-warning**. Heron is kin-in-kind to the Reach's Gull and Hethe's Greenfinger. *If the delta revolts:* the Protectorate's grip breaks.
+
+**Marrowdowns (Lvl 6–10).** `Aldous Penmark` (shire-reeve) works with `Senna Crale` (Mourner network node) on the barrow-troubles, opposes Ledger encroachment, hunts `Doss Wether` (barrow-robber) when caught. **Doss Wether's digging *worsens* the local barrow-stirring** (an unwitting aggravator); Senna condemns him. *If Wether stops:* the local stirring eases (a clean small win).
+
+**Wender Steppe (Lvl 8–13).** `Tamur Wend-Khar` (Speaker) relies on `Wind-Singer Esha` (seer); rival of `Borr of the Black Horse` (raid-lord), whose brutal lieutenant strains his honor. The clans were never Concord — outside the whole crisis (Esha perceives it only as a "thinning sky"). *If Borr fractures the confederacy:* the steppe-edge turns lethal.
+
+**Karran Marches (Lvl 9–14).** `"Iron" Brask` (warlord) employs `Mully Karr` (metals-trader, unwitting "old iron" relic-conduit) and buys fort-access to `Wenna Stone` (Remnant, *turnable conscience*); resists Ledger gold; rough mirror of Harrowgast's Osrin Vole. Karr is courted by the Ledger's northern arm. *If Stone is shown the truth:* she defects, turning the NE expedition against the order.
+
+**Sunmark (Lvl 8–13).** `Sael Sunmark` (Grove-Keeper) relies on `Sun-Singer Doll` (seer) and opposes `Doss Sunward` (cut-and-trade lord, Ledger-allied, the chief antagonist). The grove-faith *still works* (a hopeful contrast). *If Sunward defiles a deep grove:* the living wilds answer.
+
+### Cross-region "if this NPC changes" notes
+- **Crane divests / dies** → the Ledger's inland grip loosens; Vyre's Caradril operation destabilizes; Holt's bank advances.
+- **Sefwy Holt allied** → the Ledger gains a continental enemy with teeth; the relic-market shifts; the frontier's chief faction is finally vulnerable.
+- **Hollin Vane succeeds at the Crown** → a campaign bad-ending escalation; the whole Remnant chain (down to Quorrin/Briss) is implicated.
+- **Any Mourner network node dies untended** → an old-songs strand frays; the gated M6 folk-path loses a witness.
+- **Roke Mallin convinced** → the maritime/overseas world can finally be alarmed (via Sera Mardenmouth → Roke → Hadiz/Surren).
+- **Mira Cindra / Wenna Stone turned** → a far-faction heretic-defector who can crack the Emberfell theocracy or the Remnant's NE expedition.
+
+---
+
 ## Related Files
 
 - [`MAJOR_NPCS.md`](MAJOR_NPCS.md)
