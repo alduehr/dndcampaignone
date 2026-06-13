@@ -6,6 +6,39 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-13 — Cartographic Precision Pass: Full-Continent Settlement/Social Anchors
+
+### Stage
+Interstitial cartographic pass (not a development stage). Sits between Stage 11 (complete) and Stage 12 (queued). No new canon geography.
+
+### Summary
+Resolved the "settlements bunch in the northwest" problem on full-continent maps by giving every far-continent placeholder region player-safe settlement/social map markers. Assigned full-continent 0–100 coordinates to (a) the canonical NW campaign settlements (mirrored, unchanged) and (b) the already-registered Stage 9.5 light NPC-facing anchors for all 12 placeholder regions. Coined no new proper nouns; created no new regions, factions, gods, artifacts, or central mysteries; exposed no DM-only locations.
+
+### Files Created
+- `04_world_atlas/FULL_CONTINENT_SETTLEMENT_ANCHORS.md` — settlement/social-anchor render layer: 17 mirrored NW anchors (Table 1) + 36 far-continent anchors across all 12 regions (Table 2) + 5 non-rendered local anchors (Table 3); 6 anchor types; render-priority + reference/art-map flags; coordinate rules, secrecy rules, density summary, self-audit (8/8 PASS)
+- `18_audits/PLAYER_SAFE_FULL_CONTINENT_MAP_AUDIT.md` — 11-check map-distribution audit (11/11 PASS; 0 Critical/High/Medium; 1 Low = no JSON manifest exists)
+
+### Files Changed
+- `04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` — added §8.5 "Settlement and Social Anchor Render Layer" (points to the anchors file as source of truth; reference vs art-map render rules; explicit no-NW-bunching rule)
+- `04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md` — added §D.5 settlement-anchor layer (required NW markers + far-continent anchor table + art-map subset + no-duplicate rule + NW-bunching warning) and 5 new audit checks (§K 16–20)
+- `00_control/CONTENT_INDEX.md` — added the anchors file and the map audit
+- `00_control/NAMING_REGISTRY.md` — Current Status note: Stage 9.5 light anchors now carry full-continent coordinates; no new names coined
+- `00_control/TODO.md` — pass logged complete under Completed Recently; map-image task note updated
+
+### Canon Established
+- None. No new world content. Settlement markers are coordinate placements of already-existing, already-registered light anchors.
+
+### Indexes Updated
+- CONTENT_INDEX (anchors file + audit). NAMING_REGISTRY status note.
+
+### Gaps Identified
+- No machine-readable JSON render manifest exists (`player_safe_full_continent_render_manifest.json`); markdown is the only source. Logged as a Low finding in the map audit — optional, non-blocking.
+
+### Next Recommended Pass
+- Generate the actual full-continent map images using the now-complete anchor layer; then proceed to Stage 12 (Dungeons, Ruins, Adventure Sites).
+
+---
+
 ## 2026-06-13 — Stage 11 Cleanup Pass
 
 ### Stage

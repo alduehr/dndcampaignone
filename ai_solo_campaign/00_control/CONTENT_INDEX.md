@@ -278,7 +278,8 @@ Each major faction has a 4-quest chain (intro → trust → moral complication �
 | **Full World Map Layers** | `04_world_atlas/FULL_WORLD_MAP_LAYERS.md` | mixed | static | **8 full-world map layers** (player-safe, DM-only, faction, mystery, danger, travel, hidden-truth, campaign-area standalone zoom map) + prompt mapping |
 | **Full World Map Prompts** | `04_world_atlas/FULL_WORLD_MAP_PROMPTS.md` | mixed | static | **5 full-world image prompts** (player-safe continent, DM-only continent, parchment artifact, functional reference, campaign-area standalone zoom map — a separate map, not an inset on the player-safe full-continent map) |
 | **Player-Safe Full-Continent Render Manifest** | `04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` | player-safe | static | **Label authority for the player-safe full-continent map.** Canonical feature table (57 entries), route/river geometry, region footprints, duplicate-prone audit, post-generation checklist, image model warning. No image prompt may introduce a label not in this manifest. |
-| **Player-Safe Full-Continent Generation Packet** | `04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md` | player-safe | static | **Self-contained copy-paste prompt** for external image generators that cannot read the repo. All manifest content embedded directly (Sections A–K). Use instead of FULL_WORLD_MAP_PROMPTS.md Prompt 1 when the image model has no repo access. |
+| **Player-Safe Full-Continent Generation Packet** | `04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md` | player-safe | static | **Self-contained copy-paste prompt** for external image generators that cannot read the repo. All manifest content embedded directly (Sections A–K, incl. §D.5 settlement-anchor layer). Use instead of FULL_WORLD_MAP_PROMPTS.md Prompt 1 when the image model has no repo access. |
+| **Full-Continent Settlement Anchors** | `04_world_atlas/FULL_CONTINENT_SETTLEMENT_ANCHORS.md` | player-safe | static | **Settlement/social-anchor render layer.** Full-continent coordinates for the 17 NW settlements (mirrored) + 36 far-continent light NPC-facing anchors across all 12 placeholder regions; 6 anchor types; render-priority + reference/art-map flags; distributes settlement markers across the whole continent. Extends the render manifest (§8.5). |
 | Region Index | `04_world_atlas/REGION_INDEX.md` | mixed | static | Index of authored regions + campaign-area + full-continent placeholders; directions, levels, grid coords, secrecy |
 
 ---
@@ -408,3 +409,13 @@ Each major faction has a 4-quest chain (intro → trust → moral complication �
 |---|---|---|
 | Content Gaps | `17_generation_backlog/CONTENT_GAPS.md` | Missing or underdeveloped content by category |
 | Expansion Plan | `17_generation_backlog/EXPANSION_PLAN.md` | Forward-looking development roadmap |
+
+---
+
+## Audit Reports
+
+| Name | File | Secrecy | Summary |
+|---|---|---|---|
+| Stage 1–5 AI-Readiness Audit | `18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md` | mixed | Stage 6 first full audit; foundation sound |
+| Stage 11 Mystery Secrecy Audit | `18_audits/STAGE_11_MYSTERY_SECRECY_AUDIT.md` | dm-only | No apex-truth leaks; all mystery files DM-only |
+| Player-Safe Full-Continent Map Audit | `18_audits/PLAYER_SAFE_FULL_CONTINENT_MAP_AUDIT.md` | player-safe | Settlement-anchor distribution pass; 11/11 checks PASS, 0 Critical/High/Medium |

@@ -99,6 +99,78 @@ Place each at or near the stated x,y position (0–100 grid: X=0 west, Y=0 north
 
 ---
 
+## Section D.5 — Settlement and Social Anchor Layer (DISTRIBUTE SETTLEMENTS ACROSS THE WHOLE CONTINENT)
+
+**CRITICAL — do not bunch all settlement markers in the northwest.** The NW campaign settlements (in Section D / E) are correctly dense in the upper-left quarter, but the continent must also show settlement and social markers across the **central, southern, eastern, northern, and southeastern** regions. Place a settlement marker (a small town/city icon with a label) at each position below.
+
+### D.5.1 — Required settlement/city markers (already in Sections D/E above; do not duplicate)
+
+Caradril (34,35), Hollowmere (24,23), Kettle Bridge (27,23), Saltmargin (20,22), Harrowgast (25,17), Orchardmere (25,32), Saint Veddow's Rest (23,33), Hartfell (33,22), Wrackmouth (12,23) — these are the high-priority NW markers. Render each exactly once.
+
+### D.5.2 — Far-continent settlement/social anchors (NEW — place these across the rest of the map)
+
+| Display Label | Type | x | y | Region | Render on art map? |
+|---|---|---|---|---|---|
+| Marrowfen Stair | town (hub) | 41 | 41 | Verdance Reaches | yes |
+| Lord's Wend | town | 45 | 39 | Verdance Reaches | no |
+| Cresswater | river landing | 39 | 45 | Verdance Reaches | no |
+| The Nine Locks | route node | 43 | 43 | Verdance Reaches | no |
+| Glassmere | city (major) | 55 | 50 | Glassmere League | yes |
+| Sennfort | town | 52 | 47 | Glassmere League | no |
+| Cairnwater | town | 58 | 53 | Glassmere League | no |
+| Marrowmoot | town (hub) | 50 | 66 | Marrowdowns | yes |
+| Penmark Hold | town | 47 | 63 | Marrowdowns | no |
+| Wether | village | 53 | 68 | Marrowdowns | no |
+| Fenward | town (hub) | 57 | 82 | Sallowmarch Protectorate | yes |
+| Reedmouth | village | 60 | 85 | Sallowmarch Protectorate | no |
+| Calderport | city (major) | 65 | 89 | Hollow Gulf Ports | yes |
+| Saltgate | town/port | 69 | 91 | Hollow Gulf Ports | yes |
+| The Winter-Camp at Cold Springs | seasonal camp (hub) | 45 | 16 | Wender Steppe | yes |
+| The Spine-Foot trade-meet | trade-meet | 50 | 20 | Wender Steppe | no |
+| The Sky-Stones | shrine-circle | 42 | 14 | Wender Steppe | no |
+| Brask's Hold | fortress-town (hub) | 73 | 17 | Karran Marches | yes |
+| Karran-Gate | mining town | 76 | 20 | Karran Marches | no |
+| The Old Iron forts | ruin-edge camp | 78 | 15 | Karran Marches | no |
+| Ashfast | city (major) | 80 | 62 | Emberfell Theocracy | yes |
+| Cinderhold | mining town | 83 | 65 | Emberfell Theocracy | no |
+| Brackhold | salt-clan hold (hub) | 57 | 68 | Saltmere Reaches | yes |
+| Saltcairn | clan-town | 63 | 73 | Saltmere Reaches | no |
+| The Drowned Towns | ruin-edge camp | 60 | 71 | Saltmere Reaches | no |
+| Crownmouth | scavenger-town (hub) | 60 | 54 | Concord Heartlands | yes |
+| The Pilgrim Camps | ruin-edge camps | 63 | 58 | Concord Heartlands | no |
+| Hethemoot | free-hold (hub) | 71 | 39 | Hethewald Free Holds | yes |
+| Greenward | grove-village | 68 | 43 | Hethewald Free Holds | no |
+| Tollreach | toll-camp | 75 | 37 | Hethewald Free Holds | no |
+| The Old Holds | ruin-edge | 74 | 44 | Hethewald Free Holds | no |
+| The Great Grove at Sunhollow | grove gathering (hub) | 44 | 80 | Sunmark | yes |
+| The Grove-Camps | camp-cluster | 40 | 77 | Sunmark | no |
+| The Green Roads | route label | 48 | 83 | Sunmark | no |
+
+#### D.5.2a — Reference-map-only additions (omit from art map)
+
+These seven anchors are `render_on_reference_map=true` in `FULL_CONTINENT_SETTLEMENT_ANCHORS.md` but were not listed in the art-map table above. Include them on **detailed reference maps only**; omit from stylized art maps.
+
+| Display Label | Type | x | y | Region | Render on art map? |
+|---|---|---|---|---|---|
+| The Reliquary | scholar chapter-house | 56 | 48 | Glassmere League | no |
+| The Barrow-Fields | ruin-edge (barrow camp) | 52 | 64 | Marrowdowns | no |
+| The Rice Sallows | waterway node | 55 | 86 | Sallowmarch Protectorate | no |
+| The Mardenmouth | harbor node | 63 | 88 | Hollow Gulf Ports | no |
+| The Deep Cuts | mining-camp node | 71 | 21 | Karran Marches | no |
+| The Ash Roads | route label | 78 | 59 | Emberfell Theocracy | no |
+
+*(The Green Roads for Sunmark is listed in the main table above.)*
+
+### D.5.3 — Anchor render rules
+
+1. **Art map (stylized):** render only the rows in D.5.2 marked "Render on art map? = yes" (the major cities + regional hubs + high-priority NW settlements). **Reference map (detailed):** render all rows in D.5.2 plus all rows in D.5.2a plus the standard NW settlements.
+2. **Do not render any locale/district inside a hub as a second marker** (e.g. market-floors, banking quarters, foreign-traders' quarters, poor riverside districts). One marker per anchor.
+3. **Ruin-edge camps** (The Old Iron forts, The Drowned Towns, The Pilgrim Camps, The Old Holds) are small **living camps beside** ruins — render as a small camp/tent icon, NOT as a city, and NEVER with any underground, network, or "machine" annotation. The ruins themselves stay broken and unexplained.
+4. **No invented settlement names.** Use only the names above.
+5. **Distribution check:** after placing markers, confirm settlements appear in the center (Glassmere, Crownmouth, Hethemoot), the south (Marrowmoot, Fenward, Calderport, Brackhold, Sunhollow), the north (Cold Springs, Brask's Hold), and the southeast (Ashfast) — not only in the NW.
+
+---
+
 ## Section E — Standard Labels (include if space allows)
 
 | Display Label | Type | x | y | Notes |
@@ -268,6 +340,11 @@ Run this checklist after generating the map. Any "No" is an error — fix or reg
 13. Is "The Saltmere" on the water and "The Saltmere Reaches" on the surrounding land (not stacked)?
 14. Are all route/river labels placed once only (not duplicated at each waypoint)?
 15. Are all label spellings correct relative to Sections D–F (check proper names carefully)?
+16. Are settlement markers distributed across the WHOLE continent (Section D.5), not bunched in the northwest? (Confirm markers in the center, south, north, and southeast.)
+17. Is each far-continent region (12) showing at least its hub settlement marker?
+18. Are ruin-edge camps drawn as small camps beside broken ruins — never as cities, never with underground/network annotations?
+19. Are any hub-internal districts/locales (market-floors, banking quarters, foreign quarters, poor districts) wrongly drawn as separate settlement markers? (They must not be.)
+20. Are any invented settlement names present that are not in Section D.5? (There must be none.)
 
 ---
 
@@ -278,6 +355,7 @@ Run this checklist after generating the map. Any "No" is an error — fix or reg
 ## Related Files (repo use)
 
 - [`PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md`](PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md) — authoritative repo source; this packet is derived from it
+- [`FULL_CONTINENT_SETTLEMENT_ANCHORS.md`](FULL_CONTINENT_SETTLEMENT_ANCHORS.md) — authoritative source for the Section D.5 settlement/social anchor layer
 - [`FULL_WORLD_MAP_PROMPTS.md`](FULL_WORLD_MAP_PROMPTS.md) — repo-aware generation prompts (Prompt 1 for full continent; Prompt 5 for campaign-area standalone zoom)
 - [`FULL_WORLD_MAP_AUTHORITY.md`](FULL_WORLD_MAP_AUTHORITY.md) — prose geography and lore
 - [`FULL_WORLD_MAP_COORDINATES.md`](FULL_WORLD_MAP_COORDINATES.md) — raw 0–100 grid coordinates

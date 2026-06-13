@@ -315,6 +315,26 @@ The following pairs share a footprint. Each has a **resolved priority rule** —
 
 ---
 
+## Section 8.5 — Settlement and Social Anchor Render Layer
+
+The region/water/terrain/route labels in Sections 4–6 cover the continent's **geography**. The **settlement and social anchor layer** — the actual settlement markers distributed across all of Orrun — lives in a companion file:
+
+**Source of truth for settlement/social markers: [`FULL_CONTINENT_SETTLEMENT_ANCHORS.md`](FULL_CONTINENT_SETTLEMENT_ANCHORS.md).**
+
+Render rules for this layer:
+
+1. **Render all anchors with `render_on_reference_map = true`** on a detailed reference map.
+2. **For a stylized art map, render only anchors with `render_on_art_map = true`** (the major cities, regional hubs, and the high-priority NW settlements).
+3. **Never render any `non_rendered_local_anchor`** (Table 3 of the anchors file) — these are districts/locales/diffuse areas, not full-continent markers.
+4. **Do not render only the NW settlements.** The NW campaign settlements are correctly dense in the northwest, but the full-continent map must also show far-continent settlement/social anchors distributed across **central, southern, eastern, northern, and southeastern Orrun**.
+5. **One marker per anchor.** A district or locale inside an already-marked hub (e.g. a poor riverside district, a market-floor, a foreign-traders' quarter) does **not** get a second marker — it inherits the hub's single marker.
+6. **All settlement/social anchors are player-safe.** The DM-only locations in Section 2 must never appear as anchors. Far-continent `ruin_edge_anchor` markers show only the **living camp beside** a ruin, never the ruin's DM-only truth or any network/depth annotation.
+7. **Density gradient (intended):** densest in the NW cluster, second-densest in the settled center/south, sparsest in the wild/forbidden regions (steppe, volcanic highland, fallen-ruin country). This matches the cold-NW → warm-SE tilt.
+
+When generating a full-continent map, copy the `render_on_reference_map = true` rows (or, for an art map, the `render_on_art_map = true` rows) from `FULL_CONTINENT_SETTLEMENT_ANCHORS.md` Tables 1–2 directly into the image prompt alongside the Section 4 required labels.
+
+---
+
 ## Section 9 — Image Model Warning
 
 - Image models may **ignore coordinates** unless the prompt is generated **directly from this manifest**.
@@ -326,6 +346,7 @@ The following pairs share a footprint. Each has a **resolved priority rule** —
 
 ## Related Files
 
+- [`FULL_CONTINENT_SETTLEMENT_ANCHORS.md`](FULL_CONTINENT_SETTLEMENT_ANCHORS.md) (settlement/social anchor render layer — Section 8.5)
 - [`FULL_WORLD_MAP_AUTHORITY.md`](FULL_WORLD_MAP_AUTHORITY.md) · [`FULL_WORLD_MAP_COORDINATES.md`](FULL_WORLD_MAP_COORDINATES.md) · [`FULL_WORLD_MAP_PROMPTS.md`](FULL_WORLD_MAP_PROMPTS.md) · [`FULL_WORLD_MAP_LAYERS.md`](FULL_WORLD_MAP_LAYERS.md)
 - [`WORLD_MAP_COORDINATES.md`](WORLD_MAP_COORDINATES.md) · [`WORLD_MAP_PROMPTS.md`](WORLD_MAP_PROMPTS.md) · [`REGION_INDEX.md`](REGION_INDEX.md)
 - [`../00_control/NAMING_REGISTRY.md`](../00_control/NAMING_REGISTRY.md)

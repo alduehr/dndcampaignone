@@ -8,6 +8,7 @@ Live status of each development stage. Updated after every stage completes, part
 
 **Active Stage:** Stage 12 (Dungeons, Ruins, Adventure Sites) — next
 **Last Completed Stage:** Stage 11 — Mystery, Secret, Clue Expansion (complete 2026-06-13)
+**Most Recent Pass:** Interstitial cartographic precision pass — full-continent settlement/social anchors (complete 2026-06-13; see Interstitial Passes below)
 
 ---
 
@@ -36,6 +37,19 @@ Live status of each development stage. Updated after every stage completes, part
 | 17 | Live Campaign Operation | not started | 0% | — | Begins after Stage 16 |
 | 18 | Periodic Live Audits | not started | 0% | — | Ongoing during Stage 17 |
 | 19 | Campaign Completion and Epilogues | not started | 0% | — | End of campaign |
+
+---
+
+## Interstitial Passes (not development stages)
+
+These passes run between stages and do not create new canon stages. Logged here for traceability.
+
+| Pass | Date | Status | Notes |
+|---|---|---|---|
+| World Map Authority Pass | 2026-06-11 | complete | Campaign-area (NW Orrun) map-authority layer |
+| Full-World Cartographic Expansion | 2026-06-11 | complete | Extended map authority to the full continent of Orrun (geographic + placeholder political/cultural regions) |
+| Cartographic Consistency / Render-Control Audit | 2026-06-12 | complete | Removed insets, fixed label pairs, resolved duplicate-prone labels |
+| Full-Continent Settlement/Social Anchor Pass | 2026-06-13 | complete | Gave all 12 far-continent placeholder regions player-safe settlement/social map markers (full-continent coords for the already-registered Stage 9.5 light anchors); created `04_world_atlas/FULL_CONTINENT_SETTLEMENT_ANCHORS.md` + `18_audits/PLAYER_SAFE_FULL_CONTINENT_MAP_AUDIT.md`; updated render manifest (§8.5) and generation packet (§D.5). No new proper nouns / canon geography; 11/11 audit checks PASS |
 
 ---
 
