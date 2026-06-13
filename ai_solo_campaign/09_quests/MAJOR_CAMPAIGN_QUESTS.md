@@ -55,6 +55,45 @@ Quest IDs: `Q_MAJOR_NNN_SLUG`. Where a questline subsumes existing Stage-1–8 q
 
 ---
 
+## Clues and Revelations Cross-Link (Stage 11)
+
+Compact map of which **revelations** (`REV_*` in `../11_mysteries_and_secrets/REVELATION_MAP.md`) and **clue lines** each major questline delivers or points toward. The DM-Only truth of each quest is in its own block; this table is the at-a-glance clue/REV index. **Apex REVs (REV_007/008/010) are Act-4-5-gated; Q_MAJOR_014 is DM-only.** No quest is the *sole* path to any REV (see the revelation map's 3+ sources per REV).
+
+| Quest | Delivers / points to (REV) | Clue lines | Gate note |
+|---|---|---|---|
+| Q_MAJOR_001 | REV_001 | C_SR_001/004; seeds C_SR_005 | Act 1; no REV_002+ |
+| Q_MAJOR_002 | REV_001 -> REV_003 -> (REV_007 culmination) | C_SR_014/015/016; later C_SR_027/028 | apex only at Act 4 |
+| Q_MAJOR_003 | REV_002 -> REV_005/006 (Script gate) | C_CAR_007/011/012 | Archive Act 3 |
+| Q_MAJOR_004 | REV_002 | C_SR_013, C_CAR_005/006 | Act 2 |
+| Q_MAJOR_005 | REV_002 -> REV_005 frag (channeled dead) | C_SR_012/023 | Act 3 for truth |
+| Q_MAJOR_006 | REV_001 -> REV_005/006 -> REV_008 (seal) | C_SR_010/022/025/031 | Othetha Act 3 |
+| Q_MAJOR_007 | REV_004 | C_SR_019/020/021, C_CAR_009/010 | employer murky to Act 4 |
+| Q_MAJOR_008 | REV_005 thematic key (the Stilling) | C_CAR_011/015 | Act 3 |
+| Q_MAJOR_009 | REV_001 corroboration (the drowned roads) | C_AV_001/C_TW_001/C_PC_001 | Act 2 |
+| Q_MAJOR_010 | REV_002 (maritime) | C_PC_003 | Act 2-3 |
+| Q_MAJOR_011 | REV_005/006 (the Archive) | C_CAR_011/012/013 | Act 3 |
+| Q_MAJOR_012 | REV_005 corroboration (Heartlands) | C_FC_001 | NEVER the keystone/Court |
+| Q_MAJOR_013 | thematic mirror (Emberfell) | C_FC_004 | mirror only; not a node |
+| Q_MAJOR_014 | REV_007 (apex) | C_SR_027/028/029 | **DM-only; Act 4** |
+| Q_MAJOR_015 | REV_008/010 (the choice) | C_SR_030/031/032/033/036, C_FC_012 | Act 4-5 |
+| Q_MAJOR_016 | REV_001 + REV_005 folk (Vale) | C_AV_001/002/003 | Combe's songs Act 3 |
+| Q_MAJOR_017 | REV_001 + REV_005 oblique (Tollwood) | C_TW_001/002 | "grey lords" Act 3 oblique |
+| Q_MAJOR_018 | REV_002 (Ledger inland) | C_FC_004-adjacent | Act 2-3 |
+| Q_MAJOR_019 | REV_002/005 (Glassmere) | C_FC_011 | folk-fragment only |
+| Q_MAJOR_020 | M2/M5 pre-Concord echo (Saltmere) | C_FC_002 | NEVER the keystone |
+| Q_MAJOR_021 | REV_009 oblique (Sallowmarch) | C_FC_013-adjacent | clinical echo only |
+| Q_MAJOR_022 | world-horizon (overseas) | C_FC_005 | extremely oblique |
+| Q_MAJOR_023 | M2/M5 pre-Concord echo (Marrowdowns) | C_FC_003 | NEVER the keystone |
+| Q_MAJOR_024 | REV_009 cosmic echo (Steppe) | C_FC_013 | never names Quiet Country |
+| Q_MAJOR_025 | REV_002 + pre-Concord echo (Karran) | C_FC_010 | peripheral ruins, not the keystone |
+| Q_MAJOR_026 | REV_008/010 hopeful contrast (Sunmark) | C_FC_012 | synthesis hint only |
+| Q_MAJOR_027 | REV_001 corroboration (Hethewald) | C_FC_011-adjacent | folk-fragment |
+| Q_MAJOR_028 | convergence -> REV_007 | C_SR_028 | apex Act 4 |
+
+> Far-continent **developed quests** (`by_region/*_QUESTS.md`) and their clue cross-links are summarized in `../11_mysteries_and_secrets/by_region/FAR_CONTINENT_ECHO_CLUES.md`; each delivers only the oblique echo listed there, never the apex.
+
+---
+
 # Q_MAJOR_001 — The Body That Came Back Wrong
 
 **Act / Level:** Act 1 / 1–4. Solo danger: low→moderate. **Quest Type:** Investigation / mystery (campaign opener).

@@ -14,9 +14,9 @@ related: [MYSTERY_WEB.md, REVELATION_MAP.md, SECRET_INDEX.md, ../02_runtime_stat
 
 ## Current Status
 
-**Populated from the Stage 1 mystery web.** All clues below are authored and currently **hidden** — the player has discovered nothing at campaign start. As play progresses, update each clue's status here and mirror discovered clues into `../02_runtime_state/KNOWN_CLUES.md` (remove or mark them in `../02_runtime_state/HIDDEN_CLUES.md`).
+**Stage 11 expanded.** Populated from the Stage 1 mystery web, then expanded with a **region-coded clue layer** (`C_SR_*`/`C_CAR_*`/`C_AV_*`/`C_TW_*`/`C_PC_*`/`C_FC_*`) cross-referenced to the formal `REV_*` revelations in `REVELATION_MAP.md`, plus the Stage 3/4 region anchors and the far-continent echo clues. All clues are authored and currently **hidden** — the player has discovered nothing at campaign start. As play progresses, update each clue's status here and mirror discovered clues into `../02_runtime_state/KNOWN_CLUES.md` (remove or mark them in `../02_runtime_state/HIDDEN_CLUES.md`).
 
-Clue IDs use the pattern `C-<mystery>-<n>` (e.g. `C-M1-2`). Several mysteries are solved by **convergence** of other mysteries rather than by net-new clues; those are noted as convergence clues and point back to the feeder mysteries.
+Clue IDs use two compatible patterns: the original `C-<mystery>-<n>` (e.g. `C-M1-2`, the canonical per-mystery clues) and the Stage 11 region-coded `C_<REGION>_<nnn>` (e.g. `C_SR_001`, `C_CAR_011`, `C_FC_001`) used by the revelation map. Many region-coded clues are the same authored clue as a C-M* under a region ID; new ones extend redundancy. Several mysteries are solved by **convergence** of other mysteries rather than by net-new clues; those are noted as convergence clues. Full runnable per-clue detail lives in the regional trail files `by_region/*_CLUES.md`.
 
 ---
 
@@ -115,6 +115,108 @@ City part-truth NPCs: Quorrin Vane (M3/M6/M9), Briss (M6 via Archive once disill
 | M0 | (central) | n/a | solved by assembling M2 + M3 + M6 + M7; no net-new clues |
 
 ---
+
+## Stage 11 — Region-Coded Clue Layer (REV-ID cross-reference)
+
+Stage 11 adds a **region-coded clue ID layer** (`C_SR_*` Sundering Reach, `C_CAR_*` Caradril, `C_AV_*` Ashgarden Vale, `C_TW_*` Tollwood, `C_PC_*` Pale Coast, `C_FC_*` far-continent echoes) so each `REV_*` in `REVELATION_MAP.md` has its 3+ independent sources addressably tracked. **These do not replace the C-M* clues above** — many are the same authored clue under a region-coded ID for revelation-map cross-reference; new ones extend redundancy. All `hidden` at start. Each row: ID · player-facing form · actual meaning (brief DM) · REV(s) supported · source type · approach · redundancy/fallback · false-read risk · secrecy · fixed/movable.
+
+> **Format note (per file size):** full per-clue prose (who can interpret, exact NPCs/locations/quests, DC bands, alt-paths, fallback) lives in the **regional clue-trail files** `by_region/*_CLUES.md`. This index is the master cross-reference; load the regional file for the runnable detail.
+
+### Sundering Reach (`C_SR_*`)
+
+| ID | Player-facing form | Actual meaning (DM) | REV | Source type | False-read risk | Secrecy |
+|---|---|---|---|---|---|---|
+| C_SR_001 | Wren clings to "something unfinished"; remembers dying | Partial Remembrance-revenant; shrine pulled at her | REV_001 | NPC conversation | "a normal ghost / haunting" | discoverable |
+| C_SR_004 | Grave-soil turned from beneath, drifting waterward | The basin pulls the buried dead | REV_001 | Site/physical | "grave-robbers / erosion" | discoverable |
+| C_SR_005 | Old Sashe's map: the dead drift basin-ward for years | The keystone pulls leaked Remembrance | REV_001 | Document/testimony | "fen currents / animal trails" | clue-gated (Sashe's trust) |
+| C_SR_010 | Rites fail worse the nearer the water | Proximity to the reawakening keystone | REV_001 | Religious/rite observation | "the fens are cursed" | discoverable |
+| C_SR_011 | A relic is cold-wrong; shows a dead face | It *stores a person* (substance) | REV_002 | Object/magic | "a creepy antique" | dm-only -> player on study |
+| C_SR_012 | Gravecallers: "the dead know things; the relics are full" | Remembrance is harvestable identity | REV_002 | Faction/forbidden | "cult raving" | clue-gated (cult contact) |
+| C_SR_013 | The Ledger vault relic "remembers" a dead person | Someone collects the substance on purpose | REV_002 | Object/heist or turned factor | "valuable salvage only" | clue-gated |
+| C_SR_014 | The reeve: "the basin push doesn't add up" | A cover to reopen the shrine | REV_003 | Social/investigation | "ordinary council politics" | discoverable |
+| C_SR_015 | The water-rights filings are fabricated | The stated reason is false | REV_003 | Document | "clerical error" | clue-gated (protect Pevin Oss) |
+| C_SR_016 | Reke visits the basin shore alone at night | Personal, secret interest in the shrine | REV_003 | Exploration/surveillance | "an affair / smuggling" | discoverable |
+| C_SR_017 | The factor: "it's not really about water" | Ledger money behind the works | REV_003 | Social | "factor gossip" | discoverable |
+| C_SR_018 | Sela Coalmont: the Compact is "steered against the Reach" | Infiltration steering policy | REV_003 | Faction/authority | "frontier neglect, not a plot" | clue-gated |
+| C_SR_019 | Sefra is uneasy about her patron's money | She was a paid cutout | REV_004 | NPC confession | "she's just shifty" | clue-gated (trust/press) |
+| C_SR_020 | The patron's payments trace to a cutout | The player was steered | REV_004 | Document/follow-the-money | "a rival faction hired me" | clue-gated |
+| C_SR_021 | The player keeps being pointed at the shrine | Deliberate steering | REV_004 | Pattern (player-driven) | "coincidence" | dm-confirms |
+| C_SR_022 | A senior Warden breaks her oath | The Concord harvested the dead | REV_005 | NPC confession | — (direct) | dm-only (Act 3 gate) |
+| C_SR_023 | A channeled Quietfall-era witness testifies | Firsthand harvest + pause account | REV_005/REV_006 | Forbidden/the dead | "a lying spirit" | dm-only (Act 3 gate) |
+| C_SR_024 | Wend's old songs, fully decoded | "The Concord ate the dead" (folk-truth) | REV_005 | Song/folk | "old superstition" | dm-only (Act 3 gate) |
+| C_SR_025 | Othetha: the Wardens were seeded to keep a pause | The Quietfall was deliberate | REV_006 | NPC confession | — | dm-only (Act 3 gate) |
+| C_SR_026 | Shrine Concord Script states "the pause" | The self-destruction was planned | REV_006 | Document/inscription (Script) | mistranslation | dm-only (Act 3 gate) |
+| C_SR_027 | The under-shrine; preserved memory-beings | The Hollow Court | REV_007 | Exploration (lethal-telegraphed) | — (apex) | dm-only (Act 4 gate) |
+| C_SR_028 | The only explanation that fits all proof | Surviving Custodians restarting the harvest | REV_007 | Convergence | "the Remnant is the apex" | dm-only (Act 4 gate) |
+| C_SR_029 | "The ones who would not pass" / Maire reaches out | The Court is real and present | REV_007 | Forbidden/heretic | "metaphor" | dm-only (Act 4 gate) |
+| C_SR_030 | Gravecaller warning: breaking it = catastrophe | Destroy-ending cost | REV_008 | Faction/forbidden | "cult fear-mongering" | dm-only (Act 4-5) |
+| C_SR_031 | Warden warning: sealing ends resurrection | Seal-ending cost | REV_008 | Faction/trust | "Warden conservatism" | dm-only (Act 4-5) |
+| C_SR_032 | Veyl's case for a controlled restart | Restart-ending cost (stability+horror) | REV_008 | Apex contact | "villain lies" | dm-only (apex) |
+| C_SR_033 | Maire: the dead could choose | Synthesis-ending possibility | REV_008/REV_010 | Apex contact | — | dm-only (apex) |
+| C_SR_034 | "Thin" Harrowgast miners; thin-born | Living evidence the afterlife thinned | REV_009 | Site/social | "miner's disease" | discoverable (effects) |
+| C_SR_035 | The dead name "the empty country" | The Quiet Country is finite/drained | REV_009 | Forbidden/the dead | "spirit metaphor" | dm-only (Act 3+ gate) |
+| C_SR_036 | Maire reaches out directly | The Court could end itself | REV_010 | Apex contact | — | dm-only (endgame) |
+| C_SR_037 | Orre's hawkishness vs. Maire's doubt | Court internal split | REV_010 | Apex observation | — | dm-only (endgame) |
+| C_SR_038 | Gravecaller fragments on freeing the dead | A consensual system is conceivable | REV_010 | Forbidden | "chaos / catastrophe only" | dm-only (endgame) |
+
+> `C_SR_001`-`C_SR_017` map onto the Act-1/2 C-M1/M2/M3/M4/M5/M8 clues above (region-coded for REV cross-ref). `C_SR_022`-`C_SR_038` map onto C-M6/M7/M9/M10. **Redundancy/fallback for every REV is the 3+ sources listed in `REVELATION_MAP.md`; the regional trail files hold the per-clue alt-paths and "what if missed."**
+
+### Caradril (`C_CAR_*`)
+
+| ID | Player-facing form | Actual meaning (DM) | REV | Source type | Secrecy |
+|---|---|---|---|---|---|
+| C_CAR_004 | A studied relic stores a person | Remembrance substance (city magic path) | REV_002 | Object/magic | dm-only -> player on study |
+| C_CAR_005 | Ashmarket quiet-coin "holds the dead" | Commercial relic trade | REV_002 | Mercantile | discoverable |
+| C_CAR_006 | Crucible smelting "incidents" | Relics resist destruction (substance) | REV_002 | Site/hazard | clue-gated |
+| C_CAR_007 | Concord Script: "the keeping of the dead's pattern" | The substance, scholarly | REV_002 | Document (Script) | clue-gated (Script gate) |
+| C_CAR_008 | Misfiled charter record: Ledger -> "Reach water-rights" | Caradril-side basin-scheme echo | REV_003 | Document | clue-gated |
+| C_CAR_009 | Patron payment trail (city banking) | Steering cutout | REV_004 | Document/follow-the-money | clue-gated |
+| C_CAR_010 | The Hush sells the correspondent fragment | Reke writes to someone seated here | REV_004 | Faction/broker (costly) | clue-gated |
+| C_CAR_011 | The Sealed Archive: the harvest, written | The Concord harvested the dead | REV_005 | Archive (Script) | dm-only (Act 3 gate) |
+| C_CAR_012 | The Sealed Archive: the signed, planned Quietfall | Deliberate self-destruction | REV_006 | Archive (Script) | dm-only (Act 3 gate) |
+| C_CAR_013 | Node-site Concord Script (Sunken Wards) | The pause, inscribed | REV_006 | Document/inscription | dm-only (Act 3 gate) |
+| C_CAR_014 | Deep study of resurrection failure + relic analysis | The afterlife is finite | REV_009 | Magic/research | dm-only (gated) |
+| C_CAR_015 | Thin-born refugees in the Sill | Living thinning evidence | REV_009 | Social/site | discoverable |
+
+### Ring 1 (`C_AV_*` Vale · `C_TW_*` Tollwood · `C_PC_*` Coast) and Far-Continent (`C_FC_*`)
+
+These are corroboration/echo clues. They **confirm the pattern from outside the Reach** and (far) **confirm the theme is bigger than the NW** — but never deliver the keystone mechanism or name the Court. Full per-clue detail in `by_region/ASHGARDEN_VALE_CLUES.md`, `by_region/TOLLWOOD_CLUES.md`, `by_region/PALE_COAST_CLUES.md`, and `by_region/FAR_CONTINENT_ECHO_CLUES.md`.
+
+| ID | Region | Player-facing form | REV | Ceiling |
+|---|---|---|---|---|
+| C_AV_001 | Vale | Honest M5 window (Tilbrook/Mam Tace): rites starting to fail here too | REV_001 | radiates from the Reach; no mechanism |
+| C_AV_002 | Vale | "Saint's-bones" relics are Remembrance relics | REV_002 | substance demo; no Concord-sin |
+| C_AV_003 | Vale | Ezrith Combe's old songs (folk-fragment) | REV_005 | folk-truth only, Act 3 gate |
+| C_TW_001 | Tollwood | Coldhearth honest M5 window; deep wood "gone wrong" | REV_001 | radiates outward; no mechanism |
+| C_TW_002 | Tollwood | "Grey lords took the dead before the roads fell" (oblique) | REV_005 | pre-Concord half-memory; gated; never the Court |
+| C_PC_001 | Coast | Cobble Strand honest M5/M2 window; the "drowned-tide" | REV_001 | radiates outward; no mechanism |
+| C_PC_002 | Coast | Salt-Mother Bryd: "Lamps kept the drowned for the Concord" | REV_005 | coastal folk-fragment; Act 3 gate |
+| C_PC_003 | Coast | Sea-relic trade (Maris Cole's salvage-ledger) | REV_002 | maritime substance trade |
+| C_FC_001 | Concord Heartlands | The Ruin'd Crown's harvest-record | REV_005 | the Concord's true scale/sin; NEVER the live machine/keystone |
+| C_FC_004 | Emberfell | "Old glass" sold against the Pyre's law; "ash-touched" crews | REV_002 | southern relic source; no meaning/origin |
+| C_FC_010 | Karran | "Humming old iron"; deep crews "come back changed" | REV_002 | NE relic source; no meaning/origin |
+| C_FC_011 | (network) | The continental old-songs fragment: "the grey hands took the dead" | REV_005 | folk-fragment only; never the mechanism/Court |
+| C_FC_012 | Sunmark | A faith whose rites *still hold the dead* | REV_008/REV_010 | hopeful contrast; synthesis is conceivable |
+| C_FC_013 | Steppe/Sunmark | "The Sky has gone thin"; "a far root aches" | REV_009 | deeply oblique cosmic echo; never names Quiet Country/harvest |
+
+---
+
+## Stage 11 — Per-REV Three-Source Verification
+
+Each major revelation is backed by **>=3 independent clue sources from different regions/NPCs/approaches** (no single point of failure). Counts include the C-M* and region-coded layers; far echoes are *corroboration*, never the sole path.
+
+| REV | Independent sources | Approaches spanned | >=3? | Single-point-of-failure? |
+|---|---|---|---|---|
+| REV_001 | C_SR_001, _004, _005, _010 + Ring1 windows | social / physical / testimony / rite / regional | 5+ | none |
+| REV_002 | C_SR_011, _012, _013 + C_CAR_004/005/006/007 + C_FC_004/010 + C_PC_003 | magic / forbidden / mercantile / scholarly / far | 8+ | none |
+| REV_003 | C_SR_014, _015, _016, _017, _018 + C_CAR_008 | political / paper / surveillance / money / authority | 6 | none |
+| REV_004 | C_SR_019, _020, _021 + C_CAR_009/010 | confession / follow-money / pattern / broker | 5 | none |
+| REV_005 | C_CAR_011 + C_SR_022, _023, _024 + C_FC_001/011 + C_AV_003/C_PC_002 | archive / confession / dead / song / far | 7+ | none |
+| REV_006 | C_CAR_012 + C_SR_025, _023, _026 + C_CAR_013 | archive / confession / dead / inscription | 5 | none |
+| REV_007 | C_SR_027, _028, _029 | physical / convergence / heretic | 3 | none (convergence requires 3 prior REVs) |
+| REV_008 | C_SR_030, _031, _032, _033 + C_FC_012 | faction warnings (4 sources) / far contrast | 5 | none |
+| REV_009 | C_CAR_014/015 + C_SR_034, _035 + C_FC_013 | research / social / dead / far | 5 | none |
+| REV_010 | C_SR_036, _037, _038 + C_FC_012 | apex contact / observation / forbidden / far | 4 | none |
 
 ## Clue Type Reference
 

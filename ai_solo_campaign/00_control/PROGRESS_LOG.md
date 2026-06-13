@@ -6,6 +6,86 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-13 — Stage 11 Cleanup Pass
+
+### Stage
+Stage 11 — Mystery, Secret, and Clue Expansion (cleanup pass).
+
+### Summary
+Post-Stage-11 bookkeeping: updated all stale tracking/status files to reflect Stages 0–11 complete and Stage 12 next; created four DEVELOPMENT_STAGES.md required wrapper files (MYSTERY_CHAINS.md, FALSE_LEADS.md, REVEAL_TIMING.md, PROPHECIES_AND_OMENS.md); mirrored the new region-coded clue ID ranges into HIDDEN_CLUES.md Stage 11 anchor section; added the four wrapper files to CONTENT_INDEX.md and TAG_INDEX.md; updated NAMING_REGISTRY.md Current Status note.
+
+### Files Created
+- `11_mysteries_and_secrets/MYSTERY_CHAINS.md` — navigation index/wrapper for the full mystery chain infrastructure
+- `11_mysteries_and_secrets/FALSE_LEADS.md` — alias/wrapper pointing to FALSE_LEADS_AND_MISDIRECTIONS.md
+- `11_mysteries_and_secrets/REVEAL_TIMING.md` — phase gate quick-reference chart (REV_001–010)
+- `11_mysteries_and_secrets/PROPHECIES_AND_OMENS.md` — omen delivery policy file
+
+### Files Changed
+- `00_control/CONTENT_INDEX.md` — added 4 wrapper file entries to mysteries section
+- `00_control/TAG_INDEX.md` — Current Status updated; type:mystery, type:npc-codex, type:quest sections added; Stage 11 dm-only entries added
+- `00_control/NAMING_REGISTRY.md` — Current Status updated to Stages 0–11 complete
+- `00_control/CONTENT_GAPS.md` — Current Status updated (Stages 0–11 complete)
+- `00_control/EXPANSION_PLAN.md` — Current Stage updated to Stage 12 next
+- `00_control/CONSISTENCY_AUDIT.md` — Stage 11 self-check prepended
+- `00_control/OPEN_QUESTIONS.md` — Status line updated to Stages 0–11 complete
+- `02_runtime_state/HIDDEN_CLUES.md` — Stage 11 region-coded clue layer anchor section added
+
+### Canon Established
+- None. Cleanup pass only — no new world content created.
+
+### Indexes Updated
+- CONTENT_INDEX (4 new entries), TAG_INDEX (full Stage 11 update).
+
+### Gaps Identified
+- None new. Stage 11 gaps (mirror clue IDs) resolved in this pass.
+
+### Next Recommended Pass
+- Stage 12 — Dungeons, Ruins, and Adventure Sites.
+
+---
+
+## 2026-06-13 — Stage 11: Mystery, Secret, and Clue Expansion
+
+### Stage
+Stage 11 — Mystery, Secret, and Clue Expansion.
+
+### Summary
+Built the campaign's discoverability machinery on top of the existing (well-protected) Stage-1 mystery web. Added a formal revelation map (REV_001–REV_010, each with at least three independent clue sources spanning different regions, NPCs, and approaches), a region-coded clue layer, a seven-layer mystery hierarchy, six regional clue trails, faction and NPC knowledge maps, nine fair false leads, ten-playstyle discovery paths, a DM-only secret protection matrix, and a blank live-play mystery-state tracker. Cross-linked the Stage 10 major quests to revelation/clue IDs. Ran a secrecy audit (0 Critical / 0 High). Preserved all established canon (M0–M10, the harvest, the deliberate Quietfall, the Hollow Court keystone); no apex truth leaks into any player-safe file.
+
+### Files Created
+- `11_mysteries_and_secrets/by_region/SUNDERING_REACH_CLUES.md`, `CARADRIL_CLUES.md`, `ASHGARDEN_VALE_CLUES.md`, `TOLLWOOD_CLUES.md`, `PALE_COAST_CLUES.md`, `FAR_CONTINENT_ECHO_CLUES.md` — six regional clue trails
+- `11_mysteries_and_secrets/by_faction/FACTION_KNOWLEDGE_MAP.md` — all 7 factions (Hollow Court section apex-DM-only)
+- `11_mysteries_and_secrets/NPC_KNOWLEDGE_MAP.md` — ~60 NPCs by knowledge tier
+- `11_mysteries_and_secrets/FALSE_LEADS_AND_MISDIRECTIONS.md` — 9 fair, recoverable false leads
+- `11_mysteries_and_secrets/DISCOVERY_PATHS.md` — 10 playstyles + anti-railroad redirect rules
+- `11_mysteries_and_secrets/SECRET_PROTECTION_MATRIX.md` — DM-only; 7 apex secrets, safe/unsafe wording + gates
+- `11_mysteries_and_secrets/MYSTERY_STATE_TRACKER_TEMPLATE.md` — blank runtime tracker
+- `18_audits/STAGE_11_MYSTERY_SECRECY_AUDIT.md` — secrecy audit report
+- `00_control/STAGE_11_PROGRESS.md` — progress tracker
+
+### Files Changed
+- `11_mysteries_and_secrets/REVELATION_MAP.md` — formal REV_001–REV_010 layer; dependency graph; per-REV 3+ sources
+- `11_mysteries_and_secrets/CLUE_INDEX.md` — region-coded clue layer + per-REV three-source verification
+- `11_mysteries_and_secrets/MYSTERY_WEB.md` — 7-layer mystery hierarchy + far-continent echo cross-reference
+- `11_mysteries_and_secrets/SECRET_INDEX.md` — Stage 11 REV cross-reference
+- `09_quests/MAJOR_CAMPAIGN_QUESTS.md` — Clues-and-Revelations cross-link table
+- `00_control/STAGE_STATUS.md`, `CONTENT_INDEX.md`, `TODO.md` — Stage 11 complete; Stage 12 flagged next
+
+### Canon Established
+- No new canon. M0–M10 and all DM-only truths preserved; the new files are discoverability/retrieval infrastructure over existing canon.
+
+### Indexes Updated
+- CLUE_INDEX, MYSTERY_WEB, REVELATION_MAP, SECRET_INDEX, CONTENT_INDEX, STAGE_STATUS.
+
+### Gaps Identified
+- (Medium) Mirror region-coded clue IDs into runtime `HIDDEN_CLUES.md` for 1:1 REV tracking (non-blocking; logged in TODO + audit).
+- (Medium) Light confirming read of 11 far-quest files in Stage 12 (grep-clean; non-blocking).
+
+### Next Recommended Pass
+- Stage 12 — Dungeons, Ruins, and Adventure Sites (keystone drowned-shrine / Under-Shrine; cross-link existing dungeons to the new region-coded clue layer).
+
+---
+
 ## 2026-06-12 — Stage 9: NPC Codex Expansion (Pass 1 + Pass 2 — Complete)
 
 ### Stage

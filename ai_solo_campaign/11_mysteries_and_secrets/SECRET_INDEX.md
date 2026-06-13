@@ -41,6 +41,10 @@ related: [MYSTERY_WEB.md, ../03_canon/DM_ONLY_CANON.md, ../08_npcs/MAJOR_NPCS.md
 
 Reveal in this rough order to preserve the mystery's build: surface NPC secrets (9, 10, 11, 19, 20) → contemporary conspiracy (2, 12, 13, 14) → historical (3, 4, 15, 17) → cosmological (7) → apex (1, 5, 6, 8, 18) → choice (16).
 
+## Stage 11 Cross-Reference
+
+These 20 secrets map onto the formal revelation layer in `REVELATION_MAP.md`. The most apex-sensitive (1, 5, 6, 8 — the harvest, the surviving Court, the keystone, the Wardens' seal) are governed by the **`SECRET_PROTECTION_MATRIX.md`** (DM-only), which specifies safe vs. unsafe wording and phase gates. Per-secret reveal *conditions* are unchanged; Stage 11 added the discoverability machinery (region-coded clues, faction/NPC knowledge maps, false leads, discovery paths) that routes each secret to the player fairly. Quick REV mapping: Secret 1→REV_007/M0 · 2→REV_002 · 3→REV_005 · 4→REV_006 · 5→REV_007 · 6→REV_007(keystone) · 7→REV_009 · 8→REV_005/REV_008 · 9→REV_003 · 10/11→REV_004 · 12/13→REV_002 · 14→REV_005/REV_007 · 15→REV_005 · 16→REV_008 · 17→REV_005/REV_006 · 18→REV_007/REV_010 · 19→M1/REV_002 · 20→REV_001.
+
 ## Related Files
 
 - [`MYSTERY_WEB.md`](MYSTERY_WEB.md)

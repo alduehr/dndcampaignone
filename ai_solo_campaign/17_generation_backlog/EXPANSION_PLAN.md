@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0–8 complete (Stage 8 Faction Deepening: 2026-06-11).** The campaign now has a deep-built starting region, a first major city (Caradril), a runnable Level 1–4 play arc, three fully authored adjacent regions, and **all seven major factions fully operational** (quest chains, relationship map, faction-turn rules, escalation clocks, solo-play support and threat profiles, D&D-compatible adversary profiles). **Stage 9 — NPC Codex Expansion is the recommended next pass.**
+**Stages 0–11 complete (Stage 11 Mystery/Secret/Clue Expansion: 2026-06-13).** The campaign now has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), and a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files, faction/NPC knowledge maps, false leads, discovery paths, secret protection matrix). **Stage 12 — Dungeons, Ruins, and Adventure Sites is the recommended next pass.**
 
 ---
 
@@ -14,10 +14,10 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 | Field | Value |
 |---|---|
-| Stage | 9 — NPC Codex Expansion (recommended next) |
-| Goal | Expand the NPC population toward project targets (50–100 major, 200–500 secondary, 500+ minor); build NPC relationship web, secret ledger, and voice guide; close Ring 1 NPC density gap |
+| Stage | 12 — Dungeons, Ruins, and Adventure Sites (recommended next) |
+| Goal | Create a large library of fully explorable dungeon/ruin files with room/zone lists, traps/hazards, secrets, puzzles, treasure, boss mechanics, and solo-play safety valves |
 | Status | Not started |
-| Blocking Issues | None — Stage 8 complete |
+| Blocking Issues | None — Stage 11 complete |
 
 ---
 

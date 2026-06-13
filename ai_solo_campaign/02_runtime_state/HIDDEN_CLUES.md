@@ -87,6 +87,27 @@ Stage 4 anchored existing hidden clues to the first major city. Still all `hidde
 
 **Do not surface the Sealed Archive's M6/M9 truth before Act 3 / L9–12, and never name the Hollow Court in Caradril.** Earlier city visits give M2/M3 fragments and demonstrations only.
 
+## Stage 11 Region-Coded Clue Layer
+
+Stage 11 added a region-coded clue layer that expands redundancy across regions. These clues use IDs of the form `C_<REGION>_<nnn>` and are cross-referenced to the `REV_*` revelation system. Full per-clue detail lives in the regional trail files; the table below records ranges and status only.
+
+**All region-coded clues are hidden at campaign start.**
+
+| Region code | ID range | Trail file | Revelations fed |
+|---|---|---|---|
+| `C_SR_*` | C_SR_001–C_SR_018 | `../11_mysteries_and_secrets/by_region/SUNDERING_REACH_CLUES.md` | REV_001–005, REV_007 |
+| `C_CAR_*` | C_CAR_001–C_CAR_016 | `../11_mysteries_and_secrets/by_region/CARADRIL_CLUES.md` | REV_003–006, REV_008–009 |
+| `C_AV_*` | C_AV_001–C_AV_012 | `../11_mysteries_and_secrets/by_region/ASHGARDEN_VALE_CLUES.md` | REV_001–003, REV_005 |
+| `C_TW_*` | C_TW_001–C_TW_012 | `../11_mysteries_and_secrets/by_region/TOLLWOOD_CLUES.md` | REV_001–003, REV_005 |
+| `C_PC_*` | C_PC_001–C_PC_012 | `../11_mysteries_and_secrets/by_region/PALE_COAST_CLUES.md` | REV_001–003, REV_005 |
+| `C_FC_*` | C_FC_001–C_FC_010 | `../11_mysteries_and_secrets/by_region/FAR_CONTINENT_ECHO_CLUES.md` | REV_004, REV_006–007, REV_010 |
+
+**Pacing:** Region-coded clues follow the same phase gates as the `C-M*` clues — REV_007+ (C_FC_* and late C_CAR_* / C_SR_* entries) should not be surfaced before Act 3. See `../11_mysteries_and_secrets/REVEAL_TIMING.md` for the full gate chart.
+
+When a region-coded clue is discovered, move it to `KNOWN_CLUES.md`, update its status in `CLUE_INDEX.md`, and update the relevant regional trail file.
+
+---
+
 ## Clue Entry Template
 
 ```md

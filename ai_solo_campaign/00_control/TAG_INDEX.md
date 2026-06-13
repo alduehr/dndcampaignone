@@ -6,7 +6,13 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stages 1, 2, 3, 4, and 5 complete.** Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region Deep Build + Stage 4 First Major City Deep Build (Caradril) + **Stage 5 Level 1–4 Play Arc**. Stage 4 added the Caradril files (see `region:caradril`). **Stage 5 added:** `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `ACT_1_MILESTONES.md`, `ACT_1_FAILURE_STATES.md`; `09_quests/act_1_quests/` (6 faction quests); `13_encounters_and_bestiary/ACT_1_THREATS.md`; `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`; `08_npcs/ACT_1_NPC_GUIDE.md`. New tag introduced: `act:1`. All Stage 5 files registered below. No active content files remain placeholder-only; future-stage placeholder files (`_PLACEHOLDER.md`) still exist by design as structural anchors. Stage 6 (first full audit) is complete. **Stage 7 (Regional Expansion Ring 1) is complete:** the three adjacent regions (Ashgarden Vale, Tollwood, Pale Coast) added 3 region files, 8 settlements, 3 wilderness files, 9 dungeons, 3 encounter tables, 6 hooks/rumors files, 20 developed quests, 40 NPCs (in the existing NPC files), 1 minor regional faction (the Tollmen), and `04_world_atlas/TRAVEL_ROUTES_RING1.md`. New tags introduced: `ring-1`, `region:ashgarden-vale`, `region:tollwood`, `region:pale-coast`. All Stage 7 files registered below. **Full-World Cartographic Expansion pass (post-Stage-7):** added 4 full-continent atlas files (`FULL_WORLD_MAP_AUTHORITY/COORDINATES/LAYERS/PROMPTS.md`); new tags introduced: `full-continent` (and `campaign-area` to disambiguate the existing `WORLD_MAP_*` files). Both sets are registered under `type:map / function:cartography`. **Stage 8 (Faction Deepening):** added `07_factions/FACTION_RELATIONSHIP_MAP.md` and `FACTION_TURN_RULES.md`, and the `09_quests/faction_quests/[FACTION]/` chains (28 quests + 7 chain indexes). New tags introduced: `faction-quest`, `quest-chain`, `faction-turn`, `relationships`, `decision-point`, `moral-complication`.
+**Stages 0–11 complete (Stage 11 Mystery/Secret/Clue Expansion: 2026-06-13).** Tags through Stage 8 are fully registered below. **Stages 9/9.5/10/11 additions** (summary — see individual stage progress files for full file lists):
+- Stage 9: `08_npcs/by_region/` NPC files, `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md` (dm-only), `NPC_VOICE_GUIDE.md`. New tags: `npc-codex`, `npc-voice`, `npc-secret`.
+- Stage 9.5: 12 far-continent region NPC files (`08_npcs/by_region/*_NPCS.md`). New tag: `far-continent-npc`.
+- Stage 10: `09_quests/MAJOR_CAMPAIGN_QUESTS.md`, `by_region/` (12 region quest files), `by_faction/`, `by_level/`, `by_type/`, `hooks_and_rumors/fc_*` (13 files). New tags: `major-quest`, `far-continent-quest`, `hooks-jobs-rumors`.
+- Stage 11: `11_mysteries_and_secrets/by_region/` (6 clue trail files), `by_faction/FACTION_KNOWLEDGE_MAP.md`, `NPC_KNOWLEDGE_MAP.md`, `FALSE_LEADS_AND_MISDIRECTIONS.md`, `FALSE_LEADS.md` (alias), `MYSTERY_CHAINS.md`, `REVEAL_TIMING.md`, `DISCOVERY_PATHS.md`, `SECRET_PROTECTION_MATRIX.md` (dm-only), `MYSTERY_STATE_TRACKER_TEMPLATE.md`, `PROPHECIES_AND_OMENS.md`. Updated: `REVELATION_MAP.md`, `CLUE_INDEX.md`, `MYSTERY_WEB.md`, `SECRET_INDEX.md`. New tags: `clue-trail`, `faction-knowledge`, `npc-knowledge`, `false-lead`, `discovery-path`, `reveal-timing`, `mystery-chain`, `secret-protection`, `mystery-tracker`.
+
+Earlier stages: Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region + Stage 4 Caradril + Stage 5 Level 1–4 Arc + Stage 6 Audit + Stage 7 Ring 1 + Full-World Cartographic Expansion + Stage 8 Faction Deepening. See individual stage status lines below for tag details.
 
 > Caradril file membership is consolidated under **`region:caradril`** (Region Tags section) for fast retrieval; individual files also appear under their type/secrecy/status tags.
 
@@ -311,8 +317,86 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `00_control/RETRIEVAL_GUIDE.md`
 - `07_factions/FACTION_INDEX.md`
 - `08_npcs/NPC_INDEX.md`
+- `09_quests/QUEST_INDEX.md`
+- `09_quests/DEVELOPED_QUESTS_INDEX.md`
+- `09_quests/HOOKS_JOBS_RUMORS_INDEX.md`
+- `09_quests/by_level/QUESTS_BY_LEVEL.md`
+- `09_quests/by_faction/QUESTS_BY_FACTION.md`
+- `09_quests/by_type/QUESTS_BY_TYPE.md`
 - `11_mysteries_and_secrets/CLUE_INDEX.md`
 - `11_mysteries_and_secrets/SECRET_INDEX.md`
+- `11_mysteries_and_secrets/MYSTERY_CHAINS.md` (mystery-chain; alias/wrapper)
+- `11_mysteries_and_secrets/REVEAL_TIMING.md` (reveal-timing; alias/wrapper)
+
+### type:mystery
+- `11_mysteries_and_secrets/MYSTERY_WEB.md` (dm-only)
+- `11_mysteries_and_secrets/REVELATION_MAP.md` (dm-only)
+- `11_mysteries_and_secrets/MYSTERY_CHAINS.md`
+- `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md` (dm-only; act:1)
+- `11_mysteries_and_secrets/by_region/SUNDERING_REACH_CLUES.md` (clue-trail)
+- `11_mysteries_and_secrets/by_region/CARADRIL_CLUES.md` (clue-trail)
+- `11_mysteries_and_secrets/by_region/ASHGARDEN_VALE_CLUES.md` (clue-trail; ring-1)
+- `11_mysteries_and_secrets/by_region/TOLLWOOD_CLUES.md` (clue-trail; ring-1)
+- `11_mysteries_and_secrets/by_region/PALE_COAST_CLUES.md` (clue-trail; ring-1)
+- `11_mysteries_and_secrets/by_region/FAR_CONTINENT_ECHO_CLUES.md` (clue-trail; far-continent)
+- `11_mysteries_and_secrets/by_faction/FACTION_KNOWLEDGE_MAP.md` (faction-knowledge; mixed)
+- `11_mysteries_and_secrets/NPC_KNOWLEDGE_MAP.md` (npc-knowledge; mixed)
+- `11_mysteries_and_secrets/FALSE_LEADS_AND_MISDIRECTIONS.md` (false-lead; mixed)
+- `11_mysteries_and_secrets/FALSE_LEADS.md` (false-lead; alias for FALSE_LEADS_AND_MISDIRECTIONS.md)
+- `11_mysteries_and_secrets/DISCOVERY_PATHS.md` (discovery-path; mixed)
+- `11_mysteries_and_secrets/SECRET_PROTECTION_MATRIX.md` (dm-only; secret-protection)
+- `11_mysteries_and_secrets/MYSTERY_STATE_TRACKER_TEMPLATE.md` (dm-only; mystery-tracker; template)
+- `11_mysteries_and_secrets/PROPHECIES_AND_OMENS.md` (mixed)
+- `11_mysteries_and_secrets/REVEAL_TIMING.md` (reveal-timing; mixed)
+
+### type:npc-codex (Stages 9/9.5)
+- `08_npcs/NPC_RELATIONSHIP_WEB.md`
+- `08_npcs/NPC_SECRET_LEDGER.md` (dm-only; npc-secret)
+- `08_npcs/NPC_VOICE_GUIDE.md`
+- `08_npcs/by_region/CARADRIL_MAJOR_NPCS.md`
+- `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md`
+- `08_npcs/by_region/STAGE_9_SECONDARY_NPCS.md`
+- `08_npcs/by_region/STAGE_9_MINOR_NPCS.md`
+- `08_npcs/by_region/VERDANCE_REACHES_NPCS.md` (far-continent-npc)
+- `08_npcs/by_region/CONCORD_HEARTLANDS_NPCS.md` (far-continent-npc)
+- `08_npcs/by_region/GLASSMERE_LEAGUE_NPCS.md` (far-continent-npc)
+- `08_npcs/by_region/HETHEWALD_FREE_HOLDS_NPCS.md` (far-continent-npc)
+- `08_npcs/by_region/HOLLOW_GULF_PORTS_NPCS.md` (far-continent-npc)
+- `08_npcs/by_region/SALTMERE_REACHES_NPCS.md` (far-continent-npc)
+- `08_npcs/by_region/EMBERFELL_THEOCRACY_NPCS.md` (far-continent-npc)
+- `08_npcs/by_region/SALLOWMARCH_PROTECTORATE_NPCS.md` (far-continent-npc)
+- `08_npcs/by_region/MARROWDOWNS_NPCS.md` (far-continent-npc)
+- `08_npcs/by_region/WENDER_STEPPE_NPCS.md` (far-continent-npc)
+- `08_npcs/by_region/KARRAN_MARCHES_NPCS.md` (far-continent-npc)
+- `08_npcs/by_region/SUNMARK_NPCS.md` (far-continent-npc)
+
+### type:quest (Stage 10)
+- `09_quests/MAJOR_CAMPAIGN_QUESTS.md` (major-quest)
+- `09_quests/by_region/VERDANCE_REACHES_QUESTS.md` (far-continent-quest)
+- `09_quests/by_region/GLASSMERE_LEAGUE_QUESTS.md` (far-continent-quest)
+- `09_quests/by_region/HOLLOW_GULF_PORTS_QUESTS.md` (far-continent-quest)
+- `09_quests/by_region/EMBERFELL_THEOCRACY_QUESTS.md` (far-continent-quest)
+- `09_quests/by_region/SALLOWMARCH_PROTECTORATE_QUESTS.md` (far-continent-quest)
+- `09_quests/by_region/HETHEWALD_FREE_HOLDS_QUESTS.md` (far-continent-quest)
+- `09_quests/by_region/SALTMERE_REACHES_QUESTS.md` (far-continent-quest)
+- `09_quests/by_region/KARRAN_MARCHES_QUESTS.md` (far-continent-quest)
+- `09_quests/by_region/SUNMARK_QUESTS.md` (far-continent-quest)
+- `09_quests/by_region/MARROWDOWNS_QUESTS.md` (far-continent-quest)
+- `09_quests/by_region/WENDER_STEPPE_QUESTS.md` (far-continent-quest)
+- `09_quests/by_region/CONCORD_HEARTLANDS_QUESTS.md` (far-continent-quest)
+- `09_quests/hooks_and_rumors/fc_VERDANCE_REACHES_HOOKS.md` (hooks-jobs-rumors; far-continent)
+- `09_quests/hooks_and_rumors/fc_GLASSMERE_LEAGUE_HOOKS.md` (hooks-jobs-rumors; far-continent)
+- `09_quests/hooks_and_rumors/fc_HOLLOW_GULF_PORTS_HOOKS.md` (hooks-jobs-rumors; far-continent)
+- `09_quests/hooks_and_rumors/fc_EMBERFELL_THEOCRACY_HOOKS.md` (hooks-jobs-rumors; far-continent)
+- `09_quests/hooks_and_rumors/fc_SALLOWMARCH_PROTECTORATE_HOOKS.md` (hooks-jobs-rumors; far-continent)
+- `09_quests/hooks_and_rumors/fc_HETHEWALD_FREE_HOLDS_HOOKS.md` (hooks-jobs-rumors; far-continent)
+- `09_quests/hooks_and_rumors/fc_SALTMERE_REACHES_HOOKS.md` (hooks-jobs-rumors; far-continent)
+- `09_quests/hooks_and_rumors/fc_KARRAN_MARCHES_HOOKS.md` (hooks-jobs-rumors; far-continent)
+- `09_quests/hooks_and_rumors/fc_SUNMARK_HOOKS.md` (hooks-jobs-rumors; far-continent)
+- `09_quests/hooks_and_rumors/fc_MARROWDOWNS_HOOKS.md` (hooks-jobs-rumors; far-continent)
+- `09_quests/hooks_and_rumors/fc_WENDER_STEPPE_HOOKS.md` (hooks-jobs-rumors; far-continent)
+- `09_quests/hooks_and_rumors/fc_CONCORD_HEARTLANDS_HOOKS.md` (hooks-jobs-rumors; far-continent)
+- `09_quests/hooks_and_rumors/fc_CROSS_REGION_TRAVEL.md` (hooks-jobs-rumors; far-continent)
 
 ---
 
@@ -343,6 +427,9 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `11_mysteries_and_secrets/CLUE_INDEX.md`
 - `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`
 - `11_mysteries_and_secrets/SECRET_INDEX.md`
+- `11_mysteries_and_secrets/SECRET_PROTECTION_MATRIX.md` (Stage 11)
+- `11_mysteries_and_secrets/MYSTERY_STATE_TRACKER_TEMPLATE.md` (Stage 11)
+- `08_npcs/NPC_SECRET_LEDGER.md` (Stage 9)
 - `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`
 - `16_ai_session_packs/RESUME_CAMPAIGN_PROMPT.md`
 - `16_ai_session_packs/STATE_UPDATE_TEMPLATE.md`

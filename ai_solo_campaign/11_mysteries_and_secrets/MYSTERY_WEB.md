@@ -158,6 +158,79 @@ City NPCs as part-truth holders (extends the existing "NPCs who know part of the
 
 City quest → clue map: `Q_THE_QUAY_CHARTER` → M3/M6 (deal); `Q_THE_SEALED_ARCHIVE` → M6/M9; `Q_THE_LANTERN_AND_THE_LAMP` → the Script gate for all of the above; `Q_QUIET_COIN`/`Q_THE_SMELTING` → M3; `Q_THE_FUNERAL_THAT_WOULDNT_TAKE` → M1/M5/M6 (city echoes); `Q_BELOW_THE_STILLING` → M2/M3/M6 (Wards fragments); `Q_THE_SEALED_LETTER`/`Q_THE_OPEN_CHARTER` → M8 (correspondent lead).
 
+## Mystery Hierarchy (Stage 11)
+
+The campaign's mysteries form **seven layers**, each gated by campaign phase. A layer says what it is, what evidence exists, what the player can infer early, what stays locked, and the phase gate. The deepest layers (cosmological, central, endgame) must never have their final answers in player-safe sections.
+
+### 1. Surface mysteries (noticeable early, Lvl 1-4)
+- **What:** Wren's failed rite (M1); why the dead "walk the wrong way" (M5); what is the drowned thing in the basin (M2-shape).
+- **Evidence:** failing funerals, drifting graves, the surfacing ruin, Sashe's drift-map.
+- **Early inference:** the failures have a *source and pattern* at the basin (REV_001).
+- **Locked:** the mechanism, the substance, the Concord, the Court.
+- **Gate:** Act 1.
+
+### 2. Regional mysteries (explain local trouble, Lvl 1-8)
+- **What:** the Vale's denial of its own failures; the Tollwood's deep-wood "going wrong" and forest-bargains slipping; the Coast's "drowned-tide"; Caradril's covered-up raise-dead failures and the warming Sunken Wards; the Reach's geography-of-failure.
+- **Evidence:** honest M5 windows (Tilbrook/Coldhearth/Cobble Strand), node cousin-sites, city echoes.
+- **Early inference:** the failures *radiate outward from the Reach* — the Reach is the center.
+- **Locked:** that the center is a harvest machine; the Court.
+- **Gate:** Acts 1-2 (regional), into Act 3 for the deeper node cousins.
+
+### 3. Faction mysteries (what each faction knows/hides/misreads, Lvl 2-12)
+- **What:** who pushes the basin scheme (M4/Reke); the Ledger's relic monopoly (M3); the Remnant's true aim (M6/M7-adjacent); the Mourners' folk-truth (M6); the Wardens' buried purpose (M6/seal); the Gravecallers' fragment-truth (M3/M10); the Hollow Court's existence (M7).
+- **Evidence:** the faction knowledge map (`by_faction/FACTION_KNOWLEDGE_MAP.md`).
+- **Early inference:** the factions each have a hidden answer and are racing for the dead.
+- **Locked:** the Court (apex); the harvest's age.
+- **Gate:** Acts 2-3; Court stays Act 4.
+
+### 4. Historical mysteries (the Quietfall and before, Lvl 4-14)
+- **What:** what the Concord actually did (M6); what the Quietfall really was (M9).
+- **Evidence:** Sealed Archive, Othetha's confession, the dead's testimony, decoded old songs, the Ruin'd Crown (far surface-proof).
+- **Early inference (pre-Act 3):** "the Concord wasn't kind" (atmosphere only).
+- **Locked:** that the Custodians survive (the Court).
+- **Gate:** Act 3.
+
+### 5. Cosmological mysteries (death/afterlife/rites/Remembrance/resurrection, Lvl 6-16)
+- **What:** what Remembrance really is (M3); why the afterlife thins and resurrection is dangerous (M3/M6/M9, REV_009); what the Last Door truly is.
+- **Evidence:** relic study, Gravecaller teaching, thin-born evidence, deep research, the Court's case, far cosmic echoes (Esha/Doll).
+- **Early inference:** resurrection has gotten harder since the Quietfall (already public).
+- **Locked:** the Quiet Country is finite and was drained on purpose; the Last Door is partly a tapped mechanism.
+- **Gate:** Act 3 deepening into Act 4.
+
+### 6. Central campaign mysteries (deepest truths, gated by phase, Lvl 8-18)
+- **What:** the Hollow Court (M7); the central question of M0 assembled.
+- **Evidence:** convergence of REV_003 + REV_005 + REV_006; the under-shrine; Maire/heretic contact.
+- **Early inference:** none — the Court is a legend until Act 4.
+- **Locked:** everything until the gate.
+- **Gate:** Act 4.
+
+### 7. Endgame truths (never revealed early, Lvl 16-20 only)
+- **What:** the full cost-set of each ending and the synthesis (M10, REV_008/REV_010).
+- **Evidence:** faction warnings, Veyl's case, Maire's heresy, the far hopeful contrast.
+- **Gate:** Acts 4-5 only.
+
+> **Hierarchy guardrail:** never let a lower-numbered layer's clue deliver a higher layer's truth out of phase. A surface clue (drifting graves) may *hint* toward the center but must not state the harvest. A regional/far clue may *corroborate* a historical truth but must not name the Court.
+
+---
+
+## Stage 11 — Far-Continent Echo Cross-Reference
+
+Stage 10 seeded oblique far-continent mystery-fragments. They are now cross-referenced here as **corroboration clues only** (`C_FC_*` in `CLUE_INDEX.md`; full detail in `by_region/FAR_CONTINENT_ECHO_CLUES.md`). **None delivers the keystone mechanism, the Concord Deep, or the Hollow Court.**
+
+| Far source | Echoes | Mystery / REV | Hard ceiling |
+|---|---|---|---|
+| Concord Heartlands / Ruin'd Crown | The Concord's true *surface* scale and sin | M6 / REV_005 | surface ruin only; NEVER the live machine, keystone, or Court seat |
+| Emberfell "old glass"; Karran "humming iron" | The Remembrance substance & relic trade exist continent-wide | M3 / REV_002 | relic *source*; never the meaning's origin |
+| The continental old-songs network (Lowwater, Sela Reed, Tess Brackhold, Senna Crale, Onn Greenward, Sera Mardenmouth) | "The grey hands took the dead" (folk-fragment) | M6 / REV_005 | folk-fragment only; never the mechanism/Court |
+| Saltmere "going-down"; Marrowdowns barrows; Karran Old Iron forts | Catastrophe/troubled-dead patterns predate or sit apart from the Concord | M2/M5 echo | pre-Concord echoes; NEVER the keystone |
+| Wender Steppe "thinning Sky"; Sunmark "far root aches" | The afterlife thins (cosmic echo) | REV_009 | deeply oblique; never names the Quiet Country/harvest |
+| Sunmark's working grove-faith | A consensual rite is conceivable | M10 / REV_008/REV_010 | hopeful contrast; never a "second keystone" |
+| Hadiz of Surren (overseas) | Harvest-like history may not be Orrun's alone | (world-horizon) | extremely oblique; never confirm/develop |
+
+**Far-region apex-protection:** no far NPC knows the harvest mechanism, the Court, the surviving Custodians, the deliberate Quietfall (as intent), or the Hollowmere keystone. Hollin Vane (Heartlands) is apex-*adjacent* and would try to *master* a harvest-record — but the Crown holds a *record of what the Concord did*, never the live machine.
+
+---
+
 ## Anti-Railroad Note
 
 Every mystery has 3+ paths spanning social, exploration, ritual, scholarly, mercantile, and forbidden approaches, so no single failed roll, dead NPC, or skipped faction blocks the truth. If the player avoids one faction entirely, another path still exists. **Caradril deepens but never gates this:** M3, M6, and M9 are reachable in the Reach as well as the city, so a player who never travels to Caradril is never blocked — the city is the *clearest* path to the deep history, not the only one.
