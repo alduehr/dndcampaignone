@@ -20,18 +20,50 @@ Master index of all authored quests across the campaign. Use this to locate a qu
 
 ## Current Status
 
-**Stages 1–8 complete.** Quest library as of Stage 8:
+**Stage 10 (Quest Library Expansion) complete.** Quest library:
 
 | Category | Count | Folder / File |
 |---|---|---|
+| **Major campaign questlines** | **28** | `MAJOR_CAMPAIGN_QUESTS.md` (Q_MAJOR_001–028) |
 | Act 1 faction-alignment quests | 6 | `act_1_quests/` |
 | City quests (Caradril) | 11 | `city_quests/` |
 | Sundering Reach regional quests | 14 | `regional_quests/` (Reach files) |
 | Ring 1 regional quests | 24 | `regional_quests/` (Ring 1 files) |
-| Faction quest chains (Stages 8) | 28 | `faction_quests/[FACTION]/` |
-| **Total developed quests** | **~83** | |
-| Hooks tables | 5 regional files | `hooks_and_rumors/` + `HOOKS_TABLE.md` |
-| Rumors tables | 5 regional files | `hooks_and_rumors/` + `RUMORS_TABLE.md` |
+| Faction quest chains (Stage 8) | 28 | `faction_quests/[FACTION]/` |
+| Far-continent developed quests (Stage 10) | 82 | `by_region/` (12 region files) |
+| **Total developed quests** | **~165** | (~83 pre-Stage-10 + 82 far-continent) |
+| Hooks tables (Reach/Caradril/Ring 1) | 10 files | `hooks_and_rumors/` + `HOOKS_TABLE.md` |
+| Rumors tables (Reach/Caradril/Ring 1) | incl. above | `hooks_and_rumors/` + `RUMORS_TABLE.md` |
+| Far-continent hooks/rumors/jobs (Stage 10) | 13 files; 304 entries | `hooks_and_rumors/fc_*` (12 region + 1 cross-region) |
+
+**Stage 10 totals:** 28 major campaign quests · ~165 developed quests · 304 far-continent hooks/rumors/jobs (132 hooks + 104 rumors + 68 jobs) on top of the pre-Stage-10 hook/rumor tables. See `DEVELOPED_QUESTS_INDEX.md`, `HOOKS_JOBS_RUMORS_INDEX.md`, `by_level/QUESTS_BY_LEVEL.md`, `by_faction/QUESTS_BY_FACTION.md`, `by_type/QUESTS_BY_TYPE.md` for cross-cut indexes.
+
+### Far-continent developed quests by region (Stage 10)
+
+| Region | File (`by_region/`) | Quests | Level | IDs |
+|---|---|---|---|---|
+| Verdance Reaches | `VERDANCE_REACHES_QUESTS.md` | 7 | 8–12 | Q_VR_001–007 |
+| Glassmere League | `GLASSMERE_LEAGUE_QUESTS.md` | 8 | 8–13 | Q_GL_001–008 |
+| Hollow Gulf Ports | `HOLLOW_GULF_PORTS_QUESTS.md` | 8 | 9–14 | Q_HGP_001–008 |
+| Emberfell Theocracy | `EMBERFELL_THEOCRACY_QUESTS.md` | 8 | 10–15 | Q_ET_001–008 |
+| Sallowmarch Protectorate | `SALLOWMARCH_PROTECTORATE_QUESTS.md` | 7 | 9–13 | Q_SP_001–007 |
+| Hethewald Free Holds | `HETHEWALD_FREE_HOLDS_QUESTS.md` | 7 | 8–13 | Q_HFH_001–007 |
+| Saltmere Reaches | `SALTMERE_REACHES_QUESTS.md` | 7 | 11–15 | Q_SALT_001–007 |
+| Karran Marches | `KARRAN_MARCHES_QUESTS.md` | 7 | 9–14 | Q_KM_001–007 |
+| Sunmark | `SUNMARK_QUESTS.md` | 7 | 8–13 | Q_SUN_001–007 |
+| Marrowdowns | `MARROWDOWNS_QUESTS.md` | 5 | 6–10 | Q_MD_001–005 |
+| Wender Steppe | `WENDER_STEPPE_QUESTS.md` | 5 | 8–13 | Q_WS_001–005 |
+| Concord Heartlands | `CONCORD_HEARTLANDS_QUESTS.md` | 6 | 13–17 | Q_CH_001–006 |
+
+---
+
+## Major Campaign Questlines (`MAJOR_CAMPAIGN_QUESTS.md`)
+
+*28 multi-session spines carrying the level 1–20 story and the major faction/regional plots. Q_MAJOR_014 (Hollow Court) is DM-only. See the file's own index table for full per-quest detail.*
+
+| ID range | File | Secrecy |
+|---|---|---|
+| Q_MAJOR_001 – Q_MAJOR_028 | `MAJOR_CAMPAIGN_QUESTS.md` | mixed (Q_MAJOR_014 dm-only) |
 
 ---
 
@@ -224,6 +256,26 @@ Master index of all authored quests across the campaign. Use this to locate a qu
 | `PALE_COAST_RUMORS.md` | Pale Coast | Rumors |
 
 See also `HOOKS_TABLE.md` and `RUMORS_TABLE.md` in this folder for consolidated tables.
+
+### Far-continent hooks/rumors/jobs (Stage 10, `hooks_and_rumors/fc_*`)
+
+Each `fc_[REGION]_HOOKS.md` carries 10 hooks + 8 rumors + 5 jobs (23 entries) for its region; `fc_CROSS_REGION_TRAVEL.md` adds 12 travel hooks + 8 cross-region rumors + 8 cross-region jobs (28). Total 304 entries.
+
+| File | Region | Entries |
+|---|---|---|
+| `fc_VERDANCE_REACHES_HOOKS.md` | Verdance Reaches | 23 |
+| `fc_GLASSMERE_LEAGUE_HOOKS.md` | Glassmere League | 23 |
+| `fc_HOLLOW_GULF_PORTS_HOOKS.md` | Hollow Gulf Ports | 23 |
+| `fc_EMBERFELL_THEOCRACY_HOOKS.md` | Emberfell Theocracy | 23 |
+| `fc_SALLOWMARCH_PROTECTORATE_HOOKS.md` | Sallowmarch Protectorate | 23 |
+| `fc_HETHEWALD_FREE_HOLDS_HOOKS.md` | Hethewald Free Holds | 23 |
+| `fc_SALTMERE_REACHES_HOOKS.md` | Saltmere Reaches | 23 |
+| `fc_KARRAN_MARCHES_HOOKS.md` | Karran Marches | 23 |
+| `fc_SUNMARK_HOOKS.md` | Sunmark | 23 |
+| `fc_MARROWDOWNS_HOOKS.md` | Marrowdowns | 23 |
+| `fc_WENDER_STEPPE_HOOKS.md` | Wender Steppe | 23 |
+| `fc_CONCORD_HEARTLANDS_HOOKS.md` | Concord Heartlands | 23 |
+| `fc_CROSS_REGION_TRAVEL.md` | cross-region / travel | 28 |
 
 ---
 
