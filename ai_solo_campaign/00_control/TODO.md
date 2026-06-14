@@ -12,12 +12,14 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## High
 
-- [ ] Begin Stage 12: Dungeons, Ruins, and Adventure Sites
-  - Why it matters: **Stage 11 (Mystery/Secret/Clue Expansion) is complete** — Stage 12 is next per `DEVELOPMENT_STAGES.md`. The keystone drowned-shrine / Under-Shrine dungeon and the Caradril deep-dungeon treatment were deferred to Stage 12 by design; existing dungeons should also be cross-linked to the new region-coded clue layer (`C_SR_*`/`C_CAR_*`) and REV IDs.
-  - Related files: `10_dungeons_and_ruins/`, `11_mysteries_and_secrets/by_region/*_CLUES.md`, `04_world_atlas/WORLD_MAP_LAYERS.md` (Under-Shrine, DM-only)
-  - Suggested agent: `world-atlas-builder` / `encounter-bestiary-designer`
-  - Stage: 12
-  - Blocker: none — Stage 11 complete.
+- [x] Stage 12: Dungeons, Ruins, and Adventure Sites — **done 2026-06-13.** Created `DUNGEON_INDEX.md` (23 sites) + `PUZZLE_DUNGEONS.md`; cross-linked all 15 existing dungeons to the Stage 11 REV/clue layer (append-only); built 8 new sites incl. the Caradril deep-dungeon treatment (`THE_SUNKEN_WARDS_DEEP`), the keystone approach (`THE_BASIN_KEYSTONE_APPROACH`), and the **DM-only endgame** (`THE_UNDER_SHRINE_APPROACH`); added `STAGE_12_ADVERSARIES.md`; new clue IDs C_SR_039-041/C_CAR_016-018/C_FC_014-015. The keystone drowned-shrine and Caradril deep-dungeon deferrals are now resolved. Optional far sites logged to CONTENT_GAPS. See `STAGE_12_PROGRESS.md`.
+
+- [ ] Begin Stage 13: Encounter and Bestiary Expansion
+  - Why it matters: Stage 12 is complete; Stage 13 is next per `DEVELOPMENT_STAGES.md`. Build `MONSTER_INDEX`, `ADVERSARY_GROUPS`, `RECURRING_VILLAINS`, `RANDOM_ENCOUNTERS`, `NONCOMBAT_OBSTACLES`, `BOSS_DESIGN`, folding in `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md` and the regional encounter tables.
+  - Related files: `13_encounters_and_bestiary/`, `10_dungeons_and_ruins/DUNGEON_INDEX.md`
+  - Suggested agent: `encounter-bestiary-designer`
+  - Stage: 13
+  - Blocker: none — Stage 12 complete.
 
 - [x] (Stage 11 follow-up) Mirror region-coded clue IDs into runtime `HIDDEN_CLUES.md` — done 2026-06-13 (Stage 11 cleanup pass); Stage 11 anchor section added to `02_runtime_state/HIDDEN_CLUES.md`.
 
@@ -124,15 +126,9 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Why it matters: clues are tracked in index/runtime tables and now anchored to region sites; per-clue files would add finer retrieval but are not required for play.
   - Stage: 11 (deferred)
 
-- [ ] Build the drowned shrine dungeon (the keystone)
-  - Why it matters: the campaign keystone location needs a full dungeon build; intentionally deferred from Stage 3.
-  - Related files: `07_factions/major_factions/HOLLOW_COURT.md`, `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md`, `10_dungeons_and_ruins/`
-  - Stage: 12
+- [x] Build the drowned shrine dungeon (the keystone) — **done 2026-06-13 (Stage 12).** Split into the player-mixed `THE_BASIN_KEYSTONE_APPROACH.md` (upper works, L5-9; apex stays gated) and the DM-only `THE_UNDER_SHRINE_APPROACH.md` (endgame, L16-20; the Hollow Court + the campaign decision). Apex truth confined to the DM-only file; keystone stays vertical-under-Hollowmere.
 
-- [ ] Full dungeon-file build for the Sunken Wards and the Sealed Archive (Caradril)
-  - Why it matters: Stage 4 specced both richly as district/quest content (encounter list, hazards, retreat, scaling); a full room-by-room dungeon file is deferred to Stage 12 to match the keystone-shrine treatment.
-  - Related files: `06_settlements/caradril_districts/THE_SUNKEN_WARDS.md`, `THE_LANTERN_REACH.md`, `09_quests/city_quests/Q_BELOW_THE_STILLING.md`, `Q_THE_SEALED_ARCHIVE.md`
-  - Stage: 12
+- [x] Full dungeon-file build for the Sunken Wards (Caradril) — **done 2026-06-13 (Stage 12)** via `THE_SUNKEN_WARDS_DEEP.md` (L6-10; back-route to the Sealed Archive; 3-faction; C_CAR_016). The Sealed Archive itself remains specced as Lantern Reach district/quest content (`Q_THE_SEALED_ARCHIVE`); a dedicated Archive room-by-room file is optional future polish (the back-route into it is now built). Plus a bonus Caradril dungeon: `THE_CARADRIL_ASHMARKET_UNDERCROFT.md` (L6-9, relic-trade heist).
 
 - [ ] Resolve the "Magisterium correspondent" thread in play/arc (Caradril ↔ Reke)
   - Why it matters: Stage 4 left this as an intentional open lead (M8-adjacent), never a named second Court agent. Stage 5 confirmed it stays a *lead* through Act 1 (Act 1 caps at R1; the steering employer is murky — R4 is Act 2–3). Stage 15 (Act 2/3) should decide how it resolves through play without pre-revealing the Hollow Court.

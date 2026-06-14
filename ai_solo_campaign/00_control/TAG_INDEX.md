@@ -6,11 +6,12 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stages 0–11 complete (Stage 11 Mystery/Secret/Clue Expansion: 2026-06-13).** Tags through Stage 8 are fully registered below. **Stages 9/9.5/10/11 additions** (summary — see individual stage progress files for full file lists):
+**Stages 0–12 complete (Stage 12 Dungeons, Ruins, Adventure Sites: 2026-06-13).** Tags through Stage 8 are fully registered below. **Stages 9/9.5/10/11/12 additions** (summary — see individual stage progress files for full file lists):
 - Stage 9: `08_npcs/by_region/` NPC files, `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md` (dm-only), `NPC_VOICE_GUIDE.md`. New tags: `npc-codex`, `npc-voice`, `npc-secret`.
 - Stage 9.5: 12 far-continent region NPC files (`08_npcs/by_region/*_NPCS.md`). New tag: `far-continent-npc`.
 - Stage 10: `09_quests/MAJOR_CAMPAIGN_QUESTS.md`, `by_region/` (12 region quest files), `by_faction/`, `by_level/`, `by_type/`, `hooks_and_rumors/fc_*` (13 files). New tags: `major-quest`, `far-continent-quest`, `hooks-jobs-rumors`.
 - Stage 11: `11_mysteries_and_secrets/by_region/` (6 clue trail files), `by_faction/FACTION_KNOWLEDGE_MAP.md`, `NPC_KNOWLEDGE_MAP.md`, `FALSE_LEADS_AND_MISDIRECTIONS.md`, `FALSE_LEADS.md` (alias), `MYSTERY_CHAINS.md`, `REVEAL_TIMING.md`, `DISCOVERY_PATHS.md`, `SECRET_PROTECTION_MATRIX.md` (dm-only), `MYSTERY_STATE_TRACKER_TEMPLATE.md`, `PROPHECIES_AND_OMENS.md`. Updated: `REVELATION_MAP.md`, `CLUE_INDEX.md`, `MYSTERY_WEB.md`, `SECRET_INDEX.md`. New tags: `clue-trail`, `faction-knowledge`, `npc-knowledge`, `false-lead`, `discovery-path`, `reveal-timing`, `mystery-chain`, `secret-protection`, `mystery-tracker`.
+- Stage 12: 8 new dungeon/site files in `10_dungeons_and_ruins/` (Sunken Wards Deep, Ashmarket Undercroft, Concord Relay-Vault, Greyfens Deep, Basin Keystone Approach, Old Concord Heartlands Ruin, Emberfell Caldera Descent, Under-Shrine Approach [dm-only]); `DUNGEON_INDEX.md`, `PUZZLE_DUNGEONS.md`, `RUIN_INDEX.md`, `_PLACEHOLDER.md` (README); `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md`; all 15 existing dungeon files updated with Stage 11 clue cross-links. New tags: `dungeon-index`, `ruin-index`, `puzzle-dungeon`, `stage-12-adversary`, `far-continent-dungeon`, `endgame` (dm-only).
 
 Earlier stages: Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region + Stage 4 Caradril + Stage 5 Level 1–4 Arc + Stage 6 Audit + Stage 7 Ring 1 + Full-World Cartographic Expansion + Stage 8 Faction Deepening. See individual stage status lines below for tag details.
 
@@ -184,24 +185,41 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `02_runtime_state/HIDDEN_CLUES.md` (runtime mirror; all hidden at start)
 
 ### type:dungeon
+*Stage 3 (Reach):*
 - `10_dungeons_and_ruins/THE_SUNKEN_TOLLHOUSE.md`
 - `10_dungeons_and_ruins/THE_LEDGER_VAULT.md`
 - `10_dungeons_and_ruins/THE_BARROW_OF_NINE_DOORS.md`
 - `10_dungeons_and_ruins/THE_DEEP_ADIT.md`
-- `10_dungeons_and_ruins/THE_PELLOW_GRANGE.md` (ring-1, Vale)
-- `10_dungeons_and_ruins/THE_GREENWARD_TOLL_STATION.md` (ring-1, Tollwood)
-- `10_dungeons_and_ruins/THE_HANGING_OAKS.md` (ring-1, Tollwood)
-- `10_dungeons_and_ruins/THE_OLD_MAST.md` (ring-1, Tollwood; gated)
-- `10_dungeons_and_ruins/THE_DROWNED_LAMP.md` (ring-1, Coast; secondary-node)
-- `10_dungeons_and_ruins/THE_WRECKERS_CAVES.md` (ring-1, Coast)
-- `10_dungeons_and_ruins/THE_SKERRY_SHRINE.md` (ring-1, Coast; gated)
-- Drowned shrine — referenced in `07_factions/major_factions/HOLLOW_COURT.md` (full build Stage 12)
+*Stage 7 (Ring 1):*
+- `10_dungeons_and_ruins/THE_PELLOW_GRANGE.md` (Vale)
+- `10_dungeons_and_ruins/THE_GREENWARD_TOLL_STATION.md` (Tollwood)
+- `10_dungeons_and_ruins/THE_HANGING_OAKS.md` (Tollwood)
+- `10_dungeons_and_ruins/THE_OLD_MAST.md` (Tollwood; gated)
+- `10_dungeons_and_ruins/THE_DROWNED_LAMP.md` (Coast; secondary-node)
+- `10_dungeons_and_ruins/THE_WRECKERS_CAVES.md` (Coast)
+- `10_dungeons_and_ruins/THE_SKERRY_SHRINE.md` (Coast; gated)
+*Stage 12 (new):*
+- `10_dungeons_and_ruins/THE_SUNKEN_WARDS_DEEP.md` (Caradril; L6-10)
+- `10_dungeons_and_ruins/THE_CARADRIL_ASHMARKET_UNDERCROFT.md` (Caradril; L6-9)
+- `10_dungeons_and_ruins/THE_CONCORD_RELAY_VAULT.md` (Reach Heights; L7-10)
+- `10_dungeons_and_ruins/THE_GREYFENS_DEEP.md` (Reach; L3-7 environmental)
+- `10_dungeons_and_ruins/THE_BASIN_KEYSTONE_APPROACH.md` (Reach; L5-9; player-safe)
+- `10_dungeons_and_ruins/THE_OLD_CONCORD_HEARTLANDS_RUIN.md` (far; L10-14)
+- `10_dungeons_and_ruins/THE_EMBERFELL_CALDERA_DESCENT.md` (far; L12-16 environmental)
+- `10_dungeons_and_ruins/THE_UNDER_SHRINE_APPROACH.md` **(DM-ONLY; L16-20 endgame apex)**
+*Index files:*
+- `10_dungeons_and_ruins/DUNGEON_INDEX.md` (master; all 23 sites)
+- `10_dungeons_and_ruins/PUZZLE_DUNGEONS.md` (investigation/puzzle subset)
+- `10_dungeons_and_ruins/RUIN_INDEX.md` (ruin subset)
 
 ### type:ruin
 - `10_dungeons_and_ruins/THE_PEAT_CHAPEL.md`
 - `10_dungeons_and_ruins/THE_WHISPERING_CAIRN.md`
 - `10_dungeons_and_ruins/SAINT_VEDDOWS_TOMB.md` (ring-1, Vale; secondary-node)
 - `10_dungeons_and_ruins/THE_BURIED_CLOISTER.md` (ring-1, Vale)
+- `10_dungeons_and_ruins/THE_CONCORD_RELAY_VAULT.md` (Stage 12; Reach Heights archive-relay)
+- `10_dungeons_and_ruins/THE_OLD_CONCORD_HEARTLANDS_RUIN.md` (Stage 12; far surface ruin)
+*(See also `RUIN_INDEX.md` for a consolidated ruin-subset view.)*
 
 ### type:encounter
 - `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
@@ -210,6 +228,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `13_encounters_and_bestiary/ASHGARDEN_VALE_ENCOUNTERS.md` (ring-1)
 - `13_encounters_and_bestiary/TOLLWOOD_ENCOUNTERS.md` (ring-1)
 - `13_encounters_and_bestiary/PALE_COAST_ENCOUNTERS.md` (ring-1)
+- `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md` (Stage 12; 8 abbreviated 5e profiles for new sites; incl. 1 DM-only apex adversary)
 
 ### type:artifact
 - Remembrance relics — referenced in `03_canon/MAGIC_RULES.md` (full build Stage 14)
@@ -518,7 +537,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md`
 - `09_quests/hooks_and_rumors/SUNDERING_REACH_RUMORS.md`
 - `09_quests/regional_quests/` (14 developed quests)
-- `10_dungeons_and_ruins/` (6 dungeons/ruins)
+- `10_dungeons_and_ruins/` (23 sites — see `DUNGEON_INDEX.md`)
 - `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
 - `16_ai_session_packs/OPENING_SCENES.md`
 - `16_ai_session_packs/SOLO_SAFETY_START.md`
@@ -764,7 +783,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `09_quests/hooks_and_rumors/` (regional hooks + rumors)
 - `09_quests/regional_quests/` (14 developed quests)
 - `09_quests/act_1_quests/` (6 Act 1 faction quests — Stage 5)
-- `10_dungeons_and_ruins/` (6 dungeons/ruins)
+- `10_dungeons_and_ruins/` (10 sites: Stages 3+12 — Peat Chapel, Whispering Cairn, Sunken Tollhouse, Ledger Vault, Deep Adit, Barrow of Nine Doors; + Concord Relay-Vault, Greyfens Deep, Basin Keystone Approach, Under-Shrine Approach [DM-only])
 - `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`, `ACT_1_THREATS.md` (Stage 5)
 - `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `ACT_1_MILESTONES.md`, `ACT_1_FAILURE_STATES.md` (Stage 5)
 - `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md`, `08_npcs/ACT_1_NPC_GUIDE.md` (Stage 5)
@@ -778,6 +797,8 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `09_quests/city_quests/` (11 developed city quests)
 - `09_quests/hooks_and_rumors/CARADRIL_HOOKS.md`, `CARADRIL_RUMORS.md`
 - `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`
+- `10_dungeons_and_ruins/THE_SUNKEN_WARDS_DEEP.md` (Stage 12; L6-10 undercity)
+- `10_dungeons_and_ruins/THE_CARADRIL_ASHMARKET_UNDERCROFT.md` (Stage 12; L6-9 criminal/relic)
 - Cinder Ledger + Concord Remnant faction files (HQ/seat in Caradril); city-internal factions listed in `07_factions/FACTION_INDEX.md`
 
 ### region:ashgarden-vale (Stage 7 — Ring 1, South)

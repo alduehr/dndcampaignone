@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0–11 complete (Stage 11 Mystery/Secret/Clue Expansion: 2026-06-13).** The campaign now has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), and a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files, faction/NPC knowledge maps, false leads, discovery paths, secret protection matrix). **Stage 12 — Dungeons, Ruins, and Adventure Sites is the recommended next pass.**
+**Stages 0–12 complete (Stage 12 Dungeons, Ruins, and Adventure Sites: 2026-06-13).** The campaign now has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files, faction/NPC knowledge maps, false leads, discovery paths, secret protection matrix), and 23 authored adventure sites spanning L1–20. **Stage 13 — Encounter and Bestiary Expansion is the recommended next pass.**
 
 ---
 
@@ -14,10 +14,10 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 | Field | Value |
 |---|---|
-| Stage | 12 — Dungeons, Ruins, and Adventure Sites (recommended next) |
-| Goal | Create a large library of fully explorable dungeon/ruin files with room/zone lists, traps/hazards, secrets, puzzles, treasure, boss mechanics, and solo-play safety valves |
+| Stage | 13 — Encounter and Bestiary Expansion (recommended next) |
+| Goal | Build MONSTER_INDEX, ADVERSARY_GROUPS, RECURRING_VILLAINS, RANDOM_ENCOUNTERS, NONCOMBAT_OBSTACLES, BOSS_DESIGN; fold in STAGE_12_ADVERSARIES and regional encounter tables into a unified bestiary |
 | Status | Not started |
-| Blocking Issues | None — Stage 11 complete |
+| Blocking Issues | None — Stage 12 complete |
 
 ---
 
@@ -47,29 +47,36 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 **Complete 2026-06-11.** All seven major factions made fully operational. Delivered: 4-quest chains per faction (28 quest files + 7 `_CHAIN_INDEX.md` files in `09_quests/faction_quests/`); "Combat Capability And Stat References" sections with rank-and-file adversary profiles + leader/champion abbreviated stat profiles added to all seven faction files; `FACTION_RELATIONSHIP_MAP.md` (full pairwise table incl. Hollow Court hidden ties) and `FACTION_TURN_RULES.md` (AI DM inter-session faction turn rules) created; `FACTION_INDEX.md`, `FACTION_STATE.md`, and `WORLD_CLOCKS.md` updated. No new proper nouns, central mysteries, gods, cosmology, or artifacts. Hollow Court secrecy fully preserved. All Stage 8 completion criteria met per `DEVELOPMENT_STAGES.md`.
 
-### Pass 7 — NPC Codex Expansion (Stage 9) — RECOMMENDED NEXT
+### Pass 7 — DONE: NPC Codex Expansion (Stage 9)
 
-- **Goal:** Expand the NPC population toward project targets (50–100 major, 200–500 secondary, 500+ minor); close Ring 1 NPC density gap (~20/region vs. 30–60 target, esp. Pale Coast and Tollwood); build `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`.
-- **Files to create/edit:**
-  - Expand `08_npcs/MAJOR_NPCS.md`, `SECONDARY_NPCS.md`, `MINOR_NPCS.md`, `NPC_INDEX.md`
-  - Create `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`
-- **Suggested agent:** `npc-codex-builder`
-- **Completion criteria:** NPC population substantially broader; Ring 1 density gap closed; relationship/secret/voice tooling exists for the AI DM.
+Complete. 94 major / 368 secondary / 953 minor NPCs; NPC_RELATIONSHIP_WEB, NPC_SECRET_LEDGER, NPC_VOICE_GUIDE created.
+
+### Pass 8 — DONE: Quest Library Expansion (Stage 10)
+
+Complete. 28 major quests, ~165 developed quests, 304 far-continent hooks/rumors/jobs.
+
+### Pass 9 — DONE: Mystery, Secret, Clue Expansion (Stage 11)
+
+Complete. 10 revelations, ~100 clues, 6 regional trail files, faction/NPC knowledge maps, false leads, discovery paths, secret protection matrix.
+
+### Pass 10 — DONE: Dungeons, Ruins, and Adventure Sites (Stage 12)
+
+Complete. 23 authored adventure sites (L1–20), master DUNGEON_INDEX, PUZZLE_DUNGEONS, RUIN_INDEX, STAGE_12_ADVERSARIES.
+
+### Pass 11 — Encounter and Bestiary Expansion (Stage 13) — RECOMMENDED NEXT
+
+- **Goal:** Build a unified bestiary and encounter library: `MONSTER_INDEX.md`, `ADVERSARY_GROUPS.md`, `RECURRING_VILLAINS.md`, `RANDOM_ENCOUNTERS.md`, `NONCOMBAT_OBSTACLES.md`, `BOSS_DESIGN.md`. Fold in `STAGE_12_ADVERSARIES.md` and all regional encounter tables.
+- **Suggested agent:** `encounter-bestiary-designer`
+- **Completion criteria:** Regions have encounter tables; factions have adversary groups; bosses have weaknesses and foreshadowing; combat does not assume four PCs; noncombat obstacles are common.
 
 ---
 
-## Later Expansion (Stages 9–16)
+## Later Expansion (Stages 13–16)
 
-Rough order after Stage 8:
-
-1. **Stage 9** — NPC codex expansion (toward 50–100 major, 200–500 secondary, 500+ minor) ← **next**
-3. **Stage 10** — Quest library expansion (toward 300–600 hooks)
-4. **Stage 11** — Mystery, secret, and clue expansion (false leads, omens, per-clue files)
-5. **Stage 12** — Dungeons and adventure sites (including the keystone dungeon)
-6. **Stage 13** — Encounter and bestiary expansion (solo-safe threats, bosses)
-7. **Stage 14** — Treasure, artifacts, and rewards (by level)
-8. **Stage 15** — Level 5–20 arc expansion (Acts 2–5, villain escalation, endgame states)
-9. **Stage 16** — Pre-play readiness audit
+1. **Stage 13** — Encounter and bestiary expansion ← **next**
+2. **Stage 14** — Treasure, artifacts, and rewards (by level)
+3. **Stage 15** — Level 5–20 arc expansion (Acts 2–5, villain escalation, endgame states)
+4. **Stage 16** — Pre-play readiness audit
 
 ---
 

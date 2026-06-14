@@ -201,6 +201,27 @@ These are corroboration/echo clues. They **confirm the pattern from outside the 
 
 ---
 
+## Stage 12 — New Dungeon Clue IDs
+
+Stage 12 (Dungeons, Ruins, Adventure Sites) added new adventure-site files and **a small set of new corroboration/fragment clues** anchored to them. **No new mystery and no new apex clue were created** — these extend redundancy on existing REVs and are all `hidden` at start, Act-gated per `REVELATION_MAP.md`. The Under-Shrine apex content (D23) uses the **existing** apex clue IDs (C_SR_027/028/029 for REV_007; C_SR_030-033 for REV_008; C_SR_036-038 for REV_010) — **no new apex clue ID was coined.**
+
+| ID | Region | Site (DUNGEON_INDEX) | Player-facing form | REV | Source type | Ceiling / cap |
+|---|---|---|---|---|---|---|
+| C_SR_039 | Reach | D20 Basin Keystone Approach | The warming relay-choir at the shrine's heart = the machine "switching on" at its center | REV_001/005 | Exploration/inference (Arcana/Religion) | A strong inference; **never the Court/mechanism**; deep stair = dread-gate only |
+| C_SR_040 | Reach | D19 Greyfens Deep | Mapping the whole fen's drift shows a single basin-ward pull | REV_001/005 | Exploration/Survival mapping | Pattern centers on the basin; no cause |
+| C_SR_041 | Reach (Heights) | D18 Concord Relay-Vault | The Warden seal + command-Script: the order was severed on purpose by people who knew what it was | REV_005/006 | Document/inscription (Script) | Act 3 gate; deliberate severance; **not the Court's survival** |
+| C_CAR_016 | Caradril | D16 Sunken Wards Deep | The deep wards' warming relay-Script "listening to the door under the water in the north" | REV_002/005 | Document/exploration (Script) | Continental network fragment; points at the Reach; **never names the keystone/Court** |
+| C_CAR_017 | Caradril | D17 Ashmarket Undercroft | The trade-ledger: relics logged by source-region, bound for the Ledger | REV_002 | Document (paper trail) | Commercial substance proof; continental-supply map; not the apex |
+| C_CAR_018 | Caradril | D17 Ashmarket Undercroft | The refining "concentrates"/resists destroying relics | REV_002 | Site/hazard observation | Substance confirmation (commercial); no Concord-sin |
+| C_FC_014 | Concord Heartlands (far) | D21 Old Concord Heartlands Ruin | The Ruin'd Crown's account of the deliberate Quietfall | REV_006 | Archive/document (far surface) | Far surface corroboration; **NEVER the live machine/keystone/Court** |
+| C_FC_015 | Emberfell (far) | D22 Emberfell Caldera Descent | The fire-cult's rendering of the dead *mirrors* the harvest's commodification | REV_002 | Far cultural echo | Thematic mirror + far trade; **a mirror, not the harvest/Court/keystone** |
+
+**Three-clue-rule impact:** these are *additional* independent sources for REVs that already met the rule — they raise redundancy, never create a single point of failure. D23 (Under-Shrine) is the apex *site* for REV_007/008/010 but is **not** a sole path: REV_007 still requires convergence of REV_003+005+006 or the heretic contact (C_SR_028/029), exactly as before.
+
+**Secrecy note:** C_SR_039/040/041 and C_CAR_016 are Act-gated fragments (never the Court). C_FC_014/015 are far corroboration (never the keystone/Court — hard-capped in their site files). C_CAR_017/018 are discoverable commercial proofs (REV_002). All `hidden` at start.
+
+---
+
 ## Stage 11 — Per-REV Three-Source Verification
 
 Each major revelation is backed by **>=3 independent clue sources from different regions/NPCs/approaches** (no single point of failure). Counts include the C-M* and region-coded layers; far echoes are *corroboration*, never the sole path.

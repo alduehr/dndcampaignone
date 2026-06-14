@@ -99,8 +99,19 @@ If ignored, the Gravecaller cell grows bolder and pushes toward the Old Mast (re
 - Cell befriended / opposed / exploited: `FACTION_STATE.md` (Gravecallers ±), `RELATIONSHIPS.md` (the speaker, Wren-of-the-Wood), `WORLD_CLOCKS.md` (the Old Mast Stirs).
 - Grove honored vs. defiled: `CONSEQUENCES.md`, Mourners/woodfolk attitude.
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start.
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C_TW_002 | REV_005 | The cell's teaching / Hung Tree testimony: "the grey lords took the dead before the roads fell" (oblique, pre-Concord half-memory) | Pre-Concord half-memory; **never** the harvest mechanism, never the Court |
+
+A **REV_005 oblique fragment source** from a pre-Concord vantage (like the Barrow D06 and, deeper, the Old Mast D12). Corroborates the Concord's sin from outside the Concord — capped to "the dead were taken long ago," never the apex.
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../06_settlements/COLDHEARTH.md`](../06_settlements/COLDHEARTH.md)
 - [`../05_regions/wilderness/TOLLWOOD_SITES.md`](../05_regions/wilderness/TOLLWOOD_SITES.md)
 - [`THE_OLD_MAST.md`](THE_OLD_MAST.md)

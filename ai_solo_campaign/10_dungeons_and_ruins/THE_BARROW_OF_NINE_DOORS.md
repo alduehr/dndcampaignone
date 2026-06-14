@@ -91,8 +91,21 @@ The drift jams ever thicker at the barrow; the Gravecallers deepen their use of 
 - If the barrow-lord is parleyed: record its testimony as a clue and update `RELATIONSHIPS.md` (Sashe/Mourners trust).
 - Treasure/relic: update `INVENTORY_AND_REWARDS.md`.
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start.
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C-M5 / C_SR_005 analog | REV_001 | The drift jams here — vivid field-proof the dead are pulled basin-ward | The pattern centers on the basin |
+| C-M6 (layered glyphs, frag) | REV_005 | Concord Script over older pre-Concord carving: the Concord *built on and tapped* an older thing | Act 2-3 fragment; never the full harvest purpose / Court |
+| C-M5/M6 (barrow-lord testimony) | REV_001/005 | An ancient dead's account of "watching the network feed" (gated parley reward) | A strong gated fragment; cap at "the dead were taken," not the mechanism |
+
+A **REV_001 source + REV_005 fragment** (pre-Concord vantage), parallel to the Tollwood's Old Mast (D12) and Hanging Oaks (D11): the network was built *over* an older power. The barrow-lord's testimony is one of several REV_005 fragment-paths — never the sole one.
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../05_regions/wilderness/GREYFENS_SITES.md`](../05_regions/wilderness/GREYFENS_SITES.md)
 - [`../06_settlements/GREYWATER_HOLM.md`](../06_settlements/GREYWATER_HOLM.md)
 - [`../07_factions/major_factions/GRAVECALLERS.md`](../07_factions/major_factions/GRAVECALLERS.md)

@@ -101,8 +101,20 @@ If left alone, the Skerry Shrine warms unwatched, the worst drowned gather, the 
 - Script/testimony/relic clues: mark M2/M3/M5/M6 **fragment** IDs in `KNOWN_CLUES.md` (**capped — never log the Court or harvest mechanism**).
 - Keeper settled vs. fought; wreckers' secret: `FACTION_STATE.md`, `WORLD_CLOCKS.md` (the Drowned Tide Rises), `INVENTORY_AND_REWARDS.md`.
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start. **Gated, oblique, capped.**
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C_PC_002 (deep) / C-M2 (frag) | REV_002/005 | Drowned Porch Script: the shrine "kept the drowned of the deep for the Keepers" (largest coastal node) | Act-paced fragment; never the Court |
+| C_PC_002 (Skerry-Keeper, gated) | REV_005 | The eldest keeper: "we kept them all; the sea never runs dry of the dead" | Deepest oblique Coast M6 fragment; never the mechanism/Court |
+
+A **gated REV_005 oblique fragment source** (L6-9, Act 2-3+). The Sea-Throat node proper is off-limits; the Coast's full M2/M3/M5 truth lives at the Drowned Lamp (D14), the Reach, and Caradril — this is corroboration, not a shortcut to the apex.
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../05_regions/wilderness/PALE_COAST_SITES.md`](../05_regions/wilderness/PALE_COAST_SITES.md)
 - [`../06_settlements/WRACKMOUTH.md`](../06_settlements/WRACKMOUTH.md)
 - [`THE_DROWNED_LAMP.md`](THE_DROWNED_LAMP.md)

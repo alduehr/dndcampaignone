@@ -90,8 +90,21 @@ The drownings spread upriver, Reedford's haunting worsens, and the Sunken Tollho
 - If the relic is taken: update `INVENTORY_AND_REWARDS.md` and the relevant faction's interest (`FACTION_STATE.md`).
 - Mark C-M2 / C-M5 clues discovered in `KNOWN_CLUES.md` if read.
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start.
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C-M2-1 (frag) / C_SR (network) | REV_001/002 | Toll-Hall Script: "the road carries them to the door under the water" (a fragment pointing at the basin) | Points at the basin shrine; never names the Court or the mechanism |
+| C-M5 / C_SR_010 analog | REV_001 | The dead drown here and drift downstream/basinward — a smaller version of the regional drift | The pattern centers on the basin; no cause |
+| C-M3 hook | REV_002 | The Silt Vault relic (faction-wanted study object) | Uncanny seed |
+
+A **REV_001 source** (the basin-centered pattern, river arm) — corroborated by Old Sashe's drift-map (D19/Greyfens), the Greenward Toll-Station (D10), and the Barrow (D06). The road-as-conduit fragment mirrors the Greenward Toll-Station in Tollwood.
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../06_settlements/KETTLE_BRIDGE.md`](../06_settlements/KETTLE_BRIDGE.md)
 - [`../05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md`](../05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md)
 - [`../11_mysteries_and_secrets/MYSTERY_WEB.md`](../11_mysteries_and_secrets/MYSTERY_WEB.md)

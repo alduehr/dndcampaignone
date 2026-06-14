@@ -100,8 +100,20 @@ If ignored, the wreckers keep luring/stripping ships and feeding Cole's sea-reli
 - Wreckers broken/turned: `RELATIONSHIPS.md` (Wreck-Master, the village), `CONSEQUENCES.md`.
 - Gravecaller current / Ferec: `FACTION_STATE.md` (Gravecallers ±), `RELATIONSHIPS.md`, `KNOWN_CLUES.md` (M5/M6 oblique fragment, capped).
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start.
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C_PC_003 | REV_002 | The salvage-ledger: "sea-relics" logged by wreck, bound for Cole/the Wrack (cleanest Coast documentary M3) | Maritime substance trade; the Monopoly clock's coastal arm; not the apex |
+| C_PC_001/002 (frag) | REV_001/005 | The Listening Pool current: "the drowned are called home" (oblique) | Coastal folk-fragment; never the mechanism/Court |
+
+A **REV_002 documentary source** (Coast arm of the relic trade), parallel to the Pellow Grange (D08) and the Ledger Vault (D04). Living foes + a moral undead core — a heist/tide site.
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../06_settlements/COBBLE_STRAND.md`](../06_settlements/COBBLE_STRAND.md)
 - [`../05_regions/wilderness/PALE_COAST_SITES.md`](../05_regions/wilderness/PALE_COAST_SITES.md)
 - [`THE_DROWNED_LAMP.md`](THE_DROWNED_LAMP.md)

@@ -10,7 +10,7 @@ Track missing or underdeveloped content by category. Use this for category-level
 
 Earlier stages: Stage 10 (Quest Library Expansion) added 28 major campaign quests, ~165 developed quests, 304 short-form hooks/rumors/jobs. Stage 9/9.5 built the NPC codex to 94 major / 368 secondary / 953 minor. Stages 7/8 built Ring 1 regions and made all 7 factions operational. Stages 0–6 established foundation, AI runtime, starting region, first major city (Caradril), and Level 1–4 arc.
 
-The gaps below now reflect what remains for **Stage 12+ depth and scale** (dungeons/ruins, bestiary, treasure-by-level, Acts 2–5). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
+**Stage 12 (Dungeons, Ruins, Adventure Sites) complete (2026-06-13):** master `DUNGEON_INDEX.md` (23 sites) + `PUZZLE_DUNGEONS.md`; the 15 existing dungeons cross-linked to the Stage 11 REV/clue layer; 8 new sites (incl. the keystone approach, the Caradril deep-dungeon, two far high-tier sites, and the DM-only endgame); `STAGE_12_ADVERSARIES.md`. The gaps below now reflect what remains for **Stage 13+ depth and scale** (bestiary expansion, treasure-by-level, Acts 2–5), plus a small set of optional far-continent dungeons. Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
 
 ---
 
@@ -34,7 +34,7 @@ The gaps below now reflect what remains for **Stage 12+ depth and scale** (dunge
 |---|---|---|---|---|
 | ~~No additional regional towns/villages~~ — **7 added in Stage 3 (8 total)**: Kettle Bridge, Saltmargin, Candlewick, Greywater Holm, Harrowgast, Reedford, The Ashwalk Rest | — (no gap) | — | — | done in Stage 3 |
 | ~~No major city~~ — **Caradril deep-built in Stage 4** (city overview + 8 districts, government, services, criminal networks, city NPCs/quests/clocks) | — (no gap) | — | — | done in Stage 4 |
-| Caradril's Sunken Wards + Sealed Archive lack full room-by-room dungeon files (specced as district/quest content only) | Low | Deep delve play in the city | Full dungeon build (mirrors keystone deferral) | 12 |
+| ~~Caradril's Sunken Wards lacks a full room-by-room dungeon file~~ — **built in Stage 12** (`THE_SUNKEN_WARDS_DEEP.md`). The Sealed Archive's *back-route* is built; a dedicated Archive room-by-room file is optional polish (see Dungeons section) | — (mostly resolved) | Deep city delve | done in Stage 12 (Archive file optional) | 12 |
 
 ---
 
@@ -91,9 +91,12 @@ The gaps below now reflect what remains for **Stage 12+ depth and scale** (dunge
 
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
-| Keystone dungeon referenced but not built | High | The campaign's central adventure site | Full dungeon build with solo-safety valves and scaling | 12 |
-| ~~No regional dungeons/ruins~~ — **6 built in Stage 3** (Peat Chapel, Sunken Tollhouse, Whispering Cairn, Ledger Vault, Barrow of Nine Doors, Deep Adit), full mechanics | — (no gap) | — | — | done in Stage 3 (target 5–8 met) |
+| ~~Keystone dungeon referenced but not built~~ — **built in Stage 12**: `THE_BASIN_KEYSTONE_APPROACH` (upper works, L5-9; apex gated) + `THE_UNDER_SHRINE_APPROACH` (DM-only endgame, L16-20) | — (no gap) | — | — | done in Stage 12 |
+| ~~No master dungeon index~~ — **built in Stage 12**: `DUNGEON_INDEX.md` (23 sites) + `PUZZLE_DUNGEONS.md` | — (no gap) | — | — | done in Stage 12 |
+| ~~No regional dungeons/ruins~~ — **6 built in Stage 3** (Peat Chapel, Sunken Tollhouse, Whispering Cairn, Ledger Vault, Barrow of Nine Doors, Deep Adit) + 9 Ring-1 (Stage 7) + 5 new in Stage 12 (Sunken Wards Deep, Ashmarket Undercroft, Concord Relay-Vault, Greyfens Deep, + the keystone approach) | — (no gap) | — | — | done in Stages 3/7/12 (target met) |
 | First major Act 1 dungeon: **Act 1 routes its dungeon beats through the 6 Stage 3 Concord sites** (sufficient for play); an optional dedicated Act 1 climax dungeon could sharpen the L3→4 beat | Low (was High) | Level 1–4 arc climax site | Optional purpose-built Act 1 dungeon | 5 (optional) / 12 |
+| **Optional far-continent dungeons named but not built** (Saltmere Deep Towns L11-15, Hethewald Old Holds L9-13, Marrowdowns Barrow Complex L8-12, Karran Old Iron Forts L10-14) | Low | Far-continent / Ring 2+ play depth | Build per the Stage 12 dungeon template if far play is later prioritized | 12 (optional) / 15 |
+| Sealed Archive (Caradril) lacks a dedicated room-by-room file (the *back-route into it* is built via `THE_SUNKEN_WARDS_DEEP`; the Archive itself is specced as Lantern Reach district/quest content) | Low | Deep Act-3 city delve polish | Optional dedicated Archive dungeon file | 12 (optional) / 15 |
 
 ---
 

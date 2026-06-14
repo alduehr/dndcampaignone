@@ -102,8 +102,21 @@ If the Lamp is never explored, the drowned-tide worsens and the node warms unche
 - Relic disposition: `INVENTORY_AND_REWARDS.md` + receiving faction.
 - Lamp-Keeper settled vs. fought: `RELATIONSHIPS.md` (Bryd/Mourners/Wardens), `WORLD_CLOCKS.md` (the Drowned Tide Rises — eased or advanced).
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start. **Gated: fragments at L4-6; never the apex; never the Court.**
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C_PC_001 | REV_001 | The drowned-tide: the dead drawn tide-ward (Coast field-proof) | Radiates from the Reach keystone |
+| C_PC_002 / C-M2 (frag) | REV_002/005 | "There was never a lamp here; this is a shrine" + Settling Hall Script: the node "keeps the drowned and gives them onward" | Act 2-3 fragment; the maritime node; never the Court |
+| C_PC_002 (keeper, conditional) | REV_005 | Lamp-Keeper testimony: "we kept them... the sea always gives more" | Richest pre-Act-3 Coast fragment; capped |
+
+A **REV_001/002/005 fragment source** — the Coast's apex clue-site (the Sea-Shaft node proper is off-limits). Corroborates REV_005 alongside Saint Veddow's Tomb (D09) and the Sealed Archive (Caradril, the full proof).
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../06_settlements/COBBLE_STRAND.md`](../06_settlements/COBBLE_STRAND.md)
 - [`../05_regions/PALE_COAST.md`](../05_regions/PALE_COAST.md)
 - [`SAINT_VEDDOWS_TOMB.md`](SAINT_VEDDOWS_TOMB.md)

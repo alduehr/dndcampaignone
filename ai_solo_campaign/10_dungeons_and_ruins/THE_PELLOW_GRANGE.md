@@ -100,8 +100,20 @@ If ignored, the Ledger finishes quarrying the Pellow field-shrine and ships its 
 - Relic disposition: `INVENTORY_AND_REWARDS.md`, `WORLD_CLOCKS.md` (Monopoly clock eased or advanced).
 - Disturbed dead settled vs. left: `RELATIONSHIPS.md`, Vale clock.
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start.
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C_AV_002 | REV_002 | The dig-ledger: "saint's relics" logged *by which grave they came from* — the dead, and the Ledger knows it (cleanest Vale documentary M3) | Substance + deliberate collection; never the Concord-sin/Court |
+| C_AV_002 (shipping) | REV_002/003 | Shipping-labels: relics bound for Pell -> the Ledger south, tying Vale quarrying to the Monopoly clock and Caradril | Mercantile; a thread, not the apex |
+
+A **REV_002 documentary source** (the Vale arm of the relic trade), parallel to the Wreckers' Caves salvage-ledger (D13) and the Ledger Vault (D04). Living foes, not undead — a heist/social site.
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../05_regions/wilderness/ASHGARDEN_VALE_SITES.md`](../05_regions/wilderness/ASHGARDEN_VALE_SITES.md)
 - [`../06_settlements/TILBROOK.md`](../06_settlements/TILBROOK.md)
 - [`../07_factions/major_factions/CINDER_LEDGER.md`](../07_factions/major_factions/CINDER_LEDGER.md)

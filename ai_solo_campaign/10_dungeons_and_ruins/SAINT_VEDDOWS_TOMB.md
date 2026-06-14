@@ -103,8 +103,21 @@ If the tomb is never entered, Saint Veddow's failing rests worsen and the secret
 - Relic disposition: `INVENTORY_AND_REWARDS.md` + receiving faction's interest.
 - Tomb-Warden settled vs. fought: `RELATIONSHIPS.md` (Wardens/Mourners), `WORLD_CLOCKS.md` (node leakage eased or worsened).
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start. **Gated: fragments at L4-6; never the apex; never the Court.**
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C_AV_002 analog | REV_002 | Keeping-Cell relics store "kept travelers" (clearest Vale substance demo) | Substance demo |
+| C-M2 (frag) / C_AV_003 | REV_002/005 | The empty sarcophagus + Keeping-Cell Script: "here the patterns of the dead were kept" — the largest node outside the Reach, proof the network is continental | Act 2-3 fragment; the *what*, not the *why*; never the Court |
+| C-M6 (frag, conditional) | REV_005 | Warden records / Tomb-Warden testimony: "we were placed here to keep something sealed... we kept them, we were told it was mercy" | R6-gated to Act 3; richest pre-Act-3 fragment, carefully capped |
+
+A **REV_002/005 fragment source** — the Vale's apex clue-site, deliberately capped. The sealed shaft (node proper) is endgame-tier and off-limits. Corroborates REV_005 alongside the Sealed Archive (Caradril, the full proof) and the Drowned Lamp (D14).
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../06_settlements/SAINT_VEDDOWS_REST.md`](../06_settlements/SAINT_VEDDOWS_REST.md)
 - [`../05_regions/ASHGARDEN_VALE.md`](../05_regions/ASHGARDEN_VALE.md)
 - [`../07_factions/major_factions/ASHEN_WARDENS.md`](../07_factions/major_factions/ASHEN_WARDENS.md)

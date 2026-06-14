@@ -89,8 +89,21 @@ If the cairn is left unread, the Concord Script gate is still reachable via Bris
 - If rivals contested it: update `FACTION_STATE.md` (Remnant/Ledger attitude) and `RELATIONSHIPS.md` (Briss trust ↑ if protected).
 - If the relic is taken: update `INVENTORY_AND_REWARDS.md`.
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start.
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C-M6-1 (frag) / C_CAR_011 analog | REV_005 | Census-wall: the Concord *recorded and kept the dead's patterns* (Script-gated; a fragment, not the harvest's purpose) | Act 1-2: give the *what* (a census of the dead), never the *why* (consumption); the apex proof lives in the Sealed Archive (Caradril) at Act 3 |
+| C-M3-1 (frag) / C_SR_011 | REV_002 | The Sealed Niche record-relic stores a dead person | Act 1: uncanny seed only |
+| C-M9 (frag) | REV_006 | A teaching beat: the player can *begin learning Concord Script* here (the gate that later unlocks REV_005/006 proof elsewhere) | Teaching/gate, not the deliberate-Quietfall reveal itself |
+
+This is a **Concord Script teaching gate** — its lasting value is unlocking the language that later reads the Sealed Archive (REV_005/006). The census-wall is one of several REV_005 fragment-sources (Deep Adit D05, Barrow D06, Buried Cloister D07, Sealed Archive Caradril).
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../06_settlements/CANDLEWICK.md`](../06_settlements/CANDLEWICK.md)
 - [`../03_canon/LANGUAGES.md`](../03_canon/LANGUAGES.md)
 - [`../07_factions/major_factions/CONCORD_REMNANT.md`](../07_factions/major_factions/CONCORD_REMNANT.md)

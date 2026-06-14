@@ -96,8 +96,19 @@ If left alone, the Old Mast sleeps — unless the Ledger's deep-cutting or the G
 - Presence honored / forced / roused: `FACTION_STATE.md`, `RELATIONSHIPS.md`, `CONSEQUENCES.md`, and critically `WORLD_CLOCKS.md` (the Old Mast Stirs — advance or arrest).
 - The presence's favor granted: `INVENTORY_AND_REWARDS.md` / `RELATIONSHIPS.md` (boon).
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start. **Gated, oblique, capped.**
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C_TW_002 (deep) | REV_005 | The presence's testimony: "the dead were taken, long before the roads fell, and are taken again" — the deepest Ring-1 corroboration, **from outside the Concord entirely** | **Strict: a fragment and a warning. It does NOT name the harvest's mechanism, the Custodians, or the Hollow Court — which it does not know and would not call by those names.** |
+
+A **REV_005 oblique fragment source** — gated to L6-10, Act 2-3+. It is a *witness*, not a player in the harvest, and is explicitly NOT the Hollow Court, the keystone, or a new god. Never a shortcut to REV_007.
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../06_settlements/COLDHEARTH.md`](../06_settlements/COLDHEARTH.md)
 - [`../05_regions/TOLLWOOD.md`](../05_regions/TOLLWOOD.md)
 - [`THE_HANGING_OAKS.md`](THE_HANGING_OAKS.md)

@@ -94,8 +94,21 @@ If ignored, the node keeps leaking, the dead keep drifting to this stretch (the 
 - Drowned dead laid vs. left: `RELATIONSHIPS.md` (Tollmen gratitude — toll-war lever), `WORLD_CLOCKS.md` (Green Mile drift eased).
 - Relic disposition: `INVENTORY_AND_REWARDS.md`, receiving faction's interest.
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start.
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C_TW_001 analog | REV_001 | The dead drift to this stretch (Green Mile); the node "calls them west" | Pattern radiates from the Reach; no mechanism/Court |
+| C-M2/M5 (frag) | REV_001/002 | Conduit Script: the toll-road is a *conduit* that "carries the settled dead onward" — the road is the machine | Fragment; mirrors the Reach's Sunken Tollhouse; never the apex |
+| C-M3 | REV_002 | A salvage relic stores a dead person | Substance seed |
+
+A **REV_001 corroboration site** (Tollwood arm), the road-node cousin of the Reach's Sunken Tollhouse (D03). Confirms the failures radiate outward from the Reach keystone.
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../06_settlements/TOLLSTONE_CROSS.md`](../06_settlements/TOLLSTONE_CROSS.md)
 - [`../05_regions/wilderness/TOLLWOOD_SITES.md`](../05_regions/wilderness/TOLLWOOD_SITES.md)
 - [`THE_SUNKEN_TOLLHOUSE.md`](THE_SUNKEN_TOLLHOUSE.md)

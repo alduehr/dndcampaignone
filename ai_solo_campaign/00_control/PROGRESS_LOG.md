@@ -6,6 +6,84 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-13 — Stage 12 Cleanup Pass
+
+### Stage
+Stage 12 (Dungeons, Ruins, Adventure Sites) — cleanup pass.
+
+### Summary
+Fixed tracking and index issues before commit. Rewrote `_PLACEHOLDER.md` as a proper folder README. Created `RUIN_INDEX.md` (ruin-type subset index). Fixed DUNGEON_INDEX "By Region" count (Reach was labelled 8; correct is 10). Corrected clue ID range in STAGE_12_PROGRESS (C_SR_039-044 → 039-041). Updated TAG_INDEX with Stage 12 dungeon/ruin/encounter/region entries. Updated current-status language in EXPANSION_PLAN, OPEN_QUESTIONS, CONSISTENCY_AUDIT, and NAMING_REGISTRY (all now reflect Stage 12 complete, Stage 13 next).
+
+### Files Created
+- `10_dungeons_and_ruins/RUIN_INDEX.md` — ruin-type subset index (11 sites)
+
+### Files Changed
+- `10_dungeons_and_ruins/_PLACEHOLDER.md` — rewritten as folder README (site counts, file list, links to indexes)
+- `10_dungeons_and_ruins/DUNGEON_INDEX.md` — Reach count corrected (8→10); RUIN_INDEX.md added to Related Files
+- `00_control/TAG_INDEX.md` — current status advanced to Stage 12; type:dungeon/ruin/encounter sections updated with Stage 12 files; region:sundering-reach and region:caradril updated; status:static updated
+- `00_control/EXPANSION_PLAN.md` — current status + current stage table + later-expansion list updated to reflect Stage 12 done / Stage 13 next
+- `00_control/OPEN_QUESTIONS.md` — current status line updated (Stages 0-11 → 0-12)
+- `00_control/CONSISTENCY_AUDIT.md` — current status updated; per-clue-files item updated (post-Stage 12 → Stage 16+)
+- `00_control/NAMING_REGISTRY.md` — stage count line updated (Stages 1-11 → 1-12, Stage 12 next → Stage 13 next)
+- `00_control/STAGE_12_PROGRESS.md` — clue ID range corrected; RUIN_INDEX added to file list; cleanup-pass checklist item added
+
+### Canon Established
+None — cleanup pass only.
+
+### Indexes Updated
+- TAG_INDEX (type:dungeon, type:ruin, type:encounter, region:sundering-reach, region:caradril, current status)
+- DUNGEON_INDEX (count fix + RUIN_INDEX link)
+
+### Next Recommended Pass
+- Stage 13 (Encounter and Bestiary Expansion)
+
+---
+
+## 2026-06-13 — Stage 12: Dungeons, Ruins, and Adventure Sites
+
+### Stage
+Stage 12 (Dungeons, Ruins, Adventure Sites) — complete.
+
+### Summary
+Built the campaign's adventure-site library: a master index, a puzzle/investigation index, Stage 11 clue cross-links appended to all 15 existing dungeons, 8 new adventure sites filling the level/region gaps (Caradril L6-10, Reach L3-10, the keystone approach L5-9, two far-continent high-tier sites L10-16, and the DM-only endgame L16-20), and a new abbreviated-stat-block adversary file. Every site supports multiple play styles (exploration/social/stealth/puzzle/faction/combat), is solo-tuned and retreat-rich, and has a noncombat path. The apex truth (Hollow Court, harvest mechanism, endgame choice) is confined to the single DM-only file; the keystone stays vertical-under-Hollowmere; the far ruins are surface/mirror echoes, never the live machine. No new central mystery/faction/god/cosmology/artifact.
+
+### Files Created
+- `10_dungeons_and_ruins/DUNGEON_INDEX.md` — master adventure-site index (23 sites; by region/level/faction/mystery/type/danger)
+- `10_dungeons_and_ruins/PUZZLE_DUNGEONS.md` — puzzle/investigation site index (puzzle types, DCs, solutions, clue deps; the Concord Script gate)
+- `10_dungeons_and_ruins/THE_SUNKEN_WARDS_DEEP.md` — Caradril undercity dungeon (L6-10; back-route to the Sealed Archive; 3-faction; C_CAR_016)
+- `10_dungeons_and_ruins/THE_CARADRIL_ASHMARKET_UNDERCROFT.md` — Caradril criminal/relic warren (L6-9; trade-ledger C_CAR_017/018; refining-horror)
+- `10_dungeons_and_ruins/THE_CONCORD_RELAY_VAULT.md` — Sunder Heights signal-station (L7-10; watchword-guardian; rich M9 frag C_SR_041)
+- `10_dungeons_and_ruins/THE_GREYFENS_DEEP.md` — environmental fen dungeon (L3-7; Drift-Line M5 field-proof; Gravecaller cell; C_SR_040; funnels to the Barrow)
+- `10_dungeons_and_ruins/THE_BASIN_KEYSTONE_APPROACH.md` — keystone surface/upper works (L5-9; M2/M4/M5 at source + M6 frag C_SR_039; deep stair = gated lethal endgame gate)
+- `10_dungeons_and_ruins/THE_OLD_CONCORD_HEARTLANDS_RUIN.md` — far surface ruin / Ruin'd Crown (L10-14; REV_005/006 surface-proof C_FC_001/014; NOT the keystone/Court)
+- `10_dungeons_and_ruins/THE_EMBERFELL_CALDERA_DESCENT.md` — far volcanic environmental dungeon (L12-16; harvest-mirror; far REV_002 echo C_FC_004/015)
+- `10_dungeons_and_ruins/THE_UNDER_SHRINE_APPROACH.md` — **DM-ONLY endgame** (L16-20; the Drowned Keystone + Hollow Court; REV_007/008/010; the campaign decision)
+- `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md` — 8 abbreviated 5e-compatible dungeon adversary profiles (incl. the DM-only Hollow Court Custodian)
+- `00_control/STAGE_12_PROGRESS.md` — Stage 12 working-state tracker (complete)
+
+### Files Changed
+- All 15 existing dungeon files (`THE_PEAT_CHAPEL`, `THE_WHISPERING_CAIRN`, `THE_SUNKEN_TOLLHOUSE`, `THE_LEDGER_VAULT`, `THE_DEEP_ADIT`, `THE_BARROW_OF_NINE_DOORS`, `THE_BURIED_CLOISTER`, `THE_PELLOW_GRANGE`, `SAINT_VEDDOWS_TOMB`, `THE_GREENWARD_TOLL_STATION`, `THE_HANGING_OAKS`, `THE_OLD_MAST`, `THE_WRECKERS_CAVES`, `THE_DROWNED_LAMP`, `THE_SKERRY_SHRINE`) — appended `## Stage 11 Clue Cross-Links` + DUNGEON_INDEX link (append-only)
+- `11_mysteries_and_secrets/CLUE_INDEX.md` — added the Stage 12 new-dungeon clue IDs subsection (C_SR_039-041, C_CAR_016-018, C_FC_014-015)
+- `00_control/CONTENT_INDEX.md` — status line + dungeon table (master index, puzzle index, 8 new sites) + bestiary table (STAGE_12_ADVERSARIES)
+- `00_control/NAMING_REGISTRY.md` — Stage 12 site-names subsection
+- `00_control/STAGE_STATUS.md` — Stage 12 row -> complete; header advanced to Stage 13
+- `00_control/TODO.md`, `17_generation_backlog/CONTENT_GAPS.md` — Stage 12 marked done; optional far sites logged
+
+### Canon Established
+- No new world facts. Stage 12 built explorable sites for existing canon. The Under-Shrine Approach is the first file to *render* the apex endgame site (still DM-only, consistent with DM_ONLY_CANON and the vertical-endgame map authority).
+
+### Indexes Updated
+- DUNGEON_INDEX (new), PUZZLE_DUNGEONS (new), CLUE_INDEX, CONTENT_INDEX, NAMING_REGISTRY.
+
+### Gaps Identified
+- Optional far-continent sites (Saltmere Deep Towns, Hethewald Old Holds, Marrowdowns Barrow Complex, Karran Old Iron Forts) named but not built — logged in CONTENT_GAPS for future far-play depth.
+- `14_treasure_and_artifacts/` not yet built — several sites reference tier-3/4 artifact rewards "when built" (Stage 14).
+
+### Next Recommended Pass
+- Stage 13 (Encounter and Bestiary Expansion): build out `MONSTER_INDEX`, `ADVERSARY_GROUPS`, `RECURRING_VILLAINS`, `RANDOM_ENCOUNTERS`, `NONCOMBAT_OBSTACLES`, `BOSS_DESIGN`, folding in the Stage 12 adversary profiles.
+
+---
+
 ## 2026-06-13 — Cartographic Precision Pass: Full-Continent Settlement/Social Anchors
 
 ### Stage

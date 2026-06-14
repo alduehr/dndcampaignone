@@ -93,8 +93,22 @@ The Remnant reaches the Relay-Vault, harvests the Glass Seam, and carries proof 
 - If the Remnant is beaten to it / fought: update `FACTION_STATE.md` (Remnant attitude → hostile/wary) and `RELATIONSHIPS.md` (Veska Dunn).
 - Mark C-M3 / C-M6 / C-M9 fragments in `KNOWN_CLUES.md`; note any thin-touch in `PLAYER_CHARACTER.md`.
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start.
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C-M3-1 (direct) / C_SR_011 | REV_002 | The Glass Seam: "old glass" relics demonstrably *store the dead* | Mid/Act 2 confirms the substance |
+| C-M6 (frag) / C_CAR_011 analog | REV_005 | Relay-Vault Script states the harvest's purpose "plainly enough to chill" — a **fragment** | Act 1-2: a chilling fragment, NOT the apex; full proof = Sealed Archive (Act 3) |
+| C-M9 (frag) | REV_006 | The node as severed machinery hints the Quietfall "switched it off" | Fragment only; deliberate-Quietfall reveal stays Act 3 |
+| C_SR_034 | REV_009 | "Thin" miners over a leaking node = living thinning evidence (background) | Do not over-explain in Act 1-2 |
+
+A **REV_002 (direct) + REV_005 (fragment) source** and the clearest place to *understand* a harvest node in miniature before the apex. The secondary node here is a deliberate smaller cousin of the keystone — corroborates the network without being it.
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../06_settlements/HARROWGAST.md`](../06_settlements/HARROWGAST.md)
 - [`../05_regions/wilderness/SUNDER_HEIGHTS_SITES.md`](../05_regions/wilderness/SUNDER_HEIGHTS_SITES.md)
 - [`../07_factions/major_factions/CONCORD_REMNANT.md`](../07_factions/major_factions/CONCORD_REMNANT.md)

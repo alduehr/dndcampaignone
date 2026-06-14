@@ -93,8 +93,21 @@ If the player leaves it to the Remnant, the scholars strip the Scriptorium and c
 - Records disposition (Remnant / Mourners / kept): `FACTION_STATE.md`, `CONSEQUENCES.md`.
 - Vigil-Brother released vs. fought: `RELATIONSHIPS.md` (Mourners), `WORLD_CLOCKS.md` (minor node-leakage).
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start.
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C_AV_002 analog | REV_002 | Settling-Cell relics store the dead (Vale substance demo) | Substance demo; no Concord-sin |
+| C-M2/M6 (frag) / C_AV_003 analog | REV_005 | Scriptorium: the cloister "settled the dead and kept their record for the shrine on the hill" — ties Vale ruins to a *network* pointing at Saint Veddow's | Act 2-3 fragment; no harvest reveal pre-Act-3 |
+| Vigil-Brother seed | REV_005 | "We kept them for the Keepers... they never came back" — a human, tragic folk-fragment | Carefully capped; never the mechanism/Court |
+
+A **REV_002/005 fragment source** in the Vale — corroborates the network from outside the Reach and points the player toward Saint Veddow's Tomb (D09). One of several Ring-1 fragment-paths; skipping it blocks nothing.
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../05_regions/wilderness/ASHGARDEN_VALE_SITES.md`](../05_regions/wilderness/ASHGARDEN_VALE_SITES.md)
 - [`../06_settlements/ORCHARDMERE.md`](../06_settlements/ORCHARDMERE.md)
 - [`../07_factions/major_factions/CONCORD_REMNANT.md`](../07_factions/major_factions/CONCORD_REMNANT.md)

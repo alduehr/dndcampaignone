@@ -92,8 +92,20 @@ If the player never pursues the relic, M3 is still reachable (Gravecallers, Peat
 - Relic obtained: `INVENTORY_AND_REWARDS.md`; mark C-M3-3 in `KNOWN_CLUES.md`.
 - Caught/robbed: `FACTION_STATE.md` (Ledger → suspicious/hostile), `CONSEQUENCES.md` (debt/blacklist/bounty), `NPC_MEMORY.md` (Domic, Ren, Vyre).
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start.
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C-M3-3 / C_SR_013 | REV_002 | The vault relic *remembers* a dead person — someone is collecting the substance **on purpose** | Mid/Act 2 confirms REV_002; never the machine's *age* or the Court |
+| C-M4-4 / C_SR_017 | REV_003 | Domic's documentation exposes Vyre's monopoly scheme ("it's not really about water/salvage") | Act 2: Ledger greed; never Reke's true master |
+
+A **REV_002 mercantile source** (corroborated at the Ashmarket Undercroft D17, the Deep Adit D05, the Pellow Grange D08, Caradril). Turning Domic also feeds REV_003 (the human conspiracy) via the documentation.
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../06_settlements/HOLLOWMERE.md`](../06_settlements/HOLLOWMERE.md)
 - [`../07_factions/major_factions/CINDER_LEDGER.md`](../07_factions/major_factions/CINDER_LEDGER.md)
 - [`../08_npcs/SECONDARY_NPCS.md`](../08_npcs/SECONDARY_NPCS.md)

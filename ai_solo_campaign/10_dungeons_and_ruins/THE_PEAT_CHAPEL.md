@@ -88,8 +88,19 @@ If skipped, Domic finds another hand for the job (the relic reaches the Ledger a
 - Relic disposition: update `INVENTORY_AND_REWARDS.md` and the receiving faction's interest (`FACTION_STATE.md`).
 - If the dead man is released/studied: mark C-M3 (experiential) in `KNOWN_CLUES.md`; note Mourners' goodwill if released (`RELATIONSHIPS.md`).
 
+## Stage 11 Clue Cross-Links
+
+DM-only clue/REV mapping (per `../11_mysteries_and_secrets/CLUE_INDEX.md` and `REVELATION_MAP.md`). All `hidden` at start; deliver fragment-tier only at this site's tier.
+
+| Clue ID | REV | What this site delivers | Cap |
+|---|---|---|---|
+| C-M3-1 / C_SR_011 | REV_002 | The altar relic *stores a dead person* (experiential; the player's first concrete brush with Remembrance-as-substance) | Act 1 gives the uncanny seed only — never "someone is collecting it on purpose" or the mechanism |
+
+This is a **REV_002 seed site** (one of many): the relic demonstration here is corroborated independently at the Ledger Vault (D04), the Deep Adit (D05), the Greyfens (D19), and in Caradril — so skipping it blocks nothing.
+
 ## Related Files
 
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md)
 - [`../06_settlements/HOLLOWMERE.md`](../06_settlements/HOLLOWMERE.md)
 - [`../07_factions/major_factions/CINDER_LEDGER.md`](../07_factions/major_factions/CINDER_LEDGER.md)
 - [`../09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md`](../09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md)
