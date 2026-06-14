@@ -6,13 +6,14 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 
 ## Current Status
 
-**Stages 0–12 complete (Stage 12 Dungeons, Ruins, Adventure Sites: 2026-06-13).** Tags through Stage 8 are fully registered below. **Stages 9/9.5/10/11/12 additions** (summary — see individual stage progress files for full file lists):
+**Stages 0–13 complete (Stage 13 Encounter & Bestiary Expansion: 2026-06-14).** Tags through Stage 8 are fully registered below. **Stages 9/9.5/10/11/12 additions** (summary — see individual stage progress files for full file lists):
 - Stage 9: `08_npcs/by_region/` NPC files, `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md` (dm-only), `NPC_VOICE_GUIDE.md`. New tags: `npc-codex`, `npc-voice`, `npc-secret`.
 - Stage 9.5: 12 far-continent region NPC files (`08_npcs/by_region/*_NPCS.md`). New tag: `far-continent-npc`.
 - Stage 10: `09_quests/MAJOR_CAMPAIGN_QUESTS.md`, `by_region/` (12 region quest files), `by_faction/`, `by_level/`, `by_type/`, `hooks_and_rumors/fc_*` (13 files). New tags: `major-quest`, `far-continent-quest`, `hooks-jobs-rumors`.
 - Stage 11: `11_mysteries_and_secrets/by_region/` (6 clue trail files), `by_faction/FACTION_KNOWLEDGE_MAP.md`, `NPC_KNOWLEDGE_MAP.md`, `FALSE_LEADS_AND_MISDIRECTIONS.md`, `FALSE_LEADS.md` (alias), `MYSTERY_CHAINS.md`, `REVEAL_TIMING.md`, `DISCOVERY_PATHS.md`, `SECRET_PROTECTION_MATRIX.md` (dm-only), `MYSTERY_STATE_TRACKER_TEMPLATE.md`, `PROPHECIES_AND_OMENS.md`. Updated: `REVELATION_MAP.md`, `CLUE_INDEX.md`, `MYSTERY_WEB.md`, `SECRET_INDEX.md`. New tags: `clue-trail`, `faction-knowledge`, `npc-knowledge`, `false-lead`, `discovery-path`, `reveal-timing`, `mystery-chain`, `secret-protection`, `mystery-tracker`.
 - Stage 12: 8 new dungeon/site files in `10_dungeons_and_ruins/` (Sunken Wards Deep, Ashmarket Undercroft, Concord Relay-Vault, Greyfens Deep, Basin Keystone Approach, Old Concord Heartlands Ruin, Emberfell Caldera Descent, Under-Shrine Approach [dm-only]); `DUNGEON_INDEX.md`, `PUZZLE_DUNGEONS.md`, `RUIN_INDEX.md`, `_PLACEHOLDER.md` (README); `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md`; all 15 existing dungeon files updated with Stage 11 clue cross-links. New tags: `dungeon-index`, `ruin-index`, `puzzle-dungeon`, `stage-12-adversary`, `far-continent-dungeon`, `endgame` (dm-only).
 - Stage 12.5: 13 new far-continent dungeon/site files in `10_dungeons_and_ruins/` (D24–D36: Saltmere Deep Towns, Hethewald Old Holds, Marrowdowns Barrow Complex, Karran Old Iron Forts, Glassmere Reliquary Vaults, Three Bridges Counting-Deep, Sallowmarch Drowned Steps, Hollow Gulf Wreck-Reef, Wender Sky-Stones [non-Concord], Sunhollow Great Grove [living-faith], Nine Locks Sunken Stair [Ring-2], Highmark Frozen Works, Cindern Waste Buried Works); every map-authoritative far region now has ≥1 site. `DUNGEON_INDEX.md`/`PUZZLE_DUNGEONS.md`/`RUIN_INDEX.md`/`_PLACEHOLDER.md` updated; `CLUE_INDEX.md` Stage 12.5 subsection (13 new far clues: C_SR2_001, C_HW_001, C_MD_001, C_KM_001, C_GL_001/002, C_SM_001, C_HG_001, C_WS_001, C_SMK_001, C_VR_001, C_HMP_001, C_FC_016). New tags reused: `far-continent-dungeon`, `pre-concord-echo`, `non-concord`, `living-faith`. No new mystery/faction/god/cosmology; all far sites surface/echo only — never the keystone/live machine/Court.
+- Stage 13 (Encounter & Bestiary Expansion, 2026-06-14): 28 files in `13_encounters_and_bestiary/` — 13 cross-cutting (`ENCOUNTER_INDEX.md`, `BESTIARY_INDEX.md`, `CREATURE_SOURCE_REFERENCE.md`, `SOLO_ENCOUNTER_SCALING.md`, `BIOME_ENCOUNTER_MATRIX.md`, `BOSS_AND_APEX_THREATS.md`, `HORROR_AND_CURSE_THREATS.md`, `FACTION_ENCOUNTERS.md`, `MYSTERY_ENCOUNTERS.md`, `TRAVEL_ENCOUNTERS.md`, `DUNGEON_ENCOUNTER_SUPPORT.md`, `REGIONAL_ENCOUNTER_TABLES.md`) + 15 new far/mid-region encounter files (`VERDANCE_REACHES`, `GLASSMERE_LEAGUE`, `MARROWDOWNS`, `SALLOWMARCH`, `HOLLOW_GULF`, `WENDER_STEPPE`, `KARRAN_MARCHES`, `EMBERFELL`, `SALTMERE_REACHES`, `CONCORD_HEARTLANDS`, `HETHEWALD`, `SUNMARK`, `HIGHMARK_PASSES`, `CINDERN_WASTE`, `DROWNED_STEPS`). All 20 regions + all 5 level-bands (1–20) + all 17 creature categories covered. New tags: `bestiary`, `boss`, `horror`, `undead`, `curse`, `ecology`, `source-handling`, `all-regions`, + per-region `region:*` tags reused. No new mystery/faction/god/cosmology/artifact; official monsters source-referenced not stat-block-copied; far regions corroborate (never relocate) the keystone/Court; apex truth DM-only/gated; VRGtR creature references are included in HORROR_AND_CURSE_THREATS.md on a Track A / source-safe basis; RtHW (Ravenloft: The Horrors Within, 2026) remains pending/source-check-needed until the book is verified.
 
 Earlier stages: Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region + Stage 4 Caradril + Stage 5 Level 1–4 Arc + Stage 6 Audit + Stage 7 Ring 1 + Full-World Cartographic Expansion + Stage 8 Faction Deepening. See individual stage status lines below for tag details.
 
@@ -245,6 +246,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 *(See also `RUIN_INDEX.md` for a consolidated ruin-subset view.)*
 
 ### type:encounter
+- `13_encounters_and_bestiary/README.md` (folder front door / navigation; Stage 13 cleanup pass)
 - `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`
 - `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md`
 - `13_encounters_and_bestiary/ACT_1_THREATS.md` (5 recurring Act 1 adversary profiles; act:1)
@@ -252,6 +254,8 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `13_encounters_and_bestiary/TOLLWOOD_ENCOUNTERS.md` (ring-1)
 - `13_encounters_and_bestiary/PALE_COAST_ENCOUNTERS.md` (ring-1)
 - `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md` (Stage 12; 8 abbreviated 5e profiles for new sites; incl. 1 DM-only apex adversary)
+- **Stage 13 cross-cutting:** `13_encounters_and_bestiary/ENCOUNTER_INDEX.md`, `BESTIARY_INDEX.md` (bestiary, index; 17 categories + Track-A source shorthands), `CREATURE_SOURCE_REFERENCE.md` (source-handling; copyright-safe two-track; RtHW pending), `SOLO_ENCOUNTER_SCALING.md` (solo-safety), `BIOME_ENCOUNTER_MATRIX.md` (ecology), `BOSS_AND_APEX_THREATS.md` (boss; B1–B18), `HORROR_AND_CURSE_THREATS.md` (horror, undead, curse; original + VRGtR Track-A), `FACTION_ENCOUNTERS.md` (faction), `MYSTERY_ENCOUNTERS.md` (mystery, clue), `TRAVEL_ENCOUNTERS.md` (travel), `DUNGEON_ENCOUNTER_SUPPORT.md` (dungeon), `REGIONAL_ENCOUNTER_TABLES.md` (all-regions master)
+- **Stage 13 per-region (far/mid-continent):** `13_encounters_and_bestiary/VERDANCE_REACHES_ENCOUNTERS.md`, `GLASSMERE_LEAGUE_ENCOUNTERS.md`, `MARROWDOWNS_ENCOUNTERS.md`, `SALLOWMARCH_ENCOUNTERS.md`, `HOLLOW_GULF_ENCOUNTERS.md`, `WENDER_STEPPE_ENCOUNTERS.md`, `KARRAN_MARCHES_ENCOUNTERS.md`, `EMBERFELL_ENCOUNTERS.md`, `SALTMERE_REACHES_ENCOUNTERS.md`, `CONCORD_HEARTLANDS_ENCOUNTERS.md`, `HETHEWALD_ENCOUNTERS.md`, `SUNMARK_ENCOUNTERS.md`, `HIGHMARK_PASSES_ENCOUNTERS.md`, `CINDERN_WASTE_ENCOUNTERS.md`, `DROWNED_STEPS_ENCOUNTERS.md`
 
 ### type:artifact
 - Remembrance relics — referenced in `03_canon/MAGIC_RULES.md` (full build Stage 14)
@@ -369,6 +373,11 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `11_mysteries_and_secrets/SECRET_INDEX.md`
 - `11_mysteries_and_secrets/MYSTERY_CHAINS.md` (mystery-chain; alias/wrapper)
 - `11_mysteries_and_secrets/REVEAL_TIMING.md` (reveal-timing; alias/wrapper)
+- `10_dungeons_and_ruins/DUNGEON_INDEX.md`
+- `13_encounters_and_bestiary/README.md` (encounter/bestiary folder front door)
+- `13_encounters_and_bestiary/ENCOUNTER_INDEX.md`
+- `13_encounters_and_bestiary/BESTIARY_INDEX.md`
+- `13_encounters_and_bestiary/REGIONAL_ENCOUNTER_TABLES.md`
 
 ### type:mystery
 - `11_mysteries_and_secrets/MYSTERY_WEB.md` (dm-only)

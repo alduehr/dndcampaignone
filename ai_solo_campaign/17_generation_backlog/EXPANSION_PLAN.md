@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0–12.5 complete (Stage 12.5 Continental Adventure-Site Coverage: 2026-06-14).** The campaign now has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files, faction/NPC knowledge maps, false leads, discovery paths, secret protection matrix), and **36 authored adventure sites spanning L1–20** across the full continent — every map-authoritative far-continent region now has at least one authored site. **Stage 13 — Encounter and Bestiary Expansion is the recommended next pass.**
+**Stages 0–13 complete (Stage 13 Encounter and Bestiary Expansion: 2026-06-14; cleanup/source-reference pass 2026-06-14).** The campaign now has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files, faction/NPC knowledge maps, false leads, discovery paths, secret protection matrix), **36 authored adventure sites spanning L1–20** across the full continent, and a **full solo-tuned encounter and bestiary library** (encounter/bestiary master indexes, copyright-safe source handling, solo scaling, 15-biome matrix, 18 tiered bosses, original Remembrance horror/curse bestiary, faction/mystery/travel/dungeon encounter support, and an encounter file for every one of the 20 major regions). **Stage 14 — Treasure, Artifacts, and Rewards is the recommended next pass.**
 
 ---
 
@@ -14,10 +14,10 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 | Field | Value |
 |---|---|
-| Stage | 13 — Encounter and Bestiary Expansion (recommended next) |
-| Goal | Build MONSTER_INDEX, ADVERSARY_GROUPS, RECURRING_VILLAINS, RANDOM_ENCOUNTERS, NONCOMBAT_OBSTACLES, BOSS_DESIGN; fold in STAGE_12_ADVERSARIES and regional encounter tables into a unified bestiary |
+| Stage | 14 — Treasure, Artifacts, and Rewards (recommended next) |
+| Goal | Build `TREASURE_INDEX`, `ARTIFACTS`, `MAGIC_ITEMS`, `REWARDS_BY_LEVEL`; tie rewards to the Stage 13 encounters/bosses and the Remembrance-relic lore; keep solo survivability supported without removing danger |
 | Status | Not started |
-| Blocking Issues | None — Stage 12 complete |
+| Blocking Issues | None — Stage 13 complete |
 
 ---
 
@@ -67,18 +67,22 @@ Complete. 23 authored adventure sites (L1–20), master DUNGEON_INDEX, PUZZLE_DU
 
 Complete. 13 new far-continent sites (D24–D36); campaign total 36 adventure sites. Every map-authoritative far-continent region has at least one authored site. DUNGEON_INDEX, RUIN_INDEX, PUZZLE_DUNGEONS, CLUE_INDEX, TAG_INDEX, NAMING_REGISTRY updated.
 
-### Pass 11 — Encounter and Bestiary Expansion (Stage 13) — RECOMMENDED NEXT
+### Pass 11 — DONE: Encounter and Bestiary Expansion (Stage 13)
 
-- **Goal:** Build a unified bestiary and encounter library: `MONSTER_INDEX.md`, `ADVERSARY_GROUPS.md`, `RECURRING_VILLAINS.md`, `RANDOM_ENCOUNTERS.md`, `NONCOMBAT_OBSTACLES.md`, `BOSS_DESIGN.md`. Fold in `STAGE_12_ADVERSARIES.md` and all regional encounter tables.
-- **Suggested agent:** `encounter-bestiary-designer`
-- **Completion criteria:** Regions have encounter tables; factions have adversary groups; bosses have weaknesses and foreshadowing; combat does not assume four PCs; noncombat obstacles are common.
+**Complete 2026-06-14 (cleanup/source-reference pass 2026-06-14).** Built a unified bestiary and encounter library (34 files in `13_encounters_and_bestiary/`): master `ENCOUNTER_INDEX` + `BESTIARY_INDEX` (17 creature categories), copyright-safe two-track `CREATURE_SOURCE_REFERENCE`, `SOLO_ENCOUNTER_SCALING`, 15-biome `BIOME_ENCOUNTER_MATRIX`, `BOSS_AND_APEX_THREATS` (18 bosses B1–B18 with weaknesses/foreshadowing/escape-return logic), original Remembrance `HORROR_AND_CURSE_THREATS`, `FACTION_ENCOUNTERS` (all 7 majors + city + regional), `MYSTERY_ENCOUNTERS`, `TRAVEL_ENCOUNTERS` (all terrains × 5 level-bands 1–20), `DUNGEON_ENCOUNTER_SUPPORT` (all 36 dungeons), `REGIONAL_ENCOUNTER_TABLES`, and an encounter file for every one of the 20 major regions. Officials source-referenced (never stat-block-copied); originals abbreviated; solo-tuned throughout (telegraph, morale, escape, noncombat outs). Cleanup pass mapped Track-A official-monster source shorthands, replaced `_PLACEHOLDER.md` with a folder `README.md`, and added an RtHW (Ravenloft: The Horrors Within, June 16 2026) pending-supplement section. No new factions/NPCs/regions/mysteries/gods/artifacts; apex truth DM-only/gated. See `STAGE_13_PROGRESS.md`.
+
+### Pass 12 — Treasure, Artifacts, and Rewards (Stage 14) — RECOMMENDED NEXT
+
+- **Goal:** Build `TREASURE_INDEX.md`, `ARTIFACTS.md`, `MAGIC_ITEMS.md`, `REWARDS_BY_LEVEL.md`. Tie rewards to the Stage 13 encounters/bosses and the Remembrance-relic lore.
+- **Suggested agent:** `encounter-bestiary-designer` / treasure pass
+- **Completion criteria:** Rewards are level-appropriate; solo survivability is supported without removing danger; artifacts connect to lore and mysteries; treasure supports choices, not just power.
 
 ---
 
 ## Later Expansion (Stages 13–16)
 
-1. **Stage 13** — Encounter and bestiary expansion ← **next**
-2. **Stage 14** — Treasure, artifacts, and rewards (by level)
+1. **Stage 13** — Encounter and bestiary expansion ← **done 2026-06-14**
+2. **Stage 14** — Treasure, artifacts, and rewards (by level) ← **next**
 3. **Stage 15** — Level 5–20 arc expansion (Acts 2–5, villain escalation, endgame states)
 4. **Stage 16** — Pre-play readiness audit
 

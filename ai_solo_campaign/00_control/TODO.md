@@ -16,12 +16,14 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 - [x] Stage 12.5: Continental Adventure-Site Coverage — **done 2026-06-14.** Built 13 new far-continent adventure sites (D24–D36; total **36 sites**) so every map-authoritative far region has ≥1 explorable site (Glassmere/Emberfell ×2): the 4 deferred optional sites (Saltmere Deep Towns, Hethewald Old Holds, Marrowdowns Barrow Complex, Karran Old Iron Forts) + 9 new (Glassmere Reliquary Vaults, Three Bridges Counting-Deep, Sallowmarch Drowned Steps, Hollow Gulf Wreck-Reef, Wender Sky-Stones [non-Concord], Sunhollow Great Grove [living-faith], Nine Locks Sunken Stair [Ring-2], Highmark Frozen Works, Cindern Waste Buried Works). 13 new far echo/corroboration clue IDs added to `CLUE_INDEX.md`. All dungeon indexes + tracking files updated. No new mystery/faction/god/cosmology/artifact/adversary; no apex truth in any player-safe section; every far site surface/echo only. See `STAGE_12_5_PROGRESS.md`.
 
-- [ ] Begin Stage 13: Encounter and Bestiary Expansion
-  - Why it matters: Stage 12 (+ the Stage 12.5 coverage interstitial) is complete; Stage 13 is next per `DEVELOPMENT_STAGES.md`. Build `MONSTER_INDEX`, `ADVERSARY_GROUPS`, `RECURRING_VILLAINS`, `RANDOM_ENCOUNTERS`, `NONCOMBAT_OBSTACLES`, `BOSS_DESIGN`, folding in `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md` (now also serving the 13 Stage 12.5 far sites) and the regional encounter tables.
-  - Related files: `13_encounters_and_bestiary/`, `10_dungeons_and_ruins/DUNGEON_INDEX.md`
-  - Suggested agent: `encounter-bestiary-designer`
-  - Stage: 13
-  - Blocker: none — Stage 12 + 12.5 coverage complete.
+- [x] Stage 13: Encounter and Bestiary Expansion — **done 2026-06-14.** Built 28 files in `13_encounters_and_bestiary/`: 13 cross-cutting (`ENCOUNTER_INDEX`, `BESTIARY_INDEX` [17 creature categories], `CREATURE_SOURCE_REFERENCE` [copyright-safe two-track], `SOLO_ENCOUNTER_SCALING` [one-PC budget], `BIOME_ENCOUNTER_MATRIX` [15 biomes], `BOSS_AND_APEX_THREATS` [18 bosses B1–B18], `HORROR_AND_CURSE_THREATS` [original Remembrance undead/curses; gothic-horror creatures referenced Track-A via VRGtR — no copied stat blocks, no imported setting lore], `FACTION_ENCOUNTERS` [all 7 majors + city + regional], `MYSTERY_ENCOUNTERS` [M2–M6; M9/Court gated], `TRAVEL_ENCOUNTERS` [terrain × 5 level-bands], `DUNGEON_ENCOUNTER_SUPPORT` [all 36 dungeons], `REGIONAL_ENCOUNTER_TABLES`) + 15 new far/mid-region encounter files. **All 20 regions + all 5 level-bands (1–20) + all 17 creature categories covered.** Officials source-referenced (never stat-block-copied); originals abbreviated. Solo-tuned throughout. No new factions/NPCs/regions/mysteries/gods/artifacts; far regions corroborate (never relocate) the keystone/Court; apex truth DM-only/gated. See `STAGE_13_PROGRESS.md`.
+
+- [ ] Begin Stage 14: Treasure, Artifacts, and Rewards
+  - Why it matters: Stage 13 is complete; Stage 14 is next per `DEVELOPMENT_STAGES.md`. Build `TREASURE_INDEX`, `ARTIFACTS`, `MAGIC_ITEMS`, `REWARDS_BY_LEVEL`; tie rewards to the Stage 13 encounters/bosses and the Remembrance-relic lore; keep solo survivability supported without removing danger.
+  - Related files: `14_treasure_and_artifacts/`, `13_encounters_and_bestiary/BOSS_AND_APEX_THREATS.md`, `03_canon/MAGIC_RULES.md`
+  - Suggested agent: `encounter-bestiary-designer` / treasure pass
+  - Stage: 14
+  - Blocker: none — Stage 13 complete.
 
 - [x] (Stage 11 follow-up) Mirror region-coded clue IDs into runtime `HIDDEN_CLUES.md` — done 2026-06-13 (Stage 11 cleanup pass); Stage 11 anchor section added to `02_runtime_state/HIDDEN_CLUES.md`.
 
@@ -70,11 +72,7 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Suggested agent: world-atlas-builder
   - Stage: ongoing
 
-- [ ] Build the standalone bestiary (mid/high tiers especially)
-  - Why it matters: Stage 6 audit Medium finding. Adversary stats currently live only inside zone/city encounter tables + the 5 Act 1 threat profiles; Acts 2–5 threats above ~L6 are not yet mechanically usable.
-  - Related files: `13_encounters_and_bestiary/`
-  - Suggested agent: `encounter-bestiary-designer`
-  - Stage: 13
+- [x] Build the standalone bestiary (mid/high tiers especially) — **done 2026-06-14 (Stage 13).** Built `BESTIARY_INDEX.md` (17 creature categories, Track-A source shorthands), `BOSS_AND_APEX_THREATS.md` (18 tiered bosses B1–B18 across all tiers), `HORROR_AND_CURSE_THREATS.md`, `STAGE_12_ADVERSARIES.md`, and per-region encounter files for all 20 regions across L1–20. Officials source-referenced (never stat-block-copied); originals abbreviated; solo-tuned. Cleanup pass mapped source shorthands and added the RtHW pending section.
 
 - [ ] Build `REWARDS_BY_LEVEL.md` and stat referenced dungeon/quest rewards
   - Why it matters: Stage 6 audit Medium finding. Rewards currently reference "level-appropriate items" abstractly, forcing the AI DM to improvise specifics for a solo PC.
@@ -97,6 +95,20 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 ---
 
 ## Low
+
+- [ ] Stage 13 supplement: RtHW bestiary integration (pending book release June 16 2026)
+  - Why it matters: *Ravenloft: The Horrors Within* (RtHW) releases June 16 2026, after Stage 13 completion. ~28 thematically-apt horror creatures (Mist Horror, Gallows Speaker, Waxworks, Necrichor, Strahd Skeleton, Brain in a Jar, etc.) mirror the Remembrance/harvest cosmology and would enrich the deep-node/grief tables. A placeholder "Horror Expansion Supplement (Pending)" section already exists in `CREATURE_SOURCE_REFERENCE.md`.
+  - What to do once the book is accessible: run a focused Track-A pass (name + source + role + solo notes; no stat blocks; no Domains-of-Dread/darklord/named-NPC setting lore; reskin to Remembrance themes; add only where a site's horror theme already fits). Add entries to `HORROR_AND_CURSE_THREATS.md`, `BESTIARY_INDEX.md` (with `A · RtHW` shorthands), `MYSTERY_ENCOUNTERS.md`, and the deep-horror regional files (SUNDERING_REACH, CONCORD_HEARTLANDS, MARROWDOWNS, SALTMERE_REACHES, DROWNED_STEPS, HETHEWALD).
+  - Related files: `13_encounters_and_bestiary/CREATURE_SOURCE_REFERENCE.md`, `HORROR_AND_CURSE_THREATS.md`, `BESTIARY_INDEX.md`, `MYSTERY_ENCOUNTERS.md`
+  - Suggested agent: `encounter-bestiary-designer`
+  - Stage: 13 (supplement) — blocked on book release
+  - Blocker: RtHW not released until 2026-06-16.
+
+- [ ] (Optional) Confirm the one `source check needed` bestiary entry (deep-water aberration / "kraken-spawn-like")
+  - Why it matters: `BESTIARY_INDEX.md` §I marks the unspecified deep-water aberration as `A · source check needed` rather than guessing a book. Confirm whether to anchor it to a published creature (e.g. a MotM/2024 MM aberration) or convert it to a Track-B original.
+  - Related files: `13_encounters_and_bestiary/BESTIARY_INDEX.md`, `DROWNED_STEPS_ENCOUNTERS.md`
+  - Suggested agent: `encounter-bestiary-designer`
+  - Stage: 13 (polish)
 
 - [ ] Populate `/15_random_tables/` with travel, weather, event, and wilderness tables
   - Why it matters: Random tables reduce AI improvisation burden during travel and downtime.

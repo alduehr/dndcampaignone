@@ -6,6 +6,62 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-14 — Stage 13 Cleanup / Official-Source-Reference / RtHW-Pending Pass
+
+### Stage
+Stage 13 (Encounter and Bestiary Expansion) — cleanup and source-reference pass.
+
+### Summary
+Closed out Stage 13 in all tracking files and cleaned up source references. Marked Stage 13 **complete (100%)** and Stage 14 (Treasure, Artifacts, Rewards) **next** in STAGE_STATUS, EXPANSION_PLAN, TODO, OPEN_QUESTIONS, CONSISTENCY_AUDIT, and the NAMING_REGISTRY status block. Replaced `13_encounters_and_bestiary/_PLACEHOLDER.md` with a real folder `README.md` (at-a-glance summary, full file list, two-track source approach, RtHW-pending note, in-play navigation). Mapped **Track-A official-monster source shorthands** across `BESTIARY_INDEX.md` (most classic monsters → `2024 MM`; VRGtR/MToF/MotM where applicable; one `source check needed` for the unspecified deep-water aberration). Added a **Horror Expansion Supplement (Pending)** section + ~28 placeholder creatures (each "source check needed — RtHW") to `CREATURE_SOURCE_REFERENCE.md` for *Ravenloft: The Horrors Within* (RtHW, releases June 16 2026 — not yet available). **Corrected stale "no Ravenloft material" claims** in STAGE_13_PROGRESS, CONTENT_INDEX, and this log: VRGtR (2021) *is* referenced as a copyright-safe Track-A horror source (the world is original and is NOT Ravenloft; only published creature references are borrowed, never setting lore). No new factions/NPCs/regions/mysteries/gods/artifacts; no copied stat blocks; apex truth still DM-only/gated.
+
+### Files Created
+- `13_encounters_and_bestiary/README.md` (replaces `_PLACEHOLDER.md`, which was deleted)
+
+### Files Changed
+- `13_encounters_and_bestiary/BESTIARY_INDEX.md` (Track-A source shorthands; source-key note)
+- `13_encounters_and_bestiary/CREATURE_SOURCE_REFERENCE.md` (expanded source key; RtHW pending section + ~28 placeholders; edition-preference rule)
+- `00_control/STAGE_STATUS.md`, `00_control/STAGE_13_PROGRESS.md`, `00_control/CONSISTENCY_AUDIT.md`, `00_control/OPEN_QUESTIONS.md`, `00_control/NAMING_REGISTRY.md`, `00_control/CONTENT_INDEX.md`, `00_control/TAG_INDEX.md`, `00_control/TODO.md`, `17_generation_backlog/EXPANSION_PLAN.md`, `17_generation_backlog/CONTENT_GAPS.md`
+
+### Indexes Updated
+- CONTENT_INDEX (README row; corrected horror-file summary), TAG_INDEX (`type:encounter` list completed for all Stage 13 files), BESTIARY_INDEX (source column).
+
+### Gaps Identified / Carried
+- RtHW bestiary integration pending the June 16 2026 release (low-priority; logged in TODO/CONTENT_GAPS/OPEN_QUESTIONS).
+
+### Next Recommended Pass
+- Stage 14: Treasure, Artifacts, and Rewards.
+
+---
+
+## 2026-06-14 — Stage 13 Encounter and Bestiary Expansion
+
+### Stage
+Stage 13 (Encounter and Bestiary Expansion).
+
+### Summary
+Built 28 newly generated Stage 13 files in `13_encounters_and_bestiary/` (35 total .md files in the folder including README, inherited support files, and pre-existing Ring 1/Caradril encounter files): 13 cross-cutting (encounter index, bestiary index [17 creature categories], copyright-safe source reference, solo scaling rules, 15-biome matrix, 18 tiered bosses, original Remembrance horror/curse bestiary, faction encounters [all 7 majors + city + regional], mystery clue-bearing encounters, travel tables [all terrains × all 5 level-bands 1–20], dungeon support [all 36 dungeons], all-regions master) + 15 new far/mid-continent per-region encounter files. **All 20 regions, all 5 level-bands (1–20), and all 17 required creature categories are now covered.** Official monsters are source-referenced (never stat-block-copied); originals get abbreviated 5e-compatible summaries. Everything is solo-tuned (telegraph, morale, escape, non-combat outs). Horror is built from the original Remembrance cosmology (the world is original and is NOT Ravenloft); for mechanical creature references it draws on the published gothic-horror sourcebook **Van Richten's Guide to Ravenloft (VRGtR, 2021)** as a copyright-safe Track-A source (name + source + role only; no stat blocks; no imported setting lore). *(The cleanup pass above corrected an earlier inaccurate "no Ravenloft material" note in this entry.)* No new factions/NPCs/regions/mysteries/gods/artifacts; far regions corroborate (never relocate) the keystone/Court/endgame; apex truth stays DM-only and gated.
+
+### Files Created
+- 13 cross-cutting: `ENCOUNTER_INDEX.md`, `BESTIARY_INDEX.md`, `CREATURE_SOURCE_REFERENCE.md`, `SOLO_ENCOUNTER_SCALING.md`, `BIOME_ENCOUNTER_MATRIX.md`, `BOSS_AND_APEX_THREATS.md`, `HORROR_AND_CURSE_THREATS.md`, `FACTION_ENCOUNTERS.md`, `MYSTERY_ENCOUNTERS.md`, `TRAVEL_ENCOUNTERS.md`, `DUNGEON_ENCOUNTER_SUPPORT.md`, `REGIONAL_ENCOUNTER_TABLES.md`, `00_control/STAGE_13_PROGRESS.md`
+- 15 per-region: `VERDANCE_REACHES`, `GLASSMERE_LEAGUE`, `MARROWDOWNS`, `SALLOWMARCH`, `HOLLOW_GULF`, `WENDER_STEPPE`, `KARRAN_MARCHES`, `EMBERFELL`, `SALTMERE_REACHES`, `CONCORD_HEARTLANDS`, `HETHEWALD`, `SUNMARK`, `HIGHMARK_PASSES`, `CINDERN_WASTE`, `DROWNED_STEPS` (`_ENCOUNTERS.md`)
+
+### Files Changed
+- `00_control/CONTENT_INDEX.md`, `00_control/TAG_INDEX.md`, `00_control/TODO.md`, `17_generation_backlog/CONTENT_GAPS.md`
+
+### Canon Established
+- No new canon facts. The bestiary formalizes existing creature ecology and the Remembrance horror cosmology into encounter-ready form. Far-region threats are echoes/mirrors; the keystone/Court/Under-Shrine remain DM-only and beneath Hollowmere.
+
+### Indexes Updated
+- CONTENT_INDEX, TAG_INDEX, ENCOUNTER_INDEX (new), BESTIARY_INDEX (new), REGIONAL_ENCOUNTER_TABLES (new).
+
+### Gaps Identified
+- No standalone NONCOMBAT_OBSTACLES library (folded into region/travel files; optional). High-tier villain *full stat blocks* live in NPC files (boss-framing provided here; deepen in Stage 15). Treasure-by-level is Stage 14.
+
+### Next Recommended Pass
+- Stage 14: Treasure, Artifacts, and Rewards — tie rewards to these encounters/bosses and the Remembrance-relic lore.
+
+---
+
 ## 2026-06-14 — Stage 12.5 Continental Adventure-Site Coverage (interstitial)
 
 ### Stage
