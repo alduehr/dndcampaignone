@@ -5,7 +5,7 @@ type: index
 secrecy: mixed
 status: static
 region: Orrun
-level_range: 1-14
+level_range: 1-16
 related: [DUNGEON_INDEX.md, PUZZLE_DUNGEONS.md, ../11_mysteries_and_secrets/CLUE_INDEX.md]
 tags: [index, type:ruin, secrecy:mixed, orrun]
 ---
@@ -31,6 +31,13 @@ Subset index of all ruin-type sites across the campaign — collapsed Concord st
 | D15 | The Skerry Shrine | Concord sea-shrine node (gated) | Pale Coast | 6-9 | high | M2/M3/M5/M6 / REV_005 (frag) | `THE_SKERRY_SHRINE.md` |
 | D18 | The Concord Relay-Vault | buried Concord relay station | Sundering Reach (Sunder Heights) | 7-10 | high | M2/M6/M9 / REV_005-006 (frag) | `THE_CONCORD_RELAY_VAULT.md` |
 | D21 | The Old Concord Heartlands Ruin | far surface ruin complex (faction-contested) | Concord Heartlands (far) | 10-14 | high | M6/M9 surface-proof / REV_005-006 | `THE_OLD_CONCORD_HEARTLANDS_RUIN.md` |
+| D24 | The Saltmere Deep Towns | drowned-town ruin (pre-Concord, dive) | Saltmere Reaches (far) | 11-15 | high | pre-Concord echo / REV_001/005 (echo) | `THE_SALTMERE_DEEP_TOWNS.md` |
+| D25 | The Hethewald Old Holds | deep-wood Concord ruin + grove-presence (gated) | Hethewald (far) | 9-13 | high | M5/M6 oblique / REV_005 (frag) | `THE_HETHEWALD_OLD_HOLDS.md` |
+| D26 | The Marrowdowns Barrow Complex | pre-Concord barrow-fields | Marrowdowns (far) | 8-12 | mod-high | pre-Concord echo / REV_001/005 (echo) | `THE_MARROWDOWNS_BARROW_COMPLEX.md` |
+| D30 | The Sallowmarch Drowned Steps | pre-Concord causeway-ruin (tidal) | Sallowmarch (far) | 10-14 | high | pre-Concord echo / REV_001/005 (echo) | `THE_SALLOWMARCH_DROWNED_STEPS.md` |
+| D32 | The Wender Sky-Stones | ancient non-Concord shrine-circle (living) | Wender Steppe (far) | 8-13 | mod-high | non-Concord / REV_009 (oblique) | `THE_WENDER_SKY_STONES.md` |
+| D35 | The Highmark Frozen Works | ice-locked Concord station (preserved) | Highmark Passes (far) | 12-16 | very high | M6/M9 / REV_005-006 (far surface-proof) | `THE_HIGHMARK_FROZEN_WORKS.md` |
+| D36 | The Cindern Waste Buried Works | ash-drowned Concord works | Emberfell Theocracy (far) | 13-16 | very high | M5/M6 / REV_005-006 (frag) | `THE_CINDERN_WASTE_BURIED_WORKS.md` |
 
 > **D23 (The Under-Shrine Approach) is DM-only and does not appear in this index** — it is the endgame apex, never surfaced to the player. See `DUNGEON_INDEX.md` for the DM row.
 
@@ -44,11 +51,17 @@ Subset index of all ruin-type sites across the campaign — collapsed Concord st
 
 **Far surface ruin** (D21): the Concord Heartlands ruin is the largest surviving above-ground Concord structure. It shows the empire's scale and generates REV_005-006 corroboration at high tier — but it is a surface layer only; the machine is not here.
 
+**Far peripheral / preserved Concord works** (D25, D35, D36): the Hethewald Old Holds (deep-wood), the Highmark Frozen Works (cold-preserved — the *clearest* far surface-proof), and the Cindern Waste Buried Works (ash-drowned) prove the Concord and its harvest reached the far east, north, and volcanic south *peripherally*. Each gives REV_005/006 fragments or corroboration; **none is the keystone or the live machine** (which is under Hollowmere).
+
+**Far pre-Concord echoes** (D24, D26, D30): the Saltmere drowned towns, the Marrowdowns barrows, and the Sallowmarch Drowned Steps are *older than the Concord* — independent earlier falls where the dead "went down." They corroborate the theme (catastrophe and the troubled dead are older and wider than the Concord) via REV_001/005 echoes, in three distinct folk idioms (salt-clan "going-down," down-country barrow-lore, delta marsh-cant). **None is the keystone.**
+
+**Far non-Concord living site** (D32): the Wender Sky-Stones are an ancient steppe shrine the Concord never touched — the campaign's clearest *outside view* and a far oblique REV_009 cosmic echo ("the Sky has gone thin").
+
 ---
 
 ## Related Files
 
-- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md) — master index (all 23 sites)
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md) — master index (all 36 sites)
 - [`PUZZLE_DUNGEONS.md`](PUZZLE_DUNGEONS.md) — investigation/archive/puzzle-focus sites
 - [`../11_mysteries_and_secrets/CLUE_INDEX.md`](../11_mysteries_and_secrets/CLUE_INDEX.md)
 - [`../11_mysteries_and_secrets/REVELATION_MAP.md`](../11_mysteries_and_secrets/REVELATION_MAP.md)

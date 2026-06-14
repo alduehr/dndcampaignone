@@ -62,6 +62,19 @@ Index of every adventure site whose core challenge is a **puzzle, investigation,
 | **The Old Concord Heartlands Ruin (D21)** | Heartlands (far) | 10-14 | Script/Watchword; Far Diplomacy; Reverence | Watchword/wards Script DC 15-16; far social | C_FC_001; C_FC_014 (NEW) | Far surface-proof; NOT the keystone (hard cap) |
 | **The Emberfell Caldera Descent (D22)** | Emberfell (far) | 12-16 | Environmental Survival; Fire-Wards (Script); Heretic alliance | Heat/gas Con DC 14-15; fire-wards Script/Arcana DC 15-16 | C_FC_004; C_FC_015 (NEW) | The volcano is the puzzle; gear-gated, not ambush-gated |
 | **The Under-Shrine Approach (D23, DM-ONLY)** | Reach (beneath) | 16-20 | Choice/Moral (the campaign decision); Argument | (decision, not a roll) | REV_007/008/010 | **DM-only.** The climax is the choice, reachable by argument/allies/truths |
+| **The Saltmere Deep Towns (D24)** | Saltmere (far) | 11-15 | Navigation (dive/Bonepan); Social (clans' leave); Ritual/Reverence | Salt-collapse/brine Con/Dex 14-15; clans' leave Persuasion 15-16; reverence Religion 15 | C_SR2_001 (NEW) | The forbidden dive; Oss negates navigation; reverence passes the Salt-Choir |
+| **The Hethewald Old Holds (D25)** | Hethewald (far) | 9-13 | Navigation (misleading wood); Social (the songs/the holds' leave); Reverence; Choice | Survival 16-18; the songs Persuasion/Religion 15-16; Script (reader) | C_HW_001 (NEW) | Old-Mast logic writ large; force fails and strands; the songs are the key |
+| **The Marrowdowns Barrow Complex (D26)** | Marrowdowns (far) | 8-12 | Lock-Glyph (3-path door); Social (reeve/moot-mother); Ritual; Choice | Glyphs Script/History 14-15 OR moot star-lore OR a key; parley the barrow-lord | C_MD_001 (NEW) | Three valid door-paths (mirrors D06); parley-boss; orderly social frame |
+| **The Karran Old Iron Forts (D27)** | Karran (far) | 10-14 | Environmental Survival (mine); Watchword (relay-guardian); Ritual | Collapse/gas Con/Dex 14-15; watchword Script 15-16; rite Religion 15 | C_KM_001 (NEW) | A second harsher frontier; watchword stands the guardian down; mine-survival |
+| **The Glassmere Reliquary Vaults (D28)** | Glassmere (far) | 9-13 | Script/Lock-Glyph (wards); Social Infiltration; Watchword | Ward-glyph Script/Investigation 15; cover Deception/faction 14; watchword Script 15 | C_GL_001 (NEW) | Far Remnant archive; points to Caradril's Sealed Archive (the apex-proof's home) |
+| **The Three Bridges Counting-Deep (D29)** | Glassmere (far) | 9-12 | Social Infiltration; Lock; Choice/Moral | Cover Deception/faction 14; turn a clerk Persuasion/Insight 14-15; lock Thieves' Tools 16 (13 w/ key) | C_GL_002 (NEW) | Far Ledger bank-heist; combat is the failure path; continental relic-supply ledger |
+| **The Sallowmarch Drowned Steps (D30)** | Sallowmarch (far) | 10-14 | Tide/Cycle; Navigation (channels); Ritual; Social (evade garrison) | Tide Survival 14; channels Survival 15; rite Religion 15; garrison stealth | C_SM_001 (NEW) | The tide self-limits; a smuggler-guide; an *older* fall the crown denies |
+| **The Hollow Gulf Wreck-Reef (D31)** | Hollow Gulf (far) | 10-15 | Environmental Survival (sea); Social (salvage-claims) | Currents/wreck-tangle Athletics 14-15; air/cold Con 13; charter/avoid | C_HG_001 (faint) | The "world that doesn't know"; a salvage-adventure, faint relic-echo only |
+| **The Wender Sky-Stones (D32)** | Wender Steppe (far) | 8-13 | Social (hospitality); Reverence (omen-reading); Navigation (steppe) | Guest-right Persuasion/Insight 15; the reading Religion/Insight 15-16; steppe Survival 15 | C_WS_001 (NEW) | Near-combat-free; the *outside view*; non-Concord living shrine; a cosmic echo |
+| **The Sunhollow Great Grove (D33)** | Sunmark (far) | 8-13 | Social (reverence/trust); Choice/Moral (protect the grove); Navigation | The grove's leave Persuasion/Insight 15; the wisdom Religion/Insight 16; wilds Survival 14 | C_SMK_001 (NEW) | Near-combat-free; a faith that *works* (hope); the synthesis-seed; moral defense |
+| **The Nine Locks Sunken Stair (D34)** | Verdance Reaches (Ring 2) | 8-12 | Tide/Cycle (sluice-locks); Script (relay-ward); Ritual (closing-word) | Sluice Survival 15 / Athletics 14; ward Script/Investigation 15; closing-word Religion/Script 15 | C_VR_001 (NEW) | First Ring-2 node; flooding self-limits; the relay *points home* to the NW |
+| **The Highmark Frozen Works (D35)** | Highmark Passes (far) | 12-16 | Environmental Survival (lethal cold); Watchword; Ritual | Cold Con 15 (lethal); watchword/Warden Script/faction 15-16; rite Religion | C_HMP_001 (NEW) | The cold is the gate (mandatory prep); the *clearest* cold-preserved far proof |
+| **The Cindern Waste Buried Works (D36)** | Emberfell (far) | 13-16 | Environmental Survival (ash); Watchword (Script); Faction (heretic split) | Ash Con 15; watchword Script 16; exploit orthodox/heretic fracture | C_FC_016 (NEW) | The ash is the gate; a faith built atop buried works; the heretics are the lever |
 
 ---
 
@@ -79,8 +92,14 @@ Sites whose payoff is a **document, ledger, or record** that proves a mystery â€
 | The Ashmarket Undercroft (D17) | The trade-ledger | Continental relic-supply -> the Ledger | REV_002 |
 | The Concord Relay-Vault (D18) | The severance-order | The Quietfall was deliberate | REV_006 (rich frag) |
 | The Old Concord Heartlands Ruin (D21) | The Crown's harvest/Quietfall records | The Concord's true scale and deliberate fall | REV_005/006 (far surface-proof) |
+| The Glassmere Reliquary Vaults (D28) | The Remnant's continental relic-and-harvest catalogue | The substance + the Concord's scale (and a pointer to the Sealed Archive) | REV_002/005 (far frag) |
+| The Three Bridges Counting-Deep (D29) | The master relic-supply ledger | The dead commodified by source-region across the continent -> the Ledger | REV_002 |
+| The Karran Old Iron Forts (D27) | The relay-Script + "humming iron" | The network reached the NE; relics hold the dead | REV_002/005 (far frag) |
+| The Highmark Frozen Works (D35) | The cold-preserved *intact* archive | The harvest + the deliberate Quietfall (clearest far surface-proof) | REV_005/006 (far surface-proof) |
+| The Cindern Waste Buried Works (D36) | The ash-buried works' record | The harvest + planned fall, under a later faith | REV_005/006 (far frag) |
+| The Nine Locks Sunken Stair (D34) | The corridor relay-Script | The network runs inland and *pulls NW-ward* (points home) | REV_001/005 (far frag) |
 
-> **The clearest, fullest documentary proof (REV_005/006 apex-historical) lives in Caradril's Sealed Archive (Act 3 gate).** These sites give fragments and corroboration so a player who skips any one is never blocked.
+> **The clearest, fullest documentary proof (REV_005/006 apex-historical) lives in Caradril's Sealed Archive (Act 3 gate).** Among far sites, the **Highmark Frozen Works (D35)** holds the clearest *far* surface-proof (cold-preserved intact records) â€” still surface history, never the live machine. These sites give fragments and corroboration so a player who skips any one is never blocked.
 
 ---
 

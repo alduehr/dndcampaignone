@@ -222,22 +222,48 @@ Stage 12 (Dungeons, Ruins, Adventure Sites) added new adventure-site files and *
 
 ---
 
+## Stage 12.5 — Far-Continent Adventure-Site Clue IDs
+
+Stage 12.5 (Continental Adventure-Site Coverage) added 13 far-continent sites (D24–D36) covering every map-authoritative far region, and **a small set of new far corroboration/echo clues** anchored to them. **No new mystery and no new apex clue were created** — these extend redundancy on existing REVs and are all `hidden` at start, Act-gated per `REVELATION_MAP.md`. **Every far clue is hard-capped in its site file: surface/echo only — never the keystone, the live machine, the Concord Deep, or the Court.** The apex (D23) still uses only the existing C_SR_027–038 IDs.
+
+| ID | Region | Site (DUNGEON_INDEX) | Player-facing form | REV | Source type | Ceiling / cap |
+|---|---|---|---|---|---|---|
+| C_SR2_001 | Saltmere (far) | D24 Saltmere Deep Towns | The drowned-town dead gathered and could not pass in an older "going-down" | REV_001/005 (echo) | Exploration/forbidden (the drowned dead) | A *pre-Concord* mirror; an older separate fall; **never the keystone/harvest/Court** |
+| C_HW_001 | Hethewald (far) | D25 Hethewald Old Holds | The deep-wood "grey hands took the dead" here too (folk + Script) | REV_005 (frag) | Folk-song / document (Script) | Far reach of the harvest; **never the mechanism/Court**; the grove-presence is pre-Concord, not the Court |
+| C_MD_001 | Marrowdowns (far) | D26 Marrowdowns Barrow Complex | The barrow-dead gathered and "grew restless" as old rites failed | REV_001/005 (echo) | Exploration/forbidden (barrow-dead) | A *pre-Concord* down-country mirror; **never the keystone/Court** |
+| C_KM_001 | Karran (far) | D27 Karran Old Iron Forts | "Humming old iron" holds the dead; crews "come back changed" | REV_002/005 (frag) | Site/document (Script) | NE peripheral relic + reach; **never the keystone/Court**; the network reached here thinly |
+| C_GL_001 | Glassmere (far) | D28 Glassmere Reliquary Vaults | The Remnant's continental relic-and-harvest catalogue | REV_002/005 (frag) | Archive (Script) | Substance + scale; **points to Caradril's Sealed Archive**, never delivers the apex-proof/Court |
+| C_GL_002 | Glassmere (far) | D29 Three Bridges Counting-Deep | The Ledger's master relic-supply ledger (the dead logged by region) | REV_002 | Document (paper trail) | Continental commodification; **never REV_005/006/keystone/Court** |
+| C_SM_001 | Sallowmarch (far) | D30 Sallowmarch Drowned Steps | The causeway-dead gathered and could not pass in an older "going-under" | REV_001/005 (echo) | Exploration/forbidden (drowned dead) | A *pre-Concord* delta mirror the crown denies; **never the keystone/Court** |
+| C_HG_001 | Hollow Gulf (far) | D31 Hollow Gulf Wreck-Reef | Foreign "old glass" relics cached for the Ledger's southern arm | REV_002 (faint) | Site (salvage) | A *faint* southern relic-supply echo; the south *doesn't know*; no meaning/origin/Court |
+| C_WS_001 | Wender Steppe (far) | D32 Wender Sky-Stones | The wind-singers sing "the Sky has gone thin / a far root aches" | REV_009 (oblique) | Forbidden/omen (non-Concord seers) | A deeply oblique cosmic echo sensed from *outside* the Concord; **never names the Quiet Country/harvest/Court** |
+| C_SMK_001 | Sunmark (far) | D33 Sunhollow Great Grove | A living grove-faith whose rites *still hold the dead well* | REV_008/010 (hope) | Social/reverence (living faith) | The synthesis-seed and clearest *hope*; **informs the endgame choice, never the apex lever**; not a Concord site |
+| C_VR_001 | Verdance Reaches (Ring 2) | D34 Nine Locks Sunken Stair | The corridor relay channels leaked Remembrance *down-river, NW-ward* | REV_001/005 (frag) | Document (Script) | Network runs inland and *points home* to the NW; **never onward to the keystone/Court** |
+| C_HMP_001 | Highmark Passes (far) | D35 Highmark Frozen Works | The cold-preserved *intact* archive: the harvest + the planned Quietfall | REV_005/006 (far surface-proof) | Archive (Script) | The *clearest far* surface-proof (cold-preserved); **never the live machine/keystone/Court** |
+| C_FC_016 | Emberfell (far) | D36 Cindern Waste Buried Works | The ash-buried works' record: the harvest + the planned fall, under a later faith | REV_005/006 (frag) | Archive (Script) | Far corroboration under a separate theocracy; **never the keystone/live machine/Court** |
+
+**Three-clue-rule impact:** all of these are *additional* independent far sources for REVs that already met the rule in the NW (REV_001, REV_002, REV_005, REV_006, REV_008, REV_009, REV_010). They raise redundancy and broaden the world; **none creates a single point of failure** and **none is required** — a player who never leaves the NW cluster reaches every revelation. The three pre-Concord echoes (C_SR2_001, C_MD_001, C_SM_001) and the non-Concord/hope/cosmic echoes (C_WS_001, C_SMK_001) deepen REV_001/005/008/009/010 *thematically* without ever being the mechanism.
+
+**Secrecy note:** all Stage 12.5 clues are `hidden` at start and Act-gated where they touch REV_005/006/009 (Act 3+) or the hope/synthesis (REV_008/010, late). C_GL_002, C_KM_001, C_HG_001 are discoverable commercial/relic proofs (REV_002). C_HMP_001 is the strongest far surface-proof but is still surface history — **never the apex.** Every far site file carries an explicit hard-cap DM gate against the keystone/Concord Deep/Court.
+
+---
+
 ## Stage 11 — Per-REV Three-Source Verification
 
 Each major revelation is backed by **>=3 independent clue sources from different regions/NPCs/approaches** (no single point of failure). Counts include the C-M* and region-coded layers; far echoes are *corroboration*, never the sole path.
 
 | REV | Independent sources | Approaches spanned | >=3? | Single-point-of-failure? |
 |---|---|---|---|---|
-| REV_001 | C_SR_001, _004, _005, _010 + Ring1 windows | social / physical / testimony / rite / regional | 5+ | none |
-| REV_002 | C_SR_011, _012, _013 + C_CAR_004/005/006/007 + C_FC_004/010 + C_PC_003 | magic / forbidden / mercantile / scholarly / far | 8+ | none |
+| REV_001 | C_SR_001, _004, _005, _010 + Ring1 windows + far echoes C_SR2_001/C_MD_001/C_SM_001/C_VR_001 | social / physical / testimony / rite / regional / far echo | 9+ | none |
+| REV_002 | C_SR_011, _012, _013 + C_CAR_004/005/006/007 + C_FC_004/010 + C_PC_003 + far C_GL_001/002, C_KM_001, C_HG_001 | magic / forbidden / mercantile / scholarly / far | 12+ | none |
 | REV_003 | C_SR_014, _015, _016, _017, _018 + C_CAR_008 | political / paper / surveillance / money / authority | 6 | none |
 | REV_004 | C_SR_019, _020, _021 + C_CAR_009/010 | confession / follow-money / pattern / broker | 5 | none |
-| REV_005 | C_CAR_011 + C_SR_022, _023, _024 + C_FC_001/011 + C_AV_003/C_PC_002 | archive / confession / dead / song / far | 7+ | none |
-| REV_006 | C_CAR_012 + C_SR_025, _023, _026 + C_CAR_013 | archive / confession / dead / inscription | 5 | none |
+| REV_005 | C_CAR_011 + C_SR_022, _023, _024 + C_FC_001/011 + C_AV_003/C_PC_002 + far C_HW_001/C_KM_001/C_GL_001/C_VR_001/C_HMP_001/C_FC_016 + echoes C_SR2_001/C_MD_001/C_SM_001 | archive / confession / dead / song / far | 13+ | none |
+| REV_006 | C_CAR_012 + C_SR_025, _023, _026 + C_CAR_013 + far C_HMP_001/C_FC_016 | archive / confession / dead / inscription / far surface-proof | 7+ | none |
 | REV_007 | C_SR_027, _028, _029 | physical / convergence / heretic | 3 | none (convergence requires 3 prior REVs) |
-| REV_008 | C_SR_030, _031, _032, _033 + C_FC_012 | faction warnings (4 sources) / far contrast | 5 | none |
-| REV_009 | C_CAR_014/015 + C_SR_034, _035 + C_FC_013 | research / social / dead / far | 5 | none |
-| REV_010 | C_SR_036, _037, _038 + C_FC_012 | apex contact / observation / forbidden / far | 4 | none |
+| REV_008 | C_SR_030, _031, _032, _033 + C_FC_012 + far C_SMK_001 | faction warnings (4 sources) / far contrast / far hope | 6 | none |
+| REV_009 | C_CAR_014/015 + C_SR_034, _035 + C_FC_013 + far C_WS_001 | research / social / dead / far / outside-view | 6 | none |
+| REV_010 | C_SR_036, _037, _038 + C_FC_012 + far C_SMK_001 | apex contact / observation / forbidden / far hope (synthesis-seed) | 5 | none |
 
 ## Clue Type Reference
 

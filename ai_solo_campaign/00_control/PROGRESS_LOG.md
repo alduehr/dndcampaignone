@@ -6,6 +6,56 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-14 — Stage 12.5 Continental Adventure-Site Coverage (interstitial)
+
+### Stage
+Stage 12.5 (Continental Adventure-Site Coverage) — interstitial pass between Stage 12 and Stage 13.
+
+### Summary
+Built 13 new far-continent adventure sites (D24–D36), bringing the campaign to **36 authored adventure sites** and giving **every map-authoritative far-continent region at least one explorable site** (Glassmere and Emberfell have two). The four previously-deferred optional sites are now built. Every far site is a surface/echo corroboration of the existing mysteries — never the keystone, the live machine, the Concord Deep, or the Hollow Court (each file carries an explicit hard-cap DM gate). No new mystery, faction, god, cosmology, artifact, NPC, or adversary proper noun was created; site names reuse already-registered Stage 9.5 far anchors/map-features (plus one new label, the Hollow Gulf Wreck-Reef). No apex truth appears in any player-safe section.
+
+### Files Created
+- `10_dungeons_and_ruins/THE_SALTMERE_DEEP_TOWNS.md` — D24, Saltmere L11-15 (drowned-town dive; pre-Concord echo; C_SR2_001)
+- `10_dungeons_and_ruins/THE_HETHEWALD_OLD_HOLDS.md` — D25, Hethewald L9-13 (gated deep-wood ruin; C_HW_001)
+- `10_dungeons_and_ruins/THE_MARROWDOWNS_BARROW_COMPLEX.md` — D26, Marrowdowns L8-12 (barrow-crawl; pre-Concord echo; C_MD_001)
+- `10_dungeons_and_ruins/THE_KARRAN_OLD_IRON_FORTS.md` — D27, Karran L10-14 (fort+mine node; C_KM_001)
+- `10_dungeons_and_ruins/THE_GLASSMERE_RELIQUARY_VAULTS.md` — D28, Glassmere L9-13 (Remnant archive-vault; C_GL_001)
+- `10_dungeons_and_ruins/THE_THREE_BRIDGES_COUNTING_DEEP.md` — D29, Glassmere L9-12 (Ledger bank-heist; C_GL_002)
+- `10_dungeons_and_ruins/THE_SALLOWMARCH_DROWNED_STEPS.md` — D30, Sallowmarch L10-14 (tidal causeway; pre-Concord echo; C_SM_001)
+- `10_dungeons_and_ruins/THE_HOLLOW_GULF_WRECK_REEF.md` — D31, Hollow Gulf L10-15 (maritime salvage; faint echo; C_HG_001)
+- `10_dungeons_and_ruins/THE_WENDER_SKY_STONES.md` — D32, Wender L8-13 (NON-Concord shrine; outside view; cosmic echo; C_WS_001)
+- `10_dungeons_and_ruins/THE_SUNHOLLOW_GREAT_GROVE.md` — D33, Sunmark L8-13 (living-faith; hope/synthesis-seed; C_SMK_001)
+- `10_dungeons_and_ruins/THE_NINE_LOCKS_SUNKEN_STAIR.md` — D34, Verdance Reaches L8-12 (first Ring-2 node; points home; C_VR_001)
+- `10_dungeons_and_ruins/THE_HIGHMARK_FROZEN_WORKS.md` — D35, Highmark Passes L12-16 (ice-locked station; clearest far proof; C_HMP_001)
+- `10_dungeons_and_ruins/THE_CINDERN_WASTE_BURIED_WORKS.md` — D36, Emberfell L13-16 (ash-drowned works; C_FC_016)
+
+### Files Changed
+- `10_dungeons_and_ruins/DUNGEON_INDEX.md` — added D24–D36 rows; updated status + all Organized Views (region/level/type/danger/REV)
+- `10_dungeons_and_ruins/RUIN_INDEX.md` — added 7 ruin-type far sites; new ruin-theme notes; level_range to 16
+- `10_dungeons_and_ruins/PUZZLE_DUNGEONS.md` — added 13 puzzle/investigation rows + 7 documentary-clue rows
+- `10_dungeons_and_ruins/_PLACEHOLDER.md` — site count 23→36; per-region coverage table; file list
+- `11_mysteries_and_secrets/CLUE_INDEX.md` — Stage 12.5 subsection (13 new far clues); per-REV three-source verification updated
+- `00_control/CONTENT_INDEX.md` — 13 new dungeon rows
+- `00_control/TAG_INDEX.md` — type:dungeon/type:ruin far entries; Stage 12.5 tracking line
+- `00_control/NAMING_REGISTRY.md` — Stage 12.5 site-names subsection + status note
+- `17_generation_backlog/CONTENT_GAPS.md` — 4 deferred sites marked done; far-dungeon gap closed
+- `00_control/TODO.md` — Stage 12.5 marked done; Stage 13 flagged next
+- `00_control/STAGE_STATUS.md` — Stage 12.5 interstitial row; most-recent-pass updated
+
+### Canon Established
+- No new canon facts. 13 far adventure sites added as surface/echo corroboration of existing REVs (REV_001/002/005/006/008/009/010); 13 new hidden far clue IDs. Pre-Concord echoes (Saltmere/Marrowdowns/Sallowmarch) framed as *older, separate* falls; Wender (non-Concord outside view) and Sunmark (living-faith hope) added as thematic contrasts. No new mystery/faction/god/cosmology/artifact.
+
+### Indexes Updated
+- DUNGEON_INDEX, RUIN_INDEX, PUZZLE_DUNGEONS, _PLACEHOLDER, CLUE_INDEX, CONTENT_INDEX, TAG_INDEX, NAMING_REGISTRY.
+
+### Gaps Identified
+- Remaining far-continent regions are deep-build placeholders (region/settlement gazetteers, NPC density) — site coverage is now complete; deep regional builds remain for Stage 15 / Ring 2+ as play warrants. Overseas Vael landmasses (Surren, Iron Skards, Sundered Isles) remain 1-line placeholders (far-future, not arc-required).
+
+### Next Recommended Pass
+- Stage 13: Encounter and Bestiary Expansion (fold in `STAGE_12_ADVERSARIES.md`, now serving all 36 sites; build mid/high-tier bestiary, recurring villains, noncombat obstacles, boss design).
+
+---
+
 ## 2026-06-13 — Stage 12 Cleanup Pass
 
 ### Stage

@@ -14,12 +14,14 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 - [x] Stage 12: Dungeons, Ruins, and Adventure Sites — **done 2026-06-13.** Created `DUNGEON_INDEX.md` (23 sites) + `PUZZLE_DUNGEONS.md`; cross-linked all 15 existing dungeons to the Stage 11 REV/clue layer (append-only); built 8 new sites incl. the Caradril deep-dungeon treatment (`THE_SUNKEN_WARDS_DEEP`), the keystone approach (`THE_BASIN_KEYSTONE_APPROACH`), and the **DM-only endgame** (`THE_UNDER_SHRINE_APPROACH`); added `STAGE_12_ADVERSARIES.md`; new clue IDs C_SR_039-041/C_CAR_016-018/C_FC_014-015. The keystone drowned-shrine and Caradril deep-dungeon deferrals are now resolved. Optional far sites logged to CONTENT_GAPS. See `STAGE_12_PROGRESS.md`.
 
+- [x] Stage 12.5: Continental Adventure-Site Coverage — **done 2026-06-14.** Built 13 new far-continent adventure sites (D24–D36; total **36 sites**) so every map-authoritative far region has ≥1 explorable site (Glassmere/Emberfell ×2): the 4 deferred optional sites (Saltmere Deep Towns, Hethewald Old Holds, Marrowdowns Barrow Complex, Karran Old Iron Forts) + 9 new (Glassmere Reliquary Vaults, Three Bridges Counting-Deep, Sallowmarch Drowned Steps, Hollow Gulf Wreck-Reef, Wender Sky-Stones [non-Concord], Sunhollow Great Grove [living-faith], Nine Locks Sunken Stair [Ring-2], Highmark Frozen Works, Cindern Waste Buried Works). 13 new far echo/corroboration clue IDs added to `CLUE_INDEX.md`. All dungeon indexes + tracking files updated. No new mystery/faction/god/cosmology/artifact/adversary; no apex truth in any player-safe section; every far site surface/echo only. See `STAGE_12_5_PROGRESS.md`.
+
 - [ ] Begin Stage 13: Encounter and Bestiary Expansion
-  - Why it matters: Stage 12 is complete; Stage 13 is next per `DEVELOPMENT_STAGES.md`. Build `MONSTER_INDEX`, `ADVERSARY_GROUPS`, `RECURRING_VILLAINS`, `RANDOM_ENCOUNTERS`, `NONCOMBAT_OBSTACLES`, `BOSS_DESIGN`, folding in `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md` and the regional encounter tables.
+  - Why it matters: Stage 12 (+ the Stage 12.5 coverage interstitial) is complete; Stage 13 is next per `DEVELOPMENT_STAGES.md`. Build `MONSTER_INDEX`, `ADVERSARY_GROUPS`, `RECURRING_VILLAINS`, `RANDOM_ENCOUNTERS`, `NONCOMBAT_OBSTACLES`, `BOSS_DESIGN`, folding in `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md` (now also serving the 13 Stage 12.5 far sites) and the regional encounter tables.
   - Related files: `13_encounters_and_bestiary/`, `10_dungeons_and_ruins/DUNGEON_INDEX.md`
   - Suggested agent: `encounter-bestiary-designer`
   - Stage: 13
-  - Blocker: none — Stage 12 complete.
+  - Blocker: none — Stage 12 + 12.5 coverage complete.
 
 - [x] (Stage 11 follow-up) Mirror region-coded clue IDs into runtime `HIDDEN_CLUES.md` — done 2026-06-13 (Stage 11 cleanup pass); Stage 11 anchor section added to `02_runtime_state/HIDDEN_CLUES.md`.
 

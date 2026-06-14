@@ -12,6 +12,7 @@ Master index of retrieval tags used across the campaign repository. Makes campai
 - Stage 10: `09_quests/MAJOR_CAMPAIGN_QUESTS.md`, `by_region/` (12 region quest files), `by_faction/`, `by_level/`, `by_type/`, `hooks_and_rumors/fc_*` (13 files). New tags: `major-quest`, `far-continent-quest`, `hooks-jobs-rumors`.
 - Stage 11: `11_mysteries_and_secrets/by_region/` (6 clue trail files), `by_faction/FACTION_KNOWLEDGE_MAP.md`, `NPC_KNOWLEDGE_MAP.md`, `FALSE_LEADS_AND_MISDIRECTIONS.md`, `FALSE_LEADS.md` (alias), `MYSTERY_CHAINS.md`, `REVEAL_TIMING.md`, `DISCOVERY_PATHS.md`, `SECRET_PROTECTION_MATRIX.md` (dm-only), `MYSTERY_STATE_TRACKER_TEMPLATE.md`, `PROPHECIES_AND_OMENS.md`. Updated: `REVELATION_MAP.md`, `CLUE_INDEX.md`, `MYSTERY_WEB.md`, `SECRET_INDEX.md`. New tags: `clue-trail`, `faction-knowledge`, `npc-knowledge`, `false-lead`, `discovery-path`, `reveal-timing`, `mystery-chain`, `secret-protection`, `mystery-tracker`.
 - Stage 12: 8 new dungeon/site files in `10_dungeons_and_ruins/` (Sunken Wards Deep, Ashmarket Undercroft, Concord Relay-Vault, Greyfens Deep, Basin Keystone Approach, Old Concord Heartlands Ruin, Emberfell Caldera Descent, Under-Shrine Approach [dm-only]); `DUNGEON_INDEX.md`, `PUZZLE_DUNGEONS.md`, `RUIN_INDEX.md`, `_PLACEHOLDER.md` (README); `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md`; all 15 existing dungeon files updated with Stage 11 clue cross-links. New tags: `dungeon-index`, `ruin-index`, `puzzle-dungeon`, `stage-12-adversary`, `far-continent-dungeon`, `endgame` (dm-only).
+- Stage 12.5: 13 new far-continent dungeon/site files in `10_dungeons_and_ruins/` (D24–D36: Saltmere Deep Towns, Hethewald Old Holds, Marrowdowns Barrow Complex, Karran Old Iron Forts, Glassmere Reliquary Vaults, Three Bridges Counting-Deep, Sallowmarch Drowned Steps, Hollow Gulf Wreck-Reef, Wender Sky-Stones [non-Concord], Sunhollow Great Grove [living-faith], Nine Locks Sunken Stair [Ring-2], Highmark Frozen Works, Cindern Waste Buried Works); every map-authoritative far region now has ≥1 site. `DUNGEON_INDEX.md`/`PUZZLE_DUNGEONS.md`/`RUIN_INDEX.md`/`_PLACEHOLDER.md` updated; `CLUE_INDEX.md` Stage 12.5 subsection (13 new far clues: C_SR2_001, C_HW_001, C_MD_001, C_KM_001, C_GL_001/002, C_SM_001, C_HG_001, C_WS_001, C_SMK_001, C_VR_001, C_HMP_001, C_FC_016). New tags reused: `far-continent-dungeon`, `pre-concord-echo`, `non-concord`, `living-faith`. No new mystery/faction/god/cosmology; all far sites surface/echo only — never the keystone/live machine/Court.
 
 Earlier stages: Stage 1 foundation + Stage 2 AI runtime + Stage 3 Starting Region + Stage 4 Caradril + Stage 5 Level 1–4 Arc + Stage 6 Audit + Stage 7 Ring 1 + Full-World Cartographic Expansion + Stage 8 Faction Deepening. See individual stage status lines below for tag details.
 
@@ -207,8 +208,22 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `10_dungeons_and_ruins/THE_OLD_CONCORD_HEARTLANDS_RUIN.md` (far; L10-14)
 - `10_dungeons_and_ruins/THE_EMBERFELL_CALDERA_DESCENT.md` (far; L12-16 environmental)
 - `10_dungeons_and_ruins/THE_UNDER_SHRINE_APPROACH.md` **(DM-ONLY; L16-20 endgame apex)**
+*Stage 12.5 (far-continent coverage):*
+- `10_dungeons_and_ruins/THE_SALTMERE_DEEP_TOWNS.md` (Saltmere; L11-15 environmental, pre-Concord echo)
+- `10_dungeons_and_ruins/THE_HETHEWALD_OLD_HOLDS.md` (Hethewald; L9-13 gated)
+- `10_dungeons_and_ruins/THE_MARROWDOWNS_BARROW_COMPLEX.md` (Marrowdowns; L8-12 barrow-crawl, pre-Concord echo)
+- `10_dungeons_and_ruins/THE_KARRAN_OLD_IRON_FORTS.md` (Karran; L10-14 fort+mine node)
+- `10_dungeons_and_ruins/THE_GLASSMERE_RELIQUARY_VAULTS.md` (Glassmere; L9-13 archive/social)
+- `10_dungeons_and_ruins/THE_THREE_BRIDGES_COUNTING_DEEP.md` (Glassmere; L9-12 heist)
+- `10_dungeons_and_ruins/THE_SALLOWMARCH_DROWNED_STEPS.md` (Sallowmarch; L10-14 tidal, pre-Concord echo)
+- `10_dungeons_and_ruins/THE_HOLLOW_GULF_WRECK_REEF.md` (Hollow Gulf; L10-15 maritime)
+- `10_dungeons_and_ruins/THE_WENDER_SKY_STONES.md` (Wender; L8-13 NON-Concord, near-combat-free)
+- `10_dungeons_and_ruins/THE_SUNHOLLOW_GREAT_GROVE.md` (Sunmark; L8-13 living-faith, near-combat-free)
+- `10_dungeons_and_ruins/THE_NINE_LOCKS_SUNKEN_STAIR.md` (Verdance Reaches; L8-12 Ring-2 node)
+- `10_dungeons_and_ruins/THE_HIGHMARK_FROZEN_WORKS.md` (Highmark Passes; L12-16 ice environmental)
+- `10_dungeons_and_ruins/THE_CINDERN_WASTE_BURIED_WORKS.md` (Emberfell; L13-16 ash environmental)
 *Index files:*
-- `10_dungeons_and_ruins/DUNGEON_INDEX.md` (master; all 23 sites)
+- `10_dungeons_and_ruins/DUNGEON_INDEX.md` (master; all 36 sites)
 - `10_dungeons_and_ruins/PUZZLE_DUNGEONS.md` (investigation/puzzle subset)
 - `10_dungeons_and_ruins/RUIN_INDEX.md` (ruin subset)
 
@@ -219,6 +234,14 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `10_dungeons_and_ruins/THE_BURIED_CLOISTER.md` (ring-1, Vale)
 - `10_dungeons_and_ruins/THE_CONCORD_RELAY_VAULT.md` (Stage 12; Reach Heights archive-relay)
 - `10_dungeons_and_ruins/THE_OLD_CONCORD_HEARTLANDS_RUIN.md` (Stage 12; far surface ruin)
+*Stage 12.5 (far ruin-type):*
+- `10_dungeons_and_ruins/THE_SALTMERE_DEEP_TOWNS.md` (Saltmere; drowned-town, pre-Concord echo)
+- `10_dungeons_and_ruins/THE_HETHEWALD_OLD_HOLDS.md` (Hethewald; deep-wood Concord ruin + grove-presence)
+- `10_dungeons_and_ruins/THE_MARROWDOWNS_BARROW_COMPLEX.md` (Marrowdowns; pre-Concord barrows)
+- `10_dungeons_and_ruins/THE_SALLOWMARCH_DROWNED_STEPS.md` (Sallowmarch; pre-Concord causeway)
+- `10_dungeons_and_ruins/THE_WENDER_SKY_STONES.md` (Wender; ancient NON-Concord shrine)
+- `10_dungeons_and_ruins/THE_HIGHMARK_FROZEN_WORKS.md` (Highmark; ice-locked Concord station)
+- `10_dungeons_and_ruins/THE_CINDERN_WASTE_BURIED_WORKS.md` (Emberfell; ash-drowned Concord works)
 *(See also `RUIN_INDEX.md` for a consolidated ruin-subset view.)*
 
 ### type:encounter

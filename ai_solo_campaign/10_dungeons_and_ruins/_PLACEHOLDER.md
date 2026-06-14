@@ -6,7 +6,7 @@ This folder contains all authored dungeon, ruin, environmental-dungeon, heist, a
 
 ## Current Status
 
-**Stage 12 complete (2026-06-13).** 23 adventure sites authored — 15 built in Stages 3/4/7, 8 new sites added in Stage 12. Full coverage from Level 1 to Level 20, spanning the Sundering Reach, Ring 1 regions (Ashgarden Vale, Tollwood, Pale Coast), Caradril, and two far-continent anchor sites, plus the DM-only endgame approach.
+**Stage 12.5 complete (2026-06-14).** 36 adventure sites authored — 15 built in Stages 3/4/7, 8 in Stage 12, and **13 far-continent sites in Stage 12.5 (D24–D36)**. Full coverage from Level 1 to Level 20, spanning the Sundering Reach, Ring 1 regions (Ashgarden Vale, Tollwood, Pale Coast), Caradril, and now **every map-authoritative far-continent region** (Saltmere, Hethewald, Marrowdowns, Karran, Glassmere ×2, Sallowmarch, Hollow Gulf, Wender Steppe, Sunmark, Verdance Reaches, Highmark Passes, Emberfell ×2, Heartlands), plus the DM-only endgame approach. Every far site is a surface/echo corroboration — never the keystone, the live machine, or the Court.
 
 **For the full site inventory, see [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md).** For investigation/puzzle-focused sites, see [`PUZZLE_DUNGEONS.md`](PUZZLE_DUNGEONS.md). For ruin-type sites, see [`RUIN_INDEX.md`](RUIN_INDEX.md).
 
@@ -21,14 +21,32 @@ This folder contains all authored dungeon, ruin, environmental-dungeon, heist, a
 | Tollwood | 3 | L2–10 (gated) |
 | Pale Coast | 3 | L3–9 (gated) |
 | Caradril | 2 | L6–10 |
-| Far continent | 2 | L10–16 |
-| **Total** | **23** | **L1–20** |
+| Far continent — Stage 12 anchors | 2 | L10–16 |
+| Far continent — Stage 12.5 coverage | 13 | L8–16 |
+| **Total** | **36** | **L1–20** |
+
+### Stage 12.5 far-continent coverage (by region)
+
+| Region | Sites | Level Band |
+|---|---|---|
+| Saltmere Reaches | 1 (D24) | L11–15 |
+| Hethewald Free Holds | 1 (D25) | L9–13 |
+| Marrowdowns | 1 (D26) | L8–12 |
+| Karran Marches | 1 (D27) | L10–14 |
+| Glassmere League | 2 (D28, D29) | L9–13 |
+| Sallowmarch Protectorate | 1 (D30) | L10–14 |
+| Hollow Gulf Ports | 1 (D31) | L10–15 |
+| Wender Steppe | 1 (D32) | L8–13 |
+| Sunmark | 1 (D33) | L8–13 |
+| Verdance Reaches (Ring 2) | 1 (D34) | L8–12 |
+| Highmark Passes | 1 (D35) | L12–16 |
+| Emberfell Theocracy (2nd) | 1 (D36) | L13–16 |
 
 ---
 
 ## Index Files
 
-- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md) — master table of all 23 sites (type, level, danger, mystery links, faction links, file)
+- [`DUNGEON_INDEX.md`](DUNGEON_INDEX.md) — master table of all 36 sites (type, level, danger, mystery links, faction links, file)
 - [`PUZZLE_DUNGEONS.md`](PUZZLE_DUNGEONS.md) — subset index for investigation, puzzle, and archive sites
 - [`RUIN_INDEX.md`](RUIN_INDEX.md) — subset index for ruin-type sites
 
@@ -64,6 +82,21 @@ This folder contains all authored dungeon, ruin, environmental-dungeon, heist, a
 - `THE_OLD_CONCORD_HEARTLANDS_RUIN.md` — L10-14 far-continent surface ruin
 - `THE_EMBERFELL_CALDERA_DESCENT.md` — L12-16 far-continent volcanic environmental
 - `THE_UNDER_SHRINE_APPROACH.md` — **DM-ONLY** L16-20 endgame apex
+
+### Stage 12.5 — Far-Continent Coverage (13)
+- `THE_SALTMERE_DEEP_TOWNS.md` — L11-15 Saltmere drowned-town dive (pre-Concord echo)
+- `THE_HETHEWALD_OLD_HOLDS.md` — L9-13 Hethewald deep-wood ruin (gated)
+- `THE_MARROWDOWNS_BARROW_COMPLEX.md` — L8-12 Marrowdowns barrow-crawl (pre-Concord echo)
+- `THE_KARRAN_OLD_IRON_FORTS.md` — L10-14 Karran fort + deep-mine (peripheral node)
+- `THE_GLASSMERE_RELIQUARY_VAULTS.md` — L9-13 Glassmere Remnant archive-vault
+- `THE_THREE_BRIDGES_COUNTING_DEEP.md` — L9-12 Glassmere Ledger bank-heist
+- `THE_SALLOWMARCH_DROWNED_STEPS.md` — L10-14 Sallowmarch tidal causeway (pre-Concord echo)
+- `THE_HOLLOW_GULF_WRECK_REEF.md` — L10-15 Hollow Gulf maritime salvage (faint echo)
+- `THE_WENDER_SKY_STONES.md` — L8-13 Wender non-Concord shrine (outside view; cosmic echo)
+- `THE_SUNHOLLOW_GREAT_GROVE.md` — L8-13 Sunmark living-faith grove (hopeful echo)
+- `THE_NINE_LOCKS_SUNKEN_STAIR.md` — L8-12 Verdance Reaches Ring-2 node
+- `THE_HIGHMARK_FROZEN_WORKS.md` — L12-16 Highmark ice-locked station (clearest far proof)
+- `THE_CINDERN_WASTE_BURIED_WORKS.md` — L13-16 Emberfell ash-drowned works
 
 ---
 

@@ -8,7 +8,7 @@ Live status of each development stage. Updated after every stage completes, part
 
 **Active Stage:** Stage 13 (Encounter and Bestiary Expansion) — next
 **Last Completed Stage:** Stage 12 — Dungeons, Ruins, Adventure Sites (complete 2026-06-13)
-**Most Recent Pass:** Stage 12 (Dungeons, Ruins, Adventure Sites) — complete 2026-06-13
+**Most Recent Pass:** Stage 12.5 (Continental Adventure-Site Coverage, interstitial) — complete 2026-06-14
 
 ---
 
@@ -50,6 +50,7 @@ These passes run between stages and do not create new canon stages. Logged here 
 | Full-World Cartographic Expansion | 2026-06-11 | complete | Extended map authority to the full continent of Orrun (geographic + placeholder political/cultural regions) |
 | Cartographic Consistency / Render-Control Audit | 2026-06-12 | complete | Removed insets, fixed label pairs, resolved duplicate-prone labels |
 | Full-Continent Settlement/Social Anchor Pass | 2026-06-13 | complete | Gave all 12 far-continent placeholder regions player-safe settlement/social map markers (full-continent coords for the already-registered Stage 9.5 light anchors); created `04_world_atlas/FULL_CONTINENT_SETTLEMENT_ANCHORS.md` + `18_audits/PLAYER_SAFE_FULL_CONTINENT_MAP_AUDIT.md`; updated render manifest (§8.5) and generation packet (§D.5). No new proper nouns / canon geography; 11/11 audit checks PASS |
+| Stage 12.5 — Continental Adventure-Site Coverage | 2026-06-14 | complete | 13 new far-continent adventure sites (D24–D36; total **36 sites**) so every map-authoritative far region has ≥1 explorable site (Glassmere/Emberfell ×2). Built the 4 deferred optional sites (Saltmere/Hethewald/Marrowdowns/Karran) + 9 new (Glassmere ×2, Sallowmarch, Hollow Gulf, Wender Steppe [non-Concord], Sunmark [living-faith], Verdance Reaches Ring-2, Highmark Passes, Emberfell 2nd). 13 new far echo/corroboration clue IDs (C_SR2_001, C_HW_001, C_MD_001, C_KM_001, C_GL_001/002, C_SM_001, C_HG_001, C_WS_001, C_SMK_001, C_VR_001, C_HMP_001, C_FC_016). DUNGEON/PUZZLE/RUIN indexes + `_PLACEHOLDER` + CLUE_INDEX + CONTENT_INDEX + TAG_INDEX + NAMING_REGISTRY + CONTENT_GAPS updated. No new mystery/faction/god/cosmology/artifact/adversary; no apex truth in any player-safe section; every far site surface/echo only — never the keystone/live machine/Court |
 
 ---
 

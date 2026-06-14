@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0–12 complete (Stage 12 Dungeons, Ruins, and Adventure Sites: 2026-06-13).** The campaign now has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files, faction/NPC knowledge maps, false leads, discovery paths, secret protection matrix), and 23 authored adventure sites spanning L1–20. **Stage 13 — Encounter and Bestiary Expansion is the recommended next pass.**
+**Stages 0–12.5 complete (Stage 12.5 Continental Adventure-Site Coverage: 2026-06-14).** The campaign now has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files, faction/NPC knowledge maps, false leads, discovery paths, secret protection matrix), and **36 authored adventure sites spanning L1–20** across the full continent — every map-authoritative far-continent region now has at least one authored site. **Stage 13 — Encounter and Bestiary Expansion is the recommended next pass.**
 
 ---
 
@@ -62,6 +62,10 @@ Complete. 10 revelations, ~100 clues, 6 regional trail files, faction/NPC knowle
 ### Pass 10 — DONE: Dungeons, Ruins, and Adventure Sites (Stage 12)
 
 Complete. 23 authored adventure sites (L1–20), master DUNGEON_INDEX, PUZZLE_DUNGEONS, RUIN_INDEX, STAGE_12_ADVERSARIES.
+
+### Pass 10.5 — DONE: Continental Adventure-Site Coverage (Stage 12.5)
+
+Complete. 13 new far-continent sites (D24–D36); campaign total 36 adventure sites. Every map-authoritative far-continent region has at least one authored site. DUNGEON_INDEX, RUIN_INDEX, PUZZLE_DUNGEONS, CLUE_INDEX, TAG_INDEX, NAMING_REGISTRY updated.
 
 ### Pass 11 — Encounter and Bestiary Expansion (Stage 13) — RECOMMENDED NEXT
 
