@@ -18,12 +18,14 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 - [x] Stage 13: Encounter and Bestiary Expansion — **done 2026-06-14.** Built 28 files in `13_encounters_and_bestiary/`: 13 cross-cutting (`ENCOUNTER_INDEX`, `BESTIARY_INDEX` [17 creature categories], `CREATURE_SOURCE_REFERENCE` [copyright-safe two-track], `SOLO_ENCOUNTER_SCALING` [one-PC budget], `BIOME_ENCOUNTER_MATRIX` [15 biomes], `BOSS_AND_APEX_THREATS` [18 bosses B1–B18], `HORROR_AND_CURSE_THREATS` [original Remembrance undead/curses; gothic-horror creatures referenced Track-A via VRGtR — no copied stat blocks, no imported setting lore], `FACTION_ENCOUNTERS` [all 7 majors + city + regional], `MYSTERY_ENCOUNTERS` [M2–M6; M9/Court gated], `TRAVEL_ENCOUNTERS` [terrain × 5 level-bands], `DUNGEON_ENCOUNTER_SUPPORT` [all 36 dungeons], `REGIONAL_ENCOUNTER_TABLES`) + 15 new far/mid-region encounter files. **All 20 regions + all 5 level-bands (1–20) + all 17 creature categories covered.** Officials source-referenced (never stat-block-copied); originals abbreviated. Solo-tuned throughout. No new factions/NPCs/regions/mysteries/gods/artifacts; far regions corroborate (never relocate) the keystone/Court; apex truth DM-only/gated. See `STAGE_13_PROGRESS.md`.
 
-- [ ] Begin Stage 14: Treasure, Artifacts, and Rewards
-  - Why it matters: Stage 13 is complete; Stage 14 is next per `DEVELOPMENT_STAGES.md`. Build `TREASURE_INDEX`, `ARTIFACTS`, `MAGIC_ITEMS`, `REWARDS_BY_LEVEL`; tie rewards to the Stage 13 encounters/bosses and the Remembrance-relic lore; keep solo survivability supported without removing danger.
-  - Related files: `14_treasure_and_artifacts/`, `13_encounters_and_bestiary/BOSS_AND_APEX_THREATS.md`, `03_canon/MAGIC_RULES.md`
-  - Suggested agent: `encounter-bestiary-designer` / treasure pass
-  - Stage: 14
-  - Blocker: none — Stage 13 complete.
+- [x] Stage 14: Treasure, Artifacts, and Rewards — **done 2026-06-14.** Built 15 files in `14_treasure_and_artifacts/`: `TREASURE_INDEX` (master/load-guide), `SOLO_REWARD_BALANCE` (single-PC pacing), `MAGIC_ITEM_INDEX` (38 custom items), `ARTIFACT_INDEX` (12 named relics, mystery-gated), `CURSED_ITEMS` (10 + 3 endgame), `SENTIENT_ITEMS` (6, incl. 1 DM-only Court plant), `CONSUMABLES_AND_MINOR_MAGIC`, `REGIONAL_TREASURE_TABLES` (20 regions × 5 bands), `FACTION_REWARDS` (7 majors + 4 city blocs), `QUEST_REWARD_INDEX`, `DUNGEON_REWARD_INDEX` (36 sites), `NONCOMBAT_REWARDS`, `ECONOMY_AND_PRICING_GUIDE`, `REWARD_PLACEMENT_AUDIT` (PASS), `README`. Two-track source handling (official = reference-only/no copied text; custom = ORIGINAL CAMPAIGN ITEM). Solo-tuned; endgame artifacts M6–M9 gated; Hollow Court rewards are traps; no apex-truth leaks. 12 artifact proper nouns registered. See `STAGE_14_PROGRESS.md`. **This also closes the long-standing "Build `REWARDS_BY_LEVEL.md` and stat-referenced dungeon/quest rewards" Medium item** (`SOLO_REWARD_BALANCE`/`REGIONAL_TREASURE_TABLES` provide reward-by-level; `DUNGEON_REWARD_INDEX`/`QUEST_REWARD_INDEX` provide the placements).
+
+- [ ] Begin Stage 15: Level 5–20 Arc Expansion
+  - Why it matters: Stage 14 is complete; Stage 15 is next per `DEVELOPMENT_STAGES.md`. Expand `ACT_2`–`ACT_5` files, `VILLAIN_ESCALATION.md`, `ENDGAME_STATES.md`; stage major revelations; escalate villains; connect regional/faction arcs to the main conflict.
+  - Related files: `12_campaign_arc/`, `14_treasure_and_artifacts/ARTIFACT_INDEX.md` (endgame artifacts M6–M9 gated), `11_mysteries_and_secrets/REVELATION_MAP.md`
+  - Suggested agent: `campaign-architect` / `quest-arc-designer`
+  - Stage: 15
+  - Blocker: none — Stages 5, 6 (met).
 
 - [x] (Stage 11 follow-up) Mirror region-coded clue IDs into runtime `HIDDEN_CLUES.md` — done 2026-06-13 (Stage 11 cleanup pass); Stage 11 anchor section added to `02_runtime_state/HIDDEN_CLUES.md`.
 
@@ -74,10 +76,7 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 - [x] Build the standalone bestiary (mid/high tiers especially) — **done 2026-06-14 (Stage 13).** Built `BESTIARY_INDEX.md` (17 creature categories, Track-A source shorthands), `BOSS_AND_APEX_THREATS.md` (18 tiered bosses B1–B18 across all tiers), `HORROR_AND_CURSE_THREATS.md`, `STAGE_12_ADVERSARIES.md`, and per-region encounter files for all 20 regions across L1–20. Officials source-referenced (never stat-block-copied); originals abbreviated; solo-tuned. Cleanup pass mapped source shorthands and added the RtHW pending section.
 
-- [ ] Build `REWARDS_BY_LEVEL.md` and stat referenced dungeon/quest rewards
-  - Why it matters: Stage 6 audit Medium finding. Rewards currently reference "level-appropriate items" abstractly, forcing the AI DM to improvise specifics for a solo PC.
-  - Related files: `14_treasure_and_artifacts/`, `10_dungeons_and_ruins/`
-  - Suggested agent: `encounter-bestiary-designer`
+- [x] Build `REWARDS_BY_LEVEL.md` and stat-referenced dungeon/quest rewards — **done 2026-06-14 (Stage 14).** The Stage 6 audit Medium finding is resolved: `14_treasure_and_artifacts/SOLO_REWARD_BALANCE.md` + `REGIONAL_TREASURE_TABLES.md` provide reward-by-level guidance; `DUNGEON_REWARD_INDEX.md` (36 sites) + `QUEST_REWARD_INDEX.md` give concrete, level-banded dungeon/quest reward hooks; `MAGIC_ITEM_INDEX.md`/`ARTIFACT_INDEX.md` provide the specific items. The AI DM no longer needs to improvise reward specifics abstractly.
   - Stage: 14
 
 - [ ] Build standalone Acts 2–5 arc files

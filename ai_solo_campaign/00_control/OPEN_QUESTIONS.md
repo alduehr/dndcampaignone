@@ -6,7 +6,7 @@ Track unresolved design questions that cannot be resolved by making a standard c
 
 ## Current Status
 
-Stages 0–13 complete (Stage 13 Encounter and Bestiary Expansion: 2026-06-14; cleanup/source-reference pass 2026-06-14). Stage 14 (Treasure, Artifacts, and Rewards) is next. No blocking open questions currently recorded. Future unresolved design questions should be added here only when they cannot be resolved through a standard creative decision.
+Stages 0–14 complete (Stage 14 Treasure, Artifacts, and Rewards: 2026-06-14). Stage 15 (Level 5–20 Arc Expansion) is next. No blocking open questions currently recorded. Future unresolved design questions should be added here only when they cannot be resolved through a standard creative decision.
 
 ---
 

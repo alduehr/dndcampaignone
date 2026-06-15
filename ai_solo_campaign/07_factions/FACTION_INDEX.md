@@ -65,6 +65,7 @@ Master list of all factions. Load to find which faction file to open. Public fac
 
 - [`FACTION_RELATIONSHIP_MAP.md`](FACTION_RELATIONSHIP_MAP.md)
 - [`FACTION_TURN_RULES.md`](FACTION_TURN_RULES.md)
+- [`../14_treasure_and_artifacts/FACTION_REWARDS.md`](../14_treasure_and_artifacts/FACTION_REWARDS.md) — ranked reward tracks (R1–R3 + betrayal) for all 7 major factions and 4 Caradril city blocs; Hollow Court rewards noted as traps
 - [`../03_canon/DM_ONLY_CANON.md`](../03_canon/DM_ONLY_CANON.md)
 - [`../02_runtime_state/FACTION_STATE.md`](../02_runtime_state/FACTION_STATE.md)
 - [`../02_runtime_state/WORLD_CLOCKS.md`](../02_runtime_state/WORLD_CLOCKS.md)

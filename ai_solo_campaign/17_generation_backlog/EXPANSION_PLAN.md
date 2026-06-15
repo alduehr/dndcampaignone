@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0–13 complete (Stage 13 Encounter and Bestiary Expansion: 2026-06-14; cleanup/source-reference pass 2026-06-14).** The campaign now has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files, faction/NPC knowledge maps, false leads, discovery paths, secret protection matrix), **36 authored adventure sites spanning L1–20** across the full continent, and a **full solo-tuned encounter and bestiary library** (encounter/bestiary master indexes, copyright-safe source handling, solo scaling, 15-biome matrix, 18 tiered bosses, original Remembrance horror/curse bestiary, faction/mystery/travel/dungeon encounter support, and an encounter file for every one of the 20 major regions). **Stage 14 — Treasure, Artifacts, and Rewards is the recommended next pass.**
+**Stages 0–14 complete (Stage 14 Treasure, Artifacts, and Rewards: 2026-06-14).** The campaign now has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files, faction/NPC knowledge maps, false leads, discovery paths, secret protection matrix), **36 authored adventure sites spanning L1–20** across the full continent, a **full solo-tuned encounter and bestiary library**, and a **complete solo-tuned reward layer** (master treasure index + single-PC balance governor; 12 named artifacts/relics; 38 custom magic items; 10 cursed + 6 sentient items; regional treasure for all 20 regions × 5 bands; ranked faction reward tracks; dungeon/quest reward hooks for 36 sites; noncombat rewards; economy/pricing; reward-placement audit). **Stage 15 — Level 5–20 Arc Expansion is the recommended next pass.**
 
 ---
 
@@ -14,10 +14,12 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 | Field | Value |
 |---|---|
-| Stage | 14 — Treasure, Artifacts, and Rewards (recommended next) |
-| Goal | Build `TREASURE_INDEX`, `ARTIFACTS`, `MAGIC_ITEMS`, `REWARDS_BY_LEVEL`; tie rewards to the Stage 13 encounters/bosses and the Remembrance-relic lore; keep solo survivability supported without removing danger |
+| Stage | 15 — Level 5–20 Arc Expansion (recommended next) |
+| Goal | Expand `ACT_2`–`ACT_5`, `VILLAIN_ESCALATION.md`, `ENDGAME_STATES.md`; stage major revelations; escalate villains; connect regional/faction arcs to the main conflict. Pull reward placements from `14_treasure_and_artifacts/` (endgame artifacts M6–M9 gated) |
 | Status | Not started |
-| Blocking Issues | None — Stage 13 complete |
+| Blocking Issues | None — Stages 5, 6, 14 complete |
+
+> **Stage 14 — Treasure, Artifacts, and Rewards: COMPLETE 2026-06-14.** 15 files in `14_treasure_and_artifacts/`; 12 artifacts + 38 custom items + 10 cursed + 6 sentient; all 20 regions × 5 level bands; 7+4 faction reward tracks; 36 dungeon reward hooks; reward-placement audit PASS; two-track source handling (no copied official text); solo-tuned; apex truth gated. See `STAGE_14_PROGRESS.md`.
 
 ---
 
@@ -71,19 +73,17 @@ Complete. 13 new far-continent sites (D24–D36); campaign total 36 adventure si
 
 **Complete 2026-06-14 (cleanup/source-reference pass 2026-06-14).** Built a unified bestiary and encounter library (34 files in `13_encounters_and_bestiary/`): master `ENCOUNTER_INDEX` + `BESTIARY_INDEX` (17 creature categories), copyright-safe two-track `CREATURE_SOURCE_REFERENCE`, `SOLO_ENCOUNTER_SCALING`, 15-biome `BIOME_ENCOUNTER_MATRIX`, `BOSS_AND_APEX_THREATS` (18 bosses B1–B18 with weaknesses/foreshadowing/escape-return logic), original Remembrance `HORROR_AND_CURSE_THREATS`, `FACTION_ENCOUNTERS` (all 7 majors + city + regional), `MYSTERY_ENCOUNTERS`, `TRAVEL_ENCOUNTERS` (all terrains × 5 level-bands 1–20), `DUNGEON_ENCOUNTER_SUPPORT` (all 36 dungeons), `REGIONAL_ENCOUNTER_TABLES`, and an encounter file for every one of the 20 major regions. Officials source-referenced (never stat-block-copied); originals abbreviated; solo-tuned throughout (telegraph, morale, escape, noncombat outs). Cleanup pass mapped Track-A official-monster source shorthands, replaced `_PLACEHOLDER.md` with a folder `README.md`, and added an RtHW (Ravenloft: The Horrors Within, June 16 2026) pending-supplement section. No new factions/NPCs/regions/mysteries/gods/artifacts; apex truth DM-only/gated. See `STAGE_13_PROGRESS.md`.
 
-### Pass 12 — Treasure, Artifacts, and Rewards (Stage 14) — RECOMMENDED NEXT
+### Pass 12 — DONE: Treasure, Artifacts, and Rewards (Stage 14)
 
-- **Goal:** Build `TREASURE_INDEX.md`, `ARTIFACTS.md`, `MAGIC_ITEMS.md`, `REWARDS_BY_LEVEL.md`. Tie rewards to the Stage 13 encounters/bosses and the Remembrance-relic lore.
-- **Suggested agent:** `encounter-bestiary-designer` / treasure pass
-- **Completion criteria:** Rewards are level-appropriate; solo survivability is supported without removing danger; artifacts connect to lore and mysteries; treasure supports choices, not just power.
+**Complete 2026-06-14.** Built 15 files in `14_treasure_and_artifacts/`: `TREASURE_INDEX` (master/AI DM load guide), `SOLO_REWARD_BALANCE` (single-PC pacing governor), `MAGIC_ITEM_INDEX` (38 custom items, Common–Legendary), `ARTIFACT_INDEX` (12 named relics, all mystery-gated M1–M9), `CURSED_ITEMS` (10 + 3 endgame-class), `SENTIENT_ITEMS` (6, incl. 1 DM-only Hollow Court plant), `CONSUMABLES_AND_MINOR_MAGIC`, `REGIONAL_TREASURE_TABLES` (all 20 regions × 5 level bands), `FACTION_REWARDS` (7 majors + 4 Caradril blocs, ranked R1–R3 + betrayal), `QUEST_REWARD_INDEX`, `DUNGEON_REWARD_INDEX` (36 authored adventure sites), `NONCOMBAT_REWARDS`, `ECONOMY_AND_PRICING_GUIDE`, `REWARD_PLACEMENT_AUDIT` (PASS — 0 Critical/High/Medium), `README`. Two-track source handling: official D&D items = reference-only (no copied text); custom items = ORIGINAL CAMPAIGN ITEM abbreviated 5e prose. Solo-tuned; endgame artifacts M6–M9 gated; Hollow Court rewards are traps; no apex-truth leaks. 12 artifact proper nouns registered. All Stage 14 completion criteria met. See `STAGE_14_PROGRESS.md`.
 
 ---
 
 ## Later Expansion (Stages 13–16)
 
 1. **Stage 13** — Encounter and bestiary expansion ← **done 2026-06-14**
-2. **Stage 14** — Treasure, artifacts, and rewards (by level) ← **next**
-3. **Stage 15** — Level 5–20 arc expansion (Acts 2–5, villain escalation, endgame states)
+2. **Stage 14** — Treasure, artifacts, and rewards (by level) ← **done 2026-06-14**
+3. **Stage 15** — Level 5–20 arc expansion (Acts 2–5, villain escalation, endgame states) ← **next**
 4. **Stage 16** — Pre-play readiness audit
 
 ---

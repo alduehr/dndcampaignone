@@ -140,5 +140,6 @@ Every site in this index meets the Stage 12 / `DND_MECHANICS_REQUIREMENTS.md` du
 - [`../11_mysteries_and_secrets/CLUE_INDEX.md`](../11_mysteries_and_secrets/CLUE_INDEX.md)
 - [`../11_mysteries_and_secrets/REVELATION_MAP.md`](../11_mysteries_and_secrets/REVELATION_MAP.md)
 - [`../13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md`](../13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md)
+- [`../14_treasure_and_artifacts/DUNGEON_REWARD_INDEX.md`](../14_treasure_and_artifacts/DUNGEON_REWARD_INDEX.md) — signature rewards, mundane treasure bands, cursed items, and DM-gated reward notes for all 36 sites (D01–D36)
 - [`../00_control/CONTENT_INDEX.md`](../00_control/CONTENT_INDEX.md)
 - [`../04_world_atlas/WORLD_MAP_LAYERS.md`](../04_world_atlas/WORLD_MAP_LAYERS.md) (Layer 2/7 — DM-only node-network; do not surface)

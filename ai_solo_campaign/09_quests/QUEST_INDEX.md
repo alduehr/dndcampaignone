@@ -279,9 +279,14 @@ Each `fc_[REGION]_HOOKS.md` carries 10 hooks + 8 rumors + 5 jobs (23 entries) fo
 
 ---
 
+## Reward Links
+
+For reward palettes by quest category (main campaign / faction / regional / dungeon / social), see `../14_treasure_and_artifacts/QUEST_REWARD_INDEX.md`. That file maps every quest category to appropriate monetary rewards, magic items, artifacts, faction-rank rewards, and noncombat rewards by level band. Solo-reward pacing rules are in `../14_treasure_and_artifacts/SOLO_REWARD_BALANCE.md`.
+
 ## Related Files
 
 - [`../12_campaign_arc/ACT_1_LEVELS_1_4.md`](../12_campaign_arc/ACT_1_LEVELS_1_4.md) — Act 1 arc spine and door structure
 - [`../07_factions/FACTION_INDEX.md`](../07_factions/FACTION_INDEX.md) — faction chain cross-reference
 - [`../02_runtime_state/ACTIVE_QUESTS.md`](../02_runtime_state/ACTIVE_QUESTS.md) — current quest state
 - [`../00_control/CONTENT_INDEX.md`](../00_control/CONTENT_INDEX.md) — full file inventory
+- [`../14_treasure_and_artifacts/QUEST_REWARD_INDEX.md`](../14_treasure_and_artifacts/QUEST_REWARD_INDEX.md) — reward hooks by quest category and level

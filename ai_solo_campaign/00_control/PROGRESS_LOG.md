@@ -6,6 +6,73 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-15 — Stage 14 bookkeeping and cross-index cleanup pass
+
+### Stage
+Interstitial (post-Stage-14 cleanup; Stage 15 is next).
+
+### Summary
+Corrected dungeon-reward-hook count from "39 sites" to "36 authored adventure sites" across all tracking files (STAGE_14_PROGRESS, PROGRESS_LOG, TODO, STAGE_STATUS, CONTENT_INDEX, EXPANSION_PLAN, DUNGEON_REWARD_INDEX Coverage section); the DUNGEON_REWARD_INDEX has 36 bullet entries matching the DUNGEON_INDEX (D01–D36). Confirmed custom item count language consistent at "38 custom magic items + 12 artifacts" across all Stage 14 files (no changes needed). Updated OPEN_QUESTIONS status block to show Stage 14 complete / Stage 15 next. Added Stage 14 audit note to CONSISTENCY_AUDIT. Fixed EXPANSION_PLAN Pass-12 entry from "RECOMMENDED NEXT" to "DONE." Added "Reward Links" cross-reference section to QUEST_INDEX; added DUNGEON_REWARD_INDEX cross-reference to DUNGEON_INDEX; added FACTION_REWARDS cross-reference to FACTION_INDEX. Added Stage 14 artifact/relic secrecy note to SECRET_INDEX. Added Stage 14 reward-relic clue-delivery note to CLUE_INDEX (clarifying relics support existing clue paths; all required paths remain in CLUE_INDEX/MYSTERY_WEB).
+
+### Files Changed
+- `00_control/OPEN_QUESTIONS.md` — status block updated
+- `00_control/CONSISTENCY_AUDIT.md` — Stage 14 audit note prepended
+- `17_generation_backlog/EXPANSION_PLAN.md` — Pass-12 entry updated to DONE; Later Expansion list updated; "39 sites" → "36 sites"
+- `14_treasure_and_artifacts/DUNGEON_REWARD_INDEX.md` — Coverage section: "39 sites" → "36 authored adventure sites"
+- `00_control/STAGE_14_PROGRESS.md` — two "39 sites" → "36 sites"
+- `00_control/PROGRESS_LOG.md` — "39 sites" → "36 sites"; this entry added
+- `00_control/TODO.md` — two "39 sites" → "36 sites"
+- `00_control/STAGE_STATUS.md` — "39 sites" → "36 sites"
+- `00_control/CONTENT_INDEX.md` — "39 sites" / "39 dungeons" → "36"
+- `09_quests/QUEST_INDEX.md` — Reward Links section + related-files link added
+- `10_dungeons_and_ruins/DUNGEON_INDEX.md` — DUNGEON_REWARD_INDEX cross-reference added
+- `07_factions/FACTION_INDEX.md` — FACTION_REWARDS cross-reference added
+- `11_mysteries_and_secrets/SECRET_INDEX.md` — Stage 14 artifact/relic secrets note added
+- `11_mysteries_and_secrets/CLUE_INDEX.md` — Stage 14 reward-relic clue-delivery note added
+
+### Canon Established
+None. Bookkeeping only.
+
+### Indexes Updated
+QUEST_INDEX, DUNGEON_INDEX, FACTION_INDEX, SECRET_INDEX, CLUE_INDEX — cross-references to Stage 14 reward files added.
+
+### Gaps Identified
+None new.
+
+### Next Recommended Pass
+Stage 15: Level 5–20 Arc Expansion (Acts 2–5, VILLAIN_ESCALATION.md, ENDGAME_STATES.md).
+
+---
+
+## 2026-06-14 — Stage 14: Treasure, Artifacts, and Rewards
+
+### Stage
+Stage 14 (Treasure, Artifacts, and Rewards).
+
+### Summary
+Built the complete solo-tuned reward layer: 15 files in `14_treasure_and_artifacts/`. Master `TREASURE_INDEX` routes every reward need; `SOLO_REWARD_BALANCE` is the single-PC pacing governor (breadth over spikes; no flat +X before Rare; recovery/utility/access weighted up; generous consumables; insurance floor; no solve-everything item). **12 named artifacts/relics** (`ARTIFACT_INDEX`, all ORIGINAL CAMPAIGN ITEMS, mystery-gated with DM-only true-nature blocks); **38 custom magic items** (`MAGIC_ITEM_INDEX`, Common→Legendary; 48 originals incl. artifacts); **10 cursed items + 3 endgame cursed-class** (`CURSED_ITEMS`, all telegraphed + recoverable); **6 sentient items** (`SENTIENT_ITEMS`, run as mini-NPCs, incl. 1 DM-only Hollow Court plant). Region/level coverage: `REGIONAL_TREASURE_TABLES` (all 20 regions × 5 level bands), `CONSUMABLES_AND_MINOR_MAGIC`, `ECONOMY_AND_PRICING_GUIDE`. Reward hooks: `FACTION_REWARDS` (7 majors + 4 Caradril blocs, ranked R1–R3 + betrayal; Hollow Court = no clean rewards, all gifts are traps), `QUEST_REWARD_INDEX` (palettes by category, noncombat parity), `DUNGEON_REWARD_INDEX` (36 sites), `NONCOMBAT_REWARDS` (political/social/info/access/relationship/economic/reputation). `REWARD_PLACEMENT_AUDIT` PASS (0 Critical/High/Medium). Two-track source handling: official D&D items = reference-only (name/source/rarity/fit/placement; **no copied text or stats**); custom items = abbreviated 5e prose. **No early apex-truth exposure** — endgame artifacts (Quiet Country Vessel, Harvest Engine Shard, Last Voice) require M6–M9; Remembrance relics are plot-before-power (Thin-touch risk); no easy resurrection items. No new factions/NPCs/regions/mysteries/gods/cosmology; 12 artifact proper nouns registered.
+
+### Files Created
+- `14_treasure_and_artifacts/`: `TREASURE_INDEX.md`, `SOLO_REWARD_BALANCE.md`, `MAGIC_ITEM_INDEX.md`, `ARTIFACT_INDEX.md`, `CURSED_ITEMS.md`, `SENTIENT_ITEMS.md`, `CONSUMABLES_AND_MINOR_MAGIC.md`, `REGIONAL_TREASURE_TABLES.md`, `FACTION_REWARDS.md`, `QUEST_REWARD_INDEX.md`, `DUNGEON_REWARD_INDEX.md`, `NONCOMBAT_REWARDS.md`, `ECONOMY_AND_PRICING_GUIDE.md`, `REWARD_PLACEMENT_AUDIT.md`, `README.md` (replaces `_PLACEHOLDER.md`, deleted)
+- `00_control/STAGE_14_PROGRESS.md`
+
+### Files Changed
+- `00_control/CONTENT_INDEX.md`, `00_control/TAG_INDEX.md`, `00_control/NAMING_REGISTRY.md`, `00_control/STAGE_STATUS.md`, `00_control/TODO.md`, `17_generation_backlog/EXPANSION_PLAN.md`, `17_generation_backlog/CONTENT_GAPS.md`
+
+### Canon Established
+- No new world facts. The reward layer formalizes existing Remembrance-relic lore into usable items. 12 artifacts reuse already-registered faction/mystery/cosmology roots; the keystone/Court/harvest stay DM-only and gated.
+
+### Indexes Updated
+- CONTENT_INDEX (new Treasure section + status line), TAG_INDEX (Stage 14 bullet + tags), NAMING_REGISTRY (12 artifacts + status block), STAGE_STATUS (Stage 14 → complete, Stage 15 next).
+
+### Gaps Identified
+- RtHW (June 16 2026) could add 1–2 Track-A cursed/relic references later (low priority). Endgame artifact mechanics intentionally light pending Stage 15 Act 4–5 builds.
+
+### Next Recommended Pass
+- Stage 15: Level 5–20 Arc Expansion (Acts 2–5, villain escalation, endgame states). Pull reward placements from `14_treasure_and_artifacts/`; keep endgame artifacts M6–M9 gated.
+
+---
+
 ## 2026-06-14 — Stage 13 Cleanup / Official-Source-Reference / RtHW-Pending Pass
 
 ### Stage

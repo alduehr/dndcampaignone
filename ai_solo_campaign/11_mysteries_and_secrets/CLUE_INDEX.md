@@ -313,6 +313,10 @@ Each major revelation is backed by **>=3 independent clue sources from different
 - When a clue is discovered: set its status here, add it to `KNOWN_CLUES.md` with the player's interpretation, and update `HIDDEN_CLUES.md`.
 - DM-only. Never expose clue IDs, locations, or the convergence logic to the player.
 
+## Stage 14 — Reward Relics and Clue Delivery
+
+Several Stage 14 artifacts and relics can *support* clue delivery as part of play (e.g. the Grief-Glass replays a death memory, the Ledger of Quiet Debts reveals a paper trail, the Custodian's Compass points toward nodes). These are additional *access paths* to already-indexed clues, not new required clue paths. **All required clue paths remain in this file and in `MYSTERY_WEB.md`.** Reward relics do not create new clue IDs and do not bypass act/level gates — they are existing clue-delivery mechanisms dressed as items. When a relic delivers a clue, record the discovery here and in `KNOWN_CLUES.md` under the existing clue ID it revealed.
+
 ---
 
 ## Related Files
