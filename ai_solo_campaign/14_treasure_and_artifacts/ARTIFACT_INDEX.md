@@ -17,6 +17,8 @@ tags: [type:artifact, secrecy:mixed, relic, remembrance, mystery-linked, faction
 
 **Golden rule:** every relic here is a **source of choices, costs, leverage, risk, or access — never a clean solution.** All are intentionally placed (no random artifact drops). All have owners, histories, and factions that want them.
 
+**Stage 15/15B arc integration:** Artifact placement by tier is governed by `../15_campaign_arcs/LEVELING_AND_MILESTONE_GUIDE.md` and `ENDGAME_REGION_PLAYBOOK.md`. Endgame artifacts (Quiet Country Vessel, Harvest Engine Shard, Last Voice) feature in the Artifact Strategy and Ritual endgame playbooks (`TIER_4_PLAYABLE_PATHS_LEVELS_17_20.md`). `FINAL_REVELATION_AND_ENDING_PATHS.md` lists which artifacts serve as discovery-path pointers for REV_007–REV_010 without exposing apex truth.
+
 ## Tier Legend
 
 - **Rare / Very Rare / Legendary / Artifact** — D&D rarity, gating roughly to the level bands in `SOLO_REWARD_BALANCE.md`.

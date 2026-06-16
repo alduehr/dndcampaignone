@@ -190,6 +190,28 @@ Six regional clocks for the Ring 1 regions (Ashgarden Vale, Tollwood, Pale Coast
 - **T1 / T2 detail:** `../05_regions/TOLLWOOD.md` (Regional Clocks). Levers: `Q_THE_MARKED_OAKS`, `Q_THE_LOST_CREW`, `Q_THE_HANGING_OAKS`, `Q_THE_BARGAIN`, `Q_THE_TOLL_WAR`; NPCs Dorr, Sennet, Brann, Renn, Skell, Vey.
 - **C-PC1 / C-PC2 detail:** `../05_regions/PALE_COAST.md` (Regional Clocks). Levers: `Q_THE_DROWNED_BELL`, `Q_THE_EMPTY_HEARTH`, `Q_THE_SALT_MOTHERS_BURDEN`, `Q_THE_SALT_PRICE`, `Q_THE_SKIPPERS_DEBT`, `Q_THE_WRECKERS`; NPCs Bryd, Cole, Roke, Quint, Verge.
 
+## Stage 15 Tier-Entry Clock-State Reference (Level 5–20 Arc)
+
+> **Reference only — not a live-state change.** The campaign-start baseline above (all clocks Stage 1) is unchanged. Stage 15 (`../15_campaign_arcs/CAMPAIGN_ESCALATION_TIMELINE.md`) defines the **default trajectory** these clocks follow across the level 5–20 tiers, so the DM can calibrate where the world *should* be at a given tier. Advance positions in play per `../16_ai_session_packs/SESSION_END_UPDATE_CHECKLIST.md`; this table is the expected-state guide, not a script.
+
+| Clock | Tier 2 (L5–10) typical | Tier 3 (L11–16) typical | Tier 4 (L17–20) typical |
+|---|---|---|---|
+| #1 Harvest Restarts (MASTER) | 1 → 2 | 2 → 3 | 3 → 4 → resolved |
+| #2 The Basin Drains | 1 → 3 | 3 → 4 | 4 → keystone reopened/held |
+| #3 The Wardens Break | 1 → 2 | 2 → 3 (Othetha breaks oath) | fracture/rally |
+| #4 The Circle Turns Militant | 1 → 2 | 2 → 3 | act/stand down |
+| #5 The Breaking (Gravecallers) | 1 → 2 | 2 → 3 (breach attempt) | shatter/redirected |
+| #6 The Monopoly Closes | 1 → 2/3 | 3 → 4 | resolved |
+| #7 The Reclamation | 1 → 2 | 2 → 3/4 (race for keystone) | resolved |
+| #8 The Steering Unravels | 1 → resolved (REV_004) | closed | closed |
+| #10 The Thinning Spreads | 1 → 2 | 2 → 3 | decided by ending |
+| C1 The Deal Closes | 1 → 2/3 | 3 → 4 | resolved |
+| C2 The Council Sleeps | 1 → 2 | 2 → 3 | asset/obstacle |
+| C3 The City's Denial Cracks | 1 → 2 | 2 → 3 | reckoning/panic |
+| Ring 1 (V1/V2/T1/T2/C-PC1/C-PC2) | 1 → 2 | 2 → 3 | regional outcomes |
+
+Passive players track ~one extra master-stage per tier; fast players can hold #2/#6/#7 lower but the master clock still creeps and the apex stays gated (`../15_campaign_arcs/CAMPAIGN_ESCALATION_TIMELINE.md`).
+
 ## Resolved / Expired Clocks
 
 *None yet.*

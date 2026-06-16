@@ -95,6 +95,15 @@ Grief-Glass · Warden's Unlit Lantern · Ledger of Quiet Debts · Gravecaller's 
 - **Remembrance relics are plot-before-power** and risk Thin-touch.
 - DM-only blocks across these files are never surfaced to the player.
 
+## Stage 15/15B Arc Integration
+
+Rewards are integrated into the arc layer in `../15_campaign_arcs/`. Key pointers:
+- **REGIONAL_ARC_PACKS_LEVEL_5_TO_20.md** — Rewards/Artifacts section per region lists level-appropriate items available in that arc pack.
+- **TIER_2/3/4_PLAYABLE_PATHS** — rewards named per path step where relevant.
+- **LEVELING_AND_MILESTONE_GUIDE.md** — expected item rarity by level milestone (cross-referenced against SOLO_REWARD_BALANCE.md).
+- **ENDGAME_REGION_PLAYBOOK.md** — endgame artifact availability per region at Tier 4.
+- **FINAL_REVELATION_AND_ENDING_PATHS.md** — which artifacts are relevant to which endgame paths.
+
 ## Related Files
 
 - [`SOLO_REWARD_BALANCE.md`](SOLO_REWARD_BALANCE.md)

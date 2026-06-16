@@ -6,7 +6,7 @@ Track unresolved design questions that cannot be resolved by making a standard c
 
 ## Current Status
 
-Stages 0–14 complete (Stage 14 Treasure, Artifacts, and Rewards: 2026-06-14). Stage 15 (Level 5–20 Arc Expansion) is next. No blocking open questions currently recorded. Future unresolved design questions should be added here only when they cannot be resolved through a standard creative decision.
+Stages 0–15/15B complete (Stage 15B Full Character Arc Playability Fill: 2026-06-15). Stage 16 (Pre-Play Readiness Audit) is next. No blocking open questions currently recorded. Future unresolved design questions should be added here only when they cannot be resolved through a standard creative decision.
 
 ---
 

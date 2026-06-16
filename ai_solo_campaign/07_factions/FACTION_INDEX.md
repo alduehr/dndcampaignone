@@ -19,6 +19,15 @@ Master list of all factions. Load to find which faction file to open. Public fac
 | `FACTION_TURN_RULES.md` | When/how the AI DM runs faction turns between sessions; clock advancement; rumors; state updates |
 | `../09_quests/faction_quests/[FACTION]/` | Each faction's 4-quest chain (intro → trust → moral complication → internal-conflict decision point) |
 
+## Stage 15/15B Faction Arc Layer
+
+| File | Purpose |
+|---|---|
+| `../15_campaign_arcs/FACTION_ESCALATION_PATHS.md` | Cross-tier faction behavior (Tier 2/3/4), named actions per tier, if-ignored / if-allied / if-opposed consequences, endgame influence per faction |
+| `../15_campaign_arcs/CONTINENTAL_PRESSURE_TIMELINE.md` | Named faction events by year/season if the player does nothing |
+| `../15_campaign_arcs/PLAYER_IGNORES_MAIN_ARC_GUIDE.md` | Faction clock consequences per arc cycle of delay |
+| `../15_campaign_arcs/TIER_4_PLAYABLE_PATHS_LEVELS_17_20.md` | Faction stances in each of the 9 endgame playbooks |
+
 ## Major Factions
 
 | Faction | File | Scope | Public Face | Hidden Agenda (DM) | Clock | Player can | Quest Chain |

@@ -28,6 +28,8 @@ The **master index for the entire `13_encounters_and_bestiary/` folder**. Start 
 | In a dungeon/ruin | `DUNGEON_ENCOUNTER_SUPPORT.md` + `STAGE_12_ADVERSARIES.md` |
 | Boss/apex fight | `BOSS_AND_APEX_THREATS.md` |
 | Undead/curse/haunt | `HORROR_AND_CURSE_THREATS.md` |
+| Encounter danger by tier/region for arc | `../15_campaign_arcs/REGIONAL_ARC_PACKS_LEVEL_5_TO_20.md` (Encounter Profile section per region) |
+| Solo encounter adjustment for high levels | `../15_campaign_arcs/SOLO_CAMPAIGN_BALANCE_GUIDE.md` |
 
 ---
 

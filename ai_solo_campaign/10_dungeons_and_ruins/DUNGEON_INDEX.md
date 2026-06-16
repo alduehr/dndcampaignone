@@ -18,6 +18,8 @@ Master index of every authored adventure site (dungeon, ruin, environmental-dung
 
 **Stage 12.5 complete (Continental Adventure-Site Coverage).** 23 Stage 3/4/7/12 sites + **13 new Stage 12.5 far-continent sites (D24–D36)** = **36 authored adventure sites**, spanning Levels 1–20 across the Reach, Ring 1, Caradril, and now **every map-authoritative far-continent region** (Saltmere, Hethewald, Marrowdowns, Karran, Glassmere ×2, Sallowmarch, Hollow Gulf, Wender Steppe, Sunmark, Verdance Reaches, Highmark Passes, Emberfell ×2, Heartlands), plus the endgame approach (DM-only). The four previously-deferred optional sites (Saltmere/Hethewald/Marrowdowns/Karran) are now built. All sites support multiple play styles (exploration / social / stealth / puzzle / faction / combat) and solo-PC safety valves. **Every far site is a surface/echo corroboration — never the keystone, the live machine, or the Court.**
 
+**Stage 15/15B (Level 5–20 Arc Expansion + Playability Fill, 2026-06-15):** All 36 sites are integrated into the arc layer. REGIONAL_ARC_PACKS_LEVEL_5_TO_20.md lists relevant sites per region with their hook and level band. TIER_2/3/4_PLAYABLE_PATHS files name which sites anchor each path. ENDGAME_REGION_PLAYBOOK.md defines the Tier-4 role of key sites. DUNGEON_REWARD_INDEX.md (Stage 14) provides reward hooks for all 36 sites. The Under-Shrine Approach (THE_UNDER_SHRINE_APPROACH.md, DM-only) is the endgame keystone — never surfaced before REV_007 earned.
+
 ---
 
 ## Master Site Table

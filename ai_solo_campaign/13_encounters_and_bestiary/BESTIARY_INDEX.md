@@ -22,6 +22,7 @@ The master list of **every creature category used across the campaign**, with ty
 - **Source shorthand** (appended to the Track cell for Track-A rows, e.g. `A · 2024 MM`): the published book the AI DM pulls the stat block from — `2024 MM` (2024 Monster Manual, the default for any classic monster updated in 2024), `2014 MM` (2014 Monster Manual, for creatures not updated in 2024), `MotM` (Monsters of the Multiverse, 2022), `MToF` (Mordenkainen's Tome of Foes, 2018), `VGtM` (Volo's Guide to Monsters, 2016), `VRGtR` (Van Richten's Guide to Ravenloft, 2021 — the gothic-horror source), `FToD` (Fizban's Treasury of Dragons, 2021), `XGtE` (Xanathar's Guide, 2017), `TCoE` (Tasha's Cauldron, 2020), and the pending `RtHW` (Ravenloft: The Horrors Within, June 16 2026 — not yet integrated). `source check needed` marks an entry whose exact book is genuinely uncertain (do not guess). Track-A discipline applies to all of them: reference only, no copied stat blocks, no imported setting lore. See `CREATURE_SOURCE_REFERENCE.md`.
 - **CR band** is approximate; scale to PC level per `SOLO_ENCOUNTER_SCALING.md`.
 - **Full notes:** the file where the creature's tactics/solo notes live.
+- **Arc context:** for which tier/region each creature type is most likely, see the Encounter Profile sections in `../15_campaign_arcs/REGIONAL_ARC_PACKS_LEVEL_5_TO_20.md`. Boss creatures (B1–B18) are integrated into `../15_campaign_arcs/VILLAIN_AND_APEX_THREAT_ESCALATION.md` and the Tier-4 endgame playbooks.
 
 ---
 

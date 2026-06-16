@@ -6,6 +6,104 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-15 — Stage 15B: Full Character Arc Playability Fill
+
+### Stage
+Stage 15B (Full Character Arc Playability Fill) — a concrete play-layer fill over the Stage 15 frameworks.
+
+### Summary
+Stage 15 produced high-level reference frameworks ("see file X"); Stage 15B fills every region and tier with **concrete, named, runnable** content so the AI DM can run sessions in any major region at any appropriate tier without inventing major structure. **First action was a verification audit:** the prior `STAGE_15B_PROGRESS.md` falsely claimed COMPLETE while most target files were missing on disk; the progress file was corrected to reflect reality before any new writing. Then built the 9 missing play-layer files + 6 legacy forwarding stubs, and patched the two pre-existing Stage 15B files. Every situation, event, and consequence names the NPC, faction, location, action, and consequence (no vague summaries). Apex (REV_007/Hollow Court/Custodians/harvest/keystone) kept DM-only and gated to L13+; far sources never deliver it. **No new proper nouns** (verified against `NAMING_REGISTRY.md`); no canon contradicted. Completion audit: PASS.
+
+### Files Created
+- `15_campaign_arcs/TIER_3_PLAYABLE_PATHS_LEVELS_11_16.md` — 6 concrete Tier 3 paths (Glassmere, Marrowdowns, Emberfell, Saltmere, Highmark/Steppe, Concord Heartlands).
+- `15_campaign_arcs/TIER_4_PLAYABLE_PATHS_LEVELS_17_20.md` — 9 endgame playbooks (Confrontation, Alliance, Artifact, Ritual, Political, Exposure, Sacrifice, Partial/Bittersweet, Catastrophic Failure).
+- `15_campaign_arcs/REGION_TO_REGION_TRANSITION_GUIDE.md` — every inter-region route (level/type/time/hook/complication/en-route clue) + "where can I go?" router by tier.
+- `15_campaign_arcs/CONTINENTAL_PRESSURE_TIMELINE.md` — 16+ named events as the world moves without the player (all 7 factions, 8+ regions; clocks + rumors).
+- `15_campaign_arcs/PLAYER_IGNORES_MAIN_ARC_GUIDE.md` — per-tier named world-states if the arc is ignored; reintroduction techniques; side-content payoff.
+- `15_campaign_arcs/PLAYER_GOES_ANYWHERE_GUIDE.md` — off-route arrivals (too early/late, skipping Caradril/Ring 1, low-level far travel, the under-shrine guard rail).
+- `15_campaign_arcs/ENDGAME_REGION_PLAYBOOK.md` — per-region Tier 4 state and which endings each region contributes to.
+- `15_campaign_arcs/FINAL_REVELATION_AND_ENDING_PATHS.md` — REV_001–010 with 3 route-independent paths each + redundancy table; the 5 endings (requirements/site/resolution/fates).
+- `15_campaign_arcs/STAGE_15B_COMPLETION_AUDIT.md` — Stage 15B pass/fail audit (PASS).
+- Legacy forwarding stubs: `ACT_2_LEVELS_5_8.md`, `ACT_3_LEVELS_9_12.md`, `ACT_4_LEVELS_13_16.md`, `ACT_5_LEVELS_17_20.md`, `VILLAIN_ESCALATION.md`, `ENDGAME_STATES.md`.
+
+### Files Changed
+- `15_campaign_arcs/REGIONAL_ARC_PACKS_LEVEL_5_TO_20.md` — Highmark Passes (§18) expanded to 3 playable situations; added the Cindern Waste sub-region (§12b) with full playable content; clarified the Drowned Steps coverage note in Sallowmarch (§13).
+- `15_campaign_arcs/FULL_WORLD_LEVEL_5_TO_20_PLAYABILITY.md` — added the Cindern Waste row to the region×tier matrix.
+- `00_control/STAGE_15B_PROGRESS.md` — corrected from false-COMPLETE to verified state, then to final accurate completion.
+- `00_control/STAGE_15_PROGRESS.md`, `CONTENT_INDEX.md`, `TAG_INDEX.md`, `TODO.md`, `17_generation_backlog/CONTENT_GAPS.md` — updated for Stage 15B.
+
+### Canon Established
+None. Stage 15B is a play-layer fill over existing systems; no new world facts, proper nouns, mysteries, factions, gods, or artifacts.
+
+### Indexes Updated
+`CONTENT_INDEX.md` (Stage 15B sub-table + header), `TAG_INDEX.md` (Stage 15B tag entry).
+
+### Gaps Identified
+Far-region settlement/NPC deep-builds remain light (the arc packs lean on Stage 9.5 rosters + Stage 12.5 dungeons) — a future deepening, not a playability blocker. Logged in `CONTENT_GAPS.md`.
+
+### Next Recommended Pass
+Stage 16 — Pre-Play Readiness Audit (run `AUDIT_STANDARDS.md` repo-wide; produce `18_audits/PRE_PLAY_READINESS_AUDIT.md`; re-verify Stage 15B aligns with the Stage 15 frameworks and `REVELATION_MAP.md`).
+
+---
+
+## 2026-06-15 — Stage 15: Level 5–20 Campaign Arc Expansion
+
+### Stage
+Stage 15 (Level 5–20 Arc Expansion).
+
+### Summary
+Built the complete level 5–20 campaign arc as 15 structured files in the new `15_campaign_arcs/` folder (distinct from `15_random_tables/`), letting an AI DM run the campaign from level 5 to 20 for one solo player. The pass is a **play-layer pass over existing systems** — it references Stage 8 clocks, Stage 9 NPCs, Stage 10 quests, Stage 11 mysteries (REV_001–010 / M0–M10), Stage 12/12.5 dungeons (D01–D36), Stage 13 bestiary, and Stage 14 treasure **by reference, without rewriting any of them**. Used **tier** language per the spec (Tier 2/3/4 = L5–10/11–16/17–20) and bound it to the existing **act** language (Acts 2–5) via a crosswalk. Open-world (no mandatory quest sequence, no assumed faction, no fixed region order, no single correct ending; every revelation 3+ paths), solo-runnable (per-tier balance + missing-ability fallbacks + boss adjustments), and apex-protected (REV_007 / the Hollow Court gated to L13+ convergence/descent/heretic; far sources never deliver it; player-safe summaries never name the Court/harvest/Custodians/keystone-truth). Ran an internal readiness audit (PASS; 0 Critical/0 High/2 Medium/3 Low).
+
+### Files Created
+- `15_campaign_arcs/LEVEL_5_TO_20_OVERVIEW.md` — master overview; tier↔act crosswalk; per-tier entry-state; open-world/secrecy/solo spine.
+- `15_campaign_arcs/TIER_2_LEVELS_5_10.md` — Act 2 + lower Act 3; Ring 1 + Caradril + Verdance corridor; REV_002/003/004; factions go regional.
+- `15_campaign_arcs/TIER_3_LEVELS_11_16.md` — Act 3 upper + Act 4; far continent; REV_005/006/009; the REV_007 apex gate (L13+); Veyl; REV_010.
+- `15_campaign_arcs/TIER_4_LEVELS_17_20.md` — Act 5 endgame; vertical descent; REV_007 owned; REV_008 the choice.
+- `15_campaign_arcs/CAMPAIGN_ESCALATION_TIMELINE.md` — chronological clock/world-state escalation by tier; master trajectory; passive failsafe.
+- `15_campaign_arcs/MAIN_ARC_REVELATION_SEQUENCE.md` — how M1–M9/REV gates are earned & revealed; 3+ redundant routes; apex protection.
+- `15_campaign_arcs/REGIONAL_ESCALATION_PATHS.md` — how each region changes across tiers; player-safe vs DM-only; fall/stabilize/revolt/ally/corrupt.
+- `15_campaign_arcs/FACTION_ESCALATION_PATHS.md` — faction escalation/divergence; Q*4 → endgame posture matrix; conflict activation by tier.
+- `15_campaign_arcs/VILLAIN_AND_APEX_THREAT_ESCALATION.md` — Hollow Court/Custodians escalation by revelation; Veyl as choice-boss; recurring-villain track (DM-only).
+- `15_campaign_arcs/ENDGAME_STRUCTURE.md` — 9 approaches × 5 outcomes (seal/restart/seize/destroy/transform); reachability matrix; faction-outcome sketch; artifact fates.
+- `15_campaign_arcs/FAILURE_STATES_AND_WORLD_CONSEQUENCES.md` — ignored-threat/failure consequences by tier; per-threat × per-tier table; passive failsafe.
+- `15_campaign_arcs/LEVELING_AND_MILESTONE_GUIDE.md` — milestone leveling 5–20; no-grind; multiple approaches per milestone (DM-only).
+- `15_campaign_arcs/SOLO_CAMPAIGN_BALANCE_GUIDE.md` — one-PC balance per tier; missing-ability fallbacks; boss adjustments (DM-only).
+- `15_campaign_arcs/OPEN_WORLD_CONTINUITY_GUIDE.md` — non-linear path handling; 5 continuity anchors; anti-stall hooks; state discipline (DM-only).
+- `15_campaign_arcs/STAGE_15_READINESS_AUDIT.md` — pre-completion arc audit (PASS).
+- `00_control/STAGE_15_PROGRESS.md` — Stage 15 progress tracker.
+
+### Files Changed
+- `00_control/CONTENT_INDEX.md` — added the Level 5–20 Arc (Stage 15) sub-section (15 files); updated Current Status.
+- `00_control/TAG_INDEX.md` — added the Stage 15 tag note; updated Current Status header.
+- `00_control/TODO.md` — Stage 15 marked done; Stage 16 set as next.
+- `17_generation_backlog/CONTENT_GAPS.md` — Stage 15 gaps closed/noted.
+- `02_runtime_state/WORLD_CLOCKS.md` — Stage 15 tier-entry clock-state reference appended.
+- `02_runtime_state/FACTION_STATE.md` — Stage 15 tier-entry faction-posture reference appended.
+- `03_canon/CANON.md` — Canon Revision Log line added (Stage 15 = structural play-layer pass; no new world facts).
+
+### Canon Established
+- None (no new world facts). Stage 15 is a structural/play-layer pass over existing canon. Recorded as a revision-log line.
+
+### Player-Safe Facts Added
+- None new. The tier files surface only already-established player-safe framing.
+
+### DM-Only Facts Added
+- None new. Existing DM-only truths are re-sequenced for levels 5–20 with strengthened apex protection.
+
+### Runtime State Updated
+- `WORLD_CLOCKS.md` and `FACTION_STATE.md` got Stage 15 tier-entry *reference* sections (no live-state changes; campaign-start baseline preserved).
+
+### Indexes Updated
+- `CONTENT_INDEX.md`, `TAG_INDEX.md`.
+
+### Gaps Identified
+- (Optional) indexer spot-check that every cited quest ID resolves to a file; (optional) add a forwarding pointer from `12_campaign_arc/MAIN_ARC_OVERVIEW.md` to `15_campaign_arcs/`. Both non-blocking.
+
+### Next Recommended Pass
+- **Stage 16 — Pre-Play Readiness Audit.** Run `AUDIT_STANDARDS.md` against the whole repo; produce `18_audits/PRE_PLAY_READINESS_AUDIT.md`; verify the first 10–20 sessions are runnable and the apex stays protected.
+
+---
+
 ## 2026-06-15 — Stage 14 bookkeeping and cross-index cleanup pass
 
 ### Stage

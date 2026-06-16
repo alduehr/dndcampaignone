@@ -18,6 +18,8 @@ related: [MYSTERY_WEB.md, REVELATION_MAP.md, SECRET_INDEX.md, ../02_runtime_stat
 
 Clue IDs use two compatible patterns: the original `C-<mystery>-<n>` (e.g. `C-M1-2`, the canonical per-mystery clues) and the Stage 11 region-coded `C_<REGION>_<nnn>` (e.g. `C_SR_001`, `C_CAR_011`, `C_FC_001`) used by the revelation map. Many region-coded clues are the same authored clue as a C-M* under a region ID; new ones extend redundancy. Several mysteries are solved by **convergence** of other mysteries rather than by net-new clues; those are noted as convergence clues. Full runnable per-clue detail lives in the regional trail files `by_region/*_CLUES.md`.
 
+**Stage 15/15B (2026-06-15):** Each REV_001–REV_010 now has a redundancy table in `../15_campaign_arcs/FINAL_REVELATION_AND_ENDING_PATHS.md` listing 3 route-independent discovery paths (region / NPC / dungeon) per revelation. The revelation layer is also integrated into REGIONAL_ARC_PACKS, TIER_3/4 playable paths, and the endgame region playbook.
+
 ---
 
 ## Clue Index

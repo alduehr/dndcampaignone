@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0–14 complete (Stage 14 Treasure, Artifacts, and Rewards: 2026-06-14).** The campaign now has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files, faction/NPC knowledge maps, false leads, discovery paths, secret protection matrix), **36 authored adventure sites spanning L1–20** across the full continent, a **full solo-tuned encounter and bestiary library**, and a **complete solo-tuned reward layer** (master treasure index + single-PC balance governor; 12 named artifacts/relics; 38 custom magic items; 10 cursed + 6 sentient items; regional treasure for all 20 regions × 5 bands; ranked faction reward tracks; dungeon/quest reward hooks for 36 sites; noncombat rewards; economy/pricing; reward-placement audit). **Stage 15 — Level 5–20 Arc Expansion is the recommended next pass.**
+**Stages 0–15/15B complete (Stage 15B Full Character Arc Playability Fill: 2026-06-15).** The campaign now has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files), **36 authored adventure sites spanning L1–20**, a full encounter/bestiary library, a complete reward layer, and a **full level 5–20 campaign arc** (31 files in `15_campaign_arcs/`: tier overviews, 6 Tier-3 paths, 9 Tier-4 endgame playbooks, 20-region arc packs, continental pressure timeline, transition guide, revelation/ending paths, and completion audit PASS). **Stage 16 — Pre-Play Readiness Audit is the recommended next pass.**
 
 ---
 
@@ -14,10 +14,10 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 | Field | Value |
 |---|---|
-| Stage | 15 — Level 5–20 Arc Expansion (recommended next) |
-| Goal | Expand `ACT_2`–`ACT_5`, `VILLAIN_ESCALATION.md`, `ENDGAME_STATES.md`; stage major revelations; escalate villains; connect regional/faction arcs to the main conflict. Pull reward placements from `14_treasure_and_artifacts/` (endgame artifacts M6–M9 gated) |
+| Stage | 16 — Pre-Play Readiness Audit (recommended next) |
+| Goal | Full-repo AI-readiness and continuity audit (`18_audits/PRE_PLAY_READINESS_AUDIT.md`). Confirm the first 10–20 sessions are runnable, apex truth is protected, opening scene is ready, runtime state is ready, and no critical issues remain before live play begins. |
 | Status | Not started |
-| Blocking Issues | None — Stages 5, 6, 14 complete |
+| Blocking Issues | None — Stages 0–15/15B complete |
 
 > **Stage 14 — Treasure, Artifacts, and Rewards: COMPLETE 2026-06-14.** 15 files in `14_treasure_and_artifacts/`; 12 artifacts + 38 custom items + 10 cursed + 6 sentient; all 20 regions × 5 level bands; 7+4 faction reward tracks; 36 dungeon reward hooks; reward-placement audit PASS; two-track source handling (no copied official text); solo-tuned; apex truth gated. See `STAGE_14_PROGRESS.md`.
 
@@ -83,8 +83,8 @@ Complete. 13 new far-continent sites (D24–D36); campaign total 36 adventure si
 
 1. **Stage 13** — Encounter and bestiary expansion ← **done 2026-06-14**
 2. **Stage 14** — Treasure, artifacts, and rewards (by level) ← **done 2026-06-14**
-3. **Stage 15** — Level 5–20 arc expansion (Acts 2–5, villain escalation, endgame states) ← **next**
-4. **Stage 16** — Pre-play readiness audit
+3. **Stage 15 / 15B** — Level 5–20 arc expansion + full character arc playability fill ← **done 2026-06-15**
+4. **Stage 16** — Pre-play readiness audit ← **next**
 
 ---
 

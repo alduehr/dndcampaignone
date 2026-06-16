@@ -39,6 +39,10 @@ Master table of all NPCs. Full profiles live in `MAJOR_NPCS.md` (+ `by_region/CA
 | `NPC_SECRET_LEDGER.md` | DM-only: each NPC's secret, secrecy tier, reveal gate, mystery fed |
 | `NPC_VOICE_GUIDE.md` | Voice handles, regional/faction speech tendencies, sample lines |
 | `ACT_1_NPC_GUIDE.md` | Act 1 casting guide (Stage 5) |
+| `../15_campaign_arcs/REGIONAL_ARC_PACKS_LEVEL_5_TO_20.md` | Lists key NPCs per region by level band (Stage 15B) |
+| `../15_campaign_arcs/TIER_2_PLAYABLE_PATHS_LEVELS_5_10.md` | Named NPCs per Tier-2 path |
+| `../15_campaign_arcs/TIER_3_PLAYABLE_PATHS_LEVELS_11_16.md` | Named NPCs per Tier-3 path |
+| `../15_campaign_arcs/TIER_4_PLAYABLE_PATHS_LEVELS_17_20.md` | Named NPCs per Tier-4 endgame playbook |
 
 ## Major NPCs (94 total: 50 core [20 foundation + 12 Stage 9 pass-1 + 18 Stage 9 pass-2] + 44 Stage 9.5 far-continent)
 

@@ -183,6 +183,22 @@ All at Stage 1 (campaign start). Full detail in `WORLD_CLOCKS.md`.
 
 ---
 
+## Stage 15 Tier-Entry Faction-Posture Reference (Level 5–20 Arc)
+
+> **Reference only — not a live-state change.** The campaign-start baseline above is unchanged. Stage 15 (`../15_campaign_arcs/FACTION_ESCALATION_PATHS.md`) defines how each faction escalates and **diverges** across the level 5–20 tiers; a faction's endgame posture is set by its Stage 8 `Q*4` decision point and the player's Tier 2–3 choices. Use this as the expected-state guide when running faction turns (`../07_factions/FACTION_TURN_RULES.md`).
+
+| Faction | Tier 2 (L5–10) | Tier 3 (L11–16) | Tier 4 (L17–20) endgame posture |
+|---|---|---|---|
+| Reachward Compact | pushes the basin vote (Reke) | basin breaches; Reke exposed/entrenched | access pawn for whoever controls the basin |
+| Cinder Ledger | out-buys salvage; courts the Remnant | brokers the dead; continental arm active | commodify / monopolize |
+| Concord Remnant | agents into the Reach; races nodes | races the Heartlands + keystone | seize / restart (tyranny) |
+| Ashen Wardens | strain; Othetha guards the seal | Othetha's truth spreads; fracture/rally | seal (end resurrection) |
+| Mourners' Circle | furious at relic-buying | old-songs truth confirmed; militant | seal / oppose any restart |
+| Gravecallers | recruit; radicals near the shrine | breaking-tools; breach looms | destroy (catastrophe risk) |
+| Hollow Court (DM-only) | dormant; acts via Reke/Sefra | manifests to those who enter (apex gate L13+) | restart controlled (steward rule) |
+
+Endgame posture matrix (allied/opposed/ignored) and faction-outcome sketch per ending: `../15_campaign_arcs/FACTION_ESCALATION_PATHS.md` and `../15_campaign_arcs/ENDGAME_STRUCTURE.md`.
+
 ## Faction Entry Template
 
 ```md

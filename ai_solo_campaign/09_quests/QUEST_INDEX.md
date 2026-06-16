@@ -38,6 +38,8 @@ Master index of all authored quests across the campaign. Use this to locate a qu
 
 **Stage 10 totals:** 28 major campaign quests · ~165 developed quests · 304 far-continent hooks/rumors/jobs (132 hooks + 104 rumors + 68 jobs) on top of the pre-Stage-10 hook/rumor tables. See `DEVELOPED_QUESTS_INDEX.md`, `HOOKS_JOBS_RUMORS_INDEX.md`, `by_level/QUESTS_BY_LEVEL.md`, `by_faction/QUESTS_BY_FACTION.md`, `by_type/QUESTS_BY_TYPE.md` for cross-cut indexes.
 
+**Stage 15/15B (Level 5–20 Arc Expansion + Playability Fill, 2026-06-15):** Quest chains are integrated into the arc layer in `15_campaign_arcs/`. Key cross-references: REGIONAL_ARC_PACKS_LEVEL_5_TO_20.md links each region's quests to its level band; TIER_2/3/4 playable paths name which quest chains support each path; CONTINENTAL_PRESSURE_TIMELINE.md shows when faction quest chains trigger if ignored; FINAL_REVELATION_AND_ENDING_PATHS.md identifies which quests unlock each major revelation (REV_001–010).
+
 ### Far-continent developed quests by region (Stage 10)
 
 | Region | File (`by_region/`) | Quests | Level | IDs |

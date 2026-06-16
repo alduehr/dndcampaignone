@@ -49,10 +49,16 @@ Artifact and relic secrets are handled through `../14_treasure_and_artifacts/ART
 
 These 20 secrets map onto the formal revelation layer in `REVELATION_MAP.md`. The most apex-sensitive (1, 5, 6, 8 — the harvest, the surviving Court, the keystone, the Wardens' seal) are governed by the **`SECRET_PROTECTION_MATRIX.md`** (DM-only), which specifies safe vs. unsafe wording and phase gates. Per-secret reveal *conditions* are unchanged; Stage 11 added the discoverability machinery (region-coded clues, faction/NPC knowledge maps, false leads, discovery paths) that routes each secret to the player fairly. Quick REV mapping: Secret 1→REV_007/M0 · 2→REV_002 · 3→REV_005 · 4→REV_006 · 5→REV_007 · 6→REV_007(keystone) · 7→REV_009 · 8→REV_005/REV_008 · 9→REV_003 · 10/11→REV_004 · 12/13→REV_002 · 14→REV_005/REV_007 · 15→REV_005 · 16→REV_008 · 17→REV_005/REV_006 · 18→REV_007/REV_010 · 19→M1/REV_002 · 20→REV_001.
 
+## Stage 15/15B Arc Layer
+
+**Stage 15/15B (2026-06-15):** Apex secrets (REV_007–REV_010, Secrets 1/5/6/8/14/16/18) are integrated into the endgame arc layer. See `../15_campaign_arcs/FINAL_REVELATION_AND_ENDING_PATHS.md` for the 3-path redundancy table per revelation and the ending paths each secret unlocks. `MAIN_ARC_REVELATION_SEQUENCE.md` governs the phase gates.
+
 ## Related Files
 
 - [`MYSTERY_WEB.md`](MYSTERY_WEB.md)
 - [`REVELATION_MAP.md`](REVELATION_MAP.md)
 - [`CLUE_INDEX.md`](CLUE_INDEX.md)
 - [`../03_canon/DM_ONLY_CANON.md`](../03_canon/DM_ONLY_CANON.md)
+- [`../15_campaign_arcs/FINAL_REVELATION_AND_ENDING_PATHS.md`](../15_campaign_arcs/FINAL_REVELATION_AND_ENDING_PATHS.md)
+- [`../15_campaign_arcs/MAIN_ARC_REVELATION_SEQUENCE.md`](../15_campaign_arcs/MAIN_ARC_REVELATION_SEQUENCE.md)
 - [`../08_npcs/MAJOR_NPCS.md`](../08_npcs/MAJOR_NPCS.md)
