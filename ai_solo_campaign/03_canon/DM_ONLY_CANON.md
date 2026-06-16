@@ -14,7 +14,7 @@ All hidden world truths — the real causes behind events, villain identities, s
 
 ## Current Status
 
-**Stage 1 complete.** Core hidden truths established. Reveal only through earned play per `../11_mysteries_and_secrets/REVELATION_MAP.md`.
+**Stages 1–15B complete; Stage 16 (Pre-Play Readiness Audit) underway.** Core hidden truths established in Stage 1 and **unchanged** by every later stage — the Stage 3/4/Ring 1/Map/Full-World "Additions" sections below extend (never contradict) the core secret. Reveal only through earned play per `../11_mysteries_and_secrets/REVELATION_MAP.md` (REV_001–010; apex REV_007/Hollow Court gated to L13+). The apex (the harvest, the deliberate Quietfall, the Hollow Court, the keystone) lives only in DM-only files and the single DM-only endgame dungeon (`../10_dungeons_and_ruins/THE_UNDER_SHRINE_APPROACH.md`).
 
 ---
 

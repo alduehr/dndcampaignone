@@ -6,7 +6,7 @@ This folder will contain quest files, hook tables, rumor tables, and quest index
 
 ## Current Status
 
-**Active — Stages 1–8 complete.** This folder contains ~83 developed quests across five subfolders, plus hooks/rumors tables and a master quest index. See `QUEST_INDEX.md` for the full inventory.
+**Populated.** This folder contains the quest indexes (`QUEST_INDEX.md`, `MAJOR_CAMPAIGN_QUESTS.md`, `DEVELOPED_QUESTS_INDEX.md`, `HOOKS_JOBS_RUMORS_INDEX.md`), hooks/rumors tables, and the developed quest files across subfolders (act_1_quests, regional_quests, city_quests, faction_quests, hooks_and_rumors). See `QUEST_INDEX.md` for the full inventory and `../00_control/RETRIEVAL_GUIDE.md` ("Resolving a quest") for load guidance.
 
 ## Expected File Types
 

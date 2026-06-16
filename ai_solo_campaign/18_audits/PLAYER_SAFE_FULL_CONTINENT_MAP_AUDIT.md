@@ -2,12 +2,14 @@
 
 ---
 type: audit
-secrecy: player-safe
+secrecy: dm-facing
 status: static
 region: Orrun
 related: [../04_world_atlas/FULL_CONTINENT_SETTLEMENT_ANCHORS.md, ../04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md, ../04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md, ../04_world_atlas/FULL_WORLD_MAP_COORDINATES.md]
-tags: [type:audit, secrecy:player-safe, cartography, full-continent, settlement-anchors, map-audit]
+tags: [type:audit, secrecy:dm-facing, cartography, full-continent, settlement-anchors, map-audit]
 ---
+
+> **Secrecy note:** This audit verifies that map *output* is player-safe, but the audit file itself is **not** player-facing — it references excluded names and DM-only geography (Concord Deep, Under-Shrine, Drowned Keystone, Hollow Court) in order to confirm they are kept off the map. Never hand this file directly to the player.
 
 ## Scope
 

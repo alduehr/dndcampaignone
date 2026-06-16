@@ -6,7 +6,7 @@ Track missing or underdeveloped content by category. Use this for category-level
 
 ## Current Status
 
-**Stages 0–15 (incl. 15B) complete (Stage 15B Full Character Arc Playability Fill: 2026-06-15). Stage 16 (Pre-Play Readiness Audit) is next.** Stage 15B added a concrete play-layer over the Stage 15 frameworks: 12 files + 6 forwarding stubs in `15_campaign_arcs/` filling every region and tier with named, runnable content (6 Tier 3 paths, 9 Tier 4 endgame playbooks, inter-region transitions, a 16-event continental pressure timeline, ignored-arc/off-route guides, a per-region endgame playbook, and REV_001–010 × 3-path discovery + the 5 endings; PASS audit). Stage 15 before it closed the Campaign Arc gaps (15 framework files). The remaining open gaps are the **deep-builds of placeholder far-continent regions' settlement/NPC files** (arc-optional; the campaign is fully runnable 1–20 without them — Stage 15B gives them runnable arc packs leaning on the existing Stage 9.5 rosters + Stage 12.5 dungeons) and the **Stage 16 pre-play audit**.**
+**Stages 0–16 complete (Stage 16 Pre-Play Readiness Audit: 2026-06-15; verdict READY FOR LIVE PLAY). Stage 17 (Live Campaign Operation) is next, awaiting the user to begin play.** Stage 16 confirmed the campaign is fully runnable 1–20 with no blockers (0 Critical/0 High/2 Medium fixed/4 Low). The **only remaining content gaps are non-blocking/optional**: (1) **deep-builds of placeholder far-continent regions' settlement/NPC files** (arc-optional; the campaign is runnable 1–20 without them — Stage 15B gives them runnable arc packs leaning on the existing Stage 9.5 rosters + Stage 12.5 dungeons; deepen a far region only when play approaches it); (2) **map images** not yet generated (prompts/manifests ready); (3) **`/15_random_tables/`** unpopulated (zone encounter tables already exist); (4) **RtHW bestiary integration** pending the 2026-06-16 release. None blocks play. Stage 15B before it added a concrete play-layer over the Stage 15 frameworks (12 files + 6 stubs in `15_campaign_arcs/`); Stage 15 closed the Campaign Arc gaps (15 framework files).**
 
 **(Historical:) Stages 0–11 complete (Stage 11 Mystery/Secret/Clue Expansion: 2026-06-13).** Stage 11 added a full mystery infrastructure: 10 mapped revelations (each with 3–8 independent clue sources), an expanded CLUE_INDEX (~100 clues), 6 regional clue trail files, a FACTION_KNOWLEDGE_MAP covering all 7 factions, an NPC_KNOWLEDGE_MAP (~60 entries), 9 false leads, 10 discovery paths, a SECRET_PROTECTION_MATRIX (DM-only), a MYSTERY_STATE_TRACKER_TEMPLATE, and a Stage 11 secrecy audit (0 Critical / 0 High). Stage 10 quest–clue cross-links added to MAJOR_CAMPAIGN_QUESTS.md.
 
@@ -16,7 +16,11 @@ Earlier stages: Stage 10 (Quest Library Expansion) added 28 major campaign quest
 
 **Stage 13 (Encounter and Bestiary Expansion) complete (2026-06-14):** 28 newly generated Stage 13 files (35 total .md files in `13_encounters_and_bestiary/` including README, the 5 pre-existing Ring 0/1/Caradril encounter files, STAGE_12_ADVERSARIES.md, and ACT_1_THREATS.md) — master encounter index, bestiary index (17 creature categories), copyright-safe source reference, solo scaling rules, 15-biome matrix, 18 tiered bosses, original Remembrance horror/curse bestiary, faction/mystery/travel/dungeon encounter support, and a dedicated encounter file for all 20 regions of Orrun. All 5 level-bands (1–20) covered. Official monsters source-referenced (never stat-block-copied). No new factions/NPCs/regions/mysteries/gods/artifacts; apex truth DM-only/gated. **Stage 14 (Treasure, Artifacts, and Rewards) complete 2026-06-14 — see status block above.**
 
-**Stage 12.5 (Continental Adventure-Site Coverage) complete (2026-06-14):** 13 new far-continent adventure sites (D24–D36) bringing the total to **36 sites**, so **every map-authoritative far-continent region now has ≥1 authored explorable site** (Glassmere and Emberfell have 2). The four previously-deferred optional sites (Saltmere/Hethewald/Marrowdowns/Karran) are built. 13 new far corroboration/echo clue IDs added to `CLUE_INDEX.md` (all surface/echo, never the keystone/Court). All dungeon indexes + tracking files updated. **No new mystery/faction/god/cosmology/artifact; no apex truth in any player-safe section.** The gaps below now reflect what remains for **Stage 14+ depth and scale** (treasure-by-level, Acts 2–5). Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
+**Stage 12.5 (Continental Adventure-Site Coverage) complete (2026-06-14):** 13 new far-continent adventure sites (D24–D36) bringing the total to **36 sites**, so **every map-authoritative far-continent region now has ≥1 authored explorable site** (Glassmere and Emberfell have 2). The four previously-deferred optional sites (Saltmere/Hethewald/Marrowdowns/Karran) are built. 13 new far corroboration/echo clue IDs added to `CLUE_INDEX.md` (all surface/echo, never the keystone/Court). All dungeon indexes + tracking files updated. **No new mystery/faction/god/cosmology/artifact; no apex truth in any player-safe section.**
+
+> **Update (Stage 16 correction pass, 2026-06-16):** The "treasure-by-level" and "Acts 2–5" gaps once referenced here are now **closed**. `14_treasure_and_artifacts/REWARDS_BY_LEVEL.md` exists (the by-level forwarding index over the full Stage 14 treasure library), and Acts 2–5 / Tiers 2–4 are built in `15_campaign_arcs/`. The pre-play readiness audit is complete (`18_audits/PRE_PLAY_READINESS_AUDIT.md`). **Only optional/non-blocking gaps remain for live play:** far-continent region/settlement deep-builds (arc packs + rosters + dungeons already exist), map-image generation, the deferred `/15_random_tables/`, and the pending RtHW bestiary integration. None blocks starting the campaign.
+
+Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale targets, and `WORLDBUILDING_STANDARDS.md` density guidelines.
 
 ---
 
@@ -62,11 +66,11 @@ Earlier stages: Stage 10 (Quest Library Expansion) added 28 major campaign quest
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
 | 20 major NPCs exist with secrets and motivations | — (no gap) | — | — | done in Stage 1 |
-| Major NPC count below long-term target (50–100) | Medium | Reduce major improvisation across the campaign | Expand major NPC roster | 9 |
-| Secondary NPCs: **~21 (Stage 3) + ~15 (Stage 4 city) + 29 (Stage 7 Ring 1) = ~65 secondary NPCs** (toward 200–500 target) | Medium | Continue toward target | Keep generating with each region/city pass | 3✓, 4✓, 7✓, 9 |
-| Minor named NPCs: **~35 (Stage 3) + ~25 (Stage 4 city) + 33 (Stage 7 Ring 1) = ~93 minor NPCs** (toward 500+ target) | Medium | Continue toward target | Generate minor NPC tables per area | 3✓, 4✓, 7✓, 9 |
-| Ring 1 NPC density below per-region target (30–60 per region; actual ~20 per region across 3 Ring 1 regions) | Medium | Reduce improvisation in Ring 1 settlements and sites | Expand Ring 1 secondary + minor NPCs — prioritize Pale Coast and Tollwood | 9 |
-| `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md` not created | Low | Managing a large NPC population | Create when NPC roster grows | 9 |
+| ~~Major NPC count below long-term target (50–100)~~ — **resolved in Stage 9/9.5: 94 major NPCs** (50 core + 44 far-continent) — meets the 50–100 target | — (no gap) | — | — | done in Stage 9/9.5 |
+| ~~Secondary NPCs below target~~ — **resolved in Stage 9/9.5: 368 secondary NPCs** (within the 200–500 target) | — (no gap) | — | — | done in Stage 9/9.5 |
+| ~~Minor named NPCs below target~~ — **resolved in Stage 9/9.5: 953 minor NPCs** (exceeds the 500+ target) | — (no gap) | — | — | done in Stage 9/9.5 |
+| ~~Ring 1 NPC density below per-region target~~ — **resolved in Stage 9/9.5** Ring 1 rosters expanded as part of the 368 secondary / 953 minor codex build | — (no gap) | — | — | done in Stage 9/9.5 |
+| ~~`NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md` not created~~ — **created in Stage 9** | — (no gap) | — | — | done in Stage 9 |
 
 ---
 
@@ -124,7 +128,7 @@ Earlier stages: Stage 10 (Quest Library Expansion) added 28 major campaign quest
 |---|---|---|---|---|
 | ~~No treasure-by-level guidance or magic-item list~~ — **done Stage 14 (2026-06-14):** `SOLO_REWARD_BALANCE.md` + `REGIONAL_TREASURE_TABLES.md` (20 regions × 5 bands) + `MAGIC_ITEM_INDEX.md` (38 items) | — (no gap) | — | — | done in Stage 14 |
 | ~~Remembrance relics referenced in lore but not statted as items~~ — **done Stage 14:** `ARTIFACT_INDEX.md` (12 named relics, mystery-gated), `CURSED_ITEMS.md` (10), `SENTIENT_ITEMS.md` (6) — all tie to M1–M9 without spoiling the apex | — (no gap) | — | — | done in Stage 14 |
-| Endgame-artifact mechanics intentionally light (Quiet Country Vessel, Harvest Engine Shard, Last Voice) | Low | Act 4–5 endgame | Deepen alongside `ENDGAME_STATES.md` in Stage 15; M6–M9 gated | 15 |
+| ~~Endgame-artifact mechanics intentionally light (Quiet Country Vessel, Harvest Engine Shard, Last Voice)~~ — **done Stage 15:** endgame artifact gating + playbooks built (`ENDGAME_STRUCTURE.md`, `TIER_4_PLAYABLE_PATHS_LEVELS_17_20.md`); `ARTIFACT_INDEX.md` defines M6–M9 gates; `REWARDS_BY_LEVEL.md` forwards by tier | — (no gap) | — | — | done in Stage 15 |
 | RtHW (June 16 2026) horror-item references not yet added | Low | Optional extra cursed/relic Track-A refs | Add 1–2 references once book is verified | future |
 
 ---
@@ -158,7 +162,7 @@ Earlier stages: Stage 10 (Quest Library Expansion) added 28 major campaign quest
 | Gap | Severity | Needed For | Suggested Fix | Related Stage |
 |---|---|---|---|---|
 | ~~No formal AI-readiness audit yet~~ — **Stage 6 first full audit complete (2026-06-10)**; foundation verified sound (0 Critical, 1 High fixed, 4 Medium, 5 Low); scaling to Stage 7 approved | — (no gap) | — | — | done in Stage 6 |
-| No pre-play readiness audit | Medium | Confirm campaign is ready for live play | Run before Stage 17 | 16 |
+| ~~No pre-play readiness audit~~ — **done Stage 16:** master verdict `18_audits/PRE_PLAY_READINESS_AUDIT.md` + 6 detailed Stage 16 reports; correction pass (2026-06-16) fixed the issues the prior pass overclaimed. Verdict: READY FOR LIVE PLAY | — (no gap) | — | — | done in Stage 16 |
 
 ---
 

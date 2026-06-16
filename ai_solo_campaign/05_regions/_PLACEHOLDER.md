@@ -6,7 +6,7 @@ This folder will contain one file per region in the campaign world.
 
 ## Current Status
 
-**Empty — Stage 0 scaffold.** Region files will be created during Stage 3 (Starting Region Deep Build).
+**Populated.** This folder contains the campaign's region files: `SUNDERING_REACH.md` (starting region), `ASHGARDEN_VALE.md`, `TOLLWOOD.md`, and `PALE_COAST.md` (Ring 1), plus a `wilderness/` subfolder of wilderness-site files. The full continent of Orrun (5 built + 13 placeholder far regions) is defined in `../04_world_atlas/`. For how to load regional content during play, see `../00_control/RETRIEVAL_GUIDE.md` ("Entering a region").
 
 ## Expected Contents
 

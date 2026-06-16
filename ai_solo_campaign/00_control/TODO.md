@@ -24,13 +24,15 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 - [x] Stage 15B: Full Character Arc Playability Fill — **done 2026-06-15.** Filled every region and tier with concrete, named, runnable content over the Stage 15 frameworks. **Began by correcting a false-COMPLETE `STAGE_15B_PROGRESS.md`** (most target files were missing on disk), then built 9 missing play-layer files + 6 forwarding stubs and patched the 2 pre-existing Stage 15B files. New: `TIER_3_PLAYABLE_PATHS_LEVELS_11_16` (6 paths), `TIER_4_PLAYABLE_PATHS_LEVELS_17_20` (9 endgame playbooks), `REGION_TO_REGION_TRANSITION_GUIDE`, `CONTINENTAL_PRESSURE_TIMELINE` (16+ named events), `PLAYER_IGNORES_MAIN_ARC_GUIDE`, `PLAYER_GOES_ANYWHERE_GUIDE`, `ENDGAME_REGION_PLAYBOOK`, `FINAL_REVELATION_AND_ENDING_PATHS` (REV_001–010 × 3 paths + 5 endings), `STAGE_15B_COMPLETION_AUDIT` (PASS), + 6 legacy stubs. Patched `REGIONAL_ARC_PACKS` (Highmark→3 situations; added Cindern Waste §12b; Drowned Steps coverage note) and `FULL_WORLD_LEVEL_5_TO_20_PLAYABILITY` (matrix). Every situation names NPC/faction/location/action/consequence; apex DM-only/L13+ gated; no new proper nouns; no canon contradicted. CONTENT_INDEX, TAG_INDEX, PROGRESS_LOG, CONTENT_GAPS, STAGE_15B_PROGRESS, STAGE_15_PROGRESS updated. See `STAGE_15B_COMPLETION_AUDIT.md`.
 
-- [ ] Begin Stage 16: Pre-Play Readiness Audit
-  - Why it matters: Stages 1–15 (incl. 15B) complete; Stage 16 is next per `DEVELOPMENT_STAGES.md`. Determine whether the campaign is ready to start actual solo play.
-  - What to do: read `TRACKING_SYSTEM.md`, the Stage 0–15B progress files, and `AUDIT_STANDARDS.md`; run a whole-repo AI-readiness + continuity audit; produce `18_audits/PRE_PLAY_READINESS_AUDIT.md`; confirm the first 10–20 sessions are runnable, state files ready, the opening scene ready, critical secrets protected, the starting region deep enough, the first mystery has 3+ clue paths, factions have clocks, the AI DM has a clean start prompt, **and that the Stage 15B play-layer files align with the Stage 15 frameworks and `REVELATION_MAP.md`.**
-  - Related files: `18_audits/`, `16_ai_session_packs/`, `02_runtime_state/`, `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `15_campaign_arcs/`
-  - Suggested agent: `canon-continuity-auditor` / `player-experience-reviewer`
-  - Stage: 16
-  - Blocker: none — Stages 0–2 complete, 3 & 5 ≥75%, 15 & 15B complete.
+- [x] Stage 16: Pre-Play Readiness Audit — **done 2026-06-15. Verdict: READY FOR LIVE PLAY.** Ran a whole-repo AI-readiness + continuity audit across all 16 Stage 16 categories. **0 Critical / 0 High / 2 Medium (both fixed) / 4 Low (non-blocking).** Fixed: (1) three stale canon "Current Status" headers (Stage 1/1–5/1–5+7 → Stages 1–15B; bodies were already correct); (2) added an arc-forwarding pointer from `12_campaign_arc/MAIN_ARC_OVERVIEW.md` to the runnable `15_campaign_arcs/` set. Verified: no canon contradictions; no player-facing apex-truth leaks (apex gated REV_007/L13+, lives only in DM-only files + `THE_UNDER_SHRINE_APPROACH.md`); all 16 runtime state files present + seeded; START/RESUME prompts self-contained with all load targets resolving; opening (Opener A) immediately runnable; REV_001 reachable via 5 independent clue sources; all 7 factions have clocks; L1–20 arc findable/linked; all major indexes current. Reports: `18_audits/STAGE_16_PRE_PLAY_READINESS_AUDIT.md` + 5 sub-audits + `STAGE_16_PROGRESS.md`. **Campaign may proceed to Stage 17 (Live Campaign Operation).**
+
+- [ ] Begin Stage 17: Live Campaign Operation (when the user starts playing)
+  - Why it matters: Stage 16 cleared the campaign for play. Stage 17 is running the campaign and preserving state/canon after each session.
+  - What to do: open Session 1 via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`; after each session run `SESSION_END_UPDATE_CHECKLIST.md`; run periodic live audits (Stage 18) every 3–5 sessions / after level-ups / before new regions or acts.
+  - Related files: `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`, `RESUME_CAMPAIGN_PROMPT.md`, `02_runtime_state/`, `01_runner_protocol/`
+  - Suggested agent: `ai-dm-runtime-engineer`
+  - Stage: 17
+  - Blocker: none — awaiting the user to begin play.
 
 - [x] (Stage 11 follow-up) Mirror region-coded clue IDs into runtime `HIDDEN_CLUES.md` — done 2026-06-13 (Stage 11 cleanup pass); Stage 11 anchor section added to `02_runtime_state/HIDDEN_CLUES.md`.
 
@@ -81,13 +83,10 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 - [x] Build the standalone bestiary (mid/high tiers especially) — **done 2026-06-14 (Stage 13).** Built `BESTIARY_INDEX.md` (17 creature categories, Track-A source shorthands), `BOSS_AND_APEX_THREATS.md` (18 tiered bosses B1–B18 across all tiers), `HORROR_AND_CURSE_THREATS.md`, `STAGE_12_ADVERSARIES.md`, and per-region encounter files for all 20 regions across L1–20. Officials source-referenced (never stat-block-copied); originals abbreviated; solo-tuned. Cleanup pass mapped source shorthands and added the RtHW pending section.
 
-- [x] Build `REWARDS_BY_LEVEL.md` and stat-referenced dungeon/quest rewards — **done 2026-06-14 (Stage 14).** The Stage 6 audit Medium finding is resolved: `14_treasure_and_artifacts/SOLO_REWARD_BALANCE.md` + `REGIONAL_TREASURE_TABLES.md` provide reward-by-level guidance; `DUNGEON_REWARD_INDEX.md` (36 sites) + `QUEST_REWARD_INDEX.md` give concrete, level-banded dungeon/quest reward hooks; `MAGIC_ITEM_INDEX.md`/`ARTIFACT_INDEX.md` provide the specific items. The AI DM no longer needs to improvise reward specifics abstractly.
-  - Stage: 14
+- [x] Build `REWARDS_BY_LEVEL.md` and stat-referenced dungeon/quest rewards — **done (Stage 14 + Stage 16 correction pass 2026-06-16).** Stage 14 built the full treasure library (`SOLO_REWARD_BALANCE.md` + `REGIONAL_TREASURE_TABLES.md` for reward-by-level; `DUNGEON_REWARD_INDEX.md`/`QUEST_REWARD_INDEX.md` for placements; `MAGIC_ITEM_INDEX.md`/`ARTIFACT_INDEX.md` for items). The Stage 16 correction pass created the named **`14_treasure_and_artifacts/REWARDS_BY_LEVEL.md`** as the by-tier forwarding index over that library, and repointed the "when built" references in `THE_BARROW_OF_NINE_DOORS.md` and `Q_RACE_NORTH.md`. Fully resolved.
+  - Stage: 14 / 16
 
-- [ ] Build standalone Acts 2–5 arc files
-  - Why it matters: Stage 6 audit Medium finding. The arc above level 4 exists as shape only; play beyond L4 is not yet runnable in detail.
-  - Related files: `12_campaign_arc/`
-  - Suggested agent: `campaign-architect`
+- [x] Build standalone Acts 2–5 arc files — **done (Stage 15/15B 2026-06-15).** The runnable Act 2–5 / Tier 2–4 arc lives in `15_campaign_arcs/` (`ACT_2`–`ACT_5` files + tier overviews + playable paths + escalation/endgame/final-revelation). Play beyond L4 is fully runnable. The Stage 6 audit Medium finding is closed.
   - Stage: 15
 
 - [ ] Build the first major Act 1 dungeon as a dedicated set-piece (optional enrichment)
@@ -153,17 +152,18 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Related files: `06_settlements/caradril_districts/THE_MAGISTERIUM.md`, `02_runtime_state/HIDDEN_CLUES.md` (C-M8 city anchor), `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md` (M8 ceiling), `12_campaign_arc/`
   - Stage: 15
 
-- [ ] Stat the Stage 3 dungeon rewards by level (e.g. the Barrow of Nine Doors magic item) and create `REWARDS_BY_LEVEL.md`
-  - Why it matters: Stage 3 dungeon files reference level-appropriate rewards that need concrete items.
-  - Stage: 14
+- [x] Stat the Stage 3 dungeon rewards by level (e.g. the Barrow of Nine Doors magic item) and create `REWARDS_BY_LEVEL.md` — **done (Stage 16 correction pass 2026-06-16).** `14_treasure_and_artifacts/REWARDS_BY_LEVEL.md` created; dungeon/quest reward references repointed to it + `DUNGEON_REWARD_INDEX.md`/`MAGIC_ITEM_INDEX.md`/`QUEST_REWARD_INDEX.md`.
+  - Stage: 14 / 16
 
-- [ ] Add `/15_random_tables/` (travel/weather/event) — lower priority now that zone encounter tables exist
-  - Stage: 3+ / low
+- [ ] Add `/15_random_tables/` (travel/weather/event) — **intentionally deferred / non-blocking.** Zone encounter tables already exist in `13_encounters_and_bestiary/`; a consolidated random-table library is an optional Stage 17+ enhancement. The placeholder there documents this.
+  - Stage: 17+ / low (non-blocking)
 
 ---
 
 ## Completed Recently
 
+- [x] Stage 16 Final Cleanup Pass — 2026-06-16 (cleared residual secrecy classifications and stale Stage 14/15 contradictions; no new content: cleaned the `PLAYER_SAFE_CANON.md` Hollow Court secrecy note of named DM-only truths; made the map render/generation/audit files consistent with their `dm-facing` classification — incl. reclassifying `18_audits/PLAYER_SAFE_FULL_CONTINENT_MAP_AUDIT.md` `player-safe`→`dm-facing`; reclassified four `13_/14_` files carrying apex/harvest terms to `mixed` (`CREATURE_SOURCE_REFERENCE`, `BIOME_ENCOUNTER_MATRIX`, `REWARDS_BY_LEVEL`, `CONSUMABLES_AND_MINOR_MAGIC`); corrected stale Stage 14/15 contradictions in `CONSISTENCY_AUDIT`/`CONTENT_GAPS`/`REWARD_PLACEMENT_AUDIT`; fixed stale NPC counts to 94/368/953; added `/15_campaign_arcs` to `MANIFEST.md`. Stage 16 fully complete: **COMPLETE — READY FOR LIVE PLAY**; Stage 17 may begin)
+- [x] Stage 16 Correction Pass — 2026-06-16 (fixed 8 control/retrieval/classification/hygiene issues the prior Stage 16 passes overclaimed past, generating no new content: rewrote stale `RETRIEVAL_GUIDE.md`; updated stale `MANIFEST.md`; created master `18_audits/PRE_PLAY_READINESS_AUDIT.md`; refreshed 8 stale active-folder placeholders; reclassified 3 map-render files to `dm-facing-player-safe-output` and `LANGUAGES.md`/`LEVELING_ASSUMPTIONS.md` to `mixed`; created `14_treasure_and_artifacts/REWARDS_BY_LEVEL.md`; closed stale `CONSISTENCY_AUDIT`/`CONTENT_GAPS` issues; expanded the Stage 16 standard in `DEVELOPMENT_STAGES.md`. Verdict stands: **READY FOR LIVE PLAY**; Stage 17 may begin)
 - [x] Stage 6: First Full Audit — 2026-06-10 (ran all 10 audit categories across Stages 1–5; foundation verified sound: 0 Critical, 1 High [two broken Act 1 arc-spine quest pointers — FIXED inline], 4 Medium, 5 Low; secret separation/three-clue/faction-agency/solo-safety/state-tracking all pass clean; report in `18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`; CONSISTENCY_AUDIT/CONTENT_GAPS/STAGE_STATUS/EXPANSION_PLAN updated; scaling to Stage 7 approved)
 - [x] Stage 5: Level 1–4 Play Arc (Act 1) — 2026-06-10 (open-world Act 1 play kit: arc spine `ACT_1_LEVELS_1_4.md` + 6 faction-alignment quests `act_1_quests/` + 5 recurring early-threat profiles `ACT_1_THREATS.md` + Act 1 clue-trails overlay `ACT_1_CLUE_TRAILS.md` (existing M1–M9; R1 cap; three-clue check) + 9 failure-redirect states `ACT_1_FAILURE_STATES.md` + L2/3/4 milestone/XP triggers `ACT_1_MILESTONES.md` + Act 1 NPC casting guide `ACT_1_NPC_GUIDE.md`; runtime ACTIVE_QUESTS/OPEN_THREADS seeded; anti-railroad verified; all L1–4 content mechanically complete; no new central mystery/faction/god/cosmology/artifact; reveals capped at R1; Hollow Court never exposed)
 - [x] Stage 4: First Major City Deep Build (Caradril) — 2026-06-10 (city overview + 8 district files incl. the Sunken Wards sub-dungeon; 15 city secondary + 25 city minor NPCs; 11 developed city quests; 36 hooks + 30 rumors; city encounter/social-scene tables; 4 city-internal factions + 3 city clocks (C1/C2/C3); Ledger HQ + Remnant seat located; M2/M3/M4/M6/M8/M9 city clue access added with no new mysteries; M7/Hollow Court never named in the city; Act-3 gating on the Sealed Archive; solo-safe and secrecy-separated; indexes/canon/registry/state updated)

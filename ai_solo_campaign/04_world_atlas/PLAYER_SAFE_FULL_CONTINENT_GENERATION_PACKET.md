@@ -3,14 +3,16 @@
 
 ---
 type: map
-secrecy: player-safe
+secrecy: dm-facing-player-safe-output
 status: static
 region: Orrun
 factions: []
 level_range: 1-20
 related: [PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md, FULL_WORLD_MAP_PROMPTS.md, FULL_WORLD_MAP_AUTHORITY.md]
-tags: [type:map, secrecy:player-safe, function:cartography, generation-packet, orrun, full-continent]
+tags: [type:map, secrecy:dm-facing-player-safe-output, function:cartography, generation-packet, orrun, full-continent]
 ---
+
+> **Secrecy classification:** This packet's "NEVER include" list names DM-only locations (Concord Deep, Under-Shrine / Drowned Keystone, Hollow Court, surviving Custodians) only to instruct an image model to exclude them. The *generated map* is player-safe; this file is **not** player-safe to share directly with the player. It is a DM-side generation tool.
 
 ## Purpose
 
@@ -18,7 +20,7 @@ A **self-contained copy-paste prompt** for any external image generator that can
 
 All content is copied directly from `PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` (the authoritative source). If the image model has access to the repository, use the manifest and `FULL_WORLD_MAP_PROMPTS.md` instead of this packet.
 
-This file is **player-safe in its entirety**. It contains no DM-only geography.
+The **generated/rendered map output** is player-safe; **this file itself is DM-facing** because Section C contains a "NEVER include" list naming hidden names (the Concord Deep, the Under-Shrine / Drowned Keystone, the Hollow Court, the keystone, surviving Custodians). It is a DM-side generation tool. **Never hand this file directly to the player.**
 
 > **If the image model has access to the repository:** Use `PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` as the authoritative source and `FULL_WORLD_MAP_PROMPTS.md` Prompt 1 as the generation prompt instead of this packet.
 

@@ -6,7 +6,7 @@ This folder will contain one file per named settlement — cities, towns, villag
 
 ## Current Status
 
-**Empty — Stage 0 scaffold.** Settlement files will be created during Stage 1 (starting settlement) and Stage 3 (regional expansion).
+**Populated.** This folder contains settlement files for the Sundering Reach (Hollowmere — the start, plus Kettle Bridge, Saltmargin, Candlewick, Greywater Holm, Harrowgast, Reedford, The Ashwalk Rest), the first major city Caradril (with a `caradril_districts/` subfolder), and the Ring 1 settlements (Orchardmere, Saint Veddow's Rest, Tilbrook, Hartfell, Coldhearth, Tollstone Cross, Wrackmouth, Cobble Strand). For how to load settlement content during play, see `../00_control/RETRIEVAL_GUIDE.md` ("Entering a settlement").
 
 ## Expected Contents
 

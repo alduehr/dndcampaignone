@@ -6,7 +6,7 @@ This folder will contain random tables for travel events, weather, wilderness en
 
 ## Current Status
 
-**Empty — Stage 0 scaffold.** Tables will be created as regions and settlements are developed.
+**Intentionally deferred — non-blocking for live play.** A consolidated random-table library here is an optional Stage 17+ enhancement. The play-critical tables already exist elsewhere: regional and travel encounter tables in `../13_encounters_and_bestiary/` (per-region `*_ENCOUNTERS.md`, `REGIONAL_ENCOUNTER_TABLES.md`, `TRAVEL_ENCOUNTERS.md`), treasure tables in `../14_treasure_and_artifacts/`, and hooks/rumors tables in `../09_quests/`. This folder does not block starting the campaign.
 
 ## Expected File Types
 

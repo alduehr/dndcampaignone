@@ -84,7 +84,7 @@ Safe (rough) rest at Harrowgast; no rest in the aura-zones; no magical healing n
 
 ## Rewards
 - "Old glass" Remembrance relics (M3; valuable, hot, thin-touch risk).
-- A tier-2-appropriate magic item from the Adit (see `REWARDS_BY_LEVEL.md` when built).
+- A tier-2-appropriate magic item from the Adit (see `../../14_treasure_and_artifacts/REWARDS_BY_LEVEL.md` and `QUEST_REWARD_INDEX.md`/`MAGIC_ITEM_INDEX.md`).
 - The Relay-Vault rubbing (M6/M9 clue, portable).
 - Slowed Reclamation clock if the node is quieted or the Remnant is denied; Ledger or Remnant favor if allied.
 

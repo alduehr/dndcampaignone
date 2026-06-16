@@ -2,13 +2,15 @@
 
 ---
 type: encounter
-secrecy: player-safe
+secrecy: mixed
 status: static
 region: Orrun
 level_range: 1-20
 related: [BESTIARY_INDEX.md, ENCOUNTER_INDEX.md, ../00_control/RULESET_ASSUMPTIONS.md, ../00_control/DND_MECHANICS_REQUIREMENTS.md]
-tags: [type:encounter, secrecy:player-safe, function:bestiary, source-handling, copyright-safe]
+tags: [type:encounter, secrecy:mixed, function:bestiary, source-handling, copyright-safe]
 ---
+
+> **Secrecy note (DM):** This file is **mixed** — the creature-handling rules are player-safe, but the thematic-link notes name DM-only arc terms (the harvest, the Hollow Court, the Custodians, the Concord Deep) as AI-DM guidance for which creatures mirror hidden truths. Do not surface those links to the player; they are DM-side placement cues.
 
 ## AI Use
 

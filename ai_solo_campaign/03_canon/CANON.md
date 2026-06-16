@@ -6,7 +6,7 @@ Authoritative record of all established world facts. When any content contradict
 
 ## Current Status
 
-**Stages 1–5 complete.** Top-level canon established; Stages 2–5 added runtime, region, city, and Act 1 play-layer content without changing core world facts. This file holds top-level binding facts. Detailed content lives in linked files; this file is the contradiction-check reference.
+**Stages 1–15B complete; Stage 16 (Pre-Play Readiness Audit) underway.** Top-level canon established in Stage 1; all later stages (runtime, region, city, Ring 1, factions, NPCs, quests, mysteries, dungeons, encounters, treasure, and the level 5–20 arc) added content **without changing core world facts** — see the Canon Revision Log below, which records every play-layer pass through Stage 15. This file holds top-level binding facts; detailed content lives in linked files; this file is the contradiction-check reference.
 
 ---
 

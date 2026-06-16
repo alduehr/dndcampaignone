@@ -106,6 +106,15 @@ DM-only content is confined to clearly-marked **DM-Only blocks** in `ARTIFACT_IN
 2. **Endgame artifact mechanics** (Harvest Engine Shard, Quiet Country Vessel) are intentionally light pending Stage 15 Act 4–5 builds — deepen alongside `ENDGAME_STATES.md`.
 3. **Runtime ownership tracking:** `../02_runtime_state/INVENTORY_AND_REWARDS.md` should record which artifacts/relics the player holds as play begins; populated during Stage 17, not now.
 
+> **Stage 15/15B update (2026-06-16):** Endgame artifact usage and mechanics are now handled by:
+> - `../15_campaign_arcs/ENDGAME_STRUCTURE.md`
+> - `../15_campaign_arcs/ENDGAME_STATES.md`
+> - `../15_campaign_arcs/FINAL_REVELATION_AND_ENDING_PATHS.md`
+> - `../15_campaign_arcs/ENDGAME_REGION_PLAYBOOK.md`
+> - `ARTIFACT_INDEX.md`
+>
+> Forward Note 2 above is resolved: the endgame artifacts are no longer "pending Stage 15." Any remaining mechanical detail for artifact use-in-play is optional Stage 17+/19 polish, not a blocker.
+
 ## Recommended Next Step
 
 Proceed to **Stage 15 — Level 5–20 Arc Expansion.** Pull reward placements from this folder; keep endgame artifacts M6–M9 gated.

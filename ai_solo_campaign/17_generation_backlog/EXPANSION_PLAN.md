@@ -6,7 +6,7 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 ## Current Status
 
-**Stages 0–15/15B complete (Stage 15B Full Character Arc Playability Fill: 2026-06-15).** The campaign now has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files), **36 authored adventure sites spanning L1–20**, a full encounter/bestiary library, a complete reward layer, and a **full level 5–20 campaign arc** (31 files in `15_campaign_arcs/`: tier overviews, 6 Tier-3 paths, 9 Tier-4 endgame playbooks, 20-region arc packs, continental pressure timeline, transition guide, revelation/ending paths, and completion audit PASS). **Stage 16 — Pre-Play Readiness Audit is the recommended next pass.**
+**Stages 0–16 complete (Stage 16 Pre-Play Readiness Audit + correction pass: 2026-06-15 / 2026-06-16; verdict READY FOR LIVE PLAY).** The campaign has a deep-built starting region, first major city, Level 1–4 arc, three Ring 1 regions, all 7 factions operational, a full NPC codex (94 major / 368 secondary / 953 minor), a quest library (28 major / ~165 developed / 304 hooks), a complete mystery infrastructure (10 revelations, ~100 clues, 6 regional trail files), **36 authored adventure sites spanning L1–20**, a full encounter/bestiary library, a complete reward layer (incl. `REWARDS_BY_LEVEL.md`), and a **full level 5–20 campaign arc** (31 files in `15_campaign_arcs/`). Stage 16 confirmed readiness and a 2026-06-16 correction pass fixed the control/retrieval/classification/hygiene issues the prior pass overclaimed past. **Stage 17 — Live Campaign Operation is next** (begin via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`).
 
 ---
 
@@ -14,10 +14,10 @@ Forward-looking development roadmap. Tracks what to build next and in what order
 
 | Field | Value |
 |---|---|
-| Stage | 16 — Pre-Play Readiness Audit (recommended next) |
-| Goal | Full-repo AI-readiness and continuity audit (`18_audits/PRE_PLAY_READINESS_AUDIT.md`). Confirm the first 10–20 sessions are runnable, apex truth is protected, opening scene is ready, runtime state is ready, and no critical issues remain before live play begins. |
-| Status | Not started |
-| Blocking Issues | None — Stages 0–15/15B complete |
+| Stage | 17 — Live Campaign Operation (next) |
+| Goal | Run the campaign and preserve state/canon after each session. Stage 16 is complete (master verdict `18_audits/PRE_PLAY_READINESS_AUDIT.md`: READY FOR LIVE PLAY); the 2026-06-16 correction pass reconciled the control/retrieval/classification layer. |
+| Status | Stage 16 complete; Stage 17 ready, awaiting the user to begin play |
+| Blocking Issues | None — begin Session 1 via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md` |
 
 > **Stage 14 — Treasure, Artifacts, and Rewards: COMPLETE 2026-06-14.** 15 files in `14_treasure_and_artifacts/`; 12 artifacts + 38 custom items + 10 cursed + 6 sentient; all 20 regions × 5 level bands; 7+4 faction reward tracks; 36 dungeon reward hooks; reward-placement audit PASS; two-track source handling (no copied official text); solo-tuned; apex truth gated. See `STAGE_14_PROGRESS.md`.
 
@@ -84,7 +84,8 @@ Complete. 13 new far-continent sites (D24–D36); campaign total 36 adventure si
 1. **Stage 13** — Encounter and bestiary expansion ← **done 2026-06-14**
 2. **Stage 14** — Treasure, artifacts, and rewards (by level) ← **done 2026-06-14**
 3. **Stage 15 / 15B** — Level 5–20 arc expansion + full character arc playability fill ← **done 2026-06-15**
-4. **Stage 16** — Pre-play readiness audit ← **next**
+4. **Stage 16** — Pre-play readiness audit (+ correction pass) ← **done 2026-06-15 / 2026-06-16; verdict READY FOR LIVE PLAY**
+5. **Stage 17** — Live campaign operation ← **next** (begin via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`)
 
 ---
 

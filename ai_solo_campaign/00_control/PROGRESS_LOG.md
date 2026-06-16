@@ -6,6 +6,131 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-16 — Stage 16: Final Cleanup Pass
+
+### Stage
+Stage 16 (Pre-Play Readiness Audit) — final cleanup pass (after the correction pass).
+
+### Summary
+A final cleanup pass cleared residual secrecy classifications and stale Stage 14/15 contradictions the correction pass had not reached. No campaign content generated. Eight items fixed: (1) `PLAYER_SAFE_CANON.md` — reduced the Hollow Court secrecy note to a generic DM warning and excised the named DM-only truths (surviving Custodians, the harvest, the Under-Shrine / Drowned Keystone, the Concord Deep) from the player-safe body. (2) The map render manifest and generation packet body text — corrected the contradictory "this file is player-safe / no DM-only geography" wording to state the *output* is player-safe but the *file* is DM-facing (lists hidden "do not render" names) and is never handed to the player. (3) `18_audits/PLAYER_SAFE_FULL_CONTINENT_MAP_AUDIT.md` — reclassified `player-safe` → `dm-facing` with a note. (4) Four `player-safe` files carrying apex/harvest terms reclassified `mixed` with DM secrecy notes (`CREATURE_SOURCE_REFERENCE.md`, `BIOME_ENCOUNTER_MATRIX.md`, `REWARDS_BY_LEVEL.md`, `CONSUMABLES_AND_MINOR_MAGIC.md`). (5) `CONSISTENCY_AUDIT.md` top status corrected so it no longer reads as if Stage 14 is most recent / endgame artifacts pending Stage 15. (6) `REWARD_PLACEMENT_AUDIT.md` — Stage 15/15B update note resolving the "endgame artifact mechanics pending Stage 15" forward note. (7) `CONTENT_GAPS.md` — stale NPC counts corrected to 94 major / 368 secondary / 953 minor and marked resolved. (8) `MANIFEST.md` — added `/15_campaign_arcs` to the folder map and clarified `/12_campaign_arc` as the legacy Act 1 folder. **Verdict stands: READY FOR LIVE PLAY.** Stage 17 may begin.
+
+### Files Created
+- None.
+
+### Files Changed
+- `03_canon/PLAYER_SAFE_CANON.md` — Hollow Court secrecy note reduced to generic DM warning
+- `04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md`, `PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md` — body text made consistent with `dm-facing` classification
+- `18_audits/PLAYER_SAFE_FULL_CONTINENT_MAP_AUDIT.md` — reclassified `dm-facing` + note
+- `13_encounters_and_bestiary/CREATURE_SOURCE_REFERENCE.md`, `BIOME_ENCOUNTER_MATRIX.md` — reclassified `mixed` + secrecy notes
+- `14_treasure_and_artifacts/REWARDS_BY_LEVEL.md`, `CONSUMABLES_AND_MINOR_MAGIC.md` — reclassified `mixed` + secrecy notes
+- `14_treasure_and_artifacts/REWARD_PLACEMENT_AUDIT.md` — Stage 15/15B endgame-artifact update note
+- `00_control/CONSISTENCY_AUDIT.md` — top status corrected (no stale Stage 14/15 contradiction)
+- `17_generation_backlog/CONTENT_GAPS.md` — NPC counts corrected to 94/368/953; entries marked resolved
+- `00_control/MANIFEST.md` — `/15_campaign_arcs` added to folder map; `/12_campaign_arc` clarified as legacy
+- `00_control/STAGE_16_PROGRESS.md` — Final Cleanup Pass section + status set to COMPLETE — READY FOR LIVE PLAY
+- `18_audits/PRE_PLAY_READINESS_AUDIT.md`, `STAGE_16_BLOCKERS_AND_FIXES.md` (C9–C16), `STAGE_16_DM_ONLY_SECRECY_AUDIT.md`, `STAGE_16_RETRIEVAL_AUDIT.md`, `STAGE_16_PRE_PLAY_READINESS_AUDIT.md` — final-cleanup-pass notes
+- `00_control/PROGRESS_LOG.md`, `TODO.md`, `STAGE_STATUS.md`, `NAMING_REGISTRY.md` — tracking updated
+
+### Canon Established
+- None. No new campaign content or proper nouns.
+
+### Next Recommended Pass
+- Stage 17 (Live Campaign Operation): begin Session 1 via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`.
+
+---
+
+## 2026-06-16 — Stage 16: Correction Pass
+
+### Stage
+Stage 16 (Pre-Play Readiness Audit) — targeted correction pass.
+
+### Summary
+The prior two Stage 16 passes declared READY but overclaimed on control/retrieval/classification/hygiene — they verified content runnability deeply but missed several navigation, accuracy, and secrecy-classification defects that were not content gaps. This pass found and fixed 8 of them (C1–C8), generating no new campaign content. (1) Rewrote the stale `RETRIEVAL_GUIDE.md` (was Stages 1–5/7 only) into a full per-scenario load map covering every Stage 8–15B system on disk. (2) Updated the stale `MANIFEST.md` (was "Stage 1 complete / Stage 2 next") to Stages 0–16 complete / Stage 17 next, with a corrected stage table and live-play entry pointer. (3) Created the missing master `18_audits/PRE_PLAY_READINESS_AUDIT.md` (Stage 16's named required output) pointing to the six detailed reports. (4) Refreshed stale active-folder `_PLACEHOLDER.md` files to reflect real contents. (5) Reclassified 3 map-render files to `secrecy: dm-facing-player-safe-output` (they name apex secrets only in "do-not-render" lists) and `LANGUAGES.md`/`LEVELING_ASSUMPTIONS.md` to `mixed` (they carried DM-only apex/act labels under a player-safe tag); annotated the `PLAYER_SAFE_CANON.md` Hollow-Court entry. (6) Created `14_treasure_and_artifacts/REWARDS_BY_LEVEL.md` (a by-tier forwarding index referenced as "when built" but never created) and repointed stale references. (7) Closed/reclassified stale Medium issues in `CONSISTENCY_AUDIT.md` and `CONTENT_GAPS.md` (REWARDS_BY_LEVEL, Acts 2–5, endgame artifacts, NPC tools; Caradril density → non-blocking optional). (8) Expanded the Stage 16 definition in `DEVELOPMENT_STAGES.md` to match what the stage actually requires. **Verdict stands: READY FOR LIVE PLAY** on a fully reconciled repo; Stage 17 may begin.
+
+### Files Created
+- `18_audits/PRE_PLAY_READINESS_AUDIT.md` — master readiness verdict
+- `14_treasure_and_artifacts/REWARDS_BY_LEVEL.md` — by-tier reward forwarding index
+
+### Files Changed
+- `00_control/RETRIEVAL_GUIDE.md` — full rewrite (per-scenario load map through 15B)
+- `00_control/MANIFEST.md` — status / stage table / folder summary made current
+- `00_control/CONSISTENCY_AUDIT.md` — stale Medium issues closed; Caradril density reclassified
+- `00_control/CONTENT_INDEX.md` — added REWARDS_BY_LEVEL + master readiness audit rows
+- `00_control/TAG_INDEX.md` — Stage 16 correction-pass entry + `dm-facing-player-safe-output` tag value
+- `00_control/STAGE_STATUS.md` — Stage 16 row + most-recent-pass updated
+- `00_control/DEVELOPMENT_STAGES.md` — expanded Stage 16 standard
+- `00_control/STAGE_16_PROGRESS.md` — correction-pass section + post-correction verdict
+- `00_control/NAMING_REGISTRY.md` — status header updated (no new proper nouns)
+- `03_canon/PLAYER_SAFE_CANON.md` — Hollow-Court folklore-only secrecy note; status header
+- `03_canon/LANGUAGES.md`, `03_canon/LEVELING_ASSUMPTIONS.md` — reclassified `mixed` + secrecy notes
+- `04_world_atlas/FULL_CONTINENT_SETTLEMENT_ANCHORS.md`, `PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md`, `PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md` — reclassified `dm-facing-player-safe-output` + notes
+- 8 `_PLACEHOLDER.md` files (05_regions, 06_settlements, 07_factions/major_factions, 07_factions/minor_factions, 08_npcs, 09_quests, 18_audits, 15_random_tables) — status refreshed
+- `18_audits/STAGE_16_BLOCKERS_AND_FIXES.md` — correction-pass section (C1–C8)
+- `18_audits/STAGE_16_RETRIEVAL_AUDIT.md`, `STAGE_16_PRE_PLAY_READINESS_AUDIT.md` — correction notes added
+- `18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md` — stale items marked resolved
+- `17_generation_backlog/CONTENT_GAPS.md` — stale framing corrected; resolved gaps closed
+- `10_dungeons_and_ruins/THE_BARROW_OF_NINE_DOORS.md`, `09_quests/regional_quests/Q_RACE_NORTH.md` — REWARDS_BY_LEVEL references repointed
+
+### Canon Established
+- None. No new campaign content or proper nouns.
+
+### Next Recommended Pass
+- Stage 17 (Live Campaign Operation): begin Session 1 via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`.
+
+---
+
+## 2026-06-15 — Stage 16: Deep Re-Verification Pass (second run)
+
+### Stage
+Stage 16 (Pre-Play Readiness Audit) — full from-scratch re-audit.
+
+### Summary
+Re-ran the Stage 16 readiness audit from scratch because the first pass was shallow, this time verifying every claim by reading the actual files rather than trusting index summaries. Reset and re-completed `STAGE_16_PROGRESS.md` with per-category evidence. Read all 8 canon files + 2 arc files and cross-checked the apex chain across all three secrecy tiers; opened all 16 runtime state files (9 seeded, 7 correctly templated); read REVELATION_MAP in full and traced two clue trails to their source clue files; opened the opening NPC cast, one Act 1 dungeon, the DM-only endgame site, one quest, one encounter table, and the 12-artifact index to confirm mechanical completeness and apex gating; grepped the runner protocols for placeholders (none in play-ready content). **Result: 0 new blockers; verdict re-confirmed READY FOR LIVE PLAY on evidence.** No content changes were needed — the prior pass's two hygiene fixes (canon status headers; the `15_campaign_arcs/` arc pointer) were verified still correct. Added deep-re-verification notes to the master audit report and the blockers ledger. One item examined and cleared as a non-defect: the legacy "R1–R8" labels in `SECRET_REVEAL_PROTOCOL.md` map 1:1 to REV_001–010 per REVELATION_MAP, so they are consistent.
+
+### Files Changed (re-verification pass)
+- `00_control/STAGE_16_PROGRESS.md` — reset to a real per-category checklist, then re-completed with evidence
+- `18_audits/STAGE_16_PRE_PLAY_READINESS_AUDIT.md` — added a deep-re-verification record to the summary
+- `18_audits/STAGE_16_BLOCKERS_AND_FIXES.md` — added a deep-re-verification section (0 new blockers)
+- `00_control/PROGRESS_LOG.md`, `CONSISTENCY_AUDIT.md` — this entry / re-audit note
+
+---
+
+## 2026-06-15 — Stage 16: Pre-Play Readiness Audit
+
+### Stage
+Stage 16 (Pre-Play Readiness Audit).
+
+### Summary
+Ran the whole-repository pre-play readiness audit across all 16 Stage 16 categories (canon/contradiction, player-safe vs DM-only, runtime, retrieval, starting play, full arc, regional, quest, mystery/clue, faction, NPC, dungeon, encounter/bestiary, treasure, mechanical, file hygiene). **Verdict: READY FOR LIVE PLAY** — 0 Critical / 0 High / 2 Medium (both fixed in-pass) / 4 Low (non-blocking, documented). The foundation is sound: the opening is immediately runnable from `START_NEW_CAMPAIGN_PROMPT.md`, all 16 runtime state files are present and seeded, the level 1–20 arc is findable/linked, the apex secret (the harvest / deliberate Quietfall / Hollow Court / keystone / steering) never leaks into any player-facing file and is gated behind REV_007 (L13+) and the single DM-only endgame dungeon, REV_001 is reachable via 5 independent clue sources, all 7 factions are clocked, and every major index is present and current. **Two hygiene blockers fixed:** (1) three stale canon "Current Status" headers (`CANON.md`/`PLAYER_SAFE_CANON.md`/`DM_ONLY_CANON.md` said Stage 1/1–5/1–5+7 while the bodies were already current) updated to "Stages 1–15B complete; Stage 16 underway"; (2) added an arc-forwarding pointer from `12_campaign_arc/MAIN_ARC_OVERVIEW.md` to the runnable `15_campaign_arcs/` set. No new campaign content was generated. The campaign may proceed to Stage 17 (Live Campaign Operation).
+
+### Files Created
+- `18_audits/STAGE_16_PRE_PLAY_READINESS_AUDIT.md` — master audit (16 categories; severity tables; final verdict)
+- `18_audits/STAGE_16_BLOCKERS_AND_FIXES.md` — issue ledger (2 fixed, 5 deferred)
+- `18_audits/STAGE_16_PLAYER_SAFE_START_AUDIT.md` — Session-1 runnability checklist
+- `18_audits/STAGE_16_DM_ONLY_SECRECY_AUDIT.md` — apex-leak scan (0 leaks) + DM-file marking
+- `18_audits/STAGE_16_RETRIEVAL_AUDIT.md` — index inventory + cross-link spot checks
+- `18_audits/STAGE_16_FULL_ARC_PLAYABILITY_AUDIT.md` — L1–20 tier coverage + open-world resilience
+- `00_control/STAGE_16_PROGRESS.md` — Stage 16 progress tracker (COMPLETE)
+
+### Files Changed
+- `03_canon/CANON.md`, `PLAYER_SAFE_CANON.md`, `DM_ONLY_CANON.md` — stale "Current Status" headers corrected
+- `12_campaign_arc/MAIN_ARC_OVERVIEW.md` — added the `15_campaign_arcs/` arc-forwarding pointer
+- `00_control/CONTENT_INDEX.md` (status header + 6 audit-report rows), `STAGE_STATUS.md` (Stage 16 → complete; Stage 17 ready; row added), `TODO.md` (Stage 16 done; Stage 17 queued), `CONSISTENCY_AUDIT.md` (Stage 16 self-check), `OPEN_QUESTIONS.md` (status), `NAMING_REGISTRY.md` (status header), `17_generation_backlog/CONTENT_GAPS.md` (status)
+
+### Canon Established
+None. Audit/cleanup stage — no new world facts, proper nouns, mysteries, factions, gods, or artifacts.
+
+### Indexes Updated
+`CONTENT_INDEX.md` (status + audit reports). All per-category indexes verified present and current (no content changes required).
+
+### Gaps Identified
+All non-blocking and previously tracked: far-region settlement/NPC deep-builds (optional, deepen on approach); map images not generated; `/15_random_tables/` empty; RtHW pending (2026-06-16).
+
+### Next Recommended Pass
+Stage 17 — Live Campaign Operation. Begin Session 1 via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`; after each session run `SESSION_END_UPDATE_CHECKLIST.md`; run periodic live audits (Stage 18) every 3–5 sessions / after level-ups / before new regions or acts.
+
+---
+
 ## 2026-06-15 — Stage 15B: Full Character Arc Playability Fill
 
 ### Stage

@@ -2,7 +2,7 @@
 
 ---
 type: canon
-secrecy: player-safe
+secrecy: mixed
 status: static
 tags: [languages, scripts, ancient, clues]
 ---
@@ -10,6 +10,8 @@ tags: [languages, scripts, ancient, clues]
 ## AI Use
 
 Load to determine what a character can read/understand, especially at Concord ruins, archive cairns, and in Gravecaller or Concord Remnant contexts. **Concord Script** is a key clue gate — gaining the ability to read it is a meaningful step.
+
+> **Secrecy:** the Common/Regional/Cultural sections and the existence of Concord Script are player-safe. The **Ancient / Dead** and **Secret / Restricted** sections are DM-leaning — the "Old Custodial / inner Custodians / Hollow Court" link and what Concord Script "unlocks" are DM-only context. Do not surface the apex identity (surviving Custodians, the harvest, the under-shrine) when describing these to the player; present them as old, hard-to-read tongues whose deeper meaning is uncovered through play.
 
 ## Design Note
 

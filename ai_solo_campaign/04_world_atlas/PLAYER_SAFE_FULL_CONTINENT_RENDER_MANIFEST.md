@@ -2,14 +2,16 @@
 
 ---
 type: region
-secrecy: player-safe
+secrecy: dm-facing-player-safe-output
 status: static
 region: Orrun
 factions: []
 level_range: 1-20
 related: [FULL_WORLD_MAP_AUTHORITY.md, FULL_WORLD_MAP_COORDINATES.md, FULL_WORLD_MAP_PROMPTS.md, FULL_WORLD_MAP_LAYERS.md, WORLD_MAP_COORDINATES.md, WORLD_MAP_PROMPTS.md, REGION_INDEX.md, ../00_control/NAMING_REGISTRY.md]
-tags: [type:map, secrecy:player-safe, function:cartography, render-manifest, orrun, full-continent, label-authority]
+tags: [type:map, secrecy:dm-facing-player-safe-output, function:cartography, render-manifest, orrun, full-continent, label-authority]
 ---
+
+> **Secrecy classification:** This file instructs the AI what to OMIT from player-facing map output — it names DM-only locations (Concord Deep, Under-Shrine / Drowned Keystone, Hollow Court, surviving Custodians) only to forbid rendering or implying them. The *map output* it governs is player-safe; the file itself is **not** player-safe to share directly. Use it to generate/audit player maps; never hand it to the player.
 
 ## AI Use
 
@@ -21,7 +23,7 @@ This is the **single authoritative player-safe render manifest** for generating 
 - For **layer secrecy rules**, see `FULL_WORLD_MAP_LAYERS.md`.
 - For the **campaign-area zoom**, see `WORLD_MAP_COORDINATES.md` / `WORLD_MAP_PROMPTS.md`.
 
-This file is **player-safe in its entirety**. It contains no DM-only geography. Section 2 lists what must be kept off any rendered map.
+The **map output** this file governs is player-safe; **this file itself is DM-facing** because Section 2 lists "do not render" hidden names (the Concord Deep, the Under-Shrine / Drowned Keystone, the Hollow Court, the keystone, surviving Custodians). Use it to generate or audit player-facing maps. **Never hand this file directly to the player.**
 
 ---
 

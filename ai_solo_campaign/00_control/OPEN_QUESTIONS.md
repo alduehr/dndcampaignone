@@ -6,7 +6,7 @@ Track unresolved design questions that cannot be resolved by making a standard c
 
 ## Current Status
 
-Stages 0–15/15B complete (Stage 15B Full Character Arc Playability Fill: 2026-06-15). Stage 16 (Pre-Play Readiness Audit) is next. No blocking open questions currently recorded. Future unresolved design questions should be added here only when they cannot be resolved through a standard creative decision.
+Stages 0–16 complete (Stage 16 Pre-Play Readiness Audit: 2026-06-15; **correction pass: 2026-06-16**; verdict **READY FOR LIVE PLAY**). Stage 17 (Live Campaign Operation) is next, awaiting the user to begin play. The Stage 16 audit + correction pass raised **no new blocking open questions**. The correction pass's classification decisions were unambiguous (each reclassified file already carried explicit "do-not-render" / DM-only exclusion content that determined its real secrecy), so they were resolved as standard decisions, not open questions. Residual items (far-region deep-builds, map images, deferred random tables, RtHW) are tracked non-blocking design choices. Future unresolved design questions should be added here only when they cannot be resolved through a standard creative decision.
 
 ---
 

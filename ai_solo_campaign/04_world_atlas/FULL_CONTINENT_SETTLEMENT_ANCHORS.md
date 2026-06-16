@@ -2,14 +2,16 @@
 
 ---
 type: region
-secrecy: player-safe
+secrecy: dm-facing-player-safe-output
 status: static
 region: Orrun
 factions: []
 level_range: 1-20
 related: [FULL_WORLD_MAP_AUTHORITY.md, FULL_WORLD_MAP_COORDINATES.md, PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md, PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md, REGION_INDEX.md, ../00_control/NAMING_REGISTRY.md, ../00_control/CONTENT_INDEX.md]
-tags: [type:map, secrecy:player-safe, function:cartography, settlement-anchors, social-anchors, orrun, full-continent, render-layer]
+tags: [type:map, secrecy:dm-facing-player-safe-output, function:cartography, settlement-anchors, social-anchors, orrun, full-continent, render-layer]
 ---
+
+> **Secrecy classification:** This file instructs the AI what to OMIT from player-facing map output (see "Secrecy Rules" below, which name DM-only locations like the Concord Deep / Under-Shrine / Hollow Court only to forbid rendering them). The *map output* it produces is player-safe; the file itself is **not** player-safe to share directly, because it lists the excluded apex secrets. Use it to generate/audit player maps; never hand it to the player.
 
 ## AI Use
 

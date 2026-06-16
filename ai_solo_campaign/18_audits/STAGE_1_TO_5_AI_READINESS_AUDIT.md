@@ -44,8 +44,8 @@ Files/folders reviewed: `03_canon/` (CANON, DM_ONLY_CANON, PLAYER_SAFE_CANON), `
 |---|---|---|---|
 | Caradril NPC density (~40 useful city NPCs) is below the Stage 4 target band (75–100). | `08_npcs/SECONDARY_NPCS.md`, `MINOR_NPCS.md`, `caradril_districts/` | The city is a long-term mid-game hub; thin NPC coverage will force improvisation once city play begins in earnest. | Expand toward target in Stage 9 (already a TODO). Not blocking — quality coverage exists for all 8 districts and all city factions. |
 | No standalone full bestiary; adversary stats live only inside zone/city encounter tables + the 5 Act 1 threat profiles. | `13_encounters_and_bestiary/` | Mid/high-tier (Acts 2–5) threats are not yet mechanically usable; the AI DM has no statted antagonist vocabulary above ~level 6. | Build the bestiary in Stage 13 (tracked). Act 1–early play is fully covered. |
-| No `REWARDS_BY_LEVEL.md` / treasure-by-level; dungeon and quest rewards reference "level-appropriate items" without concrete itemization. | `10_dungeons_and_ruins/`, quest files | The AI DM must improvise reward specifics, risking under/over-rewarding a solo PC. | Build treasure/rewards in Stage 14 (tracked). |
-| No standalone act files for Acts 2–5; the arc above level 4 exists as shape only. | `12_campaign_arc/` | Play beyond level 4 is not yet runnable in detail. | Build in Stage 15 (tracked). Expected at this stage of development. |
+| ~~No `REWARDS_BY_LEVEL.md` / treasure-by-level; dungeon and quest rewards reference "level-appropriate items" without concrete itemization.~~ **RESOLVED** (Stage 14 + Stage 16 correction pass): the full treasure library exists in `14_treasure_and_artifacts/`, and `REWARDS_BY_LEVEL.md` now exists as the by-level forwarding index. | `10_dungeons_and_ruins/`, quest files | (was) AI DM had to improvise reward specifics. | Done. |
+| ~~No standalone act files for Acts 2–5; the arc above level 4 exists as shape only.~~ **RESOLVED** (Stage 15/15B): full Tier 2–4 / Act 2–5 arc files exist in `15_campaign_arcs/`. | `12_campaign_arc/`, `15_campaign_arcs/` | (was) Play beyond level 4 not runnable in detail. | Done. |
 
 ## Low Findings
 
@@ -98,10 +98,10 @@ None material. CONTENT_INDEX, TAG_INDEX, RETRIEVAL_GUIDE, NPC_INDEX, FACTION_IND
 
 1. **(DONE — High)** Repoint the two broken Act 1 arc-spine quest references. *Fixed inline during this audit.*
 2. **(Medium, Stage 9)** Expand Caradril NPC roster toward the 75–100 target before heavy city play.
-3. **(Medium, Stage 13)** Build the standalone bestiary (mid/high tiers) so Acts 2+ are mechanically usable.
-4. **(Medium, Stage 14)** Build `REWARDS_BY_LEVEL.md` / treasure-by-level and stat the referenced dungeon rewards.
-5. **(Medium, Stage 15)** Build Acts 2–5 standalone arc files + villain-escalation / endgame-states.
-6. **(Low, Stages 9–11)** Create `QUEST_INDEX.md`, NPC relationship/secret/voice tools, optional per-clue files, and populate `/15_random_tables/`.
+3. **(DONE — Stage 13)** Build the standalone bestiary (mid/high tiers) so Acts 2+ are mechanically usable. *Bestiary library exists in `13_encounters_and_bestiary/`.*
+4. **(DONE — Stage 14 + Stage 16 correction)** Build `REWARDS_BY_LEVEL.md` / treasure-by-level and stat the referenced dungeon rewards. *Treasure library + `REWARDS_BY_LEVEL.md` exist.*
+5. **(DONE — Stage 15/15B)** Build Acts 2–5 standalone arc files + villain-escalation / endgame-states. *All exist in `15_campaign_arcs/`.*
+6. **(Partial, Stages 9–11)** `QUEST_INDEX.md` and NPC relationship/secret/voice tools now exist. `/15_random_tables/` remains intentionally deferred (non-blocking; encounter tables live in `13_encounters_and_bestiary/`).
 
 None of items 2–6 block Stage 7 (Regional Expansion Ring 1). They are expected forward-stage work already tracked in TODO/CONTENT_GAPS.
 

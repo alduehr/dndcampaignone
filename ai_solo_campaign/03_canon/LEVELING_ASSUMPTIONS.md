@@ -2,7 +2,7 @@
 
 ---
 type: canon
-secrecy: player-safe
+secrecy: mixed
 status: static
 tags: [leveling, milestone, pacing, solo]
 ---
@@ -10,6 +10,8 @@ tags: [leveling, milestone, pacing, solo]
 ## AI Use
 
 Load when deciding whether to level the player up. Use **milestone leveling** tied to the triggers below. Communicate level-ups at natural rest/reflection beats.
+
+> **Secrecy:** the leveling mechanics, pacing, and solo-play notes are player-safe. The **Act labels** ("the spreading harvest," "The truth of the Concord," "The Hollow Court," "the fate of the Remembrance") and the L4→5 trigger phrasing are **DM-only act names that name hidden truth** — they are the DM's structural map, not facts to state to the player. Describe level-ups to the player by what they *did* and *learned* in fiction, never by the arc's hidden labels.
 
 ## Leveling System
 

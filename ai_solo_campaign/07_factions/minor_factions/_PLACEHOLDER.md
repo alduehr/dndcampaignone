@@ -6,7 +6,7 @@ This folder will contain files for minor factions — local guilds, small cults,
 
 ## Current Status
 
-**Empty — Stage 0 scaffold.** Minor factions will be added during Stage 3 and later passes.
+**Intentionally empty.** Minor factions (city power blocs, criminal networks, the Tollmen road-bandits, guilds, local councils) are authored inline within their settlement/region/city-district files rather than as standalone files here. See `../FACTION_INDEX.md` for the full minor-faction roster and where each is defined. This folder is deferred and non-blocking for live play.
 
 ## Expected Contents
 

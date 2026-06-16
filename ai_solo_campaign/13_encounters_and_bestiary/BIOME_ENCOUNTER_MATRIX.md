@@ -2,13 +2,15 @@
 
 ---
 type: encounter
-secrecy: player-safe
+secrecy: mixed
 status: static
 region: Orrun
 level_range: 1-20
 related: [BESTIARY_INDEX.md, REGIONAL_ENCOUNTER_TABLES.md, TRAVEL_ENCOUNTERS.md, ../04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md]
-tags: [type:encounter, secrecy:player-safe, function:ecology, biome, cross-reference]
+tags: [type:encounter, secrecy:mixed, function:ecology, biome, cross-reference]
 ---
+
+> **Secrecy note (DM):** This file is **mixed** — the biome ecology is player-safe, but the gated "presences," "deep horror," and "harvest-leak / harvest-touched" overlays are DM-side placement guidance. Keep gated apex creatures and the harvest term off the player's table until earned in play.
 
 ## AI Use
 

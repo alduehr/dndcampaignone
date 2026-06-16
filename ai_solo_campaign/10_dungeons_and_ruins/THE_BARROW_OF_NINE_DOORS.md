@@ -64,7 +64,7 @@ No safe long rest inside (the dread aura, the drifting dead). Short rests possib
 
 ## Treasure
 
-- Pre-Concord grave-goods in the True Threshold (real value: ~120 gp in old gold and a *non-cursed* minor magic item, e.g. a cloak or amulet themed to the dead — see `REWARDS_BY_LEVEL.md` when built; tier-2 appropriate).
+- Pre-Concord grave-goods in the True Threshold (real value: ~120 gp in old gold and a *non-cursed* minor magic item, e.g. a cloak or amulet themed to the dead — see `../14_treasure_and_artifacts/REWARDS_BY_LEVEL.md` and `DUNGEON_REWARD_INDEX.md`/`MAGIC_ITEM_INDEX.md`; tier-2 appropriate).
 - A clean Remembrance relic and a Script rubbing (M3 + M6 clues, portable).
 - The barrow-lord's **testimony** (the real prize: an ancient dead's account of watching the network feed — a strong, gated M5/M6 clue).
 

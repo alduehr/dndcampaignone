@@ -12,7 +12,7 @@ All world facts that are safe to share with or in the presence of the player. Th
 
 ## Current Status
 
-**Stages 1–5 and 7 complete; Full-World Cartographic Expansion pass added wider-continent player-safe geography.** Baseline player-safe canon established in Stage 1; Stages 3–5 added region/city/Act 1 facts; **Stage 7 added player-safe facts about the three Ring 1 regions** (Ashgarden Vale, Tollwood, Pale Coast) — see "Known Facts About the Ring 1 Regions." The **Full-World pass added "The Wider Continent of Orrun"** — the broad shape of the rest of the continent a well-traveled person has heard of (far-future content; not required for early play). The "Discovered During Play" section starts empty and grows as the campaign runs.
+**Stages 1–15B complete; Stage 16 (Pre-Play Readiness Audit + correction pass) complete.** Baseline player-safe canon established in Stage 1; Stages 3–5 added region/city/Act 1 facts; **Stage 7 added player-safe facts about the three Ring 1 regions** (Ashgarden Vale, Tollwood, Pale Coast) — see "Known Facts About the Ring 1 Regions"; the **Full-World pass added "The Wider Continent of Orrun"** (the broad shape of the rest of the continent a well-traveled person has heard of; far-future content, not required for early play). Stages 8–15B (factions, NPCs, quests, mysteries, dungeons, encounters, treasure, level 5–20 arc) added **no new player-safe world facts** — they are play-layer/depth passes. The "Discovered During Play" section starts empty and grows as the campaign runs.
 
 ---
 
@@ -123,6 +123,8 @@ A traveler leaving the Reach can go three ways — south (the Vale), east (the T
 - **Gravecallers** — a secretive, feared group rumored to speak with the dead. Outlawed in most towns. Most people consider them dangerous; some quietly seek them out.
 - **Concord Remnant** — scholars and zealots who want to rebuild the lost Custodian Concord. Seen as harmless dreamers by most.
 - **The Hollow Court** — a legend: a hidden court of the dead said to rule beneath the Reach. Most consider it a ghost story.
+
+> **Secrecy note (DM):** Only the *name-as-folklore* above is player-safe — the Hollow Court as an unproven ghost story. The truth is DM-only and governed by `DM_ONLY_CANON.md` and `11_mysteries_and_secrets/SECRET_PROTECTION_MATRIX.md`. It must never appear in this file or be surfaced until earned in play.
 
 ## The Reach at Campaign Start (Player-Safe — Act 1 Situation)
 

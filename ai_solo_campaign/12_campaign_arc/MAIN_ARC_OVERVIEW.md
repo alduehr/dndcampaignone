@@ -17,6 +17,8 @@ related: [LEVEL_1_TO_20_PROGRESSION.md, ../03_canon/DM_ONLY_CANON.md, ../11_myst
 
 Load at the start of a new act, when a major revelation approaches, or when calibrating what the player has discovered.
 
+> **Where the runnable arc lives (Stage 15 / 15B):** this file is the high-level *shape*. The detailed, runnable level 5–20 arc is in `../15_campaign_arcs/` — start at `../15_campaign_arcs/LEVEL_5_TO_20_OVERVIEW.md` (tier↔act crosswalk: Tier 2/3/4 = L5–10 / L11–16 / L17–20 = Acts 2–5), then the per-tier files (`TIER_2_LEVELS_5_10.md`, `TIER_3_LEVELS_11_16.md`, `TIER_4_LEVELS_17_20.md`), the concrete `TIER_*_PLAYABLE_PATHS_*` playbooks, `REGIONAL_ARC_PACKS_LEVEL_5_TO_20.md` (per-region runnable content), `ENDGAME_STRUCTURE.md` + `FINAL_REVELATION_AND_ENDING_PATHS.md` (the five endings), and `FAILURE_STATES_AND_WORLD_CONSEQUENCES.md`. The bare `ACT_2`–`ACT_5` / `ENDGAME_STATES` / `VILLAIN_ESCALATION` filenames referenced below are forwarding stubs in `../15_campaign_arcs/` that point into that set. Act 1 (L1–4) is in this folder: `ACT_1_LEVELS_1_4.md`.
+
 ---
 
 ## Campaign Premise (DM-Facing)

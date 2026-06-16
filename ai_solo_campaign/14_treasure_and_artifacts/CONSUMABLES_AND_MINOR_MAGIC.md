@@ -2,13 +2,15 @@
 
 ---
 type: index
-secrecy: player-safe
+secrecy: mixed
 status: static
 region: Orrun
 level_range: 1-20
 related: [MAGIC_ITEM_INDEX.md, REGIONAL_TREASURE_TABLES.md, SOLO_REWARD_BALANCE.md, ECONOMY_AND_PRICING_GUIDE.md, ../03_canon/MAGIC_RULES.md]
-tags: [type:index, secrecy:player-safe, consumable, potion, scroll, charm, one-use, solo-tuned]
+tags: [type:index, secrecy:mixed, consumable, potion, scroll, charm, one-use, solo-tuned]
 ---
+
+> **Secrecy note (DM):** This file is **mixed** — the consumables catalog is player-safe, but the resurrection-caution framing ("the harvest's danger," "the broken Last Door," scrolls as "clues to the broken Last Door") is DM-side guidance referencing DM-only truth. Present the *availability and risk* of resurrection to the player; do not surface the harvest or the broken-Last-Door truth until earned.
 
 ## AI Use
 
