@@ -22,6 +22,7 @@ This is the **single authoritative player-safe render manifest** for generating 
 - For **raw coordinates**, see `FULL_WORLD_MAP_COORDINATES.md` (this manifest's positions are derived from it; positions are unchanged).
 - For **layer secrecy rules**, see `FULL_WORLD_MAP_LAYERS.md`.
 - For the **campaign-area zoom**, see `WORLD_MAP_COORDINATES.md` / `WORLD_MAP_PROMPTS.md`.
+- For **deterministic geometry** (coastline, river/range polylines, terrain/region polygons, route waypoints) and the **master feature registry**, see `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md`, `MAP_FEATURE_REGISTRY.md`, `ROADS_RIVERS_AND_ROUTES_AUTHORITY.md`, `WATER_AND_SHORELINE_AUTHORITY.md`, and `MOUNTAINS_PASSES_AND_TERRAIN_AUTHORITY.md` (Cartography Authority Pass, 2026-06-16). This manifest remains the **label authority**; those files give the geometry behind the labels. For **per-region / per-city / per-settlement** maps, use the packets in `region_map_packets/`, `../06_settlements/city_map_packets/`, and `../06_settlements/settlement_map_packets/`; for **adventure-site placement**, `../10_dungeons_and_ruins/ADVENTURE_SITE_CARTOGRAPHY_INDEX.md`.
 
 The **map output** this file governs is player-safe; **this file itself is DM-facing** because Section 2 lists "do not render" hidden names (the Concord Deep, the Under-Shrine / Drowned Keystone, the Hollow Court, the keystone, surviving Custodians). Use it to generate or audit player-facing maps. **Never hand this file directly to the player.**
 

@@ -7,13 +7,13 @@ status: static
 region: Orrun
 factions: []
 level_range: 1-20
-related: [WORLD_MAP_AUTHORITY.md, MAP_DESCRIPTION.md, WORLD_MAP_LAYERS.md, WORLD_MAP_PROMPTS.md, TRAVEL_ROUTES_RING1.md]
+related: [CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md, WORLD_MAP_AUTHORITY.md, MAP_DESCRIPTION.md, WORLD_MAP_LAYERS.md, WORLD_MAP_PROMPTS.md, TRAVEL_ROUTES_RING1.md]
 tags: [type:map, secrecy:mixed, function:cartography, coordinates, grid, orrun]
 ---
 
 ## AI Use
 
-A normalized **0–100 grid** for the mapped NW quarter of Orrun, for placing features on a future image map and for spatial reasoning. **North = top (Y=0), south = bottom (Y=100); west = left (X=0), east = right (X=100).** The grid spans only the mapped quarter (see `WORLD_MAP_AUTHORITY.md` §9), not all of Orrun.
+A normalized **0–100 grid** for the mapped NW quarter of Orrun, for placing features on a future image map and for spatial reasoning. **North = top (Y=0), south = bottom (Y=100); west = left (X=0), east = right (X=100).** The grid spans only the mapped quarter (see `WORLD_MAP_AUTHORITY.md` §9), not all of Orrun. **(Cartography Authority Pass, 2026-06-16: the positions here are integrated into explicit polylines/polygons/points in `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md` via the cluster↔full-continent transform in §15. For fine intra-cluster placement use this file; for continental context use `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md`.)**
 
 **Confidence:** `high` = directly established by canon (named direction + travel time); `medium` = consistent inference from existing descriptions; `low` = placeholder, expansion will pin it down. **DM-only rows are flagged; never render them on a player-facing map.**
 

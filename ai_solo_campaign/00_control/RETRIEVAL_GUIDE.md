@@ -6,7 +6,7 @@ Tells the AI DM which files to load, when to load them, and how to use them. Thi
 
 ## Current Status
 
-**Current through Stage 15B (full level 1–20 arc) + Stage 16 correction pass.** The repo is built and audited for live solo play. All of the following authored systems exist and are loadable: canon (player-safe / DM-only split), runtime state, AI DM protocols, the Sundering Reach (starting region), Caradril (first major city), three Ring 1 adjacent regions, the full continent of Orrun (5 built + 13 placeholder far regions), seven major factions (operational with clocks and quest chains), the NPC codex (50 majors + secondaries + minors + far-continent rosters), the quest library, the mystery/clue/secret web, dungeons and adventure sites, the encounter/bestiary library, the treasure/reward/artifact library, and the level 5–20 arc (Tiers 2–4, endgame, region/faction escalation, off-route and ignore-arc guides). Stage 17 (Live Campaign Operation) is next — begin via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`.
+**Current through Stage 15B (full level 1–20 arc) + Stage 16 correction pass + Cartography Authority Pass (2026-06-16).** The repo is built and audited for live solo play, and is now cartography-deterministic (continent, regions, cities, settlements, routes, water, terrain, and all 36 adventure sites are coordinate-anchored). The Cartography Authority Pass created the master geometry/registry/route/water/terrain authority files in `04_world_atlas/`, 18 region map packets (`04_world_atlas/region_map_packets/`), 4 city map packets + 18 settlement map packets (`06_settlements/city_map_packets/`, `06_settlements/settlement_map_packets/`), and the adventure-site cartography index (`10_dungeons_and_ruins/ADVENTURE_SITE_CARTOGRAPHY_INDEX.md`). All of the following authored systems exist and are loadable: canon (player-safe / DM-only split), runtime state, AI DM protocols, the Sundering Reach (starting region), Caradril (first major city), three Ring 1 adjacent regions, the full continent of Orrun (5 built + 13 placeholder far regions), seven major factions (operational with clocks and quest chains), the NPC codex (50 majors + secondaries + minors + far-continent rosters), the quest library, the mystery/clue/secret web, dungeons and adventure sites, the encounter/bestiary library, the treasure/reward/artifact library, and the level 5–20 arc (Tiers 2–4, endgame, region/faction escalation, off-route and ignore-arc guides). Stage 17 (Live Campaign Operation) is next — begin via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`.
 
 ---
 
@@ -78,6 +78,17 @@ Then load the world files for the current location, active quests, and NPCs pres
 - `15_campaign_arcs/REGION_TO_REGION_TRANSITION_GUIDE.md` + `15_campaign_arcs/PLAYER_GOES_ANYWHERE_GUIDE.md`
 - `15_campaign_arcs/CONTINENTAL_PRESSURE_TIMELINE.md` for what's happening far away
 - **Endgame stays vertical under Hollowmere — never relocate the keystone/Concord Deep/Hollow Court to a distant land.**
+
+### Cartography and map rendering (generating / placing maps)
+- **Master geometry:** `04_world_atlas/CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md` (coastline, rivers, ranges, terrain polygons, region boundaries, routes; the 0–100 render grid).
+- **Feature registry:** `04_world_atlas/MAP_FEATURE_REGISTRY.md` (every map-visible feature with coords, visibility flags, confidence) — filter `player_safe_visibility = yes` for player maps; add the DM-only rows for DM maps.
+- **Route/water/terrain geometry:** `04_world_atlas/ROADS_RIVERS_AND_ROUTES_AUTHORITY.md` · `WATER_AND_SHORELINE_AUTHORITY.md` · `MOUNTAINS_PASSES_AND_TERRAIN_AUTHORITY.md`.
+- **Label authority + image prompts:** `04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` + `PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md` (player-safe label rules; copy into image prompts).
+- **A region map:** `04_world_atlas/region_map_packets/REGION_[NAME].md` (local grid, terrain/water/routes/settlements/dungeons, player-safe vs DM-only layers).
+- **A city map:** `06_settlements/city_map_packets/[CITY]_CITY_MAP.md` (Caradril / Glassmere / Calderport / Ashfast — districts, bridges, road exits, landmarks).
+- **A settlement map:** `06_settlements/settlement_map_packets/SETTLEMENT_[NAME]_MAP.md`.
+- **Placing an adventure site:** `10_dungeons_and_ruins/ADVENTURE_SITE_CARTOGRAPHY_INDEX.md` (D01–D36 coords + surface markers + player/DM visibility).
+- **DM-only / NEVER on player maps:** the Concord Deep, the Under-Shrine / Drowned Keystone, the Hollow Court seat, node-network links, and D23. The endgame is **vertical beneath Hollowmere**, never a distant land. Far ruins are surface/echo only, drawn unexplained.
 
 ### Entering a dungeon or adventure site
 - `10_dungeons_and_ruins/DUNGEON_INDEX.md` and/or `10_dungeons_and_ruins/RUIN_INDEX.md` to locate the file

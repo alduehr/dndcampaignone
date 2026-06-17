@@ -7,7 +7,7 @@ status: static
 region: Orrun
 factions: []
 level_range: 1-20
-related: [FULL_WORLD_MAP_AUTHORITY.md, FULL_WORLD_MAP_COORDINATES.md, FULL_WORLD_MAP_LAYERS.md, WORLD_MAP_PROMPTS.md]
+related: [CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md, FULL_WORLD_MAP_AUTHORITY.md, FULL_WORLD_MAP_COORDINATES.md, FULL_WORLD_MAP_LAYERS.md, WORLD_MAP_PROMPTS.md]
 tags: [type:map, secrecy:mixed, function:cartography, image-prompts, orrun, full-continent]
 ---
 

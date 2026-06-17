@@ -13,15 +13,19 @@ related: [WORLD_MAP_AUTHORITY.md, WORLD_MAP_COORDINATES.md, WORLD_OVERVIEW.md, .
 
 Quick index of all regions of Orrun — authored (playable now), Ring 2/midgame placeholders, and **full-continent placeholders** (the whole continent, named/positioned, not yet deep-built). For campaign-area cartographic data see `WORLD_MAP_AUTHORITY.md` / `WORLD_MAP_COORDINATES.md`; for **full-continent** data see `FULL_WORLD_MAP_AUTHORITY.md` / `FULL_WORLD_MAP_COORDINATES.md`. **Do not surface DM-only placeholder rows to the player.**
 
+> **Map packets (Cartography Authority Pass, 2026-06-16):** every map-authoritative region below now has a regional map packet in `region_map_packets/REGION_[NAME].md` (local grid, terrain/water/routes/settlements/dungeons, player-safe vs DM-only layers). The four major cities have city packets in `../06_settlements/city_map_packets/`; important settlements have packets in `../06_settlements/settlement_map_packets/`; all 36 adventure sites are coordinate-anchored in `../10_dungeons_and_ruins/ADVENTURE_SITE_CARTOGRAPHY_INDEX.md`. Master geometry: `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md`.
+
 ## Authored Regions (Playable Now)
 
-| Region | Dir from Reach | File | Level | Secrecy | Grid (X,Y) | Status |
-|---|---|---|---|---|---|---|
-| Sundering Reach | center | `../05_regions/SUNDERING_REACH.md` | 1–6/8 | mixed | (50,42) | Deep-built (Stage 3); starting region |
-| Ashgarden Vale | south | `../05_regions/ASHGARDEN_VALE.md` | 1–6 | mixed | (52,68) | Deep-built (Stage 7); Ring 1 |
-| Tollwood | east | `../05_regions/TOLLWOOD.md` | 2–7 | mixed | (74,40) | Deep-built (Stage 7); Ring 1 |
-| Pale Coast | west | `../05_regions/PALE_COAST.md` | 2–7 | mixed | (18,38) | Deep-built (Stage 7); Ring 1 |
-| Caradril (city-state) | southeast | `../06_settlements/CARADRIL.md` | 5–12 | mixed | (82,80) | Deep-built (Stage 4); first major city / mid-game hub |
+| Region | Dir from Reach | File | Map packet | Level | Secrecy | Grid (X,Y) | Status |
+|---|---|---|---|---|---|---|---|
+| Sundering Reach | center | `../05_regions/SUNDERING_REACH.md` | `region_map_packets/REGION_SUNDERING_REACH.md` | 1–6/8 | mixed | (50,42) | Deep-built (Stage 3); starting region |
+| Ashgarden Vale | south | `../05_regions/ASHGARDEN_VALE.md` | `region_map_packets/REGION_ASHGARDEN_VALE.md` | 1–6 | mixed | (52,68) | Deep-built (Stage 7); Ring 1 |
+| Tollwood | east | `../05_regions/TOLLWOOD.md` | `region_map_packets/REGION_TOLLWOOD.md` | 2–7 | mixed | (74,40) | Deep-built (Stage 7); Ring 1 |
+| Pale Coast | west | `../05_regions/PALE_COAST.md` | `region_map_packets/REGION_PALE_COAST.md` | 2–7 | mixed | (18,38) | Deep-built (Stage 7); Ring 1 |
+| Caradril (city-state) | southeast | `../06_settlements/CARADRIL.md` | `region_map_packets/REGION_CARADRIL.md` + `../06_settlements/city_map_packets/CARADRIL_CITY_MAP.md` | 5–12 | mixed | (82,80) | Deep-built (Stage 4); first major city / mid-game hub |
+
+> **Far-region map packets:** the full-continent placeholders below each have a packet too — `region_map_packets/REGION_VERDANCE_REACHES.md`, `REGION_GLASSMERE_LEAGUE.md`, `REGION_MARROWDOWNS.md`, `REGION_SALLOWMARCH_PROTECTORATE.md`, `REGION_HOLLOW_GULF_PORTS.md`, `REGION_WENDER_STEPPE.md`, `REGION_KARRAN_MARCHES.md`, `REGION_EMBERFELL_THEOCRACY.md`, `REGION_SALTMERE_REACHES.md`, `REGION_CONCORD_HEARTLANDS.md`, `REGION_HETHEWALD_FREE_HOLDS.md`, `REGION_SUNMARK.md`, `REGION_HIGHMARK_PASSES.md`. Far cities: `../06_settlements/city_map_packets/GLASSMERE_CITY_MAP.md`, `CALDERPORT_CITY_MAP.md`, `ASHFAST_CITY_MAP.md`.
 
 ## Map-Authoritative Placeholders (Named, Positioned, NOT Yet Built)
 

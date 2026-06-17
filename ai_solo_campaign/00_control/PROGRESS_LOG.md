@@ -6,6 +6,48 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-16 — Cartography Authority Pass
+
+### Stage
+Post-Stage-16 infrastructure pass (no campaign content; resolves existing geography into deterministic cartographic data). Stage 17 (Live Play) remains next.
+
+### Summary
+Made the repo cartography-deterministic. Consolidated the existing continent-scale coordinate/anchor/render data into explicit geometry (polylines, polygons, points) and added the missing local-grid layers so a mapper can render player-safe and DM-only maps of the continent, every region, the four major cities, every important settlement, all named routes/water/terrain, and all 36 adventure sites without guessing. Created 5 master authority files, 18 region map packets (all map-authoritative regions; the Cindern Waste is covered within the Emberfell packet), 4 city map packets, 18 settlement map packets, 1 adventure-site cartography index, and 1 readiness audit. No new campaign content, factions, NPCs, quests, mysteries, gods, artifacts, or proper nouns — existing canon resolved into coordinates. Player-safe and DM-only map layers cleanly separated throughout; the DM-only apex (Concord Deep, Under-Shrine / Drowned Keystone, Hollow Court seat, node-network, D23) is marked never-render and the endgame kept vertical beneath Hollowmere. Verdict: **MAP READY WITH MINOR NON-BLOCKING GAPS.**
+
+### Files Created
+- `04_world_atlas/CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md` — master geometry (grid, coastline, rivers, ranges, terrain/region polygons, routes, player-safe/DM-only layers, transform)
+- `04_world_atlas/MAP_FEATURE_REGISTRY.md` — single registry of ~136 map-visible features (coords, visibility, confidence)
+- `04_world_atlas/ROADS_RIVERS_AND_ROUTES_AUTHORITY.md` — every road/river/sea-lane as ordered waypoints
+- `04_world_atlas/WATER_AND_SHORELINE_AUTHORITY.md` — ocean/sea/lake/river/wetland geometry + crossings
+- `04_world_atlas/MOUNTAINS_PASSES_AND_TERRAIN_AUTHORITY.md` — range spines, terrain polygons, passes
+- `04_world_atlas/region_map_packets/` — 18 region packets (REGION_SUNDERING_REACH, _ASHGARDEN_VALE, _TOLLWOOD, _PALE_COAST, _CARADRIL, + 13 far regions incl. _HIGHMARK_PASSES; Cindern Waste folded into _EMBERFELL_THEOCRACY)
+- `06_settlements/city_map_packets/` — 4 city packets (CARADRIL, GLASSMERE, CALDERPORT, ASHFAST)
+- `06_settlements/settlement_map_packets/` — 18 settlement packets (9 NW cluster + 9 far light-anchor)
+- `10_dungeons_and_ruins/ADVENTURE_SITE_CARTOGRAPHY_INDEX.md` — D01–D36 coordinate anchors + surface markers + visibility
+- `18_audits/CARTOGRAPHY_READINESS_AUDIT.md` — readiness verdict
+
+### Files Changed
+- `00_control/RETRIEVAL_GUIDE.md` — status line + new "Cartography and map rendering" scenario
+- `00_control/TAG_INDEX.md` — Cartography Authority Pass entry + new tags
+- `04_world_atlas/REGION_INDEX.md` — region/city/settlement packet paths
+- `04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md`, `PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md`, `FULL_WORLD_MAP_COORDINATES.md` — cross-references to the new geometry authority
+- `10_dungeons_and_ruins/DUNGEON_INDEX.md` — link to the cartography index; D23-never-render note
+- `00_control/CONTENT_INDEX.md`, `00_control/NAMING_REGISTRY.md`, `00_control/TODO.md`, `17_generation_backlog/CONTENT_GAPS.md` — pass recorded
+
+### Canon Established
+- No new canon. Coordinate conventions reconciled (render Y=0 top authoritative; SW-origin conversion documented). Far cities given canonical-enough placeholder internal layouts (e.g. Glassmere two-bank from "Three Bridges").
+
+### Indexes Updated
+- RETRIEVAL_GUIDE, TAG_INDEX, REGION_INDEX, DUNGEON_INDEX, CONTENT_INDEX.
+
+### Gaps Identified
+- Far-continent coastline/river meanders, far-region internal geometry, and far-city interiors remain LOW-confidence placeholders (non-blocking; improv-safe).
+
+### Next Recommended Pass
+- Stage 17 (Live Campaign Operation), or — if desired before play — generate actual map images from the now-deterministic packets.
+
+---
+
 ## 2026-06-16 — Stage 16: Final Cleanup Pass
 
 ### Stage

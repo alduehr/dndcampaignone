@@ -22,6 +22,8 @@ Master index of every authored adventure site (dungeon, ruin, environmental-dung
 
 ---
 
+> **Cartography (2026-06-16):** every site below is coordinate-anchored in [`ADVENTURE_SITE_CARTOGRAPHY_INDEX.md`](ADVENTURE_SITE_CARTOGRAPHY_INDEX.md) — full-continent render-grid (x,y), region-packet local grid, nearest settlement, surface marker, and player-map vs DM-map visibility. **D23 (Under-Shrine Approach) is DM-ONLY: never on any player map.** The site table below carries gameplay metadata; the cartography index is the source of truth for all map coordinates.
+
 ## Master Site Table
 
 | site_id | Name | Type | Region | Level | Solo Danger | Secrecy | Mystery / REV links | Faction links | File | Status |

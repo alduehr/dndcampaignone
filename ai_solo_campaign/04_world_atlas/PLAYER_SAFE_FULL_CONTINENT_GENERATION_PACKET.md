@@ -22,7 +22,7 @@ All content is copied directly from `PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.
 
 The **generated/rendered map output** is player-safe; **this file itself is DM-facing** because Section C contains a "NEVER include" list naming hidden names (the Concord Deep, the Under-Shrine / Drowned Keystone, the Hollow Court, the keystone, surviving Custodians). It is a DM-side generation tool. **Never hand this file directly to the player.**
 
-> **If the image model has access to the repository:** Use `PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` as the authoritative source and `FULL_WORLD_MAP_PROMPTS.md` Prompt 1 as the generation prompt instead of this packet.
+> **If the image model has access to the repository:** Use `PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` as the authoritative source and `FULL_WORLD_MAP_PROMPTS.md` Prompt 1 as the generation prompt instead of this packet. For **deterministic geometry behind the labels** (coastline, river/range polylines, terrain/region polygons, route waypoints), see `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md` and the route/water/terrain authority files (Cartography Authority Pass, 2026-06-16). This packet's label set is consistent with those geometry files.
 
 ---
 

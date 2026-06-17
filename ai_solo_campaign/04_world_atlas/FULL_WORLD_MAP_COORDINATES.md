@@ -13,7 +13,7 @@ tags: [type:map, secrecy:mixed, function:cartography, coordinates, grid, orrun, 
 
 ## AI Use
 
-A normalized **0–100 grid for the entire continent of Orrun** (plus Vael's placeholder landmasses), for placing far features and for whole-world spatial reasoning. **North = top (Y=0), south = bottom (Y=100); west = left (X=0), east = right (X=100).** This grid spans **all of Orrun**, unlike `WORLD_MAP_COORDINATES.md`, which is a ~3× zoom on the NW corner only.
+A normalized **0–100 grid for the entire continent of Orrun** (plus Vael's placeholder landmasses), for placing far features and for whole-world spatial reasoning. **(Cartography Authority Pass, 2026-06-16: the centroids/positions here are consolidated into explicit polylines/polygons/points in `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md`, and every feature is registered with confidence in `MAP_FEATURE_REGISTRY.md`. This file remains the raw centroid table; those files are the geometry authority.)** **North = top (Y=0), south = bottom (Y=100); west = left (X=0), east = right (X=100).** This grid spans **all of Orrun**, unlike `WORLD_MAP_COORDINATES.md`, which is a ~3× zoom on the NW corner only.
 
 **Confidence:** `high` = directly established by existing canon (campaign-cluster rows, re-anchored); `medium` = consistent inference / logical continental placement; `low` = placeholder, expansion will pin down. **DM-only rows are flagged; never render them on a player-facing map.**
 
