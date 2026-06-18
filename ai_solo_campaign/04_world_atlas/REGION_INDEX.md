@@ -15,6 +15,8 @@ Quick index of all regions of Orrun — authored (playable now), Ring 2/midgame 
 
 > **Map packets (Cartography Authority Pass, 2026-06-16):** every map-authoritative region below now has a regional map packet in `region_map_packets/REGION_[NAME].md` (local grid, terrain/water/routes/settlements/dungeons, player-safe vs DM-only layers). The four major cities have city packets in `../06_settlements/city_map_packets/`; important settlements have packets in `../06_settlements/settlement_map_packets/`; all 36 adventure sites are coordinate-anchored in `../10_dungeons_and_ruins/ADVENTURE_SITE_CARTOGRAPHY_INDEX.md`. Master geometry: `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md`.
 
+> **Eagle-test depth (Exploration-Determinism Pass, 2026-06-18):** all 13 far-region map packets have been deepened to full D&D-usable depth (level range, solo danger, encounter themes with stat refs, service/facility notes, NPC roster links, mechanical anchors). All 3 far city packets (Glassmere, Calderport, Ashfast) deepened to Caradril-style depth. All 40 settlement map packets (16 NW cluster + 24 far-continent; glob-verified) are at eagle-test floor: 4–8 notable areas at fixed local-grid coords, services, NPC links, 2–3 quest hooks, encounter/treasure refs, Player-Safe + DM-Only layers. Verdict: **CONTINENT IS EXPLORATION-DETERMINISTIC.**
+
 ## Authored Regions (Playable Now)
 
 | Region | Dir from Reach | File | Map packet | Level | Secrecy | Grid (X,Y) | Status |

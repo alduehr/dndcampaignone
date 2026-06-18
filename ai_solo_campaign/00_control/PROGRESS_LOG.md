@@ -6,6 +6,42 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-18 — Exploration-Determinism Pass
+
+### Stage
+Post-Stage-16 infrastructure pass. Extends the Cartography Authority Pass (2026-06-16) from "cartography-deterministic" to "exploration-deterministic." Stage 17 (Live Play) remains next.
+
+### Summary
+Made the repo exploration-deterministic. The Cartography Authority Pass (2026-06-16) established deterministic coordinate geometry for the continent, all regions, the four major cities, 18 settlements, and all 36 adventure sites. This pass expanded the settlement layer from 18 to 40 settlement map packets (16 NW cluster + 24 far-continent), bringing every reachable settlement to the "eagle-test floor": 4–8 notable areas at fixed local coordinates, services (rest, resupply, healing, info, faction contacts), law/threat DCs, NPC links from authored far-region rosters, 2–3 quest hooks, and encounter/treasure references. Phases 0–5 completed: Phase 0 (geometry reconciliation note removed), Phase 1 (full-continent geometry committed), Phase 2 (all 13 far-region map packets deepened to D&D-usable level-range/encounter/service/NPC depth), Phase 3 (3 far cities deepened to Caradril-style internal-layout depth), Phase 4 (22 new settlement packets; total 40 — initial tracking claimed 42 but a glob-verification completion pass on 2026-06-18 confirmed 7 NW cluster packets were missing and created them; corrected count is 40), Phase 5 (eagle-test audit — continent confirmed exploration-deterministic). **Eagle test PASS:** a player can fly to any point on the continent and the AI DM can (a) render a deterministic map and (b) run arrival and exploration as a scene without inventing geography, settlement layout, available locations, or services. No new campaign content, factions, NPCs, quests, mysteries, gods, artifacts, or proper nouns. All settlement-internal landmark names (inn names, market halls, district quarters, well-houses) are settlement-flavor only, not registered proper nouns.
+
+### Files Created
+- `06_settlements/settlement_map_packets/` — 22 new settlement packets (total now 40; 18 from the Cartography Authority Pass + 22 this pass; glob-verified 2026-06-18). Far-continent new: _ORCHARDMERE, _SAINT_VEDDOWS_REST, _WRACKMOUTH, _HARTFELL, _BRASKS_HOLD, _COLD_SPRINGS, _HETHEMOOT, _MARROWMOOT, _REEDMOUTH, _FENWARD, _BRACKHOLD, _CROWNMOUTH, _SUNHOLLOW, _KARRAN_GATE, _GREENWALD, _SPINE_FOOT, _PILGRIM_CAMPS, _GROVE_CAMPS (18 far). NW cluster created in verification/completion pass: _GREYWATER_HOLM, _REEDFORD, _THE_ASHWALK_REST, _TILBROOK, _COBBLE_STRAND, _COLDHEARTH, _TOLLSTONE_CROSS (7 NW; these were incorrectly claimed as done in initial tracking but were missing from disk; created after glob verification confirmed the discrepancy)
+- `00_control/CARTOGRAPHY_DETERMINISM_PROGRESS.md` — progress tracker; Phases 0–5 all DONE (51/63); Phase 6 indexes pending
+
+### Files Changed
+- `18_audits/CARTOGRAPHY_READINESS_AUDIT.md` — updated from "MAP READY WITH MINOR NON-BLOCKING GAPS" to **CONTINENT IS EXPLORATION-DETERMINISTIC**
+- `00_control/RETRIEVAL_GUIDE.md` — Current Status updated to include Exploration-Determinism Pass
+- `00_control/STAGE_STATUS.md` — Current Status block + new interstitial pass row added
+- `00_control/NAMING_REGISTRY.md` — status note prepended (no new proper nouns)
+- `00_control/TODO.md` — pass recorded in Completed Recently; Medium map-image item updated
+- `17_generation_backlog/CONTENT_GAPS.md` — two non-blocking gaps noted
+- Various indexes (CONTENT_INDEX, TAG_INDEX, REGION_INDEX, MAP_FEATURE_REGISTRY) — updated for new settlement packets
+
+### Canon Established
+No new canon. Settlement-internal landmark names are settlement-flavor only; no new NPC, faction, region, settlement, god, artifact, or central-mystery proper nouns coined.
+
+### Indexes Updated
+CONTENT_INDEX, TAG_INDEX, REGION_INDEX, MAP_FEATURE_REGISTRY, RETRIEVAL_GUIDE.
+
+### Gaps Identified
+- Tollreach (Hethewald; Greenfinger Maddoc's camp) — a `travel_anchor` referenced in Hethemoot/region files; no standalone packet required (low-priority non-blocking).
+- Pre-existing D-site numbering discrepancy: Marrowdowns packet says "D30," adventure-site index says D26; Sallowmarch says "D33," index says D30 — non-blocking; tracked in CONTENT_GAPS.
+
+### Next Recommended Pass
+Stage 17 (Live Campaign Operation). Begin via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`. Optional: generate actual map images from the now-exploration-deterministic packets.
+
+---
+
 ## 2026-06-16 — Cartography Authority Pass
 
 ### Stage

@@ -17,6 +17,8 @@ tags: [type:map, secrecy:mixed, function:cartography, coordinates, map-packet, f
 
 A single registry of **every map-visible feature** of Orrun, one row each, with feature ID, type, position, geometry type, visibility flags, label priority, icon, source, and confidence. Use it as the master index when assembling a render layer: filter by `player_safe_visibility = yes` for player maps, add the DM-only rows for DM maps. All coordinates are full-continent **render-grid** (X=0 west, X=100 east, Y=0 north, Y=100 south) from `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md`.
 
+> **Exploration-Determinism Pass (2026-06-18):** All §B settlements now have map packets at eagle-test floor depth (`../06_settlements/settlement_map_packets/SETTLEMENT_*_MAP.md` for the 40 settlement packets; `../06_settlements/city_map_packets/*_CITY_MAP.md` for the 4 city packets). Source references below point to the canonical settlement files; the map packets are the AI DM load targets for arrival/exploration scenes.
+
 **Field key:**
 - **player_safe_visibility:** `yes` / `no` / `label-only`
 - **dm_only_visibility:** `yes` (only on DM maps) / `no`

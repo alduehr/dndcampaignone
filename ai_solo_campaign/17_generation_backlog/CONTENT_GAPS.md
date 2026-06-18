@@ -46,6 +46,7 @@ Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale
 | ~~No additional regional towns/villages~~ — **7 added in Stage 3 (8 total)**: Kettle Bridge, Saltmargin, Candlewick, Greywater Holm, Harrowgast, Reedford, The Ashwalk Rest | — (no gap) | — | — | done in Stage 3 |
 | ~~No major city~~ — **Caradril deep-built in Stage 4** (city overview + 8 districts, government, services, criminal networks, city NPCs/quests/clocks) | — (no gap) | — | — | done in Stage 4 |
 | ~~Caradril's Sunken Wards lacks a full room-by-room dungeon file~~ — **built in Stage 12** (`THE_SUNKEN_WARDS_DEEP.md`). The Sealed Archive's *back-route* is built; a dedicated Archive room-by-room file is optional polish (see Dungeons section) | — (mostly resolved) | Deep city delve | done in Stage 12 (Archive file optional) | 12 |
+| Tollreach (Hethewald; Greenfinger Maddoc's outlaw camp, on the Hethe river) — referenced as a `travel_anchor` in `SETTLEMENT_HETHEMOOT_MAP.md` and Hethewald region files; no standalone settlement packet exists | Low (non-blocking) | Eagle-test for Tollreach specifically | Tollreach is a dangerous outlaw camp, not a service settlement; Hethemoot packet provides all service access for the region; improv-safe pass-through with Maddoc's stat profile. No packet needed. | identified in Exploration-Determinism Pass |
 
 ---
 
@@ -108,6 +109,7 @@ Targets are drawn from `DEVELOPMENT_STAGES.md`, `PROJECT_RULES.md` content-scale
 | First major Act 1 dungeon: **Act 1 routes its dungeon beats through the 6 Stage 3 Concord sites** (sufficient for play); an optional dedicated Act 1 climax dungeon could sharpen the L3→4 beat | Low (was High) | Level 1–4 arc climax site | Optional purpose-built Act 1 dungeon | 5 (optional) / 12 |
 | ~~Optional far-continent dungeons named but not built (Saltmere Deep Towns, Hethewald Old Holds, Marrowdowns Barrow Complex, Karran Old Iron Forts)~~ — **all 4 built in Stage 12.5** (D24–D27), plus **9 more far sites** so every map-authoritative far region has ≥1 authored site (Glassmere ×2, Sallowmarch, Hollow Gulf, Wender Steppe, Sunmark, Verdance Reaches Ring-2, Highmark Passes, Emberfell 2nd) | — (no gap) | — | — | done in Stage 12.5 |
 | Sealed Archive (Caradril) lacks a dedicated room-by-room file (the *back-route into it* is built via `THE_SUNKEN_WARDS_DEEP`; the Archive itself is specced as Lantern Reach district/quest content) | Low | Deep Act-3 city delve polish | Optional dedicated Archive dungeon file | 12 (optional) / 15 |
+| Pre-existing D-site numbering discrepancy in 2 far settlement map packets: `SETTLEMENT_MARROWDOWNS_MARROWMOOT_MAP.md` cites "D30" but `ADVENTURE_SITE_CARTOGRAPHY_INDEX.md` assigns D26 to that region's site; `SETTLEMENT_FENWARD_MAP.md` cites "D33" but the index assigns D30 to the Sallowmarch site | Low (non-blocking) | D-site cross-reference accuracy | D-site files (`10_dungeons_and_ruins/`) and `ADVENTURE_SITE_CARTOGRAPHY_INDEX.md` are authoritative; the informal packet citations are approximate. Fix citations when editing those packets. | identified in Exploration-Determinism Pass |
 
 ---
 
