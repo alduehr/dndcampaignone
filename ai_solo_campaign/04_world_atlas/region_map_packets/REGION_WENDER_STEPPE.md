@@ -77,9 +77,9 @@ tags: [type:map, secrecy:mixed, function:cartography, map-packet, region-map, we
 
 | Site | Local | Full-grid | Surface marker | Player-map |
 |---|---|---|---|---|
-| D25 The Wender Sky-Stones | (13,20) | (42,14) | a standing-stone circle (independent steppe shrine, NON-Concord) | visible (standing stones) |
+| D32 The Wender Sky-Stones | (13,20) | (42,14) | a standing-stone circle (independent steppe shrine, NON-Concord) | visible (standing stones) |
 
-> **Authority note:** the build-brief cited "D25 Wender Sky-Stones (42,14)"; the `ADVENTURE_SITE_CARTOGRAPHY_INDEX.md` master table confirms **D32 The Wender Sky-Stones (42,14)** (D25 is the Hethewald Old Holds). This packet uses the authority index's **D32**. Flagged to the coordinating agent.
+> **Authority note (resolved 2026-06-18, Cartography Determinism Cleanup):** the `ADVENTURE_SITE_CARTOGRAPHY_INDEX.md` master table (and `DUNGEON_INDEX.md`, `RUIN_INDEX.md`) confirm **D32 The Wender Sky-Stones (42,14)**; D25 is the Hethewald Old Holds. An earlier draft cited "D25" in this table; the master index is authoritative and this packet now uses **D32** consistently.
 
 ## Ruins / Wilderness Landmarks
 

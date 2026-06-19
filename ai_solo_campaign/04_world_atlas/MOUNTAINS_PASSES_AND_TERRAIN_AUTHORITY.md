@@ -17,6 +17,8 @@ tags: [type:map, secrecy:mixed, function:cartography, terrain-polygon, coordinat
 
 Deterministic geometry for every mountain range, highland, volcano, forest, wetland, steppe, badland, and downs of Orrun. All coordinates are full-continent **render-grid** (X=0 west, X=100 east, Y=0 north, Y=100 south). Ranges are polylines (spine); zones are polygons. Includes named passes and road crossings. Use to draw terrain fills and place terrain labels without guessing.
 
+> **Confidence (Strict Cartography Determinism Cleanup, 2026-06-18):** every range below has a committed spine polyline and every zone a committed polygon — no endpoint-only ranges or shapeless zones remain. Per-feature render-confidence uses the four-status taxonomy in `MAP_FEATURE_REGISTRY.md`: the Highmark Spine, Sunder Heights, Tollwood, and Greyfens = **AUTHORITATIVE**; all far ranges/forests/wetlands/steppe/downs/badlands = **DERIVED_CANON** (committed geometry; far-survey ridgeline/boundary detail is placeholder context — draw soft/faint). The Cindern Waste is a terrain sub-zone within Emberfell, not a region. Legacy HIGH/MEDIUM/LOW lines are geographic-certainty context only.
+
 ---
 
 ## MOUNTAIN RANGES (spine polylines)
@@ -101,7 +103,7 @@ Deterministic geometry for every mountain range, highland, volcano, forest, wetl
 
 ## WETLANDS (polygons)
 
-| Zone | Polygon (x,y) | Centroid | Adjacent | Label | Conf. |
+| Zone | Polygon (x,y) | Centroid | Adjacent | Label | Survey Certainty |
 |---|---|---|---|---|---|
 | The Greyfens | (19,23)→(25,23)→(25,28)→(19,28) | 22,25 | Greywater Holm (22,26), Hollowmere (24,23) | "The Greyfens" | HIGH |
 | The Mirewend Sinks | (24,36)→(34,36)→(34,44)→(24,44) | 28,40 | (between cluster and rising mid-continent) | "The Mirewend Sinks" | LOW |
@@ -111,7 +113,7 @@ Deterministic geometry for every mountain range, highland, volcano, forest, wetl
 
 ## STEPPE / DOWNS / BADLANDS (polygons)
 
-| Zone | Type | Polygon (x,y) | Centroid | Adjacent | Label | Conf. |
+| Zone | Type | Polygon (x,y) | Centroid | Adjacent | Label | Survey Certainty |
 |---|---|---|---|---|---|---|
 | The Wender Steppe | steppe | (40,12)→(55,12)→(55,22)→(40,22) | 46,16 | Cold Springs (45,16), the Sky-Stones (42,14) | "The Wender Steppe" (ONE label; no "(steppe)" suffix) | LOW |
 | The Marrowdowns | chalk downs | (45,60)→(55,60)→(55,70)→(45,70) | 50,66 | Marrowmoot (50,66), Penmark Hold (47,63) | "The Marrowdowns" (region+terrain = one label) | LOW |
@@ -123,7 +125,7 @@ Deterministic geometry for every mountain range, highland, volcano, forest, wetl
 
 ## NAMED PASSES (point markers)
 
-| Pass | Coords | Range | Road | Conf. |
+| Pass | Coords | Range | Road | Survey Certainty |
 |---|---|---|---|---|
 | Highmark passes (W) | 30,8 | Highmark Spine | far-N frontier | LOW |
 | Highmark passes (E) | 40,8 | Highmark Spine | far-N frontier | LOW |
@@ -146,13 +148,15 @@ Deterministic geometry for every mountain range, highland, volcano, forest, wetl
 
 No Concord-Deep, node-network, "machine," depth, or relay annotation may appear inside ANY terrain zone — not in the Sunder Heights, Tollwood deep, Greyfens, far ruins, or anywhere. Surface ruins inside terrain zones are drawn broken and unexplained. The endgame is vertical beneath Hollowmere, never inside a terrain zone on the map.
 
-## Unresolved Terrain Gaps
+## Terrain Gaps (four-status classification)
 
-1. Far-range crest lines (Greatspine, Karran Teeth, Emberfells) are endpoint-pair polylines, not surveyed ridgelines.
-2. Far-zone polygons (Hethewood, Sunmark Wilds, Cindern Waste, Bonepan Flats, Marrowdowns, Wender Steppe) are loose rectangles around centroids; meant to be drawn soft/faint.
-3. The Ghostmark Range and the southern downs are LOW/MEDIUM placeholders.
+All terrain geometry is committed; the items below are DERIVED_CANON (committed for mapping with placeholder far-survey context) or NOT_MAP_AUTHORITATIVE.
 
-All gaps are non-blocking for player-safe and DM-only terrain rendering.
+1. **Far-range crest lines** (Greatspine, Karran Teeth, Emberfells, Ghostmark) — **DERIVED_CANON**: committed spine polylines (3+ waypoints each); exact frontier ridgeline detail is placeholder context, drawn soft.
+2. **Far-zone polygons** (Hethewood, Sunmark Wilds, Cindern Waste, Bonepan Flats, Marrowdowns, Wender Steppe) — **DERIVED_CANON**: committed polygons around their centroids; drawn soft/faint.
+3. **The southern downs** (in-cluster open downs) — **DERIVED_CANON**: committed polygon (centroid 37,34) as the Vale→Caradril approach; drawn faint.
+
+All items are non-blocking for player-safe and DM-only terrain rendering. **CARTOGRAPHY_BLOCKER count: 0.**
 
 ## Related Files
 

@@ -17,6 +17,8 @@ tags: [type:map, secrecy:mixed, function:cartography, water-geometry, coordinate
 
 Deterministic geometry for every water feature of Orrun: oceans, inland seas, bays, straits, harbor-lakes, lakes, rivers, wetlands, and key crossings. All coordinates are full-continent **render-grid** (X=0 west, X=100 east, Y=0 north, Y=100 south). Lakes/bays are polygons; rivers are polylines (full course geometry in `ROADS_RIVERS_AND_ROUTES_AUTHORITY.md`). Use to draw coastlines, fills, and crossing markers without guessing.
 
+> **Confidence (Strict Cartography Determinism Cleanup, 2026-06-18):** every water body below has a committed polygon (seas/bays/lakes) or polyline (rivers/coastlines) — no endpoint-only or shapeless water remains. Per-feature render-confidence uses the four-status taxonomy in `MAP_FEATURE_REGISTRY.md`: the Pale Sea, Stillwater, Hollowmere basin, Orchardmere lake, and in-cluster crossings = **AUTHORITATIVE**; far seas/bays/inland-sea and far crossings (Sunder Ocean, Calm Reach, Hollow Gulf, Wracking Straits, Saltmere, Nine Locks, Three Bridges, Tollreach, Mardenflow ferries) = **DERIVED_CANON** (committed geometry; far-survey detail is placeholder context). The legacy HIGH/MEDIUM/LOW lines are geographic-certainty context only.
+
 ---
 
 ## OCEANS AND SEAS
@@ -100,7 +102,7 @@ Deterministic geometry for every water feature of Orrun: oceans, inland seas, ba
 
 ## RIVERS (summary — full course geometry in ROADS_RIVERS_AND_ROUTES_AUTHORITY.md)
 
-| River | Source (x,y) → Mouth (x,y) | Navigability | Key crossings (x,y) | Visibility | Conf. |
+| River | Source (x,y) → Mouth (x,y) | Navigability | Key crossings (x,y) | Visibility | Survey Certainty |
 |---|---|---|---|---|---|
 | Verdance | (48,46) → Pale Sea mouth (15,32) | fully navigable Stillwater→mouth | Caradril bridges (34,35); Nine Locks (43,43) | yes | HIGH/MED |
 | Glasswater | (58,40) → Hollow Gulf delta (64,88) | fully navigable mid-down | Three Bridges, Glassmere (55,50) | yes | LOW |
@@ -113,7 +115,7 @@ Deterministic geometry for every water feature of Orrun: oceans, inland seas, ba
 
 ## WETLANDS / FLOODED AREAS (water-character zones; terrain polygons in MOUNTAINS_PASSES_AND_TERRAIN_AUTHORITY.md)
 
-| Wetland | Type | Polygon (x,y) | Water character | Visibility | Conf. |
+| Wetland | Type | Polygon (x,y) | Water character | Visibility | Survey Certainty |
 |---|---|---|---|---|---|
 | The Greyfens | fog marsh | (19,23)→(25,23)→(25,28)→(19,28) | standing fen-water, fog; Sashe's Crossing (22,25) | yes | HIGH |
 | The Mirewend Sinks | boglands | (24,36)→(34,36)→(34,44)→(24,44) | sinking bog, slow drains | yes | LOW |
@@ -124,7 +126,7 @@ Deterministic geometry for every water feature of Orrun: oceans, inland seas, ba
 
 ## KEY CROSSINGS (bridges / ferries / fords across water)
 
-| Crossing | Type | Coords | Water | Side/notes | Conf. |
+| Crossing | Type | Coords | Water | Side/notes | Survey Certainty |
 |---|---|---|---|---|---|
 | Kettle Bridge | bridge | 27,23 | Mirewend (E reach) | toll-town on the crossing | HIGH |
 | Reedford | ford | 25,24 | Mirewend | central road ford-hamlet | MED |
@@ -137,14 +139,16 @@ Deterministic geometry for every water feature of Orrun: oceans, inland seas, ba
 | Tollreach | river toll | 75,37 | Hethe | outlaw toll-camp | LOW |
 | Mardenflow delta ferries | ferry | ~58,86 | Mardenflow delta | Sallowmarch | LOW |
 
-## Unresolved Water Gaps
+## Water Gaps (four-status classification)
 
-1. Far-continent coastline between the Hollow Gulf and the Wracking Straits is LOW; exact inlets are illustrative.
-2. Far river meanders (Glasswater, Mardenflow, Hethe) are endpoint-pair polylines, not surveyed courses.
-3. The Saltmere's receding shoreline is approximate; the Drowned Towns sit on a shifting waterline.
-4. Off-grid overseas waters (beyond the Wracking Straits / South Sea Lanes) are edge-annotations only.
+All water geometry is committed; the items below are DERIVED_CANON (committed for mapping with placeholder far-survey context) or NOT_MAP_AUTHORITATIVE (off-grid, non-blocking).
 
-All gaps are non-blocking for player-safe and DM-only water rendering.
+1. **Far-continent coastline** (Hollow Gulf → Wracking Straits) — **DERIVED_CANON**: committed coastline waypoints in `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md §4`; frontier inlet detail is placeholder context.
+2. **Far river meanders** (Glasswater, Mardenflow, Hethe) — **DERIVED_CANON**: committed source→waypoint→mouth polylines (3+ intermediate waypoints each, passing through named settlements); micro-meanders are illustrative context.
+3. **The Saltmere shoreline** — **DERIVED_CANON**: committed polygon (centroid 60,70); the receding waterline and the Drowned Towns' shifting edge are seasonal flavor, drawn at the committed polygon.
+4. **Off-grid overseas waters** (beyond the Wracking Straits / South Sea Lanes) — **NOT_MAP_AUTHORITATIVE**: edge-annotations only.
+
+All items are non-blocking for player-safe and DM-only water rendering. **CARTOGRAPHY_BLOCKER count: 0.**
 
 ## Related Files
 

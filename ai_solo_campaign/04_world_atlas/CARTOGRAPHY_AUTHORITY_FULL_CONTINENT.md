@@ -49,6 +49,8 @@ The NW campaign cluster occupies render-grid **X 8–40, Y 8–42** (upper-left 
 
 Orrun is a large continent that tilts from a **cold, broken NW frontier** to a **warm, rich S/SE**. Render convention coastline, clockwise from the NW corner:
 
+> **Confidence columns (geographic-certainty context only — see §16):** HIGH/MEDIUM/LOW labels in this file's tables indicate geographic certainty, NOT render-readiness. For render-confidence, use `MAP_FEATURE_REGISTRY.md` (four-status taxonomy: AUTHORITATIVE / DERIVED_CANON / NOT_MAP_AUTHORITATIVE / CARTOGRAPHY_BLOCKER). This note applies to all confidence columns in §3–§12b.
+
 | Segment | Description | Confidence |
 |---|---|---|
 | NW corner | The Pale Coast headlands meet the Pale Sea; sea-cliffs and shingle coves. | HIGH |
@@ -153,6 +155,8 @@ Each polygon is an ordered ring of render-grid waypoints. **All geometry is AUTH
 ## §10. Regional Boundary Polygons (all map-authoritative regions)
 
 Area-fill bounds (render-grid). Far regions are faint fills. **All polygons are AUTHORED-CANON committed rings; no "infer from centroid" derivation remains.** Boundary waypoints are ordered clockwise from the NW corner of each region.
+
+> **Definitive region count (resolved 2026-06-18, Cartography Determinism Cleanup):** there are **18 standalone map-authoritative regions, each with its own region map packet** in `04_world_atlas/region_map_packets/` (the 5 NW/cluster regions — Sundering Reach, Ashgarden Vale, Tollwood, Pale Coast, Caradril — plus 13 far regions, the last of which is the optional Highmark Passes). The table below has 19 rows because the last row, **Cindern Waste, is NOT a standalone region** — it is the ash-badland **terrain sub-zone within the Emberfell Theocracy region** (its rain-shadow), listed here for its boundary polygon and covered in `region_map_packets/REGION_EMBERFELL_THEOCRACY.md`, not in its own packet. Likewise **the Drowned Steps** is a submerged-ruin sub-area (adventure site D30) **within the Sallowmarch Protectorate**, not a region. Use **18** as the region/packet count everywhere; "19" only when counting Cindern Waste as a named terrain label.
 
 | Region | Center (x,y) | Boundary polygon (x,y) — ordered ring | Provenance |
 |---|---|---|---|
@@ -273,6 +277,10 @@ Spot-checks (campaign → full): Hollowmere (50,45) → (24.0,23.3); Caradril (8
 
 All polygons, polylines, and coastline segments in §4, §7, §8, §9, and §10 are now **AUTHORED-CANON** — committed waypoint rings and polylines that fully specify shape without renderer inference. Confidence ratings below indicate the underlying geographic certainty (HIGH = derived from campaign play; LOW = far-continent placeholder geometry), not the geometry's specificity.
 
+> **Four-status confidence standard (Strict Cartography Determinism Cleanup, 2026-06-18):** the canonical per-feature confidence taxonomy lives in `MAP_FEATURE_REGISTRY.md` and uses exactly four statuses — **AUTHORITATIVE** (coordinate-anchored by direct authorship), **DERIVED_CANON** (committed map position reasoned from named anchors + region context; a mapper must use it), **NOT_MAP_AUTHORITATIVE** (background/off-map/too-vague; non-blocking; draw soft or omit), **CARTOGRAPHY_BLOCKER** (cannot place without invention; blocks MAP READY — current count **0**). The HIGH/MEDIUM/LOW labels retained in this file's geometry tables are **geographic-certainty context only**, not render-confidence; the registry's four-status column is the render-confidence authority. No map-authoritative feature in this file remains DERIVED/placeholder/sketched — all geometry is committed AUTHORED-CANON.
+
+> **DERIVED_CANON tier (formerly "DERIVED-CANONIZED"; renamed in Strict Cartography Determinism Cleanup pass 2026-06-18):** every far-continent **major feature** that was derived from registered narrative/lore rather than from campaign play — the three far cities (**Glassmere** two-bank/Three-Bridges layout; **Calderport** crescent-harbor layout; **Ashfast** caldera fortress-temple layout), the major far rivers (**Glasswater, Mardenflow, Hethe**), the major far ranges (**Karran Teeth, Greatspine/Sundering Wall, Emberfells, Ghostmark Range**), and the major far routes (**Verdance Road, Glasswater Run, Greatspine Crown Road, Salt Road, Hethe Tollway**) — is now **DERIVED_CANON**: its committed waypoint geometry (in §4/§7/§8/§9/§11 here, and in the route/water/terrain authority files and city packets) is **authoritative for mapping**, even though its underlying geographic confidence stays LOW. A "LOW" tag on these rows means "place it where stated; the exact far-survey detail is placeholder," NOT "geometry missing." The far city layouts are derived per each city packet's stated derivation basis (Glassmere from "the Three Bridges" two-bank canon; Calderport from harbor-crescent canon; Ashfast from fortress-temple-against-caldera canon). Minor/unpinnable far features (off-grid overseas isles, diffuse Fever Channels, the Saltmere's shifting waterline) remain **NOT_MAP_AUTHORITATIVE** and are drawn soft/faint without precise borders.
+
 | Provenance / Confidence | Count | Notes |
 |---|---|---|
 | AUTHORED-CANON / HIGH | ~24 | NW cluster regions/water/routes/rivers; Pale Sea; Stillwater; Hollowmere basin; Mirewend; South/East/Pale Roads; Pale Coast Sea-Route |
@@ -282,15 +290,17 @@ All polygons, polylines, and coastline segments in §4, §7, §8, §9, and §10 
 
 ---
 
-## §17. Unresolved Map Gaps
+## §17. Map Gaps (four-status classification)
 
-1. **Far-continent coastline** between the Hollow Gulf and the Wracking Straits is sketched at LOW confidence; exact capes/inlets are not canon-fixed. Drawn loosely is correct.
-2. **Far river courses** (Glasswater mid-course, Hethe, Mardenflow) use endpoint-pair polylines; their meanders are illustrative, not canon.
-3. **Greatspine/Sundering Wall exact crest line** is a NW–SE diagonal placeholder; the Crown Road's pass point (60,52) is DERIVED.
-4. **Far-region internal geometry** (settlement spread within each far region) is light NPC-anchor only; deep internal maps are deferred (see far-region packets).
-5. **Overseas landmasses** (Surren, Iron Skards, Sundered Isles) are off-grid edge-arrows only; not part of the Orrun render.
+All map-authoritative geometry is committed; the items below are either DERIVED_CANON (committed for mapping, with placeholder far-survey context) or NOT_MAP_AUTHORITATIVE (off-grid/optional — draw soft or omit, non-blocking).
 
-All gaps are **non-blocking** for player-safe and DM-only continent/region/city/settlement rendering.
+1. **Far-continent coastline** (Hollow Gulf → Wracking Straits) — **DERIVED_CANON**: §4 gives committed ordered waypoints; the exact frontier cape/inlet detail is placeholder context. A mapper draws the committed waypoints.
+2. **Far river courses** (Glasswater mid-course, Hethe, Mardenflow) — **DERIVED_CANON**: §7 gives committed source→waypoint→mouth polylines (each passing through its named settlements as waypoints); meander micro-detail between committed waypoints is illustrative context.
+3. **Greatspine/Sundering Wall crest line** — **DERIVED_CANON**: §8 gives a committed NW–SE spine polyline; the Crown Road pass point (60,52) is committed.
+4. **Far-region internal micro-geography** (settlement spread within a far region beyond the committed anchor points) — **NOT_MAP_AUTHORITATIVE**: deep internal street/field maps are deferred; the committed settlement anchors and region polygons are sufficient to render region and settlement-floor maps (see far-region packets).
+5. **Overseas landmasses** (Surren, Iron Skards, Sundered Isles) — **NOT_MAP_AUTHORITATIVE**: off-grid edge-arrows only; not part of the Orrun render.
+
+All items are **non-blocking** for player-safe and DM-only continent/region/city/settlement rendering. **CARTOGRAPHY_BLOCKER count: 0.**
 
 ## Related Files
 

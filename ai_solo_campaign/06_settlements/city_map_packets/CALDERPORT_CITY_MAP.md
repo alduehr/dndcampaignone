@@ -17,6 +17,7 @@ tags: [type:map, secrecy:mixed, function:cartography, city-map, map-packet, cald
 
 - **Local grid:** 0–100 (X east, Y south).
 - **Full-continent position:** render-grid (65,89). The greatest Hollow Gulf port city-state; gateway to the South Sea Lanes (overseas).
+- **Layout confidence:** **DERIVED_CANON** (resolved 2026-06-18). The crescent-harbor structural layout, district positions, customs wall + gates, and road/sea-lane exits below are authoritative for mapping (derived from the harbor-crescent / largest-Gulf-port canon). The region's broad geographic position is DERIVED_CANON; frontier survey detail is placeholder context drawn soft.
 
 ## Harbor Geometry
 

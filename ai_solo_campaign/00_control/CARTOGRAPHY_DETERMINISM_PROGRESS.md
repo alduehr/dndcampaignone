@@ -34,7 +34,7 @@
 | P1-C: Regional boundary polygons ≥8 waypoints each | `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md §10` | DONE | All 19 regional boundary polygons expanded to 12–15 waypoints; DERIVED entries eliminated. Verified 2026-06-17. |
 | P1-D: Rivers have ≥3 intermediate waypoints | `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md §7` | DONE | All 6 rivers densified to 9–15 waypoints; AUTHORED-CANON. Verified 2026-06-17. |
 | P1-E: Mountain ranges have ≥3 intermediate waypoints | `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md §8` | DONE | All 6 ranges expanded to 6–10 waypoints; AUTHORED-CANON. Verified 2026-06-17. |
-| P1-F: MAP_FEATURE_REGISTRY geometry/provenance updated | `04_world_atlas/MAP_FEATURE_REGISTRY.md` | UNCHECKED | §16 of authority file updated to reflect AUTHORED-CANON. MAP_FEATURE_REGISTRY.md provenance column update deferred to Phase 6 (indexes pass). |
+| P1-F: MAP_FEATURE_REGISTRY geometry/provenance updated | `04_world_atlas/MAP_FEATURE_REGISTRY.md` | DONE | Cleared by P6-D: four-status taxonomy (AUTHORITATIVE/DERIVED_CANON/NOT_MAP_AUTHORITATIVE/CARTOGRAPHY_BLOCKER) applied to all 136 entries; 57 AUTH, 72 DERIVED, 7 NOT_MAP, 0 BLOCKER. Strict Cartography Determinism Cleanup pass 2026-06-18. |
 
 ---
 
@@ -44,8 +44,8 @@
 |---|---|---|---|
 | Verdance Reaches | `REGION_VERDANCE_REACHES.md` | DONE | Full Phase 2 floor met. Verified prior session (2026-06-17/18). |
 | Glassmere League | `REGION_GLASSMERE_LEAGUE.md` | DONE | Full Phase 2 floor met. Verified prior session. |
-| Marrowdowns | `REGION_MARROWDOWNS.md` | DONE | Full Phase 2 floor met. (D-site discrepancy: packet uses D30; index says D26. Pre-existing issue; flagged in packet.) Verified prior session. |
-| Sallowmarch Protectorate | `REGION_SALLOWMARCH_PROTECTORATE.md` | DONE | Full Phase 2 floor met. (D-site discrepancy: packet uses D33; index says D30. Pre-existing issue; flagged in packet.) Verified prior session. |
+| Marrowdowns | `REGION_MARROWDOWNS.md` | DONE | Full Phase 2 floor met. (D-site discrepancy **RESOLVED 2026-06-18**: packet now uses **D26** to match the master index; Barrow Complex = D26.) Verified prior session. |
+| Sallowmarch Protectorate | `REGION_SALLOWMARCH_PROTECTORATE.md` | DONE | Full Phase 2 floor met. (D-site discrepancy **RESOLVED 2026-06-18**: packet now uses **D30** to match the master index; Drowned Steps = D30.) Verified prior session. |
 | Hollow Gulf Ports | `REGION_HOLLOW_GULF_PORTS.md` | DONE | Full Phase 2 floor met; used as reference template this session. Verified 2026-06-18. |
 | Wender Steppe | `REGION_WENDER_STEPPE.md` | DONE | Full Phase 2 floor met; used as reference template this session. Verified 2026-06-18. |
 | Karran Marches | `REGION_KARRAN_MARCHES.md` | DONE | Upgraded from placeholder this session. Full Phase 2 floor: local grid X 70–80 / Y 14–24; transform; 5 terrain zones; 2 water features; 4 routes; 4 settlements (Brask's Hold, Karran-Gate, Deep Cuts, Old Iron forts); D27; level 9–14; Player-Safe + DM-Only. Read-back confirmed. Verified 2026-06-18. |
@@ -110,10 +110,10 @@
 
 | Item | Status | Notes |
 |---|---|---|
-| P5-A: All settlement anchors verified — packet exists | DONE | All Table 2 `settlement_major`/`settlement_secondary` anchors have packets (Phase 3 city packets + Phase 4 settlement packets). Travel anchors (Nine Locks, Rice Sallows, Ash Roads, Deep Cuts, Tollreach, Green Roads), ruin-edge anchors, and city-district locales do not require standalone packets. **Low-priority gap (non-blocking):** Tollreach (Greenfinger Maddoc's base) is a `travel_anchor` with a named major NPC; lacks its own packet but is referenced in `SETTLEMENT_HETHEMOOT_MAP.md` and `REGION_HETHEWALD_FREE_HOLDS.md`. Verified 2026-06-18. |
-| P5-B: All D-sites positioned in region packets | DONE | All 36 sites (D01–D36) are positioned in their region/city packets. **Pre-existing non-blocking discrepancies (already flagged in packets):** Marrowdowns region packet uses "D30" but index says D26; Sallowmarch region packet uses "D33" but index says D30. D23 (Under-Shrine) confirmed DM-only / never on player maps. D35 (Highmark) confirmed DM-facing only. Verified 2026-06-18. |
+| P5-A: All settlement anchors verified — packet exists | DONE | All Table 2 `settlement_major`/`settlement_secondary` anchors have packets (Phase 3 city packets + Phase 4 settlement packets). Travel anchors (Nine Locks, Rice Sallows, Ash Roads, Deep Cuts, Tollreach, Green Roads), ruin-edge anchors, and city-district locales do not require standalone packets. **Tollreach RESOLVED (2026-06-18):** formalized as a **route-waypoint danger marker** at (75,37) on the Hethe Tollway (`ROADS_RIVERS_AND_ROUTES_AUTHORITY.md`, `MAP_FEATURE_REGISTRY.md` MF-612) — a dangerous outlaw camp, not a service settlement; no packet needed. Verified 2026-06-18. |
+| P5-B: All D-sites positioned in region packets | DONE | All 36 sites (D01–D36) are positioned in their region/city packets. **D-site discrepancies RESOLVED (2026-06-18):** Marrowdowns packet now uses **D26**, Sallowmarch **D30**, Hollow Gulf Drowned-Steps **D30**, Wender Steppe **D32** — all matching the authoritative `ADVENTURE_SITE_CARTOGRAPHY_INDEX.md`. D23 (Under-Shrine) confirmed DM-only / never on player maps. D35 (Highmark) confirmed DM-facing only. Verified 2026-06-18. |
 | P5-C: 8-point random-location proof | DONE | Tested 8 points — all fully deterministic: (1) Hollowmere (24,23): `HOLLOWMERE.md`+`REGION_SUNDERING_REACH.md`; (2) Caradril (34,35): `CARADRIL_CITY_MAP.md`+8 district packets; (3) Glassmere (55,50): `GLASSMERE_CITY_MAP.md`+`REGION_GLASSMERE_LEAGUE.md`; (4) Brask's Hold (73,17): `SETTLEMENT_BRASKS_HOLD_MAP.md`+`REGION_KARRAN_MARCHES.md`; (5) Sunhollow (44,80): `SETTLEMENT_SUNHOLLOW_MAP.md`+`REGION_SUNMARK.md`; (6) Crownmouth (60,54): `SETTLEMENT_CROWNMOUTH_MAP.md`+`REGION_CONCORD_HEARTLANDS.md`; (7) Cinderhold (83,65): `SETTLEMENT_CINDERHOLD_MAP.md`+`REGION_EMBERFELL_THEOCRACY.md`; (8) Cold Springs (45,16): `SETTLEMENT_COLD_SPRINGS_MAP.md`+`REGION_WENDER_STEPPE.md`. All 8: local coords ✓, services ✓, NPC links ✓, law DCs ✓, hooks ✓, apex secrecy ✓. Verified 2026-06-18. |
-| P5-D: Zero blockers remaining | DONE | No critical blockers. Two pre-existing D-site numbering discrepancies (Marrowdowns/Sallowmarch packets) are low-priority; one low-priority gap (Tollreach packet). Eagle-test verdict: **CONTINENT IS EXPLORATION-DETERMINISTIC.** Verified 2026-06-18. |
+| P5-D: Zero blockers remaining | DONE | No blockers. The pre-existing D-site numbering discrepancies (Marrowdowns/Sallowmarch/Hollow Gulf/Wender Steppe) and the Tollreach gap are **RESOLVED** in the 2026-06-18 Cartography Determinism Cleanup pass. Eagle-test verdict: **CONTINENT IS EXPLORATION-DETERMINISTIC; MAP READY.** Verified 2026-06-18. |
 
 ---
 
@@ -121,31 +121,31 @@
 
 | Item | File | Status | Notes |
 |---|---|---|---|
-| P6-A: CONTENT_INDEX.md updated | `00_control/CONTENT_INDEX.md` | UNCHECKED | Add all new packets |
-| P6-B: TAG_INDEX.md updated | `00_control/TAG_INDEX.md` | UNCHECKED | |
-| P6-C: REGION_INDEX.md updated | `04_world_atlas/REGION_INDEX.md` | UNCHECKED | |
-| P6-D: MAP_FEATURE_REGISTRY.md settlements updated | `04_world_atlas/MAP_FEATURE_REGISTRY.md` | UNCHECKED | Also clears P1-F |
-| P6-E: RETRIEVAL_GUIDE.md updated | `00_control/RETRIEVAL_GUIDE.md` | UNCHECKED | |
-| P6-F: NAMING_REGISTRY.md city-scale labels updated | `00_control/NAMING_REGISTRY.md` | UNCHECKED | City-internal landmark names |
-| P6-G: PROGRESS_LOG.md entry added | `00_control/PROGRESS_LOG.md` | UNCHECKED | |
-| P6-H: TODO.md updated | `00_control/TODO.md` | UNCHECKED | |
-| P6-I: CONTENT_GAPS.md updated | `17_generation_backlog/CONTENT_GAPS.md` | UNCHECKED | |
-| P6-J: STAGE_STATUS.md updated | `00_control/STAGE_STATUS.md` | UNCHECKED | |
-| P6-K: CARTOGRAPHY_READINESS_AUDIT.md rewritten | `18_audits/CARTOGRAPHY_READINESS_AUDIT.md` | UNCHECKED | Honest verdict only |
+| P6-A: CONTENT_INDEX.md updated | `00_control/CONTENT_INDEX.md` | DONE | Updated during Exploration-Determinism pass (2026-06-18) — all 40 settlement packets + region/city packets indexed. |
+| P6-B: TAG_INDEX.md updated | `00_control/TAG_INDEX.md` | DONE | Updated during Exploration-Determinism pass (2026-06-18). |
+| P6-C: REGION_INDEX.md updated | `04_world_atlas/REGION_INDEX.md` | DONE | Updated during Exploration-Determinism pass (2026-06-18) — eagle-test depth note added; all 18 regions listed. |
+| P6-D: MAP_FEATURE_REGISTRY.md settlements updated | `04_world_atlas/MAP_FEATURE_REGISTRY.md` | DONE | Four-status taxonomy applied to all 136 entries (Strict Cartography Determinism Cleanup pass 2026-06-18): 57 AUTH, 72 DERIVED_CANON, 7 NOT_MAP, 0 BLOCKER. Also clears P1-F. |
+| P6-E: RETRIEVAL_GUIDE.md updated | `00_control/RETRIEVAL_GUIDE.md` | DONE | Rewritten during Stage 16 correction pass (2026-06-16); updated to include Exploration-Determinism Pass during that pass. Current as of 2026-06-18. |
+| P6-F: NAMING_REGISTRY.md city-scale labels updated | `00_control/NAMING_REGISTRY.md` | DONE | Exploration-Determinism pass note (2026-06-18) explicitly states city-internal landmark names are "settlement-flavor labels only — NOT registered proper nouns per registry scope." No further registry update required. |
+| P6-G: PROGRESS_LOG.md entry added | `00_control/PROGRESS_LOG.md` | DONE | Strict Cartography Determinism Cleanup Pass entry added 2026-06-18. |
+| P6-H: TODO.md updated | `00_control/TODO.md` | DONE | Updated during Exploration-Determinism / Cartography Determinism Cleanup passes (2026-06-18). |
+| P6-I: CONTENT_GAPS.md updated | `17_generation_backlog/CONTENT_GAPS.md` | DONE | Updated during Exploration-Determinism / Cartography Determinism Cleanup passes (2026-06-18) — Tollreach + D-site rows closed. |
+| P6-J: STAGE_STATUS.md updated | `00_control/STAGE_STATUS.md` | DONE | Strict Cartography Determinism Cleanup pass added to Current Status block + Interstitial Passes table; Most Recent Pass line updated. 2026-06-18. |
+| P6-K: CARTOGRAPHY_READINESS_AUDIT.md rewritten | `18_audits/CARTOGRAPHY_READINESS_AUDIT.md` | DONE | Strict Cartography Determinism Cleanup Pass section added; honest verdict "MAP READY WITH MINOR NON-BLOCKING GAPS." 2026-06-18. |
 
 ---
 
-## Summary (updated 2026-06-18 — Phases 0–5 complete)
+## Summary (updated 2026-06-18 — ALL PHASES COMPLETE)
 
 | Phase | Done | Unchecked | Total |
 |---|---|---|---|
 | Phase 0 | 2 | 0 | 2 |
-| Phase 1 | 5 | 1 | 6 |
+| Phase 1 | 6 | 0 | 6 |
 | Phase 2 | 13 | 0 | 13 |
 | Phase 3 | 3 | 0 | 3 |
 | Phase 4 | 24 | 0 | 24 |
 | Phase 5 | 4 | 0 | 4 |
-| Phase 6 | 0 | 11 | 11 |
-| **Total** | **51** | **12** | **63** |
+| Phase 6 | 11 | 0 | 11 |
+| **Total** | **63** | **0** | **63** |
 
-> **Last verified:** 2026-06-18. Phases 0, 2, 3, 4, and 5 complete. Phase 1 complete except P1-F (deferred to Phase 6 / P6-D). Eagle-test verdict: **CONTINENT IS EXPLORATION-DETERMINISTIC.** **Next: Phase 6 — Indexes, Canon, Tracking.** 11 items: CONTENT_INDEX, TAG_INDEX, REGION_INDEX, MAP_FEATURE_REGISTRY (also clears P1-F), RETRIEVAL_GUIDE, NAMING_REGISTRY city labels, PROGRESS_LOG, TODO, CONTENT_GAPS, STAGE_STATUS, CARTOGRAPHY_READINESS_AUDIT rewrite.
+> **Last verified:** 2026-06-18 — Strict Cartography Determinism Cleanup pass complete. All 63 items DONE. Eagle-test verdict: **CONTINENT IS EXPLORATION-DETERMINISTIC.** Cartography verdict: **MAP READY WITH MINOR NON-BLOCKING GAPS** (57 AUTHORITATIVE, 72 DERIVED_CANON, 7 NOT_MAP_AUTHORITATIVE, 0 CARTOGRAPHY_BLOCKER). Stage 17 (Live Campaign Operation) is next; map image generation is the only remaining cartography work.

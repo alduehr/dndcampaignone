@@ -17,6 +17,7 @@ tags: [type:map, secrecy:mixed, function:cartography, city-map, map-packet, ashf
 
 - **Local grid:** 0–100 (X east, Y south).
 - **Full-continent position:** render-grid (80,62). A fortress-temple-city; the Emberfell Theocracy's seat, near the volcanic highland.
+- **Layout confidence:** **DERIVED_CANON** (resolved 2026-06-18). The fortress-temple-against-caldera structural layout, district positions, fortress wall + gates, and road exits below are authoritative for mapping (derived from the fortress-temple-city / volcanic-seat canon). The region's broad geographic position is DERIVED_CANON; frontier survey detail is placeholder context drawn soft.
 
 ## Caldera / Volcanic Geometry
 

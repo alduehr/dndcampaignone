@@ -79,9 +79,9 @@ tags: [type:map, secrecy:mixed, function:cartography, map-packet, region-map, sa
 
 | Site | Local | Full-grid | Surface marker | Player-map |
 |---|---|---|---|---|
-| D33 The Sallowmarch Drowned Steps | (10,125) offshore (off-frame S) | (54,90) | drowned causeway steps at low tide (offshore) | label-only ("drowned steps") |
+| D30 The Sallowmarch Drowned Steps | (10,125) offshore (off-frame S) | (54,90) | drowned causeway steps at low tide (offshore) | label-only ("drowned steps") |
 
-> **Authority note:** the `ADVENTURE_SITE_CARTOGRAPHY_INDEX.md` master table lists the Sallowmarch Drowned Steps as **D33** at full-grid (54,90) (D30 is the Marrowdowns Barrow Complex). The prior shallow packet mislabeled it D30; this packet uses the authority index's D33. The site sits **offshore, south of the region frame** (full Y=90 > the frame's Y 80–88), so its local-Y projects below 100 — render it as an offshore tidal landmark below the delta coast. Flagged to the coordinating agent.
+> **Authority note (resolved 2026-06-18, Cartography Determinism Cleanup):** the `ADVENTURE_SITE_CARTOGRAPHY_INDEX.md` master table (and `DUNGEON_INDEX.md`, `RUIN_INDEX.md`, `MAP_FEATURE_REGISTRY.md`, `CLUE_INDEX.md`) assign the Sallowmarch Drowned Steps **D30** at full-grid (54,90); **D26** is the Marrowdowns Barrow Complex and **D33** is the Sunhollow Great Grove. An earlier packet edit incorrectly "corrected" this to D33 in the wrong direction; the master index is authoritative and this packet now uses **D30**. The site sits **offshore, south of the region frame** (full Y=90 > the frame's Y 80–88), so its local-Y projects below 100 — render it as an offshore tidal landmark below the delta coast.
 
 ## Ruins / Wilderness Landmarks
 
@@ -116,7 +116,7 @@ The Sallowmarch Protectorate (faint); the Sallow Marches (terrain); Fenward; Ree
 
 ## DM-Only Layer (NEVER on the player map)
 
-- The Drowned Steps (D33) and the deep "drowned grounds" are **peripheral pre-Concord / Concord sea-works** (M2/M5-oblique) — far-south corroboration that the crisis reaches even here; NEVER the keystone, the machine, or the Concord Deep.
+- The Drowned Steps (D30) and the deep "drowned grounds" are **peripheral pre-Concord / Concord sea-works** (M2/M5-oblique) — far-south corroboration that the crisis reaches even here; NEVER the keystone, the machine, or the Concord Deep.
 - The "new sickness" (the dead "not settling") is the crisis reaching the deep south, masked by the fever's death-familiarity (M5, far-south faintest) — Doll Fenn (medicine) and Sela Reed (rite) are the twin early-witnesses; never explain the mechanism.
 - Mother Sela Reed carries the **old-songs network fragment** ("the grey hands took the dead"), fused with delta water-lore — M6-oblique folk-memory ONLY; no mechanism, no Court, no keystone.
 - The distant southern crown (Vorr Sallow) is a world-scale foreign power; strategic/world content, not a map secret.

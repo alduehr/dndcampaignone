@@ -6,6 +6,84 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-06-18 — Strict Cartography Determinism Cleanup Pass
+
+### Stage
+Post-Stage-16 interstitial cartography pass. Pure determinism/taxonomy pass over the cartography layer (no new content, no new proper nouns). Stage 17 (Live Play) remains next.
+
+### Summary
+Applied a strict four-status taxonomy (AUTHORITATIVE / DERIVED_CANON / NOT_MAP_AUTHORITATIVE / CARTOGRAPHY_BLOCKER) to every entry in the MAP_FEATURE_REGISTRY — replacing the prior "DERIVED-CANONIZED" confidence tier, eliminating all residual LOW/MEDIUM/HIGH render-confidence labels from map-authoritative rows, and producing a clean, machine-readable status column. Added gap-section statements to the three geometry authority files (ROADS_RIVERS, WATER_AND_SHORELINE, MOUNTAINS_PASSES) confirming zero CARTOGRAPHY_BLOCKERs and classifying the remaining non-blocking items as DERIVED_CANON or NOT_MAP_AUTHORITATIVE. Fixed three far city packets that still said "DERIVED-CANONIZED" → "DERIVED_CANON". Verdict: **MAP READY WITH MINOR NON-BLOCKING GAPS** (0 CARTOGRAPHY_BLOCKERs; 7 NOT_MAP_AUTHORITATIVE items are legitimately non-placeable as fixed player-map points: South Sea Lanes edge-arrow, Star-Stones no-fixed-point, 5 DM-only hidden features).
+
+### Files Changed
+- `04_world_atlas/MAP_FEATURE_REGISTRY.md` — four-status taxonomy (AUTHORITATIVE/DERIVED_CANON/NOT_MAP_AUTHORITATIVE/CARTOGRAPHY_BLOCKER) applied to all 136 entries; old "LOW/MEDIUM/HIGH" confidence column removed from taxonomy; final counts: 57 AUTHORITATIVE, 72 DERIVED_CANON, 7 NOT_MAP_AUTHORITATIVE, 0 CARTOGRAPHY_BLOCKER.
+- `04_world_atlas/ROADS_RIVERS_AND_ROUTES_AUTHORITY.md` — gap-section added: all route/river features classified; 0 CARTOGRAPHY_BLOCKERs confirmed.
+- `04_world_atlas/WATER_AND_SHORELINE_AUTHORITY.md` — gap-section added: all water bodies classified; 0 CARTOGRAPHY_BLOCKERs confirmed.
+- `04_world_atlas/MOUNTAINS_PASSES_AND_TERRAIN_AUTHORITY.md` — gap-section added: all terrain zones classified; 0 CARTOGRAPHY_BLOCKERs confirmed.
+- `06_settlements/city_map_packets/GLASSMERE_CITY_MAP.md` — layout confidence: "DERIVED-CANONIZED" → "DERIVED_CANON"; explanatory text updated.
+- `06_settlements/city_map_packets/CALDERPORT_CITY_MAP.md` — layout confidence: "DERIVED-CANONIZED" → "DERIVED_CANON"; explanatory text updated.
+- `06_settlements/city_map_packets/ASHFAST_CITY_MAP.md` — layout confidence: "DERIVED-CANONIZED" → "DERIVED_CANON"; explanatory text updated.
+- `18_audits/CARTOGRAPHY_READINESS_AUDIT.md` — Strict Cartography Determinism Cleanup Pass section added; verdict: **MAP READY WITH MINOR NON-BLOCKING GAPS**.
+- Tracking: `00_control/STAGE_STATUS.md`, `00_control/CARTOGRAPHY_DETERMINISM_PROGRESS.md`.
+
+### Canon Established
+- **Four-status taxonomy** is the authoritative classification system for all map-visible features: AUTHORITATIVE (NW-cluster authored), DERIVED_CANON (far-continent committed geometry), NOT_MAP_AUTHORITATIVE (off-map/background/DM-only), CARTOGRAPHY_BLOCKER (none remain).
+- **MAP READY WITH MINOR NON-BLOCKING GAPS** is the correct final verdict: 0 blockers; 7 non-map-authoritative items are legitimately non-renderable as fixed player-map points.
+
+### Indexes Updated
+- MAP_FEATURE_REGISTRY (taxonomy column); CARTOGRAPHY_READINESS_AUDIT (pass section); STAGE_STATUS (interstitial passes table, Current Status block).
+
+### Gaps Identified
+- None new. The 7 NOT_MAP_AUTHORITATIVE items (South Sea Lanes, Star-Stones, 5 DM-only) are correctly classified and non-blocking.
+
+### Secrecy / Apex Check
+- **No apex leak.** D23 (Under-Shrine Approach), the Concord Deep, the Drowned Keystone, and the Hollow Court seat are all classified NOT_MAP_AUTHORITATIVE on player maps. The endgame stays vertical beneath Hollowmere. No new proper nouns.
+
+### Next Recommended Pass
+- Generate actual map images from the authority files (the only remaining cartography work). Stage 17 (Live Play) otherwise next.
+
+---
+
+## 2026-06-18 — Cartography Determinism Cleanup Pass
+
+### Stage
+Post-Stage-16 interstitial cartography pass. Pure consistency/determinism cleanup over the cartography layer (no new content, no new proper nouns). Stage 17 (Live Play) remains next.
+
+### Summary
+A targeted cleanup pass that closed the residual cartography ambiguities left after the Cartography Authority + Exploration-Determinism passes. It resolved the 18-vs-19 region-count question, fixed four region-packet D-site mislabels against the authoritative adventure-site index, formalized Tollreach as a route-waypoint danger marker, introduced an explicit DERIVED-CANONIZED confidence tier and applied it to the three far cities + major far rivers/ranges/routes, corrected a 42→40 settlement-count overclaim, and reconciled all counts across the authority/audit/tracking files. No geometry was overwritten — the existing AUTHORED-CANON waypoints/polygons were already deterministic; this pass added the explicit labeling, fixed the cross-reference errors, and updated tracking. Verdict: **MAP READY.**
+
+### Files Changed
+- `04_world_atlas/CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md` — §10 definitive region-count note (18 standalone; Cindern Waste/Drowned Steps = sub-areas); §16 DERIVED-CANONIZED tier definition + BACKGROUND-ONLY note.
+- `04_world_atlas/MAP_FEATURE_REGISTRY.md` — 3 far cities → "LOW (position) / DERIVED-CANONIZED (layout)"; MF-612 Tollreach → danger-marker; Registry Counts clarified (18 regions, packet counts, DERIVED-CANONIZED note).
+- `04_world_atlas/ROADS_RIVERS_AND_ROUTES_AUTHORITY.md` — Hethe Tollway: Tollreach formalized as a route-waypoint danger marker (75,37), not a service settlement.
+- `04_world_atlas/region_map_packets/REGION_MARROWDOWNS.md` — D-site D30→**D26** (table + DM-only + authority note rewritten).
+- `04_world_atlas/region_map_packets/REGION_SALLOWMARCH_PROTECTORATE.md` — D-site D33→**D30** (table + DM-only + authority note rewritten).
+- `04_world_atlas/region_map_packets/REGION_HOLLOW_GULF_PORTS.md` — Drowned Steps D33→**D30** (2 references).
+- `04_world_atlas/region_map_packets/REGION_WENDER_STEPPE.md` — Sky-Stones table row D25→**D32** (table + authority note rewritten).
+- `06_settlements/city_map_packets/{GLASSMERE,CALDERPORT,ASHFAST}_CITY_MAP.md` — added DERIVED-CANONIZED layout-confidence lines.
+- `04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` — added deterministic-counts note (18/4/40/36; far cities DERIVED-CANONIZED; Tollreach a danger waypoint).
+- `18_audits/CARTOGRAPHY_READINESS_AUDIT.md` — readiness-question region/settlement counts corrected; Tollreach + D-site findings marked RESOLVED; final verdict reworded to 18 regions; new **Cartography Determinism Cleanup Pass (2026-06-18)** section + **MAP READY** verdict.
+- Tracking: `00_control/CONSISTENCY_AUDIT.md`, `CARTOGRAPHY_DETERMINISM_PROGRESS.md`, `CONTENT_INDEX.md`, `TODO.md`, `TAG_INDEX.md`, `STAGE_STATUS.md`; `17_generation_backlog/CONTENT_GAPS.md` (Tollreach + D-site gap rows closed).
+
+### Canon Established
+- Definitive region count: **18 standalone map-authoritative regions** (each with a packet). **Cindern Waste** = ash-badland terrain sub-zone within the Emberfell Theocracy region; **the Drowned Steps** = submerged-ruin sub-area (adventure site D30) within the Sallowmarch Protectorate — neither is a standalone region.
+- D-site IDs (authoritative, now consistent everywhere): **D26** = Marrowdowns Barrow Complex; **D30** = Sallowmarch Drowned Steps; **D32** = Wender Sky-Stones; **D33** = Sunhollow Great Grove.
+- **DERIVED-CANONIZED** confidence tier: far-feature layouts derived from registered lore are authoritative for mapping while their geographic positions stay LOW. Applied to the 3 far cities + major far rivers/ranges/routes.
+- **Tollreach** is a route-waypoint danger marker at (75,37), not a service settlement.
+
+### Indexes Updated
+- MAP_FEATURE_REGISTRY counts; CONTENT_INDEX packet rows; TAG_INDEX pass entry (no new tags); CARTOGRAPHY_READINESS_AUDIT.
+
+### Gaps Closed
+- Tollreach packet gap (resolved as danger waypoint). D-site numbering discrepancy (resolved across all 4 region packets).
+
+### Secrecy / Apex Check
+- **No apex leak.** D23 (Under-Shrine Approach), the Concord Deep, the Drowned Keystone, and the Hollow Court seat remain DM-only; the endgame stays vertical beneath Hollowmere; far ruins (incl. the corrected D26/D30) remain surface/echo only. No new proper nouns.
+
+### Next Recommended Pass
+- Generate the actual map images from the now-fully-reconciled authority files + prompts (the only remaining cartography work). Stage 17 (Live Play) otherwise next.
+
+---
+
 ## 2026-06-18 — Exploration-Determinism Pass
 
 ### Stage

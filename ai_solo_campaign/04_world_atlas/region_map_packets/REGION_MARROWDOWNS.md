@@ -74,9 +74,9 @@ tags: [type:map, secrecy:mixed, function:cartography, map-packet, region-map, ma
 
 | Site | Local | Full-grid | Surface marker | Player-map |
 |---|---|---|---|---|
-| D30 The Marrowdowns Barrow Complex | (70,40) | (52,64) | barrow-mounds on the downs (the Barrow-Fields) | label-only |
+| D26 The Marrowdowns Barrow Complex | (70,40) | (52,64) | barrow-mounds on the downs (the Barrow-Fields) | label-only |
 
-> **Authority note:** the `ADVENTURE_SITE_CARTOGRAPHY_INDEX.md` master table lists the Marrowdowns Barrow Complex as **D30** (D26 is the Hethewald Old Holds). The prior shallow packet mislabeled it D26; this packet uses the authority index's D30. Flagged to the coordinating agent.
+> **Authority note (resolved 2026-06-18, Cartography Determinism Cleanup):** the `ADVENTURE_SITE_CARTOGRAPHY_INDEX.md` master table (and `DUNGEON_INDEX.md`, `RUIN_INDEX.md`, `MAP_FEATURE_REGISTRY.md`, `CLUE_INDEX.md`) assign the Marrowdowns Barrow Complex **D26**; **D30** is the Sallowmarch Drowned Steps and **D33** is the Sunhollow Great Grove. An earlier packet edit incorrectly "corrected" this to D30 in the wrong direction; the master index is authoritative and this packet now uses **D26**.
 
 ## Ruins / Wilderness Landmarks
 
@@ -111,7 +111,7 @@ The Marrowdowns (one label for region+terrain); Marrowmoot; Penmark Hold; Wether
 
 ## DM-Only Layer (NEVER on the player map)
 
-- The Barrow Complex (D30) is **pre-Concord** — its waking dead corroborate the *"older, wider fall"* theme; a resonant echo, NEVER the keystone, the machine, or the Concord Deep.
+- The Barrow Complex (D26) is **pre-Concord** — its waking dead corroborate the *"older, wider fall"* theme; a resonant echo, NEVER the keystone, the machine, or the Concord Deep.
 - Barrow-Master Doss Wether's robbing **worsens** the local stirring (an unwitting aggravator) — DM moral knot, not a map feature.
 - Moot-Mother Senna Crale carries the **old-songs network fragment** ("the grey hands took the dead"), which she half-conflates with the older pre-Concord barrow-doom — M6-oblique folk-memory ONLY; no mechanism, no Court, no keystone.
 - A "wrong" pre-Concord relic from a deep barrow is M2-oblique; never explain Remembrance/the harvest.

@@ -19,6 +19,8 @@ Deterministic geometry for every named road, river, and sea-lane of Orrun. All c
 
 **Direction convention:** rivers run **source → mouth**; roads/sea-lanes run **start → end** as listed.
 
+> **Confidence (Strict Cartography Determinism Cleanup, 2026-06-18):** every route/river below is a committed ordered-waypoint polyline (no endpoint-only routes remain). Per-feature render-confidence uses the four-status taxonomy from `MAP_FEATURE_REGISTRY.md`: in-cluster roads/rivers and the Pale Coast Sea-Route = **AUTHORITATIVE**; far routes/rivers (Verdance Road, Glasswater Run, Crown Road, Salt Road, Hethe Tollway; Glasswater, Mardenflow, Hethe) = **DERIVED_CANON** (committed waypoints; far-survey detail is placeholder context); the South Sea Lanes (Hollow Gulf → off-map edge-arrow) = **NOT_MAP_AUTHORITATIVE**. The legacy "Confidence: HIGH/LOW" lines on each entry are geographic-certainty context only; the four-status label is the render authority.
+
 ---
 
 ## ROADS AND LAND ROUTES
@@ -72,7 +74,8 @@ Deterministic geometry for every named road, river, and sea-lane of Orrun. All c
 - **Bridges/fords/ferries:** Hethe fords; Tollreach river-toll (75,37).
 - **Toll/gates:** Karran-Gate; Tollreach outlaw-tolls; Hethemoot.
 - **Hazards:** forest outlaws; toll-lords; the Old Holds (D25, forbidden deep-wood).
-- **Nearby settlements:** Hethemoot (71,39), Greenward (68,43), Karran-Gate (76,20).
+- **Tollreach (route-waypoint danger marker, 75,37):** Greenfinger Maddoc's outlaw river-toll camp, upstream of Hethemoot within the Hethewood. It is a **danger waypoint on the Tollway, NOT a service settlement** — no inn, no resupply, no safe rest. **DM map:** danger-icon route waypoint at (75,37). **Player map:** show as an unlabeled danger-icon, or omit, depending on whether the player knows of it. Maddoc's stat profile and the camp's behavior are in `HETHEWALD_FREE_HOLDS_NPCS.md`; the AI DM runs an encounter/parley here, not an arrival-at-settlement scene. (Resolved 2026-06-18, Cartography Determinism Cleanup.)
+- **Nearby settlements:** Hethemoot (71,39, the region's service hub), Greenward (68,43), Karran-Gate (76,20).
 - **Player-map visibility:** yes · **Confidence:** LOW
 
 ### South Road (in-cluster)

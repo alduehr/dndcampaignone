@@ -22,11 +22,13 @@ Coordinate anchors for every authored adventure site (D01–D36). For each site:
 
 **Coordinate derivation:** Reach/Ring-1 site positions are taken from `WORLD_MAP_COORDINATES.md` (campaign grid) and transformed to the full-continent render grid via `CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md §15`; where a site only had a "near settlement X" description, the position is **DERIVED** from the settlement coordinate + a directional offset (noted). Far-continent sites sit within their region's settlement-anchor footprint.
 
+> **Survey Certainty column (legacy Conf.):** HIGH/MEDIUM/LOW/DERIVED values in the tables below indicate geographic-placement certainty only — how precisely the site's position is known. This is NOT render-readiness. For render-confidence of any feature, use `MAP_FEATURE_REGISTRY.md` (four-status taxonomy: AUTHORITATIVE / DERIVED_CANON / NOT_MAP_AUTHORITATIVE / CARTOGRAPHY_BLOCKER). Legacy HIGH/MEDIUM/LOW values are geographic-certainty context; they do not affect map rendering.
+
 ---
 
 ## Sundering Reach (D01–D06, D18–D20, D23)
 
-| Site | Name | Full-grid (x,y) | Region-packet local | Nearest settlement | Dir / time | Terrain | Surface marker | Player-map | DM-map | Icon | Conf. |
+| Site | Name | Full-grid (x,y) | Region-packet local | Nearest settlement | Dir / time | Terrain | Surface marker | Player-map | DM-map | Icon | Survey Certainty |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | D01 | The Peat Chapel | 24,25 | REACH (48,52) | Hollowmere | S, ~0.5 day | fen wayside | half-sunk chapel stones | visible | yes | ruin | DERIVED |
 | D02 | The Whispering Cairn | 25,24 | REACH (54,48) | Reedford/Hollowmere | E on road, ~1 day | roadside | standing archive-cairn | visible | yes | stone | DERIVED |
@@ -43,7 +45,7 @@ Coordinate anchors for every authored adventure site (D01–D36). For each site:
 
 ## Ashgarden Vale (D07–D09)
 
-| Site | Name | Full-grid | Local | Nearest settlement | Dir / time | Terrain | Surface marker | Player-map | DM-map | Icon | Conf. |
+| Site | Name | Full-grid | Local | Nearest settlement | Dir / time | Terrain | Surface marker | Player-map | DM-map | Icon | Survey Certainty |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | D07 | The Buried Cloister | 25,32 | VALE (50,40) | Orchardmere | orchard country, ~1 day | farmland ruin | sunken cloister walls in an orchard | visible | yes | ruin | DERIVED |
 | D08 | The Pellow Grange | 27,31 | VALE (62,38) | Orchardmere | E, Ledger quarry, ~1 day | grange/quarry | grange manor + relic-quarry | visible | yes | building | DERIVED |
@@ -51,7 +53,7 @@ Coordinate anchors for every authored adventure site (D01–D36). For each site:
 
 ## Tollwood (D10–D12)
 
-| Site | Name | Full-grid | Local | Nearest settlement | Dir / time | Terrain | Surface marker | Player-map | DM-map | Icon | Conf. |
+| Site | Name | Full-grid | Local | Nearest settlement | Dir / time | Terrain | Surface marker | Player-map | DM-map | Icon | Survey Certainty |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | D10 | The Greenward Toll-Station | 31,22 | TOLLWOOD (44,52) | Tollstone Cross | on the East Road | road-node | overgrown toll-station ruin | visible | yes | ruin | DERIVED |
 | D11 | The Hanging Oaks | 33,21 | TOLLWOOD (56,44) | Hartfell | mid-deep wood, ~1 day | grove | old grove of hanged oaks | label-only | yes | grove | DERIVED |
@@ -59,7 +61,7 @@ Coordinate anchors for every authored adventure site (D01–D36). For each site:
 
 ## Pale Coast (D13–D15)
 
-| Site | Name | Full-grid | Local | Nearest settlement | Dir / time | Terrain | Surface marker | Player-map | DM-map | Icon | Conf. |
+| Site | Name | Full-grid | Local | Nearest settlement | Dir / time | Terrain | Surface marker | Player-map | DM-map | Icon | Survey Certainty |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | D13 | The Wreckers' Caves | 11,21 | COAST (40,44) | Wrackmouth | wild coast, ~1 day | sea-caves | sea-cave mouths in the cliffs | label-only | yes | cave | DERIVED |
 | D14 | The Drowned Lamp | 12,20 | COAST (44,40) | Cobble Strand | headland N of Wrackmouth | coastal headland | ruined lighthouse on the headland | label-only ("ruined lighthouse") | yes | tower | MEDIUM |
@@ -67,14 +69,14 @@ Coordinate anchors for every authored adventure site (D01–D36). For each site:
 
 ## Caradril (D16–D17)
 
-| Site | Name | Full-grid | Local | Nearest settlement | Dir / time | Terrain | Surface marker | Player-map | DM-map | Icon | Conf. |
+| Site | Name | Full-grid | Local | Nearest settlement | Dir / time | Terrain | Surface marker | Player-map | DM-map | Icon | Survey Certainty |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | D16 | The Sunken Wards Deep | 34,35 | CARADRIL city (S/below) | Caradril | beneath the city (Sealgate) | urban undercity | the Sealgate (sealed stair) | urban (city map; gate visible) | yes | gate | HIGH |
 | D17 | The Caradril Ashmarket Undercroft | 34,35 | CARADRIL city (Ashmarket) | Caradril | beneath the Ashmarket | urban warren | Ashmarket cellars (interior) | urban | yes | building | HIGH |
 
 ## Far Continent — Stage 12 / 12.5 (D21–D22, D24–D36)
 
-| Site | Name | Full-grid | Region | Nearest anchor | Dir / time | Terrain | Surface marker | Player-map | DM-map | Icon | Conf. |
+| Site | Name | Full-grid | Region | Nearest anchor | Dir / time | Terrain | Surface marker | Player-map | DM-map | Icon | Survey Certainty |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | D21 | The Old Concord Heartlands Ruin | 62,56 | Concord Heartlands | Crownmouth (60,54) | E, ~1 day | fallen ruin-country | broken towers (unexplained) | visible (broken ruin) | yes | ruin | LOW |
 | D22 | The Emberfell Caldera Descent | 81,61 | Emberfell | Ashfast (80,62) | into the caldera | volcanic | active caldera rim | visible (volcano) | yes | volcano | LOW |

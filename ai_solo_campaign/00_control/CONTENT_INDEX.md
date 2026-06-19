@@ -398,7 +398,7 @@ Each major faction has a 4-quest chain (intro → trust → moral complication �
 | Set | Path | Secrecy | Summary |
 |---|---|---|---|
 | Region map packets (18) | `04_world_atlas/region_map_packets/REGION_*.md` | mixed | Per-region local grid + full-continent bounds, terrain/water/routes/settlements/dungeons/landmarks, player-safe vs DM-only layers. 5 cluster (Sundering Reach, Ashgarden Vale, Tollwood, Pale Coast, Caradril) + 13 far (Cindern Waste folded into Emberfell). |
-| City map packets (4) | `06_settlements/city_map_packets/{CARADRIL,GLASSMERE,CALDERPORT,ASHFAST}_CITY_MAP.md` | mixed | Per-city local grid, river/harbor geometry, district centroids+bounds, bridges/ferries, road exits, docks, named landmarks. Caradril HIGH; far 3 placeholder. |
+| City map packets (4) | `06_settlements/city_map_packets/{CARADRIL,GLASSMERE,CALDERPORT,ASHFAST}_CITY_MAP.md` | mixed | Per-city local grid, river/harbor geometry, district centroids+bounds, bridges/ferries, road exits, docks, named landmarks. Caradril AUTHORITATIVE; far 3 (Glassmere/Calderport/Ashfast) **DERIVED_CANON** layout (authoritative for rendering; far-survey position context drawn soft) per 2026-06-18 Strict Cartography Determinism Cleanup pass. |
 | Settlement map packets (40) | `06_settlements/settlement_map_packets/SETTLEMENT_*_MAP.md` | mixed | Per-settlement local grid, notable areas, exits, crossings, landmarks. 16 NW cluster (full eagle-test depth) + 24 far-continent (eagle-test depth). Glob-verified 2026-06-18. |
 | Adventure-site cartography index | `10_dungeons_and_ruins/ADVENTURE_SITE_CARTOGRAPHY_INDEX.md` | mixed | D01–D36 full-continent + local coords, nearest settlement, surface marker, player/DM visibility. D23 DM-only. |
 

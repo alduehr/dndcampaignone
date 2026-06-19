@@ -80,7 +80,7 @@ tags: [type:map, secrecy:mixed, function:cartography, map-packet, region-map, ho
 |---|---|---|---|---|
 | D31 The Hollow Gulf Wreck-Reef | (66.7,50) | (68,90) | wreck-reef / drowned harbour-quarter (offshore) | label-only ("wreck-reef") |
 
-> The Drowned Steps (D33, full (54,90)) lie off the Sallowmarch delta just W of this region and are the **Q_HGP_007** salvage target shared with the Sallowmarch — see that region's packet; render once, on the delta coast.
+> The Drowned Steps (D30, full (54,90)) lie off the Sallowmarch delta just W of this region and are the **Q_HGP_007** salvage target shared with the Sallowmarch — see that region's packet; render once, on the delta coast.
 
 ## Ruins / Wilderness Landmarks
 
@@ -115,7 +115,7 @@ The Hollow Gulf Ports (faint region label); the Hollow Gulf (bay, on water); Cal
 
 ## DM-Only Layer (NEVER on the player map)
 
-- The Wreck-Reef (D31) and the Drowned Steps (D33, shared) hold only **faint far-south relic-echoes** (M2/M5-oblique) — far corroboration of the crisis's continental reach; NEVER the live machine, the keystone, or the Concord Deep.
+- The Wreck-Reef (D31) and the Drowned Steps (D30, shared) hold only **faint far-south relic-echoes** (M2/M5-oblique) — far corroboration of the crisis's continental reach; NEVER the live machine, the keystone, or the Concord Deep.
 - Tide-Mother Sera Mardenmouth is the **southernmost old-songs network anchor** and the Gulf's lone believer — she could carry the frontier warning to the maritime world via Roke Mallin (Q_MAJOR_010). Her "grey hands" fragment is M6-oblique folk-memory ONLY.
 - Roke Mallin is the rare far-region NPC who *might believe* the frontier crisis — a late-game truth-bridge; keep his "north gone wrong" knowledge as vague sailor's-rumor.
 - Foreign-Factor Hadiz carries the campaign's faintest, most optional **world-horizon** hint ("Surren has tales not unlike it") — keep EXTREMELY oblique; never develop; never pull focus from Hollowmere.

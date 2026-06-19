@@ -18,6 +18,7 @@ tags: [type:map, secrecy:mixed, function:cartography, city-map, map-packet, glas
 - **Local grid:** 0–100 (X east, Y south).
 - **Full-continent position:** render-grid (55,50). The greatest river-city on the Glasswater; the Glassmere League capital.
 - **Canonical decision (justified from canon):** the name **"the Three Bridges"** implies multiple river-crossings, so Glassmere is a **two-bank city** straddling the Glasswater, joined by three bridges. The Floor (merchant-exchange), the Three Bridges (banking quarter), and the Reliquary (Remnant chapter-house) are named anchors; Lowwater is the poor riverside district.
+- **Layout confidence:** **DERIVED_CANON** (resolved 2026-06-18). The two-bank / three-bridge structural layout, district positions, river channel, and road exits below are authoritative for mapping (derived from the "Three Bridges" two-bank canon). The region's broad geographic position is DERIVED_CANON; frontier survey detail is placeholder context drawn soft.
 
 ## River Geometry
 
