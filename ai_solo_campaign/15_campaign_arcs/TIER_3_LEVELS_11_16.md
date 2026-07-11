@@ -140,7 +140,7 @@ Reference only — `../08_npcs/`:
 
 Reference `../13_encounters_and_bestiary/`:
 
-- **Typical threats:** Ward/Choir-Keeper Remembrances (CR 5–8), barrow-wights, salt-mummies, ash-bound dead, banshees, the Allip (secret-maddened dead) and Caller in Darkness (grief-swarm) in worst sites, Concord Construct-Guardians / Relay-Wardens (CR 7–17), far-region apex predators (chimera, manticore, wyvern, giants, young dragons), elementals (Caldera Guardian), and faction champions (assassins, mages, knights, the Reclaimer hierarchy).
+- **Typical threats:** Ward/Choir-Keeper Remembrances (CR 5–8), barrow-wights, salt-mummies, ash-bound dead, banshees, the Allip (secret-maddened dead) and the Sorrowsworn (grief made flesh) in worst sites, Concord Construct-Guardians / Relay-Wardens (CR 7–17), far-region apex predators (chimera, manticore, wyvern, giants, young dragons), elementals (Caldera Guardian), and faction champions (assassins, mages, knights, the Reclaimer hierarchy).
 - **DM-gated horror:** the Soul Monger (CR 11) and Bodak appear only in the deepest harvest-scarred sites; the Custodian apex (CR 16–20) is **Under-Shrine only**.
 - **Solo danger:** high to very high. Far sites (Emberfell D22, Highmark D35, Cindern D36) are *very high* environmental hazard — telegraph lethality; the player needs the Drowned Flame, faction support, and escape routes.
 - Scaling per `SOLO_ENCOUNTER_SCALING.md`; solo notes per `SOLO_CAMPAIGN_BALANCE_GUIDE.md`.

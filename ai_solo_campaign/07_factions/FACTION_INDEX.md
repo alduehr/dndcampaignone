@@ -51,6 +51,14 @@ Master list of all factions. Load to find which faction file to open. Public fac
 | Salt Syndicate | `../06_settlements/caradril_districts/THE_ASHMARKET.md` | Caradril | Smugglers / black market | Sells relics that hold the dead, unknowing (M3); shelters the Sill | (feeds C1/C3) |
 | The Hush | `../06_settlements/caradril_districts/THE_SILL.md` | Caradril | Information brokers | Sells mid-arc clue-fragments; every secret carries a hidden price | (feeds C1/C2) |
 
+## Minor Factions (2026-07-07 — standalone files begin)
+
+> Minor factions have real agency but no continental reach or 4-quest chain. Most are authored inline (see `minor_factions/README.md` for the full roster and locations); a group gets a standalone file only when its moving parts warrant one.
+
+| Faction | File | Scope | Public Face | Hidden Agenda (DM) | Clock |
+|---|---|---|---|---|---|
+| The Tollmen | `minor_factions/THE_TOLLMEN.md` | Tollwood (East Road) | Road-bandit toll-keepers at Tollstone Cross | Divided: Renn's protection racket vs. Skell's plunder plot; they sit atop (and fear) a leaking node | T2 The Toll Turns to Plunder (region-owned) |
+
 ## Faction Relationship Map
 
 | Faction | Relationship | Public Reason | Hidden Reason | Current Tension |

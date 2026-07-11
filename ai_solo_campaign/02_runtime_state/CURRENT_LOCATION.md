@@ -19,7 +19,7 @@ Describes where the player character is right now and what has changed about tha
 | Region | The Sundering Reach |
 | Sub-location | Mourner's Green (the cemetery) — default opener; alt: the Drowned Lantern (Opener B) or the Concord road into town (Opener C) |
 | Time of day | Morning |
-| Weather | Cold, wet, fog over the basin (Greyfall, late autumn) |
+| Weather | Cold, wet, fog over the basin (Greyfall, mid-autumn) |
 | Who is present | A funeral crowd; Grandmother Wend (grief-keeper); Iola; Tomas Brevin; the failed-rite body of Wren Brevin; Sefra Quick at the player's elbow |
 | Recent changes | None yet — first arrival |
 

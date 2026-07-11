@@ -51,7 +51,7 @@ Until Stage 13/15 build full encounter tables, draw events from the above author
 
 ## Weather and Terrain as Complication
 
-- Use the region's defining conditions: cold, wet, fog, sinking ground, flood-prone river banks. Greyfall (late autumn) is the starting season — brutal weather is on the way.
+- Use the region's defining conditions: cold, wet, fog, sinking ground, flood-prone river banks. Greyfall (mid-autumn) is the starting season — brutal weather is on the way.
 - Make weather a *decision*, not just flavor: fog that hides the route (and the dead), a flood that closes a causeway, cold that forces a rest or a shelter choice.
 
 ---

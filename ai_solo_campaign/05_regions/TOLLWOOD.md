@@ -33,7 +33,7 @@ The Tollwood holds the campaign's clearest **non-Concord** mystery-thread, and i
 ## Geography
 
 - **Terrain:** deep old-growth forest — oak/ash/black-pine; mossed Concord causeways and ruined toll-stations; charcoal-clearings and coppice; bramble-choked ravines; cold forest streams feeding the Ammet headwaters; the deepest, oldest stand (the Old Mast) at the forest's heart.
-- **Climate:** cool, damp, deep-shaded; little wind under the canopy; mist in the hollows; the forest swallows weather and sound. Campaign starts in late autumn — leaf-fall, charcoal-season, the wood at its most disorienting.
+- **Climate:** cool, damp, deep-shaded; little wind under the canopy; mist in the hollows; the forest swallows weather and sound. Campaign starts in mid-autumn — leaf-fall, charcoal-season, the wood at its most disorienting.
 - **Boundaries:** Sundering Reach (W, across Kettle Bridge and the Mirewend), Ashgarden Vale (S, across the Ammet headwaters), Caradril and its hinterland (SE), unmapped deeper forest and hills (N/E).
 - **Defining features:** the **East Road** (the great Concord toll-causeway to Caradril); the ruined **toll-stations**; the deep **Old Mast**; the locals' **toll-shrines** (offering-stones at forest crossings).
 

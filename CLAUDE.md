@@ -148,11 +148,14 @@ Use this structure unless the user explicitly changes it:
   /12_campaign_arc
   /13_encounters_and_bestiary
   /14_treasure_and_artifacts
-  /15_random_tables
+  /15_campaign_arcs    — Level 5–20 arc: tier overviews, escalation, endgame, playable paths
+  /15_random_tables    — Random tables for travel, weather, events
   /16_ai_session_packs
   /17_generation_backlog
   /18_audits
 ```
+
+Note: `/15_campaign_arcs` and `/15_random_tables` intentionally share the `15_` prefix (historical numbering; both are current and tracked — do not treat either as a typo or duplicate).
 
 ---
 

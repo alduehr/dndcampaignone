@@ -100,7 +100,7 @@ Load when an NPC dies, leaves, is exposed, or allies with the player — to know
 - **The Mourner old-songs network:** Wend ↔ Combe ↔ both Sennets ↔ Bryd ↔ Mam Tace — one faith, one buried memory, five regions.
 - **The wandering Wardens:** Sef (Coast), Ošric (Tollwood), Pell (Reach roam), Adwen/Verge (resident) — the order's thin thread across the world.
 - **Smuggling/relic underground:** Gull (Reach) → Gravecaller buyer + Coast fence (Dree "Cuttle") → Cole; Sorrel's Syndicate (Caradril) overlaps. A black-market through-line.
-- **Surname families (NOT kin unless noted):** the "Pells" (Warden Pell, Wymar Pell, Pell Oster, Ale-wife Pell) are **unrelated** — common frontier surname. The two **Sennets** are distinct people. **Wren Hollowmere** ≠ **Wren-of-the-Wood**. Keep epithets.
+- **Surname families (NOT kin unless noted):** the "Pells" (Warden Pell, Wymar Pell, Pell Oster, Ale-wife Pell) are **unrelated** — common frontier surname. The two **Sennets** are distinct people. **Wren Brevin** ≠ **Wren-of-the-Wood**. Keep epithets.
 
 ---
 

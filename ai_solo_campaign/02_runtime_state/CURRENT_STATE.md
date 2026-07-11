@@ -16,7 +16,7 @@ Single-page snapshot of where the campaign stands right now. The AI DM loads thi
 |---|---|
 | Campaign name | The Long Remembering |
 | Session number | 0 (not started) |
-| In-world date | Greyfall (late autumn), AQ 101 |
+| In-world date | Greyfall (mid-autumn), AQ 101 |
 | In-world time | Morning of the player's arrival in Hollowmere |
 | Current location | Hollowmere, the Sundering Reach (default scene: Mourner's Green) |
 | Scene status | Not started — opening scene staged (Opener A, "The Failed Funeral") |

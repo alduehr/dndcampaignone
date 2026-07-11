@@ -63,6 +63,7 @@ Rolling chalk downs, shire-moots, and old barrow-fields where the very old dead 
 
 ## Mystery-Linked Encounters
 - **M5** (the down-dead won't rest; old songs), **M6** (pre-Concord echo — an *older, separate* fall; far-echo, gated). Fragments only; `MYSTERY_ENCOUNTERS.md`.
+- **Horror additions (RtHW pass 2026-07-07):** a **Gallows Speaker** (RtHW) at a gibbet-crossroads or hanged-man's barrow — a talking M5/M6 fragment-vector (gated wording only; `HORROR #H10`); a **Carrion Stalker** (VRGtR/RtHW) laired in a robbed barrow; a **Dullahan** (VRGtR/RtHW) as a rare down-roads death-omen.
 
 ## Dungeon/Site Encounter Support
 - **The Marrowdowns Barrow Complex** (D26) — `DUNGEON_ENCOUNTER_SUPPORT.md`.

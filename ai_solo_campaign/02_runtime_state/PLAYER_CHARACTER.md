@@ -12,7 +12,7 @@ Full record of the player character's current state. Updated whenever stats, equ
 
 - At campaign start, assume the PC is **uninjured**: full HP, no conditions, exhaustion 0, all resources/spell slots available.
 - Starting equipment: per the chosen class/background (standard 5e/2024 starting gear). Record below once set.
-- The PC is a **newcomer to Hollowmere**, arriving in Greyfall (late autumn), AQ 101, "for their own reasons" — let the player define these (work, a fresh start, a name to leave behind) and record them in Notes; weave them into the opening.
+- The PC is a **newcomer to Hollowmere**, arriving in Greyfall (mid-autumn), AQ 101, "for their own reasons" — let the player define these (work, a fresh start, a name to leave behind) and record them in Notes; weave them into the opening.
 - The PC begins with the solo-play safety net available (safe base, optional companion, fen-guide, paid-work patron) — see `../16_ai_session_packs/SOLO_SAFETY_START.md`. None are companions *yet*; they are earned in play.
 
 ---

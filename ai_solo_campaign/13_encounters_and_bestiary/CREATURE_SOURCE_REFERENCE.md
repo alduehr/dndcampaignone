@@ -52,6 +52,7 @@ For creatures unique to the world (Remembrance-linked dead, Concord constructs, 
 
 **Required fields for a Track B entry:**
 - Name, type, size, CR/level band, habitat, encounter role
+- **Official chassis anchor (required as of 2026-07-07):** the published D&D stat block the creature is mechanically built on, stated as "use [creature] ([book]), modified: …". Every campaign-original creature must be runnable from a real published stat block plus stated modifications — no creature exists on invented mechanics alone. The master anchor table lives in `BESTIARY_INDEX.md` §"Track-B Official-Chassis Anchors".
 - Behavior, tactics, morale/retreat
 - Solo danger rating
 - Noncombat options
@@ -71,16 +72,20 @@ For creatures unique to the world (Remembrance-linked dead, Concord constructs, 
 | **MotM** | Mordenkainen Presents: Monsters of the Multiverse (2022) |
 | **MToF** | Mordenkainen's Tome of Foes (2018) |
 | **VGtM** | Volo's Guide to Monsters (2016) |
-| **VRGtR** | Van Richten's Guide to Ravenloft (2021) — the project's published gothic-horror source |
+| **VRGtR** | Van Richten's Guide to Ravenloft (2021) — the project's published gothic-horror source (32 monster stat blocks) |
 | **FToD** | Fizban's Treasury of Dragons (2021) |
 | **XGtE** | Xanathar's Guide to Everything (2017) |
 | **TCoE** | Tasha's Cauldron of Everything (2020) |
-| **RtHW** | Ravenloft: The Horrors Within (2026) — **pending; not yet integrated** (releases June 16 2026; see the Horror Expansion Supplement section below) |
+| **GoS** | Ghosts of Saltmarsh (2019) — source of the drowned-dead series (Drowned Ascetic/Assassin/Blade/Master) |
+| **ToA** | Tomb of Annihilation (2017) — appendix monsters (e.g. Assassin Vine) |
+| **RtHW** | Ravenloft: The Horrors Within (2026) — **verified and integrated 2026-07-07** (released June 16 2026; 51 monster stat blocks, CR 1/2–21, largely VRGtR creatures updated to 2024 rules plus new cosmic-horror entries; see the Horror Expansion section below) |
 | **source check needed** | Used in the bestiary where the exact official book is genuinely uncertain — a deliberate placeholder, never a guess |
-| **(custom)** | Campaign-original; full Track-B summary given in the bestiary |
+| **(custom)** | Campaign-original; full Track-B summary given in the bestiary — **must name an official chassis anchor** (see Track B) |
 | **(variant)** | A campaign reskin of an official chassis; Track-A reference + the changed behavior noted |
 
-**Edition-preference rule:** if a creature appears in both an older book and the 2024 MM, prefer **2024 MM**. Only cite an older book when the creature is *not* in the 2024 MM.
+**Edition-preference rule:** if a creature appears in both an older book and the 2024 MM, prefer **2024 MM**. Only cite an older book when the creature is *not* in the 2024 MM. Many VGtM/MToF creatures are reprinted in **MotM (2022)**; when in doubt, cite the original book — the AI DM can use either printing.
+
+**Citation-integrity rule (2026-07-07 verification pass):** cite **book only, never page numbers**, unless a page has been verified against the physical/digital book — earlier drafts carried invented page citations, which have been removed. Every Track-A creature name and book attribution in this repo was re-verified in the 2026-07-07 pass; do not add a new official-creature reference without confirming the creature actually appears in the named book. If it cannot be confirmed, use `source check needed` or anchor a Track-B original to a verified chassis instead.
 
 The AI DM is assumed to have access to the referenced books. The campaign files never substitute for owning the rules; they tell the DM **what to use, where, and how to tune it for solo play**.
 
@@ -88,77 +93,58 @@ The AI DM is assumed to have access to the referenced books. The campaign files 
 
 **VRGtR is a published, copyrighted D&D 5e sourcebook (2021), referenced here exactly like the Monster Manual — Track A only.** The campaign world (Vael / Orrun) is **original**; it is **not** Ravenloft, the Domains of Dread, or any proprietary setting. No Ravenloft place, darklord, character, deity, or domain lore is imported. We borrow only **published creature stat references** where the campaign's *own* horror themes — the Remembrance harvest, the consumed dead, grief-saturated sites, memory-loss, hollow/thin-born people — already call for that kind of creature.
 
-Why VRGtR fits this campaign's themes (a Track-A reference list, **not** stat-block reproduction):
+**Source correction (2026-07-07 verification pass):** several gothic-horror creatures previously misattributed to VRGtR are actually **Mordenkainen's Tome of Foes (MToF)** or **Volo's Guide to Monsters (VGtM)** creatures, and one ("Caller in Darkness") **does not exist in any official 5e book** (it is a 3rd-edition psionics monster) — it has been replaced by the Sorrowsworn. The corrected reference list:
 
-- **Oblex** (adult/spawn; VRGtR) — an ooze that **absorbs and mimics the memories** of those it consumes. The single best mechanical mirror of the Harvest in published 5e. Belongs in Remembrance-leak ruins and memory-scarred fen.
-- **Allip** (VRGtR) — an incorporeal undead driven mad by a **terrible secret** it must share. A perfect Hollow-Court / harvest-secret echo.
-- **Caller in Darkness** (VRGtR) — a swarm of **tormented, collected souls**; the literal grief-swarm of a mass-death site (drift-lines, drowned towns).
-- **Soul Monger** (VRGtR) — devours the **life force and memories** of victims; a thematic mirror of the Custodians at high tier.
-- **Bodak** (VRGtR / MToF) — soul-drained undead that spread death by gaze; a deep-node / Custodian-touched horror.
-- **Deathlock** (VRGtR / MToF) — undead caster bound to a dark patron; reskins as a Concord-bound or Gravecaller-bound dead caster.
-- **Hollow One** (VRGtR, character option) — used **only as flavor** for thin-born / hollow-interior NPCs; not a stat block.
-- **Loup garou** (VRGtR, CR 13) — pack-lord werewolf; an apex beast option for deep wilderness, used sparingly and only where lycanthrope-horror fits.
-- **Nosferatu / vampiric mist / vampire spawn variants, ghost variants, will-o'-wisp (grief-flavored), gloom weaver, gray render, dullahan, death's head** (VRGtR) — drawn on **only** where a region's encounter design already has the matching theme; never forced.
+Published gothic-horror creatures that fit this campaign's themes (a Track-A reference list, **not** stat-block reproduction):
+
+- **Oblex** (adult/spawn; **MToF**, reprinted MotM) — an ooze that **absorbs and mimics the memories** of those it consumes. The single best mechanical mirror of the Harvest in published 5e. Belongs in Remembrance-leak ruins and memory-scarred fen.
+- **Allip** (**MToF**) — an incorporeal undead driven mad by a **terrible secret** it must share. A perfect Hollow-Court / harvest-secret echo.
+- **Sorrowsworn** (**MToF** — the Lost CR 7, the Wretched CR 1/4, the Angry CR 13, the Hungry CR 11, the Lonely CR 9) — **grief, loss, and despair given flesh**; the published embodiment of exactly what this campaign's mass-death sites produce. The Lost fills the grief-swarm role at drift-lines and drowned towns; the Wretched hunt in pitiable packs. *(Replaces the non-official "Caller in Darkness.")*
+- **Soul Monger** (**MToF**) — devours the **life force and memories** of victims; a thematic mirror of the Custodians at high tier.
+- **Bodak** (**VGtM**) — soul-drained undead that spread death by gaze; a deep-node / Custodian-touched horror.
+- **Deathlock** (**MToF** — Deathlock CR 4, Deathlock Wight CR 3, Deathlock Mastermind CR 8) — undead caster bound to a dark patron; reskins as a Concord-bound or Gravecaller-bound dead caster.
+- **Gloom Weaver / Gray Render** (**MToF**) — shadow-realm dread and a grief-bonded brute; drawn on only where the matching theme already exists.
+- **Reborn** (VRGtR, character lineage) — used **only as flavor** for thin-born / returned-wrong NPCs; not a stat block. *(Replaces the earlier "Hollow One" note — that option is from a setting book this project does not reference.)*
+- **Loup garou** (VRGtR, CR 13; updated in RtHW) — pack-lord werewolf; an apex beast option for deep wilderness, used sparingly and only where lycanthrope-horror fits.
+- **VRGtR's own bestiary** (verified 2021 roster) — **Death's Head** (CR 1/2), **Carrionette** (CR 1), **Jiangshi**, **Necrichor**, **Boneless**, **Bagman**, **Zombie Clot**, **Wereraven**, **Priest of Osybus**, **Dullahan**, **Gremishka**, **Strigoi**, **Nosferatu**, **Star Spawn Emissary**, **Brain in a Jar**, **Carrion Stalker** — plus **vampire spawn variants, ghost variants, will-o'-wisp (grief-flavored)** from the 2024 MM — drawn on **only** where a region's encounter design already has the matching theme; never forced.
 
 **Track-A discipline still applies:** name + source + page (if known) + type + CR + habitat fit + encounter role + campaign thematic link + solo danger + prose tactics. **No ability lines, no verbatim action blocks, no copied trait text.** Reskins (e.g. "an oblex re-skinned as a Concord harvest-residue") state the changed theme/behavior on top of the referenced chassis.
 
 **Do not force-fit.** A VRGtR creature is only added to a region whose existing design already carries horror, grief, memory-drain, soul-consumption, or shadow/darkness themes. Bright, mundane, or purely martial encounters stay as they were.
 
-## Horror Expansion Supplement (Pending) — Ravenloft: The Horrors Within (RtHW)
+## Horror Expansion — Ravenloft: The Horrors Within (RtHW) — INTEGRATED
 
-**Status: PENDING. Not yet integrated.** *Ravenloft: The Horrors Within* (`RtHW`) releases **June 16, 2026** — **after** Stage 13 completion (2026-06-14). At Stage 13 completion the full RtHW bestiary was **not yet available**, so no RtHW creature has been placed in any encounter table yet. This section is a **placeholder list** so a later supplement pass can integrate the apt creatures quickly and safely.
+**Status: VERIFIED AND INTEGRATED (2026-07-07).** *Ravenloft: The Horrors Within* (`RtHW`) released **June 16, 2026** and has been verified as a real published sourcebook: **51 monster stat blocks (CR 1/2–21)**, the large majority being **VRGtR (2021) creatures updated to the 2024 rules**, plus a handful of new cosmic-horror entries. The earlier pre-release placeholder list in this section has been replaced with the verified roster below; unverifiable placeholder entries were **removed** per the campaign's no-invented-monsters rule.
 
-**Why RtHW fits this campaign:** like VRGtR, RtHW is a published D&D 5e gothic-horror sourcebook. Several of its creatures mirror the campaign's **Remembrance / harvest** cosmology — memory-mist, bound dead who speak, preserved-body horror, death-fluid seeping from old wounds, undead that will not stay down. These map directly onto the world's themes of grief, forgetting, the consumed dead, and the thin-born/hollow.
+**Track-A discipline applies (same as VRGtR):** name + source (`RtHW`, or `VRGtR / RtHW` where the creature exists in both printings) + habitat fit + encounter role + campaign thematic link + solo danger + prose tactics. **No ability lines, no verbatim action blocks, no copied trait text. No imported Ravenloft setting lore** (no Domains of Dread, darklords, domains, or the book's named NPCs as setting canon). The campaign world (Vael / Orrun) remains **original** and is **not** Ravenloft. A creature is added **only** where a site's horror theme already calls for it (no force-fitting).
 
-**Same Track-A discipline as VRGtR will apply on integration:** name + source (`RtHW`) + type + CR + habitat fit + encounter role + campaign thematic link + solo danger + prose tactics. **No ability lines, no verbatim action blocks, no copied trait text. No imported Ravenloft setting lore** (no Domains of Dread, darklords, domains, or the book's named NPCs as setting canon). The campaign world (Vael / Orrun) remains **original** and is **not** Ravenloft. Add a creature **only** where a site's horror theme already calls for it (do not force-fit).
+### Verified RtHW/VRGtR roster in campaign use
 
-### Confirmed partial RtHW creature list (from pre-release reviews — placeholders only)
+| Creature | Verified source | Campaign thematic link | Where integrated |
+|---|---|---|---|
+| **Gallows Speaker** | RtHW (confirmed in the published bestiary) | **bound dead that speaks** — the harvested who "remember"; gated M5/M6 dread-vector | HORROR #H10, MYSTERY_ENCOUNTERS, Marrowdowns/Heartlands |
+| **Mist Horror** | RtHW (new entry) | **memory-mist threat** — published pairing for the Mind-fog Lurker / drift-line fog | HORROR #H13, Sundering Reach, Drowned Steps |
+| **Necrichor** | VRGtR / RtHW | **death-fluid horror** — "blood of the taken" at harvest-leak and curse sites | HORROR #H11, deep nodes |
+| **Bodytaker Plant + Podling** | RtHW (confirmed); VRGtR-era | body-snatcher horror; the "wrong" returned | HORROR #H12 note, Hethewald deep wood |
+| **Boneless** | VRGtR / RtHW | collapsed/unmade dead | HORROR #H12, drowned towns |
+| **Jiangshi** | VRGtR / RtHW | hopping preserved dead; preservation-horror kin of the Salt-Mummy | HORROR #H12, Saltmere |
+| **Carrionette** | VRGtR (Construct, CR 1) / RtHW | preserved-body / puppet horror | HORROR #H12, Caradril Ashmarket, Glassmere |
+| **Brain in a Jar** | VRGtR / RtHW | preserved mind — the harvest's stored identity made monstrous | HORROR #H12, Concord vaults (gated) |
+| **Carrion Stalker** | VRGtR / RtHW | grave/charnel predator near barrows and drowned towns | Marrowdowns, Saltmere regional tables |
+| **Death's Head** | VRGtR (Undead, CR 1/2, petrifying bite) / RtHW | death-omen horror at deep nodes | regional deep-site tables |
+| **Dullahan** | VRGtR / RtHW | headless herald of death; barrow/Heartlands omen | Marrowdowns, Heartlands |
+| **Gremishka** | VRGtR / RtHW | minor anti-magic pest (sparing wilderness use) | optional wilderness color |
+| **Loup Garou** | VRGtR (CR 13) / RtHW | apex lycanthrope; deep-wilderness only | HORROR #H9 (unchanged) |
+| **Nightgaunt** | RtHW (confirmed; cosmic-horror entry) | silent flying dread (night travel; deepest ruins) — **DM-gated** | HORROR #H13 |
+| **Gug** | RtHW (confirmed; cosmic-horror entry) | deep-cavern aberrant brute (Karran deeps / Drowned Steps) — **DM-gated** | HORROR #H13 |
+| **Shoggoth** | RtHW (confirmed; cosmic-horror entry) | apex deep aberration — **DM-gate hard**; Drowned Steps / Concord Deep outer reach | HORROR #H13 |
+| **Greater Star Spawn Emissary** | RtHW (confirmed; Star Spawn Emissary also VRGtR) | apex cosmic herald — **DM-gate hard**; tier-4 deep-horror only | HORROR #H13 |
 
-Each is marked **(source check needed — RtHW)** because exact type/CR/page must be confirmed against the printed book before use. NPC entries are flagged; they would be used (if at all) **only as published-creature references**, never as imported setting characters.
+**Exact type/CR for RtHW-only entries:** the AI DM pulls these from the published book (Track A). Where a CR is stated above it is verified from the 2021 VRGtR printing.
 
-| Creature (placeholder) | Status | Likely campaign thematic link |
-|---|---|---|
-| Bodytaker Plant | source check needed — RtHW | body-snatcher horror; the "wrong" returned |
-| Bodytaker Podling | source check needed — RtHW | lesser body-snatcher; infiltration dread |
-| Boneless | source check needed — RtHW | collapsed/unmade dead |
-| Brain in a Jar | source check needed — RtHW | preserved mind; the harvest's stored identity made monstrous |
-| Carrion Stalker | source check needed — RtHW | grave/charnel predator near barrows and drowned towns |
-| Carrionette | source check needed — RtHW | preserved-body / puppet horror (Waxworks family) |
-| Death's Head (Aberrant) | source check needed — RtHW | death-omen horror at deep nodes |
-| Death's Head (Petrifying) | source check needed — RtHW | death-gaze variant for deep harvest-scarred sites |
-| Death's Head Tree | source check needed — RtHW | grief-fed flora (mirrors the custom Grave-Bloom) |
-| Dullahan | source check needed — RtHW | headless herald of death; barrow/Heartlands omen |
-| Elder Thing | source check needed — RtHW | deep-cosmic aberration (Drowned Steps / deepest nodes) |
-| Ez d'Avenir **(NPC)** | source check needed — RtHW | reference only if ever used; not imported as setting canon |
-| **Gallows Speaker** | source check needed — RtHW | **bound dead that speaks** — fits the harvested who "remember"; M5/M6 dread-vector |
-| Gremishka | source check needed — RtHW | minor anti-magic pest (sparing wilderness use) |
-| Gug | source check needed — RtHW | deep-cavern aberrant brute (Karran deeps / Drowned Steps) |
-| Jiangshi | source check needed — RtHW | hopping preserved dead; preservation-horror like the Salt-Mummy |
-| Loup Garou | source check needed — RtHW (also VRGtR) | apex lycanthrope; deep-wilderness only (already in VRGtR list) |
-| Madame Eva **(NPC)** | source check needed — RtHW | reference only if ever used; not imported as setting canon |
-| Mi-Go | source check needed — RtHW | brain-harvesting aberration; uncanny mirror of the harvest (deep/gated) |
-| **Mist Horror** | source check needed — RtHW | **memory-mist threat** — strong mirror of the Memory-Echo Haunt / Mind-fog Lurker |
-| Mist Wanderer | source check needed — RtHW | mist-bound lost dead; drift-line / fog flavor |
-| Mordenheim's Monster | source check needed — RtHW | stitched-dead horror (deep-cult / Emberfell heresy) |
-| **Necrichor** | source check needed — RtHW | **death-fluid seeping from old wounds** — fits harvest-leak ooze/curse sites |
-| Nightgaunt | source check needed — RtHW | silent flying dread (night travel; deep ruins) |
-| Rudolph Van Richten **(NPC)** | source check needed — RtHW | reference only if ever used; not imported as setting canon |
-| Shoggoth | source check needed — RtHW | apex deep aberration (DM-gate hard; Drowned Steps / Concord Deep outer reach) |
-| **Strahd Skeleton** | source check needed — RtHW | **undead that won't stay down** — fits the relentless harvest-dead |
-| **Waxworks** | source check needed — RtHW | **preserved-body horror** — direct mirror of the harvest's kept dead |
-| Yithian | source check needed — RtHW | mind-swapping aberration (deep/gated; harvest-of-identity echo) |
+### Entries removed in the 2026-07-07 verification pass
 
-**Strongest thematic fits (prioritize on integration):** **Mist Horror** (memory-mist), **Gallows Speaker** (bound dead that speaks), **Waxworks** / **Carrionette** / **Jiangshi** (preserved-body horror), **Necrichor** (death-fluid from old wounds), **Strahd Skeleton** (the dead that won't stay down), **Brain in a Jar** (stored identity). These align tightly with the Remembrance/harvest/grief spine.
-
-### Where a later RtHW pass should add entries
-
-When the book is accessible, run a focused supplement pass and add the apt creatures (Track-A) to:
-- `HORROR_AND_CURSE_THREATS.md` — the primary home for reskinned RtHW horror (alongside the VRGtR §).
-- `BESTIARY_INDEX.md` — index rows with `A · RtHW` source shorthands.
-- `MYSTERY_ENCOUNTERS.md` — for any RtHW creature that delivers a clue fragment (e.g. a Gallows Speaker / Mist Horror as an M5/M6 vector; keep fragments gated).
-- Deep-horror regional files: `SUNDERING_REACH_ENCOUNTERS.md`, `CONCORD_HEARTLANDS_ENCOUNTERS.md`, `MARROWDOWNS_ENCOUNTERS.md`, `SALTMERE_REACHES_ENCOUNTERS.md`, `DROWNED_STEPS_ENCOUNTERS.md`, `HETHEWALD_ENCOUNTERS.md`.
-
-This pass is logged as a low-priority item in `TODO.md` / `CONTENT_GAPS.md` and as an `OPEN_QUESTIONS.md` entry, gated on the June 16 2026 release.
+The pre-release placeholder list contained entries that could **not** be verified against the published book and have been **removed from campaign use** (per the no-invented-monsters rule): *Elder Thing, Mi-Go, Yithian, Waxworks, "Strahd Skeleton," "Mordenheim's Monster," "Death's Head (Aberrant)," "Death's Head Tree," and "Mist Wanderer" (verified as an RtHW **background**, not a creature).* The three NPC placeholders (*Ez d'Avenir, Madame Eva, Rudolph Van Richten*) were removed outright — importing named setting characters would violate the campaign's originality rules regardless of stat-block availability. If a future owner of the physical book confirms any removed creature, it may be re-added under standard Track-A discipline; do not re-add on memory or secondhand claims.
 
 ## Variant / Reskin Handling
 
@@ -171,7 +157,7 @@ This is how the signature Remembrance dead are handled: a published incorporeal-
 
 ## Copyright-Safety Confirmation
 
-**Confirmed for Stage 13 (incl. the VRGtR supplement):** No file in `13_encounters_and_bestiary/` reproduces a full official stat block — including the Van Richten's Guide to Ravenloft entries added in the horror supplement. Official creatures from all referenced books (2024 MM, VRGtR, MotM, MToF, VGtM, FToD) are **named and source-referenced** with original placement/tactics/solo notes only. Original creatures carry **abbreviated prose summaries**, not reproduced layouts. No proprietary *setting* lore (Ravenloft domains, darklords, named NPCs/deities) is imported — only published creature references, used where the campaign's own Remembrance-horror themes already call for them. This matches `RULESET_ASSUMPTIONS.md` ("Do not copy official stat blocks verbatim. Use abbreviated D&D-compatible stat profiles.") and `DND_MECHANICS_REQUIREMENTS.md` ("Avoid copying official stat blocks verbatim").
+**Confirmed for Stage 13 (incl. the VRGtR supplement) and re-confirmed in the 2026-07-07 verification/RtHW pass:** No file in `13_encounters_and_bestiary/` reproduces a full official stat block — including the VRGtR and RtHW horror entries. Official creatures from all referenced books (2024 MM, 2014 MM, VRGtR, RtHW, MotM, MToF, VGtM, FToD, GoS, ToA) are **named and source-referenced** with original placement/tactics/solo notes only, and every name-and-book attribution was re-verified in the 2026-07-07 pass (misattributions corrected; one non-official creature replaced; invented page numbers removed). Original creatures carry **abbreviated prose summaries anchored to a named official chassis**, not reproduced layouts. No proprietary *setting* lore (Ravenloft domains, darklords, named NPCs/deities) is imported — only published creature references, used where the campaign's own Remembrance-horror themes already call for them. This matches `RULESET_ASSUMPTIONS.md` ("Do not copy official stat blocks verbatim. Use abbreviated D&D-compatible stat profiles.") and `DND_MECHANICS_REQUIREMENTS.md` ("Avoid copying official stat blocks verbatim").
 
 ## Related Files
 

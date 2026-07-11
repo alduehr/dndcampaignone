@@ -16,7 +16,7 @@ Ready-to-use opening for the next session. Includes the situation, sensory detai
 |---|---|
 | Session number | 1 (first session) |
 | Opening location | Hollowmere — Mourner's Green (the cemetery) |
-| In-world date | Greyfall (late autumn), AQ 101 — morning |
+| In-world date | Greyfall (mid-autumn), AQ 101 — morning |
 | Immediate situation | A funeral for the midwife Wren Brevin is failing in public; her rite won't take and she will not lie quiet |
 | Immediate pressure | The crowd's fear; Tomas's grief; Sefra's offer of paid work; the choice of how to engage |
 | Key NPCs present | Wren Brevin (failed-rite body), Tomas Brevin, Grandmother Wend, Iola Wend, Sefra Quick |

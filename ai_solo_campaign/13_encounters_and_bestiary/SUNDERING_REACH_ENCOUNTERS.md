@@ -112,6 +112,7 @@ Solo-tuned encounter tables for the Sundering Reach, by zone. **Designed for ONE
 - **Lvl 1–2:** prefer rows that are [Folk]/[Hazard]/[Clue] or a single weak [Dead]; soften DCs by 1–2.
 - **Lvl 3–4:** standard as written.
 - **Lvl 5–6:** upgrade single Remembrances to wraith-like (~36–45 HP), add a second foe, raise hazard DCs by 2; the Heights and Greyfens-deep become the focus.
+- **Higher-tier returns (Lvl 7+; RtHW pass 2026-07-07):** if the player returns to the deep fens at tier 2+, escalate the horror: a curdled drift-line can host **Sorrowsworn** (MToF — the Wretched in packs, the Lost at the worst sites; `HORROR #H3`), and the deep basin fog can host a **Mist Horror** (RtHW; `HORROR #H13`) — both telegraphed, both avoidable.
 - Recurring named foes (Veska Dunn, Cole Ashby, Tallytooth Ren) scale with their NPC entries; never let them die cheaply (they're recurring rivals).
 
 ## Related Files

@@ -31,7 +31,8 @@ ai_solo_campaign/
   12_campaign_arc/               ← Level 1–20 arc and act files
   13_encounters_and_bestiary/    ← Encounter tables and adversary profiles
   14_treasure_and_artifacts/     ← Magic items and reward tables
-  15_random_tables/              ← Random tables for travel, weather, events
+  15_campaign_arcs/              ← Level 5–20 arc, tier overviews, escalation, endgame
+  15_random_tables/              ← Random tables for travel, weather, events (note: two folders share the "15" prefix — see CLAUDE.md)
   16_ai_session_packs/           ← Session start/end prompts and checklists
   17_generation_backlog/         ← Expansion plan and content gaps
   18_audits/                     ← Audit reports
@@ -39,9 +40,9 @@ ai_solo_campaign/
 
 ## Current Status
 
-Stage 0 (repository setup) is in progress. The instruction and standards layer is complete. World content has not been generated yet.
+Stages 0–16 are complete. The world is authored from level 1 through level 20 (regions, factions, NPCs, quests, mysteries, dungeons, encounters, treasure, and the full campaign arc), the AI runtime layer (session protocols, state files, indexes) is in place, and the Stage 16 Pre-Play Readiness Audit verdict is **READY FOR LIVE PLAY**. Stage 17 (Live Campaign Operation) is next, awaiting the user to begin Session 1. Several post-Stage-16 cartography passes (through 2026-06-18) made the world map cartography- and exploration-deterministic.
 
-See [`00_control/PROGRESS_LOG.md`](ai_solo_campaign/00_control/PROGRESS_LOG.md) for current status and [`00_control/TODO.md`](ai_solo_campaign/00_control/TODO.md) for the active work queue once those files exist.
+See [`00_control/STAGE_STATUS.md`](ai_solo_campaign/00_control/STAGE_STATUS.md) for the live per-stage status, [`00_control/PROGRESS_LOG.md`](ai_solo_campaign/00_control/PROGRESS_LOG.md) for full production history, and [`00_control/TODO.md`](ai_solo_campaign/00_control/TODO.md) for the active work queue.
 
 ## Development Stages
 

@@ -218,7 +218,7 @@ The 20 major NPCs of the campaign foundation. **Player-Facing** blocks are safe 
 - **Possible evolution:** The thread the player pulls to discover they were steered (a mid-arc trust crisis); becomes a loyal ally once she confesses; or vanishes when the patron tidies up.
 - **Mechanics:** Tier 2 — **Spy-like** (AC 13, ~22 HP, Stealth/Deception/Insight). Survivor, not a brawler.
 
-## 17. Wren Hollowmere
+## 17. Wren Brevin
 - **Tier:** Major (the opening's living mystery). **Faction:** None. **Location:** Hollowmere; the Brevin cottage; later the fens. **Secrecy: mixed — her *condition* is visible; its *cause* is DM-only.**
 - **First Impression:** A pale, soft-spoken woman recently buried — and now standing in her own doorway, remembering her life *almost* right.
 - **Public Role:** A beloved local (a midwife) who died of fever and whose rite **failed**: she came back. The town is terrified and grieving at once.

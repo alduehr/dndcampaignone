@@ -33,7 +33,7 @@ The Reach is the **keystone of the Concord's harvest.** The drowned shrine benea
 ## Geography
 
 - **Terrain:** peat fens, moorland, slow rivers, scattered firm "holms" (islands of dry ground) where villages sit; broken highlands (the Sunder Heights) to the north.
-- **Climate:** cold, wet, foggy; brutal winters; campaign begins in late autumn (Greyfall).
+- **Climate:** cold, wet, foggy; brutal winters; campaign begins in mid-autumn (Greyfall).
 - **Boundaries:** Sunder Heights (N), Pale Coast (W), Ashgarden Vale (S), Tollwood (E).
 - **Defining features:** the **Hollowmere basin** and its drowned shrine; the **Mirewend River**; the fog-bound **Greyfens**; raised **Concord roads**; scattered **shrine-stones** and **archive cairns**.
 

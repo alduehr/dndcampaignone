@@ -130,7 +130,7 @@ Glassmere is the greatest inland city on the continent — the League's capital,
 
 ## Encounter and Treasure References
 
-- **Urban social encounters:** city-league tier social scenes; `13_encounters_and_bestiary/CARADRIL_SOCIAL_ENCOUNTERS.md` (adapt for larger city)
+- **Urban social encounters:** city-league tier social scenes; `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md` (adapt for larger city) and `13_encounters_and_bestiary/GLASSMERE_LEAGUE_ENCOUNTERS.md`
 - **Criminal/underworld:** "Carp" Maddox's Lowwater rackets; the Glass Ear's cut-outs (Spy-like, AC 12, ~22 HP)
 - **Ledger confrontation:** Heartland-Provost Iss Vyre commands Guard/Veteran-like bank-guards (AC 14–16, ~40–52 HP)
 - **Dungeon refs:** D28 Glassmere Reliquary Vaults; D29 Three Bridges Counting-Deep — `10_dungeons_and_ruins/`

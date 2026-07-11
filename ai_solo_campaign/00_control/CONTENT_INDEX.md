@@ -27,6 +27,25 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Caradril (city-state, SE) | `06_settlements/CARADRIL.md` | mixed | static (deep-built Stage 4) | First major city; mid-game hub; 8 districts; Ledger HQ + Remnant seat | major-city, region:caradril |
 | (Orrun world overview) | `04_world_atlas/WORLD_OVERVIEW.md` | mixed | static | Continent overview; 5 named regions | world |
 
+### Far-Continent Regions (region files built 2026-07-07 — Phase 5 consolidation)
+
+Canonical `05_regions/` anchors consolidating each far region's authored layers (map packet + NPC roster + quests + dungeon + arc pack). No new canon; settlement gazetteers remain the eagle-test map packets.
+
+| Name | File | Level | Summary | Tags |
+|---|---|---|---|---|
+| Verdance Reaches | `05_regions/VERDANCE_REACHES.md` | 8–12 | Ring 2 river-corridor; locks, lords, Ledger inland push; bad water (M2/M5 inland) | far-region, ring-2, region:verdance-reaches |
+| Glassmere League | `05_regions/GLASSMERE_LEAGUE.md` | 8–13 | City-league; the bank war (Ledger's continental rival); Reliquary; the Ear | far-region, city-league, region:glassmere-league |
+| Marrowdowns | `05_regions/MARROWDOWNS.md` | 6–10 | Pastoral chalk-downs; restless pre-Concord barrows; gentlest far region | far-region, region:marrowdowns |
+| Sallowmarch Protectorate | `05_regions/SALLOWMARCH_PROTECTORATE.md` | 10–14 | Fever-delta under foreign occupation; smuggling; drowned grounds | far-region, region:sallowmarch |
+| Hollow Gulf Ports | `05_regions/HOLLOW_GULF_PORTS.md` | 10–15 | Rival warm-water ports; privateers; overseas gate (Surren) | far-region, maritime, region:hollow-gulf |
+| Saltmere Reaches | `05_regions/SALTMERE_REACHES.md` | 11–15 | Dying salt sea; drowned pre-Concord towns; older-fall proof | far-region, region:saltmere |
+| Concord Heartlands | `05_regions/CONCORD_HEARTLANDS.md` | 13–17 | The Ruin'd Crown; the truth-race; SURFACE ruin only (never the keystone) | far-region, tier-3, region:concord-heartlands |
+| Hethewald Free Holds | `05_regions/HETHEWALD_FREE_HOLDS.md` | 8–13 | Tollwood writ large; failing bargains; forbidden Old Holds | far-region, forest, region:hethewald |
+| Emberfell Theocracy | `05_regions/EMBERFELL_THEOCRACY.md` | 10–15 | Closed fire-theocracy; thematic mirror of the harvest; oldest pre-Concord ruins | far-region, theocracy, region:emberfell |
+| Wender Steppe | `05_regions/WENDER_STEPPE.md` | 8–13 | Free horse-clans outside Concord history; the thinning sky (oblique) | far-region, steppe, region:wender-steppe |
+| Karran Marches | `05_regions/KARRAN_MARCHES.md` | 9–14 | Warlord frontier; the deep that went wrong; dark mirror of the Reach | far-region, frontier, region:karran-marches |
+| Sunmark | `05_regions/SUNMARK.md` | 8–13 | Living grove-faith; the hopeful contrast; rites that still work | far-region, sanctuary, region:sunmark |
+
 ---
 
 ## Settlements
@@ -81,7 +100,8 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Tide-Watch | `06_settlements/caradril_districts/THE_MAGISTERIUM.md` | Caradril | mixed | City-internal: city watch (turnable captain) | city-faction |
 | Salt Syndicate | `06_settlements/caradril_districts/THE_ASHMARKET.md` | Caradril | mixed | City-internal: smuggling + relic black market (M3) | city-faction, clue |
 | The Hush | `06_settlements/caradril_districts/THE_SILL.md` | Caradril | mixed | City-internal: information/blackmail; clue-shortcuts | city-faction, clue |
-| The Tollmen | `06_settlements/TOLLSTONE_CROSS.md` | Tollwood | mixed | Minor regional: East Road toll-bandits; turnable (Renn) vs murderous (Skell) | ring-1, regional-faction |
+| The Tollmen | `07_factions/minor_factions/THE_TOLLMEN.md` (standalone file 2026-07-07; canon source `06_settlements/TOLLSTONE_CROSS.md`) | Tollwood | mixed | Minor regional: East Road toll-bandits; turnable (Renn) vs murderous (Skell); clock T2 | ring-1, regional-faction, minor-faction |
+| (Minor factions folder README) | `07_factions/minor_factions/README.md` | — | mixed | Which minor factions get standalone files vs. live inline (full roster + locations) | index, minor-faction |
 | (Faction index) | `07_factions/FACTION_INDEX.md` | — | mixed | Master faction table + per-faction quest-chain links (incl. city factions) | index |
 | (Faction relationship map) | `07_factions/FACTION_RELATIONSHIP_MAP.md` | — | mixed | **Stage 8** — full pairwise relationships + the Court's hidden ties + blocs | index, relationships |
 | (Faction turn rules) | `07_factions/FACTION_TURN_RULES.md` | — | mixed | **Stage 8** — between-session faction behavior; clock advancement; rumors; state updates | protocol, faction-turn |
@@ -114,6 +134,7 @@ Each major faction has a 4-quest chain (intro → trust → moral complication �
 | 368 Secondary NPCs | `08_npcs/SECONDARY_NPCS.md` (+ `08_npcs/by_region/STAGE_9_SECONDARY_NPCS.md` + 12 far-continent `*_NPCS.md`) | Secondary | all of Orrun | all | mixed | Stage 3/4/7 (64) + Stage 9 (~136) + Stage 9.5 far-continent (168 across 12 regions; 164 distinct-authored + 4 cross-listed) | secondary-npc, stage-9, stage-9.5 |
 | 953 Minor NPCs | `08_npcs/MINOR_NPCS.md` (+ `08_npcs/by_region/STAGE_9_MINOR_NPCS.md` + 12 far-continent `*_NPCS.md`) | Minor | all of Orrun | all | mixed | Stage 3/4/7 (92) + Stage 9 fill (403) + far-continent scaffold (26) + Stage 9.5 far-continent (432 across 12 regions) | minor-npc, stage-9, stage-9.5 |
 | Far-continent NPC scaffold | `08_npcs/by_region/FAR_CONTINENT_NPCS.md` | Minor | 12 placeholder regions | mixed | mixed | 26 light horizon-figures; **superseded by the 12 Stage 9.5 region files** (retained for compatibility) | minor-npc, placeholder, stage-9 |
+| Caradril density expansion | `08_npcs/by_region/CARADRIL_EXPANSION_NPCS.md` | Secondary + Minor | Caradril (all 8 districts + Stillwater) | all city blocs | mixed | **2026-07-07:** +12 secondary / +24 minor raising Caradril to ~84 named (Stage 4 target band); texture-and-function NPCs with gated M3/M5/M6-fringe details | secondary-npc, minor-npc, region:caradril, phase-5 |
 | Verdance Reaches NPC file | `08_npcs/by_region/VERDANCE_REACHES_NPCS.md` | mixed | Verdance Reaches | all | mixed | 4 major / 18 secondary / 35 minor; far-continent placeholder region (river-corridor; Lvl 8–12) | far-continent, npc, stage-9.5, region:verdance-reaches |
 | Concord Heartlands NPC file | `08_npcs/by_region/CONCORD_HEARTLANDS_NPCS.md` | mixed | Concord Heartlands | all | mixed | 4 major / 16 secondary / 35 minor; far-continent placeholder region (Ruin'd Crown; Lvl 13–17; apex-adjacent care) | far-continent, npc, stage-9.5, region:concord-heartlands |
 | Glassmere League NPC file | `08_npcs/by_region/GLASSMERE_LEAGUE_NPCS.md` | mixed | Glassmere League | all | mixed | 5 major / 19 secondary / 47 minor; far-continent placeholder region (city-world; Ledger heartland; Lvl 9–13) | far-continent, npc, stage-9.5, region:glassmere-league |
@@ -315,6 +336,19 @@ Each major faction has a 4-quest chain (intro → trust → moral complication �
 | `14_treasure_and_artifacts/NONCOMBAT_REWARDS.md` | mixed | Political/social/info/access/relationship/economic/reputation | noncombat-reward, access |
 | `14_treasure_and_artifacts/ECONOMY_AND_PRICING_GUIDE.md` | mixed | Coinage, gem/art bands, services, regional economies | economy, pricing, services |
 | `14_treasure_and_artifacts/REWARD_PLACEMENT_AUDIT.md` | mixed | Coverage + safety audit (PASS) | reward-audit, coverage |
+
+---
+
+## Random Tables (`15_random_tables/` — built 2026-07-07)
+
+| File | Secrecy | Summary | Tags |
+|---|---|---|---|
+| `15_random_tables/README.md` | mixed | Folder front door; rules of use; division of labor vs. `13_`/`14_`/`09_` | random-table, folder-readme |
+| `15_random_tables/TRAVEL_EVENTS.md` | mixed | Non-combat travel events by route class (Concord roads / wild country / river / sea); far-continent mapping | random-table, travel, events |
+| `15_random_tables/WEATHER.md` | player-safe | Season × 8 climate-zone weather + zone hazard notes; weather-as-decision; Greyfall start | random-table, weather, seasons |
+| `15_random_tables/URBAN_EVENTS.md` | mixed | Street/downtime events: village tier, Caradril districts, far cities; downtime d6 | random-table, urban, downtime |
+| `15_random_tables/NPC_PERSONALITY.md` | player-safe | Quick Tier-3 minor-NPC generator (manner/concern/detail/voice + combat-relevance tag); roster-first rule | random-table, npc, improvisation |
+| `15_random_tables/RUMOR_SURFACES.md` | mixed | Which authored rumor surfaces, from whom, with what distortion; clue-gate check | random-table, rumors, hooks |
 
 ---
 

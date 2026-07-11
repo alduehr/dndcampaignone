@@ -66,7 +66,7 @@ tags: [type:map, secrecy:mixed, function:cartography, settlement-map, map-packet
 | Goodwife Sennet | forest-elder; Mourners' Circle; deep secret (gated) | Sennet's House (35,40) | DC 14; M5/M6 gated deep secret about the forest-rules and the "grey lords"; bone-chime marker at her door |
 | Brann the Guide | wood-guide; solo-safety function | Brann's Lean-to (65,35) | DC 12; will guide safely to Hanging Oaks; refuses the Old Mast; voice: careful, watchful |
 | Ale-wife Pell | innkeeper; minimal hospitality | Pell's Shed (60,50) | DC 11; knows village dynamics; won't discuss the wood |
-| Wren-of-the-Wood | child guide; minor NPC | deep wood edge (100,45) | distinct from major NPC Wren Hollowmere; knows some safe paths; DC 13; sometimes in the village |
+| Wren-of-the-Wood | child guide; minor NPC | deep wood edge (100,45) | distinct from major NPC Wren Brevin; knows some safe paths; DC 13; sometimes in the village |
 | Old Gethin | village elder; near-blind | Old Gethin's Croft (70,60) | DC 15; speaks in old-dialect; knows the wood's pre-Concord names (M5 oblique) |
 
 ## Quest Hooks
@@ -88,7 +88,7 @@ Smoke-darkened village in a clearing; the Hearth-Stone cold and ash-stained; bon
 
 - Goodwife Sennet knows the forest-rules as a *grief-keeper's duty*, not as superstition. The "grey lords" who "took the dead before the roads fell" is an oblique pre-Concord half-memory of the Custodian harvest (M5/M6 gated; she has no name for it beyond the old song).
 - The Mark-Stone offering tradition actually maintains a latent seal on the Old Mast's "presence" — a pre-Concord wood-power that the Custodians never fully contained. Breaking the forest-rules awakens it incrementally. This is distinct from the central Concord harvest; the Old Mast is a regional echo, not the keystone.
-- Wren-of-the-Wood knows a path to within 30 min of the Old Mast. She doesn't understand the danger. She is a minor color figure (NOT Wren Hollowmere/Brevin).
+- Wren-of-the-Wood knows a path to within 30 min of the Old Mast. She doesn't understand the danger. She is a minor color figure (NOT Wren Brevin).
 
 ## Related Files
 

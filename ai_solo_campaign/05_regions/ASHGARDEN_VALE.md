@@ -35,7 +35,7 @@ The deeper secret: **Saint Veddow's Rest is a major Concord shrine the harvest n
 ## Geography
 
 - **Terrain:** rolling farmland and low green hills; cider- and nut-orchards; hedgerows, drystone walls, water-meadows; a few standing **Concord field-shrines** ploughed around for a century; the broad, slow **Ammet** river and **Orchardmere lake**.
-- **Climate:** temperate and kind by Orrun standards — true summers, mild winters, autumn harvest the year's great event. Campaign starts in late autumn (Greyfall), so the player arrives at the tail of harvest, with cider-pressing and the dead-time (the Vale's funeral season) just beginning.
+- **Climate:** temperate and kind by Orrun standards — true summers, mild winters, autumn harvest the year's great event. Campaign starts in mid-autumn (Greyfall), so the player arrives partway through the death-rite season, just after the tail of harvest, with cider-pressing and the dead-time (the Vale's funeral season) just beginning.
 - **Boundaries:** Sundering Reach (N), Tollwood (E, across the Ammet headwaters), Caradril and its hinterland (SE/S), open downs and unbuilt country (W/SW).
 - **Defining features:** **Saint Veddow's Rest** (the pilgrimage hill); **Orchardmere lake**; the **Ammet** river; the **South Road** Concord causeway; scattered field-shrines and orchard-buried ruins.
 

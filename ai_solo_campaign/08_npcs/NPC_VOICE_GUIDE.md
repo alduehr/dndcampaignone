@@ -67,7 +67,7 @@ Use these as a base layer under any NPC from that region, then add the individua
 | 14 | Custodian Veyl | Calm, sorrowful, certain; reasons as a peer, never louder. | Pauses as if continuing a century-old talk. | "I did a terrible thing once, to spare a worse one. Let me explain it gently." |
 | 15 | Custodian Maire | Flickering, uncertain; looks away when Veyl speaks. | Trails off mid-sentence; the doubt shows. | "We told ourselves it was mercy. It was only… a long time waiting." |
 | 16 | Sefra Quick | Rapid, charming; deflects with jokes; never answers the second question. | Joke lands a beat too fast when cornered. | "Job's simple, money's good — don't make that face, it's *mostly* good." |
-| 17 | Wren Hollowmere | Warm but lagging, half a beat behind; forgets she died. | Repeats an endearment; loses the thread. | "Tomas, love — supper's nearly… wait. Why's everyone crying?" |
+| 17 | Wren Brevin | Warm but lagging, half a beat behind; forgets she died. | Repeats an endearment; loses the thread. | "Tomas, love — supper's nearly… wait. Why's everyone crying?" |
 | 18 | Tomas Brevin | Cracked, pleading; swings hope to horror. | Grips something — a hand, a cup — white-knuckled. | "She's *here*. She's right here. Please — don't take her away again." |
 | 19 | Halla Coalmont | Booming, gossipy, warm; secretly observant. | Drops her voice when it actually matters. | "Eat first, talk after. …Though since you ask, Reke's been odd of late." |
 | 20 | Old Sashe | Slow, dry, riddling; names every pool and stone. | Talks to the fog before answering you. | "The dead drift, see. Always one way now. Toward the deep water. Funny, that." |

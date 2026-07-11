@@ -60,6 +60,7 @@ A tide-swallowed ancient causeway marching out to sea, where drowned dead and de
 
 ## Mystery-Linked Encounters
 - **M6 pre-Concord echo (gated):** the causeway is *older* than the Concord and marches toward "something" — corroborates the theme of buried, drowned truths by contrast. The **deep horror** is the closest the far-continent comes to the keystone's dread — but it is a *separate, older* thing; **DM: never make the Drowned Steps the endgame or the Court's seat.** Fragments only; `MYSTERY_ENCOUNTERS.md`, `SECRET_PROTECTION_MATRIX.md`.
+- **Horror additions (RtHW pass 2026-07-07; DM-GATED, tier 3–4 only):** the deep-cosmic terrors — **Mist Horror**, **Nightgaunt**, **Gug**, **Shoggoth**, **Greater Star Spawn Emissary** (all RtHW) — live *past the deepest steps*. Set-pieces only, heavily telegraphed, retreat-rich; they are the *older, alien* thing the causeway marches toward — **never** the harvest, the Court, or the apex answer. See `HORROR #H13`.
 
 ## Dungeon/Site Encounter Support
 - **The Sallowmarch Drowned Steps** (D30) — `DUNGEON_ENCOUNTER_SUPPORT.md`.

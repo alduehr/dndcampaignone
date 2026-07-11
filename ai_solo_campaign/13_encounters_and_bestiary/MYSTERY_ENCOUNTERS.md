@@ -122,6 +122,8 @@ The signature horror encounters *are* the M5 clue stream. Every Remembrance-dead
 | Gravecaller cell | M5, M6 (folk-memory of "the grey lords") |
 | Drift-Line Chorus | M5 + M2 (it points at the keystone) |
 | Far-continent ruin guardians | M6 (the Concord was continental) — **echo, not the keystone** |
+| **Gallows Speaker** (RtHW; added 2026-07-07) | M5/M6 fragments — a bound dead that *speaks the stories of the dead*; the harvested speaking through it **in gated pieces only** (use `SECRET_PROTECTION_MATRIX.md` wording; never the apex mechanism) |
+| **Mist Horror** (RtHW) / **Necrichor** (VRGtR/RtHW) | M5 oblique — memory-fog and harvest-residue as *living evidence* that memory itself is being taken; atmosphere-clue, no explanation |
 
 ## Mystery-Encounter Solo Rules
 

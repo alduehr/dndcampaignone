@@ -29,7 +29,7 @@ Locate quests by play-type so the AI DM can vary the texture of a session (don't
 
 ## Politics / Diplomacy / Mediation
 *Brokering, persuading, navigating councils, feuds, and power-blocs.*
-- Q_VR_002 (the lord's debt); Q_GL_001/006; Q_HGP_001/005; Q_HFH_001 (the moot); Q_SALT_007 (the dying clan); Q_KM_003 (the strong hand); Q_WS_002 (the knotted kin); Q_SP_006 (rice-villages); Q_MD_003. Home: `Q_THE_OPEN_CHARTER.md`, `Q_THE_BASIN_VOTE.md`.
+- Q_VR_002 (the lord's debt); Q_GL_001/006; Q_HGP_001/005; Q_HFH_001 (the moot); Q_SALT_007 (the dying clan); Q_KM_003 (the strong hand); Q_WS_002 (the knotted kin); Q_SP_006 (rice-villages); Q_MD_003. Home: `city_quests/Q_THE_OPEN_CHARTER.md`, `faction_quests/REACHWARD_COMPACT/QC4_THE_BASIN_VOTE.md`.
 
 ## Travel / Escort / Route-Opening
 *Crossing dangerous country, escorting, opening a road between regions.*

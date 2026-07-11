@@ -6,6 +6,99 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-07-07 — External Audit Remediation Pass, Phase 5: Deferred-Items Consolidation (C4/C5/C6; C7/C9/C10 dispositioned)
+
+### Stage
+Post-Stage-16 consolidation pass over the external report's deliberately-deferred items. **No new registered proper nouns; no new canon facts** — every name reused from the registry; new secondary/minor NPC names collision-checked. Stage 17 (Live Play) remains next.
+
+### Summary
+Executed the deferred items at the scope the repo's own rules support. **(C4)** Built canonical `05_regions/` files for all **12 far-continent regions** (Verdance Reaches, Glassmere League, Marrowdowns, Sallowmarch, Hollow Gulf, Saltmere, Concord Heartlands, Hethewald, Emberfell, Wender Steppe, Karran Marches, Sunmark) — each consolidates its authored layers (map packet, Stage 9.5 NPC roster, Stage 10 quests, Stage 12.5 dungeon, arc pack) into the standard WORLDBUILDING_STANDARDS region format, with each packet's secrecy guardrail (echo-only; never the keystone/Deep/Court) carried into the region file's DM-Only Truth. Settlement gazetteers remain the eagle-test map packets by design; full `06_settlements/` deep-builds stay deferred until play approaches. `REGION_INDEX.md`'s placeholder table replaced with the region-file table (also reconciling a few stale placeholder level values to the authored quest/NPC/packet layer: Glassmere 8–13, Hethewald 8–13, Emberfell 10–15). **(C5)** Caradril density expansion: `08_npcs/by_region/CARADRIL_EXPANSION_NPCS.md` (+12 secondary, +24 minor across all 8 districts + the Stillwater; Tier-2/3 fields incl. combat-relevance tags; several gated M3/M5/M6-fringe hooks) — city now ~84 named NPCs, inside the Stage 4 target band (75–100); cumulative totals now 94/380/977. **(C6)** Minor-faction layer begun: `07_factions/minor_factions/THE_TOLLMEN.md` (standalone FACTION_STANDARDS file consolidating Stage 7 canon; clock T2) + folder `README.md` defining the standalone-vs-inline rule; `FACTION_INDEX.md` gains a Minor Factions section. **(C7 — dispositioned, not built)** Per-clue files stay as `CLUE_INDEX.md` rows: ~100 stub files would duplicate index rows, create sync-drift risk, and violate the filler rule; the index is the per-clue store (create a file only if play demands one). **(C9/C10 — by design, untouched)** The player character is created with the player in Session 1; the six empty runtime baselines populate during live play.
+
+### Files Created
+- 12 region files in `05_regions/`: `VERDANCE_REACHES.md`, `GLASSMERE_LEAGUE.md`, `MARROWDOWNS.md`, `SALLOWMARCH_PROTECTORATE.md`, `HOLLOW_GULF_PORTS.md`, `SALTMERE_REACHES.md`, `CONCORD_HEARTLANDS.md`, `HETHEWALD_FREE_HOLDS.md`, `EMBERFELL_THEOCRACY.md`, `WENDER_STEPPE.md`, `KARRAN_MARCHES.md`, `SUNMARK.md`
+- `07_factions/minor_factions/THE_TOLLMEN.md` + `README.md` (placeholder removed)
+- `08_npcs/by_region/CARADRIL_EXPANSION_NPCS.md`
+
+### Files Changed
+- `04_world_atlas/REGION_INDEX.md` (far-region table → region files; level reconciliation) · `07_factions/FACTION_INDEX.md` (Minor Factions section) · `08_npcs/NPC_INDEX.md` (density section; totals) · `00_control/NAMING_REGISTRY.md` (Phase 5 pass note) · `00_control/CONTENT_INDEX.md` (far-region, minor-faction, NPC rows) · tracking files below
+
+### Canon Established
+- None (consolidation only). The Tollmen's standalone file restates Stage 7 canon; region files restate registry/packet/quest canon.
+
+### Indexes Updated
+- `REGION_INDEX.md`, `FACTION_INDEX.md`, `NPC_INDEX.md`, `CONTENT_INDEX.md`, `NAMING_REGISTRY.md`
+
+### Gaps Identified
+- Far-region **settlement** deep-builds (`06_settlements/` files) remain the one deliberately-open depth layer — map packets carry them at eagle-test depth; deepen per region when play approaches (unchanged in CONTENT_GAPS).
+
+### Next Recommended Pass
+- Map-image generation (external tool; the last open external-report item), or begin Stage 17 (Live Campaign Operation).
+
+---
+
+## 2026-07-07 — External Audit Remediation Pass, Phase 4: Bestiary Verification, RtHW Integration, Random Tables
+
+### Stage
+Post-Stage-16 enrichment + integrity pass (external-report items C2, C3, C8, plus a user-directed full monster-source verification). No new proper nouns; no canon contradicted. Stage 17 (Live Play) remains next.
+
+### Summary
+Executed the external report's Phase 4 under a strengthened rule from the user: **every beast/monster must come from real published D&D lore — no AI-invented creatures or citations.** (1) **Full Track-A verification:** every official-monster attribution in `13_encounters_and_bestiary/` was checked against the published books. Found and fixed: Oblex/Allip/Soul Monger/Deathlock/Vampiric Mist/Gloom Weaver/Gray Render misattributed to VRGtR (all MToF); Bodak misattributed (VGtM); "Hollow One" from a non-referenced setting book (replaced by the VRGtR **Reborn** lineage); several invented page numbers (removed; a book-only citation-integrity rule now governs); and one creature with **no official 5e printing at all** — "Caller in Darkness" (3e psionics) — replaced by the **Sorrowsworn** (MToF), a verified and thematically superior grief-embodiment. (2) **RtHW integration (C3):** web-verified *Ravenloft: The Horrors Within* as a real book (released 2026-06-16; 51 stat blocks CR 1/2–21, largely VRGtR creatures updated to 2024 rules + new cosmic-horror entries); integrated the verified roster Track-A (Gallows Speaker, Mist Horror, Necrichor, Bodytaker Plant/Podling, Boneless, Jiangshi, Carrionette, Brain in a Jar, Carrion Stalker, Death's Head, Dullahan, Gremishka, Nightgaunt, Gug, Shoggoth, Greater Star Spawn Emissary) into HORROR #H10–H13, BESTIARY_INDEX, MYSTERY_ENCOUNTERS, and 6 deep-horror regional files; **removed all unverifiable placeholders** (Waxworks, "Strahd Skeleton", "Mordenheim's Monster", Elder Thing, Mi-Go, Yithian, Death's Head variants, Mist Wanderer-as-creature) and all 3 NPC placeholders. (3) **Track-B chassis anchoring:** every campaign-original creature is now anchored to a named official stat block ("use X (book), modified") — master table in `BESTIARY_INDEX.md`, per-entry chassis lines in `HORROR_AND_CURSE_THREATS.md`, requirement added to Track-B rules. (4) **Random tables (C2):** built `/15_random_tables/` (TRAVEL_EVENTS, WEATHER, URBAN_EVENTS, NPC_PERSONALITY, RUMOR_SURFACES + README; placeholder removed) — all pointer-heavy, routing to existing authored content. (5) **Quest-title index (C8):** verified already exact (38/38 titles match the authored files 1:1); stale TODO closed with no changes.
+
+### Files Created
+- `15_random_tables/README.md`, `TRAVEL_EVENTS.md`, `WEATHER.md`, `URBAN_EVENTS.md`, `NPC_PERSONALITY.md`, `RUMOR_SURFACES.md` (6 files; `_PLACEHOLDER.md` removed)
+
+### Files Changed
+- `13_encounters_and_bestiary/CREATURE_SOURCE_REFERENCE.md` — corrected VRGtR list; verified RtHW integration section replaces the pending placeholder; citation-integrity rule; GoS/ToA added to source key; Track-B chassis-anchor requirement
+- `13_encounters_and_bestiary/BESTIARY_INDEX.md` — source fixes; loose names exact-named (Gibbering mouther, Dust mephit, Owlbear, Harpy, Ankheg, Couatl, Panther/Lion, real fiends named); deep-water aberration resolved (Chuul/Deep Scion/Morkoth); RtHW rows added; **Track-B Official-Chassis Anchors table** (~31 creatures) added
+- `13_encounters_and_bestiary/HORROR_AND_CURSE_THREATS.md` — H1–H9 sources corrected (page numbers removed); H3 rewritten Caller-in-Darkness→Sorrowsworn; chassis anchors added to Track-B entries; new #H10 Gallows Speaker, #H11 Necrichor, #H12 Preserved-Body Horrors, #H13 Mist Horror & Deep Cosmic Terrors (DM-gated)
+- `13_encounters_and_bestiary/MYSTERY_ENCOUNTERS.md` — Gallows Speaker + Mist Horror/Necrichor rows added to the cross-mystery table (gated)
+- `13_encounters_and_bestiary/{SUNDERING_REACH,CONCORD_HEARTLANDS,SALTMERE_REACHES,DROWNED_STEPS,HETHEWALD,MARROWDOWNS}_ENCOUNTERS.md` — RtHW horror-addition lines (all telegraphed/gated)
+- `13_encounters_and_bestiary/README.md` — two-track text updated; RtHW section now "Integrated"
+- `15_campaign_arcs/TIER_3_LEVELS_11_16.md` — Caller in Darkness → Sorrowsworn
+- Tracking: `TODO.md` (3 Low items + C8 item closed), `CONSISTENCY_AUDIT.md` (2 issues closed; 4 resolved rows added), `CONTENT_GAPS.md` (status + treasure row updated), `OPEN_QUESTIONS.md` (RtHW question answered), `CONTENT_INDEX.md` (random-tables section added)
+
+### Canon Established
+- None (no world facts). Sourcing policy strengthened: **book-only citations; no unverified creature references; every Track-B original must carry an official-chassis anchor.**
+
+### Indexes Updated
+- `CONTENT_INDEX.md` (new §Random Tables); `BESTIARY_INDEX.md` (rows + anchor table)
+
+### Gaps Identified
+- RtHW's 2 magic **items** were not evaluated (creature pass only) — noted Low in `CONTENT_GAPS.md`. Map images (C1) remain the one open Phase 4 item; they require an external image tool.
+
+### Next Recommended Pass
+- Generate the map images per the documented prompt order (external tool), or begin Stage 17 (Live Campaign Operation) — the repo has no remaining pre-play content gaps other than optional far-region deepening.
+
+---
+
+## 2026-07-07 — External Audit Remediation Pass (Phases 1–3)
+
+### Stage
+Post-Stage-16 interstitial fix pass, driven by an independent external readiness/consistency report (`CAMPAIGN_READINESS_AND_CONSISTENCY_REPORT.md`, dated 2026-07-07, repo snapshot 2026-06-19). No new campaign content generated. Stage 17 (Live Play) remains next.
+
+### Summary
+Fixed all defects the external report classified as blocking runtime pointers or stale orientation docs, plus one canon naming split. Ran in three phases: (1) repointed 7 dangling file references in far-region/city map packets and a quest index that would have failed an AI DM mid-session; (2) rewrote the README and CLAUDE.md to reflect actual Stage 0–16 completion (both previously described a Stage-0 repo), added a `/15_campaign_arcs` folder note, reconciled the "18 vs 20 regions" terminology, and standardized "late autumn" → "mid-autumn" (Greyfall is the *middle* of the three autumn months per `CALENDAR.md`'s own table, not the last); (3) standardized the opening's central NPC to a single canonical name, **Wren Brevin**, across all files that previously used "Wren Hollowmere" (matches her husband Tomas Brevin and the Session-1/runtime-layer files; the codex layer was the outlier).
+
+### Files Changed
+- **Phase 1 (broken pointers):** `04_world_atlas/region_map_packets/REGION_GLASSMERE_LEAGUE.md`, `REGION_HOLLOW_GULF_PORTS.md`, `REGION_MARROWDOWNS.md`, `REGION_SALLOWMARCH_PROTECTORATE.md`, `REGION_VERDANCE_REACHES.md` (repointed nonexistent `RANDOM_ENCOUNTERS.md` to each region's own `*_ENCOUNTERS.md` + `TRAVEL_ENCOUNTERS.md`); `06_settlements/city_map_packets/GLASSMERE_CITY_MAP.md` (nonexistent `CARADRIL_SOCIAL_ENCOUNTERS.md` → `CARADRIL_ENCOUNTERS.md`); `09_quests/by_type/QUESTS_BY_TYPE.md` (wrong path for `QC4_THE_BASIN_VOTE.md`).
+- **Phase 2 (orientation docs):** `README.md` (Current Status rewrite + `/15_campaign_arcs` added to structure); `CLAUDE.md` (Repository Shape: added `/15_campaign_arcs`, documented the dual `15_` prefix); `04_world_atlas/REGION_INDEX.md` (added region-count reconciliation note); `03_canon/CALENDAR.md` + `02_runtime_state/{PLAYER_CHARACTER,NEXT_SESSION_START,CURRENT_STATE,CURRENT_LOCATION}.md` + `16_ai_session_packs/OPENING_SCENES.md` + `01_runner_protocol/TRAVEL_PROTOCOL.md` + `05_regions/{TOLLWOOD,SUNDERING_REACH,PALE_COAST,ASHGARDEN_VALE}.md` ("late autumn" → "mid-autumn", 11 occurrences).
+- **Phase 3 (Wren standardization):** `08_npcs/{MAJOR_NPCS,NPC_INDEX,NPC_VOICE_GUIDE,NPC_RELATIONSHIP_WEB}.md`, `11_mysteries_and_secrets/NPC_KNOWLEDGE_MAP.md`, `09_quests/MAJOR_CAMPAIGN_QUESTS.md`, `06_settlements/COLDHEARTH.md`, `06_settlements/settlement_map_packets/SETTLEMENT_COLDHEARTH_MAP.md`, `13_encounters_and_bestiary/HORROR_AND_CURSE_THREATS.md`, `15_campaign_arcs/FINAL_REVELATION_AND_ENDING_PATHS.md`, `03_canon/DM_ONLY_CANON.md`, `00_control/NAMING_REGISTRY.md` ("Wren Hollowmere" → "Wren Brevin", 14 occurrences; registry entry annotated with the prior name for traceability).
+
+### Canon Established
+- **Wren Brevin** is the sole canonical name for the opening's returned-dead midwife (previously split between "Wren Brevin" in runtime/session files and "Wren Hollowmere" in the NPC codex). No change to her identity, secret, or role — naming only.
+- Greyfall is reaffirmed as the **middle** of the three autumn months (Reaping, Greyfall, Hollowing) per `CALENDAR.md`'s own table; all "late autumn" wording was a cosmetic error and is now "mid-autumn."
+
+### Indexes Updated
+- `NAMING_REGISTRY.md` (Wren Brevin entry + Stage 7 disambiguation note updated with the prior styling for traceability).
+
+### Gaps Identified
+None new. This pass closes 3 runtime-defect items and 4 documentation-drift items identified in the external report; it does not address the report's non-blocking enrichment items (C1–C3, C8) or deliberately-deferred items (C4–C7, C9–C10), which remain open per the report's own recommendation.
+
+### Next Recommended Pass
+Per the external report's Phase 4 (enrichment, non-blocking): run the now-unblocked RtHW bestiary supplement pass, lift exact quest titles into `DEVELOPED_QUESTS_INDEX.md` for the 5 far regions still using descriptive titles, and/or populate `/15_random_tables/`. Map image rendering (C1) remains the largest table-experience gap but requires an external image-generation tool.
+
+---
+
 ## 2026-06-18 — Strict Cartography Determinism Cleanup Pass
 
 ### Stage

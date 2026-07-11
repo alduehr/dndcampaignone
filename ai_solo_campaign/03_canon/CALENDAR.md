@@ -17,7 +17,7 @@ Load to date events, advance world clocks, and give sessions a sense of time pas
 - **Current year:** **AQ 101.**
 - **Year length:** 360 days, 12 months of 30 days, four seasons of three months.
 - **Week:** 6 days — Sunsday, Loomsday, Hearthsday, Marketday, Wardsday, Restday.
-- **Campaign start season:** **late autumn** (the month of **Greyfall**), the season most associated with death-rites and the Last Door. Cold, fog, short days — supports the tone.
+- **Campaign start season:** **mid-autumn** (the month of **Greyfall**, the middle of the three autumn months — see table below), the season most associated with death-rites and the Last Door. Cold, fog, short days — supports the tone.
 
 ## Months
 

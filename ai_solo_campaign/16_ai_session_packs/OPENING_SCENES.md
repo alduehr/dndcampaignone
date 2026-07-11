@@ -15,7 +15,7 @@ related: [../06_settlements/HOLLOWMERE.md, ../09_quests/HOOKS_TABLE.md, SOLO_SAF
 
 Three ready opening scenes for session 1, plus the recommended default. Each lands the player in Hollowmere at the start of the Wren crisis (Hook 1) without railroading. Use the DM-Only notes to know what's really happening; reveal nothing of the Court, the harvest, or the steering. Pair with `SOLO_SAFETY_START.md` for the starting safety net and `START_NEW_CAMPAIGN_PROMPT.md` (Stage 2) for the framing prompt.
 
-> Player-safe text is the narration; **DM-Only** notes are for the DM. The date is **Greyfall (late autumn), AQ 101** — the death-rite season.
+> Player-safe text is the narration; **DM-Only** notes are for the DM. The date is **Greyfall (mid-autumn), AQ 101** — the death-rite season.
 
 ---
 

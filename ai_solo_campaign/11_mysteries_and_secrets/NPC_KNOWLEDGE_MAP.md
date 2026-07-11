@@ -60,7 +60,7 @@ tags: [type:mystery, npc, knowledge-map, clue-gate, secrecy:dm-only]
 
 | NPC | Knows / holds | Reveal | Points to | Phase |
 |---|---|---|---|---|
-| Wren Hollowmere | She clings to "something unfinished"; remembers dying | FREE (careful conversation) | REV_001 (M1) | Act 1 |
+| Wren Brevin | She clings to "something unfinished"; remembers dying | FREE (careful conversation) | REV_001 (M1) | Act 1 |
 | Tomas Brevin | He secretly sought the Gravecallers to keep Wren | TRUST/observe | M1/M3; Gravecaller door | Act 1 |
 | Grandmother Wend | The old songs treat the failures as ancient, patterned grief | TRUST (prove you honor the dead) | REV_001; later REV_005 (decoded) | Act 1 surface; Act 3 deep |
 | Iola Wend | The secret bridge to the Gravecallers | TRUST (don't betray Wend) | Gravecaller door | Act 1-2 |

@@ -31,14 +31,14 @@ Everything is designed for **one player character**: telegraphed danger, enemy g
 
 The bestiary never reproduces a published stat block. It uses two tracks (full rules in `CREATURE_SOURCE_REFERENCE.md`):
 
-- **Track A — Official reference.** Standard fantasy creatures that exist in published 5e books are **named and source-referenced** (e.g. "Wolf — 2024 MM, Beast, CR 1/4"), then given only the campaign's own placement, tactics, and solo-tuning notes. The AI DM pulls the actual numbers from the named book. **No ability lines, no verbatim action blocks, no copied trait text.** Source shorthands: `2024 MM`, `2014 MM`, `MotM`, `MToF`, `VGtM`, `VRGtR`, `FToD`, `XGtE`, `TCoE` (and the pending `RtHW`).
-- **Track B — Original campaign creatures/variants.** Creatures unique to the world (Remembrance-linked dead, Concord constructs, memory-echo threats, salt/ash-preserved dead, etc.) get a **campaign-original abbreviated prose summary** (AC/HP/key attacks in prose), never a reproduced layout. `STAGE_12_ADVERSARIES.md` is the model Track-B file.
+- **Track A — Official reference.** Standard fantasy creatures that exist in published 5e books are **named and source-referenced** (e.g. "Wolf — 2024 MM, Beast, CR 1/4"), then given only the campaign's own placement, tactics, and solo-tuning notes. The AI DM pulls the actual numbers from the named book. **No ability lines, no verbatim action blocks, no copied trait text.** Source shorthands: `2024 MM`, `2014 MM`, `MotM`, `MToF`, `VGtM`, `VRGtR`, `RtHW`, `FToD`, `XGtE`, `TCoE`, `GoS`, `ToA`. All name-and-book attributions were verified against the published books in the 2026-07-07 pass.
+- **Track B — Original campaign creatures/variants.** Creatures unique to the world (Remembrance-linked dead, Concord constructs, memory-echo threats, salt/ash-preserved dead, etc.) get a **campaign-original abbreviated prose summary** (AC/HP/key attacks in prose) **anchored to a named official chassis** (see `BESTIARY_INDEX.md` §"Track-B Official-Chassis Anchors"), never a reproduced layout. `STAGE_12_ADVERSARIES.md` is the model Track-B file.
 
 The campaign world (Vael / Orrun) is **original** and is **not** Ravenloft, the Domains of Dread, or any proprietary setting. Where gothic-horror creatures are referenced (Van Richten's Guide to Ravenloft, 2021), only the **published creature reference** is borrowed — never setting lore, darklords, domains, or named NPCs — and only where the campaign's own horror themes already call for it.
 
-## Pending: RtHW (Ravenloft: The Horrors Within) Supplement
+## Integrated: RtHW (Ravenloft: The Horrors Within) Supplement — 2026-07-07
 
-*Ravenloft: The Horrors Within* (`RtHW`) releases **June 16, 2026** — after Stage 13 completion. Several of its creatures (memory/grief/preserved-body horror) map cleanly onto the campaign's Remembrance/harvest themes. Because the book was not yet available, a **placeholder "Horror Expansion Supplement (Pending)"** section with ~28 named creatures (each marked "source check needed — RtHW") lives in `CREATURE_SOURCE_REFERENCE.md`. A small **Stage 13 supplement pass should be run once the full bestiary is accessible** to add the apt creatures (Track-A discipline) to `HORROR_AND_CURSE_THREATS.md`, `BESTIARY_INDEX.md`, `MYSTERY_ENCOUNTERS.md`, and the deep-horror regional files. See that section, `OPEN_QUESTIONS.md`, and the low-priority TODO/CONTENT_GAPS items.
+*Ravenloft: The Horrors Within* (`RtHW`, released June 16 2026; 51 monster stat blocks, largely VRGtR creatures updated to 2024 rules plus new cosmic-horror entries) was **verified as a real published book and integrated on 2026-07-07**. Verified creatures (Gallows Speaker, Mist Horror, Necrichor, Bodytaker Plant, Boneless, Jiangshi, Carrionette, Brain in a Jar, Nightgaunt, Gug, Shoggoth, Greater Star Spawn Emissary, and others) now appear as Track-A references in `HORROR_AND_CURSE_THREATS.md` (#H10–H13), `BESTIARY_INDEX.md`, `MYSTERY_ENCOUNTERS.md`, and the deep-horror regional files. Placeholder entries that could **not** be verified against the published book (and all NPC placeholders) were **removed** — see the "Entries removed in the 2026-07-07 verification pass" note in `CREATURE_SOURCE_REFERENCE.md`. The same pass re-verified **every** Track-A attribution in the folder and corrected several misattributions (Oblex/Allip/Soul Monger/Deathlock/Vampiric Mist → MToF; Bodak → VGtM; the non-official "Caller in Darkness" → replaced by the **Sorrowsworn**, MToF).
 
 ## How To Navigate During Play
 
@@ -64,11 +64,11 @@ The campaign world (Vael / Orrun) is **original** and is **not** Ravenloft, the 
 | `README.md` | This file — folder front door and navigation guide |
 | `ENCOUNTER_INDEX.md` | Master index of all encounter files/tables + load-when guide |
 | `BESTIARY_INDEX.md` | Master creature list (17 categories) with track, source, CR, location, full-notes file |
-| `CREATURE_SOURCE_REFERENCE.md` | The copyright-safe two-track source decision; source key; RtHW pending section |
+| `CREATURE_SOURCE_REFERENCE.md` | The copyright-safe two-track source decision; source key; verified RtHW integration section |
 | `SOLO_ENCOUNTER_SCALING.md` | One-PC scaling rules; solo CR/XP budget; party→solo boss conversion |
 | `BIOME_ENCOUNTER_MATRIX.md` | 15 biomes → creature types + Concord/faction/curse overlays; ecology don'ts |
 | `BOSS_AND_APEX_THREATS.md` | 18 tiered bosses (B1–B18) + recurring-villain escape/return logic |
-| `HORROR_AND_CURSE_THREATS.md` | Original Remembrance undead/hauntings/curses (grief-not-gore) + VRGtR Track-A horror references |
+| `HORROR_AND_CURSE_THREATS.md` | Original Remembrance undead/hauntings/curses (grief-not-gore) + MToF/VGtM/VRGtR/RtHW Track-A horror references |
 | `FACTION_ENCOUNTERS.md` | Encounter tables for all 7 major factions + Caradril + regional minor factions |
 | `MYSTERY_ENCOUNTERS.md` | Clue-bearing encounters (M2–M6 fragments; M9/Court gated) |
 | `TRAVEL_ENCOUNTERS.md` | Terrain × 5 level-bands (1–20) + night/storm/fog/cold/heat/season variants |

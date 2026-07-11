@@ -63,6 +63,7 @@ A vast eastern old-growth forest of free-holds, river-tollers, fey, and deep Con
 
 ## Mystery-Linked Encounters
 - **M5** (Concord dead at ruin-edges; forest-mother songs), **M6 far-echo** (the Old Holds — deep Concord ruins; the Concord reached the eastern forests; gated). Deep-wood "presences" are **landmark-powers, NOT the Hollow Court or new gods.** Fragments only; `MYSTERY_ENCOUNTERS.md`.
+- **Horror additions (RtHW pass 2026-07-07):** a **Bodytaker Plant** and its **Podlings** (RtHW) in the deepest wood near the Old Holds — the "wrong returned" as flora; a woodcutter who came back *not quite right* is the telegraph. See `HORROR #H12`.
 
 ## Dungeon/Site Encounter Support
 - **The Hethewald Old Holds** (D25; gated) — `DUNGEON_ENCOUNTER_SUPPORT.md`.

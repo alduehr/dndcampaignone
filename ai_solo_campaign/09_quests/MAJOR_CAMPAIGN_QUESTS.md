@@ -99,7 +99,7 @@ Compact map of which **revelations** (`REV_*` in `../11_mysteries_and_secrets/RE
 **Act / Level:** Act 1 / 1–4. Solo danger: low→moderate. **Quest Type:** Investigation / mystery (campaign opener).
 **Region / Start:** Sundering Reach, Hollowmere.
 **Secrecy:** mixed. **Lead factions:** Mourners' Circle, Ashen Wardens (Cinder Ledger and Reachward Compact circle).
-**Primary NPCs:** Wren Hollowmere (Brevin), Tomas Brevin, Grandmother Wend, Iola Wend, Warden Brother Hale, Warden Sister Othetha, Reeve Marda Coalmont, Sefra Quick.
+**Primary NPCs:** Wren Brevin, Tomas Brevin, Grandmother Wend, Iola Wend, Warden Brother Hale, Warden Sister Othetha, Reeve Marda Coalmont, Sefra Quick.
 **Secondary NPCs:** Halla Coalmont, Old Sashe, Councilor Aldous Reke, Factor Domic Sael.
 **Component quests:** `regional_quests/Q_THE_FAILING_FUNERAL.md`, `act_1_quests/Q_ACT1_MOURNER_SALT_AND_SONG.md`, `act_1_quests/Q_ACT1_WARDEN_THE_TRUE_RITE.md`.
 

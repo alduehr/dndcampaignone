@@ -63,6 +63,7 @@ A shrinking brackish sea ringed by salt-flats, salt-clans, and drowned towns whe
 
 ## Mystery-Linked Encounters
 - **M5** (the dry dead won't rest; salt-songs), **M6 pre-Concord echo** (the drowned towns "went down in an older fall" — corroborates the theme by contrast; far/older, NOT the keystone). Fragments only; `MYSTERY_ENCOUNTERS.md`.
+- **Horror additions (RtHW pass 2026-07-07):** a **Jiangshi** (VRGtR/RtHW) among the salt-preserved dead — the published kin of the Salt-Mummy (`HORROR #H12`); a **Carrion Stalker** (VRGtR/RtHW) hunting the drowned-town ruins.
 
 ## Dungeon/Site Encounter Support
 - **The Saltmere Deep Towns** (D24) — `DUNGEON_ENCOUNTER_SUPPORT.md`.

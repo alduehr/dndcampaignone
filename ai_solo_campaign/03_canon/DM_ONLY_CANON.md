@@ -91,7 +91,7 @@ Full secrets are in each NPC file. Quick reference of the most load-bearing:
 | Grandmother Wend | Elder of the Mourners' Circle. | Carries the folk-truth that "the Concord ate the dead"; will resist any restart. |
 | Sefra Quick | Hollowmere fixer / the PC's first contact. | Was hired by an unknown patron (a Hollow Court cutout) to make sure a newcomer investigates the failed rite — the PC is being *steered*. |
 | The Tallow Man (Gravecaller speaker) | Feared cult voice. | Actually channels a real Remembrance that knew the Concord's sin firsthand. |
-| Wren Hollowmere | Local who recently "came back wrong." | A partial Remembrance-revenant; living proof the harvest is restarting. |
+| Wren Brevin | Local who recently "came back wrong." | A partial Remembrance-revenant; living proof the harvest is restarting. |
 
 See `08_npcs/MAJOR_NPCS.md` for all twenty and `11_mysteries_and_secrets/SECRET_INDEX.md` for the full secret ledger.
 

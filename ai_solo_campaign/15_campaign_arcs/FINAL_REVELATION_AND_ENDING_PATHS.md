@@ -22,7 +22,7 @@ tags: [revelations, endings, three-clue-rule, redundancy, dm-only, stage-15b]
 Secrecy: discoverable (the Act 1 frame).
 
 ### Discovery Path A
-Region: Sundering Reach / Hollowmere. Source: **Wren Hollowmere** herself. Method: social/personal. What the player learns: the dead are not lingering at random — Wren remembers dying and "something held her"; the crisis has a center.
+Region: Sundering Reach / Hollowmere. Source: **Wren Brevin** herself. Method: social/personal. What the player learns: the dead are not lingering at random — Wren remembers dying and "something held her"; the crisis has a center.
 
 ### Discovery Path B
 Region: Sundering Reach / Greyfens. Source: **Old Sashe**'s drift-map. Method: exploration/testimony. What the player learns: the dead consistently drift *toward* the basin, for years — a pattern.

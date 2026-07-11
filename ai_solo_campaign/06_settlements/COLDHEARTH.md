@@ -51,7 +51,7 @@ Coldhearth is the **Tollwood's keeper of the deep secret.** Its forest-elder, **
 - **Goodwife Sennet** (Mourners forest-elder; secondary) — keeper of the deep secret and the old bargain; the wood's wisest voice.
 - **Brann the Guide** (secondary) — the wood's best guide; will keep an outsider alive if respected (the Tollwood's Sashe).
 - **Old Gethin** (minor) — charcoal-foreman; gruff, practical, knows the near wood.
-- **Wren-of-the-Wood** (minor) — young guide; reckless, has been deeper than she should (naming note: not Wren Hollowmere — disambiguated by epithet).
+- **Wren-of-the-Wood** (minor) — young guide; reckless, has been deeper than she should (naming note: not Wren Brevin — disambiguated by epithet).
 
 See `../08_npcs/SECONDARY_NPCS.md` and `../08_npcs/MINOR_NPCS.md`.
 

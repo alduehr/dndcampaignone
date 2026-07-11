@@ -36,14 +36,13 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 - [x] (Stage 11 follow-up) Mirror region-coded clue IDs into runtime `HIDDEN_CLUES.md` — done 2026-06-13 (Stage 11 cleanup pass); Stage 11 anchor section added to `02_runtime_state/HIDDEN_CLUES.md`.
 
-- [ ] (Recommended, low-priority polish) Lift exact quest titles for Glassmere/Hollow Gulf/Emberfell/Hethewald/Sallowmarch into `DEVELOPED_QUESTS_INDEX.md`
-  - Why it matters: those region files' quest blocks were authored by the prior Stage 10 run; the index currently summarizes their titles descriptively. A quick read-and-fill pass would tidy the index. Non-blocking.
-  - Related files: `09_quests/by_region/{GLASSMERE_LEAGUE,HOLLOW_GULF_PORTS,EMBERFELL_THEOCRACY,HETHEWALD_FREE_HOLDS,SALLOWMARCH_PROTECTORATE}_QUESTS.md`, `09_quests/DEVELOPED_QUESTS_INDEX.md`
-  - Suggested agent: `indexer-librarian`
-  - Stage: 10 (follow-up)
+- [x] (Recommended, low-priority polish) Lift exact quest titles for Glassmere/Hollow Gulf/Emberfell/Hethewald/Sallowmarch into `DEVELOPED_QUESTS_INDEX.md` — **verified already done, closed 2026-07-07:** a heading-by-heading comparison of all 38 quests across the 5 region files against the index found a 1:1 exact-title match; the index needed no changes (a prior pass evidently completed this without closing the item).
 
 ## Completed Recently
 
+- [x] External Audit Remediation Pass, Phase 5 (deferred items) — 2026-07-07. **(C4)** 12 far-region `05_regions/` files built (consolidation; no new canon; REGION_INDEX table updated + stale placeholder level values reconciled). **(C5)** Caradril raised to ~84 named NPCs via `CARADRIL_EXPANSION_NPCS.md` (+12 secondary/+24 minor; inside the Stage 4 75–100 band). **(C6)** `minor_factions/THE_TOLLMEN.md` + folder README; FACTION_INDEX Minor Factions section. **(C7)** dispositioned: per-clue files intentionally NOT built (index rows are the per-clue store; stubs would duplicate + drift). **(C9/C10)** untouched by design (Session-1 character creation; play-populated runtime files). See `PROGRESS_LOG.md` Phase 5 entry.
+- [x] External Audit Remediation Pass, Phase 4 (bestiary verification + RtHW integration + random tables) — 2026-07-07. See the closed Low items above, `PROGRESS_LOG.md` 2026-07-07 Phase 4 entry, and `CONSISTENCY_AUDIT.md` Resolved Issues.
+- [x] External Audit Remediation Pass, Phases 1–3 — 2026-07-07. Fixed 3 broken AI-DM retrieval pointers an independent external report found (5 far-region packets + 1 city packet pointing to nonexistent encounter files; 1 wrong quest-index path), rewrote `README.md`/`CLAUDE.md` to reflect actual Stage 0–16 completion (both previously described a Stage-0 repo), added `/15_campaign_arcs` to both repository-shape listings, reconciled the 18-vs-20-region terminology note, standardized "late autumn"→"mid-autumn" (11 files, matching `CALENDAR.md`'s own month table), and standardized the opening NPC to a single canonical name **Wren Brevin** (14 codex-layer occurrences). No new campaign content. See `PROGRESS_LOG.md` 2026-07-07 entry and `CONSISTENCY_AUDIT.md` Resolved Issues.
 - [x] Cartography Determinism Cleanup pass — 2026-06-18. Resolved region count (definitively **18 standalone regions**; Cindern Waste = Emberfell terrain sub-zone, Drowned Steps = Sallowmarch sub-area); fixed 4 region-packet D-site mislabels (Marrowdowns→D26, Sallowmarch→D30, Hollow Gulf→D30, Wender Steppe→D32); promoted 3 far-city layouts + major far rivers/ranges/routes to **DERIVED-CANONIZED**; resolved Tollreach as a route-waypoint danger marker (75,37); corrected settlement count to **40**. No new content/proper nouns; no apex leak. Verdict: **MAP READY.** See `18_audits/CARTOGRAPHY_READINESS_AUDIT.md` (Cartography Determinism Cleanup Pass section) and `PROGRESS_LOG.md` 2026-06-18 entry.
 - [x] Exploration-Determinism Pass (Phases 0–5) — 2026-06-18. Made the repo exploration-deterministic. Brought settlement map packets to **40** (eagle-test floor); deepened all 13 far-region map packets to D&D-usable depth; deepened 3 far cities to Caradril-style internal-layout depth. Eagle test **PASS**: any point on Orrun can be arrived at and run as a scene without improvising geography, layout, services, or NPCs. No new proper nouns; all settlement-internal landmark names are settlement-flavor only. Tracker: `CARTOGRAPHY_DETERMINISM_PROGRESS.md`. See `PROGRESS_LOG.md` 2026-06-18 entry.
 
@@ -72,11 +71,11 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
   - Suggested agent: world-atlas-builder / indexer-librarian
   - Stage: interstitial (post-Stage-7)
 
-- [ ] Deep-build the placeholder regions when play warrants
-  - Why it matters: Ring 2 placeholders (Verdance Reaches SE Lvl 8–12; deep Sunder Heights N Lvl 6–10; Highmark passes far-N Lvl 12–16) AND the 13 new full-continent placeholders (Glassmere League, Marrowdowns, Sallowmarch Protectorate, Hollow Gulf Ports, Wender Steppe, Karran Marches, Emberfell Theocracy, Saltmere Reaches, Concord Heartlands/Ruin'd Crown, Hethewald Free Holds, Sunmark) are named/positioned with political form + 1-sentence identity only. They need full region builds before any play ranges into them. **The Concord Heartlands is a surface fallen-ruin — NEVER the keystone/Hollow Court seat.**
-  - Related files: `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` §6, `WORLD_MAP_AUTHORITY.md` §6–§8, `REGION_INDEX.md`
+- [ ] Deep-build far-region **settlements** when play warrants (region files now exist)
+  - Why it matters: **Updated 2026-07-07 (Phase 5):** all 12 far-continent regions now have canonical `05_regions/` region files consolidating their authored layers (map packets, NPC rosters, quests, dungeons, arc packs). What remains deliberately light is the **settlement layer** — far settlements are covered by eagle-test map packets, not full `06_settlements/` files — plus deep Sunder Heights (N) and the optional Highmark Passes frontier. Deepen a specific region's settlements only when play approaches it. **The Concord Heartlands is a surface fallen-ruin — NEVER the keystone/Hollow Court seat.**
+  - Related files: `05_regions/` (12 new region files), `06_settlements/settlement_map_packets/`, `REGION_INDEX.md`
   - Suggested agent: world-atlas-builder
-  - Stage: future (Ring 2+ / continental expansion)
+  - Stage: future (play-driven deepening)
 
 - [ ] Pin down low-confidence map coordinates as regions are built
   - Why it matters: 22 campaign-area grid entries (`WORLD_MAP_COORDINATES.md`) and ~86 full-continent entries (`FULL_WORLD_MAP_COORDINATES.md`) are low-confidence placeholders; deep-building those areas should upgrade them to medium/high and keep both grids self-consistent.
@@ -102,25 +101,11 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## Low
 
-- [ ] Stage 13 supplement: RtHW bestiary integration (pending book release June 16 2026)
-  - Why it matters: *Ravenloft: The Horrors Within* (RtHW) releases June 16 2026, after Stage 13 completion. ~28 thematically-apt horror creatures (Mist Horror, Gallows Speaker, Waxworks, Necrichor, Strahd Skeleton, Brain in a Jar, etc.) mirror the Remembrance/harvest cosmology and would enrich the deep-node/grief tables. A placeholder "Horror Expansion Supplement (Pending)" section already exists in `CREATURE_SOURCE_REFERENCE.md`.
-  - What to do once the book is accessible: run a focused Track-A pass (name + source + role + solo notes; no stat blocks; no Domains-of-Dread/darklord/named-NPC setting lore; reskin to Remembrance themes; add only where a site's horror theme already fits). Add entries to `HORROR_AND_CURSE_THREATS.md`, `BESTIARY_INDEX.md` (with `A · RtHW` shorthands), `MYSTERY_ENCOUNTERS.md`, and the deep-horror regional files (SUNDERING_REACH, CONCORD_HEARTLANDS, MARROWDOWNS, SALTMERE_REACHES, DROWNED_STEPS, HETHEWALD).
-  - Related files: `13_encounters_and_bestiary/CREATURE_SOURCE_REFERENCE.md`, `HORROR_AND_CURSE_THREATS.md`, `BESTIARY_INDEX.md`, `MYSTERY_ENCOUNTERS.md`
-  - Suggested agent: `encounter-bestiary-designer`
-  - Stage: 13 (supplement) — blocked on book release
-  - Blocker: RtHW not released until 2026-06-16.
+- [x] Stage 13 supplement: RtHW bestiary integration — **done 2026-07-07** (Phase 4 verification/enrichment pass). RtHW verified real via web (released 2026-06-16; 51 stat blocks CR 1/2–21, largely VRGtR creatures updated to 2024 rules + new cosmic-horror entries). Verified creatures integrated Track-A (Gallows Speaker, Mist Horror, Necrichor, Bodytaker Plant/Podling, Boneless, Jiangshi, Carrionette, Brain in a Jar, Carrion Stalker, Death's Head, Dullahan, Gremishka, Nightgaunt, Gug, Shoggoth, Greater Star Spawn Emissary) into `HORROR_AND_CURSE_THREATS.md` (#H10–H13), `BESTIARY_INDEX.md`, `MYSTERY_ENCOUNTERS.md`, and the 6 deep-horror regional files. **Unverifiable placeholders removed** (Elder Thing, Mi-Go, Yithian, Waxworks, "Strahd Skeleton", "Mordenheim's Monster", Death's Head variants, Mist Wanderer-as-creature) and all 3 NPC placeholders dropped. Same pass **re-verified every Track-A attribution in the bestiary**: Oblex/Allip/Soul Monger/Deathlock/Vampiric Mist corrected VRGtR→MToF; Bodak→VGtM; the non-official "Caller in Darkness" (3e psionics, no 5e printing) replaced by the **Sorrowsworn** (MToF); invented page numbers removed; every Track-B original now carries an official-chassis anchor (`BESTIARY_INDEX.md` anchor table).
 
-- [ ] (Optional) Confirm the one `source check needed` bestiary entry (deep-water aberration / "kraken-spawn-like")
-  - Why it matters: `BESTIARY_INDEX.md` §I marks the unspecified deep-water aberration as `A · source check needed` rather than guessing a book. Confirm whether to anchor it to a published creature (e.g. a MotM/2024 MM aberration) or convert it to a Track-B original.
-  - Related files: `13_encounters_and_bestiary/BESTIARY_INDEX.md`, `DROWNED_STEPS_ENCOUNTERS.md`
-  - Suggested agent: `encounter-bestiary-designer`
-  - Stage: 13 (polish)
+- [x] (Optional) Confirm the one `source check needed` bestiary entry (deep-water aberration) — **done 2026-07-07:** anchored to real published creatures: **Chuul (2024 MM, CR 4) / Deep Scion (VGtM, CR 3) / Morkoth (VGtM, CR 11)** in `BESTIARY_INDEX.md` §I.
 
-- [ ] Populate `/15_random_tables/` with travel, weather, event, and wilderness tables
-  - Why it matters: Random tables reduce AI improvisation burden during travel and downtime.
-  - Related files: `WORLDBUILDING_STANDARDS.md`
-  - Suggested agent: `world-atlas-builder`
-  - Stage: 3+
+- [x] Populate `/15_random_tables/` with travel, weather, event, and wilderness tables — **done 2026-07-07:** built `README.md`, `TRAVEL_EVENTS.md` (4 route-class tables), `WEATHER.md` (season × 8 climate zones), `URBAN_EVENTS.md` (village/Caradril/far-city tiers + downtime), `NPC_PERSONALITY.md` (Tier-3 quick generator with combat-relevance tags), `RUMOR_SURFACES.md` (surfacing/teller/distortion logic over the authored rumor stock). All pointer-heavy per the filler rule — every result routes to existing authored content. `_PLACEHOLDER.md` removed.
 
 - [ ] Resolve any duplicate content between `CLAUDE.md` and `PROJECT_RULES.md`
   - Why it matters: Duplicate rules diverge over time and create confusion.

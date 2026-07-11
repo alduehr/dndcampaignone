@@ -65,6 +65,7 @@ The Concord's fallen capital country — endless contested ruins, postured guard
 
 ## Mystery-Linked Encounters
 - **M6 (primary, climax-scale far-proof):** the Concord spanned the continent; its guardians, script, and stored Remembrance are everywhere here. **M9-adjacent (DM-ONLY, gated):** Reclaimer lords chase the apex truth — but the *answer* is at Hollowmere, not here. **NEVER** surface the Court/keystone/Under-Shrine as Heartlands content. Fragments only; `MYSTERY_ENCOUNTERS.md`, `SECRET_PROTECTION_MATRIX.md`.
+- **Horror additions (RtHW pass 2026-07-07):** a **Gallows Speaker** (RtHW) in a fallen hall where the Concord's servants died holding secrets — the strongest published M6 fragment-vector here (gated wording only); a **Dullahan** (VRGtR/RtHW) as a rare, heavily telegraphed death-omen on the ruin-roads. See `HORROR #H10/#H12`.
 
 ## Dungeon/Site Encounter Support
 - **The Old Concord Heartlands Ruin (the Ruin'd Crown)** (D21) — `DUNGEON_ENCOUNTER_SUPPORT.md`.

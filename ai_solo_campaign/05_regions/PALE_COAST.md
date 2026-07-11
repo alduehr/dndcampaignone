@@ -33,7 +33,7 @@ The Pale Coast holds the campaign's **maritime echo of the harvest** — and, li
 ## Geography
 
 - **Terrain:** grey sea-cliffs, shingle coves, headlands, salt-marsh (toward Saltmargin), tidal salt-pans, sea-caves, offshore stacks and skerries; cold, fish-rich sea; the Verdance river-mouth toward the south (the water-road to Caradril).
-- **Climate:** cold, wet, wind-scoured; frequent storms and sea-fog; brutal in winter. Campaign starts in late autumn — the season of gales, wrecks, and the Coast's drowned-tide.
+- **Climate:** cold, wet, wind-scoured; frequent storms and sea-fog; brutal in winter. Campaign starts in mid-autumn — the season of gales, wrecks, and the Coast's drowned-tide.
 - **Boundaries:** Sundering Reach (E, via Saltmargin and the salt-marsh), the cold sea (W/N), the Verdance mouth and Caradril's coastal hinterland (S/SE), open wild coast (N).
 - **Defining features:** the **Drowned Lamp** (the great ruined lighthouse); the **sea-shrines** on the headlands; **Wrackmouth** harbor; the **salt-pans**; the **Skerries** (offshore stacks where wrecks and worse gather).
 

@@ -114,7 +114,7 @@ Master table of all NPCs. Full profiles live in `MAJOR_NPCS.md` (+ `by_region/CA
 | 14 | Custodian Veyl | Major | Hollow Court | Under-shrine | (legend) Final antagonist | T4 solo boss | `MAJOR_NPCS.md` |
 | 15 | Custodian Maire | Major | Hollow Court | Under-shrine | (hidden) Synthesis ally | T4 (ally) | `MAJOR_NPCS.md` |
 | 16 | Sefra Quick | Major | Independent / Court cutout | Hollowmere | Fixer; first contact | T2 | `MAJOR_NPCS.md` |
-| 17 | Wren Hollowmere | Major | None | Hollowmere/fens | Returned dead (opening) | T1 lite (not default combat) | `MAJOR_NPCS.md` |
+| 17 | Wren Brevin | Major | None | Hollowmere/fens | Returned dead (opening) | T1 lite (not default combat) | `MAJOR_NPCS.md` |
 | 18 | Tomas Brevin | Major | None | Hollowmere | Wren's husband | T3 commoner | `MAJOR_NPCS.md` |
 | 19 | Halla Coalmont | Major | Independent | Hollowmere (inn) | Innkeeper; hub | T3 commoner | `MAJOR_NPCS.md` |
 | 20 | Old Sashe | Major | Independent fen-guide | Greyfens edge | Fen-guide | T2 (avoids fights) | `MAJOR_NPCS.md` |
@@ -245,15 +245,19 @@ Stage 9.5 (Full-Continent NPC Readiness, 2026-06-12) added **12 far-continent re
 
 > Secondary 168 = every secondary bullet as it appears per-file; **4 are cross-listed** references (Hadwin Vael, Mossa Drenn, Crown-Customs Legate Vorr) to NPCs authored in another region file, so distinct-authored secondaries = **164**. Counts verified by hand + script 2026-06-12. Every region meets 3+ major / 12+ secondary / 30+ minor.
 
-### Updated cumulative NPC totals (Stage 9 + Stage 9.5)
+### Updated cumulative NPC totals (Stage 9 + Stage 9.5 + Caradril density pass)
 
-| Tier | Stage 9 (core) | + Stage 9.5 (far) | Cumulative |
-|---|---|---|---|
-| Major | 50 | 44 | **94** |
-| Secondary | ~200 | 168 | **368** |
-| Minor | 521 | 432 | **953** |
+| Tier | Stage 9 (core) | + Stage 9.5 (far) | + Caradril density (2026-07-07) | Cumulative |
+|---|---|---|---|---|
+| Major | 50 | 44 | — | **94** |
+| Secondary | ~200 | 168 | 12 | **380** |
+| Minor | 521 | 432 | 24 | **977** |
 
 Voice handles, relationship links, and DM secret-routing for all 44 far-continent majors are appended in `NPC_VOICE_GUIDE.md`, `NPC_RELATIONSHIP_WEB.md`, and `NPC_SECRET_LEDGER.md` (Stage 9.5 sections). Naming registered in `NAMING_REGISTRY.md` ("Stage 9.5 Far-Continent NPCs").
+
+## Caradril Density Expansion (2026-07-07)
+
+`by_region/CARADRIL_EXPANSION_NPCS.md` — **+12 secondary, +24 minor** across all 8 districts + the Stillwater harbor, raising Caradril's named population from ~48 to **~84** (inside the Stage 4 target band of 75–100). All texture-and-function NPCs (officials, service providers, rumor nodes, faction rank-and-file) tied to existing districts, factions, and hooks; several carry gated M3/M5/M6-fringe details. No new proper nouns registered (secondary/minor scope); no new majors, factions, or locations.
 
 ## Related Files
 
