@@ -2,16 +2,16 @@
 
 ---
 type: settlement
-secrecy: player-safe
+secrecy: mixed
 status: static
 region: Verdance Reaches
 settlement: Marrowfen Stair
 level_range: 8-12
 related: [../../04_world_atlas/region_map_packets/REGION_VERDANCE_REACHES.md, ../../04_world_atlas/FULL_CONTINENT_SETTLEMENT_ANCHORS.md, ../../08_npcs/by_region/VERDANCE_REACHES_NPCS.md, ../../09_quests/by_region/VERDANCE_REACHES_QUESTS.md]
-tags: [type:map, secrecy:player-safe, function:cartography, settlement-map, map-packet, marrowfen-stair, verdance-reaches]
+tags: [type:map, secrecy:mixed, function:cartography, settlement-map, map-packet, marrowfen-stair, verdance-reaches]
 ---
 
-> **Secrecy classification:** Player-safe. Marrowfen Stair is an honest river-lock corridor-hub: practical, commercial, politically connected to the Ledger and Compact. No apex content here. Safe to show.
+> **Secrecy classification:** Mixed (reclassified 2026-07-11 — the file contains a DM-Only Layer section, so the whole file is not player-safe). Marrowfen Stair itself is an honest river-lock corridor-hub with no apex content; render the Player-Safe Layer freely, keep the DM-Only Layer back.
 
 ## Settlement: Marrowfen Stair (Verdance Reaches — river-lock corridor hub)
 

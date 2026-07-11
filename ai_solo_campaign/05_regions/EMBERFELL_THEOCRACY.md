@@ -7,9 +7,9 @@ status: static
 region: Emberfell Theocracy
 settlement: Ashfast
 factions: [Mourners' Circle, Concord Remnant]
-level_range: 10-15
+level_range: 12-16
 related: [../04_world_atlas/region_map_packets/REGION_EMBERFELL_THEOCRACY.md, ../06_settlements/city_map_packets/ASHFAST_CITY_MAP.md, ../08_npcs/by_region/EMBERFELL_THEOCRACY_NPCS.md, ../09_quests/by_region/EMBERFELL_THEOCRACY_QUESTS.md, ../13_encounters_and_bestiary/EMBERFELL_ENCOUNTERS.md, ../10_dungeons_and_ruins/THE_EMBERFELL_CALDERA_DESCENT.md]
-tags: [type:region, secrecy:mixed, region:emberfell, theocracy, volcanic, thematic-mirror, lvl-10-15]
+tags: [type:region, secrecy:mixed, region:emberfell, theocracy, volcanic, thematic-mirror, lvl-12-16]
 ---
 
 ## AI Use
@@ -79,7 +79,7 @@ Theocratic law and closed-city intrigue; volcanic environment; the fire-preserve
 
 ## Level Range And Solo Danger
 
-**Lvl 10–15.** Moderate inside the law (the theocracy is orderly to those who keep its forms); **very high** environmentally — the caldera, the Waste, and D22/D36 are among the campaign's harshest gear-and-water-gated environments, all warden-telegraphed. Crossing the faith is signaled long before it is punished. Details: map packet §Level Range.
+**Lvl 12–16.** Moderate inside the law (the theocracy is orderly to those who keep its forms); **very high** environmentally — the caldera, the Waste, and D22/D36 are among the campaign's harshest gear-and-water-gated environments, all warden-telegraphed. Crossing the faith is signaled long before it is punished. Details: map packet §Level Range.
 
 ## Encounter And Hazard Mechanics
 

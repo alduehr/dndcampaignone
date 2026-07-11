@@ -7,9 +7,9 @@ status: static
 region: Glassmere League
 settlement: Glassmere
 factions: [Cinder Ledger, Concord Remnant, Mourners' Circle, The Hush]
-level_range: 8-13
+level_range: 9-13
 related: [../04_world_atlas/region_map_packets/REGION_GLASSMERE_LEAGUE.md, ../06_settlements/city_map_packets/GLASSMERE_CITY_MAP.md, ../08_npcs/by_region/GLASSMERE_LEAGUE_NPCS.md, ../09_quests/by_region/GLASSMERE_LEAGUE_QUESTS.md, ../13_encounters_and_bestiary/GLASSMERE_LEAGUE_ENCOUNTERS.md]
-tags: [type:region, secrecy:mixed, region:glassmere-league, city-league, banking, lvl-8-13]
+tags: [type:region, secrecy:mixed, region:glassmere-league, city-league, banking, lvl-9-13]
 ---
 
 ## AI Use
@@ -77,7 +77,7 @@ Intrigue, finance, espionage, vault-security; a single telegraphed relic-manifes
 
 ## Level Range And Solo Danger
 
-**Lvl 8–13.** Low physical danger; the risks are political and financial, and a blown infiltration draws Guard/Spy-like security, not lethal ambush. Escalation is signaled institutionally, giving room to retreat or change tack. Details: map packet §Level Range / §Encounter And Hazard Mechanics (Reliquary wards DC 18; vault Stealth DC 16–18; social DC 15–18).
+**Lvl 9–13.** Low physical danger; the risks are political and financial, and a blown infiltration draws Guard/Spy-like security, not lethal ambush. Escalation is signaled institutionally, giving room to retreat or change tack. Details: map packet §Level Range / §Encounter And Hazard Mechanics (Reliquary wards DC 18; vault Stealth DC 16–18; social DC 15–18).
 
 ## Encounter And Hazard Mechanics
 

@@ -6,7 +6,7 @@ Tells the AI DM which files to load, when to load them, and how to use them. Thi
 
 ## Current Status
 
-**Current through Stage 15B (full level 1–20 arc) + Stage 16 correction pass + Cartography Authority Pass (2026-06-16) + Exploration-Determinism Pass (2026-06-18).** The repo is built, audited, cartography-deterministic, and now **exploration-deterministic**: a player can fly to any point on Orrun and the AI DM can (a) render a deterministic map and (b) run arrival and exploration as a scene without inventing geography, settlement layout, available services, or people. The Cartography Authority Pass created the master geometry/registry/route/water/terrain authority files and initial map packets. The Exploration-Determinism Pass expanded settlement coverage from 18 to 42 settlement map packets, deepened all 13 far-region map packets to D&D-usable depth, and deepened all 3 far cities to Caradril-style internal-layout depth. **When the player arrives at any settlement, load its settlement map packet from `06_settlements/settlement_map_packets/` in addition to its main settlement file** — the packet gives the local grid, notable areas, services, law/threat DCs, NPC positions, and quest hooks. All of the following authored systems exist and are loadable: canon (player-safe / DM-only split), runtime state, AI DM protocols, the Sundering Reach (starting region), Caradril (first major city), three Ring 1 adjacent regions, the full continent of Orrun (5 built + 13 placeholder far regions), seven major factions (operational with clocks and quest chains), the NPC codex (50 majors + secondaries + minors + far-continent rosters), the quest library, the mystery/clue/secret web, dungeons and adventure sites, the encounter/bestiary library, the treasure/reward/artifact library, and the level 5–20 arc (Tiers 2–4, endgame, region/faction escalation, off-route and ignore-arc guides). Stage 17 (Live Campaign Operation) is next — begin via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`.
+**Current through Stage 15B (full level 1–20 arc) + Stage 16 correction pass + Cartography Authority Pass (2026-06-16) + Exploration-Determinism Pass (2026-06-18) + the External Audit Remediation Passes, Phases 1–5 (2026-07-07) and the table-ready audit fix pass (2026-07-11).** The 2026-07 passes added, and this guide now covers: **12 far-region files in `05_regions/`** (the canonical narrative/political anchor per far region), the **`15_random_tables/` library** (travel events, weather, urban/downtime events, minor-NPC generator, rumor-surfacing logic), the **`07_factions/minor_factions/` layer** (the Tollmen + folder README), and the **Caradril density expansion** (`08_npcs/by_region/CARADRIL_EXPANSION_NPCS.md`). The repo is built, audited, cartography-deterministic, and now **exploration-deterministic**: a player can fly to any point on Orrun and the AI DM can (a) render a deterministic map and (b) run arrival and exploration as a scene without inventing geography, settlement layout, available services, or people. The Cartography Authority Pass created the master geometry/registry/route/water/terrain authority files and initial map packets. The Exploration-Determinism Pass expanded settlement coverage from 18 to 42 settlement map packets, deepened all 13 far-region map packets to D&D-usable depth, and deepened all 3 far cities to Caradril-style internal-layout depth. **When the player arrives at any settlement, load its settlement map packet from `06_settlements/settlement_map_packets/` in addition to its main settlement file** — the packet gives the local grid, notable areas, services, law/threat DCs, NPC positions, and quest hooks. All of the following authored systems exist and are loadable: canon (player-safe / DM-only split), runtime state, AI DM protocols, the Sundering Reach (starting region), Caradril (first major city), three Ring 1 adjacent regions, the full continent of Orrun (5 built + 13 placeholder far regions), seven major factions (operational with clocks and quest chains), the NPC codex (50 majors + secondaries + minors + far-continent rosters), the quest library, the mystery/clue/secret web, dungeons and adventure sites, the encounter/bestiary library, the treasure/reward/artifact library, and the level 5–20 arc (Tiers 2–4, endgame, region/faction escalation, off-route and ignore-arc guides). Stage 17 (Live Campaign Operation) is next — begin via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`.
 
 ---
 
@@ -72,11 +72,14 @@ Then load the world files for the current location, active quests, and NPCs pres
 - `15_campaign_arcs/REGIONAL_ARC_PACKS_LEVEL_5_TO_20.md` if the player is L5+ here
 
 ### Entering a far-continent region
-- `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` (what lies beyond; placement; secrecy)
+- **The region file first:** `05_regions/[REGION].md` (built 2026-07-07 — the narrative/political anchor: identity, settlements, factions, conflicts, quests, if-ignored consequences)
+- `04_world_atlas/region_map_packets/REGION_[NAME].md` — cartography + hazard/encounter mechanics authority
 - `08_npcs/by_region/[REGION]_NPCS.md` — the far-region roster
+- `09_quests/by_region/[REGION]_QUESTS.md` — the region's developed quests
 - `13_encounters_and_bestiary/[REGION]_ENCOUNTERS.md` — the far-region encounter table
 - `15_campaign_arcs/REGION_TO_REGION_TRANSITION_GUIDE.md` + `15_campaign_arcs/PLAYER_GOES_ANYWHERE_GUIDE.md`
 - `15_campaign_arcs/CONTINENTAL_PRESSURE_TIMELINE.md` for what's happening far away
+- `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` (what lies beyond; placement; secrecy)
 - **Endgame stays vertical under Hollowmere — never relocate the keystone/Concord Deep/Hollow Court to a distant land.**
 
 ### Cartography and map rendering (generating / placing maps)
@@ -104,7 +107,7 @@ Then load the world files for the current location, active quests, and NPCs pres
 - `07_factions/FACTION_TURN_RULES.md` — **load between sessions / at any time-skip** to make factions act off-screen
 - `07_factions/FACTION_RELATIONSHIP_MAP.md` — load when an action ripples across factions
 - `02_runtime_state/FACTION_STATE.md` + `02_runtime_state/WORLD_CLOCKS.md` — current positions and clocks
-- The specific faction file in `07_factions/major_factions/`
+- The specific faction file in `07_factions/major_factions/` — or `07_factions/minor_factions/` for minor groups (the Tollmen; see the folder `README.md` for which minor factions live inline instead)
 - `15_campaign_arcs/FACTION_ESCALATION_PATHS.md` for L5+ faction arcs
 - `13_encounters_and_bestiary/FACTION_ENCOUNTERS.md` if confrontation turns to combat
 
@@ -171,6 +174,14 @@ Then load the world files for the current location, active quests, and NPCs pres
 - `01_runner_protocol/TRAVEL_PROTOCOL.md`
 - `13_encounters_and_bestiary/TRAVEL_ENCOUNTERS.md`
 - `15_campaign_arcs/OPEN_WORLD_CONTINUITY_GUIDE.md`
+
+### Travel texture, weather, downtime, and improvised rumors (random tables — added 2026-07-07)
+- `15_random_tables/README.md` — rules of use; roll once per leg/downtime day/street scene
+- `15_random_tables/TRAVEL_EVENTS.md` — non-combat travel events by route class (roads / wild / river / sea)
+- `15_random_tables/WEATHER.md` — season × climate-zone weather (campaign starts Greyfall, mid-autumn)
+- `15_random_tables/URBAN_EVENTS.md` — street/downtime events (village tier / Caradril / far cities)
+- `15_random_tables/RUMOR_SURFACES.md` — which **authored** rumor surfaces, from whom, with what distortion (never invent rumor content)
+- `15_random_tables/NPC_PERSONALITY.md` — quick Tier-3 minor-NPC generator (**check the authored rosters first**; for Caradril also load `08_npcs/by_region/CARADRIL_EXPANSION_NPCS.md`)
 
 ### Handling the player ignoring the main arc
 - `15_campaign_arcs/PLAYER_IGNORES_MAIN_ARC_GUIDE.md`

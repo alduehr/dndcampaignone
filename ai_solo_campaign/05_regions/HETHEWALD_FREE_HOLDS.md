@@ -7,9 +7,9 @@ status: static
 region: Hethewald Free Holds
 settlement: Hethemoot
 factions: [Mourners' Circle, Cinder Ledger, Concord Remnant]
-level_range: 8-13
+level_range: 7-12
 related: [../04_world_atlas/region_map_packets/REGION_HETHEWALD_FREE_HOLDS.md, ../08_npcs/by_region/HETHEWALD_FREE_HOLDS_NPCS.md, ../09_quests/by_region/HETHEWALD_FREE_HOLDS_QUESTS.md, ../13_encounters_and_bestiary/HETHEWALD_ENCOUNTERS.md, ../10_dungeons_and_ruins/THE_HETHEWALD_OLD_HOLDS.md]
-tags: [type:region, secrecy:mixed, region:hethewald, forest, free-holds, lvl-8-13]
+tags: [type:region, secrecy:mixed, region:hethewald, forest, free-holds, lvl-7-12]
 ---
 
 ## AI Use
@@ -67,7 +67,7 @@ The Old Holds' interior (D25) holds a Concord record-fragment (M6 far-echo); the
 
 ## Recurring Threats
 
-Forest predators and fey (dryads, hags, blights — Track A); outlaw tollers (Bandit/Scout-like; Maddoc Veteran-like); the Old Holds' dead (Barrow-Wight/Specter chassis scaled L8–13; gated); the wood itself (getting lost, the deep interior's hostility without a guide). Horror addition (2026-07-07): a Bodytaker Plant (RtHW) in the deepest wood — see `HETHEWALD_ENCOUNTERS.md`. Stat references: encounter file + map packet.
+Forest predators and fey (dryads, hags, blights — Track A); outlaw tollers (Bandit/Scout-like; Maddoc Veteran-like); the Old Holds' dead (Barrow-Wight/Specter chassis scaled L7–12; gated); the wood itself (getting lost, the deep interior's hostility without a guide). Horror addition (2026-07-07): a Bodytaker Plant (RtHW) in the deepest wood — see `HETHEWALD_ENCOUNTERS.md`. Stat references: encounter file + map packet.
 
 ## Quest Hooks
 
@@ -79,7 +79,7 @@ Forest-custom and hold-politics ashore; river-toll conflict on the Hethe; fey-ba
 
 ## Level Range And Solo Danger
 
-**Lvl 8–13.** Moderate under the wood's law; high off it (the deep wood without a guide, the Old Holds at any time). All lethal zones are telegraphed by the free-holds' own prohibitions — the forest's rules, honestly kept, are the solo-safety system. Details: map packet §Level Range.
+**Lvl 7–12.** Moderate under the wood's law; high off it (the deep wood without a guide, the Old Holds at any time). All lethal zones are telegraphed by the free-holds' own prohibitions — the forest's rules, honestly kept, are the solo-safety system. Details: map packet §Level Range.
 
 ## Encounter And Hazard Mechanics
 

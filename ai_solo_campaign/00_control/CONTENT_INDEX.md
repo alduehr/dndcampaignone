@@ -34,14 +34,14 @@ Canonical `05_regions/` anchors consolidating each far region's authored layers 
 | Name | File | Level | Summary | Tags |
 |---|---|---|---|---|
 | Verdance Reaches | `05_regions/VERDANCE_REACHES.md` | 8–12 | Ring 2 river-corridor; locks, lords, Ledger inland push; bad water (M2/M5 inland) | far-region, ring-2, region:verdance-reaches |
-| Glassmere League | `05_regions/GLASSMERE_LEAGUE.md` | 8–13 | City-league; the bank war (Ledger's continental rival); Reliquary; the Ear | far-region, city-league, region:glassmere-league |
+| Glassmere League | `05_regions/GLASSMERE_LEAGUE.md` | 9–13 | City-league; the bank war (Ledger's continental rival); Reliquary; the Ear | far-region, city-league, region:glassmere-league |
 | Marrowdowns | `05_regions/MARROWDOWNS.md` | 6–10 | Pastoral chalk-downs; restless pre-Concord barrows; gentlest far region | far-region, region:marrowdowns |
 | Sallowmarch Protectorate | `05_regions/SALLOWMARCH_PROTECTORATE.md` | 10–14 | Fever-delta under foreign occupation; smuggling; drowned grounds | far-region, region:sallowmarch |
 | Hollow Gulf Ports | `05_regions/HOLLOW_GULF_PORTS.md` | 10–15 | Rival warm-water ports; privateers; overseas gate (Surren) | far-region, maritime, region:hollow-gulf |
 | Saltmere Reaches | `05_regions/SALTMERE_REACHES.md` | 11–15 | Dying salt sea; drowned pre-Concord towns; older-fall proof | far-region, region:saltmere |
 | Concord Heartlands | `05_regions/CONCORD_HEARTLANDS.md` | 13–17 | The Ruin'd Crown; the truth-race; SURFACE ruin only (never the keystone) | far-region, tier-3, region:concord-heartlands |
-| Hethewald Free Holds | `05_regions/HETHEWALD_FREE_HOLDS.md` | 8–13 | Tollwood writ large; failing bargains; forbidden Old Holds | far-region, forest, region:hethewald |
-| Emberfell Theocracy | `05_regions/EMBERFELL_THEOCRACY.md` | 10–15 | Closed fire-theocracy; thematic mirror of the harvest; oldest pre-Concord ruins | far-region, theocracy, region:emberfell |
+| Hethewald Free Holds | `05_regions/HETHEWALD_FREE_HOLDS.md` | 7–12 | Tollwood writ large; failing bargains; forbidden Old Holds | far-region, forest, region:hethewald |
+| Emberfell Theocracy | `05_regions/EMBERFELL_THEOCRACY.md` | 12–16 | Closed fire-theocracy; thematic mirror of the harvest; oldest pre-Concord ruins | far-region, theocracy, region:emberfell |
 | Wender Steppe | `05_regions/WENDER_STEPPE.md` | 8–13 | Free horse-clans outside Concord history; the thinning sky (oblique) | far-region, steppe, region:wender-steppe |
 | Karran Marches | `05_regions/KARRAN_MARCHES.md` | 9–14 | Warlord frontier; the deep that went wrong; dark mirror of the Reach | far-region, frontier, region:karran-marches |
 | Sunmark | `05_regions/SUNMARK.md` | 8–13 | Living grove-faith; the hopeful contrast; rites that still work | far-region, sanctuary, region:sunmark |

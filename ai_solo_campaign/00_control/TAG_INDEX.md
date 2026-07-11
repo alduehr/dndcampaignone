@@ -265,7 +265,7 @@ When an AI DM or production agent needs to find content of a certain type, searc
 - `13_encounters_and_bestiary/TOLLWOOD_ENCOUNTERS.md` (ring-1)
 - `13_encounters_and_bestiary/PALE_COAST_ENCOUNTERS.md` (ring-1)
 - `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md` (Stage 12; 8 abbreviated 5e profiles for new sites; incl. 1 DM-only apex adversary)
-- **Stage 13 cross-cutting:** `13_encounters_and_bestiary/ENCOUNTER_INDEX.md`, `BESTIARY_INDEX.md` (bestiary, index; 17 categories + Track-A source shorthands), `CREATURE_SOURCE_REFERENCE.md` (source-handling; copyright-safe two-track; RtHW pending), `SOLO_ENCOUNTER_SCALING.md` (solo-safety), `BIOME_ENCOUNTER_MATRIX.md` (ecology), `BOSS_AND_APEX_THREATS.md` (boss; B1–B18), `HORROR_AND_CURSE_THREATS.md` (horror, undead, curse; original + VRGtR Track-A), `FACTION_ENCOUNTERS.md` (faction), `MYSTERY_ENCOUNTERS.md` (mystery, clue), `TRAVEL_ENCOUNTERS.md` (travel), `DUNGEON_ENCOUNTER_SUPPORT.md` (dungeon), `REGIONAL_ENCOUNTER_TABLES.md` (all-regions master)
+- **Stage 13 cross-cutting:** `13_encounters_and_bestiary/ENCOUNTER_INDEX.md`, `BESTIARY_INDEX.md` (bestiary, index; 17 categories + Track-A source shorthands), `CREATURE_SOURCE_REFERENCE.md` (source-handling; copyright-safe two-track; RtHW verified + integrated 2026-07-07), `SOLO_ENCOUNTER_SCALING.md` (solo-safety), `BIOME_ENCOUNTER_MATRIX.md` (ecology), `BOSS_AND_APEX_THREATS.md` (boss; B1–B18), `HORROR_AND_CURSE_THREATS.md` (horror, undead, curse; original + VRGtR Track-A), `FACTION_ENCOUNTERS.md` (faction), `MYSTERY_ENCOUNTERS.md` (mystery, clue), `TRAVEL_ENCOUNTERS.md` (travel), `DUNGEON_ENCOUNTER_SUPPORT.md` (dungeon), `REGIONAL_ENCOUNTER_TABLES.md` (all-regions master)
 - **Stage 13 per-region (far/mid-continent):** `13_encounters_and_bestiary/VERDANCE_REACHES_ENCOUNTERS.md`, `GLASSMERE_LEAGUE_ENCOUNTERS.md`, `MARROWDOWNS_ENCOUNTERS.md`, `SALLOWMARCH_ENCOUNTERS.md`, `HOLLOW_GULF_ENCOUNTERS.md`, `WENDER_STEPPE_ENCOUNTERS.md`, `KARRAN_MARCHES_ENCOUNTERS.md`, `EMBERFELL_ENCOUNTERS.md`, `SALTMERE_REACHES_ENCOUNTERS.md`, `CONCORD_HEARTLANDS_ENCOUNTERS.md`, `HETHEWALD_ENCOUNTERS.md`, `SUNMARK_ENCOUNTERS.md`, `HIGHMARK_PASSES_ENCOUNTERS.md`, `CINDERN_WASTE_ENCOUNTERS.md`, `DROWNED_STEPS_ENCOUNTERS.md`
 
 ### type:artifact
@@ -904,6 +904,22 @@ When an AI DM or production agent needs to find content of a certain type, searc
 ### faction:hollow-court
 - `07_factions/major_factions/HOLLOW_COURT.md` (dm-only)
 - `09_quests/faction_quests/HOLLOW_COURT/` (QH1–QH4 chain; dm-only)
+
+---
+
+## 2026-07 Pass Tags (External Audit Remediation, Phases 4–5)
+
+### type:random_table (new tag, 2026-07-07)
+- `15_random_tables/README.md`, `TRAVEL_EVENTS.md`, `WEATHER.md`, `URBAN_EVENTS.md`, `NPC_PERSONALITY.md`, `RUMOR_SURFACES.md`
+
+### far-region (new tag, 2026-07-07 — the 12 canonical far-region files)
+- `05_regions/VERDANCE_REACHES.md`, `GLASSMERE_LEAGUE.md`, `MARROWDOWNS.md`, `SALLOWMARCH_PROTECTORATE.md`, `HOLLOW_GULF_PORTS.md`, `SALTMERE_REACHES.md`, `CONCORD_HEARTLANDS.md`, `HETHEWALD_FREE_HOLDS.md`, `EMBERFELL_THEOCRACY.md`, `WENDER_STEPPE.md`, `KARRAN_MARCHES.md`, `SUNMARK.md` (each also carries its `region:[name]` tag)
+
+### minor-faction (new tag, 2026-07-07)
+- `07_factions/minor_factions/THE_TOLLMEN.md`, `07_factions/minor_factions/README.md`
+
+### phase-5 (pass marker)
+- `08_npcs/by_region/CARADRIL_EXPANSION_NPCS.md` (+12 secondary / +24 minor; region:caradril)
 
 ---
 

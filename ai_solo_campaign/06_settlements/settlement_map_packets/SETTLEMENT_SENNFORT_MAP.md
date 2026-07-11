@@ -66,7 +66,7 @@ tags: [type:map, secrecy:player-safe, function:cartography, settlement-map, map-
 ## Quest Hooks
 
 - **Leg of the Glassmere arc:** Sennfort is a transit stop on the way to/from Glassmere; League politics and the Reliquary-Lector's visits make it a secondary complication.
-- **Q_GL_XXX — Sennfort waypoint hook:** local League-factional dispute (wool-tax; upriver access rights); on-ramp into Glassmere League politics (L9+).
+- **Local hook — Sennfort waypoint** (no developed quest file; improv-safe): local League-factional dispute (wool-tax; upriver access rights); on-ramp into Glassmere League politics via `../../09_quests/by_region/GLASSMERE_LEAGUE_QUESTS.md` (L9+).
 
 ## Encounter / Treasure References
 

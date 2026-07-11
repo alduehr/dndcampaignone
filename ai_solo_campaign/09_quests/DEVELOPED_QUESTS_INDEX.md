@@ -14,6 +14,8 @@ tags: [type:index, function:quest-index, developed-quests, all-regions, stage-10
 
 Master list of every **developed quest** in the campaign (full quest blocks, not short-form hooks). Use to locate a developed quest by region. For major campaign questlines see `MAJOR_CAMPAIGN_QUESTS.md`; for short-form hooks/rumors/jobs see `HOOKS_JOBS_RUMORS_INDEX.md`. Total developed quests: **~165** (~83 pre-Stage-10 + 82 Stage-10 far-continent).
 
+> **Level-range correction (2026-07-11):** five section headings below previously carried stale level ranges. They now match the authoritative layer (quest-file frontmatter = region NPC file = region map packet, verified identical): Glassmere **9–13**, Hollow Gulf **10–15**, Emberfell **12–16**, Sallowmarch **10–14**, Hethewald **7–12**.
+
 ---
 
 ## Pre-Stage-10 Developed Quests (~83)
@@ -43,7 +45,7 @@ Master list of every **developed quest** in the campaign (full quest blocks, not
 | Q_VR_006 | The Scholar's Rubbing | Faction (Remnant) / escort |
 | Q_VR_007 | The Free Ferry | Low-stakes / protection |
 
-### Glassmere League — `by_region/GLASSMERE_LEAGUE_QUESTS.md` (Lvl 8–13)
+### Glassmere League — `by_region/GLASSMERE_LEAGUE_QUESTS.md` (Lvl 9–13)
 | ID | Title |
 |---|---|
 | Q_GL_001 | The League's Overture |
@@ -55,7 +57,7 @@ Master list of every **developed quest** in the campaign (full quest blocks, not
 | Q_GL_007 | The Humming Cabinet |
 | Q_GL_008 | Good Paper, Bad Debt |
 
-### Hollow Gulf Ports — `by_region/HOLLOW_GULF_PORTS_QUESTS.md` (Lvl 9–14)
+### Hollow Gulf Ports — `by_region/HOLLOW_GULF_PORTS_QUESTS.md` (Lvl 10–15)
 | ID | Title |
 |---|---|
 | Q_HGP_001 | The Port-Mistress's Favor |
@@ -67,7 +69,7 @@ Master list of every **developed quest** in the campaign (full quest blocks, not
 | Q_HGP_007 | The Drowned Steps |
 | Q_HGP_008 | The Crown's Cut |
 
-### Emberfell Theocracy — `by_region/EMBERFELL_THEOCRACY_QUESTS.md` (Lvl 10–15)
+### Emberfell Theocracy — `by_region/EMBERFELL_THEOCRACY_QUESTS.md` (Lvl 12–16)
 | ID | Title |
 |---|---|
 | Q_ET_001 | The Ash Roads Passage |
@@ -79,7 +81,7 @@ Master list of every **developed quest** in the campaign (full quest blocks, not
 | Q_ET_007 | The Reliquary's Reach |
 | Q_ET_008 | The Market Beneath the Ash |
 
-### Sallowmarch Protectorate — `by_region/SALLOWMARCH_PROTECTORATE_QUESTS.md` (Lvl 9–13)
+### Sallowmarch Protectorate — `by_region/SALLOWMARCH_PROTECTORATE_QUESTS.md` (Lvl 10–14)
 | ID | Title |
 |---|---|
 | Q_SP_001 | The Crown's Peace |
@@ -90,7 +92,7 @@ Master list of every **developed quest** in the campaign (full quest blocks, not
 | Q_SP_006 | The Drowned Ground |
 | Q_SP_007 | The Rice Moot |
 
-### Hethewald Free Holds — `by_region/HETHEWALD_FREE_HOLDS_QUESTS.md` (Lvl 8–13)
+### Hethewald Free Holds — `by_region/HETHEWALD_FREE_HOLDS_QUESTS.md` (Lvl 7–12)
 | ID | Title |
 |---|---|
 | Q_HFH_001 | The Wood's Law |

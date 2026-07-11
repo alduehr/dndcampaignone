@@ -2,12 +2,12 @@
 
 ---
 type: random_table
-secrecy: player-safe
+secrecy: mixed
 status: static
 region: Orrun
 level_range: 1-20
 related: [../08_npcs/MINOR_NPCS.md, ../00_control/NPC_STANDARDS.md, ../08_npcs/NPC_VOICE_GUIDE.md]
-tags: [type:random_table, secrecy:player-safe, npc, improvisation, dm-tool]
+tags: [type:random_table, secrecy:mixed, npc, improvisation, dm-tool]
 ---
 
 ## AI Use

@@ -65,7 +65,7 @@ tags: [type:map, secrecy:player-safe, function:cartography, settlement-map, map-
 
 ## Quest Hooks
 
-- **Q_GL_XXX — The Frontier Salvage:** a Heartlands expedition has brought something through the West Gate that the Customs House wants held; multiple parties want it (L11+).
+- **Local hook — "The Frontier Salvage"** (no developed quest file; improv-safe; routes into `../../09_quests/by_region/GLASSMERE_LEAGUE_QUESTS.md` threads): a Heartlands expedition has brought something through the West Gate that the Customs House wants held; multiple parties want it (L11+).
 - **Wenna Stone passage:** Cairnwater is where Wenna Stone resupplies before/after the Karran Marches expedition; a contact point for Q_KM_003 (L12+).
 
 ## Encounter / Treasure References
