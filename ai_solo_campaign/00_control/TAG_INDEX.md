@@ -921,6 +921,11 @@ When an AI DM or production agent needs to find content of a certain type, searc
 ### phase-5 (pass marker)
 - `08_npcs/by_region/CARADRIL_EXPANSION_NPCS.md` (+12 secondary / +24 minor; region:caradril)
 
+### party-mode / six-players (new tag, 2026-07-11 — the party conversion layer; solo stays default)
+- `01_runner_protocol/PARTY_MODE_PROTOCOL.md`
+- `13_encounters_and_bestiary/PARTY_SCALING_6_PLAYERS.md`
+- `14_treasure_and_artifacts/PARTY_REWARDS_6_PLAYERS.md`
+
 ---
 
 ## Tag Rules

@@ -175,6 +175,12 @@ Then load the world files for the current location, active quests, and NPCs pres
 - `13_encounters_and_bestiary/TRAVEL_ENCOUNTERS.md`
 - `15_campaign_arcs/OPEN_WORLD_CONTINUITY_GUIDE.md`
 
+### Running the campaign for a party instead of one PC (party mode — added 2026-07-11)
+- `01_runner_protocol/PARTY_MODE_PROTOCOL.md` — **load once at campaign start** if running for a group (written for 6 players; scale for 3–5). Defines the mode: companions become guides, roster-based runtime state, Session-1 adaptation (the seven Act 1 doors become a spotlight structure), what never changes (secrecy, clocks, mysteries).
+- `13_encounters_and_bestiary/PARTY_SCALING_6_PLAYERS.md` — **replaces `SOLO_ENCOUNTER_SCALING.md`'s budgets** in party mode; the conversion ladder for every authored encounter/boss.
+- `14_treasure_and_artifacts/PARTY_REWARDS_6_PLAYERS.md` — **replaces `SOLO_REWARD_BALANCE.md`'s pacing** in party mode.
+- Solo remains the default mode; all authored content stays solo-first and is converted at the table, never rewritten.
+
 ### Travel texture, weather, downtime, and improvised rumors (random tables — added 2026-07-07)
 - `15_random_tables/README.md` — rules of use; roll once per leg/downtime day/street scene
 - `15_random_tables/TRAVEL_EVENTS.md` — non-combat travel events by route class (roads / wild / river / sea)

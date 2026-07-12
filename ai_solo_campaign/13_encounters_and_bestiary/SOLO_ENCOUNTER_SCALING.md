@@ -14,6 +14,8 @@ tags: [type:encounter, secrecy:player-safe, function:solo-safety, scaling, comba
 
 Load this **whenever you roll or build an encounter**. Every encounter table in this folder is already solo-tuned, but this file is the master ruleset for *how* to read those tables for one player character, how to convert a standard CR/XP budget to a solo budget, and when to soften, harden, or skip an encounter. This is the safety spine of Stage 13.
 
+> **Running for a group instead of one PC?** Use [`PARTY_SCALING_6_PLAYERS.md`](PARTY_SCALING_6_PLAYERS.md) **instead of** this file's budgets (and `../01_runner_protocol/PARTY_MODE_PROTOCOL.md` for everything non-combat). Solo remains the campaign's default mode.
+
 ## The Core Problem
 
 The published encounter math assumes a **four-PC party**. A lone PC:
@@ -109,6 +111,7 @@ These are *guidance*, not hard caps. The constant rule: **information, terrain, 
 
 ## Related Files
 
+- [`PARTY_SCALING_6_PLAYERS.md`](PARTY_SCALING_6_PLAYERS.md) — the party-mode conversion of this math
 - [`ENCOUNTER_INDEX.md`](ENCOUNTER_INDEX.md)
 - [`BOSS_AND_APEX_THREATS.md`](BOSS_AND_APEX_THREATS.md)
 - [`../01_runner_protocol/COMBAT_PROTOCOL.md`](../01_runner_protocol/COMBAT_PROTOCOL.md)

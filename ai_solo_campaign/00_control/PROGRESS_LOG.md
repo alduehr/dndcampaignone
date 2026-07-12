@@ -6,6 +6,29 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-07-11 — Party Mode: Six-Player Conversion Layer
+
+### Stage
+Post-Stage-16 enhancement pass. The campaign remains **solo-first** (the user will play it solo initially) and now also scales to a **six-player group** (the user's home table) via a conversion overlay — **no authored file was rebalanced or rewritten**; the ~600 authored files stay the single source of truth for who/where/why/tactics/morale/outs, and three new authority files convert the math at the table.
+
+### Files Created
+- `13_encounters_and_bestiary/PARTY_SCALING_6_PLAYERS.md` — combat conversion authority (mirrors `SOLO_ENCOUNTER_SCALING.md`): the inverted action-economy problem, six-player budgets (per-character thresholds ×6, one difficulty step above four-PC math), a role-based conversion ladder for every authored solo encounter shape, chassis-step ladder keyed to the existing anchor table, boss conversion (restore solo HP cuts +25%, 2–3 legendary-style beats from existing signature abilities, adds-per-phase with the stopping-lever as party objective), apex-court note, pacing dials, cheat sheet. What never changes: DCs, morale, telegraphs, retreat, non-combat outs, clue logic.
+- `01_runner_protocol/PARTY_MODE_PROTOCOL.md` — the mode itself: declared once at campaign start; three solo authorities explicitly swapped (encounter math, reward pacing, safety net) and everything else used as written; Session-1 adaptation (Sefra recruits the group; the seven Act 1 doors become a per-PC spotlight structure); companions become guides/patrons, never a seventh party member; roster-based `PLAYER_CHARACTER.md`; per-PC NPC memory attribution; party-level clues; shared story-keyed milestones; standard 5e lethality; secrecy/clocks/mysteries untouched.
+- `14_treasure_and_artifacts/PARTY_REWARDS_6_PLAYERS.md` — reward conversion: coin ×4–5, consumables ×3–4 (insurance floor deleted), ~1 meaningful item per PC per tier drawn from the **same authored pools** (no new items), signature items and all 12 relics/artifacts singular and gated as written, faction standing party-wide with ranked personal rewards per-PC.
+
+### Files Changed
+- `13_encounters_and_bestiary/SOLO_ENCOUNTER_SCALING.md` — cross-link note ("running for a group? use PARTY_SCALING instead") + Related Files entry
+- `00_control/RETRIEVAL_GUIDE.md` — new "Running the campaign for a party" load scenario
+- `00_control/CONTENT_INDEX.md` (new §Party Mode) · `00_control/TAG_INDEX.md` (party-mode/six-players tag)
+
+### Canon Established
+None (no world facts; a table-mode overlay only). Design decision recorded: **party difficulty is delivered by conversion-at-the-table from the solo-authored content, not by maintaining parallel stat blocks** — one source of truth, two reading modes.
+
+### Next Recommended Pass
+None required — party mode is complete as an overlay. Optional future nicety: a one-page printable "party mode card" summarizing the conversion ladder + reward card for behind the screen.
+
+---
+
 ## 2026-07-11 — Table-Ready Audit + Fix Pass (F1–F8)
 
 ### Stage

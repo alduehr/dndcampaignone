@@ -339,6 +339,14 @@ Each major faction has a 4-quest chain (intro → trust → moral complication �
 
 ---
 
+## Party Mode (six-player conversion layer — built 2026-07-11)
+
+| File | Secrecy | Summary | Tags |
+|---|---|---|---|
+| `01_runner_protocol/PARTY_MODE_PROTOCOL.md` | mixed | Running the solo-first campaign for a group (6 players): mode declaration, Session-1 adaptation, companions→guides, roster state, what never changes | party-mode, protocol, six-players |
+| `13_encounters_and_bestiary/PARTY_SCALING_6_PLAYERS.md` | player-safe | Combat conversion math: replaces SOLO_ENCOUNTER_SCALING budgets in party mode; conversion ladder, boss conversion, six-player cheat sheet | party-mode, scaling, six-players |
+| `14_treasure_and_artifacts/PARTY_REWARDS_6_PLAYERS.md` | mixed | Reward conversion: coin ×4–5, consumables ×3–4, ~1 item/PC/tier from authored pools; artifacts stay singular/gated | party-mode, rewards, six-players |
+
 ## Random Tables (`15_random_tables/` — built 2026-07-07)
 
 | File | Secrecy | Summary | Tags |
