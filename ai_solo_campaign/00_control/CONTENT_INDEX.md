@@ -347,6 +347,27 @@ Each major faction has a 4-quest chain (intro → trust → moral complication �
 | `13_encounters_and_bestiary/PARTY_SCALING_6_PLAYERS.md` | player-safe | Combat conversion math: replaces SOLO_ENCOUNTER_SCALING budgets in party mode; conversion ladder, boss conversion, six-player cheat sheet | party-mode, scaling, six-players |
 | `14_treasure_and_artifacts/PARTY_REWARDS_6_PLAYERS.md` | mixed | Reward conversion: coin ×4–5, consumables ×3–4, ~1 item/PC/tier from authored pools; artifacts stay singular/gated | party-mode, rewards, six-players |
 
+## DungeonMaster App Onboarding (built 2026-07-12)
+
+Foreign-system integration files for the separate DungeonMaster app (a
+cloud-deployed AI DM server + phone app). Not campaign content — no world
+facts, secrecy separation, or retrieval doctrine applies here the way it
+does elsewhere in this index. See root `ONBOARDING.md` for the full
+rationale. `skills/` files intentionally carry the app's own `visibility:`/
+`title:` front-matter convention, not this project's `type:/secrecy:/
+status:` metadata block — a deliberate, documented exception.
+
+| File | Purpose |
+|---|---|
+| `../dm.campaign.json` (repo root) | Onboarding manifest: campaignId, contentRoot, visibility strategy |
+| `maps/manifest.json` | 63 map entries (18 regions, 4 cities, 40 settlements, 1 continent overview); placeholder S3 bucket pending a real deployment |
+| `skills/procedures/session-start.md` | Overlay: first-session character creation + retrieval-first checklist |
+| `skills/procedures/session-end.md` | Overlay: translates the 16-file `SESSION_END_UPDATE_CHECKLIST.md` onto `set_state`/`log_event`/`record_canon`/`update_character` |
+| `skills/procedures/travel.md` | Overlay: points at this campaign's own routes, hazard DCs, and random tables |
+| `skills/procedures/downtime.md` | Overlay: faction-turn/clock consequences of downtime |
+| `skills/combat/SKILL.md` | Overlay: solo-safety spine (telegraph, morale, retreat) on top of the shared mechanical backbone |
+| `skills/canon-and-gaps/SKILL.md` | Overlay: `CANON_AUTHORITY.md` precedence + reveal-gating discipline (mysteries earned through play, not narrated on read) |
+
 ## Random Tables (`15_random_tables/` — built 2026-07-07)
 
 | File | Secrecy | Summary | Tags |

@@ -6,6 +6,75 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-07-12 — DungeonMaster App Onboarding Preparation
+
+### Stage
+Post-Stage-16 integration pass. Prepared this repo to be onboarded into a
+separate, sibling project — **DungeonMaster** (`github.com/alduehr/
+dungeonmaster`), a cloud-deployed AI DM server + React Native player app —
+without changing any authored campaign content. This repo was in fact one of
+DungeonMaster's own two reference points for its onboarding contract design.
+Full detail lives in the new root-level `ONBOARDING.md`, not duplicated here.
+
+### Summary
+DungeonMaster's `content-pull`/`onboard-campaign` pipeline requires a
+`dm.campaign.json` manifest and a verification contract (visibility
+resolvability, a maps manifest, seed validity, jail-safety, a mandatory
+`skills/`-rooted procedure library). Researched the target app's actual
+source (server-side visibility enforcement, the frozen system prompt's
+8 mandatory skill paths, the seeding fallback behavior, the maps/asset
+upload pipeline) directly from its repo rather than guessing, then built:
+(1) a root `dm.campaign.json` declaring `path-convention` visibility with an
+exact 21-file `playerSafeGlobs` allowlist (verified 1:1 against a live
+simulation of the app's own glob-matching code: 21 globs, 21 matches, 0
+misses); (2) `ai_solo_campaign/maps/manifest.json`, 63 entries generated
+1:1 from the existing region/city/settlement map-packet inventory, with a
+clearly-flagged placeholder S3 bucket pending an actual deployment; (3)
+`ai_solo_campaign/skills/`, a 6-file overlay reconciling this campaign's own
+extensive session/combat/canon doctrine with the app's tool-based runtime —
+most notably `procedures/session-end.md`, which translates
+`SESSION_END_UPDATE_CHECKLIST.md`'s 16-file human-editing checklist onto the
+app's actual state mechanism (`set_state`/`log_event`/`record_canon`/
+`update_character`), since the content tree is read-only at runtime and
+nothing in that checklist can be literally "updated" as a file in that
+context. Deliberately declared no character/state seed — this campaign's
+own conversational, session-1 character creation already matches the app's
+no-seed fallback behavior exactly. Deliberately left 2 of 8 mandatory skill
+paths un-overridden (`checks.md` — this campaign's DC ladder is verbatim
+identical to the shared SRD file's; `rules-reference/SKILL.md` — pure SRD,
+this campaign doesn't invent replacement rules).
+
+### Files Created
+- `dm.campaign.json` (repo root)
+- `ONBOARDING.md` (repo root) — the full runbook; decisions, rationale, and
+  the two remaining operator-side steps (maps bucket name + asset upload)
+- `ai_solo_campaign/maps/manifest.json` — 63 map entries
+- `ai_solo_campaign/skills/procedures/{session-start,session-end,travel,
+  downtime}.md`, `ai_solo_campaign/skills/combat/SKILL.md`,
+  `ai_solo_campaign/skills/canon-and-gaps/SKILL.md`
+
+### Files Changed
+- `README.md` — repository-structure block + a pointer to `ONBOARDING.md`
+
+### Canon Established
+None — no campaign content changed. This pass is infrastructure only.
+
+### Gaps Identified
+Map assets: the manifest is structurally complete but every entry's
+`s3.bucket` is a placeholder pending an actual DungeonMaster deployment, and
+the actual generated map image files (the user generated these separately,
+outside both repos) still need to be placed under `ai_solo_campaign/
+maps/assets/` and pushed via DungeonMaster's own `upload-maps.ts`. Logged as
+a TODO item.
+
+### Next Recommended Pass
+Once a DungeonMaster deployment exists: replace the maps manifest's
+placeholder bucket name, place the generated map assets, run `upload-maps.ts`,
+cut a tagged release of this repo, and run `onboard-campaign` from the
+DungeonMaster side.
+
+---
+
 ## 2026-07-11 — Party Mode: Six-Player Conversion Layer
 
 ### Stage

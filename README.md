@@ -15,6 +15,8 @@ The AI DM uses prepared content first and improvises only as much as a skilled h
 
 ```text
 CLAUDE.md                        ← Claude Code instructions and load order
+dm.campaign.json                 ← DungeonMaster app onboarding manifest (see ONBOARDING.md)
+ONBOARDING.md                    ← How this repo onboards into the DungeonMaster app
 ai_solo_campaign/
   00_control/                    ← Standards, workflow, tracking, indexes
   01_runner_protocol/            ← AI DM behavior rules and session protocols
@@ -36,6 +38,8 @@ ai_solo_campaign/
   16_ai_session_packs/           ← Session start/end prompts and checklists
   17_generation_backlog/         ← Expansion plan and content gaps
   18_audits/                     ← Audit reports
+  maps/                          ← DungeonMaster app maps manifest (player/DM map asset pointers)
+  skills/                        ← DungeonMaster app skills overlay (mandatory DM-procedure files)
 ```
 
 ## Current Status
@@ -43,6 +47,8 @@ ai_solo_campaign/
 Stages 0–16 are complete. The world is authored from level 1 through level 20 (regions, factions, NPCs, quests, mysteries, dungeons, encounters, treasure, and the full campaign arc), the AI runtime layer (session protocols, state files, indexes) is in place, and the Stage 16 Pre-Play Readiness Audit verdict is **READY FOR LIVE PLAY**. Stage 17 (Live Campaign Operation) is next, awaiting the user to begin Session 1. Several post-Stage-16 cartography passes (through 2026-06-18) made the world map cartography- and exploration-deterministic.
 
 See [`00_control/STAGE_STATUS.md`](ai_solo_campaign/00_control/STAGE_STATUS.md) for the live per-stage status, [`00_control/PROGRESS_LOG.md`](ai_solo_campaign/00_control/PROGRESS_LOG.md) for full production history, and [`00_control/TODO.md`](ai_solo_campaign/00_control/TODO.md) for the active work queue.
+
+This campaign runs today in **Claude Code** (this repo, played directly) and is also **onboardable into the [DungeonMaster](https://github.com/alduehr/dungeonmaster) app** (a cloud-deployed AI DM server + phone app) — see [`ONBOARDING.md`](ONBOARDING.md) for what that requires and what's already prepared here.
 
 ## Development Stages
 

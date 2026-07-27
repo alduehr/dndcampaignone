@@ -19,7 +19,9 @@ Live status of each development stage. Updated after every stage completes, part
 
 - Party Mode conversion layer (2026-07-11) — the solo-first campaign now also scales to a **six-player group** via a three-file overlay (`PARTY_MODE_PROTOCOL.md`, `PARTY_SCALING_6_PLAYERS.md`, `PARTY_REWARDS_6_PLAYERS.md`); no authored content rebalanced; solo remains the default mode.
 
-**Most Recent Pass:** Party Mode conversion layer — complete 2026-07-11. **Verdict: TABLE-READY, solo or six-player** (see `PROGRESS_LOG.md` 2026-07-11 entries). Stage 17 (Live Campaign Operation) awaits Session 1.
+- DungeonMaster app onboarding preparation (2026-07-12) — this repo is now onboardable into the separate **DungeonMaster** app (a cloud-deployed AI DM server + phone app; `github.com/alduehr/dungeonmaster`) without any authored-content changes: a root `dm.campaign.json` manifest (`path-convention` visibility, a 21-file allowlist verified 1:1 against the app's own glob logic), a 63-entry `ai_solo_campaign/maps/manifest.json`, and a 6-file `ai_solo_campaign/skills/` overlay reconciling this campaign's session/combat/canon doctrine with the app's tool-based runtime (`set_state`/`log_event`/`record_canon`/`update_character` in place of hand-edited state files). See root `ONBOARDING.md`. Two operator-side steps remain before a real session can run: the maps manifest's placeholder S3 bucket needs a real deployment's bucket name, and the user's separately-generated map images need to be placed and uploaded.
+
+**Most Recent Pass:** DungeonMaster app onboarding preparation — complete 2026-07-12. **Verdict: TABLE-READY, solo or six-player, and app-onboardable** (see `PROGRESS_LOG.md` 2026-07-12 entry and root `ONBOARDING.md`). Stage 17 (Live Campaign Operation) awaits Session 1 in either environment.
 
 ---
 
