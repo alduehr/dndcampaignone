@@ -7,8 +7,15 @@
       "region": "orrun",
       "caption": "Orrun — The Known Continent",
       "scale": "1 hex = 6 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/orrun-full-continent.png" }
+      "visibility": "player-safe"
+    },
+    {
+      "id": "cluster-northwest-orrun",
+      "file": "cluster-northwest-orrun.png",
+      "region": "northwest-orrun-cluster",
+      "caption": "Northwestern Orrun — The Campaign-Area Cluster",
+      "scale": "approx. 12 days' travel corner to corner",
+      "visibility": "player-safe"
     },
     {
       "id": "region-sundering-reach",
@@ -16,8 +23,7 @@
       "region": "sundering-reach-region",
       "caption": "The Sundering Reach",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-sundering-reach.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-ashgarden-vale",
@@ -25,8 +31,7 @@
       "region": "ashgarden-vale-region",
       "caption": "Ashgarden Vale",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-ashgarden-vale.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-tollwood",
@@ -34,8 +39,7 @@
       "region": "tollwood-region",
       "caption": "Tollwood",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-tollwood.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-pale-coast",
@@ -43,8 +47,7 @@
       "region": "pale-coast-region",
       "caption": "The Pale Coast",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-pale-coast.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-caradril",
@@ -52,8 +55,7 @@
       "region": "caradril-region",
       "caption": "Caradril and Its Hinterland",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-caradril.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-verdance-reaches",
@@ -61,8 +63,7 @@
       "region": "verdance-reaches-region",
       "caption": "The Verdance Reaches",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-verdance-reaches.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-glassmere-league",
@@ -70,8 +71,7 @@
       "region": "glassmere-league-region",
       "caption": "The Glassmere League",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-glassmere-league.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-marrowdowns",
@@ -79,8 +79,7 @@
       "region": "marrowdowns-region",
       "caption": "The Marrowdowns",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-marrowdowns.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-sallowmarch-protectorate",
@@ -88,8 +87,7 @@
       "region": "sallowmarch-protectorate-region",
       "caption": "The Sallowmarch Protectorate",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-sallowmarch-protectorate.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-hollow-gulf-ports",
@@ -97,8 +95,7 @@
       "region": "hollow-gulf-ports-region",
       "caption": "The Hollow Gulf Ports",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-hollow-gulf-ports.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-saltmere-reaches",
@@ -106,8 +103,7 @@
       "region": "saltmere-reaches-region",
       "caption": "The Saltmere Reaches",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-saltmere-reaches.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-concord-heartlands",
@@ -115,8 +111,7 @@
       "region": "concord-heartlands-region",
       "caption": "The Concord Heartlands",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-concord-heartlands.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-hethewald-free-holds",
@@ -124,8 +119,7 @@
       "region": "hethewald-free-holds-region",
       "caption": "The Hethewald Free Holds",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-hethewald-free-holds.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-emberfell-theocracy",
@@ -133,8 +127,7 @@
       "region": "emberfell-theocracy-region",
       "caption": "The Emberfell Theocracy",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-emberfell-theocracy.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-wender-steppe",
@@ -142,8 +135,7 @@
       "region": "wender-steppe-region",
       "caption": "The Wender Steppe",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-wender-steppe.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-karran-marches",
@@ -151,8 +143,7 @@
       "region": "karran-marches-region",
       "caption": "The Karran Marches",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-karran-marches.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-sunmark",
@@ -160,8 +151,7 @@
       "region": "sunmark-region",
       "caption": "The Sunmark",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-sunmark.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "region-highmark-passes",
@@ -169,8 +159,7 @@
       "region": "highmark-passes-region",
       "caption": "The Highmark Passes",
       "scale": "1 hex = 3 miles",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/region-highmark-passes.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "caradril",
@@ -178,8 +167,7 @@
       "region": "caradril",
       "caption": "Caradril",
       "scale": "1 square = 50 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/city-caradril.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "glassmere",
@@ -187,8 +175,7 @@
       "region": "glassmere",
       "caption": "Glassmere",
       "scale": "1 square = 50 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/city-glassmere.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "calderport",
@@ -196,8 +183,7 @@
       "region": "calderport",
       "caption": "Calderport",
       "scale": "1 square = 50 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/city-calderport.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "ashfast",
@@ -205,8 +191,7 @@
       "region": "ashfast",
       "caption": "Ashfast",
       "scale": "1 square = 50 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/city-ashfast.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "hollowmere",
@@ -214,8 +199,7 @@
       "region": "hollowmere",
       "caption": "Hollowmere",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-hollowmere.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "kettle-bridge",
@@ -223,8 +207,7 @@
       "region": "kettle-bridge",
       "caption": "Kettle Bridge",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-kettle-bridge.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "saltmargin",
@@ -232,8 +215,7 @@
       "region": "saltmargin",
       "caption": "Saltmargin",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-saltmargin.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "candlewick",
@@ -241,8 +223,7 @@
       "region": "candlewick",
       "caption": "Candlewick",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-candlewick.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "greywater-holm",
@@ -250,8 +231,7 @@
       "region": "greywater-holm",
       "caption": "Greywater Holm",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-greywater-holm.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "harrowgast",
@@ -259,8 +239,7 @@
       "region": "harrowgast",
       "caption": "Harrowgast",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-harrowgast.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "reedford",
@@ -268,8 +247,7 @@
       "region": "reedford",
       "caption": "Reedford",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-reedford.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "the-ashwalk-rest",
@@ -277,8 +255,7 @@
       "region": "the-ashwalk-rest",
       "caption": "The Ashwalk Rest",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-the-ashwalk-rest.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "orchardmere",
@@ -286,8 +263,7 @@
       "region": "orchardmere",
       "caption": "Orchardmere",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-orchardmere.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "saint-veddows-rest",
@@ -295,8 +271,7 @@
       "region": "saint-veddows-rest",
       "caption": "Saint Veddow's Rest",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-saint-veddows-rest.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "tilbrook",
@@ -304,8 +279,7 @@
       "region": "tilbrook",
       "caption": "Tilbrook",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-tilbrook.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "hartfell",
@@ -313,8 +287,7 @@
       "region": "hartfell",
       "caption": "Hartfell",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-hartfell.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "coldhearth",
@@ -322,8 +295,7 @@
       "region": "coldhearth",
       "caption": "Coldhearth",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-coldhearth.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "tollstone-cross",
@@ -331,8 +303,7 @@
       "region": "tollstone-cross",
       "caption": "Tollstone Cross",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-tollstone-cross.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "wrackmouth",
@@ -340,8 +311,7 @@
       "region": "wrackmouth",
       "caption": "Wrackmouth",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-wrackmouth.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "cobble-strand",
@@ -349,8 +319,7 @@
       "region": "cobble-strand",
       "caption": "Cobble Strand",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-cobble-strand.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "marrowfen-stair",
@@ -358,8 +327,7 @@
       "region": "marrowfen-stair",
       "caption": "Marrowfen Stair",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-marrowfen-stair.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "lords-wend",
@@ -367,8 +335,7 @@
       "region": "lords-wend",
       "caption": "Lord's Wend",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-lords-wend.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "cresswater",
@@ -376,8 +343,7 @@
       "region": "cresswater",
       "caption": "Cresswater",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-cresswater.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "sennfort",
@@ -385,8 +351,7 @@
       "region": "sennfort",
       "caption": "Sennfort",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-sennfort.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "cairnwater",
@@ -394,8 +359,7 @@
       "region": "cairnwater",
       "caption": "Cairnwater",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-cairnwater.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "marrowmoot",
@@ -403,8 +367,7 @@
       "region": "marrowmoot",
       "caption": "Marrowmoot",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-marrowmoot.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "penmark-hold",
@@ -412,8 +375,7 @@
       "region": "penmark-hold",
       "caption": "Penmark Hold",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-penmark-hold.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "wether",
@@ -421,8 +383,7 @@
       "region": "wether",
       "caption": "Wether",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-wether.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "fenward",
@@ -430,8 +391,7 @@
       "region": "fenward",
       "caption": "Fenward",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-fenward.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "reedmouth",
@@ -439,8 +399,7 @@
       "region": "reedmouth",
       "caption": "Reedmouth",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-reedmouth.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "brackhold",
@@ -448,8 +407,7 @@
       "region": "brackhold",
       "caption": "Brackhold",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-brackhold.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "saltcairn",
@@ -457,8 +415,7 @@
       "region": "saltcairn",
       "caption": "Saltcairn",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-saltcairn.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "saltgate",
@@ -466,8 +423,7 @@
       "region": "saltgate",
       "caption": "Saltgate",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-saltgate.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "crownmouth",
@@ -475,8 +431,7 @@
       "region": "crownmouth",
       "caption": "Crownmouth",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-crownmouth.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "pilgrim-camps",
@@ -484,8 +439,7 @@
       "region": "pilgrim-camps",
       "caption": "The Pilgrim Camps",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-pilgrim-camps.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "hethemoot",
@@ -493,8 +447,7 @@
       "region": "hethemoot",
       "caption": "Hethemoot",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-hethemoot.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "greenward",
@@ -502,8 +455,7 @@
       "region": "greenward",
       "caption": "Greenward",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-greenward.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "cinderhold",
@@ -511,8 +463,7 @@
       "region": "cinderhold",
       "caption": "Cinderhold",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-cinderhold.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "cold-springs",
@@ -520,8 +471,7 @@
       "region": "cold-springs",
       "caption": "The Winter-Camp at Cold Springs",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-cold-springs.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "spine-foot",
@@ -529,8 +479,7 @@
       "region": "spine-foot",
       "caption": "The Spine-Foot Trade-Meet",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-spine-foot.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "brasks-hold",
@@ -538,8 +487,7 @@
       "region": "brasks-hold",
       "caption": "Brask's Hold",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-brasks-hold.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "karran-gate",
@@ -547,8 +495,7 @@
       "region": "karran-gate",
       "caption": "Karran-Gate",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-karran-gate.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "sunhollow",
@@ -556,8 +503,7 @@
       "region": "sunhollow",
       "caption": "The Great Grove at Sunhollow",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-sunhollow.png" }
+      "visibility": "player-safe"
     },
     {
       "id": "grove-camps",
@@ -565,8 +511,7 @@
       "region": "grove-camps",
       "caption": "The Grove-Camps",
       "scale": "1 square = 10 ft",
-      "visibility": "player-safe",
-      "s3": { "bucket": "REPLACE_WITH_MAPS_BUCKET_NAME", "key": "the-long-remembering/maps/settlement-grove-camps.png" }
+      "visibility": "player-safe"
     }
   ]
 }

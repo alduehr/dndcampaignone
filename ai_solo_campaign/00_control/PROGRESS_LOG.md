@@ -6,6 +6,74 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-07-28 — DungeonMaster Maps Contract Alignment
+
+### Stage
+Post-Stage-16 integration pass. Follow-up to the 2026-07-12 onboarding-prep
+pass, prompted by two things: the user placed 9 generated map images into
+`ai_solo_campaign/maps/assets/` needing renaming to the manifest convention,
+and DungeonMaster's own maps upload contract changed upstream (commit
+`038a33c`, "Derive maps S3 bucket/key from deployment config, not manifest")
+in direct response to feedback raised during the 2026-07-12 pass review —
+that a campaign content repo having to hand-edit a real S3 bucket name into
+its own manifest was an infrastructure leak into content that shouldn't
+exist. Checked the sibling `dungeonmaster` repo directly (not from memory)
+to confirm the fix landed and read its exact new contract before touching
+anything here.
+
+### Summary
+Renamed the user's 9 map images to the manifest's `<kind>-<slug>.png`
+convention and matched them to their manifest entries (8 exact matches; 1,
+"Northwest Orrun," had no existing slot — it corresponds to
+`WORLD_MAP_PROMPTS.md` Prompt 1, a campaign-area cluster overview one zoom
+level wider than a single region — so added a new entry,
+`cluster-northwest-orrun`, using that prompt's own scale reference rather
+than inventing one). Then confirmed DungeonMaster's `MapEntry` type
+(`packages/shared/src/maps/manifest.ts`) now carries no storage location at
+all — no `s3.bucket`, no `s3.key` — and stripped the now-obsolete `s3` block
+(including the long-standing placeholder `"REPLACE_WITH_MAPS_BUCKET_NAME"`)
+from all 64 manifest entries. The bucket now always resolves from the
+deployment's own `MAPS_BUCKET_NAME`; the object key from
+`mapObjectKey(campaignId, file)`, computed at upload/read time — the
+manifest is pure campaign-authored metadata (`id`/`file`/`region`/
+`caption`/`scale`/`visibility`) with no infrastructure detail baked in.
+Rewrote `ONBOARDING.md`'s Maps section and the top contract table to match
+(entry count 63→64, removed the now-wrong "replace the bucket placeholder"
+step, added the `CAMPAIGN_ID` env var now required and cross-checked
+against this repo's own `dm.campaign.json`). Confirmed `dm.campaign.json`
+itself needs no change — its `campaignId` already matches what the upload
+script's new cross-check expects.
+
+### Files Changed
+- `ai_solo_campaign/maps/manifest.json` — added `cluster-northwest-orrun`
+  entry (64 total); stripped the `s3` block from every entry
+- `ai_solo_campaign/maps/assets/*.png` — 9 files renamed to manifest
+  convention (not tracked in git history — untracked at time of rename)
+- `ONBOARDING.md` — Maps section rewritten for the no-bucket-in-manifest
+  contract; contract table entry count corrected
+- `ai_solo_campaign/00_control/TODO.md` — closed the stale "replace bucket
+  placeholder" item; added the schema-alignment item; narrowed the
+  remaining open item to "place remaining assets + run upload-maps.ts"
+
+### Canon Established
+None — no campaign content changed. This pass is infrastructure only.
+
+### Gaps Identified
+55 of 64 manifest entries still have no local asset in
+`ai_solo_campaign/maps/assets/`. Not a blocker (`upload-maps.ts` skips
+missing assets) but full map coverage needs the remaining images generated
+and placed.
+
+### Next Recommended Pass
+Once a DungeonMaster deployment exists: place remaining map images, run
+`upload-maps.ts` with `MAPS_BUCKET_NAME` + `CAMPAIGN_ID=the-long-remembering`
+set (no tagged release needed for this step — independent of
+`onboard-campaign`, idempotent, safe to re-run as more maps are added), then
+separately cut a tagged release and run `onboard-campaign` for the text
+content.
+
+---
+
 ## 2026-07-12 — DungeonMaster App Onboarding Preparation
 
 ### Stage

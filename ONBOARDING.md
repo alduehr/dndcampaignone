@@ -26,7 +26,7 @@ contract checks is now in place:
 |---|---|
 | `dm.campaign.json` manifest at repo root | [`dm.campaign.json`](dm.campaign.json) — `campaignId: "the-long-remembering"`, `contentRoot: "ai_solo_campaign"` |
 | A resolvable visibility strategy | `path-convention`, with an exact 21-file `playerSafeGlobs` allowlist — see below |
-| `maps/manifest.json` under the content root, valid JSON | [`ai_solo_campaign/maps/manifest.json`](ai_solo_campaign/maps/manifest.json) — 63 entries (see the Maps section below for what's still needed) |
+| `maps/manifest.json` under the content root, valid JSON | [`ai_solo_campaign/maps/manifest.json`](ai_solo_campaign/maps/manifest.json) — 64 entries, no storage location authored in-repo (see the Maps section below) |
 | Seed files (optional) parse correctly | None declared — deliberate, see below |
 | No path escapes the content root | N/A — nothing here does |
 | Every mandatory skill-consultation path resolves post-merge | `ai_solo_campaign/skills/` overlay — 6 of the 8 mandatory paths overridden, 2 fall through to the shared floor |
@@ -120,31 +120,46 @@ deliberately doesn't invent replacement rules — see `RULESET_ASSUMPTIONS.md`).
 Both resolve from the shared floor at pull time, same as any campaign that
 ships no overlay for them.
 
-## Maps — prepared, with one step still needed from you
+## Maps — prepared, no bucket wiring needed from this repo
 
-`ai_solo_campaign/maps/manifest.json` is fully populated: 63 entries (18
-region maps, 4 city maps, 40 settlement maps, 1 full-continent overview),
-generated from this repo's own authored map-packet inventory
-(`04_world_atlas/region_map_packets/`, `06_settlements/city_map_packets/`,
-`06_settlements/settlement_map_packets/`), one-to-one, with no duplicate ids
-or region keys.
+`ai_solo_campaign/maps/manifest.json` is fully populated: 64 entries (18
+region maps, 1 campaign-area cluster overview, 4 city maps, 40 settlement
+maps, 1 full-continent overview), generated from this repo's own authored
+map-packet inventory (`04_world_atlas/region_map_packets/`,
+`06_settlements/city_map_packets/`, `06_settlements/settlement_map_packets/`,
+`04_world_atlas/WORLD_MAP_PROMPTS.md`), one-to-one, with no duplicate ids or
+region keys. As of DungeonMaster's `038a33c` ("Derive maps S3 bucket/key from
+deployment config, not manifest"), a `MapEntry` carries no storage location at
+all — no `s3.bucket`, no `s3.key`. Each entry is pure campaign-authored
+metadata: `id` / `file` / `region` / `caption` / `scale` / `visibility`. The
+bucket always comes from the deployment's own `MAPS_BUCKET_NAME`, and the
+object key is always `mapObjectKey(campaignId, file)` →
+`<campaignId>/maps/<file>` — computed at upload and read time, never
+authored here. Nothing in this repo needs editing to point at a real bucket;
+there is no placeholder left to replace.
 
-**What it can't know yet:** the actual S3 bucket a real DungeonMaster
-deployment's maps live in. Every entry's `s3.bucket` is currently the literal
-placeholder `"REPLACE_WITH_MAPS_BUCKET_NAME"` — `get_map` will refuse any
-lookup against it until it's corrected (a clean, loud failure, not a silent
-one; sessions run fine without maps in the meantime). Two things to do once
-you have a deployment and the map images you generated separately:
+**9 of 64 entries currently have a matching local asset** under
+`ai_solo_campaign/maps/assets/` (see that folder for the current list).
+`upload-maps.ts` skips (doesn't fail) any entry whose asset file isn't
+present yet, so partial map coverage is fine — sessions run without maps in
+the meantime, same as before.
 
-1. **Replace the placeholder** in every entry with that deployment's actual
-   `MAPS_BUCKET_NAME` (a single find-and-replace across the file).
-2. **Place your generated PNGs** under `ai_solo_campaign/maps/assets/<file>`,
-   matching each entry's `file` field (e.g. `settlement-hollowmere.png`),
-   then run DungeonMaster's `upload-maps.ts` pointed at this content root —
-   maps are a separate upload pipeline from campaign-content onboarding
-   (different S3 bucket entirely), so this step happens independently of
-   `onboard-campaign`. `upload-maps.ts` skips (doesn't fail) any entry whose
-   asset file isn't present yet, so partial map coverage is fine.
+To actually get maps into a deployment once one exists:
+
+1. **Place generated PNGs** under `ai_solo_campaign/maps/assets/<file>`,
+   matching each entry's `file` field (e.g. `settlement-hollowmere.png`) —
+   `file` must be a bare filename (no `/`, no path), enforced identically on
+   both the upload and `get_map` read sides.
+2. Run DungeonMaster's `upload-maps.ts` with `CONTENT_ROOT` pointed at a
+   local checkout of `ai_solo_campaign/`, `MAPS_BUCKET_NAME` set to that
+   deployment's real bucket, and `CAMPAIGN_ID=the-long-remembering` (now
+   required — cross-checked against this repo's own `dm.campaign.json`
+   `campaignId`, so a typo'd env var fails loudly instead of uploading to a
+   key nothing will ever read). Maps are a separate upload pipeline from
+   campaign-content onboarding (different concern entirely, keyed by
+   campaign under one shared bucket), so this step happens independently of
+   `onboard-campaign` and doesn't require a tagged release — any local
+   checkout works, and it's idempotent (re-run any time you add more maps).
 
 If your generated files use different names than this manifest's `file`
 convention (`<kind>-<slug>.png`), either rename the files or edit the

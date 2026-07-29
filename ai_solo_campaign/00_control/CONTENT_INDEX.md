@@ -360,7 +360,7 @@ status:` metadata block — a deliberate, documented exception.
 | File | Purpose |
 |---|---|
 | `../dm.campaign.json` (repo root) | Onboarding manifest: campaignId, contentRoot, visibility strategy |
-| `maps/manifest.json` | 63 map entries (18 regions, 4 cities, 40 settlements, 1 continent overview); placeholder S3 bucket pending a real deployment |
+| `maps/manifest.json` | 64 map entries (18 regions, 1 campaign-area cluster, 4 cities, 40 settlements, 1 continent overview); no storage location authored in-repo — bucket/key derived from deployment config at upload/read time |
 | `skills/procedures/session-start.md` | Overlay: first-session character creation + retrieval-first checklist |
 | `skills/procedures/session-end.md` | Overlay: translates the 16-file `SESSION_END_UPDATE_CHECKLIST.md` onto `set_state`/`log_event`/`record_canon`/`update_character` |
 | `skills/procedures/travel.md` | Overlay: points at this campaign's own routes, hazard DCs, and random tables |
