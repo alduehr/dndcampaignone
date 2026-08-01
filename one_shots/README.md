@@ -31,4 +31,10 @@ nothing in here is binding on campaign continuity.
 
 | One-Shot | Level | Party | Playtime | Setting | Summary |
 |---|---|---|---|---|---|
-| [`widdershin_cave/WIDDERSHIN_CAVE.md`](widdershin_cave/WIDDERSHIN_CAVE.md) | 1–4 | 1–6 (full scaling: [`PARTY_AND_LEVEL_SCALING.md`](widdershin_cave/PARTY_AND_LEVEL_SCALING.md)) | ~3 hours | A sea-cave on Orrun's Pale Coast | A drowned smuggler captain and his loyal dead crew guard a stolen idol — puzzle the tides, brave the wreck, and choose whether to fight him or free him. |
+| [`widdershin_cave/WIDDERSHIN_CAVE.md`](widdershin_cave/WIDDERSHIN_CAVE.md) | 1–4 | **3–6, tuned for four** (full scaling: [`PARTY_AND_LEVEL_SCALING.md`](widdershin_cave/PARTY_AND_LEVEL_SCALING.md)) | ~3–3.5 hrs at 3–4 characters; **~4–4.5 hrs at 5–6** | A sea-cave on Orrun's Pale Coast | A drowned smuggler captain who cannot let go of the idol he died trying to return — puzzle the tides, brave the wreck, and choose whether to fight him or free him. |
+
+**Note on party size:** Widdershin Cave is a **party** adventure, not a solo
+one — the Zone 6 boss is unwinnable for a single character on the math. It
+does not serve the solo `ai_solo_campaign/` use case; it's built for a real
+table. To run it for one player, give them a sidekick or two and use the
+size-3 row in the scaling file.
