@@ -51,7 +51,8 @@ Never a warning; always a receipt.
 ## RESTING
 
 **Long rest requires a room the Ell can tell apart.** Otherwise: fold at the
-edge of sleep, wake scattered, short-rest benefit only.
+edge of sleep, wake scattered. Counts as a completed **short** rest (Hit Dice
+may be spent, nothing else recovers), plus an hour lost finding each other.
 
 Qualifies if: **they cut a mark** (chalk doesn't work — it gets copied) ·
 **one-of-a-kind object in it** (anchor, gallows, well, milestone) · **someone
@@ -111,8 +112,8 @@ Nothing the Ell made is ever on it (draft-Cass, Hesper).
 
 | S | Depths | Climax | Runtime |
 |---|---|---|---|
-| **1** | 0–1 | **The Four Casses** (4 doppelgangers) | 3.5–4.5 hr |
-| **2** | 2 | Coat Closet → squat mimics → **oblex + Ambry** → the way home is a lie → **LVL 6** | ~4 hr |
+| **1** | 0–1 | **The Four Casses** (4 doppelgangers) | 4–5 hr |
+| **2** | 2 | Coat Closet → squat mimics → **oblex + Ambry** → the way home is a lie → **LVL 6** | 4–5 hr |
 | **3** | 3–4 | Rule-rooms, drafted people, **Hesper arrives** | 4–5 hr |
 | **4** | 5 | Substrate, deep time, **Hesper at the door** | 4–5 hr |
 
@@ -125,12 +126,15 @@ Nothing the Ell made is ever on it (draft-Cass, Hesper).
 | Four Casses (S1) | Doppelganger CR 3 — **no shapeshifting**, stuck as Cass | 4 |
 | Coat Closet (S2) | Rug of smothering CR 2 — empty coats | 4 (1 heavy, 2 rounds off the hook) |
 | Squat doors (S2) | Mimic CR 2 — copies **sounds**; 3 of 5 doors | 3–4 |
-| **Oblex (S2)** | **Adult oblex CR 10** — speaks in their voices | 115 HP / 12 duplicates |
-| Late cat (S3, avoidable) | Displacer beast CR 3 — displacement is *temporal* | 1 |
-| Still bear (S3, avoidable) | Owlbear CR 3 — doesn't breathe or blink | 1 |
-| **Hesper (S4)** | Veteran-like, **AC 17, HP 110** | + 1 doppelganger per long rest (cap 5) |
+| **Oblex (S2)** | **Elder oblex, CR 10 / 115 HP printed (*Volo's Guide to Monsters*) — HP homebrewed further up, see main file** | 200 HP / 12 duplicates, 6 are live Oblex Spawn (CR ¼) |
+| Late cats (S3, avoidable) | Displacer beast CR 3 — displacement is *temporal* | 2 |
+| Still bears (S3, avoidable) | Owlbear CR 3 — doesn't breathe or blink | 3 |
+| The follower (S3) | Intellect devourer CR 2 — **not hostile**, copies a walk | 1 |
+| The quoting thing (S3) | Gibbering mouther CR 2 — echoes their own words back | 1 |
+| **Hesper (S4)** | Veteran-derived custom, **AC 17, HP 110, +8/1d8+4 ×2** | + 1 doppelganger per long rest (cap 5) |
 
-**Oblex dies for good.** The voices don't stop. No rematch.
+**Oblex dies for good.** The voices don't stop. No rematch. The follower and
+the quoting thing are not meant to be fought — see main file.
 
 ---
 
@@ -180,7 +184,8 @@ to dispel · digging = more plaster, then notation
 **Do we meet it?** No. Nothing to fight. Gone longer than there are words for.
 **Where's the machine?** There is none. **The Ell is the instrument.**
 **How do we know it's real?** They watch it work 3×: the scratch cutting itself
-(S1), their chalk copied (S2), the line drawn in the floor recording them (S5).
+(S1), their chalk copied (S2), the line drawn in the floor recording them (S4,
+depth 5).
 **The arrows and voices?** Them. It files every feature and reprints it. They've
 been following themselves. The oblex was reading the same file.
 **Why the gallows in the nursery?** No reason. Filed under *things in places*.

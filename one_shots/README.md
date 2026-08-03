@@ -32,7 +32,7 @@ nothing in here is binding on campaign continuity.
 | One-Shot | Level | Party | Playtime | Setting | Summary |
 |---|---|---|---|---|---|
 | [`widdershin_cave/WIDDERSHIN_CAVE.md`](widdershin_cave/WIDDERSHIN_CAVE.md) | 1–4 | **3–6, tuned for four** (full scaling: [`PARTY_AND_LEVEL_SCALING.md`](widdershin_cave/PARTY_AND_LEVEL_SCALING.md)) | ~3–3.5 hrs at 3–4 characters; **~4–4.5 hrs at 5–6** | A sea-cave on Orrun's Pale Coast | A drowned smuggler captain who cannot let go of the idol he died trying to return — puzzle the tides, brave the wreck, and choose whether to fight him or free him. |
-| [`the_ell_at_marchwell/THE_ELL_AT_MARCHWELL.md`](the_ell_at_marchwell/THE_ELL_AT_MARCHWELL.md) | **5 → 6** (milestone at the midpoint; scale by party size only) | **3–6, tuned for six** | **Four sessions**, 4–5 hrs each; compressible to three | A farmhouse in the Ashgarden Vale | A pantry door on an exterior wall, between two windows you can both lean out of at once, opens onto a corridor. The party follows a fugitive clerk through it and has to find their way back out of something that was measuring this world before there was anyone in it. |
+| [`the_ell_at_marchwell/THE_ELL_AT_MARCHWELL.md`](the_ell_at_marchwell/THE_ELL_AT_MARCHWELL.md) | **5 → 6** (milestone at the midpoint; scale by party size only) | **3–6, tuned for six** | **Four sessions**, 4–5 hrs each | A farmhouse in the Ashgarden Vale | A pantry door on an exterior wall, between two windows you can both lean out of at once, opens onto a corridor the house doesn't have. The party follows a fugitive clerk through it and has to find their way back out. |
 
 ### Session-zero pitch — *The Ell at Marchwell* (spoiler-free)
 

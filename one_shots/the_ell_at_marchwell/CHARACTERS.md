@@ -37,8 +37,10 @@ raising her voice.
 her son to be right again, her brother back, the strangers gone, and nobody in
 the vale to ever hear about any of it.
 
-**Her two lies.** (1) *"We've had no one."* — Ambry is in her loft. (2)
-Everything about the pantry. **Insight DC 13** catches that she is far too
+**Her two lies.** (1) *"We've had no one."* — Ambry bolted out the pantry door
+the moment he heard the party's horses in the lane, less than an hour before
+they knocked, and she's covering for a man who was here until minutes ago.
+(2) Everything about the pantry. **Insight DC 13** catches that she is far too
 relaxed about six armed strangers at her gate.
 
 **Under pressure:** she folds on the small lie and holds the big one until the
@@ -233,8 +235,9 @@ century for a party big enough that one of them might be left.
 
 She is sorry. She means it. She fights anyway.
 
-**Mechanics (S4).** Veteran-like. **AC 17, HP 110.** Prof +4. Longsword +7,
-1d8+4, twice.
+**Mechanics (S4).** Base: veteran (*Monster Manual*, CR 3). **AC 17, HP 110,
+Speed 30 ft.** Prof +4, STR 18 (+4). Multiattack: two Longsword, **+8 to hit,
+1d8+4** each.
 - **Fold** *(once per turn, no action, part of movement)*: enters a doorway,
   exits an identical one anywhere in the room. **Only uses 2-sets**, so her
   movement is deterministic while everyone else's is a gamble. She must

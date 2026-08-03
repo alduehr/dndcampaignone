@@ -79,7 +79,7 @@ always available and never blocked.
 |---|---|---|---|---|
 | **0** | Marchwell House, 4 down / 3 up | The pantry | Loft, press-house | Every exterior door → D1. Windows → the still orchard (loops back to the house) |
 | **1** | 5 copies of the house, degrading | Copies 1→5 in order | — | Copy 5's kitchen (**Four Casses**) → D2 |
-| **2** | Open sprawl, ~20–30 rooms | Coat Closet · Ambry's squat · **the oblex chamber** · the "way home" kitchen (copy 2) | Wrong-object rooms (d20 table), corridors | Down, anywhere, after the way-home betrayal |
+| **2** | Open sprawl, ~20–30 rooms | Coat Closet · Ambry's squat · **the oblex chamber** · the "way home" kitchen (*copy 2 of the house — geometrically depth 1, re-entered from the oblex chamber at depth 2*) | Wrong-object rooms (d20 table), corridors | Down, anywhere, after the way-home betrayal |
 | **3** | ~10–15 rooms | The 500ft hallway · the room of stairs | Nursery at ⅓ scale · parlour on the ceiling · **the drafted orchard** | Stairs down, several |
 | **4** | 5–6 rule-rooms + drafted-people rooms | 3–5 rule-rooms (DM's pick) | Real Cass's kitchen · Hesper's camps | Down |
 | **5** | The substrate. One vast continuous space | The plan-floor · the deep-time layers · the survey count | — | **The way out** (Hesper leads them) |
@@ -182,8 +182,10 @@ across a cluttered room.
 the campaign so far and it should feel like it.**
 
 - **Twelve duplicates** standing at conversational distances throughout —
-  scatter them, don't cluster. They're set dressing with no attacks; they block
-  line of sight and make the room feel awful.
+  scatter them, don't cluster. **Six are live `Oblex Spawn` (CR ¼)**; the
+  other six are inert set dressing. Don't tell the party which is which — both
+  block line of sight and make the room feel awful, and the spawn only reveal
+  themselves by acting.
 - **Ambry** is roped to a chair leg at the far third, ~40 ft in. **His
   duplicate stands 4 ft from him.**
 - **Furniture:** scattered chairs and two long side tables. Half cover,
@@ -224,16 +226,18 @@ sightlines, not to win a damage race.
 
 Run these theatre-of-mind unless the party engages.
 
-**The 500-foot hallway** *(late cat)* — 10 ft wide, 500 ft long, one window at
-the far end. The displacer beast dozes at the ~250 ft mark. **They see it from
-400 ft away.** No cover for its whole length; backing out is a 250 ft
-withdrawal and it does not pursue past the doorway.
+**The 500-foot hallway** *(the late cats)* — 10 ft wide, 500 ft long, one
+window at the far end. **Two** displacer beasts doze at the ~250 ft mark, a
+few feet apart. **They see them from 400 ft away.** No cover for its whole
+length; backing out is a 250 ft withdrawal and neither pursues past the
+doorway.
 
-**The drafted orchard** *(still bear)* — a hall with no visible end, trees on a
-perfect 20 ft grid, no bark. Trees give half cover and block line of sight past
-~60 ft. The owlbear stands motionless between two trees. **It reacts to
-movement toward it, not past it** — the outer rows are a clean bypass, and the
-grid makes "are we still going around it" a legible question on a map.
+**The drafted orchard** *(the still bears)* — a hall with no visible end,
+trees on a perfect 20 ft grid, no bark. Trees give half cover and block line
+of sight past ~60 ft. **Three** owlbears stand motionless, spaced out among
+the trees. **They react to movement toward them, not past them** — the outer
+rows are a clean bypass, and the grid makes "are we still going around them"
+a legible question on a map.
 
 ---
 

@@ -17,6 +17,12 @@ Every room is a correct, plausible, well-kept domestic room containing exactly
 one thing that has no business in a house. Placed carefully. Dusted. Regarded
 by the instrument as furniture.
 
+**Cross off each result once it's used.** Several of these objects (the
+anchor, the gallows, the well, the milestone) are the one-of-a-kind objects
+that make a room rest-safe per the main file's resting rule — a rolled
+duplicate would put two "unique" anchors in the Ell at once and quietly break
+that rule. If you roll a result you've already used, reroll.
+
 | d20 | In an otherwise ordinary room, there is |
 |---|---|
 | 1 | A ship's anchor, upright, on the bedroom floor. |

@@ -44,7 +44,7 @@ isn't a draft — it's the actual instrument. See *The Cut Page*.
 |---|---|---|
 | **Arrest fee, Ferris Ambry** | 150 gp | Paid on delivery. Theirs regardless. |
 | **Recovery fee** | 10% of what they bring back | 80 gp if the full 800 makes it out |
-| **The strongboxes** | 800 gp in coin and chapel plate | **Not theirs.** It's three parishes' tithe money and there's a writ. |
+| **The strongbox** | 800 gp in coin and chapel plate, ~60 lb | **Not theirs.** It's three parishes' tithe money and there's a writ. |
 | **A century of pockets** | ~400 gp total, mixed coin, several mintings | Theirs. Nobody is coming for it. |
 | **Oda Marchwell** | Room, board, and as much cider as they can carry | And her brother back, if they manage it |
 

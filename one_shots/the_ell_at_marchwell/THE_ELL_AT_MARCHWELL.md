@@ -7,6 +7,9 @@
 
 Premise, truth, and design rationale: [`PREMISE.md`](PREMISE.md).
 Room generators: [`ROOM_TABLES.md`](ROOM_TABLES.md).
+NPC one-pagers: [`CHARACTERS.md`](CHARACTERS.md). One-page table reference:
+[`DM_SCREEN.md`](DM_SCREEN.md). Battle maps: [`MAP_SPEC.md`](MAP_SPEC.md).
+Loot, money, and the reward rule: [`REWARDS.md`](REWARDS.md).
 
 ---
 
@@ -123,8 +126,12 @@ adventure — do not gatekeep it.
 
 A long rest requires a **unique** room — one the instrument cannot confuse
 with any other. Anywhere else, the room folds while they sleep and they wake
-scattered across three corridors with a short rest's benefit and a bad hour
-finding each other.
+scattered across three corridors.
+
+**What a failed long rest actually gives them:** treat it as a completed
+*short* rest — they may spend Hit Dice as normal for a short rest, and
+nothing else recovers. No exhaustion, no HP loss beyond what they already
+had. Add one lost hour finding each other again before play can continue.
 
 A room qualifies if:
 
@@ -200,8 +207,9 @@ through on half resources arrives exhausted to a fair fight.
 
 Copies use the **doppelganger** stat block (CR 3), same as the Four Casses,
 and they are *the party* — same faces, same gear, same posture, silent. They
-fight competently and without any flourish. **Cap at 5** regardless of rest
-count; past that, add HP to Hesper instead. See session 4.
+fight competently and without any flourish. **Cap at 5, or the party-size cap
+in the scaling table below, whichever is lower**; past that, add HP to Hesper
+instead. See session 4.
 
 Neither outcome is a punishment. Both are earned, and the party will
 understand exactly why the moment they see the room.
@@ -600,6 +608,9 @@ arrows anyway — in the handwriting of whoever in the party writes most.
 
    That's how he ended up where they find him. **And the party is about to make
    the same walk, on purpose.**
+
+   **Loot here:** the Honest Weight, Ambry's own — see
+   [`REWARDS.md`](REWARDS.md).
 5. **The oblex, and Ambry.** The midpoint.
 6. **The way home.** See below. Run it immediately, while they're still
    counting their HP.
@@ -612,14 +623,18 @@ party will search them, because players always search coats. The pockets have
 things: a ferry token, a child's tooth, a folded bill of sale, a ring, a
 letter that stops mid-word.
 
-**Three come off the hooks.** They're empty. They move anyway, and they move
-like there's someone in them.
+**Three come off the hooks first.** They're empty. They move anyway, and they
+move like there's someone in them.
 
-**Four rugs of smothering** (CR 2), run exactly as printed. One is heavier and
-older and takes two rounds to work itself off its hook — the party gets to
-watch it coming. The rest of the coats never move at all.
+**A fourth, heavier and older, joins two rounds later** — it takes that long
+to work itself off its hook, so the party gets to watch it coming. All four
+are **rugs of smothering** (CR 2), run exactly as printed. The rest of the
+coats never move at all.
 
 *Scaling: 3 PCs → 2 coats. 4 → 3. 5 → 3 + the heavy one. 6 → 4.*
+
+**Loot here:** the Ferryman's Token and the coat-pocket miscellany — see
+[`REWARDS.md`](REWARDS.md).
 
 ### THE MIDPOINT — The Thing That Copies The Marks
 
@@ -660,13 +675,27 @@ useful, and will not shut up — which is a full share of the party's attention
 and entirely the point. From his side it has been **three weeks**, and it has
 been four hours.
 
-**Adult oblex** (CR 10), printed stat block, no changes. The duplicates are
-its Sulfurous Impersonation flavour made literal — they're set dressing with
-no attacks; when one is destroyed it collapses into grey slurry and the room
-learns something.
+**Elder oblex** (*Volo's Guide to Monsters* — CR 10, AC 16, 115 HP printed
+[10d12+50], Speed 20 ft., 5,900 XP). The duplicates are its Sulfurous
+Impersonation flavour made literal — mostly set dressing; when one is
+destroyed it collapses into grey slurry and the room learns something.
 
-**Encounter math:** 5,900 XP against a deadly threshold of 6,600 for six
-level-5s. A genuine boss they can beat.
+**One deliberate exception to Rule 3.** Printed at 115 HP, it's still not a
+survivable midpoint boss for six level-5 characters — the party's typical
+round-two burst clears it in about two rounds, which is over before the room
+has a chance to be a scene. So the body's HP is homebrewed *further above*
+printed for this fight only (see the scaling table below), and a real
+fraction of the duplicates are live `Oblex Spawn` (CR ¼, *Volo's Guide to
+Monsters*) rather than inert set dressing, so the room has actual action
+economy instead of just a bigger health bar. Its attacks, Eat Memories,
+Spellcasting, and everything else about it run exactly as printed — only the
+body's hit points and the number of live spawn are house-ruled above the
+printed 115. Say so if a player asks why it's tougher than they expected;
+the honest answer is fine.
+
+**How tough:** sized to survive roughly 3–4 rounds of the party's typical
+burst (see **ENCOUNTER MATH**, below) rather than the ~2 rounds the printed
+115 HP body would last. A genuine boss they can beat.
 
 **It does not flee. It fights to the end and they kill it**, and you should
 make the kill enormous:
@@ -691,14 +720,15 @@ handwriting, and things keep speaking in their voices, all the way to the end
 the oblex back. The rematch is worth far less than the party's slowly dawning
 understanding that killing it changed nothing.
 
-*Scaling by party size only, never level:*
+*Scaling by party size only, never level. HP is homebrewed (see above); the
+attacks, saves, and Eat Memories are printed as written at every size.*
 
-| PCs | Oblex HP | Duplicates | Notes |
-|---|---|---|---|
-| 3 | 70 | 4 | Eat Memories on alternate rounds only |
-| 4 | 85 | 6 | Eat Memories on alternate rounds only |
-| 5 | 100 | 9 | As printed |
-| 6 | 115 (printed) | 12 | As printed |
+| PCs | Oblex HP | Duplicates | Live Oblex Spawn (CR ¼) | Notes |
+|---|---|---|---|---|
+| 3 | 100 | 4 | 0 | Eat Memories on alternate rounds only |
+| 4 | 130 | 6 | 2 | Eat Memories on alternate rounds only |
+| 5 | 165 | 9 | 4 | Printed Eat Memories |
+| 6 | 200 | 12 | 6 | Printed Eat Memories |
 
 ### THE WAY HOME
 
@@ -767,33 +797,65 @@ point is to keep the Ell feeling dangerous without spending an hour on it, and
 to let the party feel clever for going around. If they'd rather fight, let
 them; it costs resources and nothing else.
 
-**The late cat.** A **displacer beast** (CR 3) in the five-hundred-foot
-hallway, dozing across the only path. Its displacement is *temporal* — they're
-seeing it a second and a half ago, so it's never quite where the arrow goes.
+**The late cats.** Two **displacer beasts** (CR 3 each) in the five-hundred-foot
+hallway, dozing across the only path. Their displacement is *temporal* —
+they're seeing them a second and a half ago, so neither is ever quite where
+the arrow goes.
 
-*Telegraph:* they see it from four hundred feet away, and it's asleep, and
-they have a very long time to decide. *Avoid:* it's territorial about the
-hallway and nothing else. Back out, take a fold, come round. It does not
-pursue past the doorway. *Fight:* easy, but every miss is unnerving, and the
+*Telegraph:* they see both from four hundred feet away, and both are asleep,
+and they have a very long time to decide. *Avoid:* territorial about the
+hallway and nothing else. Back out, take a fold, come round. Neither pursues
+past the doorway. *Fight:* easy for six characters, but every miss is
+unnerving and two of them means twice the attacks if it goes long, and the
 noise brings the next thing.
 
-**The still bear.** An **owlbear** (CR 3) in the drafted orchard — an orchard
-indoors, wood-coloured, correct spacing, no bark on any tree. It is perfect in
-every particular and it does not breathe and it does not blink.
+**The still bears.** Three **owlbears** (CR 3 each) in the drafted orchard —
+an orchard indoors, wood-coloured, correct spacing, no bark on any tree. They
+are perfect in every particular and none of them breathes or blinks.
 
-*Telegraph:* it's standing motionless between two trees and can be watched for
-as long as anyone likes. It is not asleep. It is simply not doing anything,
-because nothing has measured it doing anything yet. *Avoid:* it reacts to
-movement toward it, not past it. Walk the outer rows and it never stirs.
-*Fight:* straightforward, and afterwards there's nothing inside it.
+*Telegraph:* they stand motionless between the trees, spread out, and can be
+watched for as long as anyone likes. None is asleep. They are simply not
+doing anything, because nothing has measured them doing anything yet.
+*Avoid:* they react to movement toward them, not past them. Walk the outer
+rows and none stirs. *Fight:* straightforward for six characters at level 6,
+and afterwards there's nothing inside any of them.
 
 *Scaling: at 3–4 PCs, run one of the two, not both.*
+
+### Two more presences (planted set-pieces, not fights)
+
+Neither of these is meant to be fought. Both are texture between the two
+avoidable fights and the rule-rooms — run one, or both, wherever the session
+is running short.
+
+**The follower.** An **intellect devourer** (CR 2), first noticed as a small
+scuffing sound that stops when anyone turns round. It keeps twenty, thirty
+feet back, out of easy light, and it has learned to copy one character's
+walk — the same hitch in the same character's stride, from behind, in the
+dark. **It is not hostile and never attacks unless attacked.** It wants
+nothing from the party; it's here because it followed something in a long
+time ago and never found its way back out, either. Let them glimpse it two or
+three times across depth 3 before anyone gets a clean look. If they corner or
+attack it, run it as printed — it is dangerous if cornered, not before.
+
+**The quoting thing.** A **gibbering mouther** (CR 2), encountered filling a
+side room or a dead-end corridor, motionless until approached. It says only
+the last true thing each character said aloud — verbatim, in their own
+voice — on a loop, softly, whichever line it heard most recently. It is the
+same recording-and-playback mechanism the party has been living inside since
+session 2, given a body. It does not seek the party out and does not chase;
+if left alone it goes on quoting them to an empty room. If provoked into a
+fight, run it as printed.
 
 ### Depth 4 — the rules
 
 Physics becomes a property of the room. One substituted law per room, obeyed
 absolutely, because the instrument recorded a behaviour and never recorded the
 reason for it. **State the rule plainly when they work it out. Don't be coy.**
+Let them work it out through trial first — that's the point of the room — but
+if a table is stuck and getting frustrated rather than curious, an
+Investigation check (**DC 13**) lets a character articulate the rule outright
+instead of continuing to guess.
 
 | Room | The law |
 |---|---|
@@ -803,6 +865,16 @@ reason for it. **State the rule plainly when they work it out. Don't be coy.**
 | **The Long Way** | The shortest path is the longest. Walk at the far door and you never arrive. Walk away and you're there in six steps. |
 | **The Unanimous Room** | Everyone must be doing the same thing. Unanimity or nobody moves. The room gives no instruction; it will let them spend twenty minutes proving it. Cut into the plaster above the far door, in a neat surveyor's hand: **ALL AS ONE OR NONE FOR ALL** |
 | **The Slate** | Only what is written is true. A slate on the wall, a stub of chalk. Whatever is on the slate is the case. It currently reads *THE DOOR IS LOCKED.* Erasing it is the answer. Writing something ambitious is the party's idea and you should let it work, once, badly. |
+
+**These are rules, not puzzles the party solves once and discards — let them
+use any of the six for their own ends for the rest of the adventure**, not
+just to get through the room they're standing in. A party that remembers the
+Slate exists and hauls a chalk stub back to it later, or that lures something
+into the Unanimous Room to freeze it, has understood the Ell better than one
+that just crosses each room and moves on. Reward that; don't restrict a rule
+to the room it was introduced in.
+
+**Loot here:** the Held Thing, in the Hanging — see [`REWARDS.md`](REWARDS.md).
 
 ### The drafted people
 
@@ -917,11 +989,16 @@ time to finish reading and is not a small number.
 **The Mountains of Madness beat is here and it is not a monster.** It's the
 moment the party works out the history of the place and the history is worse
 than anything that chased them. Let them do the reading. Don't summarise it
-for them. An Investigation or Arcana check just tells them how much more there
-is.
+for them. An Investigation or Arcana check (**DC 13** for the general shape of
+it, **DC 18** to estimate how many other surveys the tally represents) just
+tells them how much more there is — it never gates the reading itself, only
+how precisely they can quantify it.
 
 Scratched into the substrate in every language it has ever copied, including
 two nobody can read: **HOW BIG IS A HOME?**
+
+**Loot here:** the Cut Page, prised loose from the substrate — see
+[`REWARDS.md`](REWARDS.md).
 
 ### The arrows and the voices — the answer
 
@@ -986,9 +1063,13 @@ where they need to be.
 that pushed through arrives on fumes to a fair fight. Both are earned, and
 both tables will understand instantly why.*
 
-**Hesper Wick — combat profile.** Run a **veteran** (CR 3) with these changes,
-in a room she has had a century to learn:
-- **AC 17, HP 110.** Proficiency +4. Longsword +7, 1d8+4, twice.
+**Hesper Wick — combat profile.** Base: **veteran** (*Monster Manual*, CR 3)
+with these changes, in a room she has had a century to learn:
+- **Medium humanoid. AC 17, HP 110, Speed 30 ft.** Proficiency +4 (up from
+  printed +2 — a century of practice). STR 18 (+4), DEX 13 (+1), CON 14 (+2),
+  INT 10 (+0), WIS 11 (+0), CHA 10 (+0). Passive Perception 12. Languages
+  Common. **Multiattack:** two Longsword attacks, **+8 to hit, 1d8+4
+  slashing** each.
 - **Fold (once per turn, no action, part of her movement):** she enters a
   doorway and exits an identical one anywhere in the room. She has memorised
   every duplicate feature in it, so to her the room is not a rectangle — it's
@@ -1093,6 +1174,10 @@ answer is a shortcut through the fight, not a gate on the ending.
 they walk out seven and the door doesn't care — she was never on the list.
 Clean, achievable, and it costs them a person they'd started to like.
 
+**Loot:** her chain is on her body whether she's killed or the file is closed
+— see [`REWARDS.md`](REWARDS.md). Don't pay them extra for choosing the worse
+ending; it's on the body either way.
+
 **Close the file** *(the better ending, never required)*. If anyone has
 registered the question, they can answer it instead of fighting — out loud,
 honestly, not cleverly. No roll. A Charisma check can't buy this and shouldn't
@@ -1114,16 +1199,9 @@ anyone says anything he tells them how many of them there are. He's counting
 correctly. You can decide in the moment whether that's a comfort.
 
 **And whatever they did, everyone who came out is slightly wrong, forever, in
-a way that is never a mechanical penalty.** Each player picks or rolls one:
-
-| d6 | You came back with |
-|---|---|
-| 1 | Your reflection is a half-second behind. |
-| 2 | You know the exact distance to anything you look at. |
-| 3 | You remember, vividly, a house you have never been in. |
-| 4 | You cannot be surprised by a number. |
-| 5 | You count things. Not always aloud. |
-| 6 | You have never once, since, been able to put something down without thinking about it first. |
+a way that is never a mechanical penalty.** Each player picks or rolls one
+from the "What You Came Back With" table in [`REWARDS.md`](REWARDS.md) —
+that's the canonical copy; this beat is just the cue to run it.
 
 ---
 
@@ -1159,7 +1237,7 @@ the best five minutes of the epilogue.
 
 ### The strongboxes
 
-**Two boxes, ~800gp in coin and chapel plate, about 60 lb the pair.** Six
+**One strongbox, ~800gp in coin and chapel plate, about 60 lb.** Six
 characters can carry that without anyone hitting encumbrance, so don't pretend
 it's a load problem — it isn't, and players hate fake weight.
 
@@ -1198,9 +1276,9 @@ flat out at the table afterwards.
 | And the voices? | Same mechanism, on sound. Everything ever said in the Ell is recorded and played back into the drafts. |
 | Then what was the oblex? | A real creature that got in decades ago and learned to live off those recordings — which is why its duplicates were people it never met. It was reading the file. It didn't write it. |
 | Who built this? | **Nobody.** Nothing in the Ell was designed — it's a record, not a building. Whatever came through was a *surveyor*, not an architect: it measured this world the way a chain-crew measures a field, wrote it all down, and left. The Ell is the notebook. |
-| Yes, but *who* — do we meet it? | **No, and there is nothing to fight.** It has been gone longer than there are words for, it is not coming back, and it finished here. The count of prior surveys in the substrate is other *places*, not other times. Everything it left behind behaves like equipment, not like a creature. |
+| Yes, but *who* — do we meet it? | **No, and there is nothing to fight.** It has been gone longer than there are words for and it is not coming back — but it never finished *here*, which is the whole reason the Ell is still running. The count of prior surveys in the substrate is other *places*, not other times: it moved on to survey the rest of the world and left the equipment running behind it, unfinished, the way you'd leave a tool switched on in a room you meant to come back to. Everything it left behind behaves like equipment, not like a creature. |
 | Did it have a mind? | Genuinely unanswerable, and say so plainly at the table rather than hinting. Nothing in the record indicates it ever registered a person as anything but a quantity — no cruelty, no interest, no name for us. Hesper, who has had a hundred years to think about it, calls it **"the chain-crew,"** and she means it flatly and a little contemptuously, the way one surveyor talks about another's sloppy work. |
-| So the instrument is...? | The equipment they left switched on, because the survey was never closed. A theodolite standing on a hill for ten thousand years, still taking readings. It has no plan for the party and no plan at all. |
+| So the instrument is...? | The equipment they left switched on, because the survey was never closed. A theodolite standing on a hill for ten thousand years, still taking readings. It has no plan for the party and no plan at all — it runs on standing rules, not intentions. Installing draft-Cass wasn't a decision about *this* party; it's what the equipment automatically does whenever a house has a resident, because a resident who opens doors generates more to measure. It would have done the same for any family in any house. That's the difference between a rule and a plan, and it's worth being explicit about it if a player presses on why draft-Cass "chose" to trap them. |
 | Do we ever *see* the instrument? | **There is no device. The Ell is the instrument** — the measured space itself is the equipment, the same way a tally is not separate from the wall it's cut into. There is nothing to find, open, break, or switch off, and if the party goes looking for a machine, they are looking for something that was never there. Say so when they ask. |
 | Then how do we know it's real? | **They watch it work three times.** (1) A scratch cuts itself into the doorframe as the last of them crosses, in the first hour of session 1. (2) Their chalk marks are reproduced ahead of them, all session 2. (3) At depth 5 they watch it record *them* — see below. |
 | What does it want? | To finish the survey. Nothing else. It is not malicious, not aware in any way that matters, and has never once noticed a person as a person. |
@@ -1219,66 +1297,60 @@ flat out at the table afterwards.
 
 ## BESTIARY
 
-All printed stat blocks, run as written. **The quirk never changes the
-numbers.**
+All printed stat blocks, run as written except the oblex's HP (see below).
+**The quirk never changes the numbers.**
 
-| Creature | Stat block | The wrongness | Where |
-|---|---|---|---|
-| The coats | Rug of smothering ×4 (CR 2) | Empty, and they move like there's someone in them | S2, depth 2 |
-| The door that calls | Mimic (CR 2) | Copies *sounds*, not objects. Always the door they just came through, making the noise of someone they came in with, calling | S2–3 |
-| The late cat | Displacer beast (CR 3) | Its displacement is temporal — they're seeing it a second and a half ago | S3, depth 3 |
-| The follower | Intellect devourer (CR 2) | **Not hostile.** Follows at a polite distance like a dog. Has learned to copy one character's walk. Never attacks unless attacked | S3 |
-| The quoting thing | Gibbering mouther (CR 2) | Says only the last true thing each character said. Verbatim, in their voice | S3–4 |
-| The still bear | Owlbear (CR 3) | Perfect in every particular. Does not breathe. Does not blink | S3, drafted orchard |
-| **The oblex** | **Adult oblex (CR 10)** | Speaks in the party's voices. Its duplicates are everyone who came in before. Dies for good at the midpoint — the voices don't stop | **S2 midpoint only** |
+| Creature | Stat block | Source | The wrongness | Where |
+|---|---|---|---|---|
+| The coats | Rug of smothering ×4 (CR 2, 450 XP) | *Monster Manual* | Empty, and they move like there's someone in them | S2, depth 2 |
+| The door that calls | Mimic (CR 2, 450 XP) | *Monster Manual* | Copies *sounds*, not objects. Always the door they just came through, making the noise of someone they came in with, calling | S2–3 |
+| The late cats | Displacer beast ×2 (CR 3, 700 XP each) | *Monster Manual* | Their displacement is temporal — they're seeing them a second and a half ago | S3, depth 3 |
+| The follower | Intellect devourer (CR 2, 450 XP) | *Monster Manual* | **Not hostile.** Follows at a polite distance like a dog. Has learned to copy one character's walk. Never attacks unless attacked | S3, depth 3 — "Two more presences," below |
+| The quoting thing | Gibbering mouther (CR 2, 450 XP) | *Monster Manual* | Says only the last true thing each character said. Verbatim, in their voice | S3, depth 3 — "Two more presences," below |
+| The still bears | Owlbear ×3 (CR 3, 700 XP each) | *Monster Manual* | Perfect in every particular. None breathes. None blinks | S3, drafted orchard |
+| **The oblex** | **Elder oblex (CR 10, 5,900 XP, 115 HP printed — HP homebrewed further up, see below), plus live Oblex Spawn (CR ¼, 50 XP)** | *Volo's Guide to Monsters* | Speaks in the party's voices. Its duplicates are everyone who came in before. Dies for good at the midpoint — the voices don't stop | **S2 midpoint only** |
+| Hesper Wick | Custom NPC, veteran-derived (base: *Monster Manual*, CR 3, 700 XP) | Custom | The finale. See her full profile above | **S4 only** |
 
 ---
 
-## ENCOUNTER MATH — VERIFIED (6 PCs)
+## ENCOUNTER MATH — 2024 DMG XP BUDGETS (6 PCs)
 
-Thresholds, party of six: **level 5** — hard 4,500 / deadly 6,600. **Level 6** —
-hard 5,400 / deadly 8,400. *Six-plus PCs shift the multiplier down one step,
-which matters more than anything else here.*
+**Method:** 2024-style XP budget — per-character Low/Moderate/High × party
+size, monster XP summed with **no group-size multiplier** (the 2024 DMG
+dropped it). Six level-5 PCs: **Low 3,000 / Moderate 4,500 / High 6,600.**
+Six level-6 PCs: **Low 3,600 / Moderate 6,000 / High 8,400.**
 
-| Encounter | Adjusted XP | Verdict |
-|---|---|---|
-| Four Casses (L5) | ~4,200 | Just under hard. **Correct as written.** |
-| Coat Closet (L5) | ~2,700 | Medium. Correct — it's a texture fight. |
-| Squat mimics (L5) | ~2,000 | Medium-easy. Correct; the tension is which door. |
-| **Adult oblex (L5)** | **~2,950** | **TOO EASY — see fix.** |
-| Late cat, 1 displacer (L6) | ~1,050 | Trivial. **Bump to 2.** |
-| Still bear, 1 owlbear (L6) | ~1,050 | Trivial. **Bump to 3.** |
-| **Hesper + 5 copies (L6)** | **~9,600** | **Above deadly — see fix.** |
+**Read the verdicts with two caveats, stated once:** the 2024 budget system is
+honest about *attrition* but blind to *action economy*, and it cuts both
+ways. Several attackers with Surprise Attack in a room with no exit hit much
+harder than their summed XP implies — every "under Low" verdict below still
+means "genuinely dangerous if mishandled," not "safe to ignore." A single
+strong monster has the opposite problem: it only gets one turn against the
+party's six, so a high-XP solo can die faster than its budget number
+suggests (see the oblex, below). Trust the design notes over the raw number
+either way.
 
-### Fix 1 — the oblex is under-tuned as a solo boss
+| Encounter | Monsters (6 PCs) | Summed XP | vs. budget | Verdict |
+|---|---|---|---|---|
+| Four Casses (L5) | 4 × Doppelganger | 2,800 | Under Low (3,000) | Reads easy on paper; plays harder — Surprise Attack, four-way action economy, no exit from the room. **Correct as written.** |
+| Coat Closet (L5) | 4 × Rug of smothering | 1,800 | Under Low | Correctly easy — a texture fight, not a threat. |
+| Squat mimics (L5) | 3 × Mimic | 1,350 | Under Low | Correctly easy — the tension is which door, not the numbers. |
+| Late cats, 2 displacers (L6) | 2 × Displacer beast | 1,400 | Under Low (3,600) | Easy and avoidable by design. Two beasts instead of one so it isn't a non-event if the party fights it. |
+| Still bears, 3 owlbears (L6) | 3 × Owlbear | 2,100 | Under Low | Same logic — avoidable, and a real fight if they don't avoid it. |
+| **Elder oblex (L5)** | 1 × Elder oblex, printed | 5,900 | Just under High (6,600) | **The opposite problem from the group fights above.** By raw budget this reads *near-deadly* — but it's a solo monster against six action economies, so it plays far easier than 5,900 XP implies: one turn a round against six is why the printed 115 HP dies in ~2 rounds regardless of its high CR. **See the homebrew note above** — HP is pushed further past printed to compensate for exactly this asymmetry. Target: **3–4 rounds** of the party's average output before it goes down. |
+| **Hesper + up to 5 copies (L6)** | Hesper (custom) + 5 × Doppelganger | Copies alone: 3,500 | Copies alone under Low (3,600) | **See below.** Hesper isn't a raw CR 3 veteran (see her profile) so she isn't budgeted; judge the fight by rounds-to-clear and the Watched Door's positioning pressure, not by adjusted XP. |
 
-Six characters at level 5 will delete 115 HP in about two rounds. A lone CR 10
-lands at roughly *medium* once the six-PC multiplier step is applied, which is
-not a midpoint boss.
+### Staggering the finale's copies
 
-**At six players: give it 165 HP, and make six of the twelve duplicates real —
-use `Oblex Spawn` (CR ¼), published.** They do almost nothing individually;
-they exist to soak actions and clog the room while the body works at range.
-Leave the other six as inert set dressing.
-
-*Do not raise its damage.* Eat Memories is already nasty and the fight should
-be long and horrible, not lethal.
-
-### Fix 2 — the five-copy finale is over deadly, and that's fine, but stagger it
-
-Hesper plus five doppelgangers reaches ~9,600 against a deadly line of 8,400.
-It is genuinely dangerous, and that is **acceptable only because the win
-condition is escape, not victory** — and because a party that took five long
-rests arrives at full resources by definition.
-
-**But do not have all five copies present in round one.** Alpha-striking six
-level-6 characters with six bodies can wipe them before the ratchet ever
-starts.
+Bringing all five copies in on round one, alongside Hesper, is a real
+alpha-strike risk against six level-6 characters even though the raw XP reads
+low — five extra bodies acting on turn one is exactly the action-economy blind
+spot the caveat above is about.
 
 **Bring the copies in one per round from round 2**, each stepping out of a
-different doorway. Same total threat, spread across the fight, and it means the
-pressure *builds* as the party's numbers *shrink* — which is the exact feeling
-the finale is built to produce.
+different doorway. Same total threat, spread across the fight, and the
+pressure *builds* as the party's numbers *shrink* at the door — which is the
+exact feeling the finale is built to produce.
 
 **If a table is struggling:** the copies are not required to die. They stop
 when Hesper does.
@@ -1293,21 +1365,23 @@ when Hesper does.
 |---|---|---|---|---|
 | **Casses** (S1 climax) | 2 | 3 | 3 + Surprise Attack | 4 |
 | Coats | 2 | 3 | 3 + heavy | 4 |
-| Oblex HP / duplicates | 70 / 4 | 85 / 6 | 115 / 9 | **165 / 12 (6 are Oblex Spawn)** |
+| Squat mimics | 2 | 3 | 3 | 3, or 4 if the table is fresh |
+| Oblex HP / duplicates / live spawn | 100 / 4 / 0 | 130 / 6 / 2 | 165 / 9 / 4 | **200 / 12 / 6** |
 | Oblex Eat Memories | alt. rounds | alt. rounds | printed | printed |
 | Hesper HP | 70 | 85 | 95 | 110 |
 | Hesper *Close The Way* | no | yes | yes | yes |
 | Minor encounters/session | 1 | 1–2 | 2 | 2 |
 | Rule-rooms per session 3 | 3 | 4 | 4 | 5 |
 | **Party copies** (S4) | cap 3 | cap 4 | cap 5 | cap 5 |
-| Avoidable fights (S3) | 1 of 2 | 1 of 2 | both | both |
+| Avoidable fights (S3) | 1 of 2, single creature | 1 of 2, single creature | both, full counts | both, full counts |
 
 The Watched Door is *harder* with fewer people, not easier. Leave it alone.
 
-**Party copies are one per long rest taken**, capped as above; past the cap,
-add +15 HP to Hesper per extra rest instead. At three characters the cap drops
-because three PCs plus Ambry plus Hesper plus three copies is already a
-crowded, long fight.
+**Party copies are one per long rest taken, capped at the value in the table
+above — whichever is lower, the flat cap of 5 or the party-size cap.** Past
+the cap, add +15 HP to Hesper per extra rest instead. At three characters the
+cap drops because three PCs plus Ambry plus Hesper plus three copies is
+already a crowded, long fight.
 
 ---
 
@@ -1317,5 +1391,9 @@ crowded, long fight.
   file; this one is)
 - [`ROOM_TABLES.md`](ROOM_TABLES.md) — wrong objects, rooms, corridors,
   notation
+- [`CHARACTERS.md`](CHARACTERS.md) — NPC one-pagers
+- [`DM_SCREEN.md`](DM_SCREEN.md) — one-page table reference
+- [`MAP_SPEC.md`](MAP_SPEC.md) — battle maps and the structural spec
+- [`REWARDS.md`](REWARDS.md) — items, money, and the loot-the-dead rule
 - [`TODO.md`](TODO.md) — what's left before table-ready
 - [`../README.md`](../README.md) — one-shots folder rules
