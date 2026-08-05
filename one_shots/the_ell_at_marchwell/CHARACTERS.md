@@ -239,17 +239,16 @@ She is sorry. She means it. She fights anyway.
 Speed 30 ft.** Prof +4, STR 18 (+4). Multiattack: two Longsword, **+8 to hit,
 1d8+4** each.
 - **Fold** *(once per turn, no action, part of movement)*: enters a doorway,
-  exits an identical one anywhere in the room. **Only uses 2-sets**, so her
-  movement is deterministic while everyone else's is a gamble. She must
-  physically enter and exit a doorway — block one, deface a frame, or fight her
-  away from the doors and she's beaten.
-- **Close The Way** *(1/round, bonus action)*: scuffs a mark; one doorway the
-  party is using stops being a doorway.
-- **The room runs the Watched Door.** She breaks sightlines rather than trading
-  damage — she doesn't have to win, she only has to stop the last one.
+  exits an identical one anywhere in the room. Mobility only — use it to keep
+  her from being cornered or focus-fired, not as a puzzle mechanic.
 - **Morale:** never flees, never stops talking. Apologises throughout and asks,
   repeatedly and reasonably, for *one.*
-- **Scaling:** 3 PCs → HP 70, no Close The Way · 4 → 85 · 5 → 95 · 6 → 110.
+- **Scaling:** 3 PCs → HP 70 · 4 → 85 · 5 → 95 · 6 → 110.
+
+**She fights straight — no positioning gimmick.** Mid-fight, she's removed
+from combat by the Roper hidden in the room (see "The Other Pillar" in the
+main file) unless the party closes the file first. She never sees it coming
+and neither should the table.
 
 **Her chain** is on her body whether she's killed or the file is closed. See
 [`REWARDS.md`](REWARDS.md).

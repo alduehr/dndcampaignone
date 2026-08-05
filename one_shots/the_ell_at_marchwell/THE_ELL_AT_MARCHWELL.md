@@ -1032,6 +1032,14 @@ yourselves since Tuesday."*
 
 ### The door, and Hesper
 
+The room is a wide stretch of substrate, the plan cut into the floor, three
+low ridges of varying height and width breaking it into uneven thirds. Off
+to one side stand two squared-off pillars, waist-to-shoulder height,
+identical to each other in size and carving — a matched pair, like
+everything else down here that comes in twos. Nobody will look twice at
+either. Don't call attention to them. Never mention them again until one
+moves. (See **THE OTHER PILLAR**, below — one of them is a Roper.)
+
 The way out is real and she takes them to it. And then:
 
 **Count the party at the table before you run this**, and use the real number.
@@ -1048,16 +1056,22 @@ arithmetic is the whole scene, so get it right out loud.
 
 She is sorry. She means it. She fights anyway.
 
-**And she is not alone.** Standing behind her, silent, one for every long rest
-the party took: **copies of the party.** Same faces, same gear, same way of
-standing. She didn't make them and doesn't command them — the instrument did,
-out of the readings it took while they slept, and they are simply *here*,
-because this is where the party is.
+**And she is not alone.** Standing behind her, one for every long rest the
+party took: **copies of the party.** Same faces, same gear, same way of
+standing — and they are not silent. **They talk.** Not to each other, not
+tactically: they echo, flatly, in the party's own voices, things the party
+has actually said since session 1 — the joke about the hats, what somebody
+swore at the oblex, what somebody promised Ambry. One line per copy, on its
+turn or when it drops, never more — this is seasoning, not narration, and it
+should never slow the fight down. She didn't make them and doesn't command
+them — the instrument did, out of everything it's recorded them saying since
+the pantry door, and they are simply *here*, because this is where the party
+is.
 
 **Doppelgangers** (CR 3), one per long rest, **cap 5**; past the cap, give
-Hesper +15 HP each instead. They fight competently, silently, without
-flourish, and they do not use the fold — they don't need to, they're already
-where they need to be.
+Hesper +15 HP each instead. They fight competently, without flourish, and
+they do not use the fold — they don't need to, they're already where they
+need to be.
 
 *A party that rested after every fight walks into five of themselves. A party
 that pushed through arrives on fumes to a fair fight. Both are earned, and
@@ -1074,117 +1088,79 @@ with these changes, in a room she has had a century to learn:
   doorway and exits an identical one anywhere in the room. She has memorised
   every duplicate feature in it, so to her the room is not a rectangle — it's
   a set of doorways that are secretly the same doorway, and she knows which.
-
-  *She is not teleporting, and this matters.* She must physically enter a
-  doorway and leave by one, which means the party can shut her down three
-  ways, all discoverable in the fight: **block a doorway with a body**
-  (which also solves the exit puzzle), **deface a doorframe** to break a
-  matched pair, or simply **fight her away from the doors.** A party that
-  works out she needs doorways has beaten her plan, and should feel like it.
-- **Close The Way (1/round, bonus action):** she scuffs a mark. One doorway
-  the party is using stops being a doorway.
-- **The Room's Rules:** the finale room runs **the Watched Door**. Full
-  mechanics below — this is the shape of the whole fight.
-
-### THE WATCHED DOOR IN THE FINALE — how to run it
-
-**The rule:** the way out exists only while **at least two conscious creatures
-can see it.** Drop below two and it is gone — not shut, *gone*, unbroken
-plaster — and it comes back the instant two pairs of eyes are on that stretch
-of wall again.
-
-**Watching is passive, not an action.** Any conscious character with clear
-line of sight to the door counts, automatically, on their turn or off it. **Do
-not make players spend actions staring at a wall** — two of six PCs standing
-idle for six rounds is a miserable table experience and it isn't the point.
-
-**Why they can't just kill her and leave at their leisure.**
-
-They *can*, and it's a legitimate route — but it's the slow, expensive one, and
-the fight is built so that it's a real choice rather than the obvious answer:
-
-- **She is not killable on a reasonable timeline.** 110 HP, AC 17, *Fold* at
-  will, and up to five copies to chew through. Six level-6 characters will
-  eventually win, and it will cost them most of a session and most of their
-  resources.
-- **The door is right there, and it's open now.** They can start leaving in
-  round one.
-- **And here is the actual pressure: every person who leaves makes the fight
-  worse for the ones still inside.** Six against her is comfortable. The
-  fourth character through the door leaves two people holding off a woman with
-  a century of practice, and *two is exactly the minimum needed to keep the
-  door in existence.*
-
-That's the tension, and it's entirely player-driven. **Nobody is on a clock.
-They're on a ratchet, and they turn it themselves.** Who goes first? Do you
-send Ambry and Cass out early, losing nothing? Do you send the wounded, or
-keep them because bodies are bodies? Every departure is a real decision with a
-visible cost, and the room asks it six times.
-
-**So it's a positioning problem, and it is Hesper's entire gameplan.** She
-doesn't out-damage six level-6 characters and never tries to. She isn't trying
-to win the fight — **she only has to stop the last one.** She wins by
-breaking sightlines:
-
-- **Fold** puts her between the watchers and the door, or drags a fight into
-  the corner the watchers have to turn away from.
-- **Close The Way** scuffs a mark and removes a *different* doorway the party
-  is using, herding them where she wants.
-- **The copies body-block.** That's most of what they're for. A doppelganger
-  standing in a sightline is worth more than one swinging.
-
-Every round, ask one question: *who can see the door?* If the answer is fewer
-than two, it's gone until it isn't.
-
-**If the door vanishes while someone is in the doorway**, they are shunted
-back to the near side, prone. Never kill anyone with this — it's a puzzle, not
-a guillotine.
-
-### The dilemma the room creates (and the answer)
-
-Eight people need to cross. Two must be watching for anyone to cross at all.
-**Which means the last two can't both leave** — and the moment the party works
-that out, they have arrived, mechanically, at exactly the argument Hesper has
-been making. The room enforces her point. She will say so, and she will be
-right, and this is the best moment in the adventure.
-
-**The answer, which they must find and you must not hand them: a doorway with
-a body in it cannot vanish.** Someone standing *in* the frame holds it open
-for everyone, watchers or not — and then steps through last, unblocked. One
-person braced in the door solves it completely.
-
-Ways they can get there: trying to wedge it with a crowbar or a shield
-(doesn't work — it needs to be *occupied*, and tell them that when they try);
-someone stepping into the frame for another reason and noticing it holds;
-Ambry blundering into it; or **Hesper herself demonstrating it in the first
-round**, because she knows and is using it, and a sharp player will see her do
-it.
-
-**If they never find it**, they can still finish — kill her, and with no
-opposition they have unlimited time to experiment and will get there. The
-answer is a shortcut through the fight, not a gate on the ending.
+  It's mobility, not a puzzle to solve: use it to keep her from getting
+  cornered or focus-fired, and to reposition after a bad exchange. Nothing
+  more elaborate than that.
 - **Morale:** she does not flee and she does not stop talking. She apologises
   throughout, and she asks — repeatedly, reasonably — for *one*.
 
-*Scaling: 3 PCs → HP 70, no Close The Way. 4 → HP 85. 5 → HP 95. 6 → HP 110.*
+*Scaling: 3 PCs → HP 70. 4 → HP 85. 5 → HP 95. 6 → HP 110.*
+
+### THE OTHER PILLAR — how to run the reveal
+
+**Secretly roll initiative for the Roper the moment this fight starts**, same
+as everyone else — but keep the number on your own sheet, off the visible
+tracker, and don't tell the table it exists. It sits in the room exactly as
+described above: one of two identical pillars, motionless, indistinguishable
+from its twin, its False Appearance doing the work for as long as the dice
+give it. A slow, low-Dex ambush predator usually lands late in the order, so
+the party typically gets a few real rounds against Hesper and the copies
+before anything happens. Let it happen when it happens — don't force it
+early, and don't stall it if it comes up fast.
+
+**When the Roper's turn comes up for the first time, don't roll for it. Run
+this instead, as a scripted beat outside the normal flow of combat** — best
+timed to land right as Hesper is mid-apology, mid-plea, asking them for
+*one*:
+
+> It happens between one exchange and the next, and nobody sees it start. One
+> of the two pillars was never a pillar. Six arms come up out of the
+> substrate at once — throat, both wrists, the hand with the chain in it,
+> both ankles, and last, almost gently, across her mouth. She doesn't get
+> time to be surprised. Where she goes down, the floor takes her — pulled
+> level, pulled flat, the pale substrate closing over her the way you'd
+> erase a line you never should have drawn. One breath. Her chain hits the
+> floor where she was standing. That's all that's left of her.
+
+**Hesper is dead. Remove her from the fight — no save, no roll, it isn't
+negotiable.** The pillar that moved is a **Roper** (*Monster Manual*, CR 5,
+printed, unmodified — see the Bestiary; mechanically its Tendril attacks,
+narratively six pale arms), and it's a fully active combatant from its next
+turn on, reaching for whoever's nearest. Its twin is exactly what it always
+was: an inert pillar. Any surviving doppelganger copies keep fighting
+normally alongside it. **Don't inflate its HP or run it any differently at
+smaller party sizes** — with the copies supplying action economy alongside
+it, the printed stat block is correctly tuned; see **ENCOUNTER MATH**,
+below.
+
+**The one way to stop this from ever happening, and the party will never
+know they did:** if they reach **close the file** — answer *HOW BIG IS A
+HOME?* honestly, out loud — at any point *before* the Roper's scripted turn
+comes up, neither pillar ever moves. The survey closes, the instrument
+stops, and whatever was about to happen to Hesper simply doesn't happen.
+Don't tell them how close it was. That's the reward for reaching the good
+ending fast, and it should stay invisible.
 
 ### Endings
 
-**The swap.** Somebody stays, or Hesper doesn't leave. If the party kills her,
-they walk out seven and the door doesn't care — she was never on the list.
-Clean, achievable, and it costs them a person they'd started to like.
+**The swap.** Hesper doesn't leave — the other pillar sees to that, unless
+the party closes the file first (see above). They walk out without her, and
+the door doesn't care that they're one short; she was never on the list. It
+costs them a person they'd started to like, and it isn't a choice they got
+to make. That's deliberate.
 
-**Loot:** her chain is on her body whether she's killed or the file is closed
-— see [`REWARDS.md`](REWARDS.md). Don't pay them extra for choosing the worse
-ending; it's on the body either way.
+**Loot:** her chain is on her body — see [`REWARDS.md`](REWARDS.md).
 
-**Close the file** *(the better ending, never required)*. If anyone has
-registered the question, they can answer it instead of fighting — out loud,
-honestly, not cleverly. No roll. A Charisma check can't buy this and shouldn't
-be offered; a bad-faith answer simply doesn't land and the fight resumes. A
-true one closes the survey. The instrument stops. The Ell folds up into a
-linen cupboard with everyone outside it, Hesper included, for about four
-seconds — she gets to stand in an orchard, in wind, and then she doesn't.
+**Close the file** *(the better ending, never required, and the only one
+that saves her)*. If anyone has registered the question, they can answer it
+instead of fighting — out loud, honestly, not cleverly. No roll. A Charisma
+check can't buy this and shouldn't be offered; a bad-faith answer simply
+doesn't land and the fight resumes. A true one closes the survey. The
+instrument stops. The Ell folds up into a linen cupboard with everyone
+outside it, Hesper included, for about four seconds — she gets to stand in
+an orchard, in wind, and then she doesn't. **Reached before the Roper's
+scripted turn, this also quietly cancels the reveal entirely** — see **THE
+OTHER PILLAR**, above.
 
 **The ugly one.** The party doesn't count carefully, and finds out on the lawn
 that they came back six, but not the same six.
@@ -1292,6 +1268,7 @@ flat out at the table afterwards.
 | Did anyone ever get out? | Yes — anyone on the list who walked back to their own door. Most people never find it again. The coats in the closet belonged to the ones who didn't. |
 | Why is the light like that? | The instrument recorded illumination as a property of a space rather than something with a source, so the drafts are lit and there is nothing lighting them. |
 | What happens to the Ell after we leave? | **Swap ending:** it keeps running, and in a few years a farmhouse in the next valley grows a wing. **Close-the-file ending:** the survey completes and the instrument stops, for good, everywhere. |
+| What was the thing that killed Hesper? | A Roper — an ordinary predator, not a device or a plan. It doesn't know who Hesper is. It's simply the kind of thing that lives in old, undisturbed measured space, and it had been sitting there, unnoticed, since before the party arrived. Its presence isn't a message. |
 
 ---
 
@@ -1309,7 +1286,8 @@ All printed stat blocks, run as written except the oblex's HP (see below).
 | The quoting thing | Gibbering mouther (CR 2, 450 XP) | *Monster Manual* | Says only the last true thing each character said. Verbatim, in their voice | S3, depth 3 — "Two more presences," below |
 | The still bears | Owlbear ×3 (CR 3, 700 XP each) | *Monster Manual* | Perfect in every particular. None breathes. None blinks | S3, drafted orchard |
 | **The oblex** | **Elder oblex (CR 10, 5,900 XP, 115 HP printed — HP homebrewed further up, see below), plus live Oblex Spawn (CR ¼, 50 XP)** | *Volo's Guide to Monsters* | Speaks in the party's voices. Its duplicates are everyone who came in before. Dies for good at the midpoint — the voices don't stop | **S2 midpoint only** |
-| Hesper Wick | Custom NPC, veteran-derived (base: *Monster Manual*, CR 3, 700 XP) | Custom | The finale. See her full profile above | **S4 only** |
+| Hesper Wick | Custom NPC, veteran-derived (base: *Monster Manual*, CR 3, 700 XP) | Custom | The finale, until the other pillar. See her full profile above | **S4 only** |
+| **The other pillar** | **Roper (CR 5, 1,800 XP, printed, unmodified)** | *Monster Manual* | Disguised as one of two identical pillars in the finale room, indistinguishable from its twin, until it isn't | **S4, the finale room — "The Other Pillar," above** |
 
 ---
 
@@ -1338,22 +1316,23 @@ either way.
 | Late cats, 2 displacers (L6) | 2 × Displacer beast | 1,400 | Under Low (3,600) | Easy and avoidable by design. Two beasts instead of one so it isn't a non-event if the party fights it. |
 | Still bears, 3 owlbears (L6) | 3 × Owlbear | 2,100 | Under Low | Same logic — avoidable, and a real fight if they don't avoid it. |
 | **Elder oblex (L5)** | 1 × Elder oblex, printed | 5,900 | Just under High (6,600) | **The opposite problem from the group fights above.** By raw budget this reads *near-deadly* — but it's a solo monster against six action economies, so it plays far easier than 5,900 XP implies: one turn a round against six is why the printed 115 HP dies in ~2 rounds regardless of its high CR. **See the homebrew note above** — HP is pushed further past printed to compensate for exactly this asymmetry. Target: **3–4 rounds** of the party's average output before it goes down. |
-| **Hesper + up to 5 copies (L6)** | Hesper (custom) + 5 × Doppelganger | Copies alone: 3,500 | Copies alone under Low (3,600) | **See below.** Hesper isn't a raw CR 3 veteran (see her profile) so she isn't budgeted; judge the fight by rounds-to-clear and the Watched Door's positioning pressure, not by adjusted XP. |
+| **Hesper + up to 5 copies (L6)** | Hesper (custom) + 5 × Doppelganger | Copies alone: 3,500 | Copies alone under Low (3,600) | Hesper isn't a raw CR 3 veteran (see her profile) so she isn't budgeted; judge this half of the fight by rounds-to-clear, not adjusted XP. She's removed from combat by the Roper reveal (see **THE FOURTH RIDGE**) before it usually matters. |
+| **Roper + surviving copies (L6)** | 1 × Roper, printed + up to 5 × Doppelganger | 1,800 + up to 3,500 | Under Moderate (6,000) at full copies | **Correctly tuned as printed — do not inflate the Roper's HP.** Unlike the oblex, it isn't fighting alone: up to six simultaneous enemy actors (Roper + 5 copies) gives it the action economy the oblex was missing, so the raw "under Moderate" budget already plays close to its true difficulty rather than under it. |
 
 ### Staggering the finale's copies
 
-Bringing all five copies in on round one, alongside Hesper, is a real
-alpha-strike risk against six level-6 characters even though the raw XP reads
-low — five extra bodies acting on turn one is exactly the action-economy blind
-spot the caveat above is about.
+Bringing all five copies in on round one is a real alpha-strike risk against
+six level-6 characters even though the raw XP reads low — five extra bodies
+acting on turn one is exactly the action-economy blind spot the caveat above
+is about.
 
 **Bring the copies in one per round from round 2**, each stepping out of a
-different doorway. Same total threat, spread across the fight, and the
-pressure *builds* as the party's numbers *shrink* at the door — which is the
-exact feeling the finale is built to produce.
+different doorway, independent of when the Roper's secret initiative lands.
+Same total threat, spread across the fight, and the pressure *builds* as the
+fight goes on rather than spiking all at once.
 
 **If a table is struggling:** the copies are not required to die. They stop
-when Hesper does.
+when the Roper does.
 
 ---
 
@@ -1369,13 +1348,11 @@ when Hesper does.
 | Oblex HP / duplicates / live spawn | 100 / 4 / 0 | 130 / 6 / 2 | 165 / 9 / 4 | **200 / 12 / 6** |
 | Oblex Eat Memories | alt. rounds | alt. rounds | printed | printed |
 | Hesper HP | 70 | 85 | 95 | 110 |
-| Hesper *Close The Way* | no | yes | yes | yes |
+| Roper HP (the other pillar) | 93 (printed, no scaling) | 93 | 93 | 93 |
 | Minor encounters/session | 1 | 1–2 | 2 | 2 |
 | Rule-rooms per session 3 | 3 | 4 | 4 | 5 |
 | **Party copies** (S4) | cap 3 | cap 4 | cap 5 | cap 5 |
 | Avoidable fights (S3) | 1 of 2, single creature | 1 of 2, single creature | both, full counts | both, full counts |
-
-The Watched Door is *harder* with fewer people, not easier. Leave it alone.
 
 **Party copies are one per long rest taken, capped at the value in the table
 above — whichever is lower, the flat cap of 5 or the party-size cap.** Past

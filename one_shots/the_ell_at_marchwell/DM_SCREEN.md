@@ -132,6 +132,7 @@ Nothing the Ell made is ever on it (draft-Cass, Hesper).
 | The follower (S3) | Intellect devourer CR 2 — **not hostile**, copies a walk | 1 |
 | The quoting thing (S3) | Gibbering mouther CR 2 — echoes their own words back | 1 |
 | **Hesper (S4)** | Veteran-derived custom, **AC 17, HP 110, +8/1d8+4 ×2** | + 1 doppelganger per long rest (cap 5) |
+| **The other pillar (S4)** | **Roper, CR 5, printed, unmodified** | 1 — kills Hesper on a secret initiative roll, then joins the fight |
 
 **Oblex dies for good.** The voices don't stop. No rematch. The follower and
 the quoting thing are not meant to be fought — see main file.
@@ -140,30 +141,39 @@ the quoting thing are not meant to be fought — see main file.
 
 ## THE FINALE
 
-**Watched Door:** the exit exists only while **2+ conscious creatures can see
-it.** Watching is **passive** — never make players spend actions staring.
-Vanishes = unbroken plaster. Anyone in the doorway is shunted back, prone,
-never killed.
+**The room:** three low plan-ridges of varying size, plus **two matched
+pillars** off to one side — identical to each other, never called out as
+different. One of the two pillars is a **Roper** (printed, unmodified) in
+False Appearance. Don't tell the players which. Don't tell yourself exactly
+when either, technically — see below.
 
-**Hesper's plan:** she can't out-damage six PCs and doesn't try. **She only has
-to stop the last one.** She breaks sightlines — folds into them, *Close The
-Way* (bonus action, un-doors a route they're using), copies body-block.
+**Hesper fights straight** — no positioning puzzle, no door mechanic. AC 17,
+HP 110, two Longsword attacks +8/1d8+4, *Fold* for mobility only. She
+apologizes throughout and asks for *one*. Copies (one per long rest, cap 5,
+staggered in one per round from round 2) talk — one echoed line from earlier
+sessions each, in the party's own voice, on their turn or when they drop.
 
-**The ratchet:** every PC who leaves weakens the ones still in. 6 is
-comfortable; the 4th one out leaves two people holding her off — and two is
-the minimum to keep the door existing at all.
+**THE OTHER PILLAR — secretly roll initiative for the Roper at the top of the
+fight.** Keep it off the visible tracker. When its number comes up the
+*first* time, don't roll an attack — run the scripted kill instead, ideally
+landing mid-plea from Hesper:
 
-**The answer (don't hand it over): a doorway with a body in it cannot
-vanish.** Wedges/crowbars don't work — it must be *occupied*. Hesper
-demonstrates it in round 1.
+> Six arms out of the substrate at once. Throat, both wrists, the hand
+> with the chain, both ankles, and last, almost gently, across her mouth.
+> No time to be surprised. The floor takes her — pulled level, pulled flat.
+> One breath. Her chain hits the floor where she stood.
 
-**Her Fold:** once/turn, no action, part of movement, **must enter and exit a
-doorway.** Counter it by blocking a door, defacing a frame, or fighting her
-away from the doors.
+**She's dead, no roll, not negotiable.** From its next turn on, the Roper is
+a normal active combatant (printed stats, don't inflate HP — the copies give
+it the action economy it needs) alongside any surviving copies.
+
+**The only save, and they'll never know it worked:** *close the file* (see
+below) landed *before* the Roper's scripted turn quietly cancels the whole
+reveal — neither pillar ever moves.
 
 ### Endings
-- **Kill her, walk out.** She was never on the list. Costs them someone they liked.
-- **Close the file** — answer *HOW BIG IS A HOME?* honestly, out loud. No roll, no Charisma check. Bad faith doesn't land. Ends the instrument everywhere; Hesper gets four seconds in an orchard, in wind.
+- **The swap (default).** Hesper dies to the Roper unless they close the file first. They walk out without her; the door doesn't care, she was never on the list. Not a choice they got to make.
+- **Close the file** — answer *HOW BIG IS A HOME?* honestly, out loud. No roll, no Charisma check. Bad faith doesn't land. Ends the instrument everywhere; Hesper gets four seconds in an orchard, in wind. Reached in time, also saves her from the Roper.
 - **The ugly one** — they don't count, and come back six but not the same six.
 
 ---

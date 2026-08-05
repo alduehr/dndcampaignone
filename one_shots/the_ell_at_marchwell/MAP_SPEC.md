@@ -199,26 +199,39 @@ goes for Ambry. Freeing him costs an action and a cut cord.
 
 ---
 
-## 5. THE WAY OUT — *Hesper* (S4)
+## 5. THE WAY OUT — *Hesper, and the other pillar* (S4)
 
 **Grid: 40 × 40 ft**, in the substrate: one continuous pale surface, floor to
 ceiling, with the plan cut into the floor. **Ceiling 20 ft.**
 
-- **THE EXIT DOORWAY** is centred on one wall. Existence requires **2+ conscious
-  creatures with line of sight.** Mark it clearly on the map — everyone will be
-  looking at it constantly, which is the point.
+- **THE EXIT DOORWAY** is centred on one wall. Just a door — no special rule
+  governs it anymore; the party can leave through it at any point, at the
+  normal cost of disengaging from a fight.
 - **EIGHT OTHER DOORWAYS**, two per wall, cut straight into the substrate.
-  **Pair them up before play and write it down:** four 2-sets. Hesper only ever
-  folds through these, and a party that maps her circuit can break it.
-- **Three low walls / plan-ridges**, 3 ft high, cutting the floor into rough
-  thirds. Half cover, and they block line of sight to the exit when someone is
-  prone behind them — **this is how she does most of her sightline-breaking.**
-- **No furniture. No clutter.** The room is deliberately austere; the tactical
-  content is doorways and sightlines, not terrain.
+  Doppelganger copies enter through these, one per round from round 2 (see
+  the adventure). Hesper's *Fold* also uses these, purely for mobility — no
+  need to pre-pair them into sets anymore.
+- **Three low plan-ridges of varying height and width**, cutting the floor
+  unevenly — half cover, decorative/tactical terrain only now.
+- **TWO PILLARS**, off to one side, squared-off, waist-to-shoulder height,
+  identical to each other — unmarked on any map you show the players and not
+  called out differently from each other on yours either. **One of them is a
+  Roper** in False Appearance, reflavored as arms rather than tentacles
+  (mechanically still its printed Tendril attacks). See the adventure's
+  "The Other Pillar" section for the secret-initiative timing.
+- **No furniture. No clutter.** The room is deliberately austere.
 - **Party copies** (0–5, one per long rest) start spread along the far wall.
 
-*Tactics:* see the adventure's finale section. She fights to control the exit's
-sightlines, not to win a damage race.
+**If you're running this with physical minis or a VTT:** use two identical
+plain pillar pieces, or nothing at all, until one moves — don't put anything
+monster-shaped on the table before the reveal. The moment it acts, **swap
+that one pillar for a pillar-with-arms piece**, leaving its twin as it was;
+one dramatic terrain swap sells the reveal better than a model that was
+sitting there in plain sight the whole fight.
+
+*Tactics:* see the adventure's finale section. Hesper fights straightforwardly
+until the Roper's scripted turn removes her; after that it's a normal fight
+against the Roper and any surviving copies.
 
 ---
 
