@@ -22,11 +22,11 @@ A "saint's tomb" that descends into a dormant Concord shrine — a secondary nod
 
 ## History
 
-Publicly: the holy resting-place of Saint Veddow, who "settled the dead with a touch"; the inner tomb is sacred and forbidden. **Truly (DM):** a major Concord shrine — the harvest network's largest southern node — was capped after the Quietfall and disguised as a saint's tomb to keep it sealed and revered. The "saint" legend grew over the cap. The resident Ashen Wardens were stationed here, like the Reach Wardens, to guard a seal they don't fully understand. As the keystone reawakens far to the north, this node is **faintly warming** — the source of Saint Veddow's failing rests.
+Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **Saint Veddow's Tomb**. **Truly (DM):** a major Concord shrine — the harvest network's largest southern node — was capped after the Quietfall and disguised as a saint's tomb to keep it sealed and revered. The "saint" legend grew over the cap. The resident Ashen Wardens were stationed here, like the Reach Wardens, to guard a seal they don't fully understand. As the keystone reawakens far to the north, this node is **faintly warming** — the source of Saint Veddow's failing rests.
 
 ## Entrance
 
-A sealed bronze-bound door at the back of the pilgrim hall, beneath the flower-altar, kept by the resident Wardens. **Getting in is the real "lock":** persuade Sister Adwen (very hard — she guards on instinct), gain Mother Sennet's sacred permission, find the old service-stair the Remnant has been quietly excavating, or (worst) force the door as sacrilege. **Telegraphed:** the air from the door is wrong-cold; pilgrims won't stand near it; the Wardens visibly dread it.
+Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **Saint Veddow's Tomb**. Campaign-specific: the resident Warden is Sister Adwen; Mother Sennet holds sacred permission; the Remnant excavator is quietly digging a service stair.
 
 ## Solo Danger Rating
 

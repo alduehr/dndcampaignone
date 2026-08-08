@@ -22,11 +22,11 @@ A Concord wayside cloister swallowed by an orchard hillside, where scholar-pilgr
 
 ## History
 
-Publicly: an old ruined cloister, good for cut stone and curiosities, locally thought haunted. **Truly (DM):** a Concord wayside house attached to the regional shrine-network — a place that "settled travelers' dead" and kept Script-records. It collapsed in the Quietfall and the orchard grew over it. Its records and minor relics survive; so do the bound Remembrances of the brothers who died keeping it.
+Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Buried Cloister**. **Truly (DM):** a Concord wayside house attached to the regional shrine-network — a place that "settled travelers' dead" and kept Script-records. It collapsed in the Quietfall and the orchard grew over it. Its records and minor relics survive; so do the bound Remembrances of the brothers who died keeping it.
 
 ## Entrance
 
-A dig-shaft and a collapsed cloister-arch on a wooded orchard slope, an hour south of Orchardmere. The Remnant's survey-camp (Oneth Vael's two scholars) sits at the mouth. **Telegraphed:** the dig is known and discussed in Orchardmere; the Remnant will let a useful player in, bargain, or compete.
+Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Buried Cloister**. Campaign-specific: the Remnant's survey-camp is Oneth Vael's two scholars.
 
 ## Solo Danger Rating
 

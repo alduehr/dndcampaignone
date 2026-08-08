@@ -22,11 +22,11 @@ A foreclosed farmstead where the Cinder Ledger digs the dead out of a field-shri
 
 ## History
 
-Publicly: the Pellow family lost their grange to Ledger debt; now it stands empty but for a caretaker crew. **Truly (DM):** Factor Wymar Pell foreclosed it *because* it sits over an old Concord field-shrine, and the Ledger is quietly quarrying its Remembrance relics (M3) to ship south — a direct, commercial demonstration of the relic-greed driving the Monopoly clock. The disturbed shrine has begun to leak; the grange is mildly haunted, which the crew hides because panic would draw attention.
+Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Pellow Grange**. **Truly (DM):** Factor Wymar Pell foreclosed it *because* it sits over an old Concord field-shrine, and the Ledger is quietly quarrying its Remembrance relics (M3) to ship south — a direct, commercial demonstration of the relic-greed driving the Monopoly clock. The disturbed shrine has begun to leak; the grange is mildly haunted, which the crew hides because panic would draw attention.
 
 ## Entrance
 
-A walled farmstead a few miles from Tilbrook, gates barred, a Ledger pennant at the door. By day: a sleepy caretaker and a foreman. By night: lamplight in the field behind, and the clink of digging. **Telegraphed:** Tilbrook folk know "Pell's men work the Pellow place after dark, and nobody's let near." The player can scout, talk their way in, sneak, or (badly) storm it.
+Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Pellow Grange**. Campaign-specific: Tilbrook folk know "Pell's men work the Pellow place after dark, and nobody's let near."
 
 ## Solo Danger Rating
 

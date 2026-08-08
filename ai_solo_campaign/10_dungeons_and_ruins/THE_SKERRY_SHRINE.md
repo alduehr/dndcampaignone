@@ -22,11 +22,11 @@ A Concord sea-shrine on a drowned skerry, ringed by wrecks and guarded by the se
 
 ## History
 
-Publicly: cursed sea-stacks where ships die and the drowned gather; the wreckers' worst haunt; folk won't go near. **Truly (DM):** the largest of the coastal harvest-nodes — a sea-shrine that "kept" the deep-sea drowned, now half-submerged on a skerry. The wreckers use the Skerries' false-light reefs and stash their worst secrets here; the Gravecallers' boldest come for the drowned that "remember the taking." As the keystone wakes, the Skerry Shrine warms and the worst drowned gather — making the Skerries the Coast's deadliest reach.
+Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Skerry Shrine**. **Truly (DM):** the largest of the coastal harvest-nodes — a sea-shrine that "kept" the deep-sea drowned, now half-submerged on a skerry. The wreckers use the Skerries' false-light reefs and stash their worst secrets here; the Gravecallers' boldest come for the drowned that "remember the taking." As the keystone wakes, the Skerry Shrine warms and the worst drowned gather — making the Skerries the Coast's deadliest reach.
 
 ## Entrance
 
-A boat-crossing from Wrackmouth or the wreckers' strand, only in fair weather and the right tide, to a skerry where a drowned Concord shrine stands half-awash. **Telegraphed hard:** every skipper warns against it; storms and tides lock it; false lights lure boats onto the reefs; the worst drowned ring it. A low-level crossing is signposted as drowning.
+Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Skerry Shrine**.
 
 ## Solo Danger Rating
 

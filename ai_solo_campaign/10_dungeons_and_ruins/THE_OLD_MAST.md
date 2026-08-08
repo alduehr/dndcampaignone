@@ -22,11 +22,11 @@ The oldest, deepest heart of the Tollwood, where something older than the Concor
 
 ## History
 
-Publicly: the deep wood the woodfolk forbid and the Concord roads avoid; a place of dread and old stories. **Truly (DM):** the seat of a **pre-Concord power** bound to the land and its oldest dead — neutral, vast, and slow, present before the harvest existed. The Concord, building its continental machine, **could not subsume the Old Mast** and routed its roads around it (the deliberate bends; a parallel to the Reach's Barrow of Nine Doors, where the network was built *over* an older thing it could not fully tap). The Old Mast has slept through the Concord age and the Quietfall. Now, as the keystone reawakens, **it stirs and resents the renewed taking** — its restlessness rippling out as the Tollwood's danger. It is a *witness*, not a player in the harvest: the deepest, most alien corroboration that the dead were taken long ago, available to a player who survives reaching it.
+Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Old Mast**. **Truly (DM):** the seat of a **pre-Concord power** bound to the land and its oldest dead — neutral, vast, and slow, present before the harvest existed. The Concord, building its continental machine, **could not subsume the Old Mast** and routed its roads around it (the deliberate bends; a parallel to the Reach's Barrow of Nine Doors, where the network was built *over* an older thing it could not fully tap). The Old Mast has slept through the Concord age and the Quietfall. Now, as the keystone reawakens, **it stirs and resents the renewed taking** — its restlessness rippling out as the Tollwood's danger. It is a *witness*, not a player in the harvest: the deepest, most alien corroboration that the dead were taken long ago, available to a player who survives reaching it.
 
 ## Entrance
 
-There is no door — the player walks in, past the Old Mast edge (the gated boundary in `TOLLWOOD_SITES.md`), into trees that grow older, darker, and more *aware* with each mile. **Telegraphed hard:** the woodfolk and even the Gravecallers will not come here; the offering-marks end; the dread mounts (Wis DC 14, then 16, cumulative); the wood "watches" and turns the unworthy back. A guide brings the player to the edge and no further. **A low-level intrusion is explicitly suicidal and signposted as such.**
+Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Old Mast**. Campaign-specific: the gated boundary is documented in `../05_regions/wilderness/TOLLWOOD_SITES.md`; the woodfolk and even the Gravecallers will not come here.
 
 ## Solo Danger Rating
 

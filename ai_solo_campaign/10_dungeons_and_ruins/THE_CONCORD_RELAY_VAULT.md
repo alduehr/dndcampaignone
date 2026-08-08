@@ -34,7 +34,7 @@ The Reach's "command-layer" clue site. Where the Deep Adit shows the *harvesting
 
 ## History (Player-Safe)
 
-A sealed Concord cairn-vault high in the Heights, marked with the "dead language," shunned and rumored cursed; the Wardens are said to "keep" it. Scavengers and Remnant scholars covet it; none have opened it.
+Full public appearance and history: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Signal-Cairn**.
 
 ## History (DM-Only)
 
@@ -42,7 +42,7 @@ A Concord **relay/signal station** — part of the network's command layer, wher
 
 ## First Impression
 
-The adit ends at a sealed bronze-and-stone door deep in the cold rock, graven with star-marks and a Warden's later seal laid over the Concord work. Beyond — when it opens — a vaulted chamber of fitted stone, Script running floor to ceiling, and at its center a figure of stone and cold light that turns its head toward you. The air is the thin, wrong cold of a leaking node.
+Full sensory description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Signal-Cairn**.
 
 ## Access / Entrance Routes
 

@@ -34,7 +34,7 @@ A repeatable, scalable exploration zone that (1) gives the clearest *field-proof
 
 ## History (Player-Safe)
 
-The Greyfens are a drowned, treacherous bog the fen-folk navigate by old markers; the dead "go there and can't get through." Greywater Holm is shrinking as its rites fail worst. The Gravecallers are rumored to shelter somewhere in the deep fen.
+Full description of the fen as a delve (route, terrain, hazards, salvage): [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Greyfens Deep**; full physical geography: [`Locations/Orrun/01_geography/wilderness/GREYFENS.md`](../../Locations/Orrun/01_geography/wilderness/GREYFENS.md). Campaign-specific: Greywater Holm is shrinking as its rites fail worst.
 
 ## History (DM-Only)
 
@@ -42,7 +42,7 @@ The Greyfens lie in the basin's pull-shadow: leaked Remembrance drifts here from
 
 ## First Impression
 
-Past the last marker the fen closes in: black water, reed-walls taller than a rider, fog that swallows sound. Lights flicker out over the deep pools where no firm ground should be. And everywhere, drifting at the edge of sight, the dead — all of them turned the same way, west, toward the water, as if the whole bog were a slow tide of the lost.
+Full sensory description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Greyfens Deep**.
 
 ## Access / Entrance Routes
 

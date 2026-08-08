@@ -22,11 +22,11 @@ A small Concord wayside chapel half-swallowed by the peat, where a piece of "sal
 
 ## History
 
-Publicly: an old roadside chapel, abandoned and sinking, full of scavengeable Concord stone. **Truly (DM):** a minor wayside shrine of the old network — a place travelers' dead were "settled" on the road. Its altar-relic is a genuine Remembrance relic. Sinking and leaking, but minor; a safe first taste of the campaign's central horror.
+Public appearance and history: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Peat Chapel**. **Truly (DM):** a minor wayside shrine of the old network — a place travelers' dead were "settled" on the road. Its altar-relic is a genuine Remembrance relic. Sinking and leaking, but minor; a safe first taste of the campaign's central horror.
 
 ## Entrance
 
-A leaning, turf-grown chapel a few hours' walk into the fen from Hollowmere, reachable on a firm finger of ground (no guide strictly needed, but Old Sashe or a local can point the way). **Telegraphed:** the tilted star-spire is visible across the fen; Domic's job-description warns of "fen-damp and maybe a beast."
+Full approach and entrance description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Peat Chapel**. Campaign-specific: Domic's job-description warns of "fen-damp and maybe a beast."
 
 ## Solo Danger Rating
 

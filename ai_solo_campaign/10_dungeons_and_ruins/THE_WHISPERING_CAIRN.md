@@ -22,11 +22,11 @@ A roadside Concord archive-cairn dense with carved old script, where the dead's 
 
 ## History
 
-Publicly: an old Concord road-cairn, one of several, carved with the "dead language." **Truly (DM):** an archive-marker that recorded the local harvest's tally — a census of the dead taken by the network. Its inscriptions, read, are a fair M6/M9 seed (the Concord "kept the pattern of the dead"). It is intact because it sits on firm South Road ground, away from the drowning.
+Public appearance and history: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Whispering Cairn**. **Truly (DM):** an archive-marker that recorded the local harvest's tally — a census of the dead taken by the network. Its inscriptions, read, are a fair M6/M9 seed (the Concord "kept the pattern of the dead"). It is intact because it sits on firm South Road ground, away from the drowning.
 
 ## Entrance
 
-A low stone mound off the South Road, its entrance a star-carved lintel half-buried in turf. **Telegraphed:** Candlewick folk know it; Briss (or a Remnant scholar) leads the player here in Hook 8. Open and obvious — this is an exploration/social site, not a sealed vault.
+Full approach and entrance description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Whispering Cairn**. Campaign-specific: Briss (or a Remnant scholar) leads the player here in Hook 8.
 
 ## Solo Danger Rating
 

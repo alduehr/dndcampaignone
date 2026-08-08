@@ -22,11 +22,11 @@ A maze of tidal sea-caves where wreckers stash their plunder, smugglers move the
 
 ## History
 
-Publicly: dangerous sea-caves the village avoids — wreckers, smugglers, the tide. **Truly (DM):** the wreckers lure or salvage ships and strip the drowned (breaking the Coast's salt-rites, to the Mourners' fury); they fence Concord "sea-relics" (Remembrance relics; M3) through Cole's chain and the Wrack. A Gravecaller current uses the deepest cave (where the drowned answer readily) to recruit the grieving, like young Ferec. The caves connect, at their deepest, toward the Drowned Lamp's leakage — why the drowned gather here.
+Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Wreckers' Caves**. **Truly (DM):** the wreckers lure or salvage ships and strip the drowned (breaking the Coast's salt-rites, to the Mourners' fury); they fence Concord "sea-relics" (Remembrance relics; M3) through Cole's chain and the Wrack. A Gravecaller current uses the deepest cave (where the drowned answer readily) to recruit the grieving, like young Ferec. The caves connect, at their deepest, toward the Drowned Lamp's leakage — why the drowned gather here.
 
 ## Entrance
 
-A shingle cove and a low sea-cave mouth under the headland, accessible only at low-to-mid tide. **Telegraphed:** the village warns against it ("the wreckers, the tide, or the drowned'll have you"); the tide-table governs entry; the wreckers post a lookout.
+Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Wreckers' Caves**.
 
 ## Solo Danger Rating
 

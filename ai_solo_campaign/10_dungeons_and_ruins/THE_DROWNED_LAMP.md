@@ -22,11 +22,11 @@ A "lighthouse" that was never a lighthouse — a Concord sea-shrine that kept th
 
 ## History
 
-Publicly: an old Concord lighthouse, broken in the Quietfall; the songs say its light "called the drowned home." **Truly (DM):** a maritime harvest-node — it settled and "kept" the sea's endless drowned for the Concord. Its lower levels drowned when the cliff-foot gave way. As the keystone reawakens, it warms and "lights" faintly in the fog, pulling the drowned tide-ward — the source of Cobble Strand's worsening dead. The songs remember its true function as superstition.
+Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Drowned Lamp**. **Truly (DM):** a maritime harvest-node — it settled and "kept" the sea's endless drowned for the Concord. Its lower levels drowned when the cliff-foot gave way. As the keystone reawakens, it warms and "lights" faintly in the fog, pulling the drowned tide-ward — the source of Cobble Strand's worsening dead. The songs remember its true function as superstition.
 
 ## Entrance
 
-The Lamp Stair, a cliff-path up from Cobble Strand to the ruined tower on the headland; the upper tower is open ruin, the lower levels reached by a tide-cut stair that floods at high water. **Telegraphed:** the Strand reveres and fears it; the tide-table governs access; the lower stair is wet-cold and wrong; the Lamp "gleams" in fog.
+Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Drowned Lamp**.
 
 ## Solo Danger Rating
 

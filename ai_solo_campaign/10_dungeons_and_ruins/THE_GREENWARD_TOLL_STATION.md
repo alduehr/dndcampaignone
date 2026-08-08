@@ -22,11 +22,11 @@ A flooded Concord toll-vault under the East Road's broken arch, where the road's
 
 ## History
 
-Publicly: an old flooded cellar under the ruined toll-station; the Tollmen avoid it. **Truly (DM):** a minor Concord road-node — part of the continental network's road-conduits — drowned when the causeway broke. It leaks faintly as the keystone reawakens (M2/M5 fragment), drawing the dead to this stretch (the Green Mile drift) and frightening the Tollmen. A direct, low-level demonstration that the road *is* the machine, mirroring the Reach.
+Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Greenward Toll-Station**. **Truly (DM):** a minor Concord road-node — part of the continental network's road-conduits — drowned when the causeway broke. It leaks faintly as the keystone reawakens (M2/M5 fragment), drawing the dead to this stretch (the Green Mile drift) and frightening the Tollmen. A direct, low-level demonstration that the road *is* the machine, mirroring the Reach.
 
 ## Entrance
 
-A choked stair down from the Broken Arch at Tollstone Cross, behind the Tollmen's roost; or a flooded culvert from the Green Mile. **Telegraphed:** the Tollmen won't go down ("the cold stair"); the dead drift near the arch at dusk; the air off the stair is wrong-cold.
+Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Greenward Toll-Station**. Campaign-specific: the Tollmen won't go down ("the cold stair").
 
 ## Solo Danger Rating
 
