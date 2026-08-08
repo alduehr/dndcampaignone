@@ -130,7 +130,7 @@ When an adventure into the Last Telling needs a climax, the natural shape is a c
 
 If your campaign has its own hidden explanation for why the dead linger in the Kept Telling, the Last Telling is intentionally **not** a reflection of it. Do not let players treat the two as connected — the Last Telling's dead-that-never-left is a parallel, independently-arising horror in a different Telling, and nothing found here is evidence about the Kept Telling. If a player draws the comparison out loud, that's a fair and interesting in-fiction observation for a character to make ("this looks like what we're afraid of at home") — just don't let it become a real clue.
 
-Nothing in this file, or anywhere in `/Orrun`, states or hints at what is actually behind the Kept Telling's restless dead. That answer belongs to whatever specific campaign is being run, and lives in that campaign's own DM-only files — never here.
+Nothing in this file, or anywhere in `/Locations/Orrun`, states or hints at what is actually behind the Kept Telling's restless dead. That answer belongs to whatever specific campaign is being run, and lives in that campaign's own DM-only files — never here.
 
 ## Related Files
 

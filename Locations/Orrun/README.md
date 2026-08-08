@@ -2,13 +2,13 @@
 
 ## What This Folder Is
 
-`/Orrun` is a **world-level reference library**, sibling to `/ai_solo_campaign`, not part of it. It exists so the setting of Vael/Orrun can be used independently of "The Long Remembering" (the predetermined solo campaign in `/ai_solo_campaign`) — for one-shots, other campaigns, NPC walk-ons, or just general reference to the world's geography, cities, and everyday dangers.
+`/Locations/Orrun` is a **world-level reference library**, sibling to `/ai_solo_campaign`, not part of it. It exists so the setting of Vael/Orrun can be used independently of "The Long Remembering" (the predetermined solo campaign in `/ai_solo_campaign`) — for one-shots, other campaigns, NPC walk-ons, or just general reference to the world's geography, cities, and everyday dangers.
 
 **Everything in this folder is spoiler-free with respect to the campaign's central mystery.** It contains no hidden-truth material, no faction hidden agendas, no campaign quest hooks, and no DM-only campaign secrets — and it deliberately does not name or hint at what any of them are. It is safe to read, share, or hand to a player of "The Long Remembering" without spoiling anything.
 
 ## Relationship To `/ai_solo_campaign`
 
-| | `/ai_solo_campaign` | `/Orrun` |
+| | `/ai_solo_campaign` | `/Locations/Orrun` |
 |---|---|---|
 | Purpose | Runs one specific predetermined campaign | General-purpose world reference |
 | Canon authority | **Authoritative** for anything campaign-related | Derived from campaign canon, curated for reuse |
@@ -16,12 +16,12 @@
 | Contents | Regions, settlements, NPCs, quests, factions, mysteries, dungeons — all wired into the main arc | Geography, cities, generic wandering encounters, culture, and the world's alternate-timeline cosmology |
 | Who uses it | The AI DM running the campaign | Anyone running anything else in this world |
 
-If `/ai_solo_campaign` and `/Orrun` ever disagree on a plain geography or culture fact, `/ai_solo_campaign` wins — `/Orrun` is a curated extract, not a second source of truth. Do not add campaign-specific plot content here. If you need campaign material, it belongs in `/ai_solo_campaign` instead.
+If `/ai_solo_campaign` and `/Locations/Orrun` ever disagree on a plain geography or culture fact, `/ai_solo_campaign` wins — `/Locations/Orrun` is a curated extract, not a second source of truth. Do not add campaign-specific plot content here. If you need campaign material, it belongs in `/ai_solo_campaign` instead.
 
 ## Folder Structure
 
 ```text
-/Orrun
+/Locations/Orrun
   /00_overview       — world summary, gazetteer index, audits
   /01_geography       — continent, regions, travel routes
     /regions          — 16 region files
@@ -42,5 +42,5 @@ This is genuinely new setting content and has been registered in `ai_solo_campai
 ## Maintenance
 
 - This folder is **not** covered by `SESSION_END_UPDATE_CHECKLIST.md` or the campaign's runtime state — nothing here changes during play of "The Long Remembering."
-- When campaign canon changes in a way that affects public-facing geography/culture, update the corresponding `/Orrun` file too, but only with information that is genuinely public/spoiler-free.
+- When campaign canon changes in a way that affects public-facing geography/culture, update the corresponding `/Locations/Orrun` file too, but only with information that is genuinely public/spoiler-free.
 - New settlements, regions, or generic bestiary entries created for other purposes (one-shots, future campaigns) should go here, not in `/ai_solo_campaign`.

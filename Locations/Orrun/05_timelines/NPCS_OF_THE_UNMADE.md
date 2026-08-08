@@ -31,7 +31,7 @@ Anyone who has crossed into another Telling and come back — especially more th
 
 A retired Caradril relic-appraiser who crossed into a Near Telling twenty years ago looking for a sibling who died young at home — and found them alive there, grown old, a stranger. Now sells Unmade glass out of a back room off the Counting-Quays and keeps a running (accurate, hand-updated) almanac of Between-Hours. Speaks about the Rite with total honesty about its cost, to anyone who'll actually listen before asking the price. **Combat Relevance:** none; Sage-like profile, unarmed and uninterested in danger.
 
-*(This NPC is original to `/Orrun` and does not appear in `ai_solo_campaign/00_control/NAMING_REGISTRY.md`'s campaign NPC rosters — if used in "The Long Remembering," check the registry first per project rules before treating them as established campaign canon.)*
+*(This NPC is original to `/Locations/Orrun` and does not appear in `ai_solo_campaign/00_control/NAMING_REGISTRY.md`'s campaign NPC rosters — if used in "The Long Remembering," check the registry first per project rules before treating them as established campaign canon.)*
 
 ---
 

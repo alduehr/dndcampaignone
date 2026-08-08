@@ -107,7 +107,7 @@ Roughly four kinds, and it is worth knowing which you are picking:
 
 ## Related Files
 
-- [`../00_overview/GAZETTEER_INDEX.md`](../00_overview/GAZETTEER_INDEX.md) — the whole `/Orrun` library
+- [`../00_overview/GAZETTEER_INDEX.md`](../00_overview/GAZETTEER_INDEX.md) — the whole `/Locations/Orrun` library
 - [`../01_geography/CONTINENT_OVERVIEW.md`](../01_geography/CONTINENT_OVERVIEW.md) · [`../01_geography/TRAVEL_AND_ROUTES.md`](../01_geography/TRAVEL_AND_ROUTES.md)
 - [`../02_settlements/`](../02_settlements/) — the towns these sites hang off
 - [`../04_bestiary/FOLK_UNDEAD.md`](../04_bestiary/FOLK_UNDEAD.md) · [`../04_bestiary/ENVIRONMENTAL_HAZARDS.md`](../04_bestiary/ENVIRONMENTAL_HAZARDS.md) · [`../04_bestiary/HUMAN_HAZARDS.md`](../04_bestiary/HUMAN_HAZARDS.md) · [`../04_bestiary/COMMON_WILDLIFE.md`](../04_bestiary/COMMON_WILDLIFE.md)

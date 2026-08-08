@@ -9,7 +9,7 @@ tags: [index, gazetteer, orrun]
 
 ## AI Use
 
-Start here when using `/Orrun`. This indexes every file in the folder by category so a DM (running this campaign or any other game in this world) can find what they need without reading `/ai_solo_campaign`.
+Start here when using `/Locations/Orrun`. This indexes every file in the folder by category so a DM (running this campaign or any other game in this world) can find what they need without reading `/ai_solo_campaign`.
 
 ## Geography — `01_geography/`
 

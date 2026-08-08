@@ -42,7 +42,7 @@ This is not secret lore — it is obscure, scholarly, and unglamorous, the kind 
 
 | Term | Meaning |
 |---|---|
-| **The Kept Telling** | The home world — the one this game, and every settlement/region file in `/Orrun` and `/ai_solo_campaign`, describes. |
+| **The Kept Telling** | The home world — the one this game, and every settlement/region file in `/Locations/Orrun` and `/ai_solo_campaign`, describes. |
 | **A Telling** | Any one complete, self-consistent alternate history. Countless exist; only a handful are ever visited by anyone who lives to describe them. |
 | **The Unmade** | The Tellings collectively, and the cosmological "space" a traveler passes through between them. Not a place with geography of its own — closer to a pressure, a between-ness, than a plane. |
 | **Near Telling** | A Telling that diverged from the Kept Telling recently and locally — a war won instead of lost, a person who lived instead of died, a door opened instead of closed. Mechanically the cheapest and safest to reach. |
