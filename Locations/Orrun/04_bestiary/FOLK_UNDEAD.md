@@ -6,7 +6,7 @@ secrecy: player-safe
 status: static
 region: (world-level; anywhere in Orrun)
 level_range: 1-8
-related: [WANDERING_ENCOUNTERS_BY_TERRAIN.md, ENVIRONMENTAL_HAZARDS.md, ../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md, ../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md]
+related: [WANDERING_ENCOUNTERS_BY_TERRAIN.md, ENVIRONMENTAL_HAZARDS.md, ../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md, ../../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md]
 tags: [type:encounter, secrecy:player-safe, function:bestiary, undead, folk-belief, roleplay-encounter, generic, solo-tuned]
 ---
 
@@ -152,5 +152,5 @@ Everything else — talking, refusing, ignoring, walking past, failing the rite,
 - [`WANDERING_ENCOUNTERS_BY_TERRAIN.md`](WANDERING_ENCOUNTERS_BY_TERRAIN.md)
 - [`ENVIRONMENTAL_HAZARDS.md`](ENVIRONMENTAL_HAZARDS.md)
 - [`HUMAN_HAZARDS.md`](HUMAN_HAZARDS.md)
-- [`../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md`](../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md)
-- [`../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md`](../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md)
+- [`../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md`](../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md)
+- [`../../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md`](../../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md)

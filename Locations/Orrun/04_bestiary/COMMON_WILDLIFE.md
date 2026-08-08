@@ -6,7 +6,7 @@ secrecy: player-safe
 status: static
 region: (world-level; any terrain in Orrun)
 level_range: 1-10
-related: [WANDERING_ENCOUNTERS_BY_TERRAIN.md, ENVIRONMENTAL_HAZARDS.md, HUMAN_HAZARDS.md, ../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md, ../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md]
+related: [WANDERING_ENCOUNTERS_BY_TERRAIN.md, ENVIRONMENTAL_HAZARDS.md, HUMAN_HAZARDS.md, ../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md, ../../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md]
 tags: [type:encounter, secrecy:player-safe, function:bestiary, wildlife, beasts, terrain, generic, solo-tuned]
 ---
 
@@ -217,5 +217,5 @@ These are reskins with stated anchors, in the project's abbreviated profile styl
 - [`WANDERING_ENCOUNTERS_BY_TERRAIN.md`](WANDERING_ENCOUNTERS_BY_TERRAIN.md)
 - [`ENVIRONMENTAL_HAZARDS.md`](ENVIRONMENTAL_HAZARDS.md)
 - [`HUMAN_HAZARDS.md`](HUMAN_HAZARDS.md)
-- [`../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md`](../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md)
-- [`../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md`](../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md)
+- [`../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md`](../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md)
+- [`../../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md`](../../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md)

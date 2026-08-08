@@ -12,7 +12,7 @@ related: [THE_UNMADE_OVERVIEW.md, THE_LAST_TELLING.md, TELLING_TIERS_AND_RANDOM_
 
 ## AI Use
 
-Load this file whenever a player wants to attempt crossing into another Telling, wants to return from one, or asks how the mechanics work. This is D&D 5e/2024-compatible: no new subsystem, just a costly ritual with clear DCs, material costs, and consequences, per `../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md`.
+Load this file whenever a player wants to attempt crossing into another Telling, wants to return from one, or asks how the mechanics work. This is D&D 5e/2024-compatible: no new subsystem, just a costly ritual with clear DCs, material costs, and consequences, per `../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md`.
 
 ## Design Intent
 

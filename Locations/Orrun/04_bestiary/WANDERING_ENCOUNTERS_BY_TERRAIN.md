@@ -6,7 +6,7 @@ secrecy: player-safe
 status: static
 region: (world-level; any terrain in Orrun)
 level_range: 1-10
-related: [COMMON_WILDLIFE.md, HUMAN_HAZARDS.md, ENVIRONMENTAL_HAZARDS.md, FOLK_UNDEAD.md, ../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md]
+related: [COMMON_WILDLIFE.md, HUMAN_HAZARDS.md, ENVIRONMENTAL_HAZARDS.md, FOLK_UNDEAD.md, ../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md]
 tags: [type:encounter, secrecy:player-safe, function:travel, function:random-tables, terrain, generic, solo-tuned]
 ---
 
@@ -189,4 +189,4 @@ A variant should **change the decision** (camp, reroute, pay, push on at a cost)
 - [`HUMAN_HAZARDS.md`](HUMAN_HAZARDS.md)
 - [`ENVIRONMENTAL_HAZARDS.md`](ENVIRONMENTAL_HAZARDS.md)
 - [`FOLK_UNDEAD.md`](FOLK_UNDEAD.md)
-- [`../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md`](../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md)
+- [`../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md`](../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md)

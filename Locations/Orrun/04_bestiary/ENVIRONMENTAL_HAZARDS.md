@@ -6,7 +6,7 @@ secrecy: player-safe
 status: static
 region: (world-level; any terrain in Orrun)
 level_range: 1-20
-related: [WANDERING_ENCOUNTERS_BY_TERRAIN.md, COMMON_WILDLIFE.md, HUMAN_HAZARDS.md, FOLK_UNDEAD.md, ../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md]
+related: [WANDERING_ENCOUNTERS_BY_TERRAIN.md, COMMON_WILDLIFE.md, HUMAN_HAZARDS.md, FOLK_UNDEAD.md, ../../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md]
 tags: [type:encounter, secrecy:player-safe, function:hazards, terrain, weather, travel, generic, solo-tuned]
 ---
 
@@ -154,4 +154,4 @@ The signature terrain of much of Orrun and the most reliably dangerous ordinary 
 - [`COMMON_WILDLIFE.md`](COMMON_WILDLIFE.md)
 - [`HUMAN_HAZARDS.md`](HUMAN_HAZARDS.md)
 - [`FOLK_UNDEAD.md`](FOLK_UNDEAD.md)
-- [`../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md`](../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md)
+- [`../../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md`](../../../ai_solo_campaign/00_control/DND_MECHANICS_REQUIREMENTS.md)

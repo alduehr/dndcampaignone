@@ -6,7 +6,7 @@ secrecy: player-safe
 status: static
 region: (world-level; the Unmade / the Last Telling)
 level_range: 1-16 (varies by entry)
-related: [THE_UNMADE_OVERVIEW.md, THE_RITE_OF_THE_BROKEN_THRESHOLD.md, THE_LAST_TELLING.md, ../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md]
+related: [THE_UNMADE_OVERVIEW.md, THE_RITE_OF_THE_BROKEN_THRESHOLD.md, THE_LAST_TELLING.md, ../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md]
 tags: [type:encounter, secrecy:player-safe, function:bestiary, timelines, last-telling, solo-tuned]
 ---
 
@@ -90,4 +90,4 @@ Abbreviated, D&D 5e/2024-compatible adversary profiles for excursions into Near/
 - [`THE_UNMADE_OVERVIEW.md`](THE_UNMADE_OVERVIEW.md)
 - [`THE_RITE_OF_THE_BROKEN_THRESHOLD.md`](THE_RITE_OF_THE_BROKEN_THRESHOLD.md)
 - [`THE_LAST_TELLING.md`](THE_LAST_TELLING.md)
-- [`../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md`](../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md)
+- [`../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md`](../../../ai_solo_campaign/00_control/RULESET_ASSUMPTIONS.md)

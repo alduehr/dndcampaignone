@@ -98,4 +98,4 @@ A mirror of `/ai_solo_campaign/maps`. That copy is authoritative (it's wired int
 ## Related Files
 
 - [`../README.md`](../README.md) — what this folder is and how it relates to `/ai_solo_campaign`
-- [`../../ai_solo_campaign/00_control/NAMING_REGISTRY.md`](../../ai_solo_campaign/00_control/NAMING_REGISTRY.md) — proper-noun registry (includes the new Timelines terms)
+- [`../../../ai_solo_campaign/00_control/NAMING_REGISTRY.md`](../../../ai_solo_campaign/00_control/NAMING_REGISTRY.md) — proper-noun registry (includes the new Timelines terms)
