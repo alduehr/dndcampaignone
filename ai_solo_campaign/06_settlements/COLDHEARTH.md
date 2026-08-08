@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.
 
 ## Public Overview
 
-Coldhearth burns the Tollwood's charcoal — the trade that feeds Hartfell's smiths and the city's foundries — and has done so, family by family, since before anyone's reckoning. They keep the **old forest-customs** the road-towns only half-remember: the toll-shrines, the marked trees, the bargains with the wood. They distrust the Ledger, fear the deep wood, and shelter (uneasily) the Gravecallers, who alone treat the deep dead with the respect Coldhearth thinks they're owed. Outsiders come here for one thing: a guide who can keep them alive in the deep wood.
+Full public overview: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Coldhearth**. Campaign-specific: Coldhearth uneasily shelters the **Gravecallers**, who alone treat the deep dead with the respect Coldhearth thinks they're owed.
 
 ## DM-Only Truth
 

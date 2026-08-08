@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLE
 
 ## Public Overview
 
-Saint Veddow's Rest venerates a Frontier-Age holy woman said to have "settled the restless dead with a touch" — the most beloved death-saint of the Vale. Her hill-tomb is the oldest intact Threshold shrine for a hundred miles and the Vale's great pilgrimage. The **Mourners' Circle** keeps the shrine; a resident **Ashen Warden** chapter (unusual — Wardens usually wander) guards the inner tomb and aids the pilgrims; relic-sellers and hostels live off the trade. It is a place of real comfort and real money, both now under strain.
+Full public overview: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Saint Veddow's Rest**.
 
 ## DM-Only Truth
 

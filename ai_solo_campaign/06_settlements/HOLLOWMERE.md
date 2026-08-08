@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTL
 
 ## Public Overview
 
-Founded ~AQ 12, Hollowmere grew because the basin's edge offered firm ground, peat to cut, fish to net, and ruins to scavenge. It became the Reach's largest town and the seat of the **Reachward Compact**. Its people are farmers, peat-cutters, fishers, coopers, and salvagers. The town is governed by **Reeve Marda Coalmont** and the Compact council, served by the **Mourners' Circle** at its cemetery and visited by **Ashen Wardens** when rites fail. The **Cinder Ledger** keeps a counting-house here. Lately the town is frightened: rites are failing, and now one of their own — the midwife Wren — has come back wrong.
+Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Hollowmere**. Campaign-specific: the town is governed by **Reeve Marda Coalmont** and the Compact council; the **Cinder Ledger** keeps a counting-house here; and now one of their own — the midwife Wren — has come back wrong (the opening crisis; see DM-Only Truth below).
 
 ## DM-Only Truth
 

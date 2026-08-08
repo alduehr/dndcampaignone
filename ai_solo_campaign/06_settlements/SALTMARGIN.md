@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTL
 
 ## Public Overview
 
-Saltmargin grew where the Pale Coast's salt-carts meet the Reach's peat-roads. It refines and sells the rite-salt that every Reach household pours at the sill — and since the rites began failing worse, demand has tripled and so has the price. The **Cinder Ledger** runs the weigh-house and sets the rate. The **Reachward Compact** keeps a thin watch here. A **Mourners' Circle** chapter blesses each shipment. The town is prosperous, anxious, and resented by inland villages who think Saltmargin is bleeding them dry.
+Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Saltmargin**. Campaign-specific: since the rites began failing worse, demand for rite-salt has tripled and so has the price (see DM-Only Truth below).
 
 ## DM-Only Truth
 

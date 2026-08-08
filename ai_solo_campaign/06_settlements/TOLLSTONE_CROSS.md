@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.
 
 ## Public Overview
 
-Tollstone Cross grew up around an old Concord toll-station at the East Road's worst chokepoint. For a generation it's been run by the **road-bandits** — the **Tollmen** — who levy a "toll" on every cart and call it protection (which, against the wood and rival bandits, it half is). The **Compact** can't dislodge them and the **Ledger** finds it cheaper to pay than fight, so the toll endures. A handful of honest folk — a smith, an ale-wife, a Mourner — live alongside the Tollmen because there's nowhere else for three days of forest.
+Full public overview: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Tollstone Cross**. Campaign-specific: the road-bandits are named the **Tollmen**.
 
 ## DM-Only Truth
 

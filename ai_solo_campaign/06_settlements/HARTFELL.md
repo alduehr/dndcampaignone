@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.
 
 ## Public Overview
 
-Hartfell is the Tollwood's only town — the place the East Road trade pools, where timber and charcoal are weighed and the city's goods are sold on to the wood. The **Cinder Ledger** runs the big sawmill, the timber-weigh, and the credit; the **Reachward Compact** keeps a road-watch that mostly guards the trade; a **Mourners' Circle** chapter keeps the old forest-customs alongside the road-faith. It's prosperous, rough, and pragmatic — and it survives by respecting the wood's rules even as the Ledger profits by breaking them.
+Full public overview: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Hartfell**. Campaign-specific: the town survives by respecting the wood's rules even as the Ledger profits by quietly breaking them.
 
 ## DM-Only Truth
 

@@ -6,6 +6,37 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-08-08 — Locations/Orrun Split: Safety Audit + Settlement Public Overview Cleanup (Pass 5)
+
+### Stage
+Post-Stage-16 repo-structure pass (user-directed). User asked for a safety audit of Passes 1-4 ("are all the changes safe... make sure nothing important was removed... make sure the remaining information is all campaign specific") before treating the duplication-cleanup task as closed.
+
+### Summary
+Full audit of every diff from Passes 1-4 (~79 files, ~90 removed-content hunks across regions, settlements, wilderness, and dungeons/ruins) by cross-checking each removed passage against its `Locations/Orrun` counterpart. Result: every substantive fact that was removed from `ai_solo_campaign` is confirmed present in `Locations/Orrun`, generally near-verbatim. One minor loose end found and fixed: `THE_PEAT_CHAPEL.md`'s Entrance trim dropped the specific detail that **Old Sashe** (a named NPC, already the guide at the Barrow of Nine Doors) can also point the way here — Orrun's generic "any local can point out the line" covered the functional fact but not the NPC attribution; restored as a trailing campaign-specific note.
+
+The audit's second half — "is the remaining information all campaign specific" — surfaced a real, previously-unaudited duplication class: the `## Public Overview` section in all 16 standalone settlement files (everything in `06_settlements/` except `CARADRIL.md`, which got this treatment in Pass 2) still substantially restated Orrun's founding/economy/population/governance prose, near-verbatim in several cases (e.g. Kettle Bridge's "the best place in the Reach to hear news and the worst to keep a secret" / Orrun's "the liveliest place in the Reach and the worst place in it to keep a secret"). Pass 2's log only checked First Impression and Laws and Customs for this pattern; Public Overview was missed for the 16 non-Caradril files. Fixed all 16: trimmed to a pointer at the matching `Locations/Orrun/02_settlements/*.md` section, preserving only what Orrun genuinely lacks — named individual leadership (Orrun's stated policy is to name no current officeholders), named-faction plot hooks (Concord Remnant's interest in Candlewick's archive-stone, Coldhearth/Greywater Holm sheltering or drifting toward the Gravecallers), and plot-escalation facts tied to DM-Only Truth (Hollowmere's "Wren has come back wrong," Saltmargin's tripled rite-salt demand, Ashwalk Rest's crisis-level traffic).
+
+Also confirmed by design, not fixed: `Named Sites`/`Zone List`, `Hazards`, and `Creatures/Adversaries` sections in wilderness (`05_regions/wilderness/*_SITES.md`) and dungeon (`10_dungeons_and_ruins/*.md`) files retain real overlap with their Orrun counterparts beyond pure atmosphere. This is intentional per `DND_MECHANICS_REQUIREMENTS.md` and `WORLDBUILDING_STANDARDS.md`'s Wilderness/Dungeon Standards, which require hazard DCs, room/zone lists, and encounter stat references to live in the campaign file for mechanical self-containment, and because clue/secret content is interwoven with the physical description sentence-by-sentence in ways that can't be surgically split without risking deletion of campaign-unique material (documented rationale in the Pass 3/4 log entries above). Orrun independently maintains its own spoiler-free version of the same generic content for pure "what does a traveler see" queries — this is accepted, bounded overlap, not missed cleanup.
+
+### Files Changed
+- `ai_solo_campaign/10_dungeons_and_ruins/THE_PEAT_CHAPEL.md` — restored the Old Sashe guide detail
+- `ai_solo_campaign/06_settlements/*.md` (16: Candlewick, Cobble Strand, Coldhearth, Greywater Holm, Harrowgast, Hartfell, Hollowmere, Kettle Bridge, Orchardmere, Reedford, Saint Veddow's Rest, Saltmargin, The Ashwalk Rest, Tilbrook, Tollstone Cross, Wrackmouth) — Public Overview trimmed to pointers
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md` — "Entering a settlement" bullet now covers Public Overview, not just First Impression/Laws and Customs
+
+### Canon Established
+None — no world facts changed, only where existing facts are stored, plus one restored NPC-attribution detail.
+
+### Indexes Updated
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md`
+
+### Gaps Identified
+None outstanding. The bounded, by-design overlap in wilderness/dungeon Named Sites/Hazards/Encounters sections (see Summary) is not a gap — it's a documented mechanical-completeness requirement, not missed cleanup.
+
+### Next Recommended Pass
+The duplication-cleanup task (Passes 1-5) is now verified complete and safe. Resume normal content production; if new region/settlement/wilderness/dungeon content is added, follow the same split (mechanics/secrets/NPCs in `ai_solo_campaign`, spoiler-free physical/sensory description in `Locations/Orrun`, cross-pointer both ways) from the start rather than needing a later cleanup pass.
+
+---
+
 ## 2026-08-08 — Locations/Orrun Split: Maps Mirror + Region Duplication Cleanup (Pass 1 of 4)
 
 ### Stage

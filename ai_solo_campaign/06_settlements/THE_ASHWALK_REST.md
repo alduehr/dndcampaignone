@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTL
 
 ## Public Overview
 
-The Ashwalk Rest is the Ashen Wardens' main waystation in the Reach — not a town, but a crossroads sanctuary maintained by the order for centuries. Wardens base out of it; travelers shelter under its protection; the failing-rites crisis has it busier than it has ever been, a constant churn of grey cloaks heading out to answer calls and stumbling back exhausted. A **Mourners' Circle** keeper shares the hall. It charges nothing but accepts labor, food, and donations. It is the safest roof between any two Reach towns.
+Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **The Ashwalk Rest**. Campaign-specific: the failing-rites crisis has it busier than it has ever been — a constant churn of grey cloaks heading out to answer calls and stumbling back exhausted.
 
 ## DM-Only Truth
 

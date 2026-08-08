@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLE
 
 ## Public Overview
 
-Orchardmere is the richest town the Reach-side traveler is likely to have seen — cider, nuts, wool, and grain flow south to Caradril and the fees flow back. It governs the Vale through the **harvest-moot**, a council of orchard-masters and shrine-keepers chaired by the **Moot-Reeve**. The **Mourners' Circle** here is the oldest and most powerful chapter in this part of Orrun, and the town defers to its elder in all matters of the dead. The town is proud that "the rites hold in the Vale" — and increasingly, quietly, terrified that they no longer do.
+Full public overview: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Orchardmere**. Campaign-specific: the harvest-moot is chaired by the **Moot-Reeve** (Halsa Tindle — see Local Leadership below).
 
 ## DM-Only Truth
 

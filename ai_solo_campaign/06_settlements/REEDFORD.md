@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTL
 
 ## Public Overview
 
-Reedford cuts and dries the reed that thatches half the Reach and ferries travelers across the ford. Perhaps eighty people, most of them three or four families. There is no resident authority — a Hollowmere wardman rides through weekly, and a **Mourners' Circle** widow tends the single shrine-stone. **Ashen Wardens** stop on their way to and from Kettle Bridge. It is a waypoint, a meal, and a bed of straw for travelers, and otherwise keeps to itself.
+Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Reedford**. Campaign-specific: **Ashen Wardens** stop here on their way to and from Kettle Bridge.
 
 ## DM-Only Truth
 

@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTL
 
 ## Public Overview
 
-Candlewick is the Reach's breadbasket-in-miniature and its candle-works. It sits on firm Vale-edge ground, so its rites still mostly *hold* — which has made it a refuge for families fleeing the deep fens and a point of quiet pride bordering on smugness. The **Reachward Compact** governs through a respected hayward. The **Mourners' Circle** is strong and traditional here. Lately the village has drawn an unusual visitor: scholars from Caradril come to study the archive-stone, and the **Concord Remnant** has taken an interest. Candlewick is wary of the attention but flattered by it.
+Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Candlewick**. Campaign-specific: among the visiting scholars, the **Concord Remnant** specifically has taken an interest in the archive-stone; Candlewick is wary of the attention but flattered by it.
 
 ## DM-Only Truth
 

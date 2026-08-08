@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENT
 
 ## Public Overview
 
-Cobble Strand fishes the cove and works the near salt-pans, scraping a hard living under the Ledger's salt-price. Its faith is the **Mourners' Circle** in its purest coastal form — the **salt-and-tide rites** that settle the sea's drowned dead, kept by the **Salt-Mother**. The village has always lived close to the dead, because the sea is always giving them back; lately it gives them back faster than the rites can settle them. The Strand reveres and fears the Drowned Lamp above it — the old light that, the songs say, "called the drowned home."
+Full public overview: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md) → **Cobble Strand**. Campaign-specific: the village's salt-mother is named **Bryd**; lately the sea gives back its dead faster than the rites can settle them (see DM-Only Truth below).
 
 ## DM-Only Truth
 

@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTL
 
 ## Public Overview
 
-Kettle Bridge grew on the toll. Whoever crosses the Mirewend overland passes here, and the Compact funds half its budget from the bridge-fee. It is a river-port: peat barges, salt-carts, Tollwood timber, and pilgrims all pass through. The **Reachward Compact** governs it directly through a resident bailiff. The **Cinder Ledger** runs the toll-farm and the grain-mill. **Ashen Wardens** and the **Mourners' Circle** both keep houses here because the failing rites strike travelers and locals alike. It is prosperous, factional, and full of strangers — which makes it the best place in the Reach to hear news and the worst to keep a secret.
+Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Kettle Bridge**. Campaign-specific: **Ashen Wardens** and the **Mourners' Circle** both keep houses here because the failing rites strike travelers and locals alike (see DM-Only Truth below).
 
 ## DM-Only Truth
 

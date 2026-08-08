@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTL
 
 ## Public Overview
 
-Harrowgast was a Concord mining-delving before the Quietfall and a salvage-town after. Its people dig the abandoned upper tunnels for Concord stone, metal, and "old glass" — which the **Cinder Ledger** buys eagerly at a Heights weigh-post. The **Reachward Compact** barely reaches here; a single overseer keeps nominal order. **Concord Remnant** salvage-crews have begun arriving, paying better than the Ledger and asking strange questions about how deep the tunnels go. It is poor, hard, and lawless at the edges, and the cold makes everything worse.
+Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Harrowgast**. Campaign-specific: **Concord Remnant** salvage-crews have begun arriving, paying better than the Ledger and asking strange questions about how deep the tunnels go.
 
 ## DM-Only Truth
 

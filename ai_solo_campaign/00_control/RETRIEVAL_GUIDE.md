@@ -56,7 +56,7 @@ Then load the world files for the current location, active quests, and NPCs pres
 - **Reveal cap: R1 only.** Never surface Remembrance-as-substance, Reke's treachery, the harvest, or the Hollow Court.
 
 ### Entering a settlement (any)
-- **Full sensory description (First Impression) and general customs/law baseline:** the matching `Locations/Orrun/02_settlements/*.md` file — as of the 2026-08 duplication cleanup, campaign settlement files no longer restate this and instead point at the specific settlement's section within it (Orrun groups multiple settlements per region file, so it's a many-to-one mapping; Caradril districts point at `Locations/Orrun/02_settlements/CARADRIL.md`'s per-district sections). Load this for "what does it look like / what's normal here" questions.
+- **Full sensory description (First Impression), general public overview (founding/economy/population), and general customs/law baseline:** the matching `Locations/Orrun/02_settlements/*.md` file — as of the 2026-08 duplication cleanup, campaign settlement files no longer restate this and instead point at the specific settlement's section within it (Orrun groups multiple settlements per region file, so it's a many-to-one mapping; Caradril districts point at `Locations/Orrun/02_settlements/CARADRIL.md`'s per-district sections). Load this for "what does it look like / what's normal here / who lives here and how" questions.
 - The settlement file (`06_settlements/...`) — campaign layer: DM-only truth, named NPCs/factions, secrets, hooks, current tensions, law/threat DCs
 - The parent region file if not loaded
 - `08_npcs/NPC_INDEX.md` → the relevant NPC roster files for NPCs present

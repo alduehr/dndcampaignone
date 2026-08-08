@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLE
 
 ## Public Overview
 
-Tilbrook mills the Vale's grain and grows what the orchard-towns don't — a working village of millers, ploughmen, and a few weavers. It owes most of its land to the **Cinder Ledger**, which has been foreclosing as harvests tighten. The **Mourners' Circle** here is small and plain — no grand shrine, just a grave-field and an old woman who sings the passings. Tilbrook is tied to the Compact in name and resents Orchardmere's moot in fact. Folk here say what the shrine-towns won't: *the rites are failing in the Vale, same as everywhere, and the fat keepers are lying about it.*
+Full public overview: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Tilbrook**. Campaign-specific: Tilbrook is tied to the Compact in name and resents Orchardmere's moot in fact, and says openly what the shrine-towns won't — that the rites are failing in the Vale and "the fat keepers are lying about it" (see Orchardmere's cover-up, `ORCHARDMERE.md`).
 
 ## DM-Only Truth
 

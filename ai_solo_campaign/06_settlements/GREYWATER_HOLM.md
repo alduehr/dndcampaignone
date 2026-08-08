@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTL
 
 ## Public Overview
 
-Greywater Holm was a peat-cutting and fowling village of perhaps two hundred souls. It is now perhaps half that and falling — families leave for Hollowmere or Kettle Bridge because here, on the Greyfens' lip, the rites fail more than they hold. The **Mourners' Circle** is the only real authority, led by an exhausted elder. **Ashen Wardens** come when they can, which is not often enough. There is no Compact watch and no Ledger house. The village is poor, frightened, grieving, and increasingly fertile ground for the one group that promises the grieving a *last word*.
+Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Greywater Holm**. Campaign-specific: **Ashen Wardens** visit when they can, which is not often enough; the village is increasingly fertile ground for the **Gravecallers**, who promise the grieving a *last word*.
 
 ## DM-Only Truth
 

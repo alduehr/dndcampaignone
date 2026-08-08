@@ -26,7 +26,7 @@ Full sensory description: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENT
 
 ## Public Overview
 
-Wrackmouth is the Pale Coast's port and capital — where the fish, the salt, and the frontier's trade all pass. The **Cinder Ledger** runs the salt-works, the weigh-house, and the harbor-credit, and sets the salt-price the whole frontier pays. The town governs itself through a **harbor-moot** under a **Harbor-Reeve**, with the Compact a thin presence. A strong **Mourners' Circle** keeps the salt-and-tide death-rites — vital here, where the sea returns its dead constantly. It is prosperous, hard, independent, and increasingly frightened by a drowned-tide that won't stay down.
+Full public overview: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md) → **Wrackmouth**.
 
 ## DM-Only Truth
 

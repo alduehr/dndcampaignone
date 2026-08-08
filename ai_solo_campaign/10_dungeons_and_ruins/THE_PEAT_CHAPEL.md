@@ -26,7 +26,7 @@ Public appearance and history: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Peat Chapel**. Campaign-specific: Domic's job-description warns of "fen-damp and maybe a beast."
+Full approach and entrance description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Peat Chapel**. Campaign-specific: Domic's job-description warns of "fen-damp and maybe a beast"; Old Sashe or a local can point the way, though no guide is strictly needed.
 
 ## Solo Danger Rating
 
