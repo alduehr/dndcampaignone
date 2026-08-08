@@ -34,10 +34,7 @@ The deeper secret: **Saint Veddow's Rest is a major Concord shrine the harvest n
 
 ## Geography
 
-- **Terrain:** rolling farmland and low green hills; cider- and nut-orchards; hedgerows, drystone walls, water-meadows; a few standing **Concord field-shrines** ploughed around for a century; the broad, slow **Ammet** river and **Orchardmere lake**.
-- **Climate:** temperate and kind by Orrun standards — true summers, mild winters, autumn harvest the year's great event. Campaign starts in mid-autumn (Greyfall), so the player arrives partway through the death-rite season, just after the tail of harvest, with cider-pressing and the dead-time (the Vale's funeral season) just beginning.
-- **Boundaries:** Sundering Reach (N), Tollwood (E, across the Ammet headwaters), Caradril and its hinterland (SE/S), open downs and unbuilt country (W/SW).
-- **Defining features:** **Saint Veddow's Rest** (the pilgrimage hill); **Orchardmere lake**; the **Ammet** river; the **South Road** Concord causeway; scattered field-shrines and orchard-buried ruins.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/ASHGARDEN_VALE.md`](../../Locations/Orrun/01_geography/regions/ASHGARDEN_VALE.md). Campaign starts in mid-autumn (Greyfall), so the player arrives partway through the death-rite season, just after the tail of harvest, with cider-pressing and the dead-time (the Vale's funeral season) just beginning.
 
 ## Major Settlements
 
@@ -55,7 +52,7 @@ One zone file holds the Vale's named sites (`wilderness/ASHGARDEN_VALE_SITES.md`
 
 ## Travel Routes
 
-See `../04_world_atlas/TRAVEL_ROUTES_RING1.md`. The **South Road** (Concord causeway) runs Candlewick → Tilbrook → Orchardmere (~3–4 days from Candlewick; ~6 from Hollowmere) and continues south/southeast toward Caradril (~5–6 more days). A pilgrim-track climbs from Orchardmere to Saint Veddow's Rest (half a day). The Vale roads are the safest in Ring 1: maintained, patrolled by harvest-moot wardens, and busy.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/ASHGARDEN_VALE.md`](../../Locations/Orrun/01_geography/regions/ASHGARDEN_VALE.md) (Travel Routes section). See also `../04_world_atlas/TRAVEL_ROUTES_RING1.md`.
 
 ## Factions Present
 

@@ -32,10 +32,7 @@ The Reach is the **keystone of the Concord's harvest.** The drowned shrine benea
 
 ## Geography
 
-- **Terrain:** peat fens, moorland, slow rivers, scattered firm "holms" (islands of dry ground) where villages sit; broken highlands (the Sunder Heights) to the north.
-- **Climate:** cold, wet, foggy; brutal winters; campaign begins in mid-autumn (Greyfall).
-- **Boundaries:** Sunder Heights (N), Pale Coast (W), Ashgarden Vale (S), Tollwood (E).
-- **Defining features:** the **Hollowmere basin** and its drowned shrine; the **Mirewend River**; the fog-bound **Greyfens**; raised **Concord roads**; scattered **shrine-stones** and **archive cairns**.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/SUNDERING_REACH.md`](../../Locations/Orrun/01_geography/regions/SUNDERING_REACH.md). Campaign-specific: the drowned shrine beneath the Hollowmere basin (see DM-Only Truth above).
 
 ## Major Settlements
 
@@ -61,7 +58,7 @@ Four zone files hold ~25 named sites (`../05_regions/wilderness/`):
 
 ## Travel Routes
 
-See `../04_world_atlas/MAP_DESCRIPTION.md` travel table. In-region: Concord roads (safe-ish, 0.5–2 days between sites); off-road fen travel (double time, hazardous, needs a guide).
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/SUNDERING_REACH.md`](../../Locations/Orrun/01_geography/regions/SUNDERING_REACH.md) (Travel Routes section). See also `../04_world_atlas/MAP_DESCRIPTION.md`.
 
 ## Factions Present
 

@@ -6,6 +6,38 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-08-08 — Locations/Orrun Split: Maps Mirror + Region Duplication Cleanup (Pass 1 of 4)
+
+### Stage
+Post-Stage-16 repo-structure pass (user-directed). Follow-up to the 2026-08-01/02 `/Orrun` extraction passes.
+
+### Summary
+Three related structural changes, all user-directed: (1) moved `/Orrun` to `/Locations/Orrun` and fixed all cross-references; (2) copied `ai_solo_campaign/maps/` (manifest + 9 image assets) into `Locations/Orrun/maps/` as a read-only mirror, since `ai_solo_campaign/maps/` stays authoritative for the DungeonMaster app onboarding contract (`dm.campaign.json`'s `contentRoot`); (3) began eliminating content duplication between `ai_solo_campaign` and `Locations/Orrun` — the user does not want the same geography written twice. Pass 1 covers all 16 region files in `05_regions/`: their `## Geography` and `## Travel Routes` sections (pure physical/climate/culture/route description, already fully — and often more richly — covered in `Locations/Orrun/01_geography/regions/`) were replaced with short pointers to the matching Orrun file. Campaign-specific mechanical content inside those sections (DCs, named-NPC tolls, quest-tied access gates, coordinate/cartography-authority pointers to `region_map_packets/`) was preserved, not deleted. Nothing else in the region files (DM-Only Truth, Factions Present, Regional Secrets, Quest Hooks, Level Range And Solo Danger, Encounter And Hazard Mechanics, Regional Clocks, etc.) was touched — those are campaign-specific and not duplicated anywhere in Orrun by design (Orrun strips all secret/clue/hook/NPC material).
+
+Settlements (18 files), wilderness sites (7 files), and dungeons/ruins (41 files) are the same cleanup, scoped by the user, but not yet done — see TODO.md.
+
+### Files Changed
+- `Locations/Orrun/` — moved from `/Orrun` (58 files, git-tracked renames)
+- `Locations/Orrun/maps/manifest.json` + `Locations/Orrun/maps/assets/*.png` (9 files) — new, mirrored from `ai_solo_campaign/maps/`
+- `Locations/Orrun/README.md` — added "Maps" section documenting the mirror relationship and update order
+- `Locations/Orrun/00_overview/GAZETTEER_INDEX.md` — added Maps section
+- `ai_solo_campaign/00_control/NAMING_REGISTRY.md` — path references updated (`/Orrun` → `/Locations/Orrun`)
+- `ai_solo_campaign/05_regions/*.md` (all 16) — Geography + Travel Routes sections trimmed to pointers
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md` — "Entering a region" and "Entering a far-continent region" sections now direct the AI DM to load the matching `Locations/Orrun/01_geography/regions/` file for physical geography/climate/culture/travel-times, alongside the campaign region file for everything else
+
+### Canon Established
+None — no world facts changed, only where existing facts are stored.
+
+### Indexes Updated
+- `Locations/Orrun/00_overview/GAZETTEER_INDEX.md`
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md`
+
+### Gaps Identified
+- Settlements, wilderness sites, and dungeons/ruins still duplicate geography with `Locations/Orrun` — scoped for follow-up passes (see TODO.md). These are riskier than regions: clue/secret/hook/NPC content is interwoven sentence-by-sentence with physical/hazard description in the source files, not cleanly sectioned, so the cut has to be judged per file rather than pattern-replaced.
+
+### Next Recommended Pass
+Settlements cleanup (18 files, `06_settlements/*.md` vs `Locations/Orrun/02_settlements/*.md` — note the Orrun side groups multiple settlements per region file, so mapping is many-to-one, not 1:1 like regions).
+
 ## 2026-07-28 — DungeonMaster Maps Contract Alignment
 
 ### Stage

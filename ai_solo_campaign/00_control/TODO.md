@@ -56,6 +56,29 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 - [x] Stage 9: NPC Codex Expansion — 2026-06-12 (pass 1 + pass 2 + completion/cleanup pass). Final counts: **50 major** (24 in `MAJOR_NPCS.md` + 8 in `by_region/CARADRIL_MAJOR_NPCS.md` + 18 new/elevated in `by_region/STAGE_9_MAJOR_NPCS.md`), **~200 secondary** (64 base + 136 in `by_region/STAGE_9_SECONDARY_NPCS.md`), **521 minor** (92 base + 403 in `by_region/STAGE_9_MINOR_NPCS.md` Waves 1–7 + 26 far-continent). Infrastructure (`NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md` [DM-only], `NPC_VOICE_GUIDE.md`) created and now covers all 50 majors. Faction ladders complete at every level; Hollow Court secrecy preserved; no new factions/gods/mysteries/artifacts. Counts reconciled across STAGE_9_PROGRESS / STAGE_STATUS / NPC_INDEX / CONTENT_INDEX.
 - [x] Stage 8: Faction Deepening — 2026-06-11. All seven major factions made fully operational: 4-quest chains per faction (28 quest files + 7 chain indexes in `09_quests/faction_quests/`), "Combat Capability And Stat References" sections with rank-and-file profiles added to all seven faction files, `FACTION_RELATIONSHIP_MAP.md` (full pairwise + Court hidden ties) and `FACTION_TURN_RULES.md` created, `FACTION_INDEX.md`/`FACTION_STATE.md`/`WORLD_CLOCKS.md` updated. No new proper nouns/central mysteries/factions; Hollow Court secrecy preserved.
 
+- [x] Locations/Orrun duplication cleanup, Pass 1 of 4 (regions) — 2026-08-08. All 16 `05_regions/*.md` files: `## Geography` and `## Travel Routes` sections trimmed to pointers at `Locations/Orrun/01_geography/regions/[REGION].md`; campaign-specific mechanical content (DCs, named tolls, cartography-authority pointers) preserved. `RETRIEVAL_GUIDE.md` updated so the AI DM loads both files when entering a region. See `PROGRESS_LOG.md` 2026-08-08 entry.
+
+- [ ] Locations/Orrun duplication cleanup, Pass 2 of 4 (settlements, 18 files)
+  - Why it matters: user wants zero geography duplication between `ai_solo_campaign` and `Locations/Orrun`. Settlements still restate physical/public-overview description that `Locations/Orrun/02_settlements/*.md` already covers.
+  - What to do: compare each `06_settlements/[NAME].md` against its Orrun counterpart (note: Orrun groups multiple settlements per region file — e.g. `SUNDERING_REACH_SETTLEMENTS.md` covers 8 campaign files — so this is a many-to-one mapping, not 1:1 like regions); trim the generic "First Impression"/"Public Overview"/physical-layout prose to a pointer; keep NPCs, factions, shops/services (campaign-specific), secrets, rumors, hooks, law/threat DCs untouched.
+  - Related files: `06_settlements/*.md` (18), `Locations/Orrun/02_settlements/*.md` (6), `RETRIEVAL_GUIDE.md` ("Entering a settlement" section)
+  - Suggested agent: none (direct)
+  - Stage: post-16 repo-structure pass
+
+- [ ] Locations/Orrun duplication cleanup, Pass 3 of 4 (wilderness sites, 7 files)
+  - Why it matters: same goal, higher risk — `05_regions/wilderness/*_SITES.md` interweave clue/secret/hook/NPC material directly into hazard/terrain description sentence-by-sentence (confirmed: 16 clue/secret/hook/NPC mentions in `GREYFENS_SITES.md` alone), so this is NOT a clean section-level replace like regions.
+  - What to do: per-site, per-sentence judgment call — trim only purely atmospheric/scene-setting description duplicated by `Locations/Orrun/01_geography/wilderness/*.md`; do NOT remove hazard DCs, mechanical effects, room/site connections, or anything a clue/secret/hook is anchored to, even if Orrun also mentions the same physical feature (the campaign file must stay mechanically self-contained per `DND_MECHANICS_REQUIREMENTS.md`).
+  - Related files: `05_regions/wilderness/*.md` (7), `Locations/Orrun/01_geography/wilderness/*.md` (7)
+  - Suggested agent: none (direct)
+  - Stage: post-16 repo-structure pass
+
+- [ ] Locations/Orrun duplication cleanup, Pass 4 of 4 (dungeons/ruins, 41 files)
+  - Why it matters: same goal, same interweaving risk as wilderness — dungeon files mix physical layout with secrets/clues/puzzles/boss mechanics, and `DND_MECHANICS_REQUIREMENTS.md`'s Dungeon Standard requires the campaign file to stay fully self-contained (encounter list, trap/puzzle DCs, resting constraints, treasure, boss mechanics, retreat options all in one place).
+  - What to do: same per-sentence judgment as wilderness — trim only atmospheric flavor duplicated by `Locations/Orrun/06_sites/*.md` (grouped 4 files, 34 sites; note 41 campaign files ≠ 34 Orrun sites, since D23/D20 — the Under-Shrine and Basin Keystone Approach — were deliberately excluded from Orrun as the campaign's unpublishable endgame); never touch hazard DCs, room connections, secrets, clues, or boss/climax mechanics.
+  - Related files: `10_dungeons_and_ruins/*.md` (41), `Locations/Orrun/06_sites/*.md` (4)
+  - Suggested agent: none (direct)
+  - Stage: post-16 repo-structure pass
+
 ---
 
 ## Medium

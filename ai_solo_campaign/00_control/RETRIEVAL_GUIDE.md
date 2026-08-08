@@ -64,7 +64,8 @@ Then load the world files for the current location, active quests, and NPCs pres
 - `01_runner_protocol/SOCIAL_SCENE_PROTOCOL.md` if intrigue is at stake
 
 ### Entering a region (core Ring 1)
-- The region file: `05_regions/ASHGARDEN_VALE.md` / `05_regions/TOLLWOOD.md` / `05_regions/PALE_COAST.md` (or `05_regions/SUNDERING_REACH.md`)
+- **Physical geography, climate, culture, full travel-time table:** `Locations/Orrun/01_geography/regions/[REGION].md` — as of the 2026-08 duplication cleanup, the campaign region files no longer restate this; load the Orrun file for "what does it look like / what's it like to live here" questions.
+- The region file: `05_regions/ASHGARDEN_VALE.md` / `05_regions/TOLLWOOD.md` / `05_regions/PALE_COAST.md` (or `05_regions/SUNDERING_REACH.md`) — campaign layer: DM-only truth, settlements/factions/secrets/hooks, level range, encounter/hazard mechanics
 - The region's wilderness sites file (`05_regions/wilderness/..._SITES.md`)
 - `04_world_atlas/TRAVEL_ROUTES_RING1.md` for the journey in
 - The region's encounter table (`13_encounters_and_bestiary/[REGION]_ENCOUNTERS.md`)
@@ -72,7 +73,8 @@ Then load the world files for the current location, active quests, and NPCs pres
 - `15_campaign_arcs/REGIONAL_ARC_PACKS_LEVEL_5_TO_20.md` if the player is L5+ here
 
 ### Entering a far-continent region
-- **The region file first:** `05_regions/[REGION].md` (built 2026-07-07 — the narrative/political anchor: identity, settlements, factions, conflicts, quests, if-ignored consequences)
+- **Physical geography, climate, culture, full travel-time table:** `Locations/Orrun/01_geography/regions/[REGION].md` — same split as core Ring 1 above.
+- **The region file:** `05_regions/[REGION].md` (built 2026-07-07 — the narrative/political anchor: identity, settlements, factions, conflicts, quests, if-ignored consequences)
 - `04_world_atlas/region_map_packets/REGION_[NAME].md` — cartography + hazard/encounter mechanics authority
 - `08_npcs/by_region/[REGION]_NPCS.md` — the far-region roster
 - `09_quests/by_region/[REGION]_QUESTS.md` — the region's developed quests

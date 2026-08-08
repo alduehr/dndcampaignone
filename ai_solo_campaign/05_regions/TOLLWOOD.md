@@ -32,10 +32,7 @@ The Tollwood holds the campaign's clearest **non-Concord** mystery-thread, and i
 
 ## Geography
 
-- **Terrain:** deep old-growth forest — oak/ash/black-pine; mossed Concord causeways and ruined toll-stations; charcoal-clearings and coppice; bramble-choked ravines; cold forest streams feeding the Ammet headwaters; the deepest, oldest stand (the Old Mast) at the forest's heart.
-- **Climate:** cool, damp, deep-shaded; little wind under the canopy; mist in the hollows; the forest swallows weather and sound. Campaign starts in mid-autumn — leaf-fall, charcoal-season, the wood at its most disorienting.
-- **Boundaries:** Sundering Reach (W, across Kettle Bridge and the Mirewend), Ashgarden Vale (S, across the Ammet headwaters), Caradril and its hinterland (SE), unmapped deeper forest and hills (N/E).
-- **Defining features:** the **East Road** (the great Concord toll-causeway to Caradril); the ruined **toll-stations**; the deep **Old Mast**; the locals' **toll-shrines** (offering-stones at forest crossings).
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/TOLLWOOD.md`](../../Locations/Orrun/01_geography/regions/TOLLWOOD.md). Campaign starts in mid-autumn — leaf-fall, charcoal-season, the wood at its most disorienting.
 
 ## Major Settlements
 
@@ -53,7 +50,7 @@ One zone file holds the Tollwood's named sites (`wilderness/TOLLWOOD_SITES.md`):
 
 ## Travel Routes
 
-See `../04_world_atlas/TRAVEL_ROUTES_RING1.md`. The **East Road** (Concord toll-causeway) runs Kettle Bridge → Tollstone Cross → Hartfell → on toward Caradril (~4 days Kettle Bridge to Hartfell; ~5–6 more Hartfell to Caradril). The road is the *only* safe travel — off-road forest travel doubles or triples time, courts getting lost, and risks the deep wood. Bandit-tolls and washed-out causeway stretches (the Green Mile) are the road's main hazards.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/TOLLWOOD.md`](../../Locations/Orrun/01_geography/regions/TOLLWOOD.md) (Travel Routes section). See also `../04_world_atlas/TRAVEL_ROUTES_RING1.md`. Campaign-specific: bandit-tolls at Tollstone Cross are the road's main non-environmental hazard (see Factions Present, Regional Conflicts).
 
 ## Factions Present
 

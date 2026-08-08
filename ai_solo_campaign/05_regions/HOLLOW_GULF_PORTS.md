@@ -30,7 +30,7 @@ The Gulf's normalcy is the point: the harvest's failure gradient barely reaches 
 
 ## Geography
 
-The warm crescent of the Hollow Gulf: Calderport's harbor (W-central), Saltgate's headland (E), the Mardenmouth delta-wharves (W), the open Gulf and Reach Lanes running south to the Calm Reach and overseas. The Glasswater/Mardenflow deltas empty here. Full geometry: map packet.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/HOLLOW_GULF_PORTS.md`](../../Locations/Orrun/01_geography/regions/HOLLOW_GULF_PORTS.md). Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +47,7 @@ The open Gulf and Reach Lanes (privateers, storms); the Wreck-Reef (offshore sal
 
 ## Travel Routes
 
-The **Glasswater Run** in from Glassmere (~3–4 weeks by river); the **Reach Lanes** (coastal: Calderport ↔ Saltgate ↔ Mardenmouth, hours–days by ship); the **South Sea Lanes** overseas to Surren (weeks); the delta-road W into the Sallowmarch. Map packet §Routes.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/HOLLOW_GULF_PORTS.md`](../../Locations/Orrun/01_geography/regions/HOLLOW_GULF_PORTS.md) (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

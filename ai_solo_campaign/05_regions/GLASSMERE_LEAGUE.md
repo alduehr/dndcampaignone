@@ -30,7 +30,7 @@ The League is where the campaign's **economic war** is decided: Holt's bank vs. 
 
 ## Geography
 
-The Glasswater valley — the continent's main commercial artery — with prosperous terraced country up-river (Sennfort), rich orchard-plain down-river (Cairnwater), and Concord-built canal-country feeding the exchange-wharves. Glassmere straddles the river at the Three Bridges reach. Full geometry: map packet.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/GLASSMERE_LEAGUE.md`](../../Locations/Orrun/01_geography/regions/GLASSMERE_LEAGUE.md). Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -46,7 +46,7 @@ Effectively none — canal-country and settled terraces. The "wilds" here are in
 
 ## Travel Routes
 
-Verdance Road in from Caradril (~12–16 days); the **Glasswater Run** south to the Hollow Gulf ports (~3–4 weeks by river); the contested Crown Road NE toward the Concord Heartlands; the Salt Road brushing south. Map packet §Routes.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/GLASSMERE_LEAGUE.md`](../../Locations/Orrun/01_geography/regions/GLASSMERE_LEAGUE.md) (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

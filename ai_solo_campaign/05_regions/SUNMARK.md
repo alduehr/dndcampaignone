@@ -30,7 +30,7 @@ Here the dead are **properly sent** — the Sunhollow rites still work, fully, b
 
 ## Geography
 
-The warm sacred forest of the Sunmark Wilds; the Great Grove and its holy pool at Sunhollow (the faith's center); the dispersed Grove-Camps (daily life, NW); the Green Roads (carved-stone pilgrim-paths, E/SE); the warm coast-edge on the Calm Reach. Every major grove has a sacred spring — travelers welcome to drink. Full geometry: map packet.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/SUNMARK.md`](../../Locations/Orrun/01_geography/regions/SUNMARK.md). Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +47,7 @@ The deep Wilds off the Green Roads (trackless but not hostile to the respectful)
 
 ## Travel Routes
 
-The Green Roads (days on foot, safe for the respectful, stone-marked); the N road to the Marrowdowns; the coast track E into the Hollow Gulf's world; a small-boat landing on the coast. Map packet §Routes.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/SUNMARK.md`](../../Locations/Orrun/01_geography/regions/SUNMARK.md) (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

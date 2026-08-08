@@ -30,7 +30,7 @@ The Drowned Towns are **pre-Concord ruins** — the campaign's strongest "older,
 
 ## Geography
 
-The shrinking brine-sea (deep Saltmere, NW) ringed by hold-country shore; the active retreat-zone where ruins emerge; the lethal Bonepan Flats (E/S); the Ghostmark foothills (N) with crumbling Concord-era waystations and passes toward the Heartlands. Full geometry: map packet.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/SALTMERE_REACHES.md`](../../Locations/Orrun/01_geography/regions/SALTMERE_REACHES.md). Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +47,7 @@ The Bonepan Flats (glare, mirage, thirst — the region's environmental killer);
 
 ## Travel Routes
 
-The Saltmere Shore Road (Brackhold→Drowned Towns→Saltcairn, 3–5 days); the Ghostmark Pass N to the Heartlands (weeks, poorly kept); the Bonepan Track SE toward Calderport (4–6 days, dry-season, water required); clan-barge lanes (pilot required). The Salt Road arrives from the Marrowdowns. Map packet §Routes.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/SALTMERE_REACHES.md`](../../Locations/Orrun/01_geography/regions/SALTMERE_REACHES.md) (Travel Routes section). Campaign-specific: the Bonepan Track requires dry-season water discipline; clan-barge lanes require a pilot. Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

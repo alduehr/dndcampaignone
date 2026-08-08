@@ -30,7 +30,7 @@ The barrows are **pre-Concord** — an older-fall echo (M6-fringe by contrast, n
 
 ## Geography
 
-Rolling chalk grassland (the central downs) with the Barrow-Fields on the eastern downs; hedged manorial farmland in the Penmark vale (W); high wool-walks around Wether (SE). The **Mardenflow rises** here and runs S to the delta. Full geometry: map packet.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/MARROWDOWNS.md`](../../Locations/Orrun/01_geography/regions/MARROWDOWNS.md). Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +47,7 @@ The Barrow-Fields (sacred old ground, now stirring — the region's one true dan
 
 ## Travel Routes
 
-The **Salt Road** (cross-continent, W–E through Marrowmoot toward the Saltmere, ~1 week); the **Road South** (wool-drive route toward Sunmark/Sallowmarch — Q_MD_005); shire down-roads between holds (patrolled). Map packet §Routes.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/MARROWDOWNS.md`](../../Locations/Orrun/01_geography/regions/MARROWDOWNS.md) (Travel Routes section). Campaign-specific: the Road South's wool-drive traffic is Q_MD_005. Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

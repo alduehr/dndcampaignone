@@ -30,7 +30,7 @@ The corridor's drowned Concord lock-works are **waking minor nodes** — the cri
 
 ## Geography
 
-Settled river-bottom corridor (wharves, willow-banks, tilled bottomland) flanked by terraced farmland around Marrowfen Stair, drier wooded bluffs above Lord's Wend (NE), reedy sink-fen toward the Marrowdowns margin (SW), and stretches of half-sunk Concord causeways and lock-works ("the drowned reaches"). Spine: **the Verdance**, navigable, flowing NW down to Caradril; the **Nine Locks** staircase is the corridor's great fall and chokepoint. Full geometry: map packet §Terrain/Water.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/VERDANCE_REACHES.md`](../../Locations/Orrun/01_geography/regions/VERDANCE_REACHES.md). Coordinate geometry and mechanical cartography: map packet §Terrain/Water.
 
 ## Major Settlements
 
@@ -47,7 +47,7 @@ The drowned reaches (flooded Concord works; "wrong" still water); the Marrowfen 
 
 ## Travel Routes
 
-The Verdance Road (towpath + river; Caradril→Glassmere ~12–16 days by road, ~2 weeks by barge "if the locks behave and the lord's paid"); the overland bluff road (slower, toll-free); the Cresswater branch-track. Continues SE to the Glassmere League; the Marrowdowns lie S. Details: map packet §Routes.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/VERDANCE_REACHES.md`](../../Locations/Orrun/01_geography/regions/VERDANCE_REACHES.md) (Travel Routes section). Campaign-specific: barge passage depends on the locks behaving and the lord being paid (Lord Marrow's toll — see Regional Conflicts). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

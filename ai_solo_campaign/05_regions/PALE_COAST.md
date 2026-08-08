@@ -32,10 +32,7 @@ The Pale Coast holds the campaign's **maritime echo of the harvest** — and, li
 
 ## Geography
 
-- **Terrain:** grey sea-cliffs, shingle coves, headlands, salt-marsh (toward Saltmargin), tidal salt-pans, sea-caves, offshore stacks and skerries; cold, fish-rich sea; the Verdance river-mouth toward the south (the water-road to Caradril).
-- **Climate:** cold, wet, wind-scoured; frequent storms and sea-fog; brutal in winter. Campaign starts in mid-autumn — the season of gales, wrecks, and the Coast's drowned-tide.
-- **Boundaries:** Sundering Reach (E, via Saltmargin and the salt-marsh), the cold sea (W/N), the Verdance mouth and Caradril's coastal hinterland (S/SE), open wild coast (N).
-- **Defining features:** the **Drowned Lamp** (the great ruined lighthouse); the **sea-shrines** on the headlands; **Wrackmouth** harbor; the **salt-pans**; the **Skerries** (offshore stacks where wrecks and worse gather).
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/PALE_COAST.md`](../../Locations/Orrun/01_geography/regions/PALE_COAST.md). Campaign starts in mid-autumn — the season of gales, wrecks, and the Coast's drowned-tide.
 
 ## Major Settlements
 
@@ -53,7 +50,7 @@ One zone file holds the Coast's named sites (`wilderness/PALE_COAST_SITES.md`): 
 
 ## Travel Routes
 
-See `../04_world_atlas/TRAVEL_ROUTES_RING1.md`. The **Pale Road** runs Saltmargin → Cobble Strand → Wrackmouth along the coast (~3 days Saltmargin to Wrackmouth; ~5 from Hollowmere to Saltmargin already established). From Wrackmouth, the **coastal/river route to Caradril** runs down the coast and up the **Verdance** (~6–7 days by ship/boat, weather permitting — often *faster and safer* than the overland routes, and a distinctive Coast advantage). Coastal travel means tides, storms, and the sea's own dangers.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/PALE_COAST.md`](../../Locations/Orrun/01_geography/regions/PALE_COAST.md) (Travel Routes section). See also `../04_world_atlas/TRAVEL_ROUTES_RING1.md`.
 
 ## Factions Present
 

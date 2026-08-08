@@ -30,7 +30,7 @@ The "failing bargains" (Q_HFH_002) are the crisis read through a pagan frame —
 
 ## Geography
 
-Old-growth forest heart, barely mapped inside; the Hethemoot clearing (the confederacy's one open ground); the sacred Greenward grove (SW); Tollreach's river-cut on the Hethe (NE); the forbidden Old Holds cluster (deep SE); thinning western edge toward road-country. The **Hethe** flows S through it all. Full geometry: map packet.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/HETHEWALD_FREE_HOLDS.md`](../../Locations/Orrun/01_geography/regions/HETHEWALD_FREE_HOLDS.md). Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +47,7 @@ The Hethewood heart (guided travel only); the Old Holds (forbidden; D25); the fo
 
 ## Travel Routes
 
-The Hold-Road in from the west (2–4 days to Hethemoot; toller-contested at the edge); the River-Road down the Hethe (fast N–S; Maddoc's toll blocks it — toll, fight, or a deep-wood bypass ford, Survival DC 16); the Greenward Path (guided, welcome-gated); the forbidden Old Holds track. Map packet §Routes.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/HETHEWALD_FREE_HOLDS.md`](../../Locations/Orrun/01_geography/regions/HETHEWALD_FREE_HOLDS.md) (Travel Routes section). Campaign-specific: the River-Road down the Hethe is choked by Maddoc's toll — toll, fight, or a deep-wood bypass ford (Survival DC 16). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

@@ -30,7 +30,7 @@ The Deep Cuts struck **something Concord** (Q_KM_001: the deep that went wrong; 
 
 ## Geography
 
-Cold stone country under the Karran Teeth (the near-impassable NE barrier); Brask's Hold territory (W); Karran-Gate's mining basin (central); the Deep Cuts ore-complex (SW); the scattered Old Iron forts on the NE fringe. Mountain melt-streams; brine-tainted mine-sump drainage that "tasted wrong" before the ground went wrong. Full geometry: map packet.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/KARRAN_MARCHES.md`](../../Locations/Orrun/01_geography/regions/KARRAN_MARCHES.md). Campaign-specific: mine-sump drainage that "tasted wrong" before the Deep Cuts went wrong (see DM-Only Truth above). Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +47,7 @@ The Karran Teeth (extreme cold and altitude; the campaign's NE limit; the Sunder
 
 ## Travel Routes
 
-The Iron Road S–N (weeks; Brask's toll; partly Concord-paved); the Deep Cuts access road (permit-gated); the Old Forts track NE (weeks, dangerous); the Teeth Pass N (near-impassable). W lies the Wender Steppe; S/SW the Hethewald. Map packet §Routes.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/KARRAN_MARCHES.md`](../../Locations/Orrun/01_geography/regions/KARRAN_MARCHES.md) (Travel Routes section). Campaign-specific: the Iron Road is Brask's toll-road; the Deep Cuts access road is permit-gated. Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

@@ -30,7 +30,7 @@ The theocracy is the campaign's great **thematic mirror**: a rite-system that co
 
 ## Geography
 
-The volcanic caldera highland (active; lava-vent country); the Ashfast terrace; the Cindern Waste ash-badland (SE, rain-shadow); the Ash Roads pilgrim-highland (W approach); the Glass Coast obsidian strip (S). Hot springs sacred to the pyre-faith; the pilgrim-road's cold springs are the only reliable water on approach. Full geometry: map packet.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/EMBERFELL_THEOCRACY.md`](../../Locations/Orrun/01_geography/regions/EMBERFELL_THEOCRACY.md). Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +47,7 @@ The caldera rim (patrolled; safe-conduct required; one wrong step); the Cindern 
 
 ## Travel Routes
 
-The **Ash Roads** (W; the only sanctioned approach — Q_ET_001); the Cinder Road E to Cinderhold (2–3 days); the Glass Coast Road S toward the sea; the forbidden Cindern Waste Track. Map packet §Routes.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/EMBERFELL_THEOCRACY.md`](../../Locations/Orrun/01_geography/regions/EMBERFELL_THEOCRACY.md) (Travel Routes section). Campaign-specific: the Ash Roads are the only sanctioned approach (Q_ET_001). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

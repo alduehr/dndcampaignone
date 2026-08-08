@@ -30,7 +30,7 @@ The "new sickness" (Q_SP_002) and the deep "drowned grounds" (Q_SP_006) are the 
 
 ## Geography
 
-The splayed Mardenflow delta (the Sallow Marches); flooded rice-paddy country (the Rice Sallows, SW); the drained garrison-shelf (Fenward, N); the lethal shifting Fever Channels (SE backwaters); tidal flats meeting the sea, with the Drowned Steps offshore. Full geometry: map packet.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/SALLOWMARCH_PROTECTORATE.md`](../../Locations/Orrun/01_geography/regions/SALLOWMARCH_PROTECTORATE.md). Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +47,7 @@ The Fever Channels (deep shifting backwaters — smuggler country, crown boats c
 
 ## Travel Routes
 
-The Mardenflow river-road (N to the Marrowdowns, S to the Gulf); delta tracks and ferries (slow, flood-cut); the Fever Channels (Maddox's pilots only); the delta-road N to dry country. Map packet §Routes.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/SALLOWMARCH_PROTECTORATE.md`](../../Locations/Orrun/01_geography/regions/SALLOWMARCH_PROTECTORATE.md) (Travel Routes section). Campaign-specific: the Fever Channels are passable only with Maddox's pilots. Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

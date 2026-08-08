@@ -30,7 +30,7 @@ The Crown is the campaign's greatest **M6 far-proof**: the Concord's grandeur, r
 
 ## Geography
 
-The vast surface-ruin complex (the Ruin'd Crown, D21) astride the Greatspine cordillera; Crownmouth's defended margin (NW); the Pilgrim wastelands (S scrub); the completely unsafe deep interior where halls still stand and the dead still walk. Melt-streams, dry Concord cisterns (water is tactical inside). Full geometry: map packet.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/CONCORD_HEARTLANDS.md`](../../Locations/Orrun/01_geography/regions/CONCORD_HEARTLANDS.md). Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -46,7 +46,7 @@ The Crown's deep interior (the region's true dungeon-country); the Greatspine ri
 
 ## Travel Routes
 
-The Crown Road W to Glassmere (~2–3 weeks; well-traveled to Crownmouth, then abandoned); the Greatspine Passes N (faster, high, contested); the Pilgrim Road S to the Saltmere; the barely-mapped Eastern Track toward the Hethewald. Map packet §Routes.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/CONCORD_HEARTLANDS.md`](../../Locations/Orrun/01_geography/regions/CONCORD_HEARTLANDS.md) (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

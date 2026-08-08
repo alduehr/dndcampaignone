@@ -30,7 +30,7 @@ The steppe is the campaign's **outside view**: a whole people with working death
 
 ## Geography
 
-The long grass (trackless open steppe); the Cold Springs winter-basin; the Sky-Stones rise (NW upland shrine-circle); the Spine-Foot margin where grass meets the Greatspine's foot (S); the far steppe (Black Horse country). No major river; seasonal melt and dowsed water-holes. Full geometry: map packet.
+Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/WENDER_STEPPE.md`](../../Locations/Orrun/01_geography/regions/WENDER_STEPPE.md). Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -46,7 +46,7 @@ Everything. The long grass without a clan-guide is the region's chief hazard; th
 
 ## Travel Routes
 
-Steppe tracks (migration and trade lines, seasonal, ungoverned); the Summer-Riding's circuit; the Spine-Foot trade-road S to the settled lands. The Highmark Passes lie W; the Karran Marches E. Map packet §Routes.
+Full travel-time detail: [`Locations/Orrun/01_geography/regions/WENDER_STEPPE.md`](../../Locations/Orrun/01_geography/regions/WENDER_STEPPE.md) (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 
