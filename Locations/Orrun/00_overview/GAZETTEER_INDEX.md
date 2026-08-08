@@ -80,6 +80,15 @@ New cosmology: **the Unmade**, alternate-timeline travel, and **the Last Telling
 | [`CARADRIL_SITES.md`](../06_sites/CARADRIL_SITES.md) | 2 sites, levels 6–10 (the city's undercity) |
 | [`FAR_CONTINENT_SITES.md`](../06_sites/FAR_CONTINENT_SITES.md) | 15 sites, levels 8–16 (one or two per far region) |
 
+## Maps — `maps/`
+
+| File | Covers |
+|---|---|
+| [`manifest.json`](../maps/manifest.json) | 64-entry map catalog (1 full-continent, 1 campaign-area cluster, 18 regions, 4 cities, 40 settlements), all `player-safe` |
+| [`assets/`](../maps/assets/) | Rendered map images — 9 of 64 currently generated |
+
+A mirror of `/ai_solo_campaign/maps`. That copy is authoritative (it's wired into the DungeonMaster app onboarding contract); update it first and re-copy here — see this folder's [`README.md`](../README.md#maps).
+
 ## Audits
 
 | File | Covers |

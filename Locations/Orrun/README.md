@@ -31,7 +31,16 @@ If `/ai_solo_campaign` and `/Locations/Orrun` ever disagree on a plain geography
   /04_bestiary        — generic wandering monsters and hazards, by terrain
   /05_timelines        — the Unmade: alternate-timeline cosmology, including the Last Telling
   /06_sites          — 34 ruins and adventure sites as physical places
+  /maps              — mirrored map manifest + image assets (see "Maps" below)
 ```
+
+## Maps
+
+`/Locations/Orrun/maps` is a **mirror copy** of `/ai_solo_campaign/maps` (`manifest.json` + `assets/`), kept here because maps are geography, not campaign-runtime material. It is **not** the authoritative copy: `/ai_solo_campaign/maps/manifest.json` is the one wired into the DungeonMaster app onboarding contract (`dm.campaign.json`'s `contentRoot: "ai_solo_campaign"`, which requires `maps/manifest.json` to live under it, with no path escaping it). That means:
+
+- **Do not repoint the DungeonMaster onboarding contract at this copy.** It must keep reading `/ai_solo_campaign/maps`.
+- **Do not edit this copy independently.** Update `/ai_solo_campaign/maps` first, then re-copy here, so the two never drift into disagreement about which map exists or what it's called.
+- All 64 manifest entries are `visibility: player-safe`, consistent with everything else in this folder.
 
 ## The Timelines Folder
 
