@@ -34,6 +34,8 @@ A high-tier far-corroboration site that (1) proves the harvest network reached t
 
 ## Access / Entrance Routes
 
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Old Iron Forts**. Campaign-specific access routes:
+
 1. **Iron Brask's commission (the strong-hand way):** the warlord hires the player to clear a haunted Deep Cut or a humming fort (the frontier-honored path).
 2. **Mully Karr's coin (the trade way):** the ore-factor pays the player to make a humming workings safe to mine.
 3. **With a mining crew (the deep way):** descend with a crew who know the cuts (negates much risk; the crew may "change").

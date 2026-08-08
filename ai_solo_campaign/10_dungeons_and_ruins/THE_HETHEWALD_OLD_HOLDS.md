@@ -34,6 +34,8 @@ A high-tier far-corroboration site that (1) proves the Concord and its harvest r
 
 ## Access / Entrance Routes
 
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Old Holds**. Campaign-specific access routes:
+
 1. **Against the holds' law (the forbidden way):** enter without leave — fast, but the wood and the holds both turn against you.
 2. **With Bram Hethe's leave (the lawful way):** earn the Speaker's grudging blessing to investigate why the bargains are failing — slower, far safer.
 3. **By Onn Greenward's songs (the reverent way):** learn the old grove-songs that keep the dead quiet — the oblique key to passing the presence.

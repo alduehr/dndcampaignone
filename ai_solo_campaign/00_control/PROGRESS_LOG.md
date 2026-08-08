@@ -93,6 +93,41 @@ None.
 ### Next Recommended Pass
 Dungeons/ruins cleanup (41 files, `10_dungeons_and_ruins/*.md` vs `Locations/Orrun/06_sites/*.md`, grouped 4 files covering 34 sites — note D23/D20, the Under-Shrine and Basin Keystone Approach, have no Orrun counterpart by design and should be skipped).
 
+---
+
+## 2026-08-08 — Locations/Orrun Split: Dungeon/Ruin Duplication Cleanup (Pass 4 of 4 — COMPLETE)
+
+### Stage
+Post-Stage-16 repo-structure pass (user-directed). Completes the same-day Passes 1–3 (regions, settlements, wilderness). The `Locations/Orrun` duplication-cleanup task is now finished across all four scoped categories.
+
+### Summary
+Trimmed all 34 dungeon/ruin files that have an `Locations/Orrun/06_sites/*.md` counterpart (of 41 total files in `10_dungeons_and_ruins/`; the other 7 are the two DM-only endgame sites with no Orrun counterpart plus 5 meta/index files — see Gaps below). Two campaign templates needed different treatment:
+
+- **Standard/environmental-template files (19 of 34):** the ones with a `## History` (with a "Publicly:"/"(Player-Safe)" clause) and `## Entrance`/`## First Impression`/`## Access / Entrance Routes` section — the Sundering Reach group (8), Ring 1 group (9), and Caradril group (2), plus 2 of the far-continent sites that happen to use this template (the Ruin'd Crown, the Ashfast Deep). These were trimmed exactly like Passes 1–3: the public/atmospheric clause replaced with a pointer into the matching `Locations/Orrun/06_sites/*.md` grouped file (`SUNDERING_REACH_SITES.md`, `RING1_SITES.md`, `CARADRIL_SITES.md`, or `FAR_CONTINENT_SITES.md`), campaign-specific telegraph details (named NPCs, quest ties) kept as trailing sentences.
+- **The remaining 13 far-continent sites** use a third, more compressed template (`AI Use` / `One-Sentence Identity` / `Map Placement` / `Level Range` / `Purpose` / `Access / Entrance Routes` / `Current Occupants` / `Factions Involved` / `Zone List` / ...) with no separate narrative "History" or "First Impression" prose section at all — they were apparently already written lean and campaign/NPC-focused rather than duplicating Orrun's sensory description. For these, no atmospheric prose needed removing (there wasn't any to remove); instead a one-line pointer was added ahead of the existing `## Access / Entrance Routes` numbered list, crediting Orrun for the full physical approach/entrance description while leaving every campaign-specific, NPC-gated route intact (nothing here was actually duplicative enough to delete).
+
+As with every prior pass, all mechanical/secret content — zone/room lists, encounter lists, hazard/trap DCs, puzzles, treasure, boss/climax mechanics, retreat options, scaling notes, consequences if ignored, state update triggers, and Stage 11 clue/REV cross-links — was left completely untouched in all 34 files, per `DND_MECHANICS_REQUIREMENTS.md`'s self-containment requirement.
+
+### Files Changed
+- `ai_solo_campaign/10_dungeons_and_ruins/` — 34 dungeon/ruin files (all files with an Orrun `06_sites` counterpart):
+  - Sundering Reach group (8): `THE_PEAT_CHAPEL.md`, `THE_WHISPERING_CAIRN.md`, `THE_SUNKEN_TOLLHOUSE.md`, `THE_LEDGER_VAULT.md`, `THE_DEEP_ADIT.md`, `THE_BARROW_OF_NINE_DOORS.md`, `THE_GREYFENS_DEEP.md`, `THE_CONCORD_RELAY_VAULT.md`
+  - Ring 1 group (9): `THE_BURIED_CLOISTER.md`, `THE_PELLOW_GRANGE.md`, `SAINT_VEDDOWS_TOMB.md`, `THE_GREENWARD_TOLL_STATION.md`, `THE_HANGING_OAKS.md`, `THE_OLD_MAST.md`, `THE_WRECKERS_CAVES.md`, `THE_DROWNED_LAMP.md`, `THE_SKERRY_SHRINE.md`
+  - Caradril group (2): `THE_SUNKEN_WARDS_DEEP.md`, `THE_CARADRIL_ASHMARKET_UNDERCROFT.md`
+  - Far Continent group (15): `THE_NINE_LOCKS_SUNKEN_STAIR.md`, `THE_GLASSMERE_RELIQUARY_VAULTS.md`, `THE_THREE_BRIDGES_COUNTING_DEEP.md`, `THE_OLD_CONCORD_HEARTLANDS_RUIN.md`, `THE_MARROWDOWNS_BARROW_COMPLEX.md`, `THE_SALTMERE_DEEP_TOWNS.md`, `THE_SALLOWMARCH_DROWNED_STEPS.md`, `THE_HOLLOW_GULF_WRECK_REEF.md`, `THE_SUNHOLLOW_GREAT_GROVE.md`, `THE_HETHEWALD_OLD_HOLDS.md`, `THE_KARRAN_OLD_IRON_FORTS.md`, `THE_WENDER_SKY_STONES.md`, `THE_HIGHMARK_FROZEN_WORKS.md`, `THE_EMBERFELL_CALDERA_DESCENT.md`, `THE_CINDERN_WASTE_BURIED_WORKS.md`
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md` — "Entering a dungeon or adventure site" now points to the matching `Locations/Orrun/06_sites/*.md` entry for public appearance/history/first impression, and flags that the two endgame files stay fully self-contained by design
+
+### Canon Established
+None — no world facts changed, only where existing facts are stored.
+
+### Indexes Updated
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md`
+
+### Gaps Identified
+None outstanding for this task. The 7 `10_dungeons_and_ruins/` files intentionally left untouched: `THE_UNDER_SHRINE_APPROACH.md` (D23) and `THE_BASIN_KEYSTONE_APPROACH.md` (D20) — DM-only endgame sites with no Orrun counterpart by design — plus 5 meta/index files (`ADVENTURE_SITE_CARTOGRAPHY_INDEX.md`, `DUNGEON_INDEX.md`, `PUZZLE_DUNGEONS.md`, `RUIN_INDEX.md`, `_PLACEHOLDER.md`), which are indexes rather than site content and have nothing to point at Orrun.
+
+### Next Recommended Pass
+The user's four-category duplication-cleanup task (regions, settlements, wilderness, dungeons/ruins) is complete. No further `ai_solo_campaign` ↔ `Locations/Orrun` duplication cleanup is scoped; future content added to either tree should follow the same split (mechanics/secrets/NPCs in `ai_solo_campaign`, spoiler-free physical/sensory description in `Locations/Orrun`, cross-pointer both ways) rather than reintroducing duplicated prose.
+
 ## 2026-07-28 — DungeonMaster Maps Contract Alignment
 
 ### Stage

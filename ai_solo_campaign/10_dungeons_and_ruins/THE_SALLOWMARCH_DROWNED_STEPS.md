@@ -34,6 +34,8 @@ A high-tier far-corroboration site that (1) proves catastrophe and the troubled 
 
 ## Access / Entrance Routes
 
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Drowned Steps**. Campaign-specific access routes:
+
 1. **With "Heron" Maddox (the smuggler's way):** the reed-boss knows the channel-routes to the Steps (negates channel-risk; outlaw company).
 2. **By Doll Fenn's counsel (the healer's way):** the marsh-healer (the delta's true leader) sends the player to settle the stirring drowned dead.
 3. **At low tide (the tidal way):** the worst-ebb bares the most steps but strands the slow on the returning tide.

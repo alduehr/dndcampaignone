@@ -34,6 +34,8 @@ A mid-high site that (1) gives the player the campaign's **hopeful contrast** â€
 
 ## Access / Entrance Routes
 
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) â†’ **The Great Grove At Sunhollow**. Campaign-specific access routes:
+
 1. **By the grove's leave (the reverent way):** earn Grove-Keeper Sael Sunmark's blessing to enter the holy heart (the proper path).
 2. **With Sun-Singer Doll (the seer's way):** the grove-seer guides a trusted, reverent outsider to the heart (the deepest access).
 3. **As a pilgrim (the humble way):** join a grove-pilgrimage along the Green Roads.

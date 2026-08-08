@@ -34,6 +34,8 @@ A high-tier far-corroboration site that (1) gives the *clearest far-surface* REV
 
 ## Access / Entrance Routes
 
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Frozen Works**. Campaign-specific access routes:
+
 1. **Over the high passes (the climber's way):** brave the lethal cold and ice (gear- and prep-gated).
 2. **With an isolated survivor-guide (the survivor's way):** a far-north hold-survivor who knows the frozen works (negates much cold/navigation risk — the sole reliable haven-path).
 3. **With a Warden / Remnant expedition (the order's way):** the Wardens' oldest knowledge or a Remnant high-expedition reaches the works (access + the order's stakes).

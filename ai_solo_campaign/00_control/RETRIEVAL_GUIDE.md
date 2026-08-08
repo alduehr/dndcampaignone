@@ -98,7 +98,8 @@ Then load the world files for the current location, active quests, and NPCs pres
 
 ### Entering a dungeon or adventure site
 - `10_dungeons_and_ruins/DUNGEON_INDEX.md` and/or `10_dungeons_and_ruins/RUIN_INDEX.md` to locate the file
-- The specific dungeon/ruin file
+- The specific dungeon/ruin file — mechanical content (zones, encounters, hazard DCs, puzzles, treasure, boss mechanics, retreat/scaling, clue cross-links) is self-contained here, not split with Orrun
+- **Full public appearance/history and sensory "first impression":** the matching `Locations/Orrun/06_sites/*.md` entry — as of the 2026-08 duplication cleanup, most dungeon/ruin files no longer restate this and instead point at their site's entry (grouped by region: `SUNDERING_REACH_SITES.md`, `RING1_SITES.md`, `CARADRIL_SITES.md`, `FAR_CONTINENT_SITES.md`). The two endgame files (`THE_UNDER_SHRINE_APPROACH.md`, `THE_BASIN_KEYSTONE_APPROACH.md`) have no Orrun counterpart and stay fully self-contained by design.
 - `13_encounters_and_bestiary/DUNGEON_ENCOUNTER_SUPPORT.md` + the regional encounter table
 - `13_encounters_and_bestiary/BESTIARY_INDEX.md` → adversary stat profiles for occupants
 - `14_treasure_and_artifacts/DUNGEON_REWARD_INDEX.md` for the site's treasure

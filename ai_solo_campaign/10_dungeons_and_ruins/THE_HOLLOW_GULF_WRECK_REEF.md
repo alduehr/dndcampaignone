@@ -34,6 +34,8 @@ A high-tier site that (1) gives the maritime south a genuine adventure (a rich, 
 
 ## Access / Entrance Routes
 
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Wreck-Reef**. Campaign-specific access routes:
+
 1. **With a salvage-crew (the diver's way):** hire a Calderport wreck-crew (negates most sea-risk; salvage-claim politics).
 2. **On Roke Mallin's ship (the privateer's way):** the licensed sea-raider runs the player out (access + a roguish ally/rival).
 3. **By Port-Mistress Calder's leave (the lawful way):** a sanctioned salvage-charter (slower, safer, taxed).

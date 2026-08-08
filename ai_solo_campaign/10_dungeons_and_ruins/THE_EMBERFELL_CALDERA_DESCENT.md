@@ -34,7 +34,7 @@ A far high-tier environmental-dungeon and **thematic mirror**: the Emberfell fir
 
 ## History (Player-Safe)
 
-The Emberfells are fire-mountains where ash-priests read the volcanoes as divine and "return the dead to the fire." Cinderhold mines volcanic glass and ore in the heat. Beneath it all lie older works — Concord-touched ruins the theocracy forbids and the desperate dig anyway for "old glass."
+Public appearance and history: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Ashfast Deep (the caldera descent)**.
 
 ## History (DM-Only)
 
@@ -42,9 +42,11 @@ The Emberfell Theocracy is an **independent far culture, not part of the harvest
 
 ## First Impression
 
-The Ash Road climbs into smoke. Cinderhold clings to a slope of black glass, its miners masked against the fumes. Below the town, where the theocracy forbids, the rock glows. The descent is a throat of heat — every breath scorches, the stone is too hot to touch bare, gas pools in the low places, and far down, fire-glass catches the lava-light and, for a moment, seems to hold a face.
+Full sensory description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Ashfast Deep (the caldera descent)**.
 
 ## Access / Entrance Routes
+
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Ashfast Deep (the caldera descent)**. Campaign-specific access routes:
 
 1. **From Cinderhold (the miners' way):** hire masked guides; brave the mine-deeps toward the forbidden works.
 2. **The Ash Roads pilgrim-ways (the zealot's way):** approach via the theocracy (access + scrutiny).

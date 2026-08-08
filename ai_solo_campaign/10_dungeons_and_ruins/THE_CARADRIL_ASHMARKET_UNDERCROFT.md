@@ -34,7 +34,7 @@ The city's *commercial* relic-engine, made enterable. It (1) proves REV_002 in t
 
 ## History (Player-Safe)
 
-Caradril's Ashmarket has always had its undercroft — cellars for salvage and "antiquities," and (everyone half-knows) for the goods that don't go in the daylight stalls. Lately the talk is of "quiet-coin," relics that "hold the dead," moving through somewhere below.
+Public appearance and history: [`Locations/Orrun/06_sites/CARADRIL_SITES.md`](../../Locations/Orrun/06_sites/CARADRIL_SITES.md) → **The Ashmarket Undercroft**.
 
 ## History (DM-Only)
 
@@ -42,14 +42,11 @@ The undercroft is where the **quiet-coin trade** is stored, *refined*, and fence
 
 ## First Impression
 
-Down a market cellar-stair the air turns close and chemical — lamp-oil, salt, and something colder under it. Crates stamped with merchant marks line the walls; a back room glows with a refiner's brazier and the smell of scorched stone. A tally-clerk looks up. Somewhere deeper, a crate *sighs*, and for a heartbeat a dead face surfaces in a relic's grey glass before the clerk throws a cloth over it.
+Full sensory description: [`Locations/Orrun/06_sites/CARADRIL_SITES.md`](../../Locations/Orrun/06_sites/CARADRIL_SITES.md) → **The Ashmarket Undercroft**.
 
 ## Access / Entrance Routes
 
-1. **A market cellar (the front):** pose as a buyer/seller (social); the daylight-adjacent way in.
-2. **A Sill back-alley stair (the sneak):** the Syndicate's discreet entrance; stealth/contact-gated.
-3. **The Hush's price:** buy the layout and a way in from the Bellman (coin + favor).
-4. **The deep cellars from the Sunken Wards (D16):** a wet, dangerous link from the undercity (an exploration approach).
+Full approach and entrance description (the four routes in): [`Locations/Orrun/06_sites/CARADRIL_SITES.md`](../../Locations/Orrun/06_sites/CARADRIL_SITES.md) → **The Ashmarket Undercroft**. Campaign-specific: the Hush's price is set by the Bellman; the deep-cellar link connects to the Sunken Wards Deep (D16).
 
 ## Current Occupants and Factions
 

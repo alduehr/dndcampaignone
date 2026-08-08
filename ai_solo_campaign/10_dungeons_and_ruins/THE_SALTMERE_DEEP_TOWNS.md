@@ -34,6 +34,8 @@ A late-game far-corroboration and treasure site that (1) proves catastrophe and 
 
 ## Access / Entrance Routes
 
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Drowned Towns**. Campaign-specific access routes:
+
 1. **With Delver Oss (the diver's way):** hire the reviled scavenger; he knows the safe drowned streets (negates most navigation/collapse risk; angers the clans).
 2. **By the clans' leave (the sacred way):** earn Matriarch Bryd Saltmere's grudging permission to recover a lost clan-kin or settle the stirring dead — slower, safer socially.
 3. **At low water (the seasonal way):** the worst-receded season bares the most ruin but rouses the most dead.

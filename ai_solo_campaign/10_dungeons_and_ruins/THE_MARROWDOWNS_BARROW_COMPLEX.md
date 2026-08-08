@@ -34,6 +34,8 @@ A mid-high far-corroboration site that (1) proves catastrophe and the troubled d
 
 ## Access / Entrance Routes
 
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Barrow-Fields**. Campaign-specific access routes:
+
 1. **By the reeve's leave (the lawful way):** Penmark hires the player to deal with barrow-robbers / the restlessness — the shire-honored path.
 2. **By the moot-mother's counsel (the reverent way):** Senna Crale's old grief-songs guide a respectful entry and the laying of the restless dead.
 3. **With the robbers (the grey way):** follow or join barrow-thieves who know the open mounds (fast, costs shire-standing).

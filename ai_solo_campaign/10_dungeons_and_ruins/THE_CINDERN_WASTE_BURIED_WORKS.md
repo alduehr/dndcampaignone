@@ -34,6 +34,8 @@ A high-tier far-corroboration site that (1) proves the Concord's works (and harv
 
 ## Access / Entrance Routes
 
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Cindern Waste Buried Works**. Campaign-specific access routes:
+
 1. **With Ember-Sage Mira Cindra (the heretic's way):** the heretic-scholar knows the safe waste-routes and craves the works (the key access; defies the Pyre).
 2. **By a miner's tunnel (the Cinderhold way):** Cinder-Master Doss Ashfast's deep workings break into the buried Concord voids.
 3. **Against the ban (the trespasser's way):** brave the forbidden waste and the Pyre-Wardens directly.

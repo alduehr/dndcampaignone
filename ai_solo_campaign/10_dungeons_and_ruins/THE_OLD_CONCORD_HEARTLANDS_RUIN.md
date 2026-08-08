@@ -34,7 +34,7 @@ A late-game far-corroboration and treasure site that (1) proves the Concord's *t
 
 ## History (Player-Safe)
 
-The Ruin'd Crown is the broken heart-country of the old Concord, astride the great mountains — fallen, dangerous, and coveted. Folk say it was the seat of the order that ruled before the Quietfall. Scavengers strip it; scholars dig it; pilgrims seek miracles and relics in it.
+Public appearance and history: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Ruin'd Crown**.
 
 ## History (DM-Only)
 
@@ -42,9 +42,11 @@ The true surface capital of the Concord — proof of how vast the order was *abo
 
 ## First Impression
 
-The Greatspine's shoulder is crowned with ruin to the horizon — toppled colonnades, drowned plazas, a shrine-dome cracked like an egg, all on a scale the frontier has no word for. Scavenger-fires smoke at the edges; pilgrim-tents huddle in a fallen forum. Concord Script covers everything, vast and confident and dead. This was an *empire*, and it ate itself.
+Full sensory description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Ruin'd Crown**.
 
 ## Access / Entrance Routes
+
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Ruin'd Crown**. Campaign-specific access routes:
 
 1. **From Crownmouth (the scavenger way):** hire a guide (Old Crown Mab), pay the war-captain's toll, brave the ruin-edge.
 2. **The Pilgrim Camps (the desperate way):** join or follow a relic-pilgrimage in.

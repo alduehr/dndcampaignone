@@ -34,6 +34,8 @@ A mid-tier site that (1) proves the harvest network runs *inland up the Verdance
 
 ## Access / Entrance Routes
 
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Nine Locks Sunken Stair**. Campaign-specific access routes:
+
 1. **With the bargefolk (the river way):** River-Captain Mossa Drenn or the lock-keepers know the flooded works (negates water-risk).
 2. **By the Ledger's leave (the corridor way):** Factor-General Wessel Crane's inland directorate controls the locks; a charter grants access (and watchers).
 3. **At low water (the seasonal way):** the drained season bares more of the works.

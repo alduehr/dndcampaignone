@@ -34,7 +34,7 @@ A dense, repeatable mid-game exploration site that (1) proves the harvest networ
 
 ## History (Player-Safe)
 
-The Sunken Wards are the bones of an older Caradril, drowned and built over when the modern city rose. Folk know there is "a flooded city down there"; few go past the dry upper galleries. The deep wards are rumored to hold old treasure, the Salt Syndicate's drops, and worse.
+Public appearance and history: [`Locations/Orrun/06_sites/CARADRIL_SITES.md`](../../Locations/Orrun/06_sites/CARADRIL_SITES.md) → **The Sunken Wards Deep**.
 
 ## History (DM-Only)
 
@@ -42,13 +42,11 @@ The deep wards are a **minor, long-dormant cousin of the Reach's harvest-network
 
 ## First Impression
 
-Below the dry galleries the water rises to your shins, then your waist, black and patient. The Concord stone here is older — vast fitted blocks, star-marks worn smooth, lintels graven in Script that your lantern can barely reach. Channels of still water run away into the dark, and in some of them the reflection is *wrong*, holding light a half-second too long. It is not loud the way the Reach's leaking ruins are loud. It is quiet the way a held breath is quiet.
+Full sensory description: [`Locations/Orrun/06_sites/CARADRIL_SITES.md`](../../Locations/Orrun/06_sites/CARADRIL_SITES.md) → **The Sunken Wards Deep**.
 
 ## Access / Entrance Routes
 
-1. **The Sealgate stair (the Sill):** the public-ish way down through the upper wards; the Salt Syndicate watches it.
-2. **The Remnant back-way (the Lantern Reach):** a hidden stair the Reclaimers use; requires Remnant goodwill, theft of their map, or following an agent. Drops the player nearest the Archive stair.
-3. **The Brass Ferry flood-channel (the Sill):** a smugglers' wet route up from the river through the deep wards; dangerous, but bypasses the upper galleries entirely (a stealth approach learned from the Syndicate or the Hush).
+Full approach and entrance description (the three routes down): [`Locations/Orrun/06_sites/CARADRIL_SITES.md`](../../Locations/Orrun/06_sites/CARADRIL_SITES.md) → **The Sunken Wards Deep**. Campaign-specific: the Remnant back-way drops the player nearest the Archive stair; the flood-channel route can be learned from the Syndicate or the Hush.
 
 ## Current Occupants and Factions
 

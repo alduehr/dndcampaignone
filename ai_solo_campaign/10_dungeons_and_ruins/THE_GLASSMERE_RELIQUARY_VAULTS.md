@@ -34,6 +34,8 @@ A mid-high far-corroboration site that (1) proves the Remnant's scholarship and 
 
 ## Access / Entrance Routes
 
+Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Reliquary Vaults**. Campaign-specific access routes:
+
 1. **As a guest scholar (the open way):** earn League-Factor Oren Glass's or Reliquary-Lector Mareth Senn's leave to study (slow, safe; limited access).
 2. **By the back-ledgers (the banking way):** Banker-Magistra Sefwy Holt (the Ledger's rival) can buy you a key — for a price.
 3. **By the Glass Ear (the broker way):** the information-master sells the vault's layout and wards.
