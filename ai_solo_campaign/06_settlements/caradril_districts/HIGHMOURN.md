@@ -22,7 +22,7 @@ The grand temple-and-cemetery hill where Caradril buries its dead beautifully, e
 
 ## First Impression
 
-A green hill above the city crowned by the **Threshold Cathedral**, its three great doors for Birth, Living, and the Last Door. Terraced cemeteries fall away below it — the **Quiet Houses** — ordered, well-tended, carved with the names of charter families. Bells toll the hours of mourning. Incense, cut flowers, cold stone. After the Reach's failing graves, Highmourn looks like the way death is *supposed* to work: dignified, professional, paid-for. The cracks are kept out of sight.
+Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **Highmourn**. Campaign-specific: the cracks are kept out of sight (see DM-Only Truth below).
 
 ## Public Overview
 
@@ -59,10 +59,7 @@ Paid healing (cure wounds, lesser restoration, gentle repose; remove curse and r
 
 ## Laws and Customs
 
-- The dead are the Quiet Houses' business; private/frontier rites in the city are discouraged.
-- Raise dead requires a council license and a Cathedral rite; failures are *not* discussed.
-- Custom: eyes of the dead are covered; mourning-bells by station; a coin "for the Door" left at the tomb.
-- The clergy's authority is civic as well as spiritual — embarrassing the Cathedral is a political act.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **Highmourn**. Campaign-specific: raise-dead failures are not discussed (the cover-up — see DM-Only Truth above).
 
 ## Current Tensions
 

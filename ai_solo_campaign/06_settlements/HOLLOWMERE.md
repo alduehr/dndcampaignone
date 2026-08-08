@@ -22,7 +22,7 @@ A grey, close-knit frontier town built on the rim of a drowned ruin, where the f
 
 ## First Impression
 
-Hollowmere rings a wide hollow of dark, still water. Stilt-houses and peat-smoke crowd the firm ground; planked walkways cross the boggy edges; and out in the flooded basin, when the fog thins, you can see broken grey shapes under the surface — the tops of something old and enormous. The town smells of peat, salt, and cold water. People are kind but watchful, and every doorway has salt at the sill and a small star carved above it.
+Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Hollowmere**.
 
 ## Public Overview
 
@@ -64,9 +64,7 @@ All major Reach factions have a face here (see region file table). The Gravecall
 
 ## Laws and Customs
 
-- Compact law: no grave-robbing, no Gravecaller worship (outlawed), watch keeps order.
-- Customs: salt at the sill, a star at the door, mirrors covered in a death-house, the dead "named once and released."
-- Outsiders are tolerated and quickly put to work; trust is earned by how one treats the dead.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Hollowmere**. Campaign-specific: Gravecaller worship is outlawed and actively watched for.
 
 ## Current Tensions
 

@@ -22,7 +22,7 @@ A ramshackle road-hamlet squatting in a ruined Concord toll-station, where the E
 
 ## First Impression
 
-The East Road runs up to a great broken arch — a ruined Concord toll-station, half-swallowed by the wood — and through it, where the causeway pinches between bog and bramble. A clutter of lean-tos, a barred gate of lashed timber, a chain across the road, and hard-eyed folk with bows in the ruin above. A painted board reads the toll. Behind the bandit-front, an actual little community scrapes by: this is the only stop on three days of road, and they know it.
+Full sensory description: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Tollstone Cross**.
 
 ## Public Overview
 
@@ -67,9 +67,7 @@ The Tollmen (local bandit faction — a minor regional group, not a major factio
 
 ## Laws and Customs
 
-- The Tollmen's law: pay the toll, don't cross the bandits, don't go down into the Drowned Vault (they're afraid of it). Renn keeps a rough order; Skell would not.
-- The honest residents keep their heads down and the Mourner keeps the road's dead.
-- Custom (real): leave a coin at the Broken Arch for "the road" — half superstition, half Tollman-tax.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Tollstone Cross**. Campaign-specific: the Tollmen won't go down into the Drowned Vault (see DM-Only Truth above) — Renn keeps a rough order; Skell would not.
 
 ## Current Tensions
 

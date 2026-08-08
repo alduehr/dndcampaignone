@@ -22,7 +22,7 @@ A fortified Ashen Warden waystation at the great Concord crossroads, the one rel
 
 ## First Impression
 
-Where four Concord causeways meet on a low rise stands the Rest: a squat, ash-grey hall of old Concord stone, re-roofed and walled with a turf rampart, a star carved deep over the gate and a perpetual thin smoke of ritual ash. Travelers shelter in the yard. A few Wardens come and go in their grey cloaks. Inside it is warm, spare, and quiet, smelling of woodsmoke and the bitter herbs the Wardens burn. After the fens, it feels like the first place in days you can put your back to a wall.
+Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **The Ashwalk Rest** (listed there under its function, the region's waystation sanctuary).
 
 ## Public Overview
 
@@ -72,6 +72,8 @@ Ashen Wardens (home base), Mourners' Circle (shared keeper). The Wardens keep Gr
 - The Rest's rule: no violence within the rampart, no relic-trafficking, the dead come first.
 - Custom: leave the hall as you found it; burn a pinch of ash for the road-dead before you leave.
 - All are sheltered regardless of faction — even a Gravecaller may sleep in the yard, unarmed and watched.
+
+*(Not duplicated in Orrun — the Warden waystation's house rules are unique to this site, not the region's general custom baseline.)*
 
 ## Current Tensions
 

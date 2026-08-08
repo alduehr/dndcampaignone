@@ -58,12 +58,7 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 - [x] Locations/Orrun duplication cleanup, Pass 1 of 4 (regions) — 2026-08-08. All 16 `05_regions/*.md` files: `## Geography` and `## Travel Routes` sections trimmed to pointers at `Locations/Orrun/01_geography/regions/[REGION].md`; campaign-specific mechanical content (DCs, named tolls, cartography-authority pointers) preserved. `RETRIEVAL_GUIDE.md` updated so the AI DM loads both files when entering a region. See `PROGRESS_LOG.md` 2026-08-08 entry.
 
-- [ ] Locations/Orrun duplication cleanup, Pass 2 of 4 (settlements, 18 files)
-  - Why it matters: user wants zero geography duplication between `ai_solo_campaign` and `Locations/Orrun`. Settlements still restate physical/public-overview description that `Locations/Orrun/02_settlements/*.md` already covers.
-  - What to do: compare each `06_settlements/[NAME].md` against its Orrun counterpart (note: Orrun groups multiple settlements per region file — e.g. `SUNDERING_REACH_SETTLEMENTS.md` covers 8 campaign files — so this is a many-to-one mapping, not 1:1 like regions); trim the generic "First Impression"/"Public Overview"/physical-layout prose to a pointer; keep NPCs, factions, shops/services (campaign-specific), secrets, rumors, hooks, law/threat DCs untouched.
-  - Related files: `06_settlements/*.md` (18), `Locations/Orrun/02_settlements/*.md` (6), `RETRIEVAL_GUIDE.md` ("Entering a settlement" section)
-  - Suggested agent: none (direct)
-  - Stage: post-16 repo-structure pass
+- [x] Locations/Orrun duplication cleanup, Pass 2 of 4 (settlements) — 2026-08-08. All 17 standalone `06_settlements/*.md` files + `CARADRIL.md` + all 8 `caradril_districts/*.md` files (26 total): `## First Impression`/`## What The Player Notices First` and `## Laws and Customs` trimmed to pointers at the matching `Locations/Orrun/02_settlements/*.md` section (many-to-one: Orrun groups settlements per region); Caradril's main file additionally trimmed `Public Overview`/`Scale and Layout`/`Government and Law Structure`/`Shops and Services`. Campaign-specific sentences (DCs, plot detail, named factions/NPCs) preserved inline. `RETRIEVAL_GUIDE.md` updated. See `PROGRESS_LOG.md` 2026-08-08 entry.
 
 - [ ] Locations/Orrun duplication cleanup, Pass 3 of 4 (wilderness sites, 7 files)
   - Why it matters: same goal, higher risk — `05_regions/wilderness/*_SITES.md` interweave clue/secret/hook/NPC material directly into hazard/terrain description sentence-by-sentence (confirmed: 16 clue/secret/hook/NPC mentions in `GREYFENS_SITES.md` alone), so this is NOT a clean section-level replace like regions.

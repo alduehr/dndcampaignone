@@ -22,7 +22,7 @@ A tiny reed-cutting hamlet at a shallow Mirewend ford, the kind of close-knit no
 
 ## First Impression
 
-Half a day out of Hollowmere the road dips to a reedy ford where the Mirewend runs wide and shallow over gravel. A dozen cottages, a reed-thatcher's yard, drying-racks of cut reed, and a single shrine-stone on the bank. Children mind geese. Everyone knows everyone. A rope-and-plank ferry crosses when the ford floods. It is peaceful, poor, and so small that strangers are an event.
+Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Reedford**.
 
 ## Public Overview
 
@@ -64,8 +64,7 @@ Mourners' Circle (one widow), Reachward Compact (a passing wardman), Ashen Warde
 
 ## Laws and Customs
 
-- No law but custom and kinship; disputes go to Nan, then to the Hollowmere wardman.
-- Custom: drop a reed in the river for the dead; the ford is never crossed after dark "when the water's wrong."
+Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Reedford**.
 
 ## Current Tensions
 

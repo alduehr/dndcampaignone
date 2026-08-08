@@ -22,7 +22,7 @@ A prim, candle-making farm-village on the firm southern ground, proud of its tid
 
 ## First Impression
 
-South of the fens the ground firms into real pasture, and Candlewick sits among hedged fields and rush-ponds, a village of whitewashed cob and thatch that actually looks *cared for*. The air smells of tallow and beeswax — Candlewick makes the Reach's candles and rushlights, including the Mourners' funeral tapers. The graveyard is the neatest in the Reach, every stone straight, every plot salted. On the green stands a curiosity: a roofed-over Concord **archive-stone**, half a wall of carved old script that the village has protected for generations without being able to read it.
+Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Candlewick**.
 
 ## Public Overview
 
@@ -68,9 +68,7 @@ Reachward Compact (governs), Mourners' Circle (strong, traditional), Ashen Warde
 
 ## Laws and Customs
 
-- Compact law, gently enforced by the hayward and two part-time wardmen.
-- Strong customs: graves kept perfectly straight; funeral tapers from the local works only; outsiders judged by their manners.
-- The archive-stone is village-sacred; defacing or "selling" it is the great local taboo (which is why Greel's temptation is secret).
+Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Candlewick**. Campaign-specific: the archive-stone is village-sacred; defacing or "selling" it is the great local taboo (which is why Greel's temptation, above, is secret).
 
 ## Current Tensions
 

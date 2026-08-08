@@ -22,7 +22,7 @@ The drowned older city beneath Caradril — a quiet, dormant Concord relic-level
 
 ## What The Player Notices First
 
-Down the Sealgate's worn stair, the trade-noise fades into dripping dark. The Sunken Wards are the bones of an older Caradril: Concord stonework, half-flooded halls, sealed bronze doors, channels of still black water reflecting a lantern back at you. The air is cold and patient. Star-marks and Concord Script run along the lintels. It is *quiet* — not dead, but waiting, the way the Reach's leaking nodes are loud and these are merely... listening.
+Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Sunken Wards**. Campaign-specific: it is *quiet* — not dead, but waiting, the way the Reach's leaking nodes are loud and these are merely... listening (see DM-Only Truth below).
 
 ## What Is Actually Going On (DM-Only)
 

@@ -22,7 +22,7 @@ The harbor-lake banking district where the Cinder Ledger rules from the Ledger K
 
 ## First Impression
 
-The Stillwater opens before you, crowded with masts; stone quays run with porters, tally-clerks, and the clack of counting-frames. Warehouses stand like fortresses. Above them all rises the **Ledger Keep** — not a castle but a vast, severe counting-house of grey stone, its windows lamplit at all hours, its door flying the Ledger's cinder-mark. The air smells of lake-water, tar, spices, and money. Nobody is idle; everybody is owed, or owing.
+Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Counting-Quays**. Campaign-specific: the Ledger Keep's door flies the Ledger's cinder-mark.
 
 ## Public Overview
 
@@ -60,9 +60,7 @@ Banking (loans, letters of credit, deposits, debt), salvage and relic *buying* (
 
 ## Laws and Customs
 
-- Charter law is strictest here; unlicensed trade on the Quays is swiftly punished.
-- The Ledger's word carries near-legal weight; a Ledger blacklist can ruin a newcomer citywide.
-- Custom: deals sealed with a "cinder-token"; debts are tracked obsessively and never forgotten.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Counting-Quays**. Campaign-specific: deals are sealed with a "cinder-token" (the Ledger's mark).
 
 ## Current Tensions
 

@@ -22,7 +22,7 @@ The river-college district of green lamps and old books, public home of the Conc
 
 ## First Impression
 
-The lamps here burn green — a scholars' affectation and the district's pride, lit at dusk along terraced libraries and lecture-halls above the Verdance. Students argue in the streets; copyists' fingers are stained with ink; bells call lectures. The **Lamplighters' Hall** dominates the terrace, its doors open to anyone curious about the lost Concord's "golden age." It is warm, learned, and faintly self-satisfied — a place that reveres the past without suspecting it.
+Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Lantern Reach**.
 
 ## Public Overview
 
@@ -60,10 +60,7 @@ Research and translation (the campaign's main scholarly resource), Concord Scrip
 
 ## Laws and Customs
 
-- The Collegium polices its own; the Tide-Watch rarely enters.
-- Scholarship is currency; a recommendation from a lector opens doors, a feud closes them.
-- Custom: green lamps lit personally by lecturers; texts are "lent to the world," relics "kept for study."
-- The Sealed Archive is forbidden to outsiders — entering it without leave is a serious offense *and* the Reclaimers will respond directly.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Lantern Reach**. Campaign-specific: the Sealed Archive is forbidden to outsiders — entering it without leave is a serious offense *and* the Reclaimers will respond directly (see DM-Only Truth above).
 
 ## Current Tensions
 

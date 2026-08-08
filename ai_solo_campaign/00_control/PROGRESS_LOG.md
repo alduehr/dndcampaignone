@@ -38,6 +38,35 @@ None — no world facts changed, only where existing facts are stored.
 ### Next Recommended Pass
 Settlements cleanup (18 files, `06_settlements/*.md` vs `Locations/Orrun/02_settlements/*.md` — note the Orrun side groups multiple settlements per region file, so mapping is many-to-one, not 1:1 like regions).
 
+---
+
+## 2026-08-08 — Locations/Orrun Split: Settlement Duplication Cleanup (Pass 2 of 4)
+
+### Stage
+Post-Stage-16 repo-structure pass (user-directed). Continuation of the same-day Pass 1 (regions).
+
+### Summary
+Trimmed duplication from all 17 standalone settlement files (`06_settlements/*.md`, excluding `_PLACEHOLDER.md`) plus Caradril's main file and all 8 district files (`caradril_districts/*.md`) — 26 files total. Confirmed the same pattern held throughout: `## First Impression` (or, for the dungeon-style Sunken Wards sub-district, `## What The Player Notices First`) is near-verbatim duplicated by the matching `Locations/Orrun/02_settlements/*.md` entry, and `## Laws and Customs` is substantially the same baseline. Replaced both with short pointers to the Orrun file/section, keeping any campaign-specific sentence that isn't in Orrun (a named DC, a plot-relevant detail, a faction-tied enforcement note) as a trailing "Campaign-specific:" line rather than deleting it. For Caradril's top-level file specifically, also trimmed `Public Overview`, `Scale and Layout`, `Government and Law Structure`, and `Shops and Services` — Orrun's `CARADRIL.md` covers all of these in comparable or greater depth, since it's a single large city file rather than a grouped regional gazetteer. Everything else in every file (DM-Only Truth, named NPCs/leadership, Factions Present, Current Tensions, Secrets, Quest Hooks, Possible Scenes, Law And Threat Mechanics, Consequences If Ignored) was left untouched — none of it exists in Orrun by design.
+
+Mapping note: Orrun groups multiple settlements per region file (`SUNDERING_REACH_SETTLEMENTS.md` covers 8, `ASHGARDEN_VALE_SETTLEMENTS.md` covers 3, `TOLLWOOD_SETTLEMENTS.md` covers 3, `PALE_COAST_SETTLEMENTS.md` covers 2, `CARADRIL.md` covers Caradril + all 8 districts in one file), so this pass's pointers target a named section inside the group file, not a 1:1 file.
+
+### Files Changed
+- `ai_solo_campaign/06_settlements/*.md` (17 standalone settlements + `CARADRIL.md`)
+- `ai_solo_campaign/06_settlements/caradril_districts/*.md` (all 8)
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md` — "Entering a settlement (any)" now directs the AI DM to the matching Orrun file/section for sensory description and general customs, alongside the campaign settlement file for everything else
+
+### Canon Established
+None — no world facts changed, only where existing facts are stored.
+
+### Indexes Updated
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md`
+
+### Gaps Identified
+- Wilderness sites (7 files) and dungeons/ruins (41 files) remain — both riskier than settlements since clue/secret/hook/NPC content is interwoven with hazard/terrain description sentence-by-sentence rather than living in a cleanly separable section. See TODO.md Pass 3/4.
+
+### Next Recommended Pass
+Wilderness sites cleanup (7 files, `05_regions/wilderness/*.md` vs `Locations/Orrun/01_geography/wilderness/*.md`) — requires per-site, per-sentence judgment rather than a repeatable section-level pattern.
+
 ## 2026-07-28 — DungeonMaster Maps Contract Alignment
 
 ### Stage

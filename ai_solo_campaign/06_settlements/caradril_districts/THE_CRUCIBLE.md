@@ -22,7 +22,7 @@ The smoke-and-hammer guild district where master crafters turn Concord salvage i
 
 ## First Impression
 
-Heat and noise: forge-glow through open doors, the ring of hammers, the roar of smelters, guild-banners over fortress-like halls. The Crucible never fully sleeps; the night-shift glows red across the river. Crafters here are proud, clannish, and skilled — the best smiths, jewelers, gearwrights, and alchemists between the Reach and the sea. The air tastes of iron, char, and something faintly *wrong* near one foundry, where the relic-smelting is done.
+Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Crucible**. Campaign-specific: the air tastes faintly *wrong* near Harrow's foundry, where the relic-smelting is done (see DM-Only Truth below).
 
 ## Public Overview
 
@@ -59,9 +59,7 @@ Quality weapons, armor, and gear (the best mundane and low-magic commerce in the
 
 ## Laws and Customs
 
-- Guild law governs craft; non-guild work for hire is restricted (the player can commission, not compete).
-- Relic-smelting is *technically* licensed under the relic-charter; its risks are unregulated.
-- Custom: a maker's-mark is sacred; the night-shift "keeps the fires honest"; the slag-yards are off-limits to outsiders.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Crucible**. Campaign-specific: relic-smelting's risks (thin-touch, incidents) are unregulated.
 
 ## Current Tensions
 

@@ -22,7 +22,7 @@ A fat, devout cider-town that has kept the old rites for a century and would rat
 
 ## First Impression
 
-The South Road crests a low rise and the Vale opens below: orchards in red-gold autumn rows, a broad bright lake, and a town of mellow stone and cider-presses with woodsmoke and the sweet rot-smell of pressing apples on the air. Bells ring the harvest-hours. People are well-fed, well-dressed for a frontier, and unhurried; they nod to strangers and watch them a beat too long. Garlands of dried apple-blossom hang over every door — and, if you look, a small clay star pressed into the lintel above each one, freshly made.
+Full sensory description: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Orchardmere**.
 
 ## Public Overview
 
@@ -70,9 +70,7 @@ Mourners' Circle (dominant, via the Old Circle), harvest-moot/Reachward Compact 
 
 ## Laws and Customs
 
-- Harvest-moot law; the **moot-wardens** (a half-dozen, Guard-like) keep order. Justice is communal and reputation-driven — exile from a shrine-town is the real punishment.
-- Custom: a fresh clay star at every lintel, renewed at each new moon; speaking too loudly of "failed rites" is considered ill-bred and bad luck, and earns cold stares.
-- Grave-meddling and relic-theft are gravely punished by custom (the gibbet at Marrow Cross), though the *town's own* relic-selling is conveniently overlooked.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Orchardmere**. Campaign-specific: the *town's own* relic-selling (Pell's counting-yard) is conveniently overlooked despite the harsh custom against grave-meddling and relic-theft.
 
 ## Current Tensions
 

@@ -22,7 +22,7 @@ The serene upper-city seat of the Tidewater Council, where the dead are someone 
 
 ## First Impression
 
-Wide swept steps, clean stone, and a hush enforced by money and habit. The Magisterium sits on the high north bank: colonnaded halls, the great bronze doors of Magisters' Hall, a fountain that runs even in drought because the city can afford it. Liveried doorwards, charter-tokens on every important chest, criers reading the day's rulings. After the Reach's peat-smoke and salt-sills, it smells of beeswax and ink. Everyone here is busy being important and faintly bored.
+Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Magisterium**.
 
 ## Public Overview
 
@@ -60,10 +60,7 @@ Notaries and advocates (legal services; contracts, charters, wills), the charter
 
 ## Laws and Customs
 
-- A charter is sacred; the council's word is law; appeals are expensive.
-- The Wardmoot may petition but not compel.
-- Charter-tokens worn openly; refusing a magister's summons is a serious matter.
-- The upper city is heavily watched and unfriendly to obvious frontier roughness — armor and visible weapons draw the Watch (DC 12 to talk past, or a charter-sponsor waves it off).
+Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Magisterium**. Campaign-specific DC: armor/visible weapons draw the Watch (DC 12 to talk past, or a charter-sponsor waves it off).
 
 ## Current Tensions
 

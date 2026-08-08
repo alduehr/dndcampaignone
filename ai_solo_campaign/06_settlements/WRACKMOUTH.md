@@ -22,7 +22,7 @@ A salt-crusted cliff-harbor town that runs the frontier's salt, takes the sea's 
 
 ## First Impression
 
-The Pale Road climbs a last headland and the sea opens out, grey and endless, and below in a deep cleft of cliff sits Wrackmouth: a steep town of slate roofs and salt-white timber tumbling down to a stone harbor packed with fishing-boats and the Ledger's salt-hulks. Gulls and the reek of fish and brine. Nets, salt-sheds, and the constant boom of surf on the harbor-wall. Every house has a knot of salt-grass and a bit of sea-glass at the door, and a tide-table chalked by the lintel. The folk are weathered, blunt, and watchful, and they all glance, once, at the broken lighthouse on the far headland.
+Full sensory description: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md) → **Wrackmouth**.
 
 ## Public Overview
 
@@ -70,9 +70,7 @@ Cinder Ledger (dominant; salt and sea-relics; Cole), harbor-moot/Reachward Compa
 
 ## Laws and Customs
 
-- Harbor-moot law; the **harbor-watch** (a dozen, Guard/Veteran-like) keep the quays; the wild coast and the Wrack are barely policed.
-- Custom: salt-grass and sea-glass at the door; read the tide-table before any business; never sail on the drowned-bell's toll (it tolls for the newly drowned); leave the sea its due.
-- Wrecking and sea-relic smuggling are officially crimes and unofficially everywhere; the Ledger gets its cut and looks away.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md) → **Wrackmouth**. Campaign-specific: the Ledger gets its cut of the wrecking/sea-relic smuggling and looks away.
 
 ## Current Tensions
 

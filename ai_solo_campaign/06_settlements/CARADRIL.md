@@ -22,11 +22,11 @@ A proud, prosperous inland city-state that survived the Quietfall by going quiet
 
 ## First Impression
 
-After ten days of fen, forest, and broken road, Caradril is a shock of stone and noise: a tiered city climbing the banks of a slow green river to a still inland lake crowded with masts. Bells, not funeral-bells but trade-bells, mark the hours. The streets are paved, the lamps are lit at dusk by a guild that takes itself seriously, and the people are *not* afraid of the dead — here, death is tidy, expensive, and handled by professionals. Coin moves everywhere. Above the counting-houses fly the banners of the Charter Houses; above the river-college burn the green lamps of the scholars. It feels, after the Reach, almost untouched — which is exactly what should make a careful traveler uneasy.
+Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../Locations/Orrun/02_settlements/CARADRIL.md).
 
 ## Public Overview
 
-Caradril is the nearest true city to the Sundering Reach: an independent city-state on the **Verdance** river where it widens into the harbor-lake locals call the **Stillwater**. It was a modest Concord river-town before the Quietfall and, alone among the great settlements of the northwest, came through the collapse mostly intact. The century since — what Caradrese call **the Stilling** — made it rich as a trade-clearing house and refuge. It is governed by the **Tidewater Council** of magisters, drawn from the chartered merchant families (the **Charter Houses**) and headed by a **First Magister**, currently **Halloran Voss**. Its law is kept by the **Tide-Watch**. It is home to the headquarters of the **Cinder Ledger** (the merchant-bank that funds the frontier) and the seat of the **Concord Remnant** (the scholars who can read Concord Script). Most of its people are merchants, clerks, artisans, dockhands, scholars, and the poor of the riverside undercity called **the Sill**. Caradril honors the **Three Thresholds** with grand civic funerals on **Highmourn** hill. It thinks of itself as the safe, civilized future the rest of Orrun should imitate.
+Full public overview, history (the Stilling), and civic identity: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../Locations/Orrun/02_settlements/CARADRIL.md). Campaign-specific: the current First Magister is **Halloran Voss** (Orrun deliberately names no current officeholders — see Local Leadership below for all seated names).
 
 ## DM-Only Truth
 
@@ -34,12 +34,7 @@ Caradril is where the campaign's conspiracy lives in daylight. **The Cinder Ledg
 
 ## Scale and Layout
 
-- **Population:** roughly 18,000–22,000 — by far the largest place the player has seen. Treat as a true city with districts, not a town.
-- **Shape:** tiered on the north and south banks of the Verdance where it meets the Stillwater harbor-lake. The river runs roughly west-to-east through the city; the lake is at the east end.
-- **Upper city (north bank, higher ground):** the **Magisterium** (government), **Highmourn** (temples/cemetery hill), and the **Lantern Reach** (scholars).
-- **River and harbor (the working heart):** the **Counting-Quays** (Ledger banking and docks on the Stillwater), the **Ashmarket** (relic and salvage trade), and the **Crucible** (foundries, guildhalls).
-- **Low city (south bank, riverside):** the **Sill** (the poor undercity), built over and into older flooded structure.
-- **Underneath everything:** the **Sunken Wards**, a partly flooded older Concord level reached by a few sealed and forgotten stairs (the **Sealgate** is the known one).
+Full scale, shape, and district-tier breakdown: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../Locations/Orrun/02_settlements/CARADRIL.md) → **Scale and Layout**.
 
 ## Districts / Notable Areas
 
@@ -60,10 +55,7 @@ The **Tidewater Council**: a body of ~nine **magisters** chartered from the merc
 
 ## Government and Law Structure
 
-- **The Tidewater Council** holds all real power: it grants **charters** (trade licenses), sets tolls and taxes, judges high disputes, and commands the Tide-Watch. Seats are effectively hereditary among the Charter Houses; a charter can be bought, granted, or revoked, which makes the council a marketplace as much as a government.
-- **The Wardmoot** is a powerless commoners' assembly of district representatives — it petitions, it does not rule. It is a pressure valve and a recruiting ground for reformers (Sefa Dann's base).
-- **The Tide-Watch** keeps order: competent, bribable at the edges, deferential to charter-holders, and harder on the Sill than on the Quays. Crossing a Charter House is far more dangerous than crossing the law.
-- **Caradril is NOT part of the Reachward Compact.** It is an independent city-state. It treats the Reach as a poor, useful, dangerous hinterland — a source of salvage, salt, debt, and unsettling news. The Compact and Caradril deal as near-equals by necessity; Caradril is richer, the Reach is closer to the crisis.
+Full government/law structure: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../Locations/Orrun/02_settlements/CARADRIL.md) → **Government and Law**. Campaign-specific: the Wardmoot is Magister Sefa Dann's political base (see Current Tensions below).
 
 ## Important NPCs
 
@@ -83,14 +75,11 @@ Major (already established, seated here): **Mother Calla Vyre** (Cinder Ledger m
 
 ## Shops and Services
 
-Caradril offers everything a town cannot: full magic-item commerce (modest at low tiers, real at higher), spellcasting services (identify, remove curse, lesser restoration, even raise dead — at steep, regulated price and risk), master craftsmen, moneylending and letters of credit (Ledger), scholarly research and translation (Remnant/Collegium), every mundane good, hirelings and guides, ships and caravans onward, and discreet criminal services (Syndicate, Hush). Specific shops and their NPCs live in each district file. **Resurrection note:** raise dead is *available* here, expensive, council-licensed, and quietly unreliable — a player-facing way to feel the campaign's core wrongness (per `../03_canon/MAGIC_RULES.md`).
+Full citywide services summary: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../Locations/Orrun/02_settlements/CARADRIL.md) → **Services (citywide summary)**; per-district shops/NPCs live in each `caradril_districts/` file. **Resurrection note (campaign-mechanical):** raise dead is council-licensed and quietly unreliable — a player-facing way to feel the campaign's core wrongness (per `../03_canon/MAGIC_RULES.md`).
 
 ## Laws and Customs
 
-- **Charter law:** trade without a charter is the city's signature crime; the Tide-Watch enforces it for the Houses. Relic-trading is *licensed* (the Ashmarket) — unlicensed relic-dealing ("quiet-coin") is a black-market offense the Syndicate controls.
-- **Funeral law:** the dead are handled by the Quiet Houses on Highmourn for a fee; private or "frontier-style" rites in the city are frowned upon. Gravecaller practice is illegal here too, but unheard-of enough that the law is rarely invoked.
-- **Customs:** Caradrese cover the eyes (not the mirrors) of the dead; the lamps are lit at dusk "so the dead can find the Door and not the living"; charter-holders wear a house-token; debt is no shame here, it is *business*.
-- **Outsiders:** frontier folk are tolerated, condescended to, and watched. A capable newcomer is a tool or a threat; a newcomer asking about the Concord is *interesting* to exactly the wrong people.
+Full citywide laws and customs: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../Locations/Orrun/02_settlements/CARADRIL.md) → **Laws and Customs (citywide)**. Campaign-specific: Gravecaller practice is illegal here too, but unheard-of enough that the law is rarely invoked.
 
 ## Current Tensions
 

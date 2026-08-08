@@ -22,7 +22,7 @@ The crowded, half-flooded south-bank undercity where Caradril keeps its poor, it
 
 ## First Impression
 
-The river's low side: tenements built on older stone, walkways over backwater channels, washing-lines, smoke, and the constant slap of water under the boards. Poorer, louder, and more alive than the upper city. The **Brass Ferry** tavern leans over the water; ferrymen call for fares; children run the planks. Newcomers from the failing Reach huddle in doorways — thin-faced, quiet, unwelcome. Everyone here knows things, and in the Sill, knowing is currency.
+Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Sill**. Campaign-specific: the refugees huddling in doorways are specifically fleeing the Reach's failing rites (see DM-Only Truth below).
 
 ## Public Overview
 
@@ -60,9 +60,7 @@ Cheap lodging and food (the Brass Ferry), ferries and quiet passage, smuggled go
 
 ## Laws and Customs
 
-- The Watch is sparse; the Sill polices itself by reputation and the Hush's leverage.
-- Custom: a fare paid honestly buys a ferryman's silence; refugees are sheltered by the boards even as the city scorns them; "you don't ask the Bellman where he heard it."
-- Reach-style rites are technically illegal but quietly tolerated among the grieving poor.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Sill**.
 
 ## Current Tensions
 

@@ -22,7 +22,7 @@ A windburnt salt-trade town on the Reach's western edge where the price of keepi
 
 ## First Impression
 
-The road climbs out of the fens onto a low salt-grass shelf, and the air changes — brine instead of peat. Saltmargin is a sprawl of drying-sheds, salt-pans, and tar-black timber halls crusted white at the eaves. Gulls. The constant grind of the salt-mill. Stacked barrels everywhere, each chalked with a buyer's mark. People here squint, bargain hard, and wear charms of knotted salt-grass at the throat. The whole town smells of the sea it can't quite see.
+Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Saltmargin**.
 
 ## Public Overview
 
@@ -69,9 +69,7 @@ Cinder Ledger (dominant), Reachward Compact (thin watch), Mourners' Circle (Brin
 
 ## Laws and Customs
 
-- Compact law applies but lightly enforced; the watch is two bored guards and the salt-warden.
-- Custom: every shipment is salt-blessed before it leaves; breaking a salt-barrel is bad luck and a finable offense.
-- Smuggling is an open secret tolerated as long as the Ledger gets its cut.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Saltmargin**. Campaign-specific: smuggling is an open secret tolerated as long as the Ledger gets its cut (see Gull Heddwyn, Regional Conflicts).
 
 ## Current Tensions
 

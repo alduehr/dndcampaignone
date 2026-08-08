@@ -22,7 +22,7 @@ A loud, crowded relic-bazaar where Reach salvage becomes Caradrese fortune, and 
 
 ## First Impression
 
-A roofed-over warren of stalls between the Quays and the Crucible: lamplight on grey Concord stone-scraps, brokers crying lots, the smell of old metal, dust, and incense burned to "settle" uneasy goods. Appraisers squint through lenses; haulers wheel crates fresh off frontier caravans; a clergyman stands at the edge muttering against the whole trade. Legitimate licensed dealing up front — and, through a curtain, the *other* market.
+Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Ashmarket**.
 
 ## Public Overview
 
@@ -59,9 +59,7 @@ Buying and selling salvage and curios, relic appraisal and authentication, fenci
 
 ## Laws and Customs
 
-- A relic-charter is required for legal dealing; unlicensed relic-trade is a Syndicate-controlled crime the Watch mostly ignores for a cut.
-- Custom: incense burned over "uneasy" lots; a buyer never asks where a relic was dug; the clergy's protest is tolerated as background noise.
-- Quiet-coin is an open secret — everyone knows, no one says.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Ashmarket**. Campaign-specific: quiet-coin (see DM-Only Truth above) is an open secret — everyone knows, no one says.
 
 ## Current Tensions
 

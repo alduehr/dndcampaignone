@@ -22,7 +22,7 @@ A half-feral charcoal-village deep in the Tollwood that has kept the forest's ol
 
 ## First Impression
 
-A day and more off the road, in a clearing of stumps and smoking charcoal-mounds, sits Coldhearth: low turf-roofed huts, racks of drying wood, and the constant blue haze of the burns. The people are lean, watchful, and quiet, marked with charcoal and old scars, and they speak a slow forest-dialect thick with words for things outsiders don't have. Every threshold, every tool, every grave has an offering-mark. They watch a stranger the way the wood watches — patiently, and from all sides.
+Full sensory description: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Coldhearth**.
 
 ## Public Overview
 
@@ -68,9 +68,7 @@ Mourners' Circle (the forest-custom; Sennet), Gravecallers (sheltered cell in th
 
 ## Laws and Customs
 
-- The old customs are law: offer at the Mark-Stone, keep the bargains, never lead anything out of the deep wood. Breaking the bargain is the one unforgivable crime, judged by Sennet and the wood.
-- Hospitality is sacred — a guest who respects the customs is protected; one who scoffs is turned out into the dark.
-- The Gravecallers are sheltered but watched; Coldhearth fears their recklessness even as it agrees with their reverence.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Coldhearth**. Campaign-specific: the Gravecallers are sheltered but watched; Coldhearth fears their recklessness even as it agrees with their reverence.
 
 ## Current Tensions
 

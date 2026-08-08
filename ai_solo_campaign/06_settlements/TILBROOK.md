@@ -22,7 +22,7 @@ A hard-working, hard-up mill village on the Ammet that grinds the Vale's grain, 
 
 ## First Impression
 
-After the fens, the Ammet valley feels almost gentle: a brown river turning a big mossy mill-wheel, a huddle of thatch and daub, geese, and the steady knock of the mill. But the gentleness is thin. The cottages need mending, the children are lean, and there's a row of empty houses at the village edge with Ledger marks chalked on the doors. The folk here are blunt where the shrine-town people are smooth, and they size up a stranger by what work they can do.
+Full sensory description: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Tilbrook**.
 
 ## Public Overview
 
@@ -66,9 +66,7 @@ Cinder Ledger (creditor and quiet relic-quarrier; Pell's reach from Orchardmere)
 
 ## Laws and Customs
 
-- Compact law in name; in practice Miller Brunt and custom settle disputes. The moot-wardens rarely come.
-- Custom: plain rites, no grand shrines; a loaf left on a new grave for the dead's journey. Lately the loaves are found moved.
-- The village quietly shelters its own from Ledger enforcers when it can.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Tilbrook**. Campaign-specific: lately the loaf left on a new grave is found moved each night (see Secrets below — an M5 clue).
 
 ## Current Tensions
 

@@ -22,7 +22,7 @@ A cold, half-abandoned mining town built into the bones of a Concord delving in 
 
 ## First Impression
 
-The Concord road climbs out of the fens into bare grey highland, and Harrowgast appears clinging to a scree slope — slate roofs, spoil-heaps, and the black square mouths of old adits cut into the mountain by hands long dead. Half the town is ruins the living have re-roofed; the other half is ruins no one will touch. Wind never stops here. The folk are lean, soot-marked, and superstitious about the deep tunnels, where they say the rock "remembers." It is the only place in the Reach where the Concord's old works are not drowned but *open*.
+Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Harrowgast**. Campaign-specific: it is the only place in the Reach where the Concord's old works are not drowned but *open*.
 
 ## Public Overview
 
@@ -69,9 +69,7 @@ Cinder Ledger (weigh-post), Reachward Compact (thin overseer rule), Concord Remn
 
 ## Laws and Customs
 
-- Compact law in name; in practice Brack's word and the miners' code. Theft from a dig is punished by the rope.
-- Custom: never whistle in the deep tunnels; leave a coin at the Deep Mouth; never speak the name of a miner who went "thin."
-- Outsiders are tolerated if they can work or pay; despised if they ask too many questions about the deep tunnels.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Harrowgast**. Campaign-specific: never speak the name of a miner who went "thin" (see thin-touch, DM-Only Truth above).
 
 ## Current Tensions
 

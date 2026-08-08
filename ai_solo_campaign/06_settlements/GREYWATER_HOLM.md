@@ -22,7 +22,7 @@ A shrinking fen-village on the edge of the Greyfens where rites fail almost ever
 
 ## First Impression
 
-The road gives out into a corduroy of half-sunk logs, and the village rises on a low holm barely above the black water — a huddle of turf-roofed cottages, a single crooked longhall, and a burial-ground that has crept up onto the only dry rise because the lower graves "won't stay." Mist hangs even at midday. Every door has salt and a star, and many have a second mark scratched beneath the star that the villagers won't explain. It is quiet in a way that feels like held breath.
+Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Greywater Holm**. Campaign-specific: many doors carry a second mark scratched beneath the star that villagers won't explain (see DM-Only Truth below).
 
 ## Public Overview
 
@@ -68,9 +68,7 @@ Mourners' Circle (governs morally), Gravecallers (hidden cell, growing), Ashen W
 
 ## Laws and Customs
 
-- No formal law; the elder mediates. Theft and violence are punished by exile into the fen — effectively a death sentence.
-- Custom: the second mark beneath the star (publicly "an old fen-charm," secretly the Knock); the dead are now buried higher each year.
-- Outsiders are watched warily but a respectful hand is welcomed — the village badly needs help.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Greywater Holm**. Campaign-specific: the second mark beneath the star is publicly "an old fen-charm," secretly the Gravecaller Knock.
 
 ## Current Tensions
 

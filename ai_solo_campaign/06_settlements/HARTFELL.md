@@ -22,7 +22,7 @@ A stockaded timber road-town that lives off the Caradril trade and the toll, kee
 
 ## First Impression
 
-The East Road runs out of the trees into a clearing, and there's Hartfell: a sprawl of timber halls and sawpits inside a log stockade, woodsmoke and the scream of saws, hides and charcoal and stacked timber bound for the city. Hounds, hard men, and laden carts. It feels almost safe after the road — until you notice the stockade faces *inward*, toward the trees, and the east gate is barred and offering-marked, and nobody goes out it after dark.
+Full sensory description: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Hartfell**.
 
 ## Public Overview
 
@@ -69,9 +69,7 @@ Cinder Ledger (dominant; sawmill and credit), Reachward Compact (road-watch), Mo
 
 ## Laws and Customs
 
-- A rough partnership-law: the Ledger fines, the road-watch (Guard/Veteran-like) jails; serious wood-crimes (breaking a toll-shrine, leading the deep dead to the road) are judged by the Mourners and dreaded more than the Compact's.
-- **Forest-rules, kept in private:** offer at the toll-shrine before traveling; never cut a marked tree; never go out the east gate after dark; carry salt and an offering. Outsiders who scoff are quietly shunned.
-- The east gate is barred at dusk and not opened till dawn for any price.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Hartfell**.
 
 ## Current Tensions
 

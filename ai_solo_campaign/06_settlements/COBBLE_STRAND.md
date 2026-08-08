@@ -22,7 +22,7 @@ A poor, devout shingle-cove village in the shadow of a ruined Concord lighthouse
 
 ## First Impression
 
-The cliff-road drops to a grey shingle cove and a huddle of tarred cottages with upturned-boat roofs, fish-racks, and a little salt-and-tide shrine at the high-tide line. Above, on the headland, the broken stump of an old Concord lighthouse — the Drowned Lamp — stands black against the sky. The folk are lean, salt-cured, and grave, and they keep an empty place at every hearth "for the one the sea sends back." At the strand's edge, a row of small cairns marks the drowned, and someone has left fresh salt on each.
+Full sensory description: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md) → **Cobble Strand**. Campaign-specific: the ruined lighthouse above the village is **the Drowned Lamp**.
 
 ## Public Overview
 
@@ -68,9 +68,7 @@ Mourners' Circle (dominant; the tide-shrine; Bryd), Gravecallers (a current thro
 
 ## Laws and Customs
 
-- Custom is law; Bryd and Corl settle disputes. No militia; the sea is the great authority.
-- Salt-and-tide custom: a cairn and fresh salt for every drowned; an empty hearth-place "for the one the sea sends back"; never take from a wreck without the Salt-Mother's rite (the wreckers break this, to the village's grief).
-- The village shelters its own and distrusts the wreckers, the Ledger, and outsiders who scoff at the tide.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md) → **Cobble Strand**.
 
 ## Current Tensions
 

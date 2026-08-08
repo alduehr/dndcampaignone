@@ -22,7 +22,7 @@ A devout little pilgrim-town wrapped around the oldest standing Threshold shrine
 
 ## First Impression
 
-The pilgrim-track switchbacks up a green hill crowned by an old, beautiful shrine of pale stone — far older and finer than anything in the Reach. Bells, incense, and the murmur of crowds. The town below is small but rich on pilgrim coin: hostels, candle-sellers, relic-stalls hawking "saint's bones" and blessed earth, and lines of the faithful climbing to lay flowers at Saint Veddow's Rest. The faithful come here because, they say, *the dead always rest easy at Saint Veddow's.* Lately the keepers have grown tight-lipped, and the lines a little shorter.
+Full sensory description: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Saint Veddow's Rest**. Campaign-specific: lately the keepers have grown tight-lipped, and the pilgrim lines a little shorter (see Current Tensions below).
 
 ## Public Overview
 
@@ -69,9 +69,7 @@ Mourners' Circle (shrine-keepers), Ashen Wardens (resident chapter — the only 
 
 ## Laws and Customs
 
-- Sacred law: the shrine-keeper's word is final on the hill; the inner tomb is forbidden to all but the Wardens (trespass is sacrilege).
-- Custom: pilgrims climb barefoot the last furlong; lay a flower, not coin, at the saint's altar; speak no ill of the dead on the hill.
-- Relic-selling is *technically* frowned on but enormously profitable and quietly tolerated — a hypocrisy a sharp player will notice.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Saint Veddow's Rest**.
 
 ## Current Tensions
 

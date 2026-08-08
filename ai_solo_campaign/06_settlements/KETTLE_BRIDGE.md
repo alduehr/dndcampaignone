@@ -22,7 +22,7 @@ A bustling, quarrelsome bridge-town astride the only good Mirewend crossing for 
 
 ## First Impression
 
-The Concord road lifts onto a great old causeway and crosses the peat-dark Mirewend on a bridge older than the town — three massive Concord arches with a newer timber span patched over a collapsed fourth. The town clusters at both ends: mills turning on the current, a market that never quite closes, the smell of river-mud and frying eel. A toll-chain stretches across the road. Boatmen shout from below. It is the liveliest place in the Reach, and the most watched.
+Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Kettle Bridge**. Campaign-specific: it is the most-watched town in the Reach (see DM-Only Truth below).
 
 ## Public Overview
 
@@ -69,9 +69,7 @@ Reachward Compact (governs), Cinder Ledger (toll + mill), Ashen Wardens (rest ho
 
 ## Laws and Customs
 
-- Strict Compact law here (the bailiff enforces): no weapons drawn on the span, toll paid in full, lockup for brawlers.
-- Custom: a coin dropped in the river for safe crossing; never name the drowned on the bridge.
-- Gravecaller activity is hunted harder here than anywhere but Hollowmere.
+Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Kettle Bridge**. Campaign-specific: Gravecaller activity is hunted harder here than anywhere but Hollowmere.
 
 ## Current Tensions
 
