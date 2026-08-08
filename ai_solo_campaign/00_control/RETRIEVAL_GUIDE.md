@@ -67,7 +67,7 @@ Then load the world files for the current location, active quests, and NPCs pres
 ### Entering a region (core Ring 1)
 - **Physical geography, climate, culture, full travel-time table:** `Locations/Orrun/01_geography/regions/[REGION].md` — as of the 2026-08 duplication cleanup, the campaign region files no longer restate this; load the Orrun file for "what does it look like / what's it like to live here" questions.
 - The region file: `05_regions/ASHGARDEN_VALE.md` / `05_regions/TOLLWOOD.md` / `05_regions/PALE_COAST.md` (or `05_regions/SUNDERING_REACH.md`) — campaign layer: DM-only truth, settlements/factions/secrets/hooks, level range, encounter/hazard mechanics
-- The region's wilderness sites file (`05_regions/wilderness/..._SITES.md`)
+- The region's wilderness sites file (`05_regions/wilderness/..._SITES.md`) — campaign layer: named sites, hazards with DCs, creature stat references, secrets/clues/hooks (mechanically self-contained; not split with Orrun). For pure atmosphere/"what a traveler notices first," the matching `Locations/Orrun/01_geography/wilderness/*.md` file is now the source (as of the 2026-08 cleanup) — the campaign file points to it.
 - `04_world_atlas/TRAVEL_ROUTES_RING1.md` for the journey in
 - The region's encounter table (`13_encounters_and_bestiary/[REGION]_ENCOUNTERS.md`)
 - Region hooks/rumors (`09_quests/hooks_and_rumors/[REGION]_HOOKS.md` / `_RUMORS.md`)

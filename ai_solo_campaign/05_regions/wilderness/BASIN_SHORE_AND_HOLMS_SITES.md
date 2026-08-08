@@ -22,7 +22,7 @@ The eerie shore of the drowned basin and the firm holms around it — where, whe
 
 ## What The Player Notices First
 
-The basin is a wide hollow of dark, still water, fog clinging to it even in sun. Hollowmere rings its near shore. Out in the water, broken grey shapes break the surface — and on a clear day you can see they continue *down*, far down, far larger than any building should be. The shore is salt-marked, half-shunned; the Mourners leave offerings at the waterline; and the water is unnaturally calm, as if it is listening.
+Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/BASIN_SHORE_AND_HOLMS.md`](../../../Locations/Orrun/01_geography/wilderness/BASIN_SHORE_AND_HOLMS.md). Campaign-specific: the water is unnaturally calm, as if it is listening.
 
 ## What Is Actually Going On (DM-Only)
 

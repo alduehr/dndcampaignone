@@ -67,6 +67,32 @@ None — no world facts changed, only where existing facts are stored.
 ### Next Recommended Pass
 Wilderness sites cleanup (7 files, `05_regions/wilderness/*.md` vs `Locations/Orrun/01_geography/wilderness/*.md`) — requires per-site, per-sentence judgment rather than a repeatable section-level pattern.
 
+---
+
+## 2026-08-08 — Locations/Orrun Split: Wilderness Duplication Cleanup (Pass 3 of 4)
+
+### Stage
+Post-Stage-16 repo-structure pass (user-directed). Continuation of the same-day Passes 1–2 (regions, settlements).
+
+### Summary
+Trimmed all 7 `05_regions/wilderness/*_SITES.md` files — a lighter touch than Passes 1–2, deliberately. Confirmed by direct comparison that only `## What The Player Notices First` (pure atmospheric description, no mechanics, no secrets) is reliably near-duplicated by the matching `Locations/Orrun/01_geography/wilderness/*.md` file's `## What A Traveler Notices First` section; replaced it with a pointer, keeping any sentence that's genuinely campaign-unique (a plot-relevant detail like "the water is unnaturally calm, as if it is listening"). Everything else — Named Sites, Hazards (with DCs), Creatures/Adversaries (with stat references), NPCs Present, Secrets, Clues, Hooks, Treasure, Level Range And Solo Danger, Consequences If Ignored — was deliberately left untouched, even where a hazard's DC or a creature's stat-flavor happens to also appear in the Orrun file. Two reasons: (1) `DND_MECHANICS_REQUIREMENTS.md` and `WORLDBUILDING_STANDARDS.md`'s Wilderness Location Standard both require these fields to live in the campaign file itself for self-contained play — a pointer there would break mechanical completeness, not just trim prose; (2) clue/secret/hook content is interwoven into the Named Sites descriptions sentence-by-sentence (not cleanly sectioned), so surgical removal risked deleting campaign-unique content by accident. This scoping was flagged to the user in the Pass-2 handoff and TODO.md before starting.
+
+### Files Changed
+- `ai_solo_campaign/05_regions/wilderness/*.md` (all 7)
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md` — "Entering a region" wilderness-file bullet now notes the split (atmosphere in Orrun, mechanics/secrets in the campaign file)
+
+### Canon Established
+None.
+
+### Indexes Updated
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md`
+
+### Gaps Identified
+- Dungeons/ruins (41 files) remain — same lighter-touch treatment planned (trim only pure atmosphere/"first impression" equivalent sections; leave hazards, traps, puzzles, boss mechanics, secrets, clues, treasure untouched for the same self-containment reasons as wilderness).
+
+### Next Recommended Pass
+Dungeons/ruins cleanup (41 files, `10_dungeons_and_ruins/*.md` vs `Locations/Orrun/06_sites/*.md`, grouped 4 files covering 34 sites — note D23/D20, the Under-Shrine and Basin Keystone Approach, have no Orrun counterpart by design and should be skipped).
+
 ## 2026-07-28 — DungeonMaster Maps Contract Alignment
 
 ### Stage

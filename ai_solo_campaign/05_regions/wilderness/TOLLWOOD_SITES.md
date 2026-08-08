@@ -22,7 +22,7 @@ A vast, ancient forest where the Concord's straight roads run through trees that
 
 ## What The Player Notices First
 
-How *old* it is — oaks like towers, no undergrowth in the deep stands, just brown shade going back forever. How the Concord road, so confident in the fens, here runs cracked and mossed and *bends*, more than once, around stretches of wood it plainly chose not to cross. The offering-marks on the trees at every crossing. And, off the road, how fast you stop being able to tell which way you came.
+Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/TOLLWOOD_WILDS.md`](../../../Locations/Orrun/01_geography/wilderness/TOLLWOOD_WILDS.md).
 
 ## What Is Actually Going On (DM-Only)
 

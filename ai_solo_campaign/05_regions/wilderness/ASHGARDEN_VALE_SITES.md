@@ -22,7 +22,7 @@ A kind, hedged farm-country of orchards and water-meadows, dotted with Concord r
 
 ## What The Player Notices First
 
-Order and plenty: red-gold orchard rows, drystone walls, sheep on the downs, a slow bright river. Then the odd note — a standing carved stone the orchard has grown around, a field-shrine used as a sheep-byre, fresh flowers on a grave nobody will discuss, a gibbet at a crossroads with a too-fresh occupant. The Vale is beautiful and it is hiding something, and a careful traveler feels both at once.
+Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/ASHGARDEN_VALE_WILDS.md`](../../../Locations/Orrun/01_geography/wilderness/ASHGARDEN_VALE_WILDS.md). Campaign-specific: fresh flowers on a grave nobody will discuss, and a gibbet at a crossroads with a too-fresh occupant.
 
 ## What Is Actually Going On (DM-Only)
 

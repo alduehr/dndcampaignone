@@ -22,7 +22,7 @@ The raised Concord causeways and the slow black Mirewend that knit the Reach tog
 
 ## What The Player Notices First
 
-The Concord roads are unmistakable: broad stone causeways lifted above the bog on ancient piers, dead straight, crumbling at the edges, marked at intervals by **shrine-stones** carved with the old star. The Mirewend runs peat-dark and slow beside and beneath them. Travel here feels safe compared to the open fen — until a shrine-stone is cracked, or a Remembrance stands on the road ahead, or the fog rolls up off the river.
+Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/MIREWEND_AND_ROADS.md`](../../../Locations/Orrun/01_geography/wilderness/MIREWEND_AND_ROADS.md).
 
 ## What Is Actually Going On (DM-Only)
 

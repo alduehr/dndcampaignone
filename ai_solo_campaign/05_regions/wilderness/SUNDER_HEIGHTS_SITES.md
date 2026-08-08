@@ -22,7 +22,7 @@ A cold, bare-boned highland of broken Concord ruins and abandoned mines where th
 
 ## What The Player Notices First
 
-The fens fall away below and the world goes grey and hard: scree, heather, wind, and the great sundered ridges that gave the Reach its name — cliffs split as if by a single ancient blow. Concord ruins stand more *intact* here than anywhere, because the highland never drowned: roofless halls, snapped aqueducts, the black mouths of mine-adits. It is colder, clearer, and lonelier than the fens, and the silence has a weight.
+Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/SUNDER_HEIGHTS.md`](../../../Locations/Orrun/01_geography/wilderness/SUNDER_HEIGHTS.md).
 
 ## What Is Actually Going On (DM-Only)
 

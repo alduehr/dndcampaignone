@@ -22,7 +22,7 @@ A cold, storm-cut coast of cliffs, coves, salt-pans, and ruined Concord lights, 
 
 ## What The Player Notices First
 
-The sea — grey, vast, never quiet — and how everything bends to it: the wind-stunted cliff-grass, the upturned-boat roofs, the tide-tables chalked on every wall. The ruined lighthouses and sea-shrines on the headlands, older and stranger than anything the fisher-folk built. The drowned-cairns above the tide-line. And, in the fog, how the broken Drowned Lamp sometimes seems to *gleam* though no one tends it.
+Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/PALE_COAST_WILDS.md`](../../../Locations/Orrun/01_geography/wilderness/PALE_COAST_WILDS.md). Campaign-specific: in the fog, the broken Drowned Lamp sometimes seems to *gleam* though no one tends it.
 
 ## What Is Actually Going On (DM-Only)
 

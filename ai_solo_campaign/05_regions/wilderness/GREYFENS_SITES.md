@@ -22,7 +22,7 @@ A vast, fog-drowned peat-wetland where the ground lies, the dead drift the wrong
 
 ## What The Player Notices First
 
-Fog that never fully lifts. Black water between hummocks of red-brown peat, dotted with drowned trees and the white gleam of old bone. Sound carries strangely — a voice from one direction, footsteps from another. Will-o'-wisp lights. And, more than anywhere else in the Reach, the pale, sorrowful shapes of Remembrances standing in the water, all of them facing the same way: toward the Hollowmere basin.
+Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/GREYFENS.md`](../../../Locations/Orrun/01_geography/wilderness/GREYFENS.md). Campaign-specific: the drifting dead are, more than anywhere else in the Reach, present here — and all facing the same way, toward the Hollowmere basin (see the Drift-Line, below).
 
 ## What Is Actually Going On (DM-Only)
 
