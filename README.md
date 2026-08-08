@@ -13,11 +13,15 @@ The AI DM uses prepared content first and improvises only as much as a skilled h
 
 ## Repository Structure
 
+**[`REPO_MAP.md`](REPO_MAP.md) is the authoritative, complete map of this repository** — every top-level folder and file, what it's for, and a "find it fast" lookup table. Read it for the full picture. Summary:
+
 ```text
 CLAUDE.md                        ← Claude Code instructions and load order
-dm.campaign.json                 ← DungeonMaster app onboarding manifest (see ONBOARDING.md)
+README.md                        ← This file
 ONBOARDING.md                    ← How this repo onboards into the DungeonMaster app
-ai_solo_campaign/
+REPO_MAP.md                      ← Authoritative structure map — start here to find anything
+dm.campaign.json                 ← DungeonMaster app onboarding manifest (see ONBOARDING.md)
+ai_solo_campaign/                ← The campaign engine — authoritative, secret-bearing, wired to play
   00_control/                    ← Standards, workflow, tracking, indexes
   01_runner_protocol/            ← AI DM behavior rules and session protocols
   02_runtime_state/              ← Live campaign state (updated every session)
@@ -40,6 +44,8 @@ ai_solo_campaign/
   18_audits/                     ← Audit reports
   maps/                          ← DungeonMaster app maps manifest (player/DM map asset pointers)
   skills/                        ← DungeonMaster app skills overlay (mandatory DM-procedure files)
+Locations/Orrun/                 ← Spoiler-free world-reference library, derived from campaign canon, reusable elsewhere
+one_shots/                       ← Standalone non-canon one-shot adventures, deliberately disconnected from the campaign
 ```
 
 ## Current Status
