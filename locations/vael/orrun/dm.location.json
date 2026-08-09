@@ -4,5 +4,11 @@
   "displayName": "Orrun (Vael)",
   "world": "vael",
   "continent": "orrun",
-  "contentRoot": "."
+  "contentRoot": ".",
+  "visibility": {
+    "strategy": "path-convention",
+    "playerSafeGlobs": [
+      "**/*.md"
+    ]
+  }
 }
