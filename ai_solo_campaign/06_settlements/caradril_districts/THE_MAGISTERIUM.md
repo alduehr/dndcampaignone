@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/caradril
 region: Orrun
 settlement: Caradril
 factions: [Tidewater Council, Charter Houses, Tide-Watch, Hollow Court]
@@ -22,7 +23,7 @@ The serene upper-city seat of the Tidewater Council, where the dead are someone 
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Magisterium**.
+Full sensory description: `vael/orrun/settlements/caradril`.
 
 ## Public Overview
 
@@ -60,7 +61,7 @@ Notaries and advocates (legal services; contracts, charters, wills), the charter
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Magisterium**. Campaign-specific DC: armor/visible weapons draw the Watch (DC 12 to talk past, or a charter-sponsor waves it off).
+Full customs and law baseline: `vael/orrun/settlements/caradril`. Campaign-specific DC: armor/visible weapons draw the Watch (DC 12 to talk past, or a charter-sponsor waves it off).
 
 ## Current Tensions
 

@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/sunken-wards-deep
 region: Orrun
 settlement: Caradril
 factions: [Concord Remnant, The Hush, Salt Syndicate, Cinder Ledger, Hollow Court]
@@ -34,7 +35,7 @@ A dense, repeatable mid-game exploration site that (1) proves the harvest networ
 
 ## History (Player-Safe)
 
-Public appearance and history: [`Locations/Orrun/06_sites/CARADRIL_SITES.md`](../../Locations/Orrun/06_sites/CARADRIL_SITES.md) → **The Sunken Wards Deep**.
+Public appearance and history: `vael/orrun/sites/sunken-wards-deep`.
 
 ## History (DM-Only)
 
@@ -42,11 +43,11 @@ The deep wards are a **minor, long-dormant cousin of the Reach's harvest-network
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/06_sites/CARADRIL_SITES.md`](../../Locations/Orrun/06_sites/CARADRIL_SITES.md) → **The Sunken Wards Deep**.
+Full sensory description: `vael/orrun/sites/sunken-wards-deep`.
 
 ## Access / Entrance Routes
 
-Full approach and entrance description (the three routes down): [`Locations/Orrun/06_sites/CARADRIL_SITES.md`](../../Locations/Orrun/06_sites/CARADRIL_SITES.md) → **The Sunken Wards Deep**. Campaign-specific: the Remnant back-way drops the player nearest the Archive stair; the flood-channel route can be learned from the Syndicate or the Hush.
+Full approach and entrance description (the three routes down): `vael/orrun/sites/sunken-wards-deep`. Campaign-specific: the Remnant back-way drops the player nearest the Archive stair; the flood-channel route can be learned from the Syndicate or the Hush.
 
 ## Current Occupants and Factions
 

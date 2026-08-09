@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/deep-adit
 region: Sundering Reach
 settlement: Harrowgast
 factions: [Concord Remnant, Cinder Ledger, Ashen Wardens]
@@ -22,11 +23,11 @@ A deep Concord harvest-adit beneath the Sunder Heights mines, leaking the dead i
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Deep Adit**. **Truly (DM):** a Concord harvest node — a smaller cousin of the Hollowmere shrine — that drew Remembrance from Heights burials into the network. The Quietfall severed it; it sat dormant; now it leaks, saturating the rock so it "remembers" and turning deep-digging miners "thin." The **Concord Remnant** (Veska Dunn's crew) has identified it and is digging to reach its core for relics and proof.
+Public appearance and history: `vael/orrun/sites/deep-adit`. **Truly (DM):** a Concord harvest node — a smaller cousin of the Hollowmere shrine — that drew Remembrance from Heights burials into the network. The Quietfall severed it; it sat dormant; now it leaks, saturating the rock so it "remembers" and turning deep-digging miners "thin." The **Concord Remnant** (Veska Dunn's crew) has identified it and is digging to reach its core for relics and proof.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Deep Adit**. Campaign-specific: "thin" Coll and dig-boss Hennet's terror are the town's telegraph of what lies below.
+Full approach and entrance description: `vael/orrun/sites/deep-adit`. Campaign-specific: "thin" Coll and dig-boss Hennet's terror are the town's telegraph of what lies below.
 
 ## Solo Danger Rating
 

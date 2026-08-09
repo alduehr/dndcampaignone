@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/caradril
 region: Orrun
 settlement: Caradril
 factions: [Cinder Ledger, Quay Charter, Tidewater Council, Salt Syndicate]
@@ -22,7 +23,7 @@ The harbor-lake banking district where the Cinder Ledger rules from the Ledger K
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Counting-Quays**. Campaign-specific: the Ledger Keep's door flies the Ledger's cinder-mark.
+Full sensory description: `vael/orrun/settlements/caradril`. Campaign-specific: the Ledger Keep's door flies the Ledger's cinder-mark.
 
 ## Public Overview
 
@@ -60,7 +61,7 @@ Banking (loans, letters of credit, deposits, debt), salvage and relic *buying* (
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Counting-Quays**. Campaign-specific: deals are sealed with a "cinder-token" (the Ledger's mark).
+Full customs and law baseline: `vael/orrun/settlements/caradril`. Campaign-specific: deals are sealed with a "cinder-token" (the Ledger's mark).
 
 ## Current Tensions
 

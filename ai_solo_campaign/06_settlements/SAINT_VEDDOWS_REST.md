@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/saint-veddows-rest
 region: Ashgarden Vale
 settlement: Saint Veddow's Rest
 factions: [Mourners' Circle, Ashen Wardens, Concord Remnant, Cinder Ledger]
@@ -22,11 +23,11 @@ A devout little pilgrim-town wrapped around the oldest standing Threshold shrine
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Saint Veddow's Rest**. Campaign-specific: lately the keepers have grown tight-lipped, and the pilgrim lines a little shorter (see Current Tensions below).
+Full sensory description: `vael/orrun/settlements/saint-veddows-rest`. Campaign-specific: lately the keepers have grown tight-lipped, and the pilgrim lines a little shorter (see Current Tensions below).
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Saint Veddow's Rest**.
+Full public overview: `vael/orrun/settlements/saint-veddows-rest`.
 
 ## DM-Only Truth
 
@@ -69,7 +70,7 @@ Mourners' Circle (shrine-keepers), Ashen Wardens (resident chapter — the only 
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Saint Veddow's Rest**.
+Full customs and law baseline: `vael/orrun/settlements/saint-veddows-rest`.
 
 ## Current Tensions
 

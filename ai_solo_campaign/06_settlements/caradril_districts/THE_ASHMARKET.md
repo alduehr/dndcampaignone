@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/caradril
 region: Orrun
 settlement: Caradril
 factions: [Salt Syndicate, Cinder Ledger, Crucible guilds, Mourners' Circle]
@@ -22,7 +23,7 @@ A loud, crowded relic-bazaar where Reach salvage becomes Caradrese fortune, and 
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Ashmarket**.
+Full sensory description: `vael/orrun/settlements/caradril`.
 
 ## Public Overview
 
@@ -59,7 +60,7 @@ Buying and selling salvage and curios, relic appraisal and authentication, fenci
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Ashmarket**. Campaign-specific: quiet-coin (see DM-Only Truth above) is an open secret — everyone knows, no one says.
+Full customs and law baseline: `vael/orrun/settlements/caradril`. Campaign-specific: quiet-coin (see DM-Only Truth above) is an open secret — everyone knows, no one says.
 
 ## Current Tensions
 

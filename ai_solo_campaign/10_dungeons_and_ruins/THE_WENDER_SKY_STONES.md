@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/sky-stones
 region: The Wender Steppe
 settlement: Cold Springs (Winter-Camp)
 factions: [Mourners' Circle (oblique kin-faith), Cinder Ledger (edge-trade)]
@@ -34,7 +35,7 @@ A mid-high site that (1) gives the player the campaign's deepest **outside view*
 
 ## Access / Entrance Routes
 
-Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Sky-Stones**. Campaign-specific access routes:
+Full physical approach and entrance description: `vael/orrun/sites/sky-stones`. Campaign-specific access routes:
 
 1. **By clan-hospitality (the sacred way):** earn a clan's guest-right (hospitality is sacred custom); a guest is escorted to the Sky-Stones.
 2. **With Wind-Singer Esha (the seer's way):** the seer takes a trusted outsider to read the stones (the deepest access).

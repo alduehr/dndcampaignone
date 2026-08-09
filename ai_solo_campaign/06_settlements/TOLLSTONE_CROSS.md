@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/tollstone-cross
 region: Tollwood
 settlement: Tollstone Cross
 factions: [Reachward Compact, Cinder Ledger]
@@ -22,11 +23,11 @@ A ramshackle road-hamlet squatting in a ruined Concord toll-station, where the E
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Tollstone Cross**.
+Full sensory description: `vael/orrun/settlements/tollstone-cross`.
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Tollstone Cross**. Campaign-specific: the road-bandits are named the **Tollmen**.
+Full public overview: `vael/orrun/settlements/tollstone-cross`. Campaign-specific: the road-bandits are named the **Tollmen**.
 
 ## DM-Only Truth
 
@@ -67,7 +68,7 @@ The Tollmen (local bandit faction — a minor regional group, not a major factio
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Tollstone Cross**. Campaign-specific: the Tollmen won't go down into the Drowned Vault (see DM-Only Truth above) — Renn keeps a rough order; Skell would not.
+Full customs and law baseline: `vael/orrun/settlements/tollstone-cross`. Campaign-specific: the Tollmen won't go down into the Drowned Vault (see DM-Only Truth above) — Renn keeps a rough order; Skell would not.
 
 ## Current Tensions
 

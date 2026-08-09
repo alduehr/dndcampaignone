@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/harrowgast
 region: Sundering Reach
 settlement: Harrowgast
 factions: [Cinder Ledger, Reachward Compact, Concord Remnant, Ashen Wardens]
@@ -22,11 +23,11 @@ A cold, half-abandoned mining town built into the bones of a Concord delving in 
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Harrowgast**. Campaign-specific: it is the only place in the Reach where the Concord's old works are not drowned but *open*.
+Full sensory description: `vael/orrun/settlements/harrowgast`. Campaign-specific: it is the only place in the Reach where the Concord's old works are not drowned but *open*.
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Harrowgast**. Campaign-specific: **Concord Remnant** salvage-crews have begun arriving, paying better than the Ledger and asking strange questions about how deep the tunnels go.
+Full public overview: `vael/orrun/settlements/harrowgast`. Campaign-specific: **Concord Remnant** salvage-crews have begun arriving, paying better than the Ledger and asking strange questions about how deep the tunnels go.
 
 ## DM-Only Truth
 
@@ -69,7 +70,7 @@ Cinder Ledger (weigh-post), Reachward Compact (thin overseer rule), Concord Remn
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Harrowgast**. Campaign-specific: never speak the name of a miner who went "thin" (see thin-touch, DM-Only Truth above).
+Full customs and law baseline: `vael/orrun/settlements/harrowgast`. Campaign-specific: never speak the name of a miner who went "thin" (see thin-touch, DM-Only Truth above).
 
 ## Current Tensions
 

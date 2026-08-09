@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/wrackmouth
 region: Pale Coast
 settlement: Wrackmouth
 factions: [Cinder Ledger, Reachward Compact, Mourners' Circle, Gravecallers]
@@ -22,11 +23,11 @@ A salt-crusted cliff-harbor town that runs the frontier's salt, takes the sea's 
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md) → **Wrackmouth**.
+Full sensory description: `vael/orrun/settlements/wrackmouth`.
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md) → **Wrackmouth**.
+Full public overview: `vael/orrun/settlements/wrackmouth`.
 
 ## DM-Only Truth
 
@@ -70,7 +71,7 @@ Cinder Ledger (dominant; salt and sea-relics; Cole), harbor-moot/Reachward Compa
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md) → **Wrackmouth**. Campaign-specific: the Ledger gets its cut of the wrecking/sea-relic smuggling and looks away.
+Full customs and law baseline: `vael/orrun/settlements/wrackmouth`. Campaign-specific: the Ledger gets its cut of the wrecking/sea-relic smuggling and looks away.
 
 ## Current Tensions
 

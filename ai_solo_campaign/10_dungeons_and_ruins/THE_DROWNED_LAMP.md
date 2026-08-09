@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/drowned-lamp
 region: Pale Coast
 settlement: Cobble Strand
 factions: [Mourners' Circle, Concord Remnant, Cinder Ledger]
@@ -22,11 +23,11 @@ A "lighthouse" that was never a lighthouse — a Concord sea-shrine that kept th
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Drowned Lamp**. **Truly (DM):** a maritime harvest-node — it settled and "kept" the sea's endless drowned for the Concord. Its lower levels drowned when the cliff-foot gave way. As the keystone reawakens, it warms and "lights" faintly in the fog, pulling the drowned tide-ward — the source of Cobble Strand's worsening dead. The songs remember its true function as superstition.
+Public appearance and history: `vael/orrun/sites/drowned-lamp`. **Truly (DM):** a maritime harvest-node — it settled and "kept" the sea's endless drowned for the Concord. Its lower levels drowned when the cliff-foot gave way. As the keystone reawakens, it warms and "lights" faintly in the fog, pulling the drowned tide-ward — the source of Cobble Strand's worsening dead. The songs remember its true function as superstition.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Drowned Lamp**.
+Full approach and entrance description: `vael/orrun/sites/drowned-lamp`.
 
 ## Solo Danger Rating
 

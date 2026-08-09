@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/caradril
 region: Orrun
 settlement: Caradril
 factions: [Concord Remnant, Lampwrights' Collegium, Tidewater Council, Hollow Court]
@@ -22,7 +23,7 @@ The river-college district of green lamps and old books, public home of the Conc
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Lantern Reach**.
+Full sensory description: `vael/orrun/settlements/caradril`.
 
 ## Public Overview
 
@@ -60,7 +61,7 @@ Research and translation (the campaign's main scholarly resource), Concord Scrip
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Lantern Reach**. Campaign-specific: the Sealed Archive is forbidden to outsiders — entering it without leave is a serious offense *and* the Reclaimers will respond directly (see DM-Only Truth above).
+Full customs and law baseline: `vael/orrun/settlements/caradril`. Campaign-specific: the Sealed Archive is forbidden to outsiders — entering it without leave is a serious offense *and* the Reclaimers will respond directly (see DM-Only Truth above).
 
 ## Current Tensions
 

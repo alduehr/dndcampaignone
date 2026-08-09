@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/the-ashwalk-rest
 region: Sundering Reach
 settlement: The Ashwalk Rest
 factions: [Ashen Wardens, Mourners' Circle]
@@ -22,11 +23,11 @@ A fortified Ashen Warden waystation at the great Concord crossroads, the one rel
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **The Ashwalk Rest** (listed there under its function, the region's waystation sanctuary).
+Full sensory description: `vael/orrun/settlements/the-ashwalk-rest` (listed there under its function, the region's waystation sanctuary).
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **The Ashwalk Rest**. Campaign-specific: the failing-rites crisis has it busier than it has ever been — a constant churn of grey cloaks heading out to answer calls and stumbling back exhausted.
+Full public overview: `vael/orrun/settlements/the-ashwalk-rest`. Campaign-specific: the failing-rites crisis has it busier than it has ever been — a constant churn of grey cloaks heading out to answer calls and stumbling back exhausted.
 
 ## DM-Only Truth
 

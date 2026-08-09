@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/emberfell-theocracy
 region: Emberfell Theocracy
 settlement: Ashfast
 factions: [Mourners' Circle, Concord Remnant]
@@ -30,7 +31,7 @@ The theocracy is the campaign's great **thematic mirror**: a rite-system that co
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/EMBERFELL_THEOCRACY.md`](../../Locations/Orrun/01_geography/regions/EMBERFELL_THEOCRACY.md). Coordinate geometry and mechanical cartography: map packet.
+Full physical geography, climate, and culture: `vael/orrun/regions/emberfell-theocracy`. Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +48,7 @@ The caldera rim (patrolled; safe-conduct required; one wrong step); the Cindern 
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/EMBERFELL_THEOCRACY.md`](../../Locations/Orrun/01_geography/regions/EMBERFELL_THEOCRACY.md) (Travel Routes section). Campaign-specific: the Ash Roads are the only sanctioned approach (Q_ET_001). Mechanical/DM route authority: map packet §Routes.
+Full travel-time detail: `vael/orrun/regions/emberfell-theocracy` (Travel Routes section). Campaign-specific: the Ash Roads are the only sanctioned approach (Q_ET_001). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

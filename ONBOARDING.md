@@ -5,8 +5,11 @@ cloud-deployed AI Dungeon Master server with a React Native player app —
 via that project's `onboard-campaign` pipeline. This file documents exactly
 what was prepared here, why, and the two things still needed from the
 DungeonMaster deployment's own operator before a session can actually run.
-Written 2026-07-12; see `ai_solo_campaign/00_control/PROGRESS_LOG.md` for the
-production-history entry.
+Written 2026-07-12; updated 2026-08-09 when the location-reference library
+moved to `locations/vael/orrun/` and became separately onboardable (see
+"Locations — a second, separate onboarding unit" below). See
+`ai_solo_campaign/00_control/PROGRESS_LOG.md` for the production-history
+entry.
 
 The DungeonMaster app is a **different system** from Claude Code — it is a
 standing server that runs this campaign as a stateful agentic loop over the
@@ -26,7 +29,7 @@ contract checks is now in place:
 |---|---|
 | `dm.campaign.json` manifest at repo root | [`dm.campaign.json`](dm.campaign.json) — `campaignId: "the-long-remembering"`, `contentRoot: "ai_solo_campaign"` |
 | A resolvable visibility strategy | `path-convention`, with an exact 21-file `playerSafeGlobs` allowlist — see below |
-| `maps/manifest.json` under the content root, valid JSON | [`ai_solo_campaign/maps/manifest.json`](ai_solo_campaign/maps/manifest.json) — 64 entries, no storage location authored in-repo (see the Maps section below) |
+| `maps/manifest.json` under the content root, valid JSON | [`locations/vael/orrun/maps/manifest.json`](locations/vael/orrun/maps/manifest.json) — 64 entries, no storage location authored in-repo (see the Maps section below). Moved out of `ai_solo_campaign/maps/` in the 2026-08-09 location-key restructuring; see below |
 | Seed files (optional) parse correctly | None declared — deliberate, see below |
 | No path escapes the content root | N/A — nothing here does |
 | Every mandatory skill-consultation path resolves post-merge | `ai_solo_campaign/skills/` overlay — 6 of the 8 mandatory paths overridden, 2 fall through to the shared floor |
@@ -120,38 +123,81 @@ deliberately doesn't invent replacement rules — see `RULESET_ASSUMPTIONS.md`).
 Both resolve from the shared floor at pull time, same as any campaign that
 ships no overlay for them.
 
+## Locations — a second, separate onboarding unit
+
+As of 2026-08-09, `locations/vael/orrun/` — the spoiler-free world-reference
+library previously mirrored at `Locations/Orrun/` — restructured onto a
+**canonical-key scheme** (`<world>/<continent>/<kind>/<slug>`, e.g.
+`vael/orrun/regions/ashgarden-vale`) so it can be onboarded into
+DungeonMaster as an independent **location** unit, separate from this
+campaign, and then mounted into a campaign's namespace at runtime.
+
+[`locations/vael/orrun/dm.location.json`](locations/vael/orrun/dm.location.json)
+is the location-manifest contract that folder declares for itself
+(`locationId`, `displayName`, `world`, `continent`, `contentRoot: "."`,
+relative to the manifest's own directory — same convention as
+`dm.campaign.json`'s `contentRoot`). `dm.campaign.json` at this repo's root
+now also carries a top-level `locations` array, sibling to `contentRoot`,
+mounting that location at `locations/vael/orrun`:
+
+```json
+"locations": [
+  { "locationId": "vael-orrun", "mountPath": "locations/vael/orrun" }
+]
+```
+
+**This shape is inferred, not copied from a spec** — `dm.location.json` and
+the `onboard-location` pipeline don't exist in DungeonMaster yet; they're
+defined by `PHASE10.6_PLAN.md` Step 2, which `shared-contract-guardian` is
+building to match. Verify the exact field names/shape against that plan (or
+the merged app-side schema) before relying on this file for a real
+onboarding run; the two sides are meant to land together. `world`/`continent`
+are documented as descriptive-only — path/mount resolution comes from
+`mountPath` on the campaign side, not from the location's own folder name or
+id, so the two stay independent on purpose.
+
 ## Maps — prepared, no bucket wiring needed from this repo
 
-`ai_solo_campaign/maps/manifest.json` is fully populated: 64 entries (18
+`locations/vael/orrun/maps/manifest.json` is fully populated: 64 entries (18
 region maps, 1 campaign-area cluster overview, 4 city maps, 40 settlement
 maps, 1 full-continent overview), generated from this repo's own authored
 map-packet inventory (`04_world_atlas/region_map_packets/`,
 `06_settlements/city_map_packets/`, `06_settlements/settlement_map_packets/`,
-`04_world_atlas/WORLD_MAP_PROMPTS.md`), one-to-one, with no duplicate ids or
-region keys. As of DungeonMaster's `038a33c` ("Derive maps S3 bucket/key from
-deployment config, not manifest"), a `MapEntry` carries no storage location at
-all — no `s3.bucket`, no `s3.key`. Each entry is pure campaign-authored
-metadata: `id` / `file` / `region` / `caption` / `scale` / `visibility`. The
-bucket always comes from the deployment's own `MAPS_BUCKET_NAME`, and the
-object key is always `mapObjectKey(campaignId, file)` →
-`<campaignId>/maps/<file>` — computed at upload and read time, never
-authored here. Nothing in this repo needs editing to point at a real bucket;
-there is no placeholder left to replace.
+`04_world_atlas/WORLD_MAP_PROMPTS.md`), one-to-one, with no duplicate ids.
+Each entry's `region` field is now a canonical location key (e.g.
+`vael/orrun/regions/ashgarden-vale`) rather than a bare slug — see
+"Locations" above. As of DungeonMaster's `038a33c` ("Derive maps S3
+bucket/key from deployment config, not manifest"), a `MapEntry` carries no
+storage location at all — no `s3.bucket`, no `s3.key`. Each entry is pure
+campaign-authored metadata: `id` / `file` / `region` / `caption` / `scale` /
+`visibility`. The bucket always comes from the deployment's own
+`MAPS_BUCKET_NAME`, and the object key is always
+`mapObjectKey(campaignId, file)` → `<campaignId>/maps/<file>` — computed at
+upload and read time, never authored here. Nothing in this repo needs
+editing to point at a real bucket; there is no placeholder left to replace.
+
+**This manifest moved out of `ai_solo_campaign/maps/` on 2026-08-09.** The
+two copies were always byte-identical (one authoritative, one a mirror), so
+keeping a single copy under `locations/vael/orrun/maps/` — maps are
+geography, not campaign-runtime material — removed the duplication.
+`dm.campaign.json`'s `contentRoot` is unaffected and still points at
+`ai_solo_campaign` for the campaign's own content; maps are reached through
+the `locations` mount instead.
 
 **9 of 64 entries currently have a matching local asset** under
-`ai_solo_campaign/maps/assets/` (see that folder for the current list).
+`locations/vael/orrun/maps/assets/` (see that folder for the current list).
 `upload-maps.ts` skips (doesn't fail) any entry whose asset file isn't
 present yet, so partial map coverage is fine — sessions run without maps in
 the meantime, same as before.
 
 To actually get maps into a deployment once one exists:
 
-1. **Place generated PNGs** under `ai_solo_campaign/maps/assets/<file>`,
+1. **Place generated PNGs** under `locations/vael/orrun/maps/assets/<file>`,
    matching each entry's `file` field (e.g. `settlement-hollowmere.png`) —
    `file` must be a bare filename (no `/`, no path), enforced identically on
    both the upload and `get_map` read sides.
 2. Run DungeonMaster's `upload-maps.ts` with `CONTENT_ROOT` pointed at a
-   local checkout of `ai_solo_campaign/`, `MAPS_BUCKET_NAME` set to that
+   local checkout of `locations/vael/orrun/`, `MAPS_BUCKET_NAME` set to that
    deployment's real bucket, and `CAMPAIGN_ID=the-long-remembering` (now
    required — cross-checked against this repo's own `dm.campaign.json`
    `campaignId`, so a typo'd env var fails loudly instead of uploading to a
@@ -160,6 +206,9 @@ To actually get maps into a deployment once one exists:
    campaign under one shared bucket), so this step happens independently of
    `onboard-campaign` and doesn't require a tagged release — any local
    checkout works, and it's idempotent (re-run any time you add more maps).
+   **This CONTENT_ROOT value will need to be revisited** once
+   `onboard-location` exists and maps are pulled through the location unit
+   rather than a direct local checkout — see the "Locations" section above.
 
 If your generated files use different names than this manifest's `file`
 convention (`<kind>-<slug>.png`), either rename the files or edit the
@@ -183,9 +232,15 @@ own tooling. From that repo:
 ## What was intentionally left alone
 
 Nothing about this campaign's own content, structure, canon, or doctrine was
-changed to prepare this onboarding — every file above the repo root
-(`ai_solo_campaign/`) is exactly as authored. The two new top-level files
+changed to prepare the original 2026-07-12 onboarding — every file under
+`ai_solo_campaign/` was exactly as authored. The two new top-level files
 (`dm.campaign.json`, this file) and the one new subtree
-(`ai_solo_campaign/skills/`, 6 files) are additive. `ai_solo_campaign/
-maps/manifest.json` is new (the folder didn't exist before) but was required
-by the onboarding contract regardless of which app pulls this content.
+(`ai_solo_campaign/skills/`, 6 files) were additive.
+
+The 2026-08-09 location-key restructuring did move `ai_solo_campaign/maps/`
+out entirely (to `locations/vael/orrun/maps/`, see "Maps" above) and added a
+`locations` key to `dm.campaign.json` — both changes to the onboarding
+surface, not to campaign content or doctrine. `contentRoot` is unchanged;
+`ai_solo_campaign/`'s own regions/settlements/NPCs/quests/mysteries content
+is unchanged in substance (only how it cites the location library changed,
+from relative file paths to canonical keys).

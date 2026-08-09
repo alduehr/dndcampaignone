@@ -4,6 +4,7 @@
 type: wilderness_location
 secrecy: mixed
 status: static
+location_ref: vael/orrun/wilderness/mirewend-and-roads
 region: Sundering Reach
 settlement: Hollowmere
 factions: [Reachward Compact, Ashen Wardens, Cinder Ledger, Gravecallers]
@@ -22,7 +23,7 @@ The raised Concord causeways and the slow black Mirewend that knit the Reach tog
 
 ## What The Player Notices First
 
-Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/MIREWEND_AND_ROADS.md`](../../../Locations/Orrun/01_geography/wilderness/MIREWEND_AND_ROADS.md).
+Full sensory description, terrain, and named natural features: `vael/orrun/wilderness/mirewend-and-roads`.
 
 ## What Is Actually Going On (DM-Only)
 

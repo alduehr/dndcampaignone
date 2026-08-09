@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/coldhearth
 region: Tollwood
 settlement: Coldhearth
 factions: [Mourners' Circle, Gravecallers, Ashen Wardens]
@@ -22,11 +23,11 @@ A half-feral charcoal-village deep in the Tollwood that has kept the forest's ol
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Coldhearth**.
+Full sensory description: `vael/orrun/settlements/coldhearth`.
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Coldhearth**. Campaign-specific: Coldhearth uneasily shelters the **Gravecallers**, who alone treat the deep dead with the respect Coldhearth thinks they're owed.
+Full public overview: `vael/orrun/settlements/coldhearth`. Campaign-specific: Coldhearth uneasily shelters the **Gravecallers**, who alone treat the deep dead with the respect Coldhearth thinks they're owed.
 
 ## DM-Only Truth
 
@@ -68,7 +69,7 @@ Mourners' Circle (the forest-custom; Sennet), Gravecallers (sheltered cell in th
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Coldhearth**. Campaign-specific: the Gravecallers are sheltered but watched; Coldhearth fears their recklessness even as it agrees with their reverence.
+Full customs and law baseline: `vael/orrun/settlements/coldhearth`. Campaign-specific: the Gravecallers are sheltered but watched; Coldhearth fears their recklessness even as it agrees with their reverence.
 
 ## Current Tensions
 

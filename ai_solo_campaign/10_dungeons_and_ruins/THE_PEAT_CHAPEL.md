@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/peat-chapel
 region: Sundering Reach
 settlement: Hollowmere
 factions: [Cinder Ledger, Gravecallers, Mourners' Circle]
@@ -22,11 +23,11 @@ A small Concord wayside chapel half-swallowed by the peat, where a piece of "sal
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Peat Chapel**. **Truly (DM):** a minor wayside shrine of the old network — a place travelers' dead were "settled" on the road. Its altar-relic is a genuine Remembrance relic. Sinking and leaking, but minor; a safe first taste of the campaign's central horror.
+Public appearance and history: `vael/orrun/sites/peat-chapel`. **Truly (DM):** a minor wayside shrine of the old network — a place travelers' dead were "settled" on the road. Its altar-relic is a genuine Remembrance relic. Sinking and leaking, but minor; a safe first taste of the campaign's central horror.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Peat Chapel**. Campaign-specific: Domic's job-description warns of "fen-damp and maybe a beast"; Old Sashe or a local can point the way, though no guide is strictly needed.
+Full approach and entrance description: `vael/orrun/sites/peat-chapel`. Campaign-specific: Domic's job-description warns of "fen-damp and maybe a beast"; Old Sashe or a local can point the way, though no guide is strictly needed.
 
 ## Solo Danger Rating
 

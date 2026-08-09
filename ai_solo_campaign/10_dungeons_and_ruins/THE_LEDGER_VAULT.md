@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/counting-house-vault
 region: Sundering Reach
 settlement: Hollowmere
 factions: [Cinder Ledger, Concord Remnant]
@@ -22,11 +23,11 @@ The Cinder Ledger's locked Hollowmere vault, where a relic that remembers a dead
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Counting-House Vault (Hollowmere)**. **Truly (DM):** Mother Vyre had a particular relic moved here for safe study — a Remembrance relic that *demonstrably stores a dead person* (C-M3-3) and is the clearest mercantile proof of the harvest's nature. Domic Sael knows it's there, thinks Vyre's obsession is reckless, and is quietly documenting it — making him turnable.
+Public appearance and history: `vael/orrun/sites/counting-house-vault`. **Truly (DM):** Mother Vyre had a particular relic moved here for safe study — a Remembrance relic that *demonstrably stores a dead person* (C-M3-3) and is the clearest mercantile proof of the harvest's nature. Domic Sael knows it's there, thinks Vyre's obsession is reckless, and is quietly documenting it — making him turnable.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Counting-House Vault (Hollowmere)**. Campaign-specific: the player learns of the relic via rumor (Rumor 6), Domic's unease (Hook 3 follow-up), or Mourner/Remnant interest.
+Full approach and entrance description: `vael/orrun/sites/counting-house-vault`. Campaign-specific: the player learns of the relic via rumor (Rumor 6), Domic's unease (Hook 3 follow-up), or Mourner/Remnant interest.
 
 ## Solo Danger Rating
 

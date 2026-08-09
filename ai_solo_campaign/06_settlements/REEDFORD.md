@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/reedford
 region: Sundering Reach
 settlement: Reedford
 factions: [Mourners' Circle, Reachward Compact, Ashen Wardens]
@@ -22,11 +23,11 @@ A tiny reed-cutting hamlet at a shallow Mirewend ford, the kind of close-knit no
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Reedford**.
+Full sensory description: `vael/orrun/settlements/reedford`.
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Reedford**. Campaign-specific: **Ashen Wardens** stop here on their way to and from Kettle Bridge.
+Full public overview: `vael/orrun/settlements/reedford`. Campaign-specific: **Ashen Wardens** stop here on their way to and from Kettle Bridge.
 
 ## DM-Only Truth
 
@@ -64,7 +65,7 @@ Mourners' Circle (one widow), Reachward Compact (a passing wardman), Ashen Warde
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Reedford**.
+Full customs and law baseline: `vael/orrun/settlements/reedford`.
 
 ## Current Tensions
 

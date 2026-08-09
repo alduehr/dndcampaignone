@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/ashfast-deep
 region: Emberfell Theocracy
 settlement: Cinderhold
 factions: [Emberfell Theocracy, Cinder Ledger]
@@ -34,7 +35,7 @@ A far high-tier environmental-dungeon and **thematic mirror**: the Emberfell fir
 
 ## History (Player-Safe)
 
-Public appearance and history: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Ashfast Deep (the caldera descent)**.
+Public appearance and history: `vael/orrun/sites/ashfast-deep`.
 
 ## History (DM-Only)
 
@@ -42,11 +43,11 @@ The Emberfell Theocracy is an **independent far culture, not part of the harvest
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Ashfast Deep (the caldera descent)**.
+Full sensory description: `vael/orrun/sites/ashfast-deep`.
 
 ## Access / Entrance Routes
 
-Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Ashfast Deep (the caldera descent)**. Campaign-specific access routes:
+Full physical approach and entrance description: `vael/orrun/sites/ashfast-deep`. Campaign-specific access routes:
 
 1. **From Cinderhold (the miners' way):** hire masked guides; brave the mine-deeps toward the forbidden works.
 2. **The Ash Roads pilgrim-ways (the zealot's way):** approach via the theocracy (access + scrutiny).

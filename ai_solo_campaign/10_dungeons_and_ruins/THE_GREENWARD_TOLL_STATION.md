@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/greenward-toll-station
 region: Tollwood
 settlement: Tollstone Cross
 factions: [Reachward Compact, Cinder Ledger]
@@ -22,11 +23,11 @@ A flooded Concord toll-vault under the East Road's broken arch, where the road's
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Greenward Toll-Station**. **Truly (DM):** a minor Concord road-node — part of the continental network's road-conduits — drowned when the causeway broke. It leaks faintly as the keystone reawakens (M2/M5 fragment), drawing the dead to this stretch (the Green Mile drift) and frightening the Tollmen. A direct, low-level demonstration that the road *is* the machine, mirroring the Reach.
+Public appearance and history: `vael/orrun/sites/greenward-toll-station`. **Truly (DM):** a minor Concord road-node — part of the continental network's road-conduits — drowned when the causeway broke. It leaks faintly as the keystone reawakens (M2/M5 fragment), drawing the dead to this stretch (the Green Mile drift) and frightening the Tollmen. A direct, low-level demonstration that the road *is* the machine, mirroring the Reach.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Greenward Toll-Station**. Campaign-specific: the Tollmen won't go down ("the cold stair").
+Full approach and entrance description: `vael/orrun/sites/greenward-toll-station`. Campaign-specific: the Tollmen won't go down ("the cold stair").
 
 ## Solo Danger Rating
 

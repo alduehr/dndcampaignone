@@ -4,6 +4,7 @@
 type: wilderness_location
 secrecy: mixed
 status: static
+location_ref: vael/orrun/wilderness/basin-shore-and-holms
 region: Sundering Reach
 settlement: Hollowmere
 factions: [Reachward Compact, Cinder Ledger, Hollow Court, Mourners' Circle]
@@ -22,7 +23,7 @@ The eerie shore of the drowned basin and the firm holms around it — where, whe
 
 ## What The Player Notices First
 
-Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/BASIN_SHORE_AND_HOLMS.md`](../../../Locations/Orrun/01_geography/wilderness/BASIN_SHORE_AND_HOLMS.md). Campaign-specific: the water is unnaturally calm, as if it is listening.
+Full sensory description, terrain, and named natural features: `vael/orrun/wilderness/basin-shore-and-holms`. Campaign-specific: the water is unnaturally calm, as if it is listening.
 
 ## What Is Actually Going On (DM-Only)
 

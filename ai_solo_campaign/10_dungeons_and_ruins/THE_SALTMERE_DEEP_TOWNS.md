@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/drowned-towns
 region: The Saltmere Reaches
 settlement: Brackhold
 factions: [Cinder Ledger, Gravecallers, Mourners' Circle]
@@ -34,7 +35,7 @@ A late-game far-corroboration and treasure site that (1) proves catastrophe and 
 
 ## Access / Entrance Routes
 
-Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Drowned Towns**. Campaign-specific access routes:
+Full physical approach and entrance description: `vael/orrun/sites/drowned-towns`. Campaign-specific access routes:
 
 1. **With Delver Oss (the diver's way):** hire the reviled scavenger; he knows the safe drowned streets (negates most navigation/collapse risk; angers the clans).
 2. **By the clans' leave (the sacred way):** earn Matriarch Bryd Saltmere's grudging permission to recover a lost clan-kin or settle the stirring dead — slower, safer socially.

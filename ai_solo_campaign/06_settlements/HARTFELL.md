@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/hartfell
 region: Tollwood
 settlement: Hartfell
 factions: [Cinder Ledger, Reachward Compact, Mourners' Circle, Ashen Wardens]
@@ -22,11 +23,11 @@ A stockaded timber road-town that lives off the Caradril trade and the toll, kee
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Hartfell**.
+Full sensory description: `vael/orrun/settlements/hartfell`.
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Hartfell**. Campaign-specific: the town survives by respecting the wood's rules even as the Ledger profits by quietly breaking them.
+Full public overview: `vael/orrun/settlements/hartfell`. Campaign-specific: the town survives by respecting the wood's rules even as the Ledger profits by quietly breaking them.
 
 ## DM-Only Truth
 
@@ -69,7 +70,7 @@ Cinder Ledger (dominant; sawmill and credit), Reachward Compact (road-watch), Mo
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/TOLLWOOD_SETTLEMENTS.md) → **Hartfell**.
+Full customs and law baseline: `vael/orrun/settlements/hartfell`.
 
 ## Current Tensions
 

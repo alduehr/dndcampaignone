@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/hollowmere
 region: Sundering Reach
 settlement: Hollowmere
 factions: [Reachward Compact, Ashen Wardens, Mourners' Circle, Cinder Ledger, Gravecallers, Hollow Court]
@@ -22,11 +23,11 @@ A grey, close-knit frontier town built on the rim of a drowned ruin, where the f
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Hollowmere**.
+Full sensory description: `vael/orrun/settlements/hollowmere`.
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Hollowmere**. Campaign-specific: the town is governed by **Reeve Marda Coalmont** and the Compact council; the **Cinder Ledger** keeps a counting-house here; and now one of their own — the midwife Wren — has come back wrong (the opening crisis; see DM-Only Truth below).
+Full public overview: `vael/orrun/settlements/hollowmere`. Campaign-specific: the town is governed by **Reeve Marda Coalmont** and the Compact council; the **Cinder Ledger** keeps a counting-house here; and now one of their own — the midwife Wren — has come back wrong (the opening crisis; see DM-Only Truth below).
 
 ## DM-Only Truth
 
@@ -64,7 +65,7 @@ All major Reach factions have a face here (see region file table). The Gravecall
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Hollowmere**. Campaign-specific: Gravecaller worship is outlawed and actively watched for.
+Full customs and law baseline: `vael/orrun/settlements/hollowmere`. Campaign-specific: Gravecaller worship is outlawed and actively watched for.
 
 ## Current Tensions
 

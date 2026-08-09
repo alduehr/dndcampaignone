@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/orchardmere
 region: Ashgarden Vale
 settlement: Orchardmere
 factions: [Mourners' Circle, Cinder Ledger, Reachward Compact, Ashen Wardens]
@@ -22,11 +23,11 @@ A fat, devout cider-town that has kept the old rites for a century and would rat
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Orchardmere**.
+Full sensory description: `vael/orrun/settlements/orchardmere`.
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Orchardmere**. Campaign-specific: the harvest-moot is chaired by the **Moot-Reeve** (Halsa Tindle — see Local Leadership below).
+Full public overview: `vael/orrun/settlements/orchardmere`. Campaign-specific: the harvest-moot is chaired by the **Moot-Reeve** (Halsa Tindle — see Local Leadership below).
 
 ## DM-Only Truth
 
@@ -70,7 +71,7 @@ Mourners' Circle (dominant, via the Old Circle), harvest-moot/Reachward Compact 
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Orchardmere**. Campaign-specific: the *town's own* relic-selling (Pell's counting-yard) is conveniently overlooked despite the harsh custom against grave-meddling and relic-theft.
+Full customs and law baseline: `vael/orrun/settlements/orchardmere`. Campaign-specific: the *town's own* relic-selling (Pell's counting-yard) is conveniently overlooked despite the harsh custom against grave-meddling and relic-theft.
 
 ## Current Tensions
 

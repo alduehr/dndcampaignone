@@ -4,6 +4,7 @@
 type: wilderness_location
 secrecy: mixed
 status: static
+location_ref: vael/orrun/wilderness/greyfens
 region: Sundering Reach
 settlement: Greywater Holm
 factions: [Gravecallers, Ashen Wardens, Mourners' Circle, Hollow Court]
@@ -22,7 +23,7 @@ A vast, fog-drowned peat-wetland where the ground lies, the dead drift the wrong
 
 ## What The Player Notices First
 
-Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/GREYFENS.md`](../../../Locations/Orrun/01_geography/wilderness/GREYFENS.md). Campaign-specific: the drifting dead are, more than anywhere else in the Reach, present here — and all facing the same way, toward the Hollowmere basin (see the Drift-Line, below).
+Full sensory description, terrain, and named natural features: `vael/orrun/wilderness/greyfens`. Campaign-specific: the drifting dead are, more than anywhere else in the Reach, present here — and all facing the same way, toward the Hollowmere basin (see the Drift-Line, below).
 
 ## What Is Actually Going On (DM-Only)
 

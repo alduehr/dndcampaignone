@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/skerry-shrine
 region: Pale Coast
 settlement: Wrackmouth
 factions: [Gravecallers, Mourners' Circle, Cinder Ledger, Concord Remnant]
@@ -22,11 +23,11 @@ A Concord sea-shrine on a drowned skerry, ringed by wrecks and guarded by the se
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Skerry Shrine**. **Truly (DM):** the largest of the coastal harvest-nodes — a sea-shrine that "kept" the deep-sea drowned, now half-submerged on a skerry. The wreckers use the Skerries' false-light reefs and stash their worst secrets here; the Gravecallers' boldest come for the drowned that "remember the taking." As the keystone wakes, the Skerry Shrine warms and the worst drowned gather — making the Skerries the Coast's deadliest reach.
+Public appearance and history: `vael/orrun/sites/skerry-shrine`. **Truly (DM):** the largest of the coastal harvest-nodes — a sea-shrine that "kept" the deep-sea drowned, now half-submerged on a skerry. The wreckers use the Skerries' false-light reefs and stash their worst secrets here; the Gravecallers' boldest come for the drowned that "remember the taking." As the keystone wakes, the Skerry Shrine warms and the worst drowned gather — making the Skerries the Coast's deadliest reach.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Skerry Shrine**.
+Full approach and entrance description: `vael/orrun/sites/skerry-shrine`.
 
 ## Solo Danger Rating
 

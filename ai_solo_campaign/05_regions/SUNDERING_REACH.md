@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/sundering-reach
 region: Sundering Reach
 settlement: Hollowmere
 factions: [Ashen Wardens, Cinder Ledger, Mourners' Circle, Reachward Compact, Gravecallers, Hollow Court]
@@ -32,7 +33,7 @@ The Reach is the **keystone of the Concord's harvest.** The drowned shrine benea
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/SUNDERING_REACH.md`](../../Locations/Orrun/01_geography/regions/SUNDERING_REACH.md). Campaign-specific: the drowned shrine beneath the Hollowmere basin (see DM-Only Truth above).
+Full physical geography, climate, and culture: `vael/orrun/regions/sundering-reach`. Campaign-specific: the drowned shrine beneath the Hollowmere basin (see DM-Only Truth above).
 
 ## Major Settlements
 
@@ -58,7 +59,7 @@ Four zone files hold ~25 named sites (`../05_regions/wilderness/`):
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/SUNDERING_REACH.md`](../../Locations/Orrun/01_geography/regions/SUNDERING_REACH.md) (Travel Routes section). See also `../04_world_atlas/MAP_DESCRIPTION.md`.
+Full travel-time detail: `vael/orrun/regions/sundering-reach` (Travel Routes section). See also `../04_world_atlas/MAP_DESCRIPTION.md`.
 
 ## Factions Present
 

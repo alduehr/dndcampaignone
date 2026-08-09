@@ -3,6 +3,12 @@
   "campaignId": "the-long-remembering",
   "displayName": "The Long Remembering",
   "contentRoot": "ai_solo_campaign",
+  "locations": [
+    {
+      "locationId": "vael-orrun",
+      "mountPath": "locations/vael/orrun"
+    }
+  ],
   "visibility": {
     "strategy": "path-convention",
     "playerSafeGlobs": [

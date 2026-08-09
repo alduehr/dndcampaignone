@@ -56,7 +56,7 @@ Then load the world files for the current location, active quests, and NPCs pres
 - **Reveal cap: R1 only.** Never surface Remembrance-as-substance, Reke's treachery, the harvest, or the Hollow Court.
 
 ### Entering a settlement (any)
-- **Full sensory description (First Impression), general public overview (founding/economy/population), and general customs/law baseline:** the matching `Locations/Orrun/02_settlements/*.md` file — as of the 2026-08 duplication cleanup, campaign settlement files no longer restate this and instead point at the specific settlement's section within it (Orrun groups multiple settlements per region file, so it's a many-to-one mapping; Caradril districts point at `Locations/Orrun/02_settlements/CARADRIL.md`'s per-district sections). Load this for "what does it look like / what's normal here / who lives here and how" questions.
+- **Full sensory description (First Impression), general public overview (founding/economy/population), and general customs/law baseline:** the matching `locations/vael/orrun/settlements/<slug>.md` file (one file per settlement, addressed by its canonical `vael/orrun/settlements/<slug>` key) — campaign settlement files no longer restate this and instead cite the key inline; Caradril districts all cite `vael/orrun/settlements/caradril` (the city stays one file, since it's one place). Load this for "what does it look like / what's normal here / who lives here and how" questions.
 - The settlement file (`06_settlements/...`) — campaign layer: DM-only truth, named NPCs/factions, secrets, hooks, current tensions, law/threat DCs
 - The parent region file if not loaded
 - `08_npcs/NPC_INDEX.md` → the relevant NPC roster files for NPCs present
@@ -65,16 +65,16 @@ Then load the world files for the current location, active quests, and NPCs pres
 - `01_runner_protocol/SOCIAL_SCENE_PROTOCOL.md` if intrigue is at stake
 
 ### Entering a region (core Ring 1)
-- **Physical geography, climate, culture, full travel-time table:** `Locations/Orrun/01_geography/regions/[REGION].md` — as of the 2026-08 duplication cleanup, the campaign region files no longer restate this; load the Orrun file for "what does it look like / what's it like to live here" questions.
+- **Physical geography, climate, culture, full travel-time table:** `locations/vael/orrun/regions/[REGION].md` — as of the 2026-08 duplication cleanup, the campaign region files no longer restate this; load the Orrun file for "what does it look like / what's it like to live here" questions.
 - The region file: `05_regions/ASHGARDEN_VALE.md` / `05_regions/TOLLWOOD.md` / `05_regions/PALE_COAST.md` (or `05_regions/SUNDERING_REACH.md`) — campaign layer: DM-only truth, settlements/factions/secrets/hooks, level range, encounter/hazard mechanics
-- The region's wilderness sites file (`05_regions/wilderness/..._SITES.md`) — campaign layer: named sites, hazards with DCs, creature stat references, secrets/clues/hooks (mechanically self-contained; not split with Orrun). For pure atmosphere/"what a traveler notices first," the matching `Locations/Orrun/01_geography/wilderness/*.md` file is now the source (as of the 2026-08 cleanup) — the campaign file points to it.
+- The region's wilderness sites file (`05_regions/wilderness/..._SITES.md`) — campaign layer: named sites, hazards with DCs, creature stat references, secrets/clues/hooks (mechanically self-contained; not split with Orrun). For pure atmosphere/"what a traveler notices first," the matching `locations/vael/orrun/wilderness/*.md` file is now the source (as of the 2026-08 cleanup) — the campaign file points to it.
 - `04_world_atlas/TRAVEL_ROUTES_RING1.md` for the journey in
 - The region's encounter table (`13_encounters_and_bestiary/[REGION]_ENCOUNTERS.md`)
 - Region hooks/rumors (`09_quests/hooks_and_rumors/[REGION]_HOOKS.md` / `_RUMORS.md`)
 - `15_campaign_arcs/REGIONAL_ARC_PACKS_LEVEL_5_TO_20.md` if the player is L5+ here
 
 ### Entering a far-continent region
-- **Physical geography, climate, culture, full travel-time table:** `Locations/Orrun/01_geography/regions/[REGION].md` — same split as core Ring 1 above.
+- **Physical geography, climate, culture, full travel-time table:** `locations/vael/orrun/regions/[REGION].md` — same split as core Ring 1 above.
 - **The region file:** `05_regions/[REGION].md` (built 2026-07-07 — the narrative/political anchor: identity, settlements, factions, conflicts, quests, if-ignored consequences)
 - `04_world_atlas/region_map_packets/REGION_[NAME].md` — cartography + hazard/encounter mechanics authority
 - `08_npcs/by_region/[REGION]_NPCS.md` — the far-region roster
@@ -99,7 +99,7 @@ Then load the world files for the current location, active quests, and NPCs pres
 ### Entering a dungeon or adventure site
 - `10_dungeons_and_ruins/DUNGEON_INDEX.md` and/or `10_dungeons_and_ruins/RUIN_INDEX.md` to locate the file
 - The specific dungeon/ruin file — mechanical content (zones, encounters, hazard DCs, puzzles, treasure, boss mechanics, retreat/scaling, clue cross-links) is self-contained here, not split with Orrun
-- **Full public appearance/history and sensory "first impression":** the matching `Locations/Orrun/06_sites/*.md` entry — as of the 2026-08 duplication cleanup, most dungeon/ruin files no longer restate this and instead point at their site's entry (grouped by region: `SUNDERING_REACH_SITES.md`, `RING1_SITES.md`, `CARADRIL_SITES.md`, `FAR_CONTINENT_SITES.md`). The two endgame files (`THE_UNDER_SHRINE_APPROACH.md`, `THE_BASIN_KEYSTONE_APPROACH.md`) have no Orrun counterpart and stay fully self-contained by design.
+- **Full public appearance/history and sensory "first impression":** the matching `locations/vael/orrun/sites/<slug>.md` entry (one file per site, addressed by its canonical `vael/orrun/sites/<slug>` key) — most dungeon/ruin files no longer restate this and instead cite the key inline. The two endgame files (`THE_UNDER_SHRINE_APPROACH.md`, `THE_BASIN_KEYSTONE_APPROACH.md`) have no location counterpart and stay fully self-contained by design.
 - `13_encounters_and_bestiary/DUNGEON_ENCOUNTER_SUPPORT.md` + the regional encounter table
 - `13_encounters_and_bestiary/BESTIARY_INDEX.md` → adversary stat profiles for occupants
 - `14_treasure_and_artifacts/DUNGEON_REWARD_INDEX.md` for the site's treasure

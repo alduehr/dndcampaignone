@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/saint-veddows-tomb
 region: Ashgarden Vale
 settlement: Saint Veddow's Rest
 factions: [Ashen Wardens, Concord Remnant, Mourners' Circle]
@@ -22,11 +23,11 @@ A "saint's tomb" that descends into a dormant Concord shrine — a secondary nod
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **Saint Veddow's Tomb**. **Truly (DM):** a major Concord shrine — the harvest network's largest southern node — was capped after the Quietfall and disguised as a saint's tomb to keep it sealed and revered. The "saint" legend grew over the cap. The resident Ashen Wardens were stationed here, like the Reach Wardens, to guard a seal they don't fully understand. As the keystone reawakens far to the north, this node is **faintly warming** — the source of Saint Veddow's failing rests.
+Public appearance and history: `vael/orrun/sites/saint-veddows-tomb`. **Truly (DM):** a major Concord shrine — the harvest network's largest southern node — was capped after the Quietfall and disguised as a saint's tomb to keep it sealed and revered. The "saint" legend grew over the cap. The resident Ashen Wardens were stationed here, like the Reach Wardens, to guard a seal they don't fully understand. As the keystone reawakens far to the north, this node is **faintly warming** — the source of Saint Veddow's failing rests.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **Saint Veddow's Tomb**. Campaign-specific: the resident Warden is Sister Adwen; Mother Sennet holds sacred permission; the Remnant excavator is quietly digging a service stair.
+Full approach and entrance description: `vael/orrun/sites/saint-veddows-tomb`. Campaign-specific: the resident Warden is Sister Adwen; Mother Sennet holds sacred permission; the Remnant excavator is quietly digging a service stair.
 
 ## Solo Danger Rating
 

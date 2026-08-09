@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/caradril
 region: Orrun
 settlement: Caradril
 factions: [Mourners' Circle, Three Thresholds clergy, Ashen Wardens, Tidewater Council]
@@ -22,7 +23,7 @@ The grand temple-and-cemetery hill where Caradril buries its dead beautifully, e
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **Highmourn**. Campaign-specific: the cracks are kept out of sight (see DM-Only Truth below).
+Full sensory description: `vael/orrun/settlements/caradril`. Campaign-specific: the cracks are kept out of sight (see DM-Only Truth below).
 
 ## Public Overview
 
@@ -59,7 +60,7 @@ Paid healing (cure wounds, lesser restoration, gentle repose; remove curse and r
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **Highmourn**. Campaign-specific: raise-dead failures are not discussed (the cover-up — see DM-Only Truth above).
+Full customs and law baseline: `vael/orrun/settlements/caradril`. Campaign-specific: raise-dead failures are not discussed (the cover-up — see DM-Only Truth above).
 
 ## Current Tensions
 

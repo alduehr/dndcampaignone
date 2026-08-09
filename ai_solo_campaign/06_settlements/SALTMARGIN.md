@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/saltmargin
 region: Sundering Reach
 settlement: Saltmargin
 factions: [Cinder Ledger, Mourners' Circle, Reachward Compact, Ashen Wardens]
@@ -22,11 +23,11 @@ A windburnt salt-trade town on the Reach's western edge where the price of keepi
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Saltmargin**.
+Full sensory description: `vael/orrun/settlements/saltmargin`.
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Saltmargin**. Campaign-specific: since the rites began failing worse, demand for rite-salt has tripled and so has the price (see DM-Only Truth below).
+Full public overview: `vael/orrun/settlements/saltmargin`. Campaign-specific: since the rites began failing worse, demand for rite-salt has tripled and so has the price (see DM-Only Truth below).
 
 ## DM-Only Truth
 
@@ -69,7 +70,7 @@ Cinder Ledger (dominant), Reachward Compact (thin watch), Mourners' Circle (Brin
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Saltmargin**. Campaign-specific: smuggling is an open secret tolerated as long as the Ledger gets its cut (see Gull Heddwyn, Regional Conflicts).
+Full customs and law baseline: `vael/orrun/settlements/saltmargin`. Campaign-specific: smuggling is an open secret tolerated as long as the Ledger gets its cut (see Gull Heddwyn, Regional Conflicts).
 
 ## Current Tensions
 

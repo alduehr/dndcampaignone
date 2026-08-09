@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/glassmere-league
 region: Glassmere League
 settlement: Glassmere
 factions: [Cinder Ledger, Concord Remnant, Mourners' Circle, The Hush]
@@ -30,7 +31,7 @@ The League is where the campaign's **economic war** is decided: Holt's bank vs. 
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/GLASSMERE_LEAGUE.md`](../../Locations/Orrun/01_geography/regions/GLASSMERE_LEAGUE.md). Coordinate geometry and mechanical cartography: map packet.
+Full physical geography, climate, and culture: `vael/orrun/regions/glassmere-league`. Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -46,7 +47,7 @@ Effectively none — canal-country and settled terraces. The "wilds" here are in
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/GLASSMERE_LEAGUE.md`](../../Locations/Orrun/01_geography/regions/GLASSMERE_LEAGUE.md) (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
+Full travel-time detail: `vael/orrun/regions/glassmere-league` (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

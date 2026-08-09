@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/caradril
 region: Orrun
 settlement: Caradril
 factions: [Craft guilds, Cinder Ledger, Concord Remnant, Salt Syndicate]
@@ -22,7 +23,7 @@ The smoke-and-hammer guild district where master crafters turn Concord salvage i
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Crucible**. Campaign-specific: the air tastes faintly *wrong* near Harrow's foundry, where the relic-smelting is done (see DM-Only Truth below).
+Full sensory description: `vael/orrun/settlements/caradril`. Campaign-specific: the air tastes faintly *wrong* near Harrow's foundry, where the relic-smelting is done (see DM-Only Truth below).
 
 ## Public Overview
 
@@ -59,7 +60,7 @@ Quality weapons, armor, and gear (the best mundane and low-magic commerce in the
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Crucible**. Campaign-specific: relic-smelting's risks (thin-touch, incidents) are unregulated.
+Full customs and law baseline: `vael/orrun/settlements/caradril`. Campaign-specific: relic-smelting's risks (thin-touch, incidents) are unregulated.
 
 ## Current Tensions
 

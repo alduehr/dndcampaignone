@@ -127,7 +127,7 @@ Do not add local Claude Code session files (e.g. `settings.local.json`, `project
 
 ## Repository Shape
 
-**`REPO_MAP.md` at the repo root is the authoritative, complete map of this repository's structure** — read it for the full picture, including `Locations/Orrun/` (the spoiler-free world-reference library) and `one_shots/` (standalone non-canon adventures), neither of which is part of `ai_solo_campaign/`. Update `REPO_MAP.md` in the same commit as any top-level structural change.
+**`REPO_MAP.md` at the repo root is the authoritative, complete map of this repository's structure** — read it for the full picture, including `locations/vael/orrun/` (the spoiler-free world-reference library) and `one_shots/` (standalone non-canon adventures), neither of which is part of `ai_solo_campaign/`. Update `REPO_MAP.md` in the same commit as any top-level structural change.
 
 Use this structure unless the user explicitly changes it:
 
@@ -155,14 +155,19 @@ Use this structure unless the user explicitly changes it:
   /16_ai_session_packs
   /17_generation_backlog
   /18_audits
-  /maps                — Map manifest + assets (authoritative; DungeonMaster app contentRoot)
   /skills              — DungeonMaster app skills overlay
-/Locations
-  /Orrun               — Spoiler-free world-reference library, derived from campaign canon (see Locations/Orrun/README.md)
+/locations
+  /vael
+    /orrun             — Spoiler-free world-reference library, addressed by canonical key (world/continent/kind/slug — see locations/vael/orrun/README.md)
+      /regions /wilderness /settlements /sites /culture /bestiary /timelines /travel
+      /maps            — Map manifest + assets (authoritative; moved here from ai_solo_campaign/maps/)
+      dm.location.json — DungeonMaster app location-onboarding manifest
 /one_shots             — Standalone non-canon one-shot adventures, deliberately disconnected from campaign canon
 ```
 
 Note: `/15_campaign_arcs` and `/15_random_tables` intentionally share the `15_` prefix (historical numbering; both are current and tracked — do not treat either as a typo or duplicate).
+
+Places inside `locations/vael/orrun/` are cited from `ai_solo_campaign/` by **canonical key** (`vael/orrun/<kind>/<slug>`, in backticks), never by relative path — e.g. `vael/orrun/regions/tollwood`. A campaign file that overlays one specific place carries a `location_ref:` front-matter field with that key; a location file itself carries a matching `location_key:` field. Do not reintroduce relative-path links between the two trees.
 
 ---
 

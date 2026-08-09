@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/greywater-holm
 region: Sundering Reach
 settlement: Greywater Holm
 factions: [Mourners' Circle, Gravecallers, Ashen Wardens]
@@ -22,11 +23,11 @@ A shrinking fen-village on the edge of the Greyfens where rites fail almost ever
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Greywater Holm**. Campaign-specific: many doors carry a second mark scratched beneath the star that villagers won't explain (see DM-Only Truth below).
+Full sensory description: `vael/orrun/settlements/greywater-holm`. Campaign-specific: many doors carry a second mark scratched beneath the star that villagers won't explain (see DM-Only Truth below).
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Greywater Holm**. Campaign-specific: **Ashen Wardens** visit when they can, which is not often enough; the village is increasingly fertile ground for the **Gravecallers**, who promise the grieving a *last word*.
+Full public overview: `vael/orrun/settlements/greywater-holm`. Campaign-specific: **Ashen Wardens** visit when they can, which is not often enough; the village is increasingly fertile ground for the **Gravecallers**, who promise the grieving a *last word*.
 
 ## DM-Only Truth
 
@@ -68,7 +69,7 @@ Mourners' Circle (governs morally), Gravecallers (hidden cell, growing), Ashen W
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Greywater Holm**. Campaign-specific: the second mark beneath the star is publicly "an old fen-charm," secretly the Gravecaller Knock.
+Full customs and law baseline: `vael/orrun/settlements/greywater-holm`. Campaign-specific: the second mark beneath the star is publicly "an old fen-charm," secretly the Gravecaller Knock.
 
 ## Current Tensions
 

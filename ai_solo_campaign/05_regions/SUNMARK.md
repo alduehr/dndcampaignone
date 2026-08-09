@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/sunmark
 region: Sunmark
 settlement: The Great Grove at Sunhollow
 factions: [Mourners' Circle, Cinder Ledger]
@@ -30,7 +31,7 @@ Here the dead are **properly sent** — the Sunhollow rites still work, fully, b
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/SUNMARK.md`](../../Locations/Orrun/01_geography/regions/SUNMARK.md). Coordinate geometry and mechanical cartography: map packet.
+Full physical geography, climate, and culture: `vael/orrun/regions/sunmark`. Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +48,7 @@ The deep Wilds off the Green Roads (trackless but not hostile to the respectful)
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/SUNMARK.md`](../../Locations/Orrun/01_geography/regions/SUNMARK.md) (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
+Full travel-time detail: `vael/orrun/regions/sunmark` (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

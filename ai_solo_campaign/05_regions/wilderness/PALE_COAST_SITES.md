@@ -4,6 +4,7 @@
 type: wilderness_location
 secrecy: mixed
 status: static
+location_ref: vael/orrun/wilderness/pale-coast-wilds
 region: Pale Coast
 settlement: Wrackmouth
 factions: [Cinder Ledger, Mourners' Circle, Gravecallers, Reachward Compact, Concord Remnant]
@@ -22,7 +23,7 @@ A cold, storm-cut coast of cliffs, coves, salt-pans, and ruined Concord lights, 
 
 ## What The Player Notices First
 
-Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/PALE_COAST_WILDS.md`](../../../Locations/Orrun/01_geography/wilderness/PALE_COAST_WILDS.md). Campaign-specific: in the fog, the broken Drowned Lamp sometimes seems to *gleam* though no one tends it.
+Full sensory description, terrain, and named natural features: `vael/orrun/wilderness/pale-coast-wilds`. Campaign-specific: in the fog, the broken Drowned Lamp sometimes seems to *gleam* though no one tends it.
 
 ## What Is Actually Going On (DM-Only)
 

@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/caradril
 region: Orrun
 settlement: Caradril
 factions: [Cinder Ledger, Concord Remnant, Tidewater Council, Tide-Watch, Salt Syndicate, The Hush, Mourners' Circle, Ashen Wardens, Hollow Court]
@@ -22,11 +23,11 @@ A proud, prosperous inland city-state that survived the Quietfall by going quiet
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../Locations/Orrun/02_settlements/CARADRIL.md).
+Full sensory description: `vael/orrun/settlements/caradril`.
 
 ## Public Overview
 
-Full public overview, history (the Stilling), and civic identity: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../Locations/Orrun/02_settlements/CARADRIL.md). Campaign-specific: the current First Magister is **Halloran Voss** (Orrun deliberately names no current officeholders — see Local Leadership below for all seated names).
+Full public overview, history (the Stilling), and civic identity: `vael/orrun/settlements/caradril`. Campaign-specific: the current First Magister is **Halloran Voss** (Orrun deliberately names no current officeholders — see Local Leadership below for all seated names).
 
 ## DM-Only Truth
 
@@ -34,7 +35,7 @@ Caradril is where the campaign's conspiracy lives in daylight. **The Cinder Ledg
 
 ## Scale and Layout
 
-Full scale, shape, and district-tier breakdown: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../Locations/Orrun/02_settlements/CARADRIL.md) → **Scale and Layout**.
+Full scale, shape, and district-tier breakdown: `vael/orrun/settlements/caradril`.
 
 ## Districts / Notable Areas
 
@@ -55,7 +56,7 @@ The **Tidewater Council**: a body of ~nine **magisters** chartered from the merc
 
 ## Government and Law Structure
 
-Full government/law structure: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../Locations/Orrun/02_settlements/CARADRIL.md) → **Government and Law**. Campaign-specific: the Wardmoot is Magister Sefa Dann's political base (see Current Tensions below).
+Full government/law structure: `vael/orrun/settlements/caradril`. Campaign-specific: the Wardmoot is Magister Sefa Dann's political base (see Current Tensions below).
 
 ## Important NPCs
 
@@ -75,11 +76,11 @@ Major (already established, seated here): **Mother Calla Vyre** (Cinder Ledger m
 
 ## Shops and Services
 
-Full citywide services summary: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../Locations/Orrun/02_settlements/CARADRIL.md) → **Services (citywide summary)**; per-district shops/NPCs live in each `caradril_districts/` file. **Resurrection note (campaign-mechanical):** raise dead is council-licensed and quietly unreliable — a player-facing way to feel the campaign's core wrongness (per `../03_canon/MAGIC_RULES.md`).
+Full citywide services summary: `vael/orrun/settlements/caradril`; per-district shops/NPCs live in each `caradril_districts/` file. **Resurrection note (campaign-mechanical):** raise dead is council-licensed and quietly unreliable — a player-facing way to feel the campaign's core wrongness (per `../03_canon/MAGIC_RULES.md`).
 
 ## Laws and Customs
 
-Full citywide laws and customs: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../Locations/Orrun/02_settlements/CARADRIL.md) → **Laws and Customs (citywide)**. Campaign-specific: Gravecaller practice is illegal here too, but unheard-of enough that the law is rarely invoked.
+Full citywide laws and customs: `vael/orrun/settlements/caradril`. Campaign-specific: Gravecaller practice is illegal here too, but unheard-of enough that the law is rarely invoked.
 
 ## Current Tensions
 

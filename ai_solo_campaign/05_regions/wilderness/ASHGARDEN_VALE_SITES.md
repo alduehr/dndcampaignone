@@ -4,6 +4,7 @@
 type: wilderness_location
 secrecy: mixed
 status: static
+location_ref: vael/orrun/wilderness/ashgarden-vale-wilds
 region: Ashgarden Vale
 settlement: Orchardmere
 factions: [Mourners' Circle, Cinder Ledger, Concord Remnant, Ashen Wardens, Gravecallers]
@@ -22,7 +23,7 @@ A kind, hedged farm-country of orchards and water-meadows, dotted with Concord r
 
 ## What The Player Notices First
 
-Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/ASHGARDEN_VALE_WILDS.md`](../../../Locations/Orrun/01_geography/wilderness/ASHGARDEN_VALE_WILDS.md). Campaign-specific: fresh flowers on a grave nobody will discuss, and a gibbet at a crossroads with a too-fresh occupant.
+Full sensory description, terrain, and named natural features: `vael/orrun/wilderness/ashgarden-vale-wilds`. Campaign-specific: fresh flowers on a grave nobody will discuss, and a gibbet at a crossroads with a too-fresh occupant.
 
 ## What Is Actually Going On (DM-Only)
 

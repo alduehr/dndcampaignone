@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/sunken-tollhouse
 region: Sundering Reach
 settlement: Kettle Bridge
 factions: [Reachward Compact, Cinder Ledger, Gravecallers]
@@ -22,11 +23,11 @@ A drowned Concord toll-shrine sunk under the bridge's broken arch, half-flooded 
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Sunken Tollhouse**. **Truly (DM):** a minor Concord relay-node where the road-conduit met the river. The Quietfall cracked it; it sank. Now, as the harvest reawakens, it leaks — and its leakage is what drowns the boatmen at the broken arch (M5) and seeds Reedford's haunting downstream.
+Public appearance and history: `vael/orrun/sites/sunken-tollhouse`. **Truly (DM):** a minor Concord relay-node where the road-conduit met the river. The Quietfall cracked it; it sank. Now, as the harvest reawakens, it leaks — and its leakage is what drowns the boatmen at the broken arch (M5) and seeds Reedford's haunting downstream.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Sunken Tollhouse**. Campaign-specific: Bargemaster Tibb or a frightened boatman can describe (and, paid/persuaded, guide to) the entrance.
+Full approach and entrance description: `vael/orrun/sites/sunken-tollhouse`. Campaign-specific: Bargemaster Tibb or a frightened boatman can describe (and, paid/persuaded, guide to) the entrance.
 
 ## Solo Danger Rating
 

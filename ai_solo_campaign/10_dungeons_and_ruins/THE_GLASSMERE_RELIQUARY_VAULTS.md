@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/reliquary-vaults
 region: The Glassmere League
 settlement: Glassmere
 factions: [Concord Remnant, Cinder Ledger, Mourners' Circle]
@@ -34,7 +35,7 @@ A mid-high far-corroboration site that (1) proves the Remnant's scholarship and 
 
 ## Access / Entrance Routes
 
-Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Reliquary Vaults**. Campaign-specific access routes:
+Full physical approach and entrance description: `vael/orrun/sites/reliquary-vaults`. Campaign-specific access routes:
 
 1. **As a guest scholar (the open way):** earn League-Factor Oren Glass's or Reliquary-Lector Mareth Senn's leave to study (slow, safe; limited access).
 2. **By the back-ledgers (the banking way):** Banker-Magistra Sefwy Holt (the Ledger's rival) can buy you a key — for a price.

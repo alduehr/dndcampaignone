@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/concord-heartlands
 region: Concord Heartlands
 settlement: Crownmouth
 factions: [Concord Remnant, Cinder Ledger, Mourners' Circle]
@@ -30,7 +31,7 @@ The Crown is the campaign's greatest **M6 far-proof**: the Concord's grandeur, r
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/CONCORD_HEARTLANDS.md`](../../Locations/Orrun/01_geography/regions/CONCORD_HEARTLANDS.md). Coordinate geometry and mechanical cartography: map packet.
+Full physical geography, climate, and culture: `vael/orrun/regions/concord-heartlands`. Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -46,7 +47,7 @@ The Crown's deep interior (the region's true dungeon-country); the Greatspine ri
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/CONCORD_HEARTLANDS.md`](../../Locations/Orrun/01_geography/regions/CONCORD_HEARTLANDS.md) (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
+Full travel-time detail: `vael/orrun/regions/concord-heartlands` (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

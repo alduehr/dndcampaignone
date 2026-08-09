@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/candlewick
 region: Sundering Reach
 settlement: Candlewick
 factions: [Reachward Compact, Ashen Wardens, Mourners' Circle, Concord Remnant]
@@ -22,11 +23,11 @@ A prim, candle-making farm-village on the firm southern ground, proud of its tid
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Candlewick**.
+Full sensory description: `vael/orrun/settlements/candlewick`.
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Candlewick**. Campaign-specific: among the visiting scholars, the **Concord Remnant** specifically has taken an interest in the archive-stone; Candlewick is wary of the attention but flattered by it.
+Full public overview: `vael/orrun/settlements/candlewick`. Campaign-specific: among the visiting scholars, the **Concord Remnant** specifically has taken an interest in the archive-stone; Candlewick is wary of the attention but flattered by it.
 
 ## DM-Only Truth
 
@@ -68,7 +69,7 @@ Reachward Compact (governs), Mourners' Circle (strong, traditional), Ashen Warde
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Candlewick**. Campaign-specific: the archive-stone is village-sacred; defacing or "selling" it is the great local taboo (which is why Greel's temptation, above, is secret).
+Full customs and law baseline: `vael/orrun/settlements/candlewick`. Campaign-specific: the archive-stone is village-sacred; defacing or "selling" it is the great local taboo (which is why Greel's temptation, above, is secret).
 
 ## Current Tensions
 

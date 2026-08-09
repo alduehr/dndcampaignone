@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/ruind-crown
 region: Concord Heartlands
 settlement: Crownmouth
 factions: [Concord Remnant, Gravecallers, Cinder Ledger]
@@ -34,7 +35,7 @@ A late-game far-corroboration and treasure site that (1) proves the Concord's *t
 
 ## History (Player-Safe)
 
-Public appearance and history: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Ruin'd Crown**.
+Public appearance and history: `vael/orrun/sites/ruind-crown`.
 
 ## History (DM-Only)
 
@@ -42,11 +43,11 @@ The true surface capital of the Concord — proof of how vast the order was *abo
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Ruin'd Crown**.
+Full sensory description: `vael/orrun/sites/ruind-crown`.
 
 ## Access / Entrance Routes
 
-Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Ruin'd Crown**. Campaign-specific access routes:
+Full physical approach and entrance description: `vael/orrun/sites/ruind-crown`. Campaign-specific access routes:
 
 1. **From Crownmouth (the scavenger way):** hire a guide (Old Crown Mab), pay the war-captain's toll, brave the ruin-edge.
 2. **The Pilgrim Camps (the desperate way):** join or follow a relic-pilgrimage in.

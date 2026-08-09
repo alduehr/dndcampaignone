@@ -4,6 +4,7 @@
 type: wilderness_location
 secrecy: mixed
 status: static
+location_ref: vael/orrun/wilderness/sunder-heights
 region: Sundering Reach
 settlement: Harrowgast
 factions: [Concord Remnant, Cinder Ledger, Ashen Wardens]
@@ -22,7 +23,7 @@ A cold, bare-boned highland of broken Concord ruins and abandoned mines where th
 
 ## What The Player Notices First
 
-Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/SUNDER_HEIGHTS.md`](../../../Locations/Orrun/01_geography/wilderness/SUNDER_HEIGHTS.md).
+Full sensory description, terrain, and named natural features: `vael/orrun/wilderness/sunder-heights`.
 
 ## What Is Actually Going On (DM-Only)
 

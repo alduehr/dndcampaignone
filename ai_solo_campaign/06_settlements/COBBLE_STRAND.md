@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/cobble-strand
 region: Pale Coast
 settlement: Cobble Strand
 factions: [Mourners' Circle, Gravecallers, Cinder Ledger]
@@ -22,11 +23,11 @@ A poor, devout shingle-cove village in the shadow of a ruined Concord lighthouse
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md) → **Cobble Strand**. Campaign-specific: the ruined lighthouse above the village is **the Drowned Lamp**.
+Full sensory description: `vael/orrun/settlements/cobble-strand`. Campaign-specific: the ruined lighthouse above the village is **the Drowned Lamp**.
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md) → **Cobble Strand**. Campaign-specific: the village's salt-mother is named **Bryd**; lately the sea gives back its dead faster than the rites can settle them (see DM-Only Truth below).
+Full public overview: `vael/orrun/settlements/cobble-strand`. Campaign-specific: the village's salt-mother is named **Bryd**; lately the sea gives back its dead faster than the rites can settle them (see DM-Only Truth below).
 
 ## DM-Only Truth
 
@@ -68,7 +69,7 @@ Mourners' Circle (dominant; the tide-shrine; Bryd), Gravecallers (a current thro
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/PALE_COAST_SETTLEMENTS.md) → **Cobble Strand**.
+Full customs and law baseline: `vael/orrun/settlements/cobble-strand`.
 
 ## Current Tensions
 

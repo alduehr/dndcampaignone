@@ -6,15 +6,15 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
-## 2026-08-08 — Locations/Orrun Split: Safety Audit + Settlement Public Overview Cleanup (Pass 5)
+## 2026-08-08 — locations/vael/orrun Split: Safety Audit + Settlement Public Overview Cleanup (Pass 5)
 
 ### Stage
 Post-Stage-16 repo-structure pass (user-directed). User asked for a safety audit of Passes 1-4 ("are all the changes safe... make sure nothing important was removed... make sure the remaining information is all campaign specific") before treating the duplication-cleanup task as closed.
 
 ### Summary
-Full audit of every diff from Passes 1-4 (~79 files, ~90 removed-content hunks across regions, settlements, wilderness, and dungeons/ruins) by cross-checking each removed passage against its `Locations/Orrun` counterpart. Result: every substantive fact that was removed from `ai_solo_campaign` is confirmed present in `Locations/Orrun`, generally near-verbatim. One minor loose end found and fixed: `THE_PEAT_CHAPEL.md`'s Entrance trim dropped the specific detail that **Old Sashe** (a named NPC, already the guide at the Barrow of Nine Doors) can also point the way here — Orrun's generic "any local can point out the line" covered the functional fact but not the NPC attribution; restored as a trailing campaign-specific note.
+Full audit of every diff from Passes 1-4 (~79 files, ~90 removed-content hunks across regions, settlements, wilderness, and dungeons/ruins) by cross-checking each removed passage against its `locations/vael/orrun` counterpart. Result: every substantive fact that was removed from `ai_solo_campaign` is confirmed present in `locations/vael/orrun`, generally near-verbatim. One minor loose end found and fixed: `THE_PEAT_CHAPEL.md`'s Entrance trim dropped the specific detail that **Old Sashe** (a named NPC, already the guide at the Barrow of Nine Doors) can also point the way here — Orrun's generic "any local can point out the line" covered the functional fact but not the NPC attribution; restored as a trailing campaign-specific note.
 
-The audit's second half — "is the remaining information all campaign specific" — surfaced a real, previously-unaudited duplication class: the `## Public Overview` section in all 16 standalone settlement files (everything in `06_settlements/` except `CARADRIL.md`, which got this treatment in Pass 2) still substantially restated Orrun's founding/economy/population/governance prose, near-verbatim in several cases (e.g. Kettle Bridge's "the best place in the Reach to hear news and the worst to keep a secret" / Orrun's "the liveliest place in the Reach and the worst place in it to keep a secret"). Pass 2's log only checked First Impression and Laws and Customs for this pattern; Public Overview was missed for the 16 non-Caradril files. Fixed all 16: trimmed to a pointer at the matching `Locations/Orrun/02_settlements/*.md` section, preserving only what Orrun genuinely lacks — named individual leadership (Orrun's stated policy is to name no current officeholders), named-faction plot hooks (Concord Remnant's interest in Candlewick's archive-stone, Coldhearth/Greywater Holm sheltering or drifting toward the Gravecallers), and plot-escalation facts tied to DM-Only Truth (Hollowmere's "Wren has come back wrong," Saltmargin's tripled rite-salt demand, Ashwalk Rest's crisis-level traffic).
+The audit's second half — "is the remaining information all campaign specific" — surfaced a real, previously-unaudited duplication class: the `## Public Overview` section in all 16 standalone settlement files (everything in `06_settlements/` except `CARADRIL.md`, which got this treatment in Pass 2) still substantially restated Orrun's founding/economy/population/governance prose, near-verbatim in several cases (e.g. Kettle Bridge's "the best place in the Reach to hear news and the worst to keep a secret" / Orrun's "the liveliest place in the Reach and the worst place in it to keep a secret"). Pass 2's log only checked First Impression and Laws and Customs for this pattern; Public Overview was missed for the 16 non-Caradril files. Fixed all 16: trimmed to a pointer at the matching `locations/vael/orrun/settlements/*.md` section, preserving only what Orrun genuinely lacks — named individual leadership (Orrun's stated policy is to name no current officeholders), named-faction plot hooks (Concord Remnant's interest in Candlewick's archive-stone, Coldhearth/Greywater Holm sheltering or drifting toward the Gravecallers), and plot-escalation facts tied to DM-Only Truth (Hollowmere's "Wren has come back wrong," Saltmargin's tripled rite-salt demand, Ashwalk Rest's crisis-level traffic).
 
 Also confirmed by design, not fixed: `Named Sites`/`Zone List`, `Hazards`, and `Creatures/Adversaries` sections in wilderness (`05_regions/wilderness/*_SITES.md`) and dungeon (`10_dungeons_and_ruins/*.md`) files retain real overlap with their Orrun counterparts beyond pure atmosphere. This is intentional per `DND_MECHANICS_REQUIREMENTS.md` and `WORLDBUILDING_STANDARDS.md`'s Wilderness/Dungeon Standards, which require hazard DCs, room/zone lists, and encounter stat references to live in the campaign file for mechanical self-containment, and because clue/secret content is interwoven with the physical description sentence-by-sentence in ways that can't be surgically split without risking deletion of campaign-unique material (documented rationale in the Pass 3/4 log entries above). Orrun independently maintains its own spoiler-free version of the same generic content for pure "what does a traveler see" queries — this is accepted, bounded overlap, not missed cleanup.
 
@@ -33,51 +33,51 @@ None — no world facts changed, only where existing facts are stored, plus one 
 None outstanding. The bounded, by-design overlap in wilderness/dungeon Named Sites/Hazards/Encounters sections (see Summary) is not a gap — it's a documented mechanical-completeness requirement, not missed cleanup.
 
 ### Next Recommended Pass
-The duplication-cleanup task (Passes 1-5) is now verified complete and safe. Resume normal content production; if new region/settlement/wilderness/dungeon content is added, follow the same split (mechanics/secrets/NPCs in `ai_solo_campaign`, spoiler-free physical/sensory description in `Locations/Orrun`, cross-pointer both ways) from the start rather than needing a later cleanup pass.
+The duplication-cleanup task (Passes 1-5) is now verified complete and safe. Resume normal content production; if new region/settlement/wilderness/dungeon content is added, follow the same split (mechanics/secrets/NPCs in `ai_solo_campaign`, spoiler-free physical/sensory description in `locations/vael/orrun`, cross-pointer both ways) from the start rather than needing a later cleanup pass.
 
 ---
 
-## 2026-08-08 — Locations/Orrun Split: Maps Mirror + Region Duplication Cleanup (Pass 1 of 4)
+## 2026-08-08 — locations/vael/orrun Split: Maps Mirror + Region Duplication Cleanup (Pass 1 of 4)
 
 ### Stage
 Post-Stage-16 repo-structure pass (user-directed). Follow-up to the 2026-08-01/02 `/Orrun` extraction passes.
 
 ### Summary
-Three related structural changes, all user-directed: (1) moved `/Orrun` to `/Locations/Orrun` and fixed all cross-references; (2) copied `ai_solo_campaign/maps/` (manifest + 9 image assets) into `Locations/Orrun/maps/` as a read-only mirror, since `ai_solo_campaign/maps/` stays authoritative for the DungeonMaster app onboarding contract (`dm.campaign.json`'s `contentRoot`); (3) began eliminating content duplication between `ai_solo_campaign` and `Locations/Orrun` — the user does not want the same geography written twice. Pass 1 covers all 16 region files in `05_regions/`: their `## Geography` and `## Travel Routes` sections (pure physical/climate/culture/route description, already fully — and often more richly — covered in `Locations/Orrun/01_geography/regions/`) were replaced with short pointers to the matching Orrun file. Campaign-specific mechanical content inside those sections (DCs, named-NPC tolls, quest-tied access gates, coordinate/cartography-authority pointers to `region_map_packets/`) was preserved, not deleted. Nothing else in the region files (DM-Only Truth, Factions Present, Regional Secrets, Quest Hooks, Level Range And Solo Danger, Encounter And Hazard Mechanics, Regional Clocks, etc.) was touched — those are campaign-specific and not duplicated anywhere in Orrun by design (Orrun strips all secret/clue/hook/NPC material).
+Three related structural changes, all user-directed: (1) moved `/Orrun` to `locations/vael/orrun` and fixed all cross-references; (2) copied `ai_solo_campaign/maps/` (manifest + 9 image assets) into `locations/vael/orrun/maps/` as a read-only mirror, since `ai_solo_campaign/maps/` stays authoritative for the DungeonMaster app onboarding contract (`dm.campaign.json`'s `contentRoot`); (3) began eliminating content duplication between `ai_solo_campaign` and `locations/vael/orrun` — the user does not want the same geography written twice. Pass 1 covers all 16 region files in `05_regions/`: their `## Geography` and `## Travel Routes` sections (pure physical/climate/culture/route description, already fully — and often more richly — covered in `locations/vael/orrun/regions/`) were replaced with short pointers to the matching Orrun file. Campaign-specific mechanical content inside those sections (DCs, named-NPC tolls, quest-tied access gates, coordinate/cartography-authority pointers to `region_map_packets/`) was preserved, not deleted. Nothing else in the region files (DM-Only Truth, Factions Present, Regional Secrets, Quest Hooks, Level Range And Solo Danger, Encounter And Hazard Mechanics, Regional Clocks, etc.) was touched — those are campaign-specific and not duplicated anywhere in Orrun by design (Orrun strips all secret/clue/hook/NPC material).
 
 Settlements (18 files), wilderness sites (7 files), and dungeons/ruins (41 files) are the same cleanup, scoped by the user, but not yet done — see TODO.md.
 
 ### Files Changed
-- `Locations/Orrun/` — moved from `/Orrun` (58 files, git-tracked renames)
-- `Locations/Orrun/maps/manifest.json` + `Locations/Orrun/maps/assets/*.png` (9 files) — new, mirrored from `ai_solo_campaign/maps/`
-- `Locations/Orrun/README.md` — added "Maps" section documenting the mirror relationship and update order
-- `Locations/Orrun/00_overview/GAZETTEER_INDEX.md` — added Maps section
-- `ai_solo_campaign/00_control/NAMING_REGISTRY.md` — path references updated (`/Orrun` → `/Locations/Orrun`)
+- `locations/vael/orrun/` — moved from `/Orrun` (58 files, git-tracked renames)
+- `locations/vael/orrun/maps/manifest.json` + `locations/vael/orrun/maps/assets/*.png` (9 files) — new, mirrored from `ai_solo_campaign/maps/`
+- `vael/orrun/README.md` — added "Maps" section documenting the mirror relationship and update order
+- `vael/orrun/GAZETTEER_INDEX.md` — added Maps section
+- `ai_solo_campaign/00_control/NAMING_REGISTRY.md` — path references updated (`/Orrun` → `locations/vael/orrun`)
 - `ai_solo_campaign/05_regions/*.md` (all 16) — Geography + Travel Routes sections trimmed to pointers
-- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md` — "Entering a region" and "Entering a far-continent region" sections now direct the AI DM to load the matching `Locations/Orrun/01_geography/regions/` file for physical geography/climate/culture/travel-times, alongside the campaign region file for everything else
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md` — "Entering a region" and "Entering a far-continent region" sections now direct the AI DM to load the matching `locations/vael/orrun/regions/` file for physical geography/climate/culture/travel-times, alongside the campaign region file for everything else
 
 ### Canon Established
 None — no world facts changed, only where existing facts are stored.
 
 ### Indexes Updated
-- `Locations/Orrun/00_overview/GAZETTEER_INDEX.md`
+- `vael/orrun/GAZETTEER_INDEX.md`
 - `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md`
 
 ### Gaps Identified
-- Settlements, wilderness sites, and dungeons/ruins still duplicate geography with `Locations/Orrun` — scoped for follow-up passes (see TODO.md). These are riskier than regions: clue/secret/hook/NPC content is interwoven sentence-by-sentence with physical/hazard description in the source files, not cleanly sectioned, so the cut has to be judged per file rather than pattern-replaced.
+- Settlements, wilderness sites, and dungeons/ruins still duplicate geography with `locations/vael/orrun` — scoped for follow-up passes (see TODO.md). These are riskier than regions: clue/secret/hook/NPC content is interwoven sentence-by-sentence with physical/hazard description in the source files, not cleanly sectioned, so the cut has to be judged per file rather than pattern-replaced.
 
 ### Next Recommended Pass
-Settlements cleanup (18 files, `06_settlements/*.md` vs `Locations/Orrun/02_settlements/*.md` — note the Orrun side groups multiple settlements per region file, so mapping is many-to-one, not 1:1 like regions).
+Settlements cleanup (18 files, `06_settlements/*.md` vs `locations/vael/orrun/settlements/*.md` — note the Orrun side groups multiple settlements per region file, so mapping is many-to-one, not 1:1 like regions).
 
 ---
 
-## 2026-08-08 — Locations/Orrun Split: Settlement Duplication Cleanup (Pass 2 of 4)
+## 2026-08-08 — locations/vael/orrun Split: Settlement Duplication Cleanup (Pass 2 of 4)
 
 ### Stage
 Post-Stage-16 repo-structure pass (user-directed). Continuation of the same-day Pass 1 (regions).
 
 ### Summary
-Trimmed duplication from all 17 standalone settlement files (`06_settlements/*.md`, excluding `_PLACEHOLDER.md`) plus Caradril's main file and all 8 district files (`caradril_districts/*.md`) — 26 files total. Confirmed the same pattern held throughout: `## First Impression` (or, for the dungeon-style Sunken Wards sub-district, `## What The Player Notices First`) is near-verbatim duplicated by the matching `Locations/Orrun/02_settlements/*.md` entry, and `## Laws and Customs` is substantially the same baseline. Replaced both with short pointers to the Orrun file/section, keeping any campaign-specific sentence that isn't in Orrun (a named DC, a plot-relevant detail, a faction-tied enforcement note) as a trailing "Campaign-specific:" line rather than deleting it. For Caradril's top-level file specifically, also trimmed `Public Overview`, `Scale and Layout`, `Government and Law Structure`, and `Shops and Services` — Orrun's `CARADRIL.md` covers all of these in comparable or greater depth, since it's a single large city file rather than a grouped regional gazetteer. Everything else in every file (DM-Only Truth, named NPCs/leadership, Factions Present, Current Tensions, Secrets, Quest Hooks, Possible Scenes, Law And Threat Mechanics, Consequences If Ignored) was left untouched — none of it exists in Orrun by design.
+Trimmed duplication from all 17 standalone settlement files (`06_settlements/*.md`, excluding `_PLACEHOLDER.md`) plus Caradril's main file and all 8 district files (`caradril_districts/*.md`) — 26 files total. Confirmed the same pattern held throughout: `## First Impression` (or, for the dungeon-style Sunken Wards sub-district, `## What The Player Notices First`) is near-verbatim duplicated by the matching `locations/vael/orrun/settlements/*.md` entry, and `## Laws and Customs` is substantially the same baseline. Replaced both with short pointers to the Orrun file/section, keeping any campaign-specific sentence that isn't in Orrun (a named DC, a plot-relevant detail, a faction-tied enforcement note) as a trailing "Campaign-specific:" line rather than deleting it. For Caradril's top-level file specifically, also trimmed `Public Overview`, `Scale and Layout`, `Government and Law Structure`, and `Shops and Services` — Orrun's `CARADRIL.md` covers all of these in comparable or greater depth, since it's a single large city file rather than a grouped regional gazetteer. Everything else in every file (DM-Only Truth, named NPCs/leadership, Factions Present, Current Tensions, Secrets, Quest Hooks, Possible Scenes, Law And Threat Mechanics, Consequences If Ignored) was left untouched — none of it exists in Orrun by design.
 
 Mapping note: Orrun groups multiple settlements per region file (`SUNDERING_REACH_SETTLEMENTS.md` covers 8, `ASHGARDEN_VALE_SETTLEMENTS.md` covers 3, `TOLLWOOD_SETTLEMENTS.md` covers 3, `PALE_COAST_SETTLEMENTS.md` covers 2, `CARADRIL.md` covers Caradril + all 8 districts in one file), so this pass's pointers target a named section inside the group file, not a 1:1 file.
 
@@ -96,17 +96,17 @@ None — no world facts changed, only where existing facts are stored.
 - Wilderness sites (7 files) and dungeons/ruins (41 files) remain — both riskier than settlements since clue/secret/hook/NPC content is interwoven with hazard/terrain description sentence-by-sentence rather than living in a cleanly separable section. See TODO.md Pass 3/4.
 
 ### Next Recommended Pass
-Wilderness sites cleanup (7 files, `05_regions/wilderness/*.md` vs `Locations/Orrun/01_geography/wilderness/*.md`) — requires per-site, per-sentence judgment rather than a repeatable section-level pattern.
+Wilderness sites cleanup (7 files, `05_regions/wilderness/*.md` vs `locations/vael/orrun/wilderness/*.md`) — requires per-site, per-sentence judgment rather than a repeatable section-level pattern.
 
 ---
 
-## 2026-08-08 — Locations/Orrun Split: Wilderness Duplication Cleanup (Pass 3 of 4)
+## 2026-08-08 — locations/vael/orrun Split: Wilderness Duplication Cleanup (Pass 3 of 4)
 
 ### Stage
 Post-Stage-16 repo-structure pass (user-directed). Continuation of the same-day Passes 1–2 (regions, settlements).
 
 ### Summary
-Trimmed all 7 `05_regions/wilderness/*_SITES.md` files — a lighter touch than Passes 1–2, deliberately. Confirmed by direct comparison that only `## What The Player Notices First` (pure atmospheric description, no mechanics, no secrets) is reliably near-duplicated by the matching `Locations/Orrun/01_geography/wilderness/*.md` file's `## What A Traveler Notices First` section; replaced it with a pointer, keeping any sentence that's genuinely campaign-unique (a plot-relevant detail like "the water is unnaturally calm, as if it is listening"). Everything else — Named Sites, Hazards (with DCs), Creatures/Adversaries (with stat references), NPCs Present, Secrets, Clues, Hooks, Treasure, Level Range And Solo Danger, Consequences If Ignored — was deliberately left untouched, even where a hazard's DC or a creature's stat-flavor happens to also appear in the Orrun file. Two reasons: (1) `DND_MECHANICS_REQUIREMENTS.md` and `WORLDBUILDING_STANDARDS.md`'s Wilderness Location Standard both require these fields to live in the campaign file itself for self-contained play — a pointer there would break mechanical completeness, not just trim prose; (2) clue/secret/hook content is interwoven into the Named Sites descriptions sentence-by-sentence (not cleanly sectioned), so surgical removal risked deleting campaign-unique content by accident. This scoping was flagged to the user in the Pass-2 handoff and TODO.md before starting.
+Trimmed all 7 `05_regions/wilderness/*_SITES.md` files — a lighter touch than Passes 1–2, deliberately. Confirmed by direct comparison that only `## What The Player Notices First` (pure atmospheric description, no mechanics, no secrets) is reliably near-duplicated by the matching `locations/vael/orrun/wilderness/*.md` file's `## What A Traveler Notices First` section; replaced it with a pointer, keeping any sentence that's genuinely campaign-unique (a plot-relevant detail like "the water is unnaturally calm, as if it is listening"). Everything else — Named Sites, Hazards (with DCs), Creatures/Adversaries (with stat references), NPCs Present, Secrets, Clues, Hooks, Treasure, Level Range And Solo Danger, Consequences If Ignored — was deliberately left untouched, even where a hazard's DC or a creature's stat-flavor happens to also appear in the Orrun file. Two reasons: (1) `DND_MECHANICS_REQUIREMENTS.md` and `WORLDBUILDING_STANDARDS.md`'s Wilderness Location Standard both require these fields to live in the campaign file itself for self-contained play — a pointer there would break mechanical completeness, not just trim prose; (2) clue/secret/hook content is interwoven into the Named Sites descriptions sentence-by-sentence (not cleanly sectioned), so surgical removal risked deleting campaign-unique content by accident. This scoping was flagged to the user in the Pass-2 handoff and TODO.md before starting.
 
 ### Files Changed
 - `ai_solo_campaign/05_regions/wilderness/*.md` (all 7)
@@ -122,19 +122,19 @@ None.
 - Dungeons/ruins (41 files) remain — same lighter-touch treatment planned (trim only pure atmosphere/"first impression" equivalent sections; leave hazards, traps, puzzles, boss mechanics, secrets, clues, treasure untouched for the same self-containment reasons as wilderness).
 
 ### Next Recommended Pass
-Dungeons/ruins cleanup (41 files, `10_dungeons_and_ruins/*.md` vs `Locations/Orrun/06_sites/*.md`, grouped 4 files covering 34 sites — note D23/D20, the Under-Shrine and Basin Keystone Approach, have no Orrun counterpart by design and should be skipped).
+Dungeons/ruins cleanup (41 files, `10_dungeons_and_ruins/*.md` vs `locations/vael/orrun/sites/*.md`, grouped 4 files covering 34 sites — note D23/D20, the Under-Shrine and Basin Keystone Approach, have no Orrun counterpart by design and should be skipped).
 
 ---
 
-## 2026-08-08 — Locations/Orrun Split: Dungeon/Ruin Duplication Cleanup (Pass 4 of 4 — COMPLETE)
+## 2026-08-08 — locations/vael/orrun Split: Dungeon/Ruin Duplication Cleanup (Pass 4 of 4 — COMPLETE)
 
 ### Stage
-Post-Stage-16 repo-structure pass (user-directed). Completes the same-day Passes 1–3 (regions, settlements, wilderness). The `Locations/Orrun` duplication-cleanup task is now finished across all four scoped categories.
+Post-Stage-16 repo-structure pass (user-directed). Completes the same-day Passes 1–3 (regions, settlements, wilderness). The `locations/vael/orrun` duplication-cleanup task is now finished across all four scoped categories.
 
 ### Summary
-Trimmed all 34 dungeon/ruin files that have an `Locations/Orrun/06_sites/*.md` counterpart (of 41 total files in `10_dungeons_and_ruins/`; the other 7 are the two DM-only endgame sites with no Orrun counterpart plus 5 meta/index files — see Gaps below). Two campaign templates needed different treatment:
+Trimmed all 34 dungeon/ruin files that have an `locations/vael/orrun/sites/*.md` counterpart (of 41 total files in `10_dungeons_and_ruins/`; the other 7 are the two DM-only endgame sites with no Orrun counterpart plus 5 meta/index files — see Gaps below). Two campaign templates needed different treatment:
 
-- **Standard/environmental-template files (19 of 34):** the ones with a `## History` (with a "Publicly:"/"(Player-Safe)" clause) and `## Entrance`/`## First Impression`/`## Access / Entrance Routes` section — the Sundering Reach group (8), Ring 1 group (9), and Caradril group (2), plus 2 of the far-continent sites that happen to use this template (the Ruin'd Crown, the Ashfast Deep). These were trimmed exactly like Passes 1–3: the public/atmospheric clause replaced with a pointer into the matching `Locations/Orrun/06_sites/*.md` grouped file (`SUNDERING_REACH_SITES.md`, `RING1_SITES.md`, `CARADRIL_SITES.md`, or `FAR_CONTINENT_SITES.md`), campaign-specific telegraph details (named NPCs, quest ties) kept as trailing sentences.
+- **Standard/environmental-template files (19 of 34):** the ones with a `## History` (with a "Publicly:"/"(Player-Safe)" clause) and `## Entrance`/`## First Impression`/`## Access / Entrance Routes` section — the Sundering Reach group (8), Ring 1 group (9), and Caradril group (2), plus 2 of the far-continent sites that happen to use this template (the Ruin'd Crown, the Ashfast Deep). These were trimmed exactly like Passes 1–3: the public/atmospheric clause replaced with a pointer into the matching `locations/vael/orrun/sites/*.md` grouped file (`SUNDERING_REACH_SITES.md`, `RING1_SITES.md`, `CARADRIL_SITES.md`, or `FAR_CONTINENT_SITES.md`), campaign-specific telegraph details (named NPCs, quest ties) kept as trailing sentences.
 - **The remaining 13 far-continent sites** use a third, more compressed template (`AI Use` / `One-Sentence Identity` / `Map Placement` / `Level Range` / `Purpose` / `Access / Entrance Routes` / `Current Occupants` / `Factions Involved` / `Zone List` / ...) with no separate narrative "History" or "First Impression" prose section at all — they were apparently already written lean and campaign/NPC-focused rather than duplicating Orrun's sensory description. For these, no atmospheric prose needed removing (there wasn't any to remove); instead a one-line pointer was added ahead of the existing `## Access / Entrance Routes` numbered list, crediting Orrun for the full physical approach/entrance description while leaving every campaign-specific, NPC-gated route intact (nothing here was actually duplicative enough to delete).
 
 As with every prior pass, all mechanical/secret content — zone/room lists, encounter lists, hazard/trap DCs, puzzles, treasure, boss/climax mechanics, retreat options, scaling notes, consequences if ignored, state update triggers, and Stage 11 clue/REV cross-links — was left completely untouched in all 34 files, per `DND_MECHANICS_REQUIREMENTS.md`'s self-containment requirement.
@@ -145,7 +145,7 @@ As with every prior pass, all mechanical/secret content — zone/room lists, enc
   - Ring 1 group (9): `THE_BURIED_CLOISTER.md`, `THE_PELLOW_GRANGE.md`, `SAINT_VEDDOWS_TOMB.md`, `THE_GREENWARD_TOLL_STATION.md`, `THE_HANGING_OAKS.md`, `THE_OLD_MAST.md`, `THE_WRECKERS_CAVES.md`, `THE_DROWNED_LAMP.md`, `THE_SKERRY_SHRINE.md`
   - Caradril group (2): `THE_SUNKEN_WARDS_DEEP.md`, `THE_CARADRIL_ASHMARKET_UNDERCROFT.md`
   - Far Continent group (15): `THE_NINE_LOCKS_SUNKEN_STAIR.md`, `THE_GLASSMERE_RELIQUARY_VAULTS.md`, `THE_THREE_BRIDGES_COUNTING_DEEP.md`, `THE_OLD_CONCORD_HEARTLANDS_RUIN.md`, `THE_MARROWDOWNS_BARROW_COMPLEX.md`, `THE_SALTMERE_DEEP_TOWNS.md`, `THE_SALLOWMARCH_DROWNED_STEPS.md`, `THE_HOLLOW_GULF_WRECK_REEF.md`, `THE_SUNHOLLOW_GREAT_GROVE.md`, `THE_HETHEWALD_OLD_HOLDS.md`, `THE_KARRAN_OLD_IRON_FORTS.md`, `THE_WENDER_SKY_STONES.md`, `THE_HIGHMARK_FROZEN_WORKS.md`, `THE_EMBERFELL_CALDERA_DESCENT.md`, `THE_CINDERN_WASTE_BURIED_WORKS.md`
-- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md` — "Entering a dungeon or adventure site" now points to the matching `Locations/Orrun/06_sites/*.md` entry for public appearance/history/first impression, and flags that the two endgame files stay fully self-contained by design
+- `ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md` — "Entering a dungeon or adventure site" now points to the matching `locations/vael/orrun/sites/*.md` entry for public appearance/history/first impression, and flags that the two endgame files stay fully self-contained by design
 
 ### Canon Established
 None — no world facts changed, only where existing facts are stored.
@@ -157,7 +157,7 @@ None — no world facts changed, only where existing facts are stored.
 None outstanding for this task. The 7 `10_dungeons_and_ruins/` files intentionally left untouched: `THE_UNDER_SHRINE_APPROACH.md` (D23) and `THE_BASIN_KEYSTONE_APPROACH.md` (D20) — DM-only endgame sites with no Orrun counterpart by design — plus 5 meta/index files (`ADVENTURE_SITE_CARTOGRAPHY_INDEX.md`, `DUNGEON_INDEX.md`, `PUZZLE_DUNGEONS.md`, `RUIN_INDEX.md`, `_PLACEHOLDER.md`), which are indexes rather than site content and have nothing to point at Orrun.
 
 ### Next Recommended Pass
-The user's four-category duplication-cleanup task (regions, settlements, wilderness, dungeons/ruins) is complete. No further `ai_solo_campaign` ↔ `Locations/Orrun` duplication cleanup is scoped; future content added to either tree should follow the same split (mechanics/secrets/NPCs in `ai_solo_campaign`, spoiler-free physical/sensory description in `Locations/Orrun`, cross-pointer both ways) rather than reintroducing duplicated prose.
+The user's four-category duplication-cleanup task (regions, settlements, wilderness, dungeons/ruins) is complete. No further `ai_solo_campaign` ↔ `locations/vael/orrun` duplication cleanup is scoped; future content added to either tree should follow the same split (mechanics/secrets/NPCs in `ai_solo_campaign`, spoiler-free physical/sensory description in `locations/vael/orrun`, cross-pointer both ways) rather than reintroducing duplicated prose.
 
 ## 2026-07-28 — DungeonMaster Maps Contract Alignment
 

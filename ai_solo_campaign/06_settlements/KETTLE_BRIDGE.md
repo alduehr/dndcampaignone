@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/kettle-bridge
 region: Sundering Reach
 settlement: Kettle Bridge
 factions: [Reachward Compact, Ashen Wardens, Mourners' Circle, Cinder Ledger]
@@ -22,11 +23,11 @@ A bustling, quarrelsome bridge-town astride the only good Mirewend crossing for 
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Kettle Bridge**. Campaign-specific: it is the most-watched town in the Reach (see DM-Only Truth below).
+Full sensory description: `vael/orrun/settlements/kettle-bridge`. Campaign-specific: it is the most-watched town in the Reach (see DM-Only Truth below).
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Kettle Bridge**. Campaign-specific: **Ashen Wardens** and the **Mourners' Circle** both keep houses here because the failing rites strike travelers and locals alike (see DM-Only Truth below).
+Full public overview: `vael/orrun/settlements/kettle-bridge`. Campaign-specific: **Ashen Wardens** and the **Mourners' Circle** both keep houses here because the failing rites strike travelers and locals alike (see DM-Only Truth below).
 
 ## DM-Only Truth
 
@@ -69,7 +70,7 @@ Reachward Compact (governs), Cinder Ledger (toll + mill), Ashen Wardens (rest ho
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/SUNDERING_REACH_SETTLEMENTS.md) → **Kettle Bridge**. Campaign-specific: Gravecaller activity is hunted harder here than anywhere but Hollowmere.
+Full customs and law baseline: `vael/orrun/settlements/kettle-bridge`. Campaign-specific: Gravecaller activity is hunted harder here than anywhere but Hollowmere.
 
 ## Current Tensions
 

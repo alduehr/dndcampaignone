@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/whispering-cairn
 region: Sundering Reach
 settlement: Candlewick
 factions: [Concord Remnant, Cinder Ledger, Ashen Wardens]
@@ -22,11 +23,11 @@ A roadside Concord archive-cairn dense with carved old script, where the dead's 
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Whispering Cairn**. **Truly (DM):** an archive-marker that recorded the local harvest's tally — a census of the dead taken by the network. Its inscriptions, read, are a fair M6/M9 seed (the Concord "kept the pattern of the dead"). It is intact because it sits on firm South Road ground, away from the drowning.
+Public appearance and history: `vael/orrun/sites/whispering-cairn`. **Truly (DM):** an archive-marker that recorded the local harvest's tally — a census of the dead taken by the network. Its inscriptions, read, are a fair M6/M9 seed (the Concord "kept the pattern of the dead"). It is intact because it sits on firm South Road ground, away from the drowning.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Whispering Cairn**. Campaign-specific: Briss (or a Remnant scholar) leads the player here in Hook 8.
+Full approach and entrance description: `vael/orrun/sites/whispering-cairn`. Campaign-specific: Briss (or a Remnant scholar) leads the player here in Hook 8.
 
 ## Solo Danger Rating
 

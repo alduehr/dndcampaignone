@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/signal-cairn
 region: Sundering Reach
 settlement: Harrowgast
 factions: [Concord Remnant, Ashen Wardens, Cinder Ledger]
@@ -34,7 +35,7 @@ The Reach's "command-layer" clue site. Where the Deep Adit shows the *harvesting
 
 ## History (Player-Safe)
 
-Full public appearance and history: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Signal-Cairn**.
+Full public appearance and history: `vael/orrun/sites/signal-cairn`.
 
 ## History (DM-Only)
 
@@ -42,7 +43,7 @@ A Concord **relay/signal station** — part of the network's command layer, wher
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Signal-Cairn**.
+Full sensory description: `vael/orrun/sites/signal-cairn`.
 
 ## Access / Entrance Routes
 

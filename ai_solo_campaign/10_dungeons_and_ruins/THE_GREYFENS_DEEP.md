@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/greyfens-deep
 region: Sundering Reach
 settlement: Greywater Holm
 factions: [Gravecallers, Mourners' Circle, Ashen Wardens]
@@ -34,7 +35,7 @@ A repeatable, scalable exploration zone that (1) gives the clearest *field-proof
 
 ## History (Player-Safe)
 
-Full description of the fen as a delve (route, terrain, hazards, salvage): [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Greyfens Deep**; full physical geography: [`Locations/Orrun/01_geography/wilderness/GREYFENS.md`](../../Locations/Orrun/01_geography/wilderness/GREYFENS.md). Campaign-specific: Greywater Holm is shrinking as its rites fail worst.
+Full description of the fen as a delve (route, terrain, hazards, salvage): `vael/orrun/sites/greyfens-deep`; full physical geography: `vael/orrun/wilderness/greyfens`. Campaign-specific: Greywater Holm is shrinking as its rites fail worst.
 
 ## History (DM-Only)
 
@@ -42,7 +43,7 @@ The Greyfens lie in the basin's pull-shadow: leaked Remembrance drifts here from
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Greyfens Deep**.
+Full sensory description: `vael/orrun/sites/greyfens-deep`.
 
 ## Access / Entrance Routes
 

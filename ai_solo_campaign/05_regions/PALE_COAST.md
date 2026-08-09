@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/pale-coast
 region: Pale Coast
 settlement: Wrackmouth
 factions: [Cinder Ledger, Mourners' Circle, Reachward Compact, Gravecallers, Ashen Wardens, Concord Remnant]
@@ -32,7 +33,7 @@ The Pale Coast holds the campaign's **maritime echo of the harvest** — and, li
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/PALE_COAST.md`](../../Locations/Orrun/01_geography/regions/PALE_COAST.md). Campaign starts in mid-autumn — the season of gales, wrecks, and the Coast's drowned-tide.
+Full physical geography, climate, and culture: `vael/orrun/regions/pale-coast`. Campaign starts in mid-autumn — the season of gales, wrecks, and the Coast's drowned-tide.
 
 ## Major Settlements
 
@@ -50,7 +51,7 @@ One zone file holds the Coast's named sites (`wilderness/PALE_COAST_SITES.md`): 
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/PALE_COAST.md`](../../Locations/Orrun/01_geography/regions/PALE_COAST.md) (Travel Routes section). See also `../04_world_atlas/TRAVEL_ROUTES_RING1.md`.
+Full travel-time detail: `vael/orrun/regions/pale-coast` (Travel Routes section). See also `../04_world_atlas/TRAVEL_ROUTES_RING1.md`.
 
 ## Factions Present
 

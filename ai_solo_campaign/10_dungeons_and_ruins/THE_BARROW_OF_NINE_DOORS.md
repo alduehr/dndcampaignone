@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/barrow-of-nine-doors
 region: Sundering Reach
 settlement: Greywater Holm
 factions: [Gravecallers, Mourners' Circle, Ashen Wardens]
@@ -22,11 +23,11 @@ An ancient nine-doored barrow in the heart of the Greyfens, older than the Conco
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Barrow of Nine Doors**. **Truly (DM):** a pre-Concord burial-barrow that the Concord's harvest-network was built around and *tapped*. Its "nine doors" are ritual thresholds. Now the basin's pull drags drifting Remembrances here and they jam against the doors, unable to pass — a vivid demonstration of M5 (the dead pulled the wrong way) and a place the Tallow Man's dead speak more freely (M6 path, gated).
+Public appearance and history: `vael/orrun/sites/barrow-of-nine-doors`. **Truly (DM):** a pre-Concord burial-barrow that the Concord's harvest-network was built around and *tapped*. Its "nine doors" are ritual thresholds. Now the basin's pull drags drifting Remembrances here and they jam against the doors, unable to pass — a vivid demonstration of M5 (the dead pulled the wrong way) and a place the Tallow Man's dead speak more freely (M6 path, gated).
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md`](../../Locations/Orrun/06_sites/SUNDERING_REACH_SITES.md) → **The Barrow of Nine Doors**. Campaign-specific: Old Sashe will guide a respectful player here.
+Full approach and entrance description: `vael/orrun/sites/barrow-of-nine-doors`. Campaign-specific: Old Sashe will guide a respectful player here.
 
 ## Solo Danger Rating
 

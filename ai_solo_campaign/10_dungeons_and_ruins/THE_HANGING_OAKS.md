@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/hanging-oaks
 region: Tollwood
 settlement: Coldhearth
 factions: [Gravecallers, Mourners' Circle, Ashen Wardens]
@@ -22,11 +23,11 @@ A grove of vast, old oaks the wood "hung offerings" in since before the Concord,
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Hanging Oaks**. **Truly (DM):** a pre-Concord sacred grove — an outlying expression of the Old Mast's power, where the land's oldest dead linger and *answer.* The Gravecallers shelter here because the deep dead remember the harvest's beginning and will testify (an oblique M5/M6 fragment-source). As the keystone reawakens, the grove's dead grow restless and the cell grows bolder — and more reckless, edging toward the Old Mast itself.
+Public appearance and history: `vael/orrun/sites/hanging-oaks`. **Truly (DM):** a pre-Concord sacred grove — an outlying expression of the Old Mast's power, where the land's oldest dead linger and *answer.* The Gravecallers shelter here because the deep dead remember the harvest's beginning and will testify (an oblique M5/M6 fragment-source). As the keystone reawakens, the grove's dead grow restless and the cell grows bolder — and more reckless, edging toward the Old Mast itself.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Hanging Oaks**. Campaign-specific: the guide who brings the player to the edge and balks at the grove itself is Brann.
+Full approach and entrance description: `vael/orrun/sites/hanging-oaks`. Campaign-specific: the guide who brings the player to the edge and balks at the grove itself is Brann.
 
 ## Solo Danger Rating
 

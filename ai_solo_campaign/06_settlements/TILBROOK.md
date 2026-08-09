@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/tilbrook
 region: Ashgarden Vale
 settlement: Tilbrook
 factions: [Cinder Ledger, Mourners' Circle, Reachward Compact]
@@ -22,11 +23,11 @@ A hard-working, hard-up mill village on the Ammet that grinds the Vale's grain, 
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Tilbrook**.
+Full sensory description: `vael/orrun/settlements/tilbrook`.
 
 ## Public Overview
 
-Full public overview: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Tilbrook**. Campaign-specific: Tilbrook is tied to the Compact in name and resents Orchardmere's moot in fact, and says openly what the shrine-towns won't — that the rites are failing in the Vale and "the fat keepers are lying about it" (see Orchardmere's cover-up, `ORCHARDMERE.md`).
+Full public overview: `vael/orrun/settlements/tilbrook`. Campaign-specific: Tilbrook is tied to the Compact in name and resents Orchardmere's moot in fact, and says openly what the shrine-towns won't — that the rites are failing in the Vale and "the fat keepers are lying about it" (see Orchardmere's cover-up, `ORCHARDMERE.md`).
 
 ## DM-Only Truth
 
@@ -66,7 +67,7 @@ Cinder Ledger (creditor and quiet relic-quarrier; Pell's reach from Orchardmere)
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md`](../../Locations/Orrun/02_settlements/ASHGARDEN_VALE_SETTLEMENTS.md) → **Tilbrook**. Campaign-specific: lately the loaf left on a new grave is found moved each night (see Secrets below — an M5 clue).
+Full customs and law baseline: `vael/orrun/settlements/tilbrook`. Campaign-specific: lately the loaf left on a new grave is found moved each night (see Secrets below — an M5 clue).
 
 ## Current Tensions
 

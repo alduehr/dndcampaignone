@@ -4,6 +4,7 @@
 type: wilderness_location
 secrecy: mixed
 status: static
+location_ref: vael/orrun/wilderness/tollwood-wilds
 region: Tollwood
 settlement: Hartfell
 factions: [Cinder Ledger, Gravecallers, Mourners' Circle, Reachward Compact, Ashen Wardens]
@@ -22,7 +23,7 @@ A vast, ancient forest where the Concord's straight roads run through trees that
 
 ## What The Player Notices First
 
-Full sensory description, terrain, and named natural features: [`Locations/Orrun/01_geography/wilderness/TOLLWOOD_WILDS.md`](../../../Locations/Orrun/01_geography/wilderness/TOLLWOOD_WILDS.md).
+Full sensory description, terrain, and named natural features: `vael/orrun/wilderness/tollwood-wilds`.
 
 ## What Is Actually Going On (DM-Only)
 

@@ -16,13 +16,14 @@ This is the **single authoritative map of this repository's structure** — ever
   README.md                ← Public-facing project overview and recommended prompts
   ONBOARDING.md             ← How this repo onboards into the separate DungeonMaster app
   REPO_MAP.md              ← This file — the authoritative structure map
-  dm.campaign.json          ← DungeonMaster app onboarding manifest (machine-read; see ONBOARDING.md)
+  dm.campaign.json          ← DungeonMaster app campaign-onboarding manifest (machine-read; see ONBOARDING.md)
   .gitignore
   .claude/
     agents/                ← Specialist subagent definitions (tracked; see below)
   ai_solo_campaign/         ← THE campaign engine — authoritative, secret-bearing, wired to play. See below.
-  Locations/
-    Orrun/                 ← Spoiler-free world-reference library, derived from the campaign. See below.
+  locations/
+    vael/
+      orrun/                ← Spoiler-free world-reference library, addressed by canonical key. See below.
   one_shots/                ← Standalone non-canon one-shot adventures, deliberately disconnected. See below.
 ```
 
@@ -34,11 +35,19 @@ This repo holds **three separate content trees** with different purposes, differ
 
 | Tree | Purpose | Canon authority | Secrets | Onboarded to DungeonMaster app? |
 |---|---|---|---|---|
-| `ai_solo_campaign/` | Runs "The Long Remembering," the one predetermined solo campaign this repo exists for | **Authoritative** — the source of truth for everything campaign-related | Contains DM-only truths, hidden faction agendas, mystery answers | Yes — `dm.campaign.json`'s `contentRoot` |
-| `Locations/Orrun/` | General-purpose, spoiler-free reference library for the world of Orrun/Vael — geography, settlements, culture, generic bestiary — reusable outside the campaign | Derived/curated from campaign canon; **not** a second source of truth. If it ever disagrees with `ai_solo_campaign` on a plain geography/culture fact, `ai_solo_campaign` wins | None — deliberately contains no hidden-truth material, no faction secrets, no campaign quest hooks | No — outside `contentRoot` |
+| `ai_solo_campaign/` | Runs "The Long Remembering," the one predetermined solo campaign this repo exists for | **Authoritative** — the source of truth for everything campaign-related | Contains DM-only truths, hidden faction agendas, mystery answers | Yes — `dm.campaign.json`'s `contentRoot`, as a campaign unit |
+| `locations/vael/orrun/` | General-purpose, spoiler-free reference library for the world of Orrun/Vael — geography, settlements, culture, generic bestiary — reusable outside the campaign | Derived/curated from campaign canon; **not** a second source of truth. If it ever disagrees with `ai_solo_campaign` on a plain geography/culture fact, `ai_solo_campaign` wins | None — deliberately contains no hidden-truth material, no faction secrets, no campaign quest hooks | Yes — onboarded separately as a **location** unit (`dm.location.json`), then mounted into the campaign's namespace via `dm.campaign.json`'s `locations` entry |
 | `one_shots/` | Standalone, non-canon one-shot adventures set in the world of Orrun but deliberately disconnected from the campaign's canon, factions, mystery web, and NPCs | Not campaign canon at all; invents its own disposable cast, never uses registered campaign names | N/A — nothing here is a secret because nothing here is real to the campaign | No — outside `contentRoot`, not referenced by any campaign index |
 
-**Practical rule of thumb:** if you're running or writing *the campaign*, you're in `ai_solo_campaign/`. If you need a spoiler-free fact about the world for a one-shot, an NPC walk-on, or a different game entirely, go to `Locations/Orrun/`. If you want a fun, disposable session with no continuity obligations, go to `one_shots/`.
+**Practical rule of thumb:** if you're running or writing *the campaign*, you're in `ai_solo_campaign/`. If you need a spoiler-free fact about the world for a one-shot, an NPC walk-on, or a different game entirely, go to `locations/vael/orrun/`. If you want a fun, disposable session with no continuity obligations, go to `one_shots/`.
+
+---
+
+## Canonical Location Keys
+
+Places in `locations/vael/orrun/` are addressed by a **canonical key**, not a file path: `<world>/<continent>/<kind>/<slug>`. World is `vael`, continent is `orrun`, kind is one of `regions`, `wilderness`, `settlements`, `sites`, `culture`, `bestiary`, `timelines`, `travel`. Ashgarden Vale is `vael/orrun/regions/ashgarden-vale`, on disk at `locations/vael/orrun/regions/ashgarden-vale.md`.
+
+`ai_solo_campaign/` files cite these keys directly, in backticks, rather than linking to a relative path (e.g. a settlement file's First Impression section reads "Full sensory description: `` `vael/orrun/settlements/hollowmere` ``." instead of a markdown link). A campaign file that overlays one specific place carries a `location_ref:` front-matter field equal to that place's key; every location file itself carries a matching `location_key:` field. This means the DungeonMaster app can mount `locations/vael/orrun/` as an independent location unit and resolve every campaign cross-reference by key, without caring where either tree physically sits on disk.
 
 ---
 
@@ -68,38 +77,44 @@ ai_solo_campaign/
   16_ai_session_packs/        ← Session start/end prompts, state update checklist, resume templates
   17_generation_backlog/      ← Expansion plan, content gaps
   18_audits/                 ← Formal audit reports
-  maps/                     ← Maps manifest + image assets — AUTHORITATIVE copy (wired into dm.campaign.json's contentRoot)
   skills/                   ← DungeonMaster app skills overlay (mandatory DM-procedure files: canon-and-gaps, combat, procedures)
 ```
+
+Note: `ai_solo_campaign/maps/` no longer exists — the map manifest and image assets moved to `locations/vael/orrun/maps/` (maps are geography, not campaign-runtime material, and the two copies were always byte-identical). `dm.campaign.json`'s `contentRoot` still points at `ai_solo_campaign` for the campaign's own content.
 
 Read order for most work: `CLAUDE.md` → `00_control/PROJECT_RULES.md` → `00_control/CANON_AUTHORITY.md` → `00_control/GENERATION_GUARDRAILS.md` → the relevant specialist standards file (`WORLDBUILDING_STANDARDS.md`, `NPC_STANDARDS.md`, `QUEST_STANDARDS.md`, etc.) → `00_control/RETRIEVAL_GUIDE.md` for what to load for the task at hand.
 
 ---
 
-## `Locations/Orrun/` — World Reference Library
+## `locations/vael/orrun/` — World Reference Library
 
-Full detail lives in [`Locations/Orrun/README.md`](Locations/Orrun/README.md) (relationship to the campaign, maintenance rules) and [`Locations/Orrun/00_overview/GAZETTEER_INDEX.md`](Locations/Orrun/00_overview/GAZETTEER_INDEX.md) (every file, indexed). Summary:
+Full detail lives in [`locations/vael/orrun/README.md`](locations/vael/orrun/README.md) (relationship to the campaign, canonical-key scheme, maintenance rules) and [`locations/vael/orrun/GAZETTEER_INDEX.md`](locations/vael/orrun/GAZETTEER_INDEX.md) (every file, indexed). Summary:
 
 ```text
-Locations/Orrun/
-  README.md                ← What this folder is, how it relates to ai_solo_campaign/, maintenance rules
-  00_overview/               ← World summary, gazetteer index, audits — start here
-  01_geography/              ← Continent overview, travel routes, regions/ (16 files), wilderness/ (7 zones)
-  02_settlements/            ← Cities/towns/villages, grouped by region, public-facing only
-  03_culture/                ← Calendar, cosmology (public), gods and faiths, languages, public world history
-  04_bestiary/               ← Generic wandering monsters and hazards by terrain — no campaign secrets
-  05_timelines/               ← The Unmade: alternate-timeline cosmology, including the Last Telling
-  06_sites/                  ← 34 ruins/adventure sites as physical places (approach, layout, hazards, salvage) — no plot attached
-  maps/                     ← MIRROR of ai_solo_campaign/maps/ — not authoritative, update the campaign copy first
+locations/vael/orrun/
+  README.md                ← What this folder is, the canonical-key scheme, maintenance rules
+  CONTINENT.md               ← Orrun at a glance (no location_key; an overview doc, not a place)
+  GAZETTEER_INDEX.md          ← Full file index by category (no location_key)
+  AUDIT_2026-08-01.md          ← Cohesion + secrecy audit (no location_key)
+  dm.location.json            ← DungeonMaster app location-manifest contract
+  regions/                  ← 16 region files, one per place, each carrying location_key: vael/orrun/regions/<slug>
+  wilderness/                ← 7 wilderness zones: terrain, hazards, fauna, resources
+  settlements/                ← 44 individual settlements/cities, one file per place, plus 5 no-key group indexes
+  sites/                    ← 34 individual ruins/adventure sites, one file per place, plus 4 no-key group indexes + site-index.md
+  culture/                   ← Calendar, cosmology (public), gods and faiths, languages, public world history
+  bestiary/                  ← Generic wandering monsters and hazards by terrain — no campaign secrets
+  timelines/                  ← The Unmade: alternate-timeline cosmology, including the Last Telling
+  travel/                    ← Travel rates, routes, and hazards across the continent
+  maps/                     ← Maps manifest + image assets — AUTHORITATIVE (moved from ai_solo_campaign/maps/)
 ```
 
-Every content file here is `secrecy: player-safe`. If you're writing new Orrun content, it must stay spoiler-free with respect to the campaign's central mystery — no hidden-truth material, no faction agendas, no campaign quest hooks, no current officeholders named (describe the office, not who holds it, so the library doesn't go stale as campaign play changes hands).
+Every content file here is `secrecy: player-safe`. If you're writing new content for this library, it must stay spoiler-free with respect to the campaign's central mystery — no hidden-truth material, no faction agendas, no campaign quest hooks, no current officeholders named (describe the office, not who holds it, so the library doesn't go stale as campaign play changes hands) — and it must carry a `location_key:` field if it represents an addressable place.
 
 ---
 
 ## `one_shots/` — Standalone Non-Canon Adventures
 
-Full detail lives in [`one_shots/README.md`](one_shots/README.md). Each one-shot is its own subfolder (currently `widdershin_cave/`, `the_ell_at_marchwell/`) with its own self-contained files (premise, characters, room tables, DM screen, map spec, rewards). Deliberately outside `dm.campaign.json`'s `contentRoot` and outside every campaign index — nothing here is pulled into a live campaign session or checked against `NAMING_REGISTRY.md`.
+Full detail lives in [`one_shots/README.md`](one_shots/README.md). Each one-shot is its own subfolder (currently `widdershin_cave/`, `the_ell_at_marchwell/`) with its own self-contained files (premise, characters, room tables, DM screen, map spec, rewards). Deliberately outside `dm.campaign.json`'s `contentRoot` and outside every campaign index — nothing here is pulled into a live campaign session or checked against `NAMING_REGISTRY.md`. Not addressed by canonical key; out of scope for the location-key scheme.
 
 ---
 
@@ -111,7 +126,7 @@ Full detail lives in [`one_shots/README.md`](one_shots/README.md). Each one-shot
 | [`README.md`](README.md) | Public-facing overview: what this is, current status, development stages, key control files, recommended prompts |
 | [`ONBOARDING.md`](ONBOARDING.md) | How this repo onboards into the separate DungeonMaster app (cloud AI DM server + phone app) |
 | [`REPO_MAP.md`](REPO_MAP.md) | This file |
-| [`dm.campaign.json`](dm.campaign.json) | Machine-read DungeonMaster onboarding manifest: `contentRoot`, player-safe path globs |
+| [`dm.campaign.json`](dm.campaign.json) | Machine-read DungeonMaster campaign-onboarding manifest: `contentRoot`, `locations` (mounts `locations/vael/orrun`), player-safe path globs |
 
 ## `.claude/agents/`
 
@@ -131,10 +146,11 @@ Eleven specialist subagent definitions, tracked in version control (everything e
 | See the campaign's current production status / stage | `ai_solo_campaign/00_control/STAGE_STATUS.md`, `PROGRESS_LOG.md`, `TODO.md` |
 | Check a proper noun for naming collisions before creating content | `ai_solo_campaign/00_control/NAMING_REGISTRY.md` |
 | Resolve a contradiction between files | `ai_solo_campaign/00_control/CANON_AUTHORITY.md` |
-| Get a spoiler-free fact about Orrun's geography/culture for reuse elsewhere | `Locations/Orrun/00_overview/GAZETTEER_INDEX.md` |
+| Get a spoiler-free fact about Orrun's geography/culture for reuse elsewhere | `locations/vael/orrun/GAZETTEER_INDEX.md` |
+| Resolve a canonical location key to a file | `locations/vael/orrun/<kind>/<slug>.md`, or start at `GAZETTEER_INDEX.md` |
 | Run a quick, disposable session with no continuity obligations | `one_shots/README.md` |
-| Understand how this repo plugs into the DungeonMaster app | `ONBOARDING.md` + `dm.campaign.json` |
-| Find the map assets and manifest | `ai_solo_campaign/maps/` (authoritative) — `Locations/Orrun/maps/` is a read-only mirror |
+| Understand how this repo plugs into the DungeonMaster app | `ONBOARDING.md` + `dm.campaign.json` + `locations/vael/orrun/dm.location.json` |
+| Find the map assets and manifest | `locations/vael/orrun/maps/` (authoritative; each entry's `region` field is a canonical key) |
 | Find a specialist subagent for a production pass | `.claude/agents/` (table also in `CLAUDE.md`) |
 
 ---
@@ -145,6 +161,6 @@ Eleven specialist subagent definitions, tracked in version control (everything e
 - [`README.md`](README.md) — public overview and recommended prompts
 - [`ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md`](ai_solo_campaign/00_control/RETRIEVAL_GUIDE.md) — situational load guide for campaign play
 - [`ai_solo_campaign/00_control/CONTENT_INDEX.md`](ai_solo_campaign/00_control/CONTENT_INDEX.md) — full campaign file inventory
-- [`Locations/Orrun/README.md`](Locations/Orrun/README.md) — Orrun library's own scope and rules
-- [`Locations/Orrun/00_overview/GAZETTEER_INDEX.md`](Locations/Orrun/00_overview/GAZETTEER_INDEX.md) — full Orrun file inventory
+- [`locations/vael/orrun/README.md`](locations/vael/orrun/README.md) — location library's own scope, key scheme, and rules
+- [`locations/vael/orrun/GAZETTEER_INDEX.md`](locations/vael/orrun/GAZETTEER_INDEX.md) — full location-library file inventory
 - [`one_shots/README.md`](one_shots/README.md) — one-shot catalog and rules

@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/hollow-gulf-ports
 region: Hollow Gulf Ports
 settlement: Calderport
 factions: [Cinder Ledger, Mourners' Circle]
@@ -30,7 +31,7 @@ The Gulf's normalcy is the point: the harvest's failure gradient barely reaches 
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/HOLLOW_GULF_PORTS.md`](../../Locations/Orrun/01_geography/regions/HOLLOW_GULF_PORTS.md). Coordinate geometry and mechanical cartography: map packet.
+Full physical geography, climate, and culture: `vael/orrun/regions/hollow-gulf-ports`. Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +48,7 @@ The open Gulf and Reach Lanes (privateers, storms); the Wreck-Reef (offshore sal
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/HOLLOW_GULF_PORTS.md`](../../Locations/Orrun/01_geography/regions/HOLLOW_GULF_PORTS.md) (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
+Full travel-time detail: `vael/orrun/regions/hollow-gulf-ports` (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

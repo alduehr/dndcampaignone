@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/wender-steppe
 region: Wender Steppe
 settlement: The Winter-Camp at Cold Springs
 factions: [Mourners' Circle]
@@ -30,7 +31,7 @@ The steppe is the campaign's **outside view**: a whole people with working death
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/WENDER_STEPPE.md`](../../Locations/Orrun/01_geography/regions/WENDER_STEPPE.md). Coordinate geometry and mechanical cartography: map packet.
+Full physical geography, climate, and culture: `vael/orrun/regions/wender-steppe`. Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -46,7 +47,7 @@ Everything. The long grass without a clan-guide is the region's chief hazard; th
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/WENDER_STEPPE.md`](../../Locations/Orrun/01_geography/regions/WENDER_STEPPE.md) (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
+Full travel-time detail: `vael/orrun/regions/wender-steppe` (Travel Routes section). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

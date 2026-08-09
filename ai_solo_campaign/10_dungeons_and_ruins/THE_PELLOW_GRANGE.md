@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/pellow-grange
 region: Ashgarden Vale
 settlement: Tilbrook
 factions: [Cinder Ledger, Mourners' Circle]
@@ -22,11 +23,11 @@ A foreclosed farmstead where the Cinder Ledger digs the dead out of a field-shri
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Pellow Grange**. **Truly (DM):** Factor Wymar Pell foreclosed it *because* it sits over an old Concord field-shrine, and the Ledger is quietly quarrying its Remembrance relics (M3) to ship south — a direct, commercial demonstration of the relic-greed driving the Monopoly clock. The disturbed shrine has begun to leak; the grange is mildly haunted, which the crew hides because panic would draw attention.
+Public appearance and history: `vael/orrun/sites/pellow-grange`. **Truly (DM):** Factor Wymar Pell foreclosed it *because* it sits over an old Concord field-shrine, and the Ledger is quietly quarrying its Remembrance relics (M3) to ship south — a direct, commercial demonstration of the relic-greed driving the Monopoly clock. The disturbed shrine has begun to leak; the grange is mildly haunted, which the crew hides because panic would draw attention.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Pellow Grange**. Campaign-specific: Tilbrook folk know "Pell's men work the Pellow place after dark, and nobody's let near."
+Full approach and entrance description: `vael/orrun/sites/pellow-grange`. Campaign-specific: Tilbrook folk know "Pell's men work the Pellow place after dark, and nobody's let near."
 
 ## Solo Danger Rating
 

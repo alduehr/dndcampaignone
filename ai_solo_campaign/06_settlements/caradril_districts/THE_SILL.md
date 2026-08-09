@@ -4,6 +4,7 @@
 type: settlement
 secrecy: mixed
 status: static
+location_ref: vael/orrun/settlements/caradril
 region: Orrun
 settlement: Caradril
 factions: [The Hush, Salt Syndicate, Mourners' Circle, Gravecallers]
@@ -22,7 +23,7 @@ The crowded, half-flooded south-bank undercity where Caradril keeps its poor, it
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Sill**. Campaign-specific: the refugees huddling in doorways are specifically fleeing the Reach's failing rites (see DM-Only Truth below).
+Full sensory description: `vael/orrun/settlements/caradril`. Campaign-specific: the refugees huddling in doorways are specifically fleeing the Reach's failing rites (see DM-Only Truth below).
 
 ## Public Overview
 
@@ -60,7 +61,7 @@ Cheap lodging and food (the Brass Ferry), ferries and quiet passage, smuggled go
 
 ## Laws and Customs
 
-Full customs and law baseline: [`Locations/Orrun/02_settlements/CARADRIL.md`](../../../Locations/Orrun/02_settlements/CARADRIL.md) → **The Sill**.
+Full customs and law baseline: `vael/orrun/settlements/caradril`.
 
 ## Current Tensions
 

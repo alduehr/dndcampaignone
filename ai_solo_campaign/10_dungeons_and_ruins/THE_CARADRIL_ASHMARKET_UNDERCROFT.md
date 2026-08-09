@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/ashmarket-undercroft
 region: Orrun
 settlement: Caradril
 factions: [Salt Syndicate, Cinder Ledger, The Hush, Concord Remnant]
@@ -34,7 +35,7 @@ The city's *commercial* relic-engine, made enterable. It (1) proves REV_002 in t
 
 ## History (Player-Safe)
 
-Public appearance and history: [`Locations/Orrun/06_sites/CARADRIL_SITES.md`](../../Locations/Orrun/06_sites/CARADRIL_SITES.md) → **The Ashmarket Undercroft**.
+Public appearance and history: `vael/orrun/sites/ashmarket-undercroft`.
 
 ## History (DM-Only)
 
@@ -42,11 +43,11 @@ The undercroft is where the **quiet-coin trade** is stored, *refined*, and fence
 
 ## First Impression
 
-Full sensory description: [`Locations/Orrun/06_sites/CARADRIL_SITES.md`](../../Locations/Orrun/06_sites/CARADRIL_SITES.md) → **The Ashmarket Undercroft**.
+Full sensory description: `vael/orrun/sites/ashmarket-undercroft`.
 
 ## Access / Entrance Routes
 
-Full approach and entrance description (the four routes in): [`Locations/Orrun/06_sites/CARADRIL_SITES.md`](../../Locations/Orrun/06_sites/CARADRIL_SITES.md) → **The Ashmarket Undercroft**. Campaign-specific: the Hush's price is set by the Bellman; the deep-cellar link connects to the Sunken Wards Deep (D16).
+Full approach and entrance description (the four routes in): `vael/orrun/sites/ashmarket-undercroft`. Campaign-specific: the Hush's price is set by the Bellman; the deep-cellar link connects to the Sunken Wards Deep (D16).
 
 ## Current Occupants and Factions
 

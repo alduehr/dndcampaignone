@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/marrowdowns
 region: Marrowdowns
 settlement: Marrowmoot
 factions: [Mourners' Circle, Cinder Ledger, Concord Remnant]
@@ -30,7 +31,7 @@ The barrows are **pre-Concord** — an older-fall echo (M6-fringe by contrast, n
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/MARROWDOWNS.md`](../../Locations/Orrun/01_geography/regions/MARROWDOWNS.md). Coordinate geometry and mechanical cartography: map packet.
+Full physical geography, climate, and culture: `vael/orrun/regions/marrowdowns`. Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +48,7 @@ The Barrow-Fields (sacred old ground, now stirring — the region's one true dan
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/MARROWDOWNS.md`](../../Locations/Orrun/01_geography/regions/MARROWDOWNS.md) (Travel Routes section). Campaign-specific: the Road South's wool-drive traffic is Q_MD_005. Mechanical/DM route authority: map packet §Routes.
+Full travel-time detail: `vael/orrun/regions/marrowdowns` (Travel Routes section). Campaign-specific: the Road South's wool-drive traffic is Q_MD_005. Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

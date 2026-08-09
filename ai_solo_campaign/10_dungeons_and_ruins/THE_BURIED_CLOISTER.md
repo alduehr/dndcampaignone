@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/buried-cloister
 region: Ashgarden Vale
 settlement: Orchardmere
 factions: [Concord Remnant, Cinder Ledger, Mourners' Circle]
@@ -22,11 +23,11 @@ A Concord wayside cloister swallowed by an orchard hillside, where scholar-pilgr
 
 ## History
 
-Public appearance and history: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Buried Cloister**. **Truly (DM):** a Concord wayside house attached to the regional shrine-network — a place that "settled travelers' dead" and kept Script-records. It collapsed in the Quietfall and the orchard grew over it. Its records and minor relics survive; so do the bound Remembrances of the brothers who died keeping it.
+Public appearance and history: `vael/orrun/sites/buried-cloister`. **Truly (DM):** a Concord wayside house attached to the regional shrine-network — a place that "settled travelers' dead" and kept Script-records. It collapsed in the Quietfall and the orchard grew over it. Its records and minor relics survive; so do the bound Remembrances of the brothers who died keeping it.
 
 ## Entrance
 
-Full approach and entrance description: [`Locations/Orrun/06_sites/RING1_SITES.md`](../../Locations/Orrun/06_sites/RING1_SITES.md) → **The Buried Cloister**. Campaign-specific: the Remnant's survey-camp is Oneth Vael's two scholars.
+Full approach and entrance description: `vael/orrun/sites/buried-cloister`. Campaign-specific: the Remnant's survey-camp is Oneth Vael's two scholars.
 
 ## Solo Danger Rating
 

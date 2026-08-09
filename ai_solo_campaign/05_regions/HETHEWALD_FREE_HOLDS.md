@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/hethewald-free-holds
 region: Hethewald Free Holds
 settlement: Hethemoot
 factions: [Mourners' Circle, Cinder Ledger, Concord Remnant]
@@ -30,7 +31,7 @@ The "failing bargains" (Q_HFH_002) are the crisis read through a pagan frame —
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/HETHEWALD_FREE_HOLDS.md`](../../Locations/Orrun/01_geography/regions/HETHEWALD_FREE_HOLDS.md). Coordinate geometry and mechanical cartography: map packet.
+Full physical geography, climate, and culture: `vael/orrun/regions/hethewald-free-holds`. Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +48,7 @@ The Hethewood heart (guided travel only); the Old Holds (forbidden; D25); the fo
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/HETHEWALD_FREE_HOLDS.md`](../../Locations/Orrun/01_geography/regions/HETHEWALD_FREE_HOLDS.md) (Travel Routes section). Campaign-specific: the River-Road down the Hethe is choked by Maddoc's toll — toll, fight, or a deep-wood bypass ford (Survival DC 16). Mechanical/DM route authority: map packet §Routes.
+Full travel-time detail: `vael/orrun/regions/hethewald-free-holds` (Travel Routes section). Campaign-specific: the River-Road down the Hethe is choked by Maddoc's toll — toll, fight, or a deep-wood bypass ford (Survival DC 16). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

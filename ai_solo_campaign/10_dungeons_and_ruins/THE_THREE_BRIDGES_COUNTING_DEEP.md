@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/three-bridges-counting-deep
 region: The Glassmere League
 settlement: Glassmere
 factions: [Cinder Ledger, Concord Remnant, Mourners' Circle]
@@ -34,7 +35,7 @@ A mid-tier far-corroboration site that (1) proves the Ledger commodifies the dea
 
 ## Access / Entrance Routes
 
-Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Three Bridges Counting-Deep**. Campaign-specific access routes:
+Full physical approach and entrance description: `vael/orrun/sites/three-bridges-counting-deep`. Campaign-specific access routes:
 
 1. **As a depositor/client (the cover way):** open an account / pose as a relic-seller to gain the counting-floor.
 2. **By a turned clerk (the inside way):** turn an underfactor (the clean path — mirrors Coll Riis in Caradril).

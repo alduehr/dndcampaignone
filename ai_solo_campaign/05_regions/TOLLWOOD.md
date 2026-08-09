@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/tollwood
 region: Tollwood
 settlement: Hartfell
 factions: [Cinder Ledger, Reachward Compact, Gravecallers, Ashen Wardens, Mourners' Circle, Concord Remnant]
@@ -32,7 +33,7 @@ The Tollwood holds the campaign's clearest **non-Concord** mystery-thread, and i
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/TOLLWOOD.md`](../../Locations/Orrun/01_geography/regions/TOLLWOOD.md). Campaign starts in mid-autumn — leaf-fall, charcoal-season, the wood at its most disorienting.
+Full physical geography, climate, and culture: `vael/orrun/regions/tollwood`. Campaign starts in mid-autumn — leaf-fall, charcoal-season, the wood at its most disorienting.
 
 ## Major Settlements
 
@@ -50,7 +51,7 @@ One zone file holds the Tollwood's named sites (`wilderness/TOLLWOOD_SITES.md`):
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/TOLLWOOD.md`](../../Locations/Orrun/01_geography/regions/TOLLWOOD.md) (Travel Routes section). See also `../04_world_atlas/TRAVEL_ROUTES_RING1.md`. Campaign-specific: bandit-tolls at Tollstone Cross are the road's main non-environmental hazard (see Factions Present, Regional Conflicts).
+Full travel-time detail: `vael/orrun/regions/tollwood` (Travel Routes section). See also `../04_world_atlas/TRAVEL_ROUTES_RING1.md`. Campaign-specific: bandit-tolls at Tollstone Cross are the road's main non-environmental hazard (see Factions Present, Regional Conflicts).
 
 ## Factions Present
 

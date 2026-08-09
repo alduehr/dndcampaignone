@@ -4,6 +4,7 @@
 type: dungeon
 secrecy: mixed
 status: static
+location_ref: vael/orrun/sites/old-holds
 region: The Hethewald Free Holds
 settlement: Hethemoot
 factions: [Concord Remnant, Gravecallers, Mourners' Circle, Cinder Ledger]
@@ -34,7 +35,7 @@ A high-tier far-corroboration site that (1) proves the Concord and its harvest r
 
 ## Access / Entrance Routes
 
-Full physical approach and entrance description: [`Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md`](../../Locations/Orrun/06_sites/FAR_CONTINENT_SITES.md) → **The Old Holds**. Campaign-specific access routes:
+Full physical approach and entrance description: `vael/orrun/sites/old-holds`. Campaign-specific access routes:
 
 1. **Against the holds' law (the forbidden way):** enter without leave — fast, but the wood and the holds both turn against you.
 2. **With Bram Hethe's leave (the lawful way):** earn the Speaker's grudging blessing to investigate why the bargains are failing — slower, far safer.

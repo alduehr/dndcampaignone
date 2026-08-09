@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/verdance-reaches
 region: Verdance Reaches
 settlement: Marrowfen Stair
 factions: [Cinder Ledger, Concord Remnant, Mourners' Circle]
@@ -30,7 +31,7 @@ The corridor's drowned Concord lock-works are **waking minor nodes** — the cri
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/VERDANCE_REACHES.md`](../../Locations/Orrun/01_geography/regions/VERDANCE_REACHES.md). Coordinate geometry and mechanical cartography: map packet §Terrain/Water.
+Full physical geography, climate, and culture: `vael/orrun/regions/verdance-reaches`. Coordinate geometry and mechanical cartography: map packet §Terrain/Water.
 
 ## Major Settlements
 
@@ -47,7 +48,7 @@ The drowned reaches (flooded Concord works; "wrong" still water); the Marrowfen 
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/VERDANCE_REACHES.md`](../../Locations/Orrun/01_geography/regions/VERDANCE_REACHES.md) (Travel Routes section). Campaign-specific: barge passage depends on the locks behaving and the lord being paid (Lord Marrow's toll — see Regional Conflicts). Mechanical/DM route authority: map packet §Routes.
+Full travel-time detail: `vael/orrun/regions/verdance-reaches` (Travel Routes section). Campaign-specific: barge passage depends on the locks behaving and the lord being paid (Lord Marrow's toll — see Regional Conflicts). Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

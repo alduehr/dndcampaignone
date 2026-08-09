@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/ashgarden-vale
 region: Ashgarden Vale
 settlement: Orchardmere
 factions: [Mourners' Circle, Ashen Wardens, Cinder Ledger, Reachward Compact, Concord Remnant, Gravecallers]
@@ -34,7 +35,7 @@ The deeper secret: **Saint Veddow's Rest is a major Concord shrine the harvest n
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/ASHGARDEN_VALE.md`](../../Locations/Orrun/01_geography/regions/ASHGARDEN_VALE.md). Campaign starts in mid-autumn (Greyfall), so the player arrives partway through the death-rite season, just after the tail of harvest, with cider-pressing and the dead-time (the Vale's funeral season) just beginning.
+Full physical geography, climate, and culture: `vael/orrun/regions/ashgarden-vale`. Campaign starts in mid-autumn (Greyfall), so the player arrives partway through the death-rite season, just after the tail of harvest, with cider-pressing and the dead-time (the Vale's funeral season) just beginning.
 
 ## Major Settlements
 
@@ -52,7 +53,7 @@ One zone file holds the Vale's named sites (`wilderness/ASHGARDEN_VALE_SITES.md`
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/ASHGARDEN_VALE.md`](../../Locations/Orrun/01_geography/regions/ASHGARDEN_VALE.md) (Travel Routes section). See also `../04_world_atlas/TRAVEL_ROUTES_RING1.md`.
+Full travel-time detail: `vael/orrun/regions/ashgarden-vale` (Travel Routes section). See also `../04_world_atlas/TRAVEL_ROUTES_RING1.md`.
 
 ## Factions Present
 

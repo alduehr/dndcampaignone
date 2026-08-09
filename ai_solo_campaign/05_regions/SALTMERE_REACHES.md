@@ -4,6 +4,7 @@
 type: region
 secrecy: mixed
 status: static
+location_ref: vael/orrun/regions/saltmere-reaches
 region: Saltmere Reaches
 settlement: Brackhold
 factions: [Mourners' Circle, Cinder Ledger]
@@ -30,7 +31,7 @@ The Drowned Towns are **pre-Concord ruins** — the campaign's strongest "older,
 
 ## Geography
 
-Full physical geography, climate, and culture: [`Locations/Orrun/01_geography/regions/SALTMERE_REACHES.md`](../../Locations/Orrun/01_geography/regions/SALTMERE_REACHES.md). Coordinate geometry and mechanical cartography: map packet.
+Full physical geography, climate, and culture: `vael/orrun/regions/saltmere-reaches`. Coordinate geometry and mechanical cartography: map packet.
 
 ## Major Settlements
 
@@ -47,7 +48,7 @@ The Bonepan Flats (glare, mirage, thirst — the region's environmental killer);
 
 ## Travel Routes
 
-Full travel-time detail: [`Locations/Orrun/01_geography/regions/SALTMERE_REACHES.md`](../../Locations/Orrun/01_geography/regions/SALTMERE_REACHES.md) (Travel Routes section). Campaign-specific: the Bonepan Track requires dry-season water discipline; clan-barge lanes require a pilot. Mechanical/DM route authority: map packet §Routes.
+Full travel-time detail: `vael/orrun/regions/saltmere-reaches` (Travel Routes section). Campaign-specific: the Bonepan Track requires dry-season water discipline; clan-barge lanes require a pilot. Mechanical/DM route authority: map packet §Routes.
 
 ## Factions Present
 

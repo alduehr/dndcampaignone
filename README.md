@@ -44,7 +44,7 @@ ai_solo_campaign/                ← The campaign engine — authoritative, secr
   18_audits/                     ← Audit reports
   maps/                          ← DungeonMaster app maps manifest (player/DM map asset pointers)
   skills/                        ← DungeonMaster app skills overlay (mandatory DM-procedure files)
-Locations/Orrun/                 ← Spoiler-free world-reference library, derived from campaign canon, reusable elsewhere
+locations/vael/orrun/            ← Spoiler-free world-reference library, addressed by canonical key, reusable elsewhere
 one_shots/                       ← Standalone non-canon one-shot adventures, deliberately disconnected from the campaign
 ```
 
