@@ -73,15 +73,23 @@ Veyr's domain is a real place, called **the Echo**, and its one law is the
 law the party has been living inside since the front door shut: *identical
 things are the same thing.*
 
-A long time ago, a mortal order called **the Measure** found a way to lean on
-that law. They believed that a place — or a life — measured with total,
-obsessive precision would *echo* in Veyr's domain forever, outlasting
-ordinary memory, outlasting even the Last Door. Not resurrection. Not a
-church. A private, rival kind of permanence, built by surveyor-priests who
-thought a good enough field-book was a kind of immortality. What they built
-to do the measuring, they called an **Ell**: a site folded partway into the
-Echo, so that anything inside it which is truly identical to something else
-inside it stops being two things and becomes one thing with two doors.
+A long time ago, a mortal order called **the Measure** found their way into
+that domain. They were surveyors, not mystics — no grand theory, no bargain
+with Veyr, nothing so tidy. They found a god's realm and did the only thing
+surveyors know how to do with a place: **they tried to measure it.** What
+they built to do the measuring, they called an **Ell**: a site folded partway
+into the Echo, so that anything inside it which is truly identical to
+something else inside it stops being two things and becomes one thing with
+two doors.
+
+**It went wrong the way professional habit goes wrong, not the way ambition
+does.** A field has an edge. A hill has a top. A home doesn't have either —
+it's a thing that happens inside a volume, not the volume itself — and the
+Measure's instrument had no unit for that, no stopping condition, nothing
+telling it *done*. So it kept measuring, closer and closer, deeper and
+deeper, the same way a man who can't stop counting keeps counting. That's
+the whole horror, and it isn't a philosophy. It's a very old, very thorough
+mistake that nobody ever noticed they should stop making.
 
 **Marchwell House is standing on one.** It has been running for longer than
 anyone currently alive, on a subject nobody currently alive chose.

@@ -192,9 +192,10 @@ to dispel · digging = more plaster, then notation
 
 ## IF THEY ASK
 
-**Who built it?** **The Measure** — an extinct mortal order of surveyor-
-priests. Not the Ell's own instinct; a specific vanished group with a
-specific (strange) goal. See `PREMISE.md`'s "The truth (DM-only)."
+**Who built it?** **The Measure** — an extinct order of surveyors. No
+theology, no bargain, no theory of immortality: they found a god's domain
+and did what surveyors do, and it got away from them. See `PREMISE.md`'s
+"The truth (DM-only)."
 **Do we meet them? Fight them?** No — they died out long before now. Nothing
 in the adventure is their agent or ghost.
 **Why's it still running?** Only the Measure could formally close a
