@@ -24,7 +24,10 @@ first hour and is good at it.
 **Who she is.** Fifties, widowed, forearms like a woman who has pressed cider
 for thirty years. Owns forty acres and has held them through worse than this.
 Not warm, not cruel — *competent*, and out of her depth for the first time in
-her adult life.
+her adult life. **Genuinely for the first time:** the pantry has only been
+wrong since last midsummer. There's no family lore to fall back on, no
+grandmother's warning about that room. Everything she's doing about it, she
+worked out herself, this past year, alone.
 
 **Appearance.** Apron, flour, grey coming in at the temple. Hands never still —
 she works while she talks, and that's how she avoids looking at people.

@@ -351,7 +351,13 @@ to relax. Everything in "The search," below, is built on that two hours.
 - **Oda Marchwell** (50s, widow, runs the orchard). Lies well and lies
   immediately: no, they've had no one. Her tell is that she's *too* relaxed
   about a party of six armed strangers at her gate. Insight DC 13 catches it.
-  She is hiding two things and the party will assume it's one.
+  She is hiding two things and the party will assume it's one. **She has no
+  family lore to fall back on and no idea what she's actually managing** —
+  the pantry has only been wrong since last midsummer, so everything she's
+  doing about it (the chalk jar, never sending Tobin for stores, never
+  saying the word "pantry" more than she has to) is something she worked
+  out herself, this past year, alone. Play her as improvising, not as a
+  keeper of old family knowledge.
 - **Cass** (her brother, 60s). Sleeps in the kitchen chair. Drinks. Quiet,
   courteous, agreeable — agrees with whatever the last person said. **Hasn't
   gone upstairs in a month.**
@@ -2126,7 +2132,8 @@ noted rather than inventing false certainty.*
 | Why can't Hesper leave? | The tally. The door gives back exactly the count it took. She came in through a different house, by a door that no longer exists, and has never been on this one's list. |
 | Did anyone ever get out? | Yes — anyone on the list who walked back to their own door. Most people never find it again. The coats in the closet belonged to the ones who didn't. |
 | Why is the light like that? | The instrument recorded illumination as a property of a space rather than something with a source, so the drafts are lit and there is nothing lighting them. |
-| What happens to the Ell after we leave? | **Swap ending:** it keeps running, and in a few years a farmhouse in the next valley grows a wing. **Close-the-file ending:** the survey completes and the instrument stops, for good, everywhere. |
+| Has this happened to Marchwell before — is this an old haunting? | **No, and that's deliberate.** The instrument itself is ancient, but it doesn't sit on one subject forever — once it's drawn what it can from a place, it drifts and settles somewhere new. It only arrived at Marchwell within the last year; Tobin's midsummer disappearance was its first taste of this house, not its hundredth. That's why nobody here has any inherited caution about it — Oda is improvising, not remembering. |
+| What happens to the Ell after we leave? | **Swap ending:** it keeps running, and — the same way it arrived at Marchwell only recently — in a few years it drifts on and a farmhouse in the next valley grows a wing. **Close-the-file ending:** the survey completes and the instrument stops, for good, everywhere. |
 | What was the thing that killed Hesper? | A Roper — an ordinary predator, not a device or a plan, and nothing to do with the Measure or Veyr either. It doesn't know who Hesper is. It's simply the kind of thing that lives in old, undisturbed measured space, and it had been sitting there, unnoticed, since before the party arrived. Its presence isn't a message. |
 
 ---

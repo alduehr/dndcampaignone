@@ -91,8 +91,19 @@ deeper, the same way a man who can't stop counting keeps counting. That's
 the whole horror, and it isn't a philosophy. It's a very old, very thorough
 mistake that nobody ever noticed they should stop making.
 
-**Marchwell House is standing on one.** It has been running for longer than
-anyone currently alive, on a subject nobody currently alive chose.
+**Marchwell House is standing on one — but not for long, and that's the
+point.** The instrument itself is ancient, far older than anyone alive. But
+it doesn't sit on one subject forever: once it has drawn what it can from a
+place, it drifts, and settles somewhere new to start again — which is
+exactly what's implied if the party leaves it running unclosed (see "The
+swap" ending: "it keeps running, and in a few years a farmhouse in the next
+valley grows a wing"). **It only settled on Marchwell within the last year —
+Tobin's midsummer disappearance was its first taste of this house, not its
+hundredth.** That's why nothing here carries any of the folklore, protective
+custom, or generational wariness a household would build up around
+something that had haunted it for decades. Oda didn't inherit caution about
+the pantry from her mother. She's improvising it, badly, in real time,
+because she isn't the tenth generation to deal with this. She's the first.
 
 **The Measure is extinct, and that is the actual horror, not a monster.**
 Building an Ell was easy compared to closing one — only the order itself
