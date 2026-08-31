@@ -52,6 +52,16 @@ This cosmology sits *on top of* normal D&D 5e/2024 cosmology. Spells like *Speak
 
 ---
 
+## The Echo (Veyr's Domain) — a Separate, Minor Cosmology
+
+This is a small, self-contained cosmological system, unrelated to the Last Door / Quiet Country / Remembrance engine above and unrelated to **the Unmade** (the Tellings cosmology in `locations/vael/orrun/timelines/`). Do not let a player treat evidence from one as evidence about another.
+
+- **The Echo** is the domain of the minor god **Veyr** (see `GODS_AND_FAITHS.md`). It is not an afterlife and holds no souls. Its native law is that **identical things are the same thing** — a place, object, or act measured or repeated with perfect exactness stops being fully distinct from every other perfectly exact copy of itself, and can be reached from any of them.
+- **Name collision, not a connection:** some Orrun cultures also call the Last Telling "**the Echo Realm**" (a regional folk-name, `locations/vael/orrun/timelines/the-last-telling`). That is a different place under a similar-sounding name — a coincidence of language, not a hidden link. Never imply the two are the same plane.
+- **The Measure** was a mortal order, now vanished, that discovered the Echo's law and built instruments — informally called **Ells** — that lean on it to measure and reconstruct a single place with obsessive, escalating precision, in pursuit of a kind of permanence-through-perfect-record. Full DM-only detail is in `DM_ONLY_CANON.md` and in `one_shots/the_ell_at_marchwell/`, since the only currently-built example is that one-shot's title location. Nothing about the Echo, Veyr, or the Measure touches the Concord, the Quietfall, or the Hollow Court; treat any resemblance (a harvest of records rather than souls, an order that outlived its own purpose) as thematic rhyme, not shared history.
+
+---
+
 ## Related Files
 
 - [`CANON.md`](CANON.md)

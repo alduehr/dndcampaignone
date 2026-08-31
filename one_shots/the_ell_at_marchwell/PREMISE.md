@@ -1,15 +1,18 @@
 # THE ELL AT MARCHWELL — Premise & Design Notes
 
-### *The pantry door is on an outside wall. It opens onto a corridor.*
+### *The pantry has one door. It doesn't lead outside — there's nowhere out there for it to lead.*
 
 **Six characters, level 5 → 6. Four sessions. Non-canon — see
 [`../README.md`](../README.md).**
 
 > **This file is the *why*. [`THE_ELL_AT_MARCHWELL.md`](THE_ELL_AT_MARCHWELL.md)
 > is the *what*, and it is the one you run from.** Where they disagree, the
-> adventure file wins. Rev. 5 — reconciled with the adventure after the
-> session-1 rewrite, draft-Cass, the chalk trigger, the tally, and the rest
-> rule.
+> adventure file wins. Rev. 6 — the 20-item revision pass: Veyr/the Echo/the
+> Measure replace the old "nameless surveyor" truth; Session 1's opening,
+> pantry, chalk, and Four Casses scenes are reworked; the oblex, the
+> follower, Depth 3, the rule-rooms, the real-Cass reveal, the Ashgarden Vale
+> substrate recognition, the finale's Roper trigger, and the ending/epilogue
+> are all revised. See `TODO.md` for the full list and status.
 
 ---
 
@@ -51,29 +54,75 @@ into any farm country in any setting.
 
 ## The truth (DM-only)
 
-**Nobody built the Ell. Nothing in it was designed.**
+*Rev. 6 note: this section replaces the earlier "nobody built it, a nameless
+surveyor came through and left" answer. That answer is retired — see below
+for what it becomes in play. The concrete replacement is now shared campaign
+canon, not local to this file: `03_canon/GODS_AND_FAITHS.md` ("Veyr, God of
+Echoes and Memory"), `03_canon/COSMOLOGY.md` ("The Echo (Veyr's Domain)"),
+and `03_canon/DM_ONLY_CANON.md` ("The Measure, Veyr, and the Echo"). This
+file gives the version scaled for running this one adventure; the canon
+files are the source of truth if they ever diverge.*
 
-Something came through this world before there were people in it and **took
-its measure** — the way a chain-crew measures a field: exhaustively, and with
-no interest whatsoever in what the field is *for*. It was a **surveyor, not an
-architect.** It recorded everything and left. It is not coming back, it is not
-in the adventure, and there is nothing to fight. Hesper calls it *the
-chain-crew*, flatly and a little contemptuously.
+**Somebody built the Ell. They are gone, and nobody is left to switch it off.**
 
-**The Ell is the notebook, and it is also the instrument.** There is no
-machine — the measured space itself is the equipment, left running because the
-survey was never closed. A theodolite standing on a hill for ten thousand
-years, still taking readings.
+There is a minor god named **Veyr** — Echoes, memory, repetition, the fear of
+being forgotten. Not one of the Three Thresholds, not part of any real
+church, barely worshipped at all: a handful of surveyors, archivists, and
+frightened mourners here and there who have never met another believer.
+Veyr's domain is a real place, called **the Echo**, and its one law is the
+law the party has been living inside since the front door shut: *identical
+things are the same thing.*
 
-It works by making **drafts**: approximations built out of measured space, so
-it can check its numbers. It has drafted the vale, the orchards, the weather,
-and the Marchwells' house. Its drafts fail in one consistent direction: **it
-observed interiors exhaustively and was never once inside one.**
+A long time ago, a mortal order called **the Measure** found a way to lean on
+that law. They believed that a place — or a life — measured with total,
+obsessive precision would *echo* in Veyr's domain forever, outlasting
+ordinary memory, outlasting even the Last Door. Not resurrection. Not a
+church. A private, rival kind of permanence, built by surveyor-priests who
+thought a good enough field-book was a kind of immortality. What they built
+to do the measuring, they called an **Ell**: a site folded partway into the
+Echo, so that anything inside it which is truly identical to something else
+inside it stops being two things and becomes one thing with two doors.
 
-**And the survey has been stalled a century**, because it can't close the file
-on a *house* — a house isn't a volume, it's a thing that happens inside one,
-and there is no unit for that. Its question is cut into the substrate in every
-language it has ever copied: **HOW BIG IS A HOME?**
+**Marchwell House is standing on one.** It has been running for longer than
+anyone currently alive, on a subject nobody currently alive chose.
+
+**The Measure is extinct, and that is the actual horror, not a monster.**
+Building an Ell was easy compared to closing one — only the order itself
+could formally declare a survey finished and let its instrument fall quiet.
+The Measure did not survive long enough to close most of what it started.
+Nobody inherited the authority to stop it, and it has no protocol for
+stopping on its own. It just keeps doing its last assigned job, forever,
+however senseless that job has become. Hesper's guess — *"the chain-crew"* —
+is close and not quite right: she's right that whoever did this is long
+gone; she has simply never learned that they had a name, a god, or a reason.
+
+**Veyr did not order any of this, want it, or benefit from it — Veyr is not
+the villain.** The oblex, the follower, and anything else native to the Echo
+that the party meets are not the Measure's creations and never served it.
+They are simply what already lived in the part of Veyr's domain the Ell
+occupies, and they have taken a long, patient, undirected interest in
+whatever the instrument keeps producing — the way gulls follow a fishing
+boat, not the way a jailer runs a prison. The Ell's horror is entirely the
+Measure's: an ancient, well-meant, unfinished piece of mortal work that
+outlived everyone who understood it.
+
+**Drafts, and their one consistent flaw.** The Ell measures by making
+drafts — approximations built out of folded, repeated space. It has drafted
+the vale, the orchards, the weather, and the Marchwells' house, over and
+over, at increasing and then decreasing fidelity as its errors compound. Its
+drafts fail in one consistent direction, baked into how the Measure worked:
+**they surveyed a place from the outside, exhaustively, long before anyone
+on the crew ever needed to live inside one house for a single day.** A draft
+of a person is built the same way — a very good, very thorough set of
+externally observed measurements, standing in for someone the instrument
+never actually understood.
+
+**And the survey has been stalled here for longer than a century**, because
+the Measure's own project could never close the file on a *home* — a home
+isn't a volume, it's a thing that happens inside one, and their instrument
+has no unit for that. Their question is cut into the substrate in every
+language it has ever copied, in the Measure's own hand, not Veyr's:
+**HOW BIG IS A HOME?**
 
 ---
 
@@ -135,6 +184,15 @@ without being told they're choosing.
 - **The party choosing to go in.** They're trapped instead — the windows show a
   perfect autumn afternoon until you open one, and then the wind stops and the
   birds are gone.
+- **The pantry's exterior blue door and the lean-out-both-windows
+  demonstration (Rev. 6, Change #4).** Cut for a stronger, purely spatial
+  version: the pantry never had an outside door at all. See "The pantry
+  (the set-piece)," Session 1.
+- **Session 2's "same water stain, twice" scene (Rev. 6, Change #7).** By
+  that point the party has already lived through the repeating house and
+  the Four Casses' door-breaks-the-fold lesson; the beat repeated
+  information without advancing anything, so it's gone rather than
+  replaced.
 
 ---
 

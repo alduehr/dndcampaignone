@@ -32,6 +32,18 @@ Master registry of all proper nouns used in the campaign. Check this file before
 
 > **Stage 8 (Faction Deepening) — no new proper nouns.** Stage 8 made all seven major factions operational (4-quest chains, rank-and-file "Combat Capability" profiles, `FACTION_RELATIONSHIP_MAP.md`, `FACTION_TURN_RULES.md`). It introduced **no new named NPCs, factions, faction sub-groups, places, gods, artifacts, or setting terms** — only generic rank-and-file adversary *types* (e.g. "Warden Initiate", "Ledger collector / caravan guard", "Circle grave-digger", "town watchman", "Gravecaller cultist", "Remnant scholar / Reclaimer agent", "leaked Remembrance"), which are descriptive role-types, not registered proper nouns. All named faction members referenced already exist in `08_npcs/`. Quest titles and file names are not registered proper nouns.
 
+## The Ell at Marchwell — Veyr/Echo Canon Promotion (2026-08-31)
+
+Per explicit user decision, three names originating in the non-canon one-shot `one_shots/the_ell_at_marchwell/` are promoted to **real, shared campaign canon** — a deliberate exception to `one_shots/README.md`'s normal rule that nothing coined there is registered. Everything else in that one-shot (Marchwell House, Oda/Cass/Tobin Marchwell, Ferris Ambry, Hesper Wick, the Ashgarden Vale farm setting) **remains non-canon and unregistered**, per the one-shot's own README — only the three names below crossed over.
+
+| Name | Type | File | Notes |
+|---|---|---|---|
+| Veyr | Minor god (Echoes, memory, repetition) | `03_canon/GODS_AND_FAITHS.md` | Real but distant and fringe-worshipped; explicitly not part of the Three Thresholds and not a crowded-pantheon violation — one minor power, added deliberately. Not secretly the campaign's villain (see `PROJECT_RULES.md`/`GODS_AND_FAITHS.md` — villainy in this setting is human/institutional). |
+| The Echo | Cosmology (Veyr's domain/plane) | `03_canon/COSMOLOGY.md` | **Distinct from "the Echo Realm"** (an already-registered regional folk-name for the Last Telling, `locations/vael/orrun/timelines/the-last-telling`) — same word, unrelated place; never conflate them in text. |
+| The Measure | Ancient mortal order (extinct) | `03_canon/DM_ONLY_CANON.md` | Built instruments called **Ells** inside the Echo. Unrelated to the Custodian Concord/Hollow Court — a deliberate parallel, not a connected conspiracy. "An Ell" is now a reusable generic term for one of the Measure's instruments; only one (Marchwell's) is currently built out. |
+
+This promotion does not register Ashgarden Vale as newly created — it was already registered (Stage 7) — only its use as this one-shot's setting is new, and that use stays non-canon per the one-shot's own README (no registered Vale NPC, faction, or site is altered by the one-shot's plot).
+
 ## locations/vael/orrun World Reference Folder (2026-08-01) — new non-campaign proper nouns
 
 A new top-level folder `locations/vael/orrun` (sibling to `/ai_solo_campaign`) was created as a spoiler-free world reference library, containing curated geography/settlement/culture/bestiary content plus a wholly new subsystem: **the Unmade** (alternate-timeline cosmology), including **the Last Telling** (the "darkest timeline"). This is genuinely new setting content, registered here per project rules even though it lives outside `/ai_solo_campaign`. See `locations/vael/orrun/README.md` and `locations/vael/orrun/timelines/`. **No campaign DM-only secrets (Hollow Court, harvest, deliberate Quietfall) are referenced or exposed by this content** — the Last Telling is explicitly designed as a parallel, independent cosmological horror, not a reflection of "The Long Remembering"'s central mystery (see the "DM Guidance: Keeping It Separate" section in `THE_LAST_TELLING.md`).
@@ -94,6 +106,9 @@ Only the **public** existence and stated purpose of these bodies appears in `loc
 | Three Thresholds | Religion | `03_canon/GODS_AND_FAITHS.md` | Birth/Living/Death principles. |
 | After Quietfall (AQ) / Concord Reckoning (CR) | Calendar | `03_canon/CALENDAR.md` | Dating systems. |
 | Thin-born | Setting term | `03_canon/DM_ONLY_CANON.md` | People born "empty." |
+| Veyr | Minor god | `03_canon/GODS_AND_FAITHS.md` | Echoes and memory; fringe worship; unrelated to the Three Thresholds. |
+| The Echo | Cosmology (Veyr's domain) | `03_canon/COSMOLOGY.md` | Distinct from the already-registered "the Echo Realm" (Last Telling folk-name) — same word, unrelated place. |
+| The Measure | Ancient mortal order (extinct) | `03_canon/DM_ONLY_CANON.md` | Built "Ells" (a reusable generic instrument-term) inside the Echo. Unrelated to the Concord/Hollow Court. |
 
 ## Faction Names
 

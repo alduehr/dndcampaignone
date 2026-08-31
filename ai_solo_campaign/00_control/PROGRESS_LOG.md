@@ -6,6 +6,46 @@ Chronological record of all meaningful production passes. This is the project hi
 
 ---
 
+## 2026-08-31 — The Ell at Marchwell: 20-Item Revision Pass + Veyr/Echo/the Measure Canon Promotion
+
+### Stage
+Not a numbered `DEVELOPMENT_STAGES.md` stage — this is a full revision pass on the non-canon one-shot `one_shots/the_ell_at_marchwell/` (user-directed, from an external DM-prep document listing 20 required changes), plus a narrow, explicit promotion of three names from that one-shot into real shared campaign canon.
+
+### Summary
+Implemented all 20 requested changes to *The Ell at Marchwell*: redefined the adventure's central truth (a minor god Veyr, his domain the Echo, and an extinct mortal order called the Measure, replacing the old "nameless surveyor" answer); reworked Session 1's opening into an active pursuit, its house evidence, its pantry-geometry set-piece, and its chalk-note handout (now Tobin's notebook); added a door-breaks-the-fold lesson to the Four Casses fight; cut a redundant Session 2 scene; reworked the oblex into a native Echo-dweller with new loot; reworked the Session 2 false-home reveal; expanded Depth 3 into a fully detailed 12-room traversal bank; reworked the Follower into a three-stage escalating encounter; built a cross-session revelation ladder; fully detailed all six Depth 4 rule-rooms; replaced a flimsy NPC-reveal explanation; added an optional late-session beat tying Hesper to an earlier optional fight; rebuilt the depth-5 regional-recognition scene in three explicit stages; reworked the depth-5 central reveal to not depend on contingent player behavior; corrected the finale's Roper-trigger timing; reworked the post-combat ending into a concrete procedure; and expanded the epilogue into a full family reunion plus writ resolution. Propagated all of the above into `PREMISE.md`, `CHARACTERS.md`, `REWARDS.md` (two new items), `ROOM_TABLES.md`, `MAP_SPEC.md`, `DM_SCREEN.md`, and `TODO.md`.
+
+Per explicit user decision, three names coined in that process — the minor god **Veyr**, his domain **the Echo**, and the extinct mortal order **the Measure** — were promoted to real, registered campaign canon, a deliberate narrow exception to `one_shots/README.md`'s normal non-canon rule. Everything else in the one-shot (Marchwell House, its family, Ferris Ambry, Hesper Wick) remains disposable one-shot-only cast. The promotion required reconciling with existing canon: Veyr is filed as a minor/fringe power alongside (not replacing) the Three Thresholds, explicitly not a crowded-pantheon violation and explicitly not a secret villain (per this project's "villainy is human/institutional" rule); "the Echo" as Veyr's domain is explicitly disambiguated from the already-registered "the Echo Realm" (a regional folk-name for the Last Telling in `locations/vael/orrun`) — same word, unrelated place; and "the Measure" is explicitly unrelated to the Custodian Concord/Hollow Court, a deliberate parallel rather than a connected conspiracy.
+
+### Files Changed
+- `one_shots/the_ell_at_marchwell/THE_ELL_AT_MARCHWELL.md` — full revision, all 20 changes
+- `one_shots/the_ell_at_marchwell/PREMISE.md` — new truth section, updated "what was cut" log
+- `one_shots/the_ell_at_marchwell/CHARACTERS.md` — Cass (both), Hesper updated
+- `one_shots/the_ell_at_marchwell/REWARDS.md` — two new items (Twice-Cut Token, Echo Stone), renumbered
+- `one_shots/the_ell_at_marchwell/ROOM_TABLES.md` — minor addition
+- `one_shots/the_ell_at_marchwell/MAP_SPEC.md` — structural spec, Fifth Kitchen, finale room updated
+- `one_shots/the_ell_at_marchwell/DM_SCREEN.md` — fold hints, fights table, finale trigger, Q&A updated
+- `one_shots/the_ell_at_marchwell/TODO.md` — full rewrite tracking the 20-item pass
+- `one_shots/README.md` — tagline fix, canon-promotion exception note
+- `03_canon/GODS_AND_FAITHS.md` — new "Minor and Foreign Powers" section (Veyr)
+- `03_canon/COSMOLOGY.md` — new "The Echo (Veyr's Domain)" section
+- `03_canon/DM_ONLY_CANON.md` — new "The Measure, Veyr, and the Echo" section
+- `00_control/NAMING_REGISTRY.md` — Veyr, the Echo, the Measure registered (Reserved Proper Nouns table + dedicated dated entry)
+
+### Canon Established
+Veyr (minor god, Echoes and memory), the Echo (his domain, distinct from the Echo Realm), and the Measure (extinct mortal order; "an Ell" as a reusable generic instrument-term) — see the canon files above. All three are explicitly kept separate from the campaign's core secret (the Concord/Quietfall/Hollow Court) and from the Unmade/Last Telling cosmology.
+
+### Indexes Updated
+- `00_control/NAMING_REGISTRY.md`
+
+### Gaps Identified
+- Physical handout props (Tobin's notebook, Hesper's map, a substrate-notation scrap) are described in text but not yet produced as standalone printable files — see `one_shots/the_ell_at_marchwell/TODO.md`.
+- Encounter math for Session 3's avoidable fights and the finale's 0–5 copy range has not been re-verified since this pass (no numbers changed, but it wasn't re-checked either).
+
+### Next Recommended Pass
+Produce the outstanding physical handouts; otherwise this one-shot is table-ready. If a future one-shot or campaign thread wants to reuse Veyr/the Echo/the Measure (e.g., a second "Ell" elsewhere in Orrun), start from the canon files above rather than re-deriving the lore.
+
+---
+
 ## 2026-08-08 — locations/vael/orrun Split: Safety Audit + Settlement Public Overview Cleanup (Pass 5)
 
 ### Stage

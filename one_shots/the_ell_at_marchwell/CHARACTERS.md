@@ -77,10 +77,15 @@ chair. Drinks.
 **Voice.** Agrees with whatever the last person said. Courteous, quiet,
 content-free. If pressed on the door: *"Letting the cold in."*
 
-**The tell, planted and never explained: he hasn't gone upstairs in a month.**
-Because he has never been upstairs — the draft was taken from a man measured
-downstairs, and there is nothing of the first floor in him. He cannot walk into
-a room he doesn't contain.
+**The tell, planted and never explained here: he hasn't gone upstairs in a
+month.** The real answer isn't "the draft has no data for upstairs" — it's
+worse than that. The real Cass gave up sleeping upstairs himself, for his
+hip, well over a year before any of this started. The most complete thing
+the Ell had ever measured of him was already a downstairs man. The draft
+isn't an incomplete copy; it's a *complete* copy of somebody who had already
+narrowed his own life to fit it. See "The real Cass," Session 3, and Change
+#14 in `TODO.md` for the full version — don't spoil it here, let it land
+when Real Cass says it himself.
 
 **What he does:** shuts the front door behind the party on arrival. Forty-five
 minutes later, opens the back door, steps into the corridor, and pulls it to
@@ -223,10 +228,23 @@ work.
 **She is genuinely helpful and everything she says is true.** She knows the
 rule-rooms, the fold rule, the safe camps, and the way down. She likes them.
 
-**Foreshadowed once, a session early, and never named:** the safety-valve camp
-— a bed frame, a burnt candle, a tin cup, and a name knife-cut into the
-doorframe with a hundred-year-old date. When she walks in, it should land as
-*"oh — it's her."*
+**Foreshadowed twice, a session or more early, and never named until she
+walks in:** the safety-valve camp (a bed frame, a burnt candle, a tin cup, a
+name knife-cut into the doorframe with a hundred-year-old date) and,
+separately, **the Cutter's Rest** in the Depth 3 room bank — another of her
+old campsites, this one where the party can find the first written mention
+of "the Measure." When she walks in, it should land as *"oh — it's her."*
+
+**If shown Tobin's notebook, or asked about "TRUST NO ONE":** she wrote it.
+She found him four days into his own wander, pointed him at a fold home, and
+left the one line she had time for, in scraped substrate-ash for ink. A
+quiet, optional, genuinely satisfying reveal — never volunteered, always
+true if asked.
+
+**If the Late Cats were avoided rather than fought:** she has history with
+them specifically — three fingers lost and regrown wrong, a very long time
+ago. They can return once, late in session 3, and go for her first. See
+Change #15 in `TODO.md` and "Reintroducing the Late Cats" in the main file.
 
 **Her problem, stated plainly at the door.** The Ell gives back exactly the
 count it took, and she came in through a different house by a door that no

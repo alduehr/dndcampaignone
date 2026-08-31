@@ -100,6 +100,14 @@ and tally.
 | 7 | The same figure, without the orchards. Then without the hedges. Then without anyone. |
 | 8 | **HOW BIG IS A HOME?** |
 
+**Once, and only once, let a fragment carry something that isn't the
+Measure's notation at all:** a single mark, cut twice, identically, side by
+side, sitting in the substrate where nothing else around it explains why.
+Don't roll for this — place it deliberately, and only if the party hasn't
+already found the Twice-Cut Token or the Cutter's Rest (see
+[`THE_ELL_AT_MARCHWELL.md`](THE_ELL_AT_MARCHWELL.md), the revelation
+ladder). Never explain it here.
+
 ---
 
 ## Related Files

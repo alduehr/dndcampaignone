@@ -79,9 +79,9 @@ always available and never blocked.
 |---|---|---|---|---|
 | **0** | Marchwell House, 4 down / 3 up | The pantry | Loft, press-house | Every exterior door → D1. Windows → the still orchard (loops back to the house) |
 | **1** | 5 copies of the house, degrading | Copies 1→5 in order | — | Copy 5's kitchen (**Four Casses**) → D2 |
-| **2** | Open sprawl, ~20–30 rooms | Coat Closet · Ambry's squat · **the oblex chamber** · the "way home" kitchen (*copy 2 of the house — geometrically depth 1, re-entered from the oblex chamber at depth 2*) | Wrong-object rooms (d20 table), corridors | Down, anywhere, after the way-home betrayal |
-| **3** | ~10–15 rooms | The 500ft hallway · the room of stairs | Nursery at ⅓ scale · parlour on the ceiling · **the drafted orchard** | Stairs down, several |
-| **4** | 5–6 rule-rooms + drafted-people rooms | 3–5 rule-rooms (DM's pick) | Real Cass's kitchen · Hesper's camps | Down |
+| **2** | Open sprawl, ~20–30 rooms | Coat Closet · Ambry's squat · **the oblex chamber** · the "way home" kitchen (*Change #9: a fresh reconstruction built at depth 2, not a literal return to a depth-1 copy — it destabilizes and pushes the party onward rather than looping them back*) | Wrong-object rooms (d20 table), corridors | Down, anywhere, after the way-home betrayal |
+| **3** | A fixed 12-room bank (see the adventure's Depth 3 traversal table); parties visit 6–10 | Room 5, the drafted orchard (every branch converges here) | The other 11 rooms, entered via 3 starting doors and their branches | Room 5 → Depth 4 |
+| **4** | All 6 rule-rooms fully detailed; run 3–5 per party size | 3–5 rule-rooms (DM's pick) | Real Cass's kitchen · Hesper's camps · the Cutter's Rest is Depth 3, not here | Down |
 | **5** | The substrate. One vast continuous space | The plan-floor · the deep-time layers · the survey count | — | **The way out** (Hesper leads them) |
 
 **Room budget per session:** S1 ~12 rooms · S2 ~20 · S3 ~15 · S4 ~6 large ones.
@@ -92,7 +92,8 @@ Everything else can move. These cannot:
 
 1. **The pantry door** — the way in, and the tally is on its frame (and on
    every other exterior frame, identically).
-2. **The "way home" kitchen** (copy 2 of the house) — the S2 betrayal.
+2. **The "way home" kitchen** (a fresh depth-2 reconstruction, not a
+   literal copy 2 — Change #9) — the S2 betrayal.
 3. **The way out** at depth 5 — the finale room.
 
 ## Rest-safe rooms
@@ -133,6 +134,15 @@ furniture — *a* table, not *that* table.
 *Tactics:* they open with Surprise Attack, spread to all four quarters, and
 door-hop to break focus fire. **A party that jams the doors shuts down the
 whole gimmick — let them, and let it feel smart.**
+
+**Change #6:** the fight's other lesson lives here too — physically damaging
+one of the four doorframes (a bad miss into it, a shove, deliberate
+vandalism) removes it from the 4-set. Track which doorframe, if any, gets
+wrecked; a Cass that tries to fold through it afterward fumbles and loses
+its turn instead. If nobody damages one by round 3, force it: have a Cass
+miss, get shoved, or collide with a frame, then have the next Cass fail to
+fold through that same door a moment later. See the adventure's Session 1
+climax for the full scripted version.
 
 ---
 
@@ -217,8 +227,10 @@ ceiling, with the plan cut into the floor. **Ceiling 20 ft.**
   identical to each other — unmarked on any map you show the players and not
   called out differently from each other on yours either. **One of them is a
   Roper** in False Appearance, reflavored as arms rather than tentacles
-  (mechanically still its printed Tendril attacks). See the adventure's
-  "The Other Pillar" section for the secret-initiative timing.
+  (mechanically still its printed Tendril attacks). **Trigger note (Change
+  #18): it activates on Hesper's first turn, not its own initiative — don't
+  roll initiative for it at all.** See the adventure's "The Other Pillar"
+  section for the exact timing.
 - **No furniture. No clutter.** The room is deliberately austere.
 - **Party copies** (0–5, one per long rest) start spread along the far wall.
 
@@ -230,8 +242,9 @@ one dramatic terrain swap sells the reveal better than a model that was
 sitting there in plain sight the whole fight.
 
 *Tactics:* see the adventure's finale section. Hesper fights straightforwardly
-until the Roper's scripted turn removes her; after that it's a normal fight
-against the Roper and any surviving copies.
+until her own first turn triggers the Roper's scripted reveal, which removes
+her; after that it's a normal fight against the Roper and any surviving
+copies.
 
 ---
 

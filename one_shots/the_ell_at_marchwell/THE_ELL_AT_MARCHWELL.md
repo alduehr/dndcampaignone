@@ -1,6 +1,6 @@
 # THE ELL AT MARCHWELL
 
-### *The pantry door is on an outside wall. It opens onto a corridor.*
+### *The pantry has one door. It doesn't lead outside — there's nowhere out there for it to lead.*
 
 **Six characters, level 5 → 6. Four sessions. Non-canon — see
 [`../README.md`](../README.md).**
@@ -48,9 +48,12 @@ ever articulating the fold rule — Hesper walks them to the door in session 4
 regardless. It exists to give them agency and to make the finale legible. So
 hand it out generously; there is no reason to be stingy with it.
 
-**Eight ways in, no rolls required.** Six of these are things you *do to the
+**Seven ways in, no rolls required.** Five of these are things you *do to the
 party* on a schedule — none of them waits for a player to have a clever idea.
 Only the last two need the party to act, and they're bonuses, not load-bearing.
+There's also the door-breaks-the-fold lesson built directly into the Four
+Casses fight (see Session 1's climax) — that one teaches itself through
+combat, not through description, so it isn't numbered here.
 
 **Push these (they happen whether or not the party cooperates):**
 
@@ -61,24 +64,22 @@ Only the last two need the party to act, and they're bonuses, not load-bearing.
    find it again two rooms later, and a third time an hour after that — and
    it's the same glove, not a copy: torn the same way, still damp. You place
    it; the party never has to think of anything.
-3. **The same water stain, twice.** Describe it in the same words both times
-   and wait for someone to say it.
-4. **The marching order breaks.** The character *at the back* of the line
+3. **The marching order breaks.** The character *at the back* of the line
    walks through a door and comes out at the front, facing the party. Everyone
    watches it happen. No flash, no sound, no sense of transit.
-5. **Ambry's tally wall** (S2), found empty and unexplained: a wall counting
+4. **Ambry's tally wall** (S2), found empty and unexplained: a wall counting
    the doors twice by two different routes, arriving at the same number both
    times, the second count gone over so hard the chalk has broken. It makes
    the argument on its own. He confirms it afterwards, at length, whether or
    not anyone asks.
-6. **Cut into the plaster in a neat surveyor's hand:**
+5. **Cut into the plaster in a neat surveyor's hand:**
    > **TWO OF A THING IS ONE OF A THING**
 
 **Bonuses (only if the party tries something):**
 
-7. **Ambry's rule of thumb**, if they question him: *"Don't use a door you've
+6. **Ambry's rule of thumb**, if they question him: *"Don't use a door you've
    seen before."* Wrong, and nearly right.
-8. **Hesper says it flat** (S3), if somehow nobody has got there: *"Anything
+7. **Hesper says it flat** (S3), if somehow nobody has got there: *"Anything
    the same as another thing *is* that thing. It can't tell them apart. That's
    all this place is."*
 
@@ -252,20 +253,98 @@ is cleaner and costs the party nothing they weren't warned about.)*
 
 ---
 
+## THE REVELATION LADDER — VEYR, THE MEASURE, AND THE ECHO
+
+Two questions run under the whole back half of this adventure: **"Where are
+we?"** and **"What is the Ell?"** Answer them in stages across Sessions 3–4,
+never all at once, and never mainly through a note the party reads. The
+strongest deliveries here are things the party watches happen, touches, or
+fights — not paragraphs of lore. This section coordinates beats that are
+written out in full at their own place in the text; use it to keep the
+sequence straight, not as a substitute for reading those scenes.
+
+**Two kinds of evidence, and let the contrast do the work:** everything
+pointing at **the Measure** (the mortal order that built the Ell) looks like
+tools — survey chains, notation, tallies, calibration, drafting. Everything
+pointing at **Veyr and the Echo** (what the Ell was built inside, not by
+Veyr) looks like presence — a voice, a mark cut twice, something watching
+that was never mortal. The party should be able to sort evidence into those
+two piles well before anyone tells them there are two piles.
+
+| Stage | Where | What lands | What stays open |
+|---|---|---|---|
+| 1 (mandatory) | S2 midpoint, the oblex's confidence and its death-line ("Veyr remembers you") | Something ancient, native, and *interested* is down here — not lost, not the Ell itself. | Whose voice? What's "Veyr"? |
+| 2 (mandatory) | S2 end, the false house destabilising + a distant scream | Depth 3 is inhabited by something that isn't the instrument. | What is it? |
+| 3 (mandatory) | S3, the first follower, placed in a corridor between any two of the twelve Depth 3 rooms so it can't be skipped | They're being watched and catalogued specifically, not just recorded as part of a room. | Why? By whom? |
+| 4 (optional) | S3, the second and third followers, only if the party escalates | Killing the observer doesn't stop the observation. | Same, sharper. |
+| 5 (optional) | S3, the Cutter's Rest (Room 12 of the Depth 3 bank) | A name, in a mortal hand: **"the Measure."** Someone built this on purpose, a long time ago, and worshipped something while they did it. | Who were they? What did they want? What's the mark they carved? |
+| 6 (optional) | S3, the real Cass rescue | Drafts are loyal to what was actually, repeatedly measured — not to a whole person. | Doesn't yet say who's doing the measuring or why. |
+| 7 (mandatory once she joins) | S3 end, Hesper | Confirms someone ancient did this on purpose — her own folk-guess, **"the chain-crew."** | She has never learned it has a name, a god, or a reason. Say so if asked; it's true, not evasive. |
+| 8 (mandatory) | S4 opening, the substrate's Ashgarden Vale recognition (see Change #16, below) | Scale: the Ell has measured far more than one house — the whole vale, obsessively, more than once. | Still doesn't say who, or why. |
+| 9 (mandatory) | S4, the reconstruction station (see Change #17, below), built up against a half-buried carved shape bearing the same doubled mark from the Cutter's Rest and the oblex's token | Concrete mechanism: the Ell measures *behavior*, not just dimension — and mortal machinery and something never built by mortals occupy the same space, physically, right there. | Confirms two separate things existed here: mortal builders, and something older that they built inside. |
+| 10 (backstop) | S4, Hesper's own summary, if the party still hasn't pieced it together | Ties stages 1–9 together in her own words — without ever naming Veyr or the Measure, because she genuinely doesn't know them. | The actual names stay a research hook for after the adventure, not a requirement to finish it. |
+
+**Nothing here is required to escape.** A party that never finds the Cutter's
+Rest, never rescues Cass, and never presses Hesper still gets stages 1, 2, 3,
+7, 8, and 9 automatically — that's enough to know *something* built this on
+purpose and something else already lived where they built it, which is the
+whole point. The names "Veyr" and "the Measure" are deliberately rare and
+precious; most tables will leave this adventure with the shape of the truth
+and not the words for it, and that's the correct outcome, not a failure
+state.
+
+---
+
 ## SESSION 1 — IN
 
 *Depths 0–1. No combat. **4–5 hrs.***
 
-### The lane (45–60 min, and not a minute more)
+### The chase (15–20 min — play this, don't summarize it)
 
-The party has a writ for **Ferris Ambry**, under-clerk, 41, who walked out of
-the tithe office with three parishes' collection — about 800gp in coin and
-chapel plate — on a borrowed pony. Recovery fee on delivery. He ran west to
-the last farmhouse before the downs, because his cousin lives there.
+The party has a writ for **Ferris Ambry**, under-clerk, 41, who has spent
+three weeks quietly bleeding the tithe office dry: a little from the first
+parish, more from the second, and — this morning — the rest of it, in a
+single panicked grab, from the third. About 800gp all told, in coin and
+chapel plate, on a borrowed pony that is not built for this.
+
+**Open here, not at the farm gate.** The party rides into the third parish an
+hour behind him, still thinking this is a paperwork job. The sexton confirms
+it: yes, a nervous little clerk was through not long ago, badly out of
+breath, asking about the road west. And there — tied at the lych-gate,
+blown, foundering, one shoe half off — is **Ambry's pony**, which he has
+finally ridden into the ground and abandoned.
+
+**Let them question somebody** — the sexton, a verger, a parishioner
+sweeping the step — about which way he went on foot. Insight or a plain
+Wisdom (Perception) check (**DC 12**) notices the stable door standing ajar
+that shouldn't be, a beat before anyone finishes the sentence.
+
+**Then the racket.** A shout from the stable-yard, a horse screaming, a rail
+going over. Ambry — sobbing, apologising to nobody, still clutching the
+strongbox under one arm — is dragging himself onto a fresh horse he has no
+business touching. **He's off and riding before anyone can close the
+distance.** This is not a fight; it's a **mounted chase**, and it should
+feel like one: a Dexterity (Animal Handling) or group check (**DC 12**, one
+failure is fine, two means he opens a real lead) to stay with him across
+broken parish ground, hedgerows, and a flooded cart-track, while he does
+everything wrong and stays ahead anyway because panic is a better motivator
+than skill.
+
+**He doesn't get away — he gets somewhere.** The chase ends when he cuts
+through a gap in a hedge onto the west road and the party sees exactly where
+he's making for: a whitewashed farmhouse at the end of a long lane, orchard
+smoke rising behind it. **Let a player who asks around learn it first, if
+they think to ask before they ride:** that's Marchwell land, and the clerk
+has a cousin there.
 
 **Marchwell House.** Cider-orchard country, half a day west of Tilbrook.
 Whitewashed, four rooms down and three up, a press-house, a kitchen garden, an
 ash-house. Autumn; the pressing is on; the yard smells of apples going over.
+
+**Timing:** the chase buys Ambry roughly two hours alone at the farm before
+the party arrives — long enough to believe, wrongly, that he has shaken
+them; not long enough to have done anything but eat, hide the box, and start
+to relax. Everything in "The search," below, is built on that two hours.
 
 **The cast:**
 
@@ -315,18 +394,49 @@ find out for forty-five minutes.
 
 ### The search (and the discovery)
 
-Let them turn the house over looking for a thief. Salt it: a man's coat on a
-peg that fits nobody here, a fresh bootprint in the pantry flour, a
-strongbox-shaped dent in the loft straw. Let them corner Oda. Let them get
-comfortable.
+**Ambry has had about two hours here** — long enough to eat, change, hide
+the box, and start to believe he's clear. Everything below should read as
+the ordinary debris of a frightened man's two hours, not as a set of
+puzzle-clues waiting to be decoded; let them find these however they search,
+and don't make anyone roll to notice the ones marked guaranteed.
+
+**Guaranteed — they will find this without trying:**
+
+- **His coat**, still warm, thrown over the back of a kitchen chair — a
+  clerk's good coat, out of place on a farm, with a tithe-office button on
+  the cuff. He changed into work clothes Cass or Oda found him, to look like
+  one more hand at the pressing.
+
+**Salt the rest around the house — pick three or four, not all of them, so no
+single miss can stall the scene:**
+
+| Clue | Where | What it says |
+|---|---|---|
+| An extra place at the table | Kitchen | A bowl still faintly warm, wiped clean in a hurry — someone fed a guest nobody's mentioning. |
+| Fresh, city-soled bootprints | Pantry flour, leading to the door | Not a farm boot. Fresh. Only going one way. |
+| A pressing-smock, too clean | Hung by the press-house door | Borrowed to blend in; the hem is dry, the rest of the yard's smocks are damp with must. |
+| A second horse's tack, unaccounted for | Stable | Nobody at Marchwell owns a horse that fits this saddle. |
+| A half-eaten meal, abandoned mid-bite | Kitchen table | He didn't finish. Something startled him off it. |
+| A tithe-office ledger page, torn and stuffed behind a jar | Pantry shelf | Names, sums, and the vale's tithe seal — undeniably his. |
+
+**Where the box actually is:** with him. He never let go of it long enough to
+hide it — a drag-mark of a heavy, square-cornered box scrapes across the
+pantry's flour dust, dead straight, ending at the door, and Oda will admit,
+if pressed, that she watched him wrestle it in there himself, muttering that
+he'd "sort it once things had quieted." **It goes into the Ell with him**,
+and the party finds it again, abandoned, once it got too heavy for a man who
+hasn't stopped running — see "Depth 1 — the repeating house," below, and
+**The prisoner and the silver**.
+
+Let them corner Oda. Let them get comfortable.
 
 **Then somebody goes to leave.**
 
 The front door — the one they came in by, an hour ago, in daylight — opens
 onto a hundred and forty feet of corridor with a rag rug in it.
 
-Every exterior door in the house does the same. The back door. The pantry
-door. The press-house door. All of them, corridor.
+Every exterior door in the house does the same. The back door. The
+press-house door. All of them, corridor.
 
 **Then the windows.** And the windows are the worst thing in the session.
 
@@ -379,62 +489,130 @@ minutes. Which is exactly how it should feel.
 
 ### The pantry (the set-piece)
 
-Narrow room at the north gable end. The far wall is an **exterior wall** —
-whitewashed brick you can walk around and touch, kitchen garden and water butt
-and ash-house on the other side. In that wall, left to right:
+**The pantry has no door to the outside. It never did.**
 
-**window — door — window.**
+It's a narrow, windowless room off the kitchen — shelves, a flour bin, a
+hanging ham, the height-notches of three generations of Marchwell children on
+the door-jamb, the last one Tobin's at fourteen. One door in, and that door
+opens onto the kitchen. That's all it has ever been.
 
-The door: old, blue-painted, rusted thumb-latch. Height-notches on the frame,
-three generations of Marchwell children, the last one Tobin's at fourteen.
-Leaning against the shelves: a board with the nails pulled out of it.
+**DM-only, and it matters for the timeline:** this is the same door Tobin
+went through last midsummer, and it has been quietly live ever since — the
+one door in the house Oda has not treated as ordinary since he came back.
+That's why the chalk and twine live on its shelf, and why she keeps finding
+reasons to fetch stores herself rather than send anyone else in. **It doesn't
+need Cass to open it the way the front, back, and press-house doors do** —
+those the instrument claims fresh, from a resident, when the party arrives.
+The pantry was claimed months ago and never gave itself back. When Ambry
+heard hooves in the lane, he bolted for the nearest door away from the
+sound, with no idea what he was running into, and Oda didn't reach him in
+time to stop him.
 
-**Give them the demonstration and give them all the time they want with it.**
+**Walk the kitchen garden outside and check.** The exterior wall behind where
+the pantry sits is whitewashed brick, unbroken, fourteen inches thick, with a
+single hopper-window up near the eave — too small for anything but a cat, and
+looking, from outside, into an ordinary six-foot pantry exactly the size the
+house has room for. There is nothing wrong with this wall. There never was.
 
-- Two characters lean out of the two windows simultaneously, three feet apart,
-  and wave over the cabbages. A third stands outside between them, hand flat
-  on the door. The wall is fourteen inches thick.
-- **From the garden side the door is normal.** Climb out a window, walk round
-  through the still orchard, and open the blue door from outside: you are
-  looking into the pantry at whoever is standing in it. Walk in that way and
-  you are simply in the pantry. Turn round, open it again from inside, and
-  it's the corridor. The party will do this several times and it will never
-  once stop being wrong.
-- **Sound crosses wrong.** Someone eighty feet down the corridor shouting is
-  heard, thin and far off, by a head out the left-hand window — *from out past
-  the orchard.*
-- Rope, chalk, twine, thrown objects, a lit lantern set down at 60 feet: all
-  behave. Nothing is hostile. It's just wrong, and it's wrong every time they
-  test it.
+**The wrongness is entirely on the inside, and it is worse for it.**
 
-Oda's second lie collapses here. She'll say: *"He went out the back."*
+- **Bore a hole in the pantry door itself** — a gimlet, an arrow, a dagger-tip
+  twisted through — and look through it before opening the door properly.
+  **You see the small, ordinary pantry**, shelves and flour bin and all,
+  exactly as it should be, lit faintly by the hopper-window. **Then open the
+  door, and step through, and it is the hundred-and-forty-foot corridor.**
+  The hole still shows the little room. The door shows the corridor. Both are
+  true at once, and there is no way to reconcile them, because there is
+  nothing to reconcile — they are not the same door leading to two places.
+  They are two different doors that happen to share a frame.
+- **Rope it.** Tie a line to the door-jamb from the kitchen side, open the
+  door, and pay it out down the corridor as far as anyone likes. Then have
+  someone outside, in the real kitchen garden, try to find where that rope
+  ought to surface — dig at the wall, tap along it, anything. **There's
+  nothing to find.** The corridor doesn't run behind, above, or under
+  anything the house has. It doesn't run *anywhere* the house's footprint
+  reaches. It simply isn't spatially connected to the building it appears to
+  open from.
+- **Sound doesn't cross at all.** A character eighty feet down the corridor,
+  shouting, is inaudible from the kitchen garden with an ear pressed to the
+  exact spot the pantry occupies. There is no thin, far-off version of this
+  the way the front door's corridor at least pretends to relate to the
+  orchard. This one doesn't pretend.
+- Let them try it from both directions, more than once, with different
+  people holding the rope and the lantern. **It never once resolves.** That's
+  the point: this isn't a corridor folded cleverly around a real house. It's
+  a door that has stopped requiring anywhere to lead, standing exactly where
+  a door to nowhere in particular used to be perfectly mundane.
 
-### The chalk (do not skip this)
+**The pantry door was never on the outside wall.** Nothing about it needed to
+be, for it to end up somewhere the house has no room for.
+
+Oda's second lie collapses here. She'll say: *"He went out the back."* — and
+in the most dangerous possible sense, through the one door in the house that
+was never going to lead outside at all, that's exactly true.
+
+### The notebook (do not skip this)
 
 On the pantry shelf beside the door, where anyone searching the room finds
-them without a check: **a jam jar packed with chalk stubs**, and a ball of
-twine with the end cut off short.
+them without a check: **a jam jar packed with chalk stubs**, a ball of twine
+with the end cut off short, and a small, cheap, water-warped notebook — all
+of it Tobin's own kit, left exactly where he dropped it the day he came back,
+because nobody in this house has been able to bring themselves to move it.
 
-Nailed to the frame above them, written on the back of a seed-merchant's bill
-in a seventeen-year-old's handwriting:
+**Read the notebook out loud, or hand over a printed copy — it works either
+way, but it lands harder read aloud, slowly.**
 
-> **MARK EVERY DOOR BOTH SIDES**
-> **COUNT YOUR TURNS**
-> **BE BACK BY DARK**
+The first few pages are a seventeen-year-old being sensible about a strange
+errand:
 
-Oda put the jar there in spring, after Tobin went in the first time. If anyone
-asks, she answers flatly and without looking up: *"So he could find his way
-back."*
+> **MARK EVERY DOOR.**
+> **COUNT YOUR TURNS.**
+> **MIND THE TIME.**
 
-**This is the instruction, and it's why the chalk thread works at all.** Six
-adventurers handed a jar of chalk and a boy's list will mark every door in the
-Ell unprompted, which is exactly what you want.
+Underneath, a working method — small sketches of doorframes, a route in his
+own shorthand, turn counts, step counts, tallied and re-totalled, careful and
+almost dull.
+
+**Then it changes, and you should let the pages do the work rather than
+narrating the change:**
+
+- The routing gets harder to follow. A count is crossed out and restarted.
+  Then restarted again, pressed hard enough to tear the paper.
+- **COUNT YOUR TURNS** starts turning up in the margins, then between lines,
+  written smaller and smaller as if there wasn't room for it, though there
+  plainly was.
+- Whole pages, later, are nothing but **COUNT YOUR TURNS** written over and
+  over, and then — later still — just **COUNT**, filling every margin,
+  sideways up both edges, crammed into corners, a boy's handwriting getting
+  faster and less like handwriting.
+
+**The last page is nearly empty.** No route, no count, no method. Just one
+line, dead centre, in handwriting far steadier than the pages before it:
+
+> **TRUST NO ONE.**
+
+**It is not written in anything Tobin came back with.** Not the chalk in the
+jar, not charcoal, not pencil, not ink from any bottle in this house. Nobody
+can identify the material, and nothing about it should be explained yet —
+not who wrote it, not when, not what it means. Let the table sit with it.
+
+**This does everything the old note used to do, and more.** Six adventurers
+handed a boy's notebook that says *MARK EVERY DOOR, COUNT YOUR TURNS* will
+mark every door in the Ell unprompted, which is exactly what you want — and
+now they're doing it holding the exact object that shows them, in slow
+motion, what happens to a mind that keeps doing it for four straight days.
 
 **And Tobin's marks are already in there** — a different hand, smaller and
-neater, on hundreds of doorframes, copied and recopied until they're
-everywhere and mean nothing. That's the lesson delivered *before* the party
-makes a mark of their own: **marking naively doesn't work.** They'll improve
-on it. That improvement is the fold rule.
+neater than the party's, on hundreds of doorframes, copied and recopied until
+they're everywhere and mean nothing. That's the lesson delivered *before* the
+party makes a mark of their own: **marking naively doesn't work.** They'll
+improve on it. That improvement is the fold rule.
+
+*(The notebook's escalating counting compulsion, and the unidentified final
+line, are not solved here. Both pay off later — see Change #12's revelation
+ladder in "Session 3 — Deeper" and "Session 4 — Out," below; "TRUST NO ONE"
+in particular is never explicitly resolved to one single author, and that's
+deliberate — see the "Who wrote it" note in Session 4, Scene 2.)*
 
 **On the Ell side of the doorframe: the tally.**
 
@@ -533,6 +711,32 @@ every round, one of them steps through a door and comes out of a different
 identical door across the room. This is the fold rule demonstrated at knifepoint
 and the party will absolutely clock it.
 
+**And this fight is where they learn the other half of the rule: chalk gets
+copied; damage doesn't.** A mark drawn on one of these four doors is copied to
+the other three along with everything else in the room — worthless here, same
+as everywhere. Physically wrecking a door is a different kind of change, and
+the fold can't survive it.
+
+- **If a player gouges, splits, or breaks one of the four doorframes**
+  mid-fight — a bad miss that hits the frame instead, a shove into it, a
+  deliberate strike — **show them the result immediately.** The next Cass
+  that tries to use that doorway simply can't: it fumbles the fold, stumbles
+  through as an ordinary door instead, and loses its turn doing it. That
+  doorway has left the set. There are three left, and the fight gets
+  visibly, mechanically easier from that point on.
+- **If nobody does this on their own, force the moment at the top of round
+  3.** One of the Casses — mid-swing, mid-shove, missing an attack, colliding
+  with the frame retreating from a bad exchange — puts a door out of true.
+  Splintered wood, a bent hinge, whatever fits the fiction. **Immediately
+  afterward**, have a different Cass step toward that same door to fold and
+  simply fail to, faltering in the doorway a half-second too long — an
+  opening, if anyone's paying attention.
+- **One line, only if the table needs it, never more:** a Cass registers the
+  broken frame with something almost like surprise — *"That one's
+  different now,"* or *"You spoiled it."* Don't explain the rule in
+  dialogue beyond that. Let the fight demonstrate it and let them work out
+  the rest.
+
 *Scaling: 3 PCs → 2. 4 → 3. 5 → 3 + Surprise Attack. 6 → 4.*
 
 **Encounter math:** 4 × CR 3 = 2,200 XP, ×2 for numbers = 4,400 adjusted
@@ -569,8 +773,7 @@ arrows anyway — in the handwriting of whoever in the party writes most.
 
 1. **A wrong-object room or three.** Establish the register. Let them search.
 2. **The Coat Closet** (below). First real fight.
-3. **The same water stain, twice.** The fold rule surfaces.
-4. **Ambry's squat — empty.** Somebody has been living here a long time. A
+3. **Ambry's squat — empty.** Somebody has been living here a long time. A
    nest of curtains and coats. Sixty empty preserve jars, stacked by size,
    the fruit in the remaining ones perfect and not a fruit that grows. A
    ledger with the accounts torn out and days scratched on the flyleaf —
@@ -611,9 +814,16 @@ arrows anyway — in the handwriting of whoever in the party writes most.
 
    **Loot here:** the Honest Weight, Ambry's own — see
    [`REWARDS.md`](REWARDS.md).
-5. **The oblex, and Ambry.** The midpoint.
-6. **The way home.** See below. Run it immediately, while they're still
+4. **The oblex, and Ambry.** The midpoint.
+5. **The way home.** See below. Run it immediately, while they're still
    counting their HP.
+
+*(Change #7: the old Scene 3, "the same water stain, twice," is cut — by
+this point the party has already lived through the repeating house and the
+Four Casses' door-breaks-the-fold lesson, and repeating that beat here added
+nothing new. Nothing replaces it; the recovered runtime goes toward the
+Coat Closet and the squat, which were already the session's strongest
+material.)*
 
 ### The Coat Closet
 
@@ -648,11 +858,21 @@ They turn. They greet the party **courteously, in the party's own voices,
 using the party's own phrasings**, because it has been sampling them for a
 session and a half and practising.
 
-> "There's the same water stain again," says the bargeman, in the wizard's
-> voice, warmly. "Don't use a door you've seen before," says the girl, in
+> "That's our own bootprint," says the bargeman, in the fighter's voice,
+> almost fondly. "Don't use a door you've seen before," says the girl, in
 > Ambry's.
 
-It is the only thing in the Ell that is *interested* in them.
+It is the only thing in the Ell that is *interested* in them — and it is the
+first solid proof, though the party has no way to know it yet, that the Ell
+is not the only intelligence down here. **This is not a creature that
+wandered in and got stuck.** It belongs here, the way a gull belongs at sea:
+native to whatever part of the world the Ell is folded into, older than
+Marchwell House, patient in a way nothing built by mortals manages to be. Do
+not explain any of this to the players yet — see Change #12's revelation
+ladder for where it pays off — but run the creature with that quiet
+confidence in mind. It is not desperate, not opportunistic, not afraid of
+the party at any point. It has been doing this for longer than the
+instrument has existed.
 
 **And one of the dozen is Ferris Ambry.**
 
@@ -705,14 +925,38 @@ make the kill enormous:
 > and a dozen empty sets of clothes on the floor in the shapes people were
 > standing in.
 >
+> Except one. The last duplicate to fall — pick whichever the party hit last
+> — doesn't slump like the others. It settles, almost gently, and its
+> mouth keeps moving a half-second after the rest of it has stopped being a
+> shape, and what comes out, in nobody's voice they recognise:
+>
+> *"Veyr remembers you."*
+>
+> Then it's slurry like the rest.
+>
 > And then the hum stops.
 >
 > For about ten seconds, for the first time since they came through the
 > pantry door, the Ell is completely silent. Let the table sit in it. Then it
 > starts again.
 
+**Don't explain the line.** Nobody at the table knows who or what "Veyr" is,
+including — genuinely — Hesper, when they eventually ask her. That's
+correct; leave it that way until Change #12's revelation ladder pays it off
+in Sessions 3–4. It should read as the single strangest thing that happens
+all night, precisely because everything around it is otherwise explicable.
+
 That silence is the level-up. It is the only time in four sessions the party
 gets unambiguous proof that they can *do something* to this place.
+
+**Loot here, on the body — real, not drafted, because the oblex itself was
+never a draft:** a small, worn **stone token** on a cord around where its
+neck would have been, carved with the same mark twice, identically, side by
+side — see [`REWARDS.md`](REWARDS.md) for **the Twice-Cut Token**. Tangled
+in with it, a second find: **an Echo Stone**, a smooth grey pebble that was
+sitting in the ash under where the duplicates fell, warm to the touch — see
+REWARDS.md. Neither means anything to the party yet. Both matter enormously
+by session 4.
 
 **What survives it:** the voices. The chalk arrows keep appearing in their
 handwriting, and things keep speaking in their voices, all the way to the end
@@ -751,14 +995,34 @@ detail — this beat is worth nothing if you protect them from it.
 A hundred and forty feet of corridor with a rag rug in it.
 
 And once they know to look: the height-notches on the pantry frame stop
-partway up, and the faces in the samplers were never finished, and this is the
-*second* copy — the good one — and they have been walking in a circle inside a
-drawing of a house since the first hour of session 1.
+partway up, and the faces in the samplers were never finished. **This is not
+the house they walked in a circle back to — check the details against
+session 1's degrading copies and they won't quite match.** This is a fresh
+one, built new, right here, this deep, the moment the instrument had
+something worth reconstructing again. That's a worse thing to learn than a
+literal loop would have been: the Ell isn't running out of house to show
+them. **It can make another one, flawless, at will, wherever it currently
+has them.**
 
-**MILESTONE: LEVEL 6.** Hand it to them right there, in the kitchen, with the
-front door standing open. They just killed the only thing in the Ell that
-could be killed and it bought them nothing at all, and they are stronger, and
-those two facts sitting together is the exact note session 2 should end on.
+**And it doesn't stop at the door.** The moment that's exposed, the kitchen
+starts coming apart around them while they're still standing in it —
+proportions drifting, the range flattening into a wrong-scale sketch of a
+range, the samplers' unfinished faces smearing into no faces at all, the
+whitewash going the pale, seamless colour of something that isn't plaster.
+**Staying is no longer an option; the house is failing faster than anyone
+can process it.** That's what pushes them into the corridor, not a choice.
+
+**As the last of them crosses the threshold, something screams, once, a very
+long way off** — not close, not urgent yet, but real, and clearly alive, and
+clearly not a doppelganger, an oblex, or anything they've met so far. Let it
+hang there unanswered. That's the transition into Session 3: whatever's
+ahead is deeper, stranger, and — for the first time — *inhabited* on purpose.
+
+**MILESTONE: LEVEL 6.** Hand it to them right there, in the corridor, doors
+still dissolving behind them. They just killed the only thing in the Ell
+that could be killed and it bought them nothing at all, and they are
+stronger, and those two facts sitting together — plus a scream they can't
+place yet — is the exact note session 2 should end on.
 
 ---
 
@@ -768,26 +1032,153 @@ those two facts sitting together is the exact note session 2 should end on.
 
 ### Depth 3 — the wrong scale
 
-Proportion fails, and it fails confidently.
+Proportion fails, and it fails confidently. **Twelve rooms are built out
+below** so you never have to improvise this depth from scratch — the party
+will see roughly four to six of them in a session, depending on pacing and
+which branches they pick, and the rest stay in reserve as alternates,
+detours, or replacements if a table wants more.
 
-- A nursery at **one-third size**, perfect in every detail, including a
-  half-finished sampler on a tiny frame.
-- A hallway **five hundred feet long** with a single window at the far end
-  showing the orchard in the wrong season.
-- **A room that is only stairs** — no floors, no landings, stairs meeting
-  stairs at every angle, going up in every direction including down.
-- **The drafted orchard.** An orchard, indoors, in a hall with no visible end:
-  wood-coloured measured space, trees at exactly correct spacing, no bark on
-  any of them, and a still, birdless quiet that anyone who was in session 1
-  will recognise instantly — *this is what was outside the windows.* That
-  recognition is the single best continuity beat in the campaign; give them a
-  moment with it — **and then let somebody spot the still bear**, motionless
-  between two trees a hundred feet off. (See *Two avoidable fights*, below.
-  The orchard is a place; the owlbear in it is optional and skippable.)
-- **Gravity belongs to the room, not the world.** A parlour on the ceiling,
-  furnished, fire lit. Stepping through its doorway means falling *up* twelve
-  feet onto a rug. Getting back is the puzzle, and the puzzle is easy; the
-  horror is watching a teammate stand on a ceiling.
+**How it connects — a real traversal, not a wander.** The corridor out of
+the collapsing false Marchwell house (end of session 2) opens onto **three
+doors, side by side, each an obviously wrong height** — the geometry does
+not need to obey normal Euclidean rules, but the party should always be able
+to see and choose their exits rather than being told they simply arrive
+somewhere. From there, follow the **Exits** line on each room below. Every
+room has at least one exit that goes deeper; **all paths eventually converge
+on Room 5, the drafted orchard**, which is the fixed node the party cannot
+avoid and which leads on to Depth 4.
+
+| # | Room | Exits |
+|---|---|---|
+| 1 | The Nursery | → 6 (Long Larder) or → 7 (Waiting Room of Twins) |
+| 2 | The Ceiling Parlour | → 8 (Match-Struck Hall) or → 9 (Weighing Hall) |
+| 3 | The Five-Hundred-Foot Hall | → 3a (the Late Cats, optional) → 4 (Stair Room) or → 10 (Shrinking Doors) |
+| 4 | The Stair Room | → 5 (the drafted orchard) |
+| 5 | **The Drafted Orchard** *(fixed node)* | → Depth 4 |
+| 6 | The Long Larder | → 11 (Held-Breath Room) or → 12 (the Cutter's Rest) |
+| 7 | The Waiting Room of Twins | → 9 (Weighing Hall) or → 12 (the Cutter's Rest) |
+| 8 | The Match-Struck Hall | → 5 (the drafted orchard) |
+| 9 | The Weighing Hall | → 5 (the drafted orchard) |
+| 10 | The Shrinking Doors | → 5 (the drafted orchard) |
+| 11 | The Held-Breath Room | → 5 (the drafted orchard) |
+| 12 | The Cutter's Rest | → 5 (the drafted orchard) |
+
+**Doors are the entry's first choice, made visible up front:** the low door
+(child height) leads to Room 1; the very tall, narrow door leads to Room 2;
+the ordinary-looking one leads to Room 3. Whichever they don't take stays
+there, unexplored — perfectly fine, since every branch reaches the orchard
+eventually.
+
+**1. The Nursery.** One-third scale, perfect in every detail down to a
+half-finished sampler on a tiny frame. The party doesn't shrink to fit — they
+simply don't fit, and have to crouch, crawl, or break furniture to move
+through it at all, which is its own kind of horror after three sessions of
+rooms that were merely wrong, not physically obstructive.
+
+**2. The Ceiling Parlour.** Furnished, fire lit, gravity pointing at the
+ceiling instead of the floor. Stepping through the doorway means falling
+*up* twelve feet onto a rug. Getting back down is easy — the doorway they
+came through still has ordinary gravity on the other side of its threshold —
+but the horror is watching a teammate stand on a ceiling, upside down
+relative to everyone still in the corridor, having an entirely normal
+conversation about it.
+
+**3. The Five-Hundred-Foot Hall.** A single straight hallway, five hundred
+feet of it, one window at the far end showing the orchard in the wrong
+season. **Optional fight: the Late Cats** (see *Two avoidable fights*,
+below) doze across the path at the halfway mark.
+
+**4. The Stair Room.** No floors, no landings — stairs meeting stairs at
+every angle, going up in every direction including down. Climbing any of
+them long enough, in any direction, eventually deposits the party on a
+landing that opens directly onto Room 5. There is no wrong staircase here,
+only a disorienting one.
+
+**5. The Drafted Orchard** *(fixed node — every branch leads here)*. An
+orchard, indoors, in a hall with no visible end: wood-coloured measured
+space, trees at exactly correct spacing, no bark on any of them, and a
+still, birdless quiet that anyone who was in session 1 will recognise
+instantly — *this is what was outside the windows.* That recognition is the
+single best continuity beat in the campaign; give them a moment with it —
+**and then let somebody spot the still bear**, motionless between two trees
+a hundred feet off. (See *Two avoidable fights*, below. The orchard is a
+place; the owlbears in it are optional and skippable.) The far end of the
+orchard, however the party reaches it, is the way down to Depth 4.
+
+**6. The Long Larder.** A larder hallway lined with shelved preserves that
+get visibly, steadily smaller toward the far end — jars the size of a fist,
+then a thumbnail, then a grain of salt, arranged with total consistency.
+**Walking its length does not shrink anyone or anything they carry** — the
+far door, reached in the ordinary number of steps, is a completely normal
+size once you're standing in front of it. It's a rendering error made
+physical, not a transformation, and a curious player who checks (measuring
+their own boots against the "shrunk" floor, say) can work that out for
+themselves. **Optional find:** a genuinely tiny, genuinely real preserve jar
+near the midpoint, still sized however small it looked from a distance even
+after being carried back out to normal-scaled rooms — a harmless, sellable
+curiosity (a few gp to the right collector, nothing more).
+
+**7. The Waiting Room of Twins.** Two identical armchairs face each other
+across a low tea table, laid for two. A mirror on the far wall reflects the
+room — and whoever sits in either chair sees their reflection sit down
+roughly **a half-second late**, then perform a slightly different small
+gesture than the one they actually made. Nothing hostile; a demonstration
+that time itself has started running thick and inexact down here, the same
+way space already has. Sitting and simply watching the delay for a minute is
+free, safe, and deeply unsettling — spend it if the table wants atmosphere.
+
+**8. The Match-Struck Hall.** A long hall in perpetual near-dark. Striking a
+light — a match, a cantrip, a lantern's flame catching — reveals, for that
+one instant only, that the hall's true proportions are wrong: walls a third
+too close, a ceiling a third too low, doorways subtly displaced from where
+they appeared in the dark. The moment the light goes out or steadies, the
+hall looks ordinary again. Nothing attacks here; it's pure atmosphere, and a
+party that keeps a light burning continuously the whole way through gets to
+watch the wrongness resolve into steady, held focus instead of flickering
+in and out — a small, earned mercy if anyone thinks to try it.
+
+**9. The Weighing Hall.** Dominated by an oversized merchant's balance-scale,
+crated at the centre of the room. One pan holds a smooth stone stamped with
+a number; the other is empty. **Setting any object in the empty pan tips the
+scale to a new, different number, chalked automatically on a slate
+underneath** — the room measuring whatever's offered it, indifferent to
+what the object actually is. Nothing bad happens if the party experiments;
+it's the clearest hands-on demonstration in Depth 3 of the instrument
+treating everything, always, as a quantity to be recorded and nothing else.
+
+**10. The Shrinking Doors.** A short corridor of doors that get visibly
+smaller toward the far end, the last one doll-sized. **Every door, at
+whatever size it appears, opens onto a completely normal-sized room or
+corridor beyond it** — matching Room 6's lesson from the opposite angle
+(the *doors* lie about scale here, rather than the shelves). A party that's
+already solved the Long Larder will recognise the trick immediately and
+should be allowed to say so.
+
+**11. The Held-Breath Room.** A plain room where sound arrives several
+seconds late. Speak, and hear yourself a few seconds afterward, faintly
+wrong — a half-tone off, or in a voice not quite matching. Time is
+audibly thick here in a way session 3 has otherwise only shown visually
+(the Waiting Room of Twins). No danger; let the party talk to themselves
+across the delay if they want to.
+
+**12. The Cutter's Rest — the depth's major discovery.** A small side
+chamber built to ordinary, human scale — the only room in Depth 3 that
+isn't wrong, which itself should feel wrong after everything else. A
+long-cold campfire ring of stones. A rolled, rotted bedroll. A tin cup.
+**Half-buried in the ash: a fist-sized fragment of worked stone, carved with
+a single mark cut twice, identically, side by side** — see
+[`REWARDS.md`](REWARDS.md) for **the Twice-Cut Token**, if the party hasn't
+already found one on the oblex. Tucked under the bedroll, a scrap of
+genuine, mortal-made parchment, brittle but legible, bearing a few lines of
+an old surveyor's dedication — a prayer, of sorts, to something called **"the
+Measure."** This is the first time that name appears anywhere in the
+adventure, in a hand that is unmistakably human and unmistakably old. Don't
+explain it. This is deliberately somebody's campsite from a very long time
+ago — see Change #15, below, for whose.
+
+*Scaling: 3–4 PCs — run six of the twelve rooms (the entry three plus three
+picks toward the orchard); the rest are cut, not simplified. 5–6 PCs — run
+eight to ten.*
 
 ### Two avoidable fights
 
@@ -822,21 +1213,50 @@ and afterwards there's nothing inside any of them.
 
 *Scaling: at 3–4 PCs, run one of the two, not both.*
 
-### Two more presences (planted set-pieces, not fights)
+### More presences (planted set-pieces, not fights)
 
-Neither of these is meant to be fought. Both are texture between the two
-avoidable fights and the rule-rooms — run one, or both, wherever the session
-is running short.
+None of these is meant to *end* in a fight, even when the party starts one.
+They're texture between the two avoidable fights and the rule-rooms — run
+the followers as a slow-burn thread across as much of depth 3 as the session
+allows, and drop the quoting thing in whichever room fits.
 
-**The follower.** An **intellect devourer** (CR 2), first noticed as a small
-scuffing sound that stops when anyone turns round. It keeps twenty, thirty
-feet back, out of easy light, and it has learned to copy one character's
-walk — the same hitch in the same character's stride, from behind, in the
-dark. **It is not hostile and never attacks unless attacked.** It wants
-nothing from the party; it's here because it followed something in a long
-time ago and never found its way back out, either. Let them glimpse it two or
-three times across depth 3 before anyone gets a clean look. If they corner or
-attack it, run it as printed — it is dangerous if cornered, not before.
+**The followers.** Not one intellect devourer that followed something in and
+got stuck — **three, in sequence, and they are not lost.** They are Veyr's,
+here to watch, imitate, and catalogue the party the way the oblex catalogued
+Ambry, and the escalation across the three is the whole point: **killing the
+observer does not stop the observation.**
+
+- **First follower.** A small scuffing sound that stops when anyone turns
+  round. It keeps twenty, thirty feet back, out of easy light, and has
+  learned to copy one character's walk — the same hitch in the same
+  character's stride, from behind, in the dark. Let them glimpse it two or
+  three times before anyone gets a clean look. **If cornered or attacked, it
+  does nothing at all** — no attack, no Reaction, no attempt to flee. It
+  simply stands there and is killed. Run its printed intellect devourer stats
+  for the purpose of HP and any damage it might incidentally take, but it
+  never once acts against the party. This should feel wrong in a way combat
+  never has before: nothing this dangerous-looking has ever just *let* them.
+- **Second follower.** The moment the party moves on, they hear another one
+  behind them — same scuffing gait-copy, same distance, plainly not the one
+  they just killed (if they check the body, it's still there). It behaves
+  identically to the first, including the same non-resistance if attacked.
+  Two in a row is the point where a table should start finding this
+  unsettling rather than convenient.
+- **Third follower — only if they killed the second too.** It behaves
+  differently from the start: it never lets its distance drop below thirty
+  feet, effortlessly matching any pace the party sets, and it does not
+  approach even when the party stops moving entirely. **If it is ever
+  reduced to 0 hit points, it does not die.** It simply isn't there anymore
+  — no body, no slurry, nothing to loot — and turns up again, distant and
+  watching, within the hour. There is no version of this fight the party can
+  finish. Let them work that out themselves; don't say it outright.
+
+**Play all three utterly without malice.** They never attack first, never
+raise their voice, never react to being spoken to beyond the copied gait.
+The horror is purely that something is here on purpose, has been the whole
+time, and cannot be made to stop by force. (What "Veyr" means is not
+something the party can learn from the followers themselves — see Change
+#12's revelation ladder for where that comes together.)
 
 **The quoting thing.** A **gibbering mouther** (CR 2), encountered filling a
 side room or a dead-end corridor, motionless until approached. It says only
@@ -857,22 +1277,261 @@ if a table is stuck and getting frustrated rather than curious, an
 Investigation check (**DC 13**) lets a character articulate the rule outright
 instead of continuing to guess.
 
-| Room | The law |
-|---|---|
-| **The Hanging** | Nothing can be put down. Anything released stays exactly where you let go of it, at that height, forever. Objects hang in a line into the distance at head height — a lantern, a boot, a chain, a hat — where people gave up carrying them. |
-| **The Watched Door** | A door exists only while **two** people are looking at it. One observer isn't a measurement. Look away and it's gone — not closed, *gone*, unbroken plaster where it was. Crossing means someone holds a door with their eyes while somebody else walks through, and then that person is alone behind a wall. A character alone in here cannot leave, and watches the party vanish one at a time. |
-| **The Slag Room** | Sound is solid. Speak above a murmur and you break something. A century of shouted words is heaped in the corners like slag, still legible. |
-| **The Long Way** | The shortest path is the longest. Walk at the far door and you never arrive. Walk away and you're there in six steps. |
-| **The Unanimous Room** | Everyone must be doing the same thing. Unanimity or nobody moves. The room gives no instruction; it will let them spend twenty minutes proving it. Cut into the plaster above the far door, in a neat surveyor's hand: **ALL AS ONE OR NONE FOR ALL** |
-| **The Slate** | Only what is written is true. A slate on the wall, a stub of chalk. Whatever is on the slate is the case. It currently reads *THE DOOR IS LOCKED.* Erasing it is the answer. Writing something ambitious is the party's idea and you should let it work, once, badly. |
+Each room below gives you the exact rule, what it looks like walking in, what
+the first likely interaction produces, how repeated testing reveals the rule,
+what happens at the edges, the intended way through, and at least one
+alternate solution a clever party can find on their own. **These are rules,
+not puzzles the party solves once and discards** — let them use any of the
+six for their own ends for the rest of the adventure, not just to get through
+the room they're standing in.
 
-**These are rules, not puzzles the party solves once and discards — let them
-use any of the six for their own ends for the rest of the adventure**, not
-just to get through the room they're standing in. A party that remembers the
-Slate exists and hauls a chalk stub back to it later, or that lures something
-into the Unanimous Room to freeze it, has understood the Ell better than one
-that just crosses each room and moves on. Reward that; don't restrict a rule
-to the room it was introduced in.
+#### The Hanging
+
+**Rule:** anything released inside this room stays exactly where it was let
+go — the height, the position, forever. Nothing here falls.
+
+**On entry:** a long, hazy hall. Dozens of ordinary objects hang motionless
+in mid-air at head height and above, strung out into the distance like beads
+on an invisible line — a lantern, a boot, a hat, a coil of rope, a child's
+ball, a half-empty cup tipped mid-pour with its contents frozen in a
+glass-still arc. Nothing supports any of it.
+
+**First interaction:** somebody drops something, on purpose or by accident.
+It does not fall. It simply stays where their hand let go of it.
+
+**How the rule shows itself:** two objects released from different heights
+hang at their own two heights, not the same one — proving it's about the
+point of release, not a floor at some fixed level. A thrown object continues
+its arc until the exact instant it would have left the thrower's control,
+then stops there, hanging along the arc's remaining curve like a paused
+throw.
+
+**Edge cases:** releasing something while walking leaves it hanging at that
+exact point in space, not following the mover. Pouring a liquid freezes it
+mid-stream, rigid and glass-like. Letting go of a *living* creature (a
+willing ally floated or lowered) does **not** hang them — the rule reads
+"released," and nothing alive in this campaign should count as an object; say
+so if a player tries.
+
+**The way through:** there is no forced barrier here — it's a loot room and a
+toy, not a gate. If you want one: a low gap or drop elsewhere in the room can
+be crossed by *deliberately* dropping objects at calculated heights to build
+a suspended, stair-like line across it, then climbing the hanging objects
+like rungs.
+
+**Alternate solution, and the one worth remembering:** anything can be safely
+stored here, forever, in the open, immune to theft, decay, or the fold rule —
+which is exactly the trap discussed in "The strongboxes," below: 800 gold
+pieces or two free hands, never both. A party that returns here later to
+retrieve a cache has understood the room completely.
+
+**Loot here:** the Held Thing — see [`REWARDS.md`](REWARDS.md).
+
+#### The Watched Door
+
+**Rule:** a doorway exists, and can be crossed, only during a moment when at
+least **two** people are looking directly at it. Location doesn't matter —
+both watchers can be on the same side, split one to each side, or one watcher
+plus the person crossing looking at it themselves. Count and simultaneity are
+all that matter.
+
+**On entry:** an ordinary-looking doorframe in a corridor wall. Looked at by
+only one person, it wavers — a heat-shimmer outline, present but somehow
+unconvincing, like a shape glimpsed and then doubted.
+
+**First interaction:** a lone character stares at it and gets the shimmer,
+nothing more. **Two people look at once** — anywhere, any combination — and
+it solidifies into a real, solid, crossable door for as long as both keep
+looking.
+
+**How the rule shows itself:** have them test it deliberately — one watcher,
+shimmer; two watchers, door; either watcher looks away, wall. Let them
+confirm this three or four times before it's load-bearing.
+
+**Edge cases:** if the door reverts to wall while someone is mid-crossing —
+because a watcher was startled, blinded, or simply looked away — **that
+character does not get crushed or trapped.** Rule it as a hard shove back to
+whichever side they were more than halfway from; shaken, not harmed, and
+free to try again. A drafted resident or an animal told to "watch" the door
+does **not** count — the rule wants genuine attention, not eyes pointed at
+it.
+
+**The way through:** one person stays on the near side watching while the
+rest cross one at a time, each crosser plus the watcher satisfying the count.
+**The last two people can cross together**, both looking at the door as they
+step through — they need nobody else.
+
+**Alternate solution:** a reflection counts as looking, if the party thinks
+to use a mirror or still water — letting one physically present person
+effectively watch from an angle they couldn't stand in, useful if the
+corridor geometry makes a normal two-watcher split awkward.
+
+#### The Slag Room
+
+**Rule:** sound above a murmur becomes solid matter. The louder and longer
+the noise, the more of it, and the more dangerous.
+
+**On entry:** a bare stone chamber. Heaped in every corner: dark, rounded,
+slag-like lumps, centuries old, worn glassy-smooth — old shouted arguments,
+solidified and still faintly legible as shapes if you look closely (a fist,
+a snarl, once in a great while an actual half-formed word).
+
+**First interaction:** somebody talks at a normal, conversational volume —
+nothing happens, which is the important first data point. Somebody raises
+their voice or calls out — **a half-second later, dark, rough, gravel-sized
+nodules erupt from the air near where the sound was loudest** and clatter to
+the floor. A full shout produces fist-sized, sharp-edged chunks that fly a
+short distance in roughly the direction the voice carried, hard enough to
+sting — treat a shout or a spell with a loud verbal component as dealing
+**1d4 bludgeoning** to anyone within 10 feet of the speaker, no save, once
+per shout.
+
+**How the rule shows itself:** volume scales the effect predictably —
+whispering, nothing; talking, nothing; raised voice, harmless pebbles;
+shouting or screaming, real shrapnel. Let the party discover the gradient by
+testing it themselves rather than stating the DCs of "loud" up front.
+
+**Edge cases and the fun part:** a word spoken clearly, deliberately, and
+**exactly the same way more than once** sometimes crystallizes into slag
+that vaguely resembles what it named — shout "KEY" three times in a row and
+the resulting lump is crude, roughly key-shaped, and will turn a simple lock
+**once**, badly, before crumbling. This is a genuine tool, not a joke option
+— but it is never fine, never reliable, and never more than a single crude
+use, the same as any ambitious use of the Slate below.
+
+**The way through:** cross at a whisper or in absolute silence; nothing
+stops a quiet party. This room is a behavioural constraint, not a locked
+door — the danger is entirely self-inflicted.
+
+**Alternate solution:** deliberately generating word-slag as improvised
+ammunition, a crude tool, or (with the "shout the same word three times"
+trick above) a one-use object the party actually needs and doesn't have.
+Reward genuine cleverness here; punish nothing except carelessness.
+
+#### The Long Way
+
+**Rule:** motion directly toward the room's far door produces no progress at
+all. Any indirect motion — along a wall, in a spiral, backing away while
+still angling toward it, circling the room's perimeter — produces real
+progress, measured in relative distance to fixed landmarks along the way.
+
+**On entry:** a long room or hall with the exit door plainly visible at the
+far end, looking like an easy, unremarkable walk.
+
+**First interaction:** the party (or one scout) walks straight at the door.
+After what should be more than enough steps to reach it, **it is exactly as
+far away as it started** — not receding, not approaching, simply unmoved
+relative to them.
+
+**How the rule shows itself:** someone frustrated walks along a side wall
+instead (to inspect something, to pace it off, out of sheer irritation) and
+**the door is visibly, measurably closer relative to a landmark on that
+wall** by the time they reach the far corner. A full circuit of the room's
+perimeter brings the door about a quarter of the remaining distance closer
+each time — concrete, repeatable, and something a player can test on
+purpose once they suspect it.
+
+**Edge cases:** any non-direct motion counts, not just wall-hugging —
+walking backward while angling toward the door, a wide spiral toward the
+centre, even side-stepping in a zigzag all bank progress at roughly the same
+rate. Only a dead-straight approach vector produces nothing.
+
+**The way through:** three or four full or partial circuits of the room's
+perimeter, in either direction, reaches the door. It takes longer than the
+room's straight-line size suggests it should, and that's the entire point —
+not a trick to be clever about once and forget, but a rule that keeps
+working if they remember it in a later room shaped like this one.
+
+**Alternate solution:** a party that works out the underlying logic
+("indirect approach banks progress; direct approach doesn't") rather than
+memorising "hug the wall" specifically will correctly generalise it to any
+room built the same way later in the Ell, which is the actual reward for
+understanding it instead of just passing it.
+
+#### The Unanimous Room
+
+**Rule:** everyone conscious and present must be attempting the identical
+action, at the same moment, or **nobody can act or move at all.**
+
+**On entry:** an ordinary room, except that the instant everyone is inside,
+legs stop answering. Not paralysis exactly — more like every individual
+intention arrives a half-second too separate from everyone else's to
+resolve into motion.
+
+**First interaction:** someone tries to step forward. Nothing happens.
+Someone else tries at the same time, in a different direction. Still
+nothing — different actions don't count as unanimous even if simultaneous.
+
+**How the rule shows itself:** it is common, and worth letting happen
+almost by accident, for the whole party to try the *same* thing at once
+early on — everyone draws a weapon at the sound of something, say — and for
+one half-second, everyone can move. Let them notice that themselves before
+explaining anything.
+
+**Edge cases:** an unconscious, restrained, or otherwise non-acting
+creature doesn't count toward the requirement — only conscious, mobile
+people present need to match. Similar-but-not-identical actions (raising a
+weapon vs. drawing one) don't satisfy it; it wants the same verb, not the
+same spirit. Ambry, if he's with them, is a genuine complication here —
+panic makes him bad at doing what everyone else is doing, on purpose,
+consistently, all the way through the room.
+
+**The way through:** someone calls a cadence out loud — *"On three: step
+forward with your left foot"* — and the party moves as one on a count. Not
+hard once understood; the puzzle is entirely in recognising the rule exists.
+
+**Alternate solution:** the rule freezes *anyone* present, including a
+hostile creature that follows them in or is lured inside — a pursuer that
+doesn't do exactly what the party is doing is just as stuck as they'd be.
+A party that lures something dangerous in here and then holds still,
+unanimously, has turned a trap into a cage. Cut into the plaster above the
+far door, in a neat surveyor's hand: **ALL AS ONE OR NONE FOR ALL.**
+
+#### The Slate
+
+**Rule:** whatever is written on the room's slate is true, for as long as
+it's written there, regardless of what was true a moment before.
+
+**On entry:** a plain slate on the wall, a stub of chalk on a string beside
+it. It currently reads: *THE DOOR IS LOCKED* — and the door is.
+
+**First interaction:** erasing the statement entirely unlocks the door, at
+once, cleanly. This is the intended solution and it should feel almost too
+easy the first time.
+
+**How the rule shows itself:** a small, safe demonstration — writing
+something modest and true-adjacent about the room itself (*THE CANDLE IS
+LIT*, if there's an unlit candle nearby) makes it so, instantly and without
+complication, so the party can trust the rule before betting anything large
+on it.
+
+**Edge cases and the ambitious-statement rule:** only one statement can be
+true at a time — writing something new while the old line still stands
+simply doesn't take until the old one is erased. A modest, physically local
+claim (about this room, this door, an object actually present) works
+cleanly and reliably. **An ambitious claim** — something grand, something
+about a place or person not physically here, something the party is
+plainly trying to abuse — still happens, **once, and badly**: it works
+crookedly, incompletely, or with a strange cost (a duplicate left behind, a
+shadow that doesn't match anymore, the slate cracking so it can never be
+written on again this crossing). Decide the specific complication in the
+moment to fit what they wrote; never simply refuse it outright.
+
+**The way through:** erase *THE DOOR IS LOCKED.*
+
+**Alternate solution:** carrying the memory of this room forward. A party
+that hauls a spare chalk stub back to the Slate later, or that remembers a
+locked door *elsewhere* might respond to the same trick if they can get
+something written near it, has understood the Ell rather than merely
+solved a room.
+
+---
+
+**Coordinate these rooms with the revelation ladder where it's useful** —
+none of the six above requires outside lore to solve, and none should ever
+be gated behind it. Any Veyr- or Measure-related evidence placed in or near
+a rule room (see the Cutter's Rest, Room 12 of the Depth 3 bank, for the
+model) should sit *alongside* the puzzle, never as a required key to it.
 
 **Loot here:** the Held Thing, in the Hanging — see [`REWARDS.md`](REWARDS.md).
 
@@ -902,8 +1561,26 @@ and he is not angry about it — mostly he wants to know whether his sister has
 been managing the pressing.
 
 He is a real man, he can walk out with them, and he costs nothing to bring
-along. He is also the payoff for the very first scene: *"It doesn't go
-upstairs, does it. I never was much upstairs."*
+along. **He is also the payoff for the very first scene, and the payoff is
+better than "it wasn't measured upstairs."**
+
+**The real answer (Change #14):** ask him about the stairs, or let him bring
+it up himself, dry and a little embarrassed: his hip has been bad for well
+over a year. He gave up sleeping upstairs long before any of this started —
+he's kept to the kitchen chair, night after night, for longer than Oda likes
+to admit. *"It doesn't go upstairs, does it. I never was much upstairs
+myself, not this last while."*
+
+**That's the whole answer, and it's worse than a missing file.** The draft
+in the kitchen wasn't an incomplete copy of Cass because the instrument
+failed to measure the first floor. It was a *complete* copy of the man the
+Ell had actually, repeatedly, exhaustively measured — and that man had
+already reduced himself to a downstairs life before anyone ever drafted him.
+The Ell didn't get Cass wrong. **It got him exactly right, and what it got
+right was smaller than the whole person.** Say this plainly if the party
+reaches for it; it's the first time the adventure's central mechanism (drafts
+reproduce *behavior*, not identity) becomes personal rather than abstract,
+and it should land quietly rather than as a triumphant explanation.
 
 **If they bring him home**, Oda gets her brother back — and the party has to
 decide, on the ride out, whether to tell him what they killed four of in a
@@ -927,6 +1604,32 @@ lands hardest if you never sold it.
 
 *Voice: answers the question actually asked, never the one implied. Measures
 things with her eyes and says the number without being asked.*
+
+**If they show her Tobin's notebook, or mention "TRUST NO ONE" out loud:**
+she goes quiet for a moment, then admits it's hers. She found a frightened,
+counting boy four days into a wander of his own, a while back by her count,
+pointed him at a fold she knew led home, and wrote the one thing she had time
+for in the only ink she had — scraped ash and substrate-dust from an old
+rule-room, mixed with water. *"I couldn't explain the rest before he had to
+go. I still think about whether one line was enough."* This is optional and
+should feel like a small, real gift if the party thinks to ask — not a
+required beat, and not something she volunteers unprompted.
+
+**Reintroducing the Late Cats (Change #15), if the party avoided them
+earlier:** if the two displacer beasts in the five-hundred-foot hall were
+fought and killed rather than avoided, skip this entirely. If they were
+avoided, they can return once, late in the session, after Hesper has joined
+— and this time they go straight for **her**, not the party. She recognises
+them on sight, a half-second before anyone asks why she's suddenly tense:
+*"These two took three fingers off my left hand, the winter I learned not
+to sleep near open ground. Grew back wrong. I've disliked them ever since."*
+Let her show a genuine old scar or an odd habit (she counts her own fingers
+under her breath sometimes, which nobody's ever asked her about) that this
+retroactively explains. Run the fight as a normal two-beast encounter with
+Hesper as a competent ally combatant rather than a bystander — it isn't
+harder than the original optional version, just personal, and it's the last
+easy fight before the finale. Don't force this if the session is already
+running long; it's a texture beat, not a requirement.
 
 **Tier 2 profile:** Veteran-like if it comes to it; expertise in Investigation
 and Survival; passive Perception 16. Full combat profile in session 4.
@@ -955,17 +1658,51 @@ dozen different scales like a surveyor's field book scratched onto the inside
 of a cathedral. It is not decorative and it is not writing. It is a **plan** —
 the kind a chain-crew produces — carved into the world at full size.
 
-**And anyone who knows the vale can read it.** That's the whole beat.
+**And anyone who knows the vale can read it — build the recognition in three
+explicit stages, each one wider than the last, so the party arrives at the
+conclusion themselves rather than being told it.**
+
+**Stage one: "this is Marchwell."** Nothing here is drawn as itself — a tree
+isn't a tree, it's a punched dot with three numbers beside it (height, girth,
+distance to the next dot); a hedge is one scored line with a figure every so
+often where it changes; a wall or drainage ditch is a long incised groove
+with thickness ticks. Let the party match this notation against things
+they've physically stood in front of:
 
 > The floor of the hall is a hundred feet across and there's a map cut into
-> it, except nothing is drawn as itself. A tree isn't a tree; it's a punched
-> dot with three numbers beside it — height, girth, distance to the next dot.
-> A hedge is one scored line, four hundred feet long, with a figure every
-> so often where it changes. The Ammet is a single unbroken curve running the
-> length of the chamber with depths notched along it. There's the mill bend.
-> There's the ford below Tilbrook. There's the orchard, forty dots in rows,
-> and one of them has a longer tally than the others because it's the big
-> pear tree in Oda Marchwell's yard, and somebody measured it.
+> it. There's the farmhouse footprint, to scale, down to the press-house and
+> the ash-house. There's the lane they rode up. There's the orchard, forty
+> dots in rows — and one of them has a longer tally than the others, because
+> it's the big pear tree in Oda Marchwell's yard, and somebody measured it,
+> once, carefully, a long time before any of you were born.
+
+**Stage two: "this is the land around Marchwell."** Widen the frame without
+changing the notation style — the same dots, lines, and figures simply keep
+going past the farmhouse's edge, because the survey never stopped at a
+property line:
+
+> The pattern doesn't stop at the orchard wall. It keeps going: the sunken
+> lane toward Tilbrook, a scored line with a grade noted every furlong. The
+> mill bend on the Ammet, a single unbroken curve with depths notched along
+> it. The ford below Tilbrook. A cluster of footprint-outlines and height
+> marks that can only be Tilbrook itself.
+
+**Stage three: "this is Ashgarden Vale."** Widen again, using names the
+characters could plausibly know or have heard on the road — **the South
+Road**, **Orchardmere** and its lake, **Saint Veddow's Rest**, the hamlets of
+**Nettlecombe** and **Marrow Cross** — each rendered the same way: roads as
+paired incised lines with distances, settlements as dense clusters of
+footprint-outlines and height marks, hills as nested contour cuts, woods as
+repeating trunk-dots with canopy arcs. **This is the moment to say the
+conclusion out loud if nobody has:** the Ell has measured far more of the
+Material Plane than one farmhouse — an entire named region, obsessively, at
+a scale that took a very long time and a great many hands.
+
+**Optional deeper stage, gated behind a check rather than the core
+revelation:** an Investigation or Arcana check (**DC 18**) traces the
+notation further still, past the edge of anything anyone at the table
+recognises — proof the survey didn't stop at the vale's borders either, and
+a hook for a future one-shot or campaign thread, never resolved here.
 
 **And here they watch it working.** Ahead of them, in the bare floor, a line
 opens — a fresh incision, cut clean, travelling at a walking pace. There is
@@ -1000,35 +1737,68 @@ two nobody can read: **HOW BIG IS A HOME?**
 **Loot here:** the Cut Page, prised loose from the substrate — see
 [`REWARDS.md`](REWARDS.md).
 
-### The arrows and the voices — the answer
+### The reconstruction station — the answer, guaranteed
 
-**Deliver this in the substrate, and make sure they get it.**
+**This is a mandatory revelation. Build it around evidence every table gets,
+regardless of what any individual party actually did or said — player-made
+chalk marks and remembered jokes are welcome bonus texture, never the
+load-bearing proof.**
 
-They find the notation for a corridor they walked through two sessions ago,
-and it is complete: the length of the corridor, the height of the ceiling, the
-position of the rag rug — **and the chalk arrow one of them drew, recorded to
-the inch.** Below it, their own words, transcribed. The joke a fighter made
-about the hats. All of it, filed.
+A side-chamber off the substrate hall, its walls the same pale, warm
+material — except here it isn't still. **Something is actively rebuilding a
+version of the Marchwell kitchen, over and over, a few feet across the
+room.** No visible hands, no machine shape, just measured effect: incisions
+draw themselves into a floor-sized outline of the kitchen; a crude,
+featureless grey shape rises where the range should be, then refines,
+gains proportion, gains the shadow of a cooking surface; a second grey shape
+resolves into something with roughly Cass's height and the memory of a
+cardigan's texture. **The party has already seen this exact kitchen, from
+the inside, in session 1** — that's the point. Use only events guaranteed to
+have happened in every playthrough: the range, the rag rug, Cass shutting
+the door, the corridor the front door opened onto, Ambry's presence
+somewhere in the wider record. If the party made a distinctive chalk mark or
+said something memorable, let this station reproduce it too, precisely,
+alongside the guaranteed material — a genuine bonus, never required for the
+scene to land.
 
-**The instrument measures everything in the Ell, continuously, including
-them.** When somebody chalks an arrow on a wall, that arrow becomes a feature
-of the space, so the survey records it and reproduces it in every copy of that
-corridor — because the copies have to match. The party has spent three
-sessions marking a thing whose entire function is *copying marks*. They have
-been following themselves.
+**Watch it fail, correct, and try again.** The Cass-shape takes three
+attempts to get the cardigan right; the first two are discarded, collapsing
+back into the wall's pale material without ceremony, no drama, just an
+error being erased the way it was made — a line rubbed out. **This is the
+single clearest demonstration in the adventure that the instrument does not
+copy finished rooms — it records reality as measurable data and
+continuously tries to rebuild what it measured, badly, then less badly,
+forever.** A chalk arrow is data the same way a doorframe's height is data.
+A word spoken aloud is data the same way a footstep is. The party has spent
+three sessions marking a thing whose entire function is copying and
+reconstructing marks. They have been following, and feeding, themselves.
 
-The voices are the same mechanism running on sound. The Ell has recorded every
-word anyone has ever said in it and plays them back into the drafts, because a
-room where someone spoke is a room with speech in it.
+**The physical collision, and the revelation ladder's stage 9:** built into
+—not beside, *into*—the reconstruction station's far wall is something the
+station clearly did not make and is not making: a fist-sized fragment of
+worked stone, half-swallowed by the pale substrate material as if it grew up
+around it rather than the reverse, carved with the same mark cut twice,
+identically, side by side that the party may already have from the oblex or
+the Cutter's Rest. **This is mortal work and something older, physically
+occupying the same few feet of space.** Don't explain which came first;
+let the image do it — a measuring-instrument built around, into, and
+oblivious to something that was already here.
 
-**And that's what the oblex was doing.** It was a real creature that got in a
-long time ago and learned to live off the recordings — which is why its
-duplicates were a bargeman and a girl in a confirmation dress it had never
-met. It was reading the file. Killing it didn't stop the file.
+**The voices work the same way, on sound instead of shape.** The Ell has
+recorded every word anyone has ever said in it and feeds those recordings
+back into its reconstructions, because a room where someone spoke is a room
+with speech recorded as one of its features. **And that's what the oblex was
+doing at the midpoint** — a real, native thing that found this file a long
+time ago and learned to live off what it contained, which is why its
+duplicates spoke in voices and phrasings it had no other way to know. It was
+reading the file, not writing it. Killing it didn't stop the file, and this
+room is the file, still running.
 
-Hesper can say the whole thing in two sentences if the party doesn't assemble
-it: *"You've been marking a place that copies marks. You've been chasing
-yourselves since Tuesday."*
+Hesper can say the whole thing in two sentences if the party doesn't
+assemble it themselves: *"You've been marking a place that copies marks.
+You've been chasing yourselves since Tuesday."* She still has no name for
+whatever's carved into that wall fragment, and says so plainly if asked —
+that part is for the party, or a scholar back home, to work out later.
 
 ### The door, and Hesper
 
@@ -1098,20 +1868,19 @@ with these changes, in a room she has had a century to learn:
 
 ### THE OTHER PILLAR — how to run the reveal
 
-**Secretly roll initiative for the Roper the moment this fight starts**, same
-as everyone else — but keep the number on your own sheet, off the visible
-tracker, and don't tell the table it exists. It sits in the room exactly as
-described above: one of two identical pillars, motionless, indistinguishable
-from its twin, its False Appearance doing the work for as long as the dice
-give it. A slow, low-Dex ambush predator usually lands late in the order, so
-the party typically gets a few real rounds against Hesper and the copies
-before anything happens. Let it happen when it happens — don't force it
-early, and don't stall it if it comes up fast.
+**Corrected timing (Change #18): the trigger is Hesper's first turn, not the
+Roper's own initiative.** Don't roll initiative for the Roper at all. It sits
+in the room exactly as described above — one of two identical pillars,
+motionless, indistinguishable from its twin, its False Appearance doing the
+work — and it stays completely inert through the whole fight **until Hesper's
+first turn comes up on the tracker.** That's the cue, not a die roll. The
+party gets however many rounds of setup happen before initiative reaches her
+the first time (usually none or one, since she's a named combatant who
+should act early), and then, right as she's about to act:
 
-**When the Roper's turn comes up for the first time, don't roll for it. Run
-this instead, as a scripted beat outside the normal flow of combat** — best
-timed to land right as Hesper is mid-apology, mid-plea, asking them for
-*one*:
+**Run this as a scripted beat outside the normal flow of combat** — timed to
+land right as Hesper is mid-apology, mid-plea, asking them for *one*, at the
+very start of what would have been her turn:
 
 > It happens between one exchange and the next, and nobody sees it start. One
 > of the two pillars was never a pillar. Six arms come up out of the
@@ -1135,19 +1904,43 @@ below.
 
 **The one way to stop this from ever happening, and the party will never
 know they did:** if they reach **close the file** — answer *HOW BIG IS A
-HOME?* honestly, out loud — at any point *before* the Roper's scripted turn
-comes up, neither pillar ever moves. The survey closes, the instrument
-stops, and whatever was about to happen to Hesper simply doesn't happen.
-Don't tell them how close it was. That's the reward for reaching the good
-ending fast, and it should stay invisible.
+HOME?* honestly, out loud — at any point *before Hesper's first turn comes
+up*, neither pillar ever moves. The survey closes, the instrument stops, and
+whatever was about to happen to Hesper simply doesn't happen. Don't tell
+them how close it was. That's the reward for reaching the good ending fast,
+and it should stay invisible.
 
 ### Endings
 
-**The swap.** Hesper doesn't leave — the other pillar sees to that, unless
-the party closes the file first (see above). They walk out without her, and
+**Change #19, stated plainly: once the Roper and any remaining copies are
+down, there is no further puzzle standing between the party and the door.**
+Hesper already showed them the exit; they already understand the count/list
+mechanics from her, the moment she explained the arithmetic. What happens
+next is a concrete, practical procedure — not a second philosophical gate —
+and *HOW BIG IS A HOME?* is never required to leave, only ever a way to end
+things better than the fight already has.
+
+**Run the close of combat as four plain steps, out loud, at the table:**
+
+1. **Confirm who's standing.** Every PC, Ambry, and Cass (if rescued) — say
+   the names.
+2. **Count the open marks on the doorframe** against the people standing —
+   see the arithmetic above. This is bookkeeping now, not a mystery; they
+   already know why the numbers have to match.
+3. **Check for anything that isn't who it says it is.** Ordinarily this is
+   a non-issue — the doppelganger copies are visibly gone or visibly dead by
+   this point, and nothing else in the finale room can pass for a person.
+   Only if something is genuinely ambiguous (a copy that fled the fight
+   rather than dying, say) does this step have teeth — see "The ugly one,"
+   below, for what a real mistake here costs.
+4. **Cross.**
+
+**The swap** *(what happens if the party doesn't close the file)*. Hesper
+doesn't leave — the other pillar saw to that. They walk out without her, and
 the door doesn't care that they're one short; she was never on the list. It
 costs them a person they'd started to like, and it isn't a choice they got
-to make. That's deliberate.
+to make. That's deliberate, and it's a clean, complete ending on its own —
+no further riddle required.
 
 **Loot:** her chain is on her body — see [`REWARDS.md`](REWARDS.md).
 
@@ -1158,26 +1951,82 @@ check can't buy this and shouldn't be offered; a bad-faith answer simply
 doesn't land and the fight resumes. A true one closes the survey. The
 instrument stops. The Ell folds up into a linen cupboard with everyone
 outside it, Hesper included, for about four seconds — she gets to stand in
-an orchard, in wind, and then she doesn't. **Reached before the Roper's
-scripted turn, this also quietly cancels the reveal entirely** — see **THE
-OTHER PILLAR**, above.
+an orchard, in wind, and then she doesn't. **Reached before Hesper's first
+turn comes up, this also quietly cancels the reveal entirely** — see **THE
+OTHER PILLAR**, above. Either way, once this happens, go straight to step 4
+above: there's nothing left to solve, just a door to walk through.
 
-**The ugly one.** The party doesn't count carefully, and finds out on the lawn
-that they came back six, but not the same six.
+**The ugly one** *(retained only as a concrete counting error, never as a
+punishment for "failing" to answer the question)*. This should only ever
+happen from an actual, adjudicated mistake at steps 2–3 above: the party
+miscounts under pressure, or a fled doppelganger copy slips back into the
+group unnoticed and crosses in place of someone it's impersonating. If you
+use this ending, decide the specific mechanism before it happens — never
+retroactively invent that "they didn't count carefully enough" after the
+fact just because the scene needs drama. Discuss with your table in advance
+whether this ending is in play at all; it can permanently replace a PC and
+is considerably harsher than the rest of the adventure.
 
 ### Coming out
 
-The pantry. The smell of apples going over. Oda Marchwell in the doorway with
-her hands in her apron.
+**Change #20: this is a real epilogue, not a paragraph — the Marchwell
+family and the original writ both get a proper close before anything ends.**
 
-**Optional last beat:** Tobin is standing in the kitchen garden, and before
-anyone says anything he tells them how many of them there are. He's counting
-correctly. You can decide in the moment whether that's a comfort.
+**Through the pantry, into daylight.** The smell of apples going over. Oda
+Marchwell in the doorway with her hands in her apron, and she has clearly
+been standing there the entire time, however long that was on her side of
+the door.
+
+**If the real Cass came back with them:** give this room to breathe. Oda
+doesn't manage words at first — she crosses the yard and simply holds onto
+him. Cass, dry and a little embarrassed even now, deflects the moment almost
+immediately with something practical: whether the pressing got finished,
+whether anyone thought to feed the pigs, whether Oda let Tobin do too much
+of the counting himself. That deflection *is* the reunion — he is
+recognisably, entirely himself from the first word, which is the whole
+payoff of rescuing him at all.
+
+**If the real Cass was not rescued:** Oda has to be told what was living in
+her kitchen for the past month, and that her actual brother may still be
+somewhere in the Ell. Let her reaction be grief without collapse — she has
+already suspected the worst since the moment "Cass" shut that door, and
+being right is not the same as being ready. She doesn't blame the party. She
+asks, once, whether there's any chance of going back for him, and accepts
+"no" or "not today" without an argument, because she already knows the
+answer.
+
+**Tobin's beat.** Give him a small, human moment distinct from his optional
+headcount — he was the first person in this family to survive the Ell and
+come back, and nobody has ever quite known how to talk to him about it.
+Something as simple as him quietly telling one PC, unprompted, that it does
+get easier to stop counting eventually — even if that isn't entirely true —
+does more work than a full scene. **Optional last beat:** he's in the
+kitchen garden, and before anyone asks, he tells them how many of them there
+are. He's counting correctly. Decide in the moment whether that's a comfort.
+
+**Then the writ.** Surviving the Ell doesn't erase the reason they came.
+Once the reunion has had its moment and the party has had a chance to eat,
+rest properly, and let the silver get sorted (see "The prisoner and the
+silver," below), **escort Ferris Ambry back to the tithe office that issued
+the warrant** and turn him in. Collect the arrest fee (150gp, theirs
+regardless) and the recovery fee (10% of whatever silver actually made it
+out — see REWARDS.md) from the presiding tithe-official. This is a short,
+low-stakes scene, and it should feel almost startlingly mundane after four
+sessions in the Ell — deliberately so. **The legal and moral disposition of
+Ambry himself is left entirely to the party;** some tables will turn him in
+without a second thought, some will quietly let the paperwork be vague about
+exactly how cooperative he was. Both are correct endings.
 
 **And whatever they did, everyone who came out is slightly wrong, forever, in
 a way that is never a mechanical penalty.** Each player picks or rolls one
 from the "What You Came Back With" table in [`REWARDS.md`](REWARDS.md) —
 that's the canonical copy; this beat is just the cue to run it.
+
+**Closing shape of the whole adventure:** escape → Marchwell family
+reunion/resolution → brief recovery → escort Ambry back → turn in the
+fugitive and settle the fees. Nothing about the original mundane warrant job
+gets skipped just because something ancient and impossible happened on the
+way to finishing it.
 
 ---
 
@@ -1202,7 +2051,9 @@ baggage that talks.
   pulled out of things. In the rule-rooms he's a full extra body to manage:
   in the unanimity room he has to be doing the same thing as everyone else,
   and he is bad at that.
-- **He counts on the tally.** One scratch, cut an hour before theirs.
+- **He counts on the tally.** One scratch, cut about two hours before theirs
+  — the length of the chase that got him here first (see "The chase,"
+  Session 1).
 
 **The quiet ending nobody plans for:** by session 4 he is a man they have
 carried, fed and nearly died for, and the writ is a piece of paper from a
@@ -1246,29 +2097,37 @@ Nothing in this adventure is left open. If a player asks, there is an answer,
 and you should give it — either in play through the substrate and Hesper, or
 flat out at the table afterwards.
 
+*Revised for Change #1's new ontology (Veyr, the Echo, and the Measure —
+see `PREMISE.md` and the campaign canon files it links to). A few of these
+answers are now genuinely uncertain even to Hesper — say so plainly where
+noted rather than inventing false certainty.*
+
 | They ask | The answer |
 |---|---|
 | Where did the chalk arrows come from? | Them. The Ell measures everything in it and reproduces every feature in every copy, so their own marks get filed and reprinted ahead of them. |
 | And the voices? | Same mechanism, on sound. Everything ever said in the Ell is recorded and played back into the drafts. |
-| Then what was the oblex? | A real creature that got in decades ago and learned to live off those recordings — which is why its duplicates were people it never met. It was reading the file. It didn't write it. |
-| Who built this? | **Nobody.** Nothing in the Ell was designed — it's a record, not a building. Whatever came through was a *surveyor*, not an architect: it measured this world the way a chain-crew measures a field, wrote it all down, and left. The Ell is the notebook. |
-| Yes, but *who* — do we meet it? | **No, and there is nothing to fight.** It has been gone longer than there are words for and it is not coming back — but it never finished *here*, which is the whole reason the Ell is still running. The count of prior surveys in the substrate is other *places*, not other times: it moved on to survey the rest of the world and left the equipment running behind it, unfinished, the way you'd leave a tool switched on in a room you meant to come back to. Everything it left behind behaves like equipment, not like a creature. |
-| Did it have a mind? | Genuinely unanswerable, and say so plainly at the table rather than hinting. Nothing in the record indicates it ever registered a person as anything but a quantity — no cruelty, no interest, no name for us. Hesper, who has had a hundred years to think about it, calls it **"the chain-crew,"** and she means it flatly and a little contemptuously, the way one surveyor talks about another's sloppy work. |
-| So the instrument is...? | The equipment they left switched on, because the survey was never closed. A theodolite standing on a hill for ten thousand years, still taking readings. It has no plan for the party and no plan at all — it runs on standing rules, not intentions. Installing draft-Cass wasn't a decision about *this* party; it's what the equipment automatically does whenever a house has a resident, because a resident who opens doors generates more to measure. It would have done the same for any family in any house. That's the difference between a rule and a plan, and it's worth being explicit about it if a player presses on why draft-Cass "chose" to trap them. |
-| Do we ever *see* the instrument? | **There is no device. The Ell is the instrument** — the measured space itself is the equipment, the same way a tally is not separate from the wall it's cut into. There is nothing to find, open, break, or switch off, and if the party goes looking for a machine, they are looking for something that was never there. Say so when they ask. |
-| Then how do we know it's real? | **They watch it work three times.** (1) A scratch cuts itself into the doorframe as the last of them crosses, in the first hour of session 1. (2) Their chalk marks are reproduced ahead of them, all session 2. (3) At depth 5 they watch it record *them* — see below. |
-| What does it want? | To finish the survey. Nothing else. It is not malicious, not aware in any way that matters, and has never once noticed a person as a person. |
-| Why can't it finish? | It cannot close the file on a *house*, because a house is not a volume — it is a thing that happens inside one, and there is no unit for that. Hence the question in the substrate, and hence a hundred years of drafting more houses hoping one of them measures differently. |
+| Then what was the oblex? | Not a captive, not lost — **native.** It belongs to the same domain the Ell is folded into, the way a gull belongs at sea. It found this file a long time ago and learned to live off what's recorded in it, which is why its duplicates spoke in voices and phrasings it had no other way to know. It was reading the file, not writing it. |
+| Who built this? | **A mortal order, now extinct, that called itself the Measure.** Surveyor-priests who believed a place measured with total precision would echo permanently in a god's domain, outlasting ordinary memory. They built the Ell to do the measuring. Nobody currently alive knows their name unless they find it written down — see the Cutter's Rest and the reconstruction station. |
+| Do we meet them? Is there someone to fight? | **No, and there never was.** The Measure died out long before anyone at the table was born. Nothing in the adventure is their agent, their ghost, or their servant — what the party fights is either the Ell's own machinery (which has no mind) or things that were already here before the Measure ever arrived (which have their own agenda, not the Measure's). |
+| Why is the Ell still running if its builders are gone? | Because only the order that built an instrument like this could formally close its survey — declare it finished and let it fall dormant. The Measure didn't survive long enough to close most of what it started. Nobody inherited the authority to switch it off, and it has no protocol for stopping on its own. It's simply still doing its last assigned job. |
+| Did it — or they — have a mind? | The Measure certainly did; they were people, with a very specific, very strange belief about permanence. **The Ell itself doesn't** — it runs on standing rules, not intentions. Installing draft-Cass wasn't a decision about *this* party; it's what the equipment automatically does whenever a house has a resident, because a resident who opens doors generates more to measure. It would have done the same for any family in any house. |
+| Do we ever *see* the instrument? | **There is no separate device. The Ell is the instrument** — the measured space itself is the equipment, the same way a tally is not separate from the wall it's cut into. There is nothing to find, open, break, or switch off. What the party *can* see is it working — the reconstruction station, depth 5 — which is the closest thing to "seeing the machine" the adventure offers. |
+| Then how do we know it's real? | **They watch it work at least three times.** (1) A scratch cuts itself into the doorframe as the last of them crosses, in the first hour of session 1. (2) Their chalk marks are reproduced ahead of them, all session 2. (3) At depth 5 they watch a reconstruction station rebuild a version of the Marchwell kitchen from scratch, badly, then less badly — see "The reconstruction station," Session 4. |
+| What does the Ell want? | To finish the survey. Nothing else. It is not malicious, not aware in any way that matters, and has never once registered a person as anything but a quantity. |
+| Why can't it finish? | It cannot close the file on a *home*, because a home is not a volume — it is a thing that happens inside one, and the Measure's instrument has no unit for that. Hence the question in the substrate: **HOW BIG IS A HOME?** — the Measure's own unanswered research question, not a god's. |
 | Why the anchor in the bedroom? Why the gallows? | It has seen those objects. It files them under *things that are in places*. There is no meaning and there never was — this is the one answer players find hardest to accept and it is the truth. |
-| Why does the pantry door only work one way? | The door is a measured feature of the real house. The Ell reproduces it inward, into the draft. From the garden you're looking at the real door on the real house, which has always just gone to the pantry. |
+| Why does the pantry door only work one way? | It isn't the same door working two ways — it's two different doors sharing a frame. The pantry has never had an exterior door; the interior one just stopped requiring anywhere sensible to lead. See "The pantry (the set-piece)," Session 1. |
 | What happened to Tobin? | Nothing supernatural. He spent four days inside a place that counts everything and came out with the habit. He is a boy, he is himself, and he will be counting things for the rest of his life. |
+| Who wrote "TRUST NO ONE" in his notebook? | Hesper, if the party asks her and shows her the notebook — see "Hesper Wick," Session 3. She found him partway through his wander, pointed him at a fold home, and left the one line she had time for, in scraped substrate-ash for ink. Optional; a genuinely satisfying answer if anyone thinks to ask, never required. |
 | Why was it three weeks for Ambry and four hours for us? | Duration is a measured quantity like any other, and the instrument records it inconsistently between drafts. Nobody in the Ell can tell you how long they've been in it. |
 | Who are the polite people at the dinner table? | Test residents. The instrument built them to check whether the rooms worked. They were never anyone and there is nothing to rescue. |
+| What are the followers, really? | Something native to the same domain the Ell occupies, cataloguing the party the way the oblex catalogued Ambry — patient, undirected, and not remotely stoppable by killing the one currently visible. Nobody in the adventure, Hesper included, can tell the party why they're interested, only that they are. |
+| Who or what is "Veyr"? | A name spoken once, by a dying duplicate at the S2 midpoint, and otherwise never explained in play. If the party digs (the Cutter's Rest, the reconstruction station's carved fragment) they'll find a mark, not an explanation. This is deliberate — see the revelation ladder, before Session 1. It's real campaign canon (`03_canon/GODS_AND_FAITHS.md`) if you ever want the full answer for your own prep, but the adventure itself never hands it to the party outright. |
 | Why can't Hesper leave? | The tally. The door gives back exactly the count it took. She came in through a different house, by a door that no longer exists, and has never been on this one's list. |
 | Did anyone ever get out? | Yes — anyone on the list who walked back to their own door. Most people never find it again. The coats in the closet belonged to the ones who didn't. |
 | Why is the light like that? | The instrument recorded illumination as a property of a space rather than something with a source, so the drafts are lit and there is nothing lighting them. |
 | What happens to the Ell after we leave? | **Swap ending:** it keeps running, and in a few years a farmhouse in the next valley grows a wing. **Close-the-file ending:** the survey completes and the instrument stops, for good, everywhere. |
-| What was the thing that killed Hesper? | A Roper — an ordinary predator, not a device or a plan. It doesn't know who Hesper is. It's simply the kind of thing that lives in old, undisturbed measured space, and it had been sitting there, unnoticed, since before the party arrived. Its presence isn't a message. |
+| What was the thing that killed Hesper? | A Roper — an ordinary predator, not a device or a plan, and nothing to do with the Measure or Veyr either. It doesn't know who Hesper is. It's simply the kind of thing that lives in old, undisturbed measured space, and it had been sitting there, unnoticed, since before the party arrived. Its presence isn't a message. |
 
 ---
 
@@ -1282,10 +2141,10 @@ All printed stat blocks, run as written except the oblex's HP (see below).
 | The coats | Rug of smothering ×4 (CR 2, 450 XP) | *Monster Manual* | Empty, and they move like there's someone in them | S2, depth 2 |
 | The door that calls | Mimic (CR 2, 450 XP) | *Monster Manual* | Copies *sounds*, not objects. Always the door they just came through, making the noise of someone they came in with, calling | S2–3 |
 | The late cats | Displacer beast ×2 (CR 3, 700 XP each) | *Monster Manual* | Their displacement is temporal — they're seeing them a second and a half ago | S3, depth 3 |
-| The follower | Intellect devourer (CR 2, 450 XP) | *Monster Manual* | **Not hostile.** Follows at a polite distance like a dog. Has learned to copy one character's walk. Never attacks unless attacked | S3, depth 3 — "Two more presences," below |
-| The quoting thing | Gibbering mouther (CR 2, 450 XP) | *Monster Manual* | Says only the last true thing each character said. Verbatim, in their voice | S3, depth 3 — "Two more presences," below |
+| The followers (×3, in sequence) | Intellect devourer (CR 2, 450 XP each) | *Monster Manual* | Veyr's, not lost. First two never fight back if attacked and simply die; the third keeps 30 ft of distance always and doesn't die when reduced to 0 HP — it just isn't there anymore | S3, depth 3 — "The followers," below |
+| The quoting thing | Gibbering mouther (CR 2, 450 XP) | *Monster Manual* | Says only the last true thing each character said. Verbatim, in their voice | S3, depth 3 — "More presences," below |
 | The still bears | Owlbear ×3 (CR 3, 700 XP each) | *Monster Manual* | Perfect in every particular. None breathes. None blinks | S3, drafted orchard |
-| **The oblex** | **Elder oblex (CR 10, 5,900 XP, 115 HP printed — HP homebrewed further up, see below), plus live Oblex Spawn (CR ¼, 50 XP)** | *Volo's Guide to Monsters* | Speaks in the party's voices. Its duplicates are everyone who came in before. Dies for good at the midpoint — the voices don't stop | **S2 midpoint only** |
+| **The oblex** | **Elder oblex (CR 10, 5,900 XP, 115 HP printed — HP homebrewed further up, see below), plus live Oblex Spawn (CR ¼, 50 XP)** | *Volo's Guide to Monsters* | Native, not trapped — belongs to whatever the Ell is folded into. Speaks in the party's voices. Its duplicates are everyone who came in before. Dies for good at the midpoint — the voices don't stop, and one duplicate's last words are "Veyr remembers you" | **S2 midpoint only** |
 | Hesper Wick | Custom NPC, veteran-derived (base: *Monster Manual*, CR 3, 700 XP) | Custom | The finale, until the other pillar. See her full profile above | **S4 only** |
 | **The other pillar** | **Roper (CR 5, 1,800 XP, printed, unmodified)** | *Monster Manual* | Disguised as one of two identical pillars in the finale room, indistinguishable from its twin, until it isn't | **S4, the finale room — "The Other Pillar," above** |
 
@@ -1350,7 +2209,8 @@ when the Roper does.
 | Hesper HP | 70 | 85 | 95 | 110 |
 | Roper HP (the other pillar) | 93 (printed, no scaling) | 93 | 93 | 93 |
 | Minor encounters/session | 1 | 1–2 | 2 | 2 |
-| Rule-rooms per session 3 | 3 | 4 | 4 | 5 |
+| Depth 3 rooms visited (of 12) | 6 | 6–8 | 8–10 | 8–10 |
+| Rule-rooms per session 3 (of 6) | 3 | 4 | 4 | 5 |
 | **Party copies** (S4) | cap 3 | cap 4 | cap 5 | cap 5 |
 | Avoidable fights (S3) | 1 of 2, single creature | 1 of 2, single creature | both, full counts | both, full counts |
 

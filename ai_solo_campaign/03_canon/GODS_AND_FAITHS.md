@@ -63,6 +63,24 @@ Faith in Orrun centers on the **Three Thresholds** rather than a crowded pantheo
 
 ---
 
+## Minor and Foreign Powers
+
+The Three Thresholds are the faith of Orrun. They are not the only real power in the cosmos — a handful of minor, fringe, or foreign gods are also real, also distant, and receive scattered worship without threatening the Thresholds' primacy or the "no crowded pantheon" rule. Add to this table sparingly, and only when a minor power earns its keep through actual play content.
+
+| Name | Domain | Symbol | Worship |
+|---|---|---|---|
+| **Veyr** | Echoes, memory, repetition, the fear of being forgotten | A single word or mark, carved twice, identically, side by side | Fringe and scattered — surveyors, cartographers, archivists, record-keepers, and mourners anxious that their dead will fade from memory. No temples; small shrines and private household rites only. Not part of the Mourners' Circle or the Last Door faith, and the two are sometimes in quiet tension (see below). |
+
+### Veyr, God of Echoes and Memory
+
+Veyr is real, distant, and minor — a god the way a village shrine is a religion: true, but not what most people mean when they say "the gods." Veyr's worshippers believe that what is measured, repeated, or recorded precisely enough leaves an *echo* that outlasts the thing itself — a form of permanence that has nothing to do with the Last Door or the Quiet Country. A surveyor's field-book, a name spoken correctly at the right grave, a house drawn to the exact inch: these are small acts of devotion whether or not the person doing them knows Veyr's name.
+
+**Folk practice:** some communities — mostly in old surveying and archive-keeping trades — say a dead person's name once more, precisely, some months after the funeral rites are done, "so it echoes kindly, rather than endlessly." This sits in quiet tension with Mourners' Circle practice (which holds that a name spoken three times "opens the door wrong") without contradicting it outright; the two folk traditions simply disagree about what a repeated name does, and neither side is provably right in front of the player.
+
+**DM-only truth:** Veyr's domain is a real plane called **the Echo** (see `COSMOLOGY.md`) — not to be confused with **the Echo Realm**, which is an unrelated regional folk-name some Orrun cultures use for the Last Telling (see `locations/vael/orrun/timelines/the-last-telling`). The two are different cosmological systems that happen to share a word; never conflate them at the table. Veyr's domain and servants are the DM-only backbone of the ancient mortal order called **the Measure** and its surviving instruments (see `DM_ONLY_CANON.md` and `one_shots/the_ell_at_marchwell/`). Veyr did not build those instruments, sanction them, or command the Measure — the same way the Three Thresholds did not sanction the Concord's harvest. Veyr's native servants are simply curious, patient, and still present wherever an instrument of the Measure keeps running.
+
+---
+
 ## Related Files
 
 - [`CANON.md`](CANON.md)

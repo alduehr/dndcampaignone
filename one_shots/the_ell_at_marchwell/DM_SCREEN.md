@@ -42,7 +42,7 @@ Never a warning; always a receipt.
 | **0** | The house | Nothing but the arithmetic |
 | **1** | The repeating house | Marchwell House, drafted, recursing and degrading |
 | **2** | The empty house | Tallow light (no shadows, torches pointless), the hum, **the wrong object** in every room |
-| **3** | The wrong scale | Proportion, gravity-per-room, time thickens |
+| **3** | The wrong scale | Proportion, gravity-per-room, time thickens — 12-room bank, visit 6–10 |
 | **4** | The rules | Physics becomes a property of the room. Drafted people. |
 | **5** | The substrate | No domestic detail. Notation, deep time, the instrument seen working |
 
@@ -86,7 +86,7 @@ if needed: *"sleep where somebody's cut something."*)
 Cut when someone crosses in. **Struck through when they come out.**
 Nothing the Ell made is ever on it (draft-Cass, Hesper).
 
-**Open marks at start:** Cass (1 month) · Ambry (1 hr) · the six of them = **7**
+**Open marks at start:** Cass (1 month) · Ambry (~2 hrs) · the six of them = **7**
 **At the finale:** 6 PCs + Ambry + Cass (if rescued) = **8 open, 9 at the door**
 
 ☐ Party ☐ Ambry ☐ Cass — *count out loud before running the finale*
@@ -97,14 +97,16 @@ Nothing the Ell made is ever on it (draft-Cass, Hesper).
 
 ☐ 1. Repeating house — their own bootprints, one mid-stride facing a wall
 ☐ 2. **Ambry's glove ×3** — same tear, still damp (pair found in the squat)
-☐ 3. Same water stain, twice — same words both times
-☐ 4. Marching order breaks — the *back* of the line comes out at the front
-☐ 5. Ambry's tally wall — doors counted twice, same number, chalk broken
-☐ 6. **TWO OF A THING IS ONE OF A THING** — cut in plaster
-☐ 7. Ambry's rule: *"Don't use a door you've seen before"* (if asked)
-☐ 8. Hesper says it flat (S3 backstop)
+☐ 3. Marching order breaks — the *back* of the line comes out at the front
+☐ 4. Ambry's tally wall — doors counted twice, same number, chalk broken
+☐ 5. **TWO OF A THING IS ONE OF A THING** — cut in plaster
+☐ 6. Ambry's rule: *"Don't use a door you've seen before"* (if asked)
+☐ 7. Hesper says it flat (S3 backstop)
+☐ — Four Casses fight: damaging a doorframe breaks its fold (Change #6,
+  scripted fallback by round 3 if nobody does it themselves)
 
-**Not a gate.** Hesper walks them to the door regardless.
+**Not a gate.** Hesper walks them to the door regardless. *(Change #7: the
+old "same water stain, twice" scene is cut — see the main file.)*
 
 ---
 
@@ -129,7 +131,7 @@ Nothing the Ell made is ever on it (draft-Cass, Hesper).
 | **Oblex (S2)** | **Elder oblex, CR 10 / 115 HP printed (*Volo's Guide to Monsters*) — HP homebrewed further up, see main file** | 200 HP / 12 duplicates, 6 are live Oblex Spawn (CR ¼) |
 | Late cats (S3, avoidable) | Displacer beast CR 3 — displacement is *temporal* | 2 |
 | Still bears (S3, avoidable) | Owlbear CR 3 — doesn't breathe or blink | 3 |
-| The follower (S3) | Intellect devourer CR 2 — **not hostile**, copies a walk | 1 |
+| The followers (S3) | Intellect devourer CR 2 ×3, in sequence — Veyr's, not lost; first two don't fight back, third can't be permanently killed | up to 3 |
 | The quoting thing (S3) | Gibbering mouther CR 2 — echoes their own words back | 1 |
 | **Hesper (S4)** | Veteran-derived custom, **AC 17, HP 110, +8/1d8+4 ×2** | + 1 doppelganger per long rest (cap 5) |
 | **The other pillar (S4)** | **Roper, CR 5, printed, unmodified** | 1 — kills Hesper on a secret initiative roll, then joins the fight |
@@ -153,10 +155,10 @@ apologizes throughout and asks for *one*. Copies (one per long rest, cap 5,
 staggered in one per round from round 2) talk — one echoed line from earlier
 sessions each, in the party's own voice, on their turn or when they drop.
 
-**THE OTHER PILLAR — secretly roll initiative for the Roper at the top of the
-fight.** Keep it off the visible tracker. When its number comes up the
-*first* time, don't roll an attack — run the scripted kill instead, ideally
-landing mid-plea from Hesper:
+**THE OTHER PILLAR — Change #18: the trigger is Hesper's first turn, not the
+Roper's own initiative.** Don't roll initiative for the Roper at all. It
+stays inert until Hesper's first turn comes up on the tracker — that's the
+cue. Run the scripted kill right then, ideally landing mid-plea from Hesper:
 
 > Six arms out of the substrate at once. Throat, both wrists, the hand
 > with the chain, both ankles, and last, almost gently, across her mouth.
@@ -168,8 +170,8 @@ a normal active combatant (printed stats, don't inflate HP — the copies give
 it the action economy it needs) alongside any surviving copies.
 
 **The only save, and they'll never know it worked:** *close the file* (see
-below) landed *before* the Roper's scripted turn quietly cancels the whole
-reveal — neither pillar ever moves.
+below) landed *before Hesper's first turn comes up* quietly cancels the
+whole reveal — neither pillar ever moves.
 
 ### Endings
 - **The swap (default).** Hesper dies to the Roper unless they close the file first. They walk out without her; the door doesn't care, she was never on the list. Not a choice they got to make.
@@ -190,13 +192,29 @@ to dispel · digging = more plaster, then notation
 
 ## IF THEY ASK
 
-**Who built it?** Nobody. A *surveyor*, not an architect. It measured and left.
-**Do we meet it?** No. Nothing to fight. Gone longer than there are words for.
+**Who built it?** **The Measure** — an extinct mortal order of surveyor-
+priests. Not the Ell's own instinct; a specific vanished group with a
+specific (strange) goal. See `PREMISE.md`'s "The truth (DM-only)."
+**Do we meet them? Fight them?** No — they died out long before now. Nothing
+in the adventure is their agent or ghost.
+**Why's it still running?** Only the Measure could formally close a
+survey, and they didn't survive long enough to close this one. Nobody
+inherited the authority; it has no protocol for stopping on its own.
+**What was the oblex, and what are the followers?** Native to whatever the
+Ell is folded into — not lost, not built by the Measure, not servants of
+anyone's plan. They were here first.
+**Who or what is "Veyr"?** A name, spoken once by a dying oblex duplicate,
+never explained in play. Real campaign canon if you want the full answer for
+your own prep (`03_canon/GODS_AND_FAITHS.md`) — the adventure itself never
+hands it to the party. See the revelation ladder, before Session 1 in the
+main file.
 **Where's the machine?** There is none. **The Ell is the instrument.**
 **How do we know it's real?** They watch it work 3×: the scratch cutting itself
-(S1), their chalk copied (S2), the line drawn in the floor recording them (S4,
-depth 5).
+(S1), their chalk copied (S2), the reconstruction station rebuilding the
+Marchwell kitchen from scratch (S4, depth 5).
 **The arrows and voices?** Them. It files every feature and reprints it. They've
 been following themselves. The oblex was reading the same file.
 **Why the gallows in the nursery?** No reason. Filed under *things in places*.
 **Why can't Hesper leave?** Different house, different door, never on any list.
+**Who wrote "TRUST NO ONE" in Tobin's notebook?** Hesper, if asked — optional,
+never required. See "Hesper Wick," Session 3.

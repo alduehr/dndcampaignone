@@ -58,8 +58,12 @@ and they will not care.
 
 ## THE ITEMS
 
-Seven, which is right for six characters over four sessions at this tier. Two
-are found early, three mid, two at the end.
+Nine, which is right for six characters over four sessions at this tier. Two
+are found early, five mid, two at the end. **Items 3a and 3b (the Twice-Cut
+Token and the Echo Stone) are the exception to the loot-the-dead rule** —
+both are real, both survive outside the Ell, and neither belonged to a
+person. They're evidence of something older than the instrument, not
+scavenge from one of its victims.
 
 ### 1. The Ferryman's Token *(uncommon; Coat Closet)*
 
@@ -98,7 +102,42 @@ lift* — and it answers truthfully by hanging still or swinging.
 
 *It cannot answer about people, intentions, or the future.* It measures.
 
-### 4. The Held Thing *(cursed; the Hanging room, depth 4)*
+### 4. The Twice-Cut Token *(uncommon; the oblex's body, or the Cutter's Rest, depth 3)*
+
+A small, worn stone disc, carved with a single mark cut twice, identically,
+side by side. Found on the oblex's body at the S2 midpoint — or, if it's
+missed there, half-buried in the ash of an old campsite in Depth 3's Cutter's
+Rest instead. **Only one exists in this adventure; both are the same find,
+placed in two locations so it's never actually missable.**
+
+It doesn't do anything mechanically remarkable on its own — hold it and
+concentrate, and once per long rest you can tell, with total certainty,
+whether two things you're looking at are truly identical or merely similar.
+Its real value is what it *is*: proof, carried out of the Ell in someone's
+pocket, that whatever the party has been living inside was not simply an
+"ancient measuring process" with nobody behind it. Somebody made this mark on
+purpose, and somebody worshipped whatever it represents. A scholar back home
+would pay well and ask a great many questions neither the party nor this
+document can currently answer.
+
+### 5. The Echo Stone *(uncommon; the oblex chamber, S2 midpoint)*
+
+A smooth grey pebble, warm to the touch, found in the ash where the oblex's
+duplicates collapsed.
+
+**It can hold one spoken phrase at a time.** Speak a short phrase while
+holding it (a few seconds' worth) to record it, replacing whatever was on it
+before. Later, tap it, and it plays the phrase back **perfectly, in the
+original speaker's own voice** — as many times as wanted, until re-recorded.
+
+Inside the Ell, a phrase played back from the stone counts as ordinary sound
+for every purpose that matters here — the Slag Room reacts to it, a mimic
+can be lured or confused by it, the Watched Door doesn't care who's actually
+looking but a played-back voice can still call attention where it's needed.
+Outside the Ell it's simply a novelty, faithful and slightly uncanny. It
+never runs out and never degrades.
+
+### 6. The Held Thing *(cursed; the Hanging room, depth 4)*
 
 Hanging in the air at head height in the line of abandoned objects: **a
 weapon** — pick something the party lacks, a +1 of whatever suits — beautifully
@@ -139,7 +178,7 @@ unless they think it's funny, and some of them will.
 
 *This item exists to be argued about at the table for two sessions.*
 
-### 5. The Cut Page *(the substrate, depth 5)*
+### 7. The Cut Page *(the substrate, depth 5)*
 
 A slab of substrate, prised loose — pale, warm, weightless, and covered in
 notation. **Real, because it isn't a draft; it's a piece of the instrument.**
@@ -153,7 +192,7 @@ notation. **Real, because it isn't a draft; it's a piece of the instrument.**
 - If the party closed the file, it goes inert the moment the instrument stops
   — still valuable, no longer *live*. Tell them afterwards.
 
-### 6. Hesper's Chain *(rare; session 4)*
+### 8. Hesper's Chain *(rare; session 4)*
 
 Sixty-six feet of surveyor's chain, a hundred links, oiled and perfect. She has
 carried it for a century and never once put it down.
@@ -166,7 +205,7 @@ For one minute, they are, and the fold rule applies to them.
 *That is a portable version of the thing that trapped her*, and it works
 anywhere, and that should sit slightly wrong with everyone who understands it.
 
-### 7. What You Came Back With *(everyone, always)*
+### 9. What You Came Back With *(everyone, always)*
 
 Not optional and not a penalty. Each player rolls or picks one, and it's theirs
 permanently.
@@ -188,11 +227,14 @@ should get to be right about that, out loud, forever.
 
 ## SCALING BY PARTY SIZE
 
-**3–4 characters:** cut the Cut Page and one coat-pocket item. Six items for
-four people is plenty and the Honest Weight and the Token do the most work.
+**3–4 characters:** cut the Cut Page and one coat-pocket item; keep only one
+of the Twice-Cut Token / Echo Stone pair rather than both. Six items for four
+people is plenty, and the Honest Weight and the Ferryman's Token do the most
+work.
 
-**5–6:** as written. Seven items across six characters is roughly one apiece
-with the shared ones spread around, which is correct for four sessions.
+**5–6:** as written. Nine items across six characters is roughly one and a
+half apiece with the shared ones spread around, which is correct for four
+sessions.
 
 ---
 
