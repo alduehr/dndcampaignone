@@ -81,11 +81,19 @@ that domain. They were surveyors, not mystics — no grand theory, no bargain
 with Veyr, nothing so tidy. They found a god's realm and did the only thing
 surveyors know how to do with a place: **they tried to measure it.** They
 staked out a plot of the Echo to survey — they called that plot an **Ell** —
-and built **equipment** to actually do the measuring: chains, calibration
-rigs, drafting engines, reconstruction apparatus. It's the equipment, not
-the Echo and not the Ell itself, that leans on the domain's own law so that
-anything truly identical to something else stops being two things and
-becomes one thing with two doors.
+and built **equipment** to do the actual measuring: chains, calibration
+rigs, drafting engines, reconstruction apparatus.
+
+**The equipment only measures. It has never built, made, or produced
+anything.** Making is not a mortal skill here, and it never was — it's
+native to the Echo itself, the one thing that domain has always done on its
+own. What the equipment does is *ask*, continuously and with total
+precision, and the Echo *answers* the way its whole nature answers
+anything: by echoing it back, made real. Measure a thing closely enough,
+long enough, and the domain reproduces it — which is also why identical
+things fold together into one: the Echo isn't drawing two pictures of the
+same subject, it's answering the same question twice and getting, correctly,
+the same answer both times.
 
 **It went wrong the way professional habit goes wrong, not the way ambition
 does.** A field has an edge. A hill has a top. A home doesn't have either —
@@ -127,21 +135,26 @@ the villain.** The oblex, the follower, and anything else native to the Echo
 that the party meets are not the Measure's creations and never served the
 Measure. They are simply what already lived in the region of Veyr's domain
 the Measure staked out as their Ell, and they have taken a long, patient,
-undirected interest in whatever the leftover equipment keeps producing — the
-way gulls follow a fishing boat, not the way a jailer runs a prison. The
+undirected interest in whatever the Echo keeps echoing back in answer to the
+leftover equipment's endless measuring — the way gulls follow a fishing
+boat, not the way a jailer runs a prison. The
 horror here is entirely the Measure's: an ancient, well-meant, unfinished
 piece of mortal work that outlived everyone who understood it.
 
-**Drafts, and their one consistent flaw.** The equipment measures by making
-drafts — approximations built out of folded, repeated space. It has drafted
-the vale, the orchards, the weather, and the Marchwells' house, over and
-over, at increasing and then decreasing fidelity as its errors compound. Its
-drafts fail in one consistent direction, baked into how the Measure worked:
-**they surveyed a place from the outside, exhaustively, long before anyone
-on the crew ever needed to live inside one house for a single day.** A draft
-of a person is built the same way — a very good, very thorough set of
-externally observed measurements, standing in for someone the equipment
-never actually understood.
+**Drafts, and their one consistent flaw.** A "draft" is what the Echo
+answers with — an approximation, echoed back out of folded, repeated space,
+in response to whatever the equipment has been measuring. The Echo has
+answered for the vale, the orchards, the weather, and the Marchwells' house,
+over and over, at increasing and then decreasing fidelity as the equipment's
+own errors compound and get echoed back faithfully along with everything
+else. Every draft fails in one consistent direction, baked into how the
+Measure worked: **they surveyed a place from the outside, exhaustively,
+long before anyone on the crew ever needed to live inside one house for a
+single day.** A draft of a person answers the same question the same way —
+the Echo can only echo back what was actually measured, and what was
+measured of a person was a very good, very thorough set of externally
+observed data, standing in for someone the equipment never actually
+understood.
 
 **And the survey has been stalled here for longer than a century**, because
 the Measure's own project could never close the file on a *home* — a home

@@ -7,8 +7,9 @@
 
 ## THE ONE RULE: LOOT THE DEAD, NOT THE ROOMS
 
-**Nothing the Ell made survives outside it.** Everything in those rooms is a
-draft — an approximation built out of measured space — and the instrument is
+**Nothing drafted survives outside the Ell.** Everything in those rooms that
+wasn't carried in by a real person is a draft — an approximation the Echo
+answered with, in response to the equipment's measuring — and the Echo is
 the only thing maintaining it. Carry a drafted candlestick out through the
 pantry door and by the time you reach the lane it's a smear of grey nothing on
 your palms.
@@ -62,8 +63,8 @@ Nine, which is right for six characters over four sessions at this tier. Two
 are found early, five mid, two at the end. **Items 3a and 3b (the Twice-Cut
 Token and the Echo Stone) are the exception to the loot-the-dead rule** —
 both are real, both survive outside the Ell, and neither belonged to a
-person. They're evidence of something older than the instrument, not
-scavenge from one of its victims.
+person. They're evidence of something older than the Measure's equipment,
+not scavenge from one of its victims.
 
 ### 1. The Ferryman's Token *(uncommon; Coat Closet)*
 

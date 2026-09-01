@@ -69,10 +69,11 @@ back — her brother, her son, neither, both — is the party's doing.
 climax.
 
 **DM-only, from the first scene.** This is not Cass. The real man went into the
-Ell a month ago; the instrument put a draft of him back in the house, because
-a resident who opens doors brings it more to measure. It is not malicious and
-barely a person. It does one deliberate thing in its whole existence and it
-does it in the first ten minutes.
+Ell a month ago; the equipment measured him thoroughly enough that the Echo
+answered with a draft of him, back in the house, because a resident who opens
+doors brings the equipment more to measure. It is not malicious and barely a
+person. It does one deliberate thing in its whole existence and it does it in
+the first ten minutes.
 
 **Appearance.** Sixties, cardigan, broken thumbnail. Sleeps in the kitchen
 chair. Drinks.

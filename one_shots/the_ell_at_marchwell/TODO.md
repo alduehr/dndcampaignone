@@ -79,7 +79,7 @@ Full narrative rewrite of `THE_ELL_AT_MARCHWELL.md`, `PREMISE.md`,
    you" death-line and two new loot drops (the Twice-Cut Token, the Echo
    Stone — see REWARDS.md #4–5).
 9. [x] **The false Marchwell house is now a fresh depth-2 reconstruction**
-   that destabilizes around the party, with a distant scream transitioning
+   that destabilizes around the party, with a distant, inhuman screech transitioning
    into Session 3, rather than a literal loop back to a depth-1 copy.
 10. [x] **Depth 3 expanded into a 12-room traversal bank** with explicit
     exits, loot, and one major discovery (the Cutter's Rest).
