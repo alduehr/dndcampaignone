@@ -8,9 +8,10 @@
 ## THE ONE RULE: LOOT THE DEAD, NOT THE ROOMS
 
 **Nothing drafted survives outside the Ell.** Everything in those rooms that
-wasn't carried in by a real person is a draft — an approximation the Echo
-answered with, in response to the equipment's measuring — and the Echo is
-the only thing maintaining it. Carry a drafted candlestick out through the
+wasn't carried in by a real person is a draft — an approximation the Echo's
+own ceaseless, independent change folded into being near whatever the
+equipment happened to be measuring — and the Echo is the only thing
+maintaining it. Carry a drafted candlestick out through the
 pantry door and by the time you reach the lane it's a smear of grey nothing on
 your palms.
 

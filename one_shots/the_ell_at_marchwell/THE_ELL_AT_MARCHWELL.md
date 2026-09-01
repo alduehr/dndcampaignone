@@ -1780,37 +1780,45 @@ material — except here it isn't still. A piece of the Measure's actual
 equipment stands in the middle of it: an articulated frame of chains,
 lenses, and gauges, sweeping back and forth across a fixed arc, in no hurry,
 taking the same reading over and over. **It isn't building anything. It's
-measuring — and a few feet in front of it, the wall itself is answering.**
+measuring — and it isn't succeeding.** A few feet in front of it, the wall
+itself is remaking itself, over and over, on its own. The frame doesn't
+cause that. It never could. It's simply failed, every single pass, to get
+one clean, final reading of something that will not hold still.
 
-That's where the rebuilding happens, and it's the Echo doing it, not the
-frame: **the substrate is actively assembling a version of the Marchwell
-kitchen, over and over, in the space the equipment keeps sweeping.** No
-visible hands, no construction — just measured effect, echoed back: incisions
-draw themselves into a floor-sized outline of the kitchen; a crude,
-featureless grey shape rises where the range should be, then refines,
-gains proportion, gains the shadow of a cooking surface; a second grey shape
+**The substrate is ceaselessly assembling a version of the Marchwell
+kitchen, over and over, whether or not the equipment is even pointed at
+it.** No visible hands, no construction — just the Echo's own constant,
+native change, taking this recorded shape because this is what's been
+measured here, exhaustively, for the better part of a year: incisions draw
+themselves into a floor-sized outline of the kitchen; a crude, featureless
+grey shape rises where the range should be, then refines, gains
+proportion, gains the shadow of a cooking surface; a second grey shape
 resolves into something with roughly Cass's height and the memory of a
 cardigan's texture. **The party has already seen this exact kitchen, from
 the inside, in session 1** — that's the point. Use only events guaranteed to
 have happened in every playthrough: the range, the rag rug, Cass shutting
 the door, the corridor the front door opened onto, Ambry's presence
 somewhere in the wider record. If the party made a distinctive chalk mark or
-said something memorable, let the Echo answer with that too, precisely,
-alongside the guaranteed material — a genuine bonus, never required for the
-scene to land.
+said something memorable, let it surface here too, precisely, alongside the
+guaranteed material — a genuine bonus, never required for the scene to
+land.
 
-**Watch it fail, correct, and try again.** The Cass-shape takes three
-attempts to get the cardigan right; the first two are discarded, collapsing
-back into the wall's pale material without ceremony, no drama, just a wrong
-answer being taken back the way it was given. **This is the single clearest
-demonstration in the adventure of how the whole place actually works: the
-equipment doesn't copy finished rooms — it measures, continuously, and the
-Echo answers with what was measured, badly, then less badly, forever.
-Nothing here was ever built. It's asked for, and it's given.** A chalk
-arrow is data the same way a doorframe's height is data. A word spoken
-aloud is data the same way a footstep is. The party has spent three
-sessions marking a thing whose entire function is answering marks back.
-They have been following, and feeding, themselves.
+**Watch it fail, and try again anyway, on its own.** The Cass-shape gets
+the cardigan wrong twice before it's right; the first two attempts simply
+stop being — collapsing back into the wall's pale material without
+ceremony, no drama, nothing correcting anything on purpose. It's not being
+corrected. It's just changing, again, the way it never stops changing.
+**This is the single clearest demonstration in the adventure of how the
+whole place actually works: the equipment doesn't copy finished rooms — it
+watches a wall that keeps remaking itself, badly, then less badly, forever,
+completely on its own, and fails to pin any single version of it down.
+Nothing here was ever built, by the equipment or by anyone else currently
+present. It simply won't stop happening.** A chalk arrow is data the same
+way a doorframe's height is data — something the equipment recorded, once,
+among countless other things — but recording it never made this wall move.
+The wall was always going to keep moving. The party has spent three
+sessions marking a place that was already remaking itself before they
+arrived and will go on doing so after they leave.
 
 **The physical collision, and the revelation ladder's stage 9:** built into
 —not beside, *into*—the reconstruction station's far wall is something the
@@ -1838,8 +1846,9 @@ the rest.
 
 **The voices work the same way, on sound instead of shape.** The equipment
 has measured and recorded every word anyone has ever said here, and the
-Echo answers those recordings back into its reconstructions, because a room
-where someone spoke is a room with speech measured as one of its features.
+wall's own ceaseless remaking folds those recordings back in on its own,
+because a room where someone spoke is a room whose constant, independent
+change now includes speech as one more thing it never stops reshaping.
 **And that's what the oblex was
 doing at the midpoint** — a real, native thing that found this file a long
 time ago and learned to live off what it contained, which is why its
@@ -2164,8 +2173,8 @@ noted rather than inventing false certainty.*
 
 | They ask | The answer |
 |---|---|
-| Where did the chalk arrows come from? | Them. The equipment measures everything in the Ell, and the Echo answers every measurement back into every copy — so their own marks get filed and echoed ahead of them. |
-| And the voices? | Same mechanism, on sound. Everything ever said in the Ell is measured, and the Echo answers it back into the drafts. |
+| Where did the chalk arrows come from? | Them. The equipment measures everything in the Ell, and the space itself never stops remaking itself on its own, folding what's been measured back into every copy — so their own marks get filed and echoed ahead of them, with nothing having to answer for it. |
+| And the voices? | Same mechanism, on sound. Everything ever said in the Ell is measured, and the space's own ceaseless changing folds it back into the drafts, the same way it folds in everything else it was ever shown. |
 | Then what was the oblex? | Not a captive, not lost — **native.** It belongs to the Echo itself, the domain this plot was staked out of, the way a gull belongs at sea. It found this file a long time ago and learned to live off what's recorded in it, which is why its duplicates spoke in voices and phrasings it had no other way to know. It was reading the file, not writing it. |
 | Who built this? | **Nobody built the Ell — it's a plot of a god's domain, and the god was here first.** A mortal order, now extinct, called the Measure staked out that plot to survey it, and built the equipment doing the actual measuring: chains, drafting engines, reconstruction apparatus. Surveyors, not mystics — no theology, no bargain, no theory of immortality. Nobody currently alive knows their name unless they find it written down — see the Cutter's Rest and the reconstruction station. |
 | Do we meet them? Is there someone to fight? | **No, and there never was.** The Measure died out long before anyone at the table was born. Nothing in the adventure is their agent, their ghost, or their servant — what the party fights is either the Ell's own machinery (which has no mind) or things that were already here before the Measure ever arrived (which have their own agenda, not the Measure's). |
@@ -2180,7 +2189,7 @@ noted rather than inventing false certainty.*
 | What happened to Tobin? | Nothing supernatural. He spent four days inside a place that counts everything and came out with the habit. He is a boy, he is himself, and he will be counting things for the rest of his life. |
 | Who wrote "TRUST NO ONE" in his notebook? | Hesper, if the party asks her and shows her the notebook — see "Hesper Wick," Session 3. She found him partway through his wander, pointed him at a fold home, and left the one line she had time for, in scraped substrate-ash for ink. Optional; a genuinely satisfying answer if anyone thinks to ask, never required. |
 | Why was it three weeks for Ambry and four hours for us? | Duration is a measured quantity like any other, and the instrument records it inconsistently between drafts. Nobody in the Ell can tell you how long they've been in it. |
-| Who are the polite people at the dinner table? | Test residents. The equipment measured this room needed occupants to check whether it worked, and the Echo answered with these. They were never anyone and there is nothing to rescue. |
+| Who are the polite people at the dinner table? | Test residents. The equipment recorded, long ago, that this room needed occupants to check whether it worked, and the space's own ceaseless remaking keeps producing them on its own, unprompted, the way it produces everything else it was ever pointed at. They were never anyone and there is nothing to rescue. |
 | What are the followers, really? | Something native to the Echo, the domain this plot was staked out of, cataloguing the party the way the oblex catalogued Ambry — patient, undirected, and not remotely stoppable by killing the one currently visible. Nobody in the adventure, Hesper included, can tell the party why they're interested, only that they are. |
 | Who or what is "Veyr"? | A name spoken once, by a dying duplicate at the S2 midpoint, and otherwise never explained in play. If the party digs (the Cutter's Rest, the oblex, the reconstruction station's carved fragment) they'll find a mark, not a name — but the mark itself does explain something, if they hold the Twice-Cut Token up against the matching carving at the reconstruction station: it isn't a face or a signature, it's the fold rule drawn as a picture of itself, two identical things that are one thing. That's the closest the adventure gets to explaining what Veyr *is* without ever saying so. This is deliberate — see the revelation ladder, before Session 1. It's real campaign canon (`03_canon/GODS_AND_FAITHS.md`) if you ever want the full answer for your own prep, but the adventure itself never hands the name to the party outright. |
 | Why can't Hesper leave? | The tally. The door gives back exactly the count it took. She came in through a different house, by a door that no longer exists, and has never been on this one's list. |
