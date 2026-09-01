@@ -46,6 +46,45 @@ Produce the outstanding physical handouts; otherwise this one-shot is table-read
 
 ---
 
+## 2026-09-01 — The Ell at Marchwell: Interactive Review of the 20-Item Pass (Corrections + Amendments)
+
+### Stage
+Same non-canon one-shot as above. User requested a sequential review of the prior day's 20-item pass, one item at a time (approve/veto/amend), rather than a blanket sign-off.
+
+### Summary
+Walked all 20 items individually with the user. Most were approved as written; several required corrective or expansive edits, in order:
+
+- **Change #9 (twice corrected).** First correction: replaced an "equipment asks, the Echo answers" call-and-response model with one where the Echo changes ceaselessly and spontaneously on its own, independent of measurement, and the equipment cannot cause or trigger any of it, even indirectly — a draft is the equipment's own stale, frozen approximation of a target that kept changing underneath it. Propagated through `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `PREMISE.md`, `THE_ELL_AT_MARCHWELL.md` (the reconstruction station scene, several Q&A rows), `CHARACTERS.md`, `REWARDS.md`. A later user correction (raised again under Change #14) caught three surviving instances of the old, wrongly-causal phrasing the sweep had missed ("the instrument put a draft of him," "what it does with a thing it has measured is make more of them," "the Ell got him exactly right") plus one factual error (grouping Hesper, a real person, in with drafts on a "nothing the Ell made" line) — all corrected.
+- **Change #10 (amended).** The Cutter's Rest's "first mention of the Measure" find was changed from a scrap of parchment/prayer to a physical piece of equipment: a stamped brass-jointed folding rule, per explicit user preference against paper-based lore reveals.
+- **Change #11 (amended).** The third follower's "doesn't die, reappears" behavior was replaced with flat, unexplained invulnerability (no HP loss from any source), and a new fourth-follower contingency was added — an absolutely unbreakable warded copy that appears only if the party finds a hit-point-independent way to threaten the third — establishing there is no trick answer to the followers at all.
+- **Change #12 (amended).** Added concrete physical evidence to Depth 4–5 per user request: inert Measure equipment scattered well beyond the reconstruction station; a Veyr shrine (name cut in stone, generations of real offerings, the doubled mark scratched into the wall in a dozen hands and once in old, unexplained blood); and a dead surveyor with a Measure badge and a rhymed warning-note ("We chain the world; we do not mend it...") establishing the order's law was enforced discipline, not just careful practice. The revelation ladder grew from 9 to 12 stages.
+- **Change #18 (amended).** Removed an invisible pre-fight bypass ("answer HOW BIG IS A HOME before Hesper's first turn and the whole Roper reveal cancels") that the user judged unfair (no clue points at it) and undesirable (it risked skipping the climax fight). The Roper's ambush and Hesper's death are now unconditional; "close the file" survives only as an in-fight, non-rescuing coda.
+- Changes #1–8, #13–17, #19–20 were approved as written from the prior day's pass, with no further edits.
+
+### Files Changed
+- `one_shots/the_ell_at_marchwell/THE_ELL_AT_MARCHWELL.md`
+- `one_shots/the_ell_at_marchwell/CHARACTERS.md`
+- `one_shots/the_ell_at_marchwell/REWARDS.md`
+- `one_shots/the_ell_at_marchwell/DM_SCREEN.md`
+- `one_shots/the_ell_at_marchwell/MAP_SPEC.md`
+- `one_shots/the_ell_at_marchwell/TODO.md`
+- `03_canon/COSMOLOGY.md`
+- `03_canon/DM_ONLY_CANON.md`
+
+### Canon Established
+No new registered proper nouns. Refines the mechanics of already-registered canon (the Echo, the Measure, Veyr) established in the prior day's pass: change in the Echo is native and spontaneous, never caused by mortal equipment even indirectly.
+
+### Indexes Updated
+None required — no new named entities.
+
+### Gaps Identified
+Same as the prior entry (physical handout props still outstanding; encounter math still unverified at level 6).
+
+### Next Recommended Pass
+The one-shot is table-ready as amended. Produce the outstanding physical handouts (Tobin's notebook, Hesper's map, a substrate-notation scrap) when needed.
+
+---
+
 ## 2026-08-08 — locations/vael/orrun Split: Safety Audit + Settlement Public Overview Cleanup (Pass 5)
 
 ### Stage
