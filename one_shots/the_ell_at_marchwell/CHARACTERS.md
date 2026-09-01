@@ -279,9 +279,9 @@ Speed 30 ft.** Prof +4, STR 18 (+4). Multiattack: two Longsword, **+8 to hit,
   repeatedly and reasonably, for *one.*
 - **Scaling:** 3 PCs → HP 70 · 4 → 85 · 5 → 95 · 6 → 110.
 
-**She fights straight — no positioning gimmick.** Mid-fight, she's removed
-from combat by the Roper hidden in the room (see "The Other Pillar" in the
-main file) unless the party closes the file first. She never sees it coming
+**She fights straight — no positioning gimmick.** Mid-fight, she's always
+removed from combat by the Roper hidden in the room (see "The Other Pillar"
+in the main file) — there's no way to prevent it. She never sees it coming
 and neither should the table.
 
 **Her chain** is on her body whether she's killed or the file is closed. See

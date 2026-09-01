@@ -2076,13 +2076,11 @@ smaller party sizes** — with the copies supplying action economy alongside
 it, the printed stat block is correctly tuned; see **ENCOUNTER MATH**,
 below.
 
-**The one way to stop this from ever happening, and the party will never
-know they did:** if they reach **close the file** — answer *HOW BIG IS A
-HOME?* honestly, out loud — at any point *before Hesper's first turn comes
-up*, neither pillar ever moves. The survey closes, the equipment stops, and
-whatever was about to happen to Hesper simply doesn't happen. Don't tell
-them how close it was. That's the reward for reaching the good ending fast,
-and it should stay invisible.
+**There is no way to prevent this.** Nothing the party can say or do before
+Hesper's first turn stops it — they have no reason to suspect anything is
+about to happen, and no clue in the adventure points at "answer the
+substrate's question right now, in this room, before combat starts" as a
+way to save her. This is the climax. Let it land as one.
 
 ### Endings
 
@@ -2109,28 +2107,31 @@ things better than the fight already has.
    below, for what a real mistake here costs.
 4. **Cross.**
 
-**The swap** *(what happens if the party doesn't close the file)*. Hesper
-doesn't leave — the other pillar saw to that. They walk out without her, and
-the door doesn't care that they're one short; she was never on the list. It
+**The swap** *(the default outcome — this always happens)*. Hesper doesn't
+leave — the other pillar saw to that. They walk out without her, and the
+door doesn't care that they're one short; she was never on the list. It
 costs them a person they'd started to like, and it isn't a choice they got
 to make. That's deliberate, and it's a clean, complete ending on its own —
 no further riddle required.
 
 **Loot:** her chain is on her body — see [`REWARDS.md`](REWARDS.md).
 
-**Close the file** *(the better ending, never required, and the only one
-that saves her)*. If anyone has registered the question, they can answer it
-instead of fighting — out loud, honestly, not cleverly. No roll. A Charisma
-check can't buy this and shouldn't be offered; a bad-faith answer simply
-doesn't land and the fight resumes. A true one closes the survey. The
-equipment stops, and everything it was actively holding open collapses back
-down to what it always really was underneath: the whole warped, folded space
-around the party shrinks to an ordinary linen cupboard, with everyone
-standing outside it, Hesper included, for about four seconds — she gets to
-stand in an orchard, in wind, and then she doesn't. **Reached before Hesper's first
-turn comes up, this also quietly cancels the reveal entirely** — see **THE
-OTHER PILLAR**, above. Either way, once this happens, go straight to step 4
-above: there's nothing left to solve, just a door to walk through.
+**Close the file** *(the better ending, never required, and the kindest one
+available — never a way to undo the Roper)*. Once the fight is underway —
+against the copies alone, or after the Roper has already taken Hesper —
+anyone who's registered the question can answer it instead of continuing to
+fight: out loud, honestly, not cleverly. No roll. A Charisma check can't buy
+this and shouldn't be offered; a bad-faith answer simply doesn't land and
+the fight resumes. A true one closes the survey. The equipment stops, and
+everything it was actively holding open collapses back down to what it
+always really was underneath: the whole warped, folded space around the
+party shrinks to an ordinary linen cupboard, with everyone standing outside
+it for about four seconds — Hesper included, however things went for her,
+standing in an orchard, in wind, one last time before it's over. **This
+never undoes the Roper's attack.** If she's already gone, this doesn't
+bring her back — it only gives the ending a moment of grace it wouldn't
+otherwise have. Either way, once this happens, go straight to step 4 above:
+there's nothing left to solve, just a door to walk through.
 
 **The ugly one** *(retained only as a concrete counting error, never as a
 punishment for "failing" to answer the question)*. This should only ever

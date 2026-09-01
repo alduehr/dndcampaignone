@@ -172,13 +172,14 @@ cue. Run the scripted kill right then, ideally landing mid-plea from Hesper:
 a normal active combatant (printed stats, don't inflate HP — the copies give
 it the action economy it needs) alongside any surviving copies.
 
-**The only save, and they'll never know it worked:** *close the file* (see
-below) landed *before Hesper's first turn comes up* quietly cancels the
-whole reveal — neither pillar ever moves.
+**There is no way to prevent this.** Nothing said or done before Hesper's
+first turn stops it — the party has no reason to suspect anything's coming
+and no clue points at answering the substrate's question *right now* as a
+way to save her. This is the climax; let it land.
 
 ### Endings
-- **The swap (default).** Hesper dies to the Roper unless they close the file first. They walk out without her; the door doesn't care, she was never on the list. Not a choice they got to make.
-- **Close the file** — answer *HOW BIG IS A HOME?* honestly, out loud. No roll, no Charisma check. Bad faith doesn't land. Powers down the equipment everywhere; Hesper gets four seconds in an orchard, in wind. Reached in time, also saves her from the Roper.
+- **The swap (default).** Hesper always dies to the Roper. They walk out without her; the door doesn't care, she was never on the list. Not a choice they got to make.
+- **Close the file** — answer *HOW BIG IS A HOME?* honestly, out loud, any time during the fight (before or after the Roper takes her). No roll, no Charisma check. Bad faith doesn't land. Powers down the equipment everywhere; Hesper gets four seconds in an orchard, in wind, whether or not she's already gone. Never undoes the Roper's attack — a kinder coda, not a rescue.
 - **The ugly one** — they don't count, and come back six but not the same six.
 
 ---
