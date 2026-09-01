@@ -1245,10 +1245,12 @@ the followers as a slow-burn thread across as much of depth 3 as the session
 allows, and drop the quoting thing in whichever room fits.
 
 **The followers.** Not one intellect devourer that followed something in and
-got stuck — **three, in sequence, and they are not lost.** They are Veyr's,
-here to watch, imitate, and catalogue the party the way the oblex catalogued
-Ambry, and the escalation across the three is the whole point: **killing the
-observer does not stop the observation.**
+got stuck — **a sequence, and they are not lost.** They are Veyr's, here to
+watch, imitate, and catalogue the party the way the oblex catalogued Ambry,
+and the escalation across the sequence is the whole point: **killing the
+observer does not stop the observation.** Most tables see three. A table
+that tries to force the issue past the third sees a fourth, and that's
+where it ends — see below.
 
 - **First follower.** A small scuffing sound that stops when anyone turns
   round. It keeps twenty, thirty feet back, out of easy light, and has
@@ -1269,13 +1271,32 @@ observer does not stop the observation.**
 - **Third follower — only if they killed the second too.** It behaves
   differently from the start: it never lets its distance drop below thirty
   feet, effortlessly matching any pace the party sets, and it does not
-  approach even when the party stops moving entirely. **If it is ever
-  reduced to 0 hit points, it does not die.** It simply isn't there anymore
-  — no body, no slurry, nothing to loot — and turns up again, distant and
-  watching, within the hour. There is no version of this fight the party can
-  finish. Let them work that out themselves; don't say it outright.
+  approach even when the party stops moving entirely. **It is simply
+  invulnerable.** Run its printed stats for the attack roll and damage
+  numbers if it helps the table track hits, but its hit points never move,
+  by any amount, from any source. It doesn't flinch, retaliate, or
+  acknowledge the attempt in any way — no damage resistance to explain, no
+  saving throw to roll against, nothing to disbelieve or dispel. It simply
+  cannot be hurt. Let the party spend as long on this as they want to; there
+  is no version of this fight force can finish. Don't say so outright —
+  let them work it out by throwing everything they have at it and watching
+  none of it land.
+- **Fourth follower — only if the party finds or already has something
+  that should bypass hit points entirely** (true disintegration, banishment,
+  a wish, anything that shouldn't care whether the target has hit points to
+  lose). The instant such an effect would resolve, a fourth follower is
+  simply already standing where it's needed, wrapped in a faint, unbroken
+  shimmer: **a ward nothing can penetrate, for any reason, full stop.** It
+  absorbs the attempt without visible strain and is otherwise identical to
+  the third — same held distance, same total non-aggression, same silence.
+  This is the adventure's actual last word on the followers, and it should
+  land as one: they are not a puzzle with a trick answer hiding somewhere.
+  They cannot be killed, bypassed, or out-clevered by any means this
+  adventure provides. The only way to stop being watched is to stop being
+  interesting to watch — leave the Ell, or close the file (see "The way
+  home").
 
-**Play all three utterly without malice.** They never attack first, never
+**Play all of them utterly without malice.** They never attack first, never
 raise their voice, never react to being spoken to beyond the copied gait.
 The horror is purely that something is here on purpose, has been the whole
 time, and cannot be made to stop by force. (What "Veyr" means is not
@@ -2213,7 +2234,7 @@ All printed stat blocks, run as written except the oblex's HP (see below).
 | The coats | Rug of smothering ×4 (CR 2, 450 XP) | *Monster Manual* | Empty, and they move like there's someone in them | S2, depth 2 |
 | The door that calls | Mimic (CR 2, 450 XP) | *Monster Manual* | Copies *sounds*, not objects. Always the door they just came through, making the noise of someone they came in with, calling | S2–3 |
 | The late cats | Displacer beast ×2 (CR 3, 700 XP each) | *Monster Manual* | Their displacement is temporal — they're seeing them a second and a half ago | S3, depth 3 |
-| The followers (×3, in sequence) | Intellect devourer (CR 2, 450 XP each) | *Monster Manual* | Veyr's, not lost. First two never fight back if attacked and simply die; the third keeps 30 ft of distance always and doesn't die when reduced to 0 HP — it just isn't there anymore | S3, depth 3 — "The followers," below |
+| The followers (×3–4, in sequence) | Intellect devourer (CR 2, 450 XP each) | *Monster Manual* | Veyr's, not lost. First two never fight back if attacked and simply die; the third keeps 30 ft of distance always and is flatly invulnerable, no hit points lost to any source; a fourth appears only if the party tries to bypass that with a hit-point-independent effect, warded so nothing can penetrate it at all | S3, depth 3 — "The followers," below |
 | The quoting thing | Gibbering mouther (CR 2, 450 XP) | *Monster Manual* | Says only the last true thing each character said. Verbatim, in their voice | S3, depth 3 — "More presences," below |
 | The still bears | Owlbear ×3 (CR 3, 700 XP each) | *Monster Manual* | Perfect in every particular. None breathes. None blinks | S3, drafted orchard |
 | **The oblex** | **Elder oblex (CR 10, 5,900 XP, 115 HP printed — HP homebrewed further up, see below), plus live Oblex Spawn (CR ¼, 50 XP)** | *Volo's Guide to Monsters* | Native, not trapped — belongs to the Echo, the domain the Measure staked this plot out of. Speaks in the party's voices. Its duplicates are everyone who came in before. Dies for good at the midpoint — the voices don't stop, and one duplicate's last words are "Veyr remembers you" | **S2 midpoint only** |

@@ -131,7 +131,7 @@ old "same water stain, twice" scene is cut — see the main file.)*
 | **Oblex (S2)** | **Elder oblex, CR 10 / 115 HP printed (*Volo's Guide to Monsters*) — HP homebrewed further up, see main file** | 200 HP / 12 duplicates, 6 are live Oblex Spawn (CR ¼) |
 | Late cats (S3, avoidable) | Displacer beast CR 3 — displacement is *temporal* | 2 |
 | Still bears (S3, avoidable) | Owlbear CR 3 — doesn't breathe or blink | 3 |
-| The followers (S3) | Intellect devourer CR 2 ×3, in sequence — Veyr's, not lost; first two don't fight back, third can't be permanently killed | up to 3 |
+| The followers (S3) | Intellect devourer CR 2 ×3–4, in sequence — Veyr's, not lost; first two don't fight back, third is flatly invulnerable, fourth (only if HP-bypass is tried) is warded absolutely | up to 4 |
 | The quoting thing (S3) | Gibbering mouther CR 2 — echoes their own words back | 1 |
 | **Hesper (S4)** | Veteran-derived custom, **AC 17, HP 110, +8/1d8+4 ×2** | + 1 doppelganger per long rest (cap 5) |
 | **The other pillar (S4)** | **Roper, CR 5, printed, unmodified** | 1 — kills Hesper on a secret initiative roll, then joins the fight |

@@ -83,9 +83,10 @@ Full narrative rewrite of `THE_ELL_AT_MARCHWELL.md`, `PREMISE.md`,
    into Session 3, rather than a literal loop back to a depth-1 copy.
 10. [x] **Depth 3 expanded into a 12-room traversal bank** with explicit
     exits, loot, and one major discovery (the Cutter's Rest).
-11. [x] **The Follower reworked into three escalating Veyr-servant
-    encounters** — non-resisting, then non-resisting, then uncanny and
-    effectively unkillable.
+11. [x] **The Follower reworked into three-to-four escalating Veyr-servant
+    encounters** — non-resisting, then non-resisting, then flatly
+    invulnerable, and (only if the party tries to bypass hit points
+    entirely) a fourth wrapped in a ward nothing can penetrate at all.
 12. [x] **A cross-session revelation ladder** built and placed before
     Session 1, coordinating every Veyr/Measure lore delivery point across
     Sessions 2–4 with mandatory/optional status.
