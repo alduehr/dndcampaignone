@@ -282,7 +282,7 @@ before anyone tells them there are two piles.
 | 6 (optional) | S3, the real Cass rescue | Drafts are loyal to what was actually, repeatedly measured — not to a whole person. | Doesn't yet say who's doing the measuring or why. |
 | 7 (mandatory once she joins) | S3 end, Hesper | Confirms someone ancient did this on purpose — her own folk-guess, **"the chain-crew."** | She has never learned it has a name, a god, or a reason. Say so if asked; it's true, not evasive. |
 | 8 (mandatory) | S4 opening, the substrate's Ashgarden Vale recognition (see Change #16, below) | Scale: the Ell has measured far more than one house — the whole vale, obsessively, more than once. | Still doesn't say who, or why. |
-| 9 (mandatory) | S4, the reconstruction station (see Change #17, below), a piece of the Measure's own equipment built up against a half-buried carved shape bearing the same doubled mark from the Cutter's Rest and the oblex's token | Concrete mechanism: the equipment measures *behavior*, not just dimension — and mortal-built machinery and something never built by mortals occupy the same space, physically, right there. | Confirms two separate things exist here: mortal equipment, and the older, uncreated domain it was built inside. |
+| 9 (mandatory) | S4, the reconstruction station (see Change #17, below), a piece of the Measure's own equipment built up against a half-buried carved shape bearing the same doubled mark from the Cutter's Rest and the oblex's token | Concrete mechanism: the equipment measures *behavior*, not just dimension — and mortal-built machinery and something never built by mortals occupy the same space, physically, right there. **If the party has the Twice-Cut Token, this is also where the mark itself gets explained** (not named): held against the wall-carving, it reads as the fold rule drawn as a picture of itself. | Confirms two separate things exist here: mortal equipment, and the older, uncreated domain it was built inside — and gives the closest thing to an answer for what that domain's power actually *is*, if not what it's called. |
 | 10 (backstop) | S4, Hesper's own summary, if the party still hasn't pieced it together | Ties stages 1–9 together in her own words — without ever naming Veyr or the Measure, because she genuinely doesn't know them. | The actual names stay a research hook for after the adventure, not a requirement to finish it. |
 
 **Nothing here is required to escape.** A party that never finds the Cutter's
@@ -1636,6 +1636,15 @@ go. I still think about whether one line was enough."* This is optional and
 should feel like a small, real gift if the party thinks to ask — not a
 required beat, and not something she volunteers unprompted.
 
+**If they show her the Twice-Cut Token:** she's seen the mark before —
+scratched small into the corner of an old rule-room, worn into the handle
+of a chain-rig she once found and stripped for parts, always exactly like
+this, always in twos. *"I took it for a maker's stamp. Every smith's proud
+of the same tool twice, I thought."* She's wrong, and she knows it now if
+the party's worked out what the doubled mark actually means — but she was
+alone with that guess for a century, and nobody ever corrected her. Let this
+land as one more piece of her isolation, not a lecture.
+
 **Reintroducing the Late Cats (Change #15), if the party avoided them
 earlier:** if the two displacer beasts in the five-hundred-foot hall were
 fought and killed rather than avoided, skip this entirely. If they were
@@ -1804,6 +1813,19 @@ the Cutter's Rest. **This is mortal work and something older, physically
 occupying the same few feet of space.** Don't explain which came first;
 let the image do it — a measuring-instrument built around, into, and
 oblivious to something that was already here.
+
+**If the party has the Twice-Cut Token, this is where it pays off.** Let
+them think to hold it up against the wall-carving themselves before you
+confirm anything — same mark, same proportions, same everything. Once they
+have, this is the closest the adventure comes to actually explaining what
+"Veyr" is, without ever saying the name: **the mark was never a face, a
+letter, or a maker's stamp. It's the rule, drawn as a picture of itself —
+two things, cut identically, side by side, that are actually one thing.**
+Whatever wears this symbol, whatever it represents, its whole nature is the
+same law the party has been living inside since the front door shut.
+That's not a coincidence to solve. It's the answer, delivered as an image
+instead of a sentence — say only as much as that, and let the table draw
+the rest.
 
 **The voices work the same way, on sound instead of shape.** The Ell has
 recorded every word anyone has ever said in it and feeds those recordings
@@ -2150,7 +2172,7 @@ noted rather than inventing false certainty.*
 | Why was it three weeks for Ambry and four hours for us? | Duration is a measured quantity like any other, and the instrument records it inconsistently between drafts. Nobody in the Ell can tell you how long they've been in it. |
 | Who are the polite people at the dinner table? | Test residents. The instrument built them to check whether the rooms worked. They were never anyone and there is nothing to rescue. |
 | What are the followers, really? | Something native to the Echo, the domain this plot was staked out of, cataloguing the party the way the oblex catalogued Ambry — patient, undirected, and not remotely stoppable by killing the one currently visible. Nobody in the adventure, Hesper included, can tell the party why they're interested, only that they are. |
-| Who or what is "Veyr"? | A name spoken once, by a dying duplicate at the S2 midpoint, and otherwise never explained in play. If the party digs (the Cutter's Rest, the reconstruction station's carved fragment) they'll find a mark, not an explanation. This is deliberate — see the revelation ladder, before Session 1. It's real campaign canon (`03_canon/GODS_AND_FAITHS.md`) if you ever want the full answer for your own prep, but the adventure itself never hands it to the party outright. |
+| Who or what is "Veyr"? | A name spoken once, by a dying duplicate at the S2 midpoint, and otherwise never explained in play. If the party digs (the Cutter's Rest, the oblex, the reconstruction station's carved fragment) they'll find a mark, not a name — but the mark itself does explain something, if they hold the Twice-Cut Token up against the matching carving at the reconstruction station: it isn't a face or a signature, it's the fold rule drawn as a picture of itself, two identical things that are one thing. That's the closest the adventure gets to explaining what Veyr *is* without ever saying so. This is deliberate — see the revelation ladder, before Session 1. It's real campaign canon (`03_canon/GODS_AND_FAITHS.md`) if you ever want the full answer for your own prep, but the adventure itself never hands the name to the party outright. |
 | Why can't Hesper leave? | The tally. The door gives back exactly the count it took. She came in through a different house, by a door that no longer exists, and has never been on this one's list. |
 | Did anyone ever get out? | Yes — anyone on the list who walked back to their own door. Most people never find it again. The coats in the closet belonged to the ones who didn't. |
 | Why is the light like that? | The instrument recorded illumination as a property of a space rather than something with a source, so the drafts are lit and there is nothing lighting them. |

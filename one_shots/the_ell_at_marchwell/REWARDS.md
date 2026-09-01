@@ -118,6 +118,15 @@ devotional in craft and wear — a thing carried against the skin for years,
 not a piece of Ell notation — so it doesn't read as just another instance
 of the fold rule.)*
 
+**It comes back.** Hold it up against the matching carving built into the
+Session 4 reconstruction station and the mark stops being decoration: it's
+the fold rule drawn as a picture of itself, two identical things that are
+one thing. See "The reconstruction station," Session 4 — this is the
+closest the adventure gets to explaining what Veyr *is*, without ever
+naming him. Hesper, if shown the token earlier, has her own half-guess
+about it too (see "Hesper Wick," Session 3) — she took it for a maker's
+stamp, and was never corrected.
+
 It doesn't do anything mechanically remarkable on its own — hold it and
 concentrate, and once per long rest you can tell, with total certainty,
 whether two things you're looking at are truly identical or merely similar.
