@@ -175,7 +175,7 @@ whole reveal — neither pillar ever moves.
 
 ### Endings
 - **The swap (default).** Hesper dies to the Roper unless they close the file first. They walk out without her; the door doesn't care, she was never on the list. Not a choice they got to make.
-- **Close the file** — answer *HOW BIG IS A HOME?* honestly, out loud. No roll, no Charisma check. Bad faith doesn't land. Ends the instrument everywhere; Hesper gets four seconds in an orchard, in wind. Reached in time, also saves her from the Roper.
+- **Close the file** — answer *HOW BIG IS A HOME?* honestly, out loud. No roll, no Charisma check. Bad faith doesn't land. Powers down the equipment everywhere; Hesper gets four seconds in an orchard, in wind. Reached in time, also saves her from the Roper.
 - **The ugly one** — they don't count, and come back six but not the same six.
 
 ---
@@ -192,24 +192,29 @@ to dispel · digging = more plaster, then notation
 
 ## IF THEY ASK
 
-**Who built it?** **The Measure** — an extinct order of surveyors. No
-theology, no bargain, no theory of immortality: they found a god's domain
-and did what surveyors do, and it got away from them. See `PREMISE.md`'s
+**Who built this place?** Nobody — it's a plot of a god's domain (the Echo),
+and Veyr was here long before anyone. **The Measure** — an extinct order of
+surveyors — staked out that plot to survey it and built the equipment doing
+the actual measuring. No theology, no bargain, no theory of immortality:
+they did what surveyors do, and it got away from them. See `PREMISE.md`'s
 "The truth (DM-only)."
 **Do we meet them? Fight them?** No — they died out long before now. Nothing
 in the adventure is their agent or ghost.
-**Why's it still running?** Only the Measure could formally close a
+**Why's the equipment still running?** Only the Measure could formally close a
 survey, and they didn't survive long enough to close this one. Nobody
-inherited the authority; it has no protocol for stopping on its own.
-**What was the oblex, and what are the followers?** Native to whatever the
-Ell is folded into — not lost, not built by the Measure, not servants of
-anyone's plan. They were here first.
+inherited the authority; the equipment has no protocol for stopping on its own.
+**What was the oblex, and what are the followers?** Native to the Echo, the
+domain the Measure staked this plot out of — not lost, not built by the
+Measure, not servants of anyone's plan. They were here first.
 **Who or what is "Veyr"?** A name, spoken once by a dying oblex duplicate,
 never explained in play. Real campaign canon if you want the full answer for
 your own prep (`03_canon/GODS_AND_FAITHS.md`) — the adventure itself never
 hands it to the party. See the revelation ladder, before Session 1 in the
 main file.
-**Where's the machine?** There is none. **The Ell is the instrument.**
+**Where's the machine?** No single one — the Measure's equipment is
+scattered through the Ell, the way a survey crew's tools are scattered
+across a site. The reconstruction station (depth 5) is the one piece the
+party actually sees working.
 **How do we know it's real?** They watch it work 3×: the scratch cutting itself
 (S1), their chalk copied (S2), the reconstruction station rebuilding the
 Marchwell kitchen from scratch (S4, depth 5).

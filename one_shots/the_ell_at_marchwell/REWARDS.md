@@ -104,21 +104,30 @@ lift* — and it answers truthfully by hanging still or swinging.
 
 ### 4. The Twice-Cut Token *(uncommon; the oblex's body, or the Cutter's Rest, depth 3)*
 
-A small, worn stone disc, carved with a single mark cut twice, identically,
-side by side. Found on the oblex's body at the S2 midpoint — or, if it's
-missed there, half-buried in the ash of an old campsite in Depth 3's Cutter's
-Rest instead. **Only one exists in this adventure; both are the same find,
-placed in two locations so it's never actually missable.**
+A small stone medallion worn smooth by handling, on a cord meant for
+wearing — unmistakably someone's personal holy symbol, not a tool or a
+survey-marker, carved with a single mark cut twice, identically, side by
+side. Found on the oblex's body at the S2 midpoint — or, if it's missed
+there, around the neck of whoever camped at Depth 3's Cutter's Rest instead.
+**Only one exists in this adventure; both are the same find, placed in two
+locations so it's never actually missable.**
+
+*(DM-only: this is the actual, registered symbol of the minor god Veyr —
+see `03_canon/GODS_AND_FAITHS.md`. Present it to the players as unmistakably
+devotional in craft and wear — a thing carried against the skin for years,
+not a piece of Ell notation — so it doesn't read as just another instance
+of the fold rule.)*
 
 It doesn't do anything mechanically remarkable on its own — hold it and
 concentrate, and once per long rest you can tell, with total certainty,
 whether two things you're looking at are truly identical or merely similar.
 Its real value is what it *is*: proof, carried out of the Ell in someone's
-pocket, that whatever the party has been living inside was not simply an
-"ancient measuring process" with nobody behind it. Somebody made this mark on
-purpose, and somebody worshipped whatever it represents. A scholar back home
-would pay well and ask a great many questions neither the party nor this
-document can currently answer.
+pocket, that somebody was here on purpose, doing this on purpose, and that
+somebody — apparently — worshipped something while they did it. Not "an
+ancient measuring process with nobody behind it." A person, wearing this,
+believing in whatever the mark represents. A scholar back home would pay
+well and ask a great many questions neither the party nor this document can
+currently answer.
 
 ### 5. The Echo Stone *(uncommon; the oblex chamber, S2 midpoint)*
 

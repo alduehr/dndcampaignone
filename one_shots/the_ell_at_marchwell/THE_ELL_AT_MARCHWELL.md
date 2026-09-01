@@ -246,7 +246,7 @@ is cleaner and costs the party nothing they weren't warned about.)*
 | *Speak with dead* | Accurate, courteous answers about a house the corpse has never seen. |
 | *Detect magic* | One continuous, seamless aura across everything, including the floor. Conjuration — "the way a map is conjuration." |
 | *Augury* / *divination* | Always weal **and** woe. Always. |
-| *Dispel magic* | Nothing to dispel. The Ell isn't a spell; it's a measurement. |
+| *Dispel magic* | Nothing to dispel. The equipment isn't a spell; it's measurement, not magic. |
 | *Passwall* / tunnelling | Works. Behind the plaster is more plaster. Behind that, at depth 4+, is notation. |
 | *Teleport* / *word of recall* | Out of level range, but if it comes up: arrives at the correct destination, which is a drafted copy of it. |
 | *Light* / *darkvision* | Fine at depth 1. From depth 2 the tallow light overrides both — no shadows to see by, nothing to illuminate. |
@@ -264,12 +264,13 @@ written out in full at their own place in the text; use it to keep the
 sequence straight, not as a substitute for reading those scenes.
 
 **Two kinds of evidence, and let the contrast do the work:** everything
-pointing at **the Measure** (the mortal order that built the Ell) looks like
-tools — survey chains, notation, tallies, calibration, drafting. Everything
-pointing at **Veyr and the Echo** (what the Ell was built inside, not by
-Veyr) looks like presence — a voice, a mark cut twice, something watching
-that was never mortal. The party should be able to sort evidence into those
-two piles well before anyone tells them there are two piles.
+pointing at **the Measure** (the mortal order that staked out this region of
+the Echo and left equipment behind) looks like tools — survey chains,
+notation, tallies, calibration, drafting. Everything pointing at **Veyr and
+the Echo** (the domain the Measure surveyed, not one they built) looks like
+presence — a voice, a mark cut twice, something watching that was never
+mortal. The party should be able to sort evidence into those two piles well
+before anyone tells them there are two piles.
 
 | Stage | Where | What lands | What stays open |
 |---|---|---|---|
@@ -281,7 +282,7 @@ two piles well before anyone tells them there are two piles.
 | 6 (optional) | S3, the real Cass rescue | Drafts are loyal to what was actually, repeatedly measured — not to a whole person. | Doesn't yet say who's doing the measuring or why. |
 | 7 (mandatory once she joins) | S3 end, Hesper | Confirms someone ancient did this on purpose — her own folk-guess, **"the chain-crew."** | She has never learned it has a name, a god, or a reason. Say so if asked; it's true, not evasive. |
 | 8 (mandatory) | S4 opening, the substrate's Ashgarden Vale recognition (see Change #16, below) | Scale: the Ell has measured far more than one house — the whole vale, obsessively, more than once. | Still doesn't say who, or why. |
-| 9 (mandatory) | S4, the reconstruction station (see Change #17, below), built up against a half-buried carved shape bearing the same doubled mark from the Cutter's Rest and the oblex's token | Concrete mechanism: the Ell measures *behavior*, not just dimension — and mortal machinery and something never built by mortals occupy the same space, physically, right there. | Confirms two separate things existed here: mortal builders, and something older that they built inside. |
+| 9 (mandatory) | S4, the reconstruction station (see Change #17, below), a piece of the Measure's own equipment built up against a half-buried carved shape bearing the same doubled mark from the Cutter's Rest and the oblex's token | Concrete mechanism: the equipment measures *behavior*, not just dimension — and mortal-built machinery and something never built by mortals occupy the same space, physically, right there. | Confirms two separate things exist here: mortal equipment, and the older, uncreated domain it was built inside. |
 | 10 (backstop) | S4, Hesper's own summary, if the party still hasn't pieced it together | Ties stages 1–9 together in her own words — without ever naming Veyr or the Measure, because she genuinely doesn't know them. | The actual names stay a research hook for after the adventure, not a requirement to finish it. |
 
 **Nothing here is required to escape.** A party that never finds the Cutter's
@@ -882,8 +883,9 @@ It is the only thing in the Ell that is *interested* in them — and it is the
 first solid proof, though the party has no way to know it yet, that the Ell
 is not the only intelligence down here. **This is not a creature that
 wandered in and got stuck.** It belongs here, the way a gull belongs at sea:
-native to whatever part of the world the Ell is folded into, older than
-Marchwell House, patient in a way nothing built by mortals manages to be. Do
+native to the Echo itself, the domain this plot was staked out of, older
+than Marchwell House, patient in a way nothing built by mortals manages to
+be. Do
 not explain any of this to the players yet — see Change #12's revelation
 ladder for where it pays off — but run the creature with that quiet
 confidence in mind. It is not desperate, not opportunistic, not afraid of
@@ -966,8 +968,9 @@ That silence is the level-up. It is the only time in four sessions the party
 gets unambiguous proof that they can *do something* to this place.
 
 **Loot here, on the body — real, not drafted, because the oblex itself was
-never a draft:** a small, worn **stone token** on a cord around where its
-neck would have been, carved with the same mark twice, identically, side by
+never a draft:** a small stone **medallion**, worn smooth, on a cord around
+where its neck would have been — unmistakably a personal holy symbol, not
+survey equipment — carved with the same mark twice, identically, side by
 side — see [`REWARDS.md`](REWARDS.md) for **the Twice-Cut Token**. Tangled
 in with it, a second find: **an Echo Stone**, a smooth grey pebble that was
 sitting in the ash under where the duplicates fell, warm to the touch — see
@@ -1181,11 +1184,13 @@ across the delay if they want to.
 chamber built to ordinary, human scale — the only room in Depth 3 that
 isn't wrong, which itself should feel wrong after everything else. A
 long-cold campfire ring of stones. A rolled, rotted bedroll. A tin cup.
-**Half-buried in the ash: a fist-sized fragment of worked stone, carved with
-a single mark cut twice, identically, side by side** — see
-[`REWARDS.md`](REWARDS.md) for **the Twice-Cut Token**, if the party hasn't
-already found one on the oblex. Tucked under the bedroll, a scrap of
-genuine, mortal-made parchment, brittle but legible, bearing a few lines of
+**Coiled in the cold ash: a small stone medallion on a worn cord**, carved
+with a single mark cut twice, identically, side by side — clearly a
+personal holy symbol, worn smooth by years against skin, not survey
+equipment — see [`REWARDS.md`](REWARDS.md) for **the Twice-Cut Token**, if
+the party hasn't already found one on the oblex. Tucked under the bedroll, a
+scrap of genuine, mortal-made parchment, brittle but legible, bearing a few
+lines of
 an old surveyor's dedication — a prayer, of sorts, to something called **"the
 Measure."** This is the first time that name appears anywhere in the
 adventure, in a hand that is unmistakably human and unmistakably old. Don't
@@ -1921,7 +1926,7 @@ below.
 **The one way to stop this from ever happening, and the party will never
 know they did:** if they reach **close the file** — answer *HOW BIG IS A
 HOME?* honestly, out loud — at any point *before Hesper's first turn comes
-up*, neither pillar ever moves. The survey closes, the instrument stops, and
+up*, neither pillar ever moves. The survey closes, the equipment stops, and
 whatever was about to happen to Hesper simply doesn't happen. Don't tell
 them how close it was. That's the reward for reaching the good ending fast,
 and it should stay invisible.
@@ -1965,9 +1970,11 @@ that saves her)*. If anyone has registered the question, they can answer it
 instead of fighting — out loud, honestly, not cleverly. No roll. A Charisma
 check can't buy this and shouldn't be offered; a bad-faith answer simply
 doesn't land and the fight resumes. A true one closes the survey. The
-instrument stops. The Ell folds up into a linen cupboard with everyone
-outside it, Hesper included, for about four seconds — she gets to stand in
-an orchard, in wind, and then she doesn't. **Reached before Hesper's first
+equipment stops, and everything it was actively holding open collapses back
+down to what it always really was underneath: the whole warped, folded space
+around the party shrinks to an ordinary linen cupboard, with everyone
+standing outside it, Hesper included, for about four seconds — she gets to
+stand in an orchard, in wind, and then she doesn't. **Reached before Hesper's first
 turn comes up, this also quietly cancels the reveal entirely** — see **THE
 OTHER PILLAR**, above. Either way, once this happens, go straight to step 4
 above: there's nothing left to solve, just a door to walk through.
@@ -2128,11 +2135,11 @@ noted rather than inventing false certainty.*
 | Where did the chalk arrows come from? | Them. The Ell measures everything in it and reproduces every feature in every copy, so their own marks get filed and reprinted ahead of them. |
 | And the voices? | Same mechanism, on sound. Everything ever said in the Ell is recorded and played back into the drafts. |
 | Then what was the oblex? | Not a captive, not lost — **native.** It belongs to the same domain the Ell is folded into, the way a gull belongs at sea. It found this file a long time ago and learned to live off what's recorded in it, which is why its duplicates spoke in voices and phrasings it had no other way to know. It was reading the file, not writing it. |
-| Who built this? | **A mortal order, now extinct, that called itself the Measure.** Surveyors, not mystics — no theology, no bargain, no theory of immortality. They found their way into a god's domain and did what surveyors do: tried to measure it. They built the Ell to do that. Nobody currently alive knows their name unless they find it written down — see the Cutter's Rest and the reconstruction station. |
+| Who built this? | **Nobody built the Ell — it's a plot of a god's domain, and the god was here first.** A mortal order, now extinct, called the Measure staked out that plot to survey it, and built the equipment doing the actual measuring: chains, drafting engines, reconstruction apparatus. Surveyors, not mystics — no theology, no bargain, no theory of immortality. Nobody currently alive knows their name unless they find it written down — see the Cutter's Rest and the reconstruction station. |
 | Do we meet them? Is there someone to fight? | **No, and there never was.** The Measure died out long before anyone at the table was born. Nothing in the adventure is their agent, their ghost, or their servant — what the party fights is either the Ell's own machinery (which has no mind) or things that were already here before the Measure ever arrived (which have their own agenda, not the Measure's). |
-| Why is the Ell still running if its builders are gone? | Because only the order that built an instrument like this could formally close its survey — declare it finished and let it fall dormant. The Measure didn't survive long enough to close most of what it started. Nobody inherited the authority to switch it off, and it has no protocol for stopping on its own. It's simply still doing its last assigned job. |
+| Why is the equipment still running if its builders are gone? | Because only the order that built it could formally close its survey — declare it finished and power it down. The Measure didn't survive long enough to close most of what it started. Nobody inherited the authority to switch it off, and the equipment has no protocol for stopping on its own. It's simply still doing its last assigned job. |
 | Did it — or they — have a mind? | The Measure certainly did; they were people, and their motive was mundane, not mystical — they measured things because that's what they did, and this was simply the biggest thing they ever found to measure. **The Ell itself doesn't have a mind** — it runs on standing rules, not intentions. Installing draft-Cass wasn't a decision about *this* party; it's what the equipment automatically does whenever a house has a resident, because a resident who opens doors generates more to measure. It would have done the same for any family in any house. |
-| Do we ever *see* the instrument? | **There is no separate device. The Ell is the instrument** — the measured space itself is the equipment, the same way a tally is not separate from the wall it's cut into. There is nothing to find, open, break, or switch off. What the party *can* see is it working — the reconstruction station, depth 5 — which is the closest thing to "seeing the machine" the adventure offers. |
+| Do we ever *see* the equipment? | **Not as one central machine — it's scattered, the way a survey crew's tools are scattered across a site.** The measured space itself carries a lot of it built in, the same way a tally is not separate from the wall it's cut into. But the party *can* see a distinct, working piece of it: the reconstruction station, depth 5, is the closest thing to "seeing the machine" the adventure offers. |
 | Then how do we know it's real? | **They watch it work at least three times.** (1) A scratch cuts itself into the doorframe as the last of them crosses, in the first hour of session 1. (2) Their chalk marks are reproduced ahead of them, all session 2. (3) At depth 5 they watch a reconstruction station rebuild a version of the Marchwell kitchen from scratch, badly, then less badly — see "The reconstruction station," Session 4. |
 | What does the Ell want? | To finish the survey. Nothing else. It is not malicious, not aware in any way that matters, and has never once registered a person as anything but a quantity. |
 | Why can't it finish? | It cannot close the file on a *home*, because a home is not a volume — it is a thing that happens inside one, and the Measure's instrument has no unit for that. Hence the question in the substrate: **HOW BIG IS A HOME?** — the Measure's own unanswered research question, not a god's. |
@@ -2142,13 +2149,13 @@ noted rather than inventing false certainty.*
 | Who wrote "TRUST NO ONE" in his notebook? | Hesper, if the party asks her and shows her the notebook — see "Hesper Wick," Session 3. She found him partway through his wander, pointed him at a fold home, and left the one line she had time for, in scraped substrate-ash for ink. Optional; a genuinely satisfying answer if anyone thinks to ask, never required. |
 | Why was it three weeks for Ambry and four hours for us? | Duration is a measured quantity like any other, and the instrument records it inconsistently between drafts. Nobody in the Ell can tell you how long they've been in it. |
 | Who are the polite people at the dinner table? | Test residents. The instrument built them to check whether the rooms worked. They were never anyone and there is nothing to rescue. |
-| What are the followers, really? | Something native to the same domain the Ell occupies, cataloguing the party the way the oblex catalogued Ambry — patient, undirected, and not remotely stoppable by killing the one currently visible. Nobody in the adventure, Hesper included, can tell the party why they're interested, only that they are. |
+| What are the followers, really? | Something native to the Echo, the domain this plot was staked out of, cataloguing the party the way the oblex catalogued Ambry — patient, undirected, and not remotely stoppable by killing the one currently visible. Nobody in the adventure, Hesper included, can tell the party why they're interested, only that they are. |
 | Who or what is "Veyr"? | A name spoken once, by a dying duplicate at the S2 midpoint, and otherwise never explained in play. If the party digs (the Cutter's Rest, the reconstruction station's carved fragment) they'll find a mark, not an explanation. This is deliberate — see the revelation ladder, before Session 1. It's real campaign canon (`03_canon/GODS_AND_FAITHS.md`) if you ever want the full answer for your own prep, but the adventure itself never hands it to the party outright. |
 | Why can't Hesper leave? | The tally. The door gives back exactly the count it took. She came in through a different house, by a door that no longer exists, and has never been on this one's list. |
 | Did anyone ever get out? | Yes — anyone on the list who walked back to their own door. Most people never find it again. The coats in the closet belonged to the ones who didn't. |
 | Why is the light like that? | The instrument recorded illumination as a property of a space rather than something with a source, so the drafts are lit and there is nothing lighting them. |
 | Has this happened to Marchwell before — is this an old haunting? | **No, and that's deliberate.** The instrument itself is ancient, but it doesn't sit on one subject forever — once it's drawn what it can from a place, it drifts and settles somewhere new. It only arrived at Marchwell within the last year; Tobin's midsummer disappearance was its first taste of this house, not its hundredth. That's why nobody here has any inherited caution about it — Oda is improvising, not remembering. |
-| What happens to the Ell after we leave? | **Swap ending:** it keeps running, and — the same way it arrived at Marchwell only recently — in a few years it drifts on and a farmhouse in the next valley grows a wing. **Close-the-file ending:** the survey completes and the instrument stops, for good, everywhere. |
+| What happens to the equipment after we leave? | **Swap ending:** it keeps running, and — the same way it started on Marchwell only recently — in a few years it re-points itself and a farmhouse in the next valley grows a wing. **Close-the-file ending:** the survey completes and the equipment stops, for good, everywhere. |
 | What was the thing that killed Hesper? | A Roper — an ordinary predator, not a device or a plan, and nothing to do with the Measure or Veyr either. It doesn't know who Hesper is. It's simply the kind of thing that lives in old, undisturbed measured space, and it had been sitting there, unnoticed, since before the party arrived. Its presence isn't a message. |
 
 ---
@@ -2166,7 +2173,7 @@ All printed stat blocks, run as written except the oblex's HP (see below).
 | The followers (×3, in sequence) | Intellect devourer (CR 2, 450 XP each) | *Monster Manual* | Veyr's, not lost. First two never fight back if attacked and simply die; the third keeps 30 ft of distance always and doesn't die when reduced to 0 HP — it just isn't there anymore | S3, depth 3 — "The followers," below |
 | The quoting thing | Gibbering mouther (CR 2, 450 XP) | *Monster Manual* | Says only the last true thing each character said. Verbatim, in their voice | S3, depth 3 — "More presences," below |
 | The still bears | Owlbear ×3 (CR 3, 700 XP each) | *Monster Manual* | Perfect in every particular. None breathes. None blinks | S3, drafted orchard |
-| **The oblex** | **Elder oblex (CR 10, 5,900 XP, 115 HP printed — HP homebrewed further up, see below), plus live Oblex Spawn (CR ¼, 50 XP)** | *Volo's Guide to Monsters* | Native, not trapped — belongs to whatever the Ell is folded into. Speaks in the party's voices. Its duplicates are everyone who came in before. Dies for good at the midpoint — the voices don't stop, and one duplicate's last words are "Veyr remembers you" | **S2 midpoint only** |
+| **The oblex** | **Elder oblex (CR 10, 5,900 XP, 115 HP printed — HP homebrewed further up, see below), plus live Oblex Spawn (CR ¼, 50 XP)** | *Volo's Guide to Monsters* | Native, not trapped — belongs to the Echo, the domain the Measure staked this plot out of. Speaks in the party's voices. Its duplicates are everyone who came in before. Dies for good at the midpoint — the voices don't stop, and one duplicate's last words are "Veyr remembers you" | **S2 midpoint only** |
 | Hesper Wick | Custom NPC, veteran-derived (base: *Monster Manual*, CR 3, 700 XP) | Custom | The finale, until the other pillar. See her full profile above | **S4 only** |
 | **The other pillar** | **Roper (CR 5, 1,800 XP, printed, unmodified)** | *Monster Manual* | Disguised as one of two identical pillars in the finale room, indistinguishable from its twin, until it isn't | **S4, the finale room — "The Other Pillar," above** |
 

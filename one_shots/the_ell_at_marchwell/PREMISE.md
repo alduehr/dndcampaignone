@@ -63,7 +63,10 @@ and `03_canon/DM_ONLY_CANON.md` ("The Measure, Veyr, and the Echo"). This
 file gives the version scaled for running this one adventure; the canon
 files are the source of truth if they ever diverge.*
 
-**Somebody built the Ell. They are gone, and nobody is left to switch it off.**
+**Nobody built the place the party is standing in. It's real, it's a god's
+domain, and it was here long before the Measure ever found it. What somebody
+built is the equipment that's still running inside it — and nobody is left
+to switch that off.**
 
 There is a minor god named **Veyr** — Echoes, memory, repetition, the fear of
 being forgotten. Not one of the Three Thresholds, not part of any real
@@ -76,56 +79,60 @@ things are the same thing.*
 A long time ago, a mortal order called **the Measure** found their way into
 that domain. They were surveyors, not mystics — no grand theory, no bargain
 with Veyr, nothing so tidy. They found a god's realm and did the only thing
-surveyors know how to do with a place: **they tried to measure it.** What
-they built to do the measuring, they called an **Ell**: a site folded partway
-into the Echo, so that anything inside it which is truly identical to
-something else inside it stops being two things and becomes one thing with
-two doors.
+surveyors know how to do with a place: **they tried to measure it.** They
+staked out a plot of the Echo to survey — they called that plot an **Ell** —
+and built **equipment** to actually do the measuring: chains, calibration
+rigs, drafting engines, reconstruction apparatus. It's the equipment, not
+the Echo and not the Ell itself, that leans on the domain's own law so that
+anything truly identical to something else stops being two things and
+becomes one thing with two doors.
 
 **It went wrong the way professional habit goes wrong, not the way ambition
 does.** A field has an edge. A hill has a top. A home doesn't have either —
 it's a thing that happens inside a volume, not the volume itself — and the
-Measure's instrument had no unit for that, no stopping condition, nothing
+Measure's equipment had no unit for that, no stopping condition, nothing
 telling it *done*. So it kept measuring, closer and closer, deeper and
 deeper, the same way a man who can't stop counting keeps counting. That's
 the whole horror, and it isn't a philosophy. It's a very old, very thorough
 mistake that nobody ever noticed they should stop making.
 
-**Marchwell House is standing on one — but not for long, and that's the
-point.** The instrument itself is ancient, far older than anyone alive. But
-it doesn't sit on one subject forever: once it has drawn what it can from a
-place, it drifts, and settles somewhere new to start again — which is
-exactly what's implied if the party leaves it running unclosed (see "The
-swap" ending: "it keeps running, and in a few years a farmhouse in the next
-valley grows a wing"). **It only settled on Marchwell within the last year —
-Tobin's midsummer disappearance was its first taste of this house, not its
-hundredth.** That's why nothing here carries any of the folklore, protective
-custom, or generational wariness a household would build up around
-something that had haunted it for decades. Oda didn't inherit caution about
-the pantry from her mother. She's improvising it, badly, in real time,
-because she isn't the tenth generation to deal with this. She's the first.
+**Marchwell House sits inside that plot now — but not for long, and that's
+the point.** The equipment itself is ancient, far older than anyone alive.
+But it doesn't stay pointed at one subject forever: once it's drawn what it
+can from a place, it re-points itself somewhere new — which is exactly
+what's implied if the party leaves it running unclosed (see "The swap"
+ending: "it keeps running, and in a few years a farmhouse in the next
+valley grows a wing"). **It only started measuring Marchwell within the
+last year — Tobin's midsummer disappearance was its first taste of this
+house, not its hundredth.** That's why nothing here carries any of the
+folklore, protective custom, or generational wariness a household would
+build up around something that had haunted it for decades. Oda didn't
+inherit caution about the pantry from her mother. She's improvising it,
+badly, in real time, because she isn't the tenth generation to deal with
+this. She's the first.
 
 **The Measure is extinct, and that is the actual horror, not a monster.**
-Building an Ell was easy compared to closing one — only the order itself
-could formally declare a survey finished and let its instrument fall quiet.
-The Measure did not survive long enough to close most of what it started.
-Nobody inherited the authority to stop it, and it has no protocol for
-stopping on its own. It just keeps doing its last assigned job, forever,
-however senseless that job has become. Hesper's guess — *"the chain-crew"* —
-is close and not quite right: she's right that whoever did this is long
-gone; she has simply never learned that they had a name, a god, or a reason.
+Staking out and surveying an Ell was easy compared to closing one out — only
+the order itself could formally declare a survey finished and power its
+equipment down. The Measure did not survive long enough to close most of
+what it started. Nobody inherited the authority to stop it, and the
+equipment has no protocol for stopping on its own. It just keeps doing its
+last assigned job, forever, however senseless that job has become. Hesper's
+guess — *"the chain-crew"* — is close and not quite right: she's right that
+whoever did this is long gone; she has simply never learned that they had a
+name, a god, or a reason.
 
 **Veyr did not order any of this, want it, or benefit from it — Veyr is not
 the villain.** The oblex, the follower, and anything else native to the Echo
-that the party meets are not the Measure's creations and never served it.
-They are simply what already lived in the part of Veyr's domain the Ell
-occupies, and they have taken a long, patient, undirected interest in
-whatever the instrument keeps producing — the way gulls follow a fishing
-boat, not the way a jailer runs a prison. The Ell's horror is entirely the
-Measure's: an ancient, well-meant, unfinished piece of mortal work that
-outlived everyone who understood it.
+that the party meets are not the Measure's creations and never served the
+Measure. They are simply what already lived in the region of Veyr's domain
+the Measure staked out as their Ell, and they have taken a long, patient,
+undirected interest in whatever the leftover equipment keeps producing — the
+way gulls follow a fishing boat, not the way a jailer runs a prison. The
+horror here is entirely the Measure's: an ancient, well-meant, unfinished
+piece of mortal work that outlived everyone who understood it.
 
-**Drafts, and their one consistent flaw.** The Ell measures by making
+**Drafts, and their one consistent flaw.** The equipment measures by making
 drafts — approximations built out of folded, repeated space. It has drafted
 the vale, the orchards, the weather, and the Marchwells' house, over and
 over, at increasing and then decreasing fidelity as its errors compound. Its
@@ -133,12 +140,12 @@ drafts fail in one consistent direction, baked into how the Measure worked:
 **they surveyed a place from the outside, exhaustively, long before anyone
 on the crew ever needed to live inside one house for a single day.** A draft
 of a person is built the same way — a very good, very thorough set of
-externally observed measurements, standing in for someone the instrument
+externally observed measurements, standing in for someone the equipment
 never actually understood.
 
 **And the survey has been stalled here for longer than a century**, because
 the Measure's own project could never close the file on a *home* — a home
-isn't a volume, it's a thing that happens inside one, and their instrument
+isn't a volume, it's a thing that happens inside one, and their equipment
 has no unit for that. Their question is cut into the substrate in every
 language it has ever copied, in the Measure's own hand, not Veyr's:
 **HOW BIG IS A HOME?**
@@ -173,7 +180,7 @@ sleep well again.
 | **S1 — In** | 0–1: the house, then the repeating house | **The Four Casses** (4 doppelgangers) |
 | **S2 — Down** | 2: tallow light, wrong objects, the Coat Closet | **The oblex, with Ambry in the room**, then the way home is a lie. **Level 6** |
 | **S3 — Deeper** | 3–4: wrong scale, the rule-rooms, the drafted people | **Hesper Wick**, and the last comfortable hour of the campaign |
-| **S4 — Out** | 5: the substrate, deep time, the instrument seen working | **Hesper at the door**, plus one copy of the party per long rest taken |
+| **S4 — Out** | 5: the substrate, deep time, the equipment seen working | **Hesper at the door**, plus one copy of the party per long rest taken |
 
 **The tally** threads all four: scratches cut on the doorframe as each person
 crosses, struck through when they come back out. The party counts them in hour

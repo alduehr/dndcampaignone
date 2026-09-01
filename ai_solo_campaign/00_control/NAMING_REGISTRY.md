@@ -40,7 +40,7 @@ Per explicit user decision, three names originating in the non-canon one-shot `o
 |---|---|---|---|
 | Veyr | Minor god (Echoes, memory, repetition) | `03_canon/GODS_AND_FAITHS.md` | Real but distant and fringe-worshipped; explicitly not part of the Three Thresholds and not a crowded-pantheon violation — one minor power, added deliberately. Not secretly the campaign's villain (see `PROJECT_RULES.md`/`GODS_AND_FAITHS.md` — villainy in this setting is human/institutional). |
 | The Echo | Cosmology (Veyr's domain/plane) | `03_canon/COSMOLOGY.md` | **Distinct from "the Echo Realm"** (an already-registered regional folk-name for the Last Telling, `locations/vael/orrun/timelines/the-last-telling`) — same word, unrelated place; never conflate them in text. |
-| The Measure | Ancient mortal order (extinct) | `03_canon/DM_ONLY_CANON.md` | Built instruments called **Ells** inside the Echo. Unrelated to the Custodian Concord/Hollow Court — a deliberate parallel, not a connected conspiracy. "An Ell" is now a reusable generic term for one of the Measure's instruments; only one (Marchwell's) is currently built out. |
+| The Measure | Ancient mortal order (extinct) | `03_canon/DM_ONLY_CANON.md` | Staked out surveyed plots of the Echo called **Ells**, and built equipment (not the Ells themselves) to measure them. Unrelated to the Custodian Concord/Hollow Court — a deliberate parallel, not a connected conspiracy. "An Ell" is now a reusable generic term for one of the Measure's surveyed plots; only one (Marchwell's) is currently detailed. |
 
 This promotion does not register Ashgarden Vale as newly created — it was already registered (Stage 7) — only its use as this one-shot's setting is new, and that use stays non-canon per the one-shot's own README (no registered Vale NPC, faction, or site is altered by the one-shot's plot).
 
@@ -108,7 +108,7 @@ Only the **public** existence and stated purpose of these bodies appears in `loc
 | Thin-born | Setting term | `03_canon/DM_ONLY_CANON.md` | People born "empty." |
 | Veyr | Minor god | `03_canon/GODS_AND_FAITHS.md` | Echoes and memory; fringe worship; unrelated to the Three Thresholds. |
 | The Echo | Cosmology (Veyr's domain) | `03_canon/COSMOLOGY.md` | Distinct from the already-registered "the Echo Realm" (Last Telling folk-name) — same word, unrelated place. |
-| The Measure | Ancient mortal order (extinct) | `03_canon/DM_ONLY_CANON.md` | Built "Ells" (a reusable generic instrument-term) inside the Echo. Unrelated to the Concord/Hollow Court. |
+| The Measure | Ancient mortal order (extinct) | `03_canon/DM_ONLY_CANON.md` | Staked out surveyed plots of the Echo called "Ells" (a reusable generic term) and left equipment behind still measuring them. Unrelated to the Concord/Hollow Court. |
 
 ## Faction Names
 
