@@ -278,7 +278,7 @@ before anyone tells them there are two piles.
 | 2 (mandatory) | S2 end, the false house destabilising + a distant, inhuman screech | Depth 3 is inhabited by something that isn't the equipment. | What is it? |
 | 3 (mandatory) | S3, the first follower, placed in a corridor between any two of the twelve Depth 3 rooms so it can't be skipped | They're being watched and catalogued specifically, not just recorded as part of a room. | Why? By whom? |
 | 4 (optional) | S3, the second and third followers, only if the party escalates | Killing the observer doesn't stop the observation. | Same, sharper. |
-| 5 (optional) | S3, the Cutter's Rest (Room 12 of the Depth 3 bank) | A name, in a mortal hand: **"the Measure."** Someone built this on purpose, a long time ago, and worshipped something while they did it. | Who were they? What did they want? What's the mark they carved? |
+| 5 (optional) | S3, the Cutter's Rest (Room 12 of the Depth 3 bank) | A name, stamped into a surveyor's own tool: **"the Measure."** Someone built this on purpose, a long time ago, and worshipped something while they did it. | Who were they? What did they want? What's the mark they carved? |
 | 6 (optional) | S3, the real Cass rescue | Drafts are loyal to what was actually, repeatedly measured — not to a whole person. | Doesn't yet say who's doing the measuring or why. |
 | 7 (mandatory once she joins) | S3 end, Hesper | Confirms someone ancient did this on purpose — her own folk-guess, **"the chain-crew."** | She has never learned it has a name, a god, or a reason. Say so if asked; it's true, not evasive. |
 | 8 (mandatory) | S4 opening, the substrate's Ashgarden Vale recognition (see Change #16, below) | Scale: the Ell has measured far more than one house — the whole vale, obsessively, more than once. | Still doesn't say who, or why. |
@@ -1189,14 +1189,16 @@ long-cold campfire ring of stones. A rolled, rotted bedroll. A tin cup.
 with a single mark cut twice, identically, side by side — clearly a
 personal holy symbol, worn smooth by years against skin, not survey
 equipment — see [`REWARDS.md`](REWARDS.md) for **the Twice-Cut Token**, if
-the party hasn't already found one on the oblex. Tucked under the bedroll, a
-scrap of genuine, mortal-made parchment, brittle but legible, bearing a few
-lines of
-an old surveyor's dedication — a prayer, of sorts, to something called **"the
-Measure."** This is the first time that name appears anywhere in the
-adventure, in a hand that is unmistakably human and unmistakably old. Don't
-explain it. This is deliberately somebody's campsite from a very long time
-ago — see Change #15, below, for whose.
+the party hasn't already found one on the oblex. Tucked under the bedroll,
+though, is the genuine article: **a brass-jointed folding rule**, the kind
+a working surveyor keeps on their own person rather than with the rest of
+the kit — pitted, tarnished, decades of honest use on it, its joints still
+swinging true and its graduations still sharp. Stamped small along its
+inner edge, worn but legible: **THE MEASURE**, over a maker's mark cut
+twice, identically, side by side. This is the first time that name appears
+anywhere in the adventure, on a tool that is unmistakably human-made and
+unmistakably old. Don't explain it. This is deliberately somebody's
+campsite from a very long time ago — see Change #15, below, for whose.
 
 *Scaling: 3–4 PCs — run six of the twelve rooms (the entry three plus three
 picks toward the orchard); the rest are cut, not simplified. 5–6 PCs — run

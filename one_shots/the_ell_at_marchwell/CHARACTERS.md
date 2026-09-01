@@ -245,8 +245,10 @@ rule-rooms, the fold rule, the safe camps, and the way down. She likes them.
 walks in:** the safety-valve camp (a bed frame, a burnt candle, a tin cup, a
 name knife-cut into the doorframe with a hundred-year-old date) and,
 separately, **the Cutter's Rest** in the Depth 3 room bank — another of her
-old campsites, this one where the party can find the first written mention
-of "the Measure." When she walks in, it should land as *"oh — it's her."*
+old campsites, this one where the party can find the first physical
+evidence of "the Measure" (a stamped tool she camped beside for years
+without ever reading much into it). When she walks in, it should land as
+*"oh — it's her."*
 
 **If shown Tobin's notebook, or asked about "TRUST NO ONE":** she wrote it.
 She found him four days into his own wander, pointed him at a fold home, and
