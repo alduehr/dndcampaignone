@@ -1,0 +1,517 @@
+{
+  "version": 1,
+  "maps": [
+    {
+      "id": "orrun-full-continent",
+      "file": "orrun-full-continent.png",
+      "region": "vael/orrun",
+      "caption": "Orrun — The Known Continent",
+      "scale": "1 hex = 6 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "cluster-northwest-orrun",
+      "file": "cluster-northwest-orrun.png",
+      "region": "vael/orrun",
+      "caption": "Northwestern Orrun — The Campaign-Area Cluster",
+      "scale": "approx. 12 days' travel corner to corner",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-sundering-reach",
+      "file": "region-sundering-reach.png",
+      "region": "vael/orrun/regions/sundering-reach",
+      "caption": "The Sundering Reach",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-ashgarden-vale",
+      "file": "region-ashgarden-vale.png",
+      "region": "vael/orrun/regions/ashgarden-vale",
+      "caption": "Ashgarden Vale",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-tollwood",
+      "file": "region-tollwood.png",
+      "region": "vael/orrun/regions/tollwood",
+      "caption": "Tollwood",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-pale-coast",
+      "file": "region-pale-coast.png",
+      "region": "vael/orrun/regions/pale-coast",
+      "caption": "The Pale Coast",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-caradril",
+      "file": "region-caradril.png",
+      "region": "vael/orrun/settlements/caradril",
+      "caption": "Caradril and Its Hinterland",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-verdance-reaches",
+      "file": "region-verdance-reaches.png",
+      "region": "vael/orrun/regions/verdance-reaches",
+      "caption": "The Verdance Reaches",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-glassmere-league",
+      "file": "region-glassmere-league.png",
+      "region": "vael/orrun/regions/glassmere-league",
+      "caption": "The Glassmere League",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-marrowdowns",
+      "file": "region-marrowdowns.png",
+      "region": "vael/orrun/regions/marrowdowns",
+      "caption": "The Marrowdowns",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-sallowmarch-protectorate",
+      "file": "region-sallowmarch-protectorate.png",
+      "region": "vael/orrun/regions/sallowmarch-protectorate",
+      "caption": "The Sallowmarch Protectorate",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-hollow-gulf-ports",
+      "file": "region-hollow-gulf-ports.png",
+      "region": "vael/orrun/regions/hollow-gulf-ports",
+      "caption": "The Hollow Gulf Ports",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-saltmere-reaches",
+      "file": "region-saltmere-reaches.png",
+      "region": "vael/orrun/regions/saltmere-reaches",
+      "caption": "The Saltmere Reaches",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-concord-heartlands",
+      "file": "region-concord-heartlands.png",
+      "region": "vael/orrun/regions/concord-heartlands",
+      "caption": "The Concord Heartlands",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-hethewald-free-holds",
+      "file": "region-hethewald-free-holds.png",
+      "region": "vael/orrun/regions/hethewald-free-holds",
+      "caption": "The Hethewald Free Holds",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-emberfell-theocracy",
+      "file": "region-emberfell-theocracy.png",
+      "region": "vael/orrun/regions/emberfell-theocracy",
+      "caption": "The Emberfell Theocracy",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-wender-steppe",
+      "file": "region-wender-steppe.png",
+      "region": "vael/orrun/regions/wender-steppe",
+      "caption": "The Wender Steppe",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-karran-marches",
+      "file": "region-karran-marches.png",
+      "region": "vael/orrun/regions/karran-marches",
+      "caption": "The Karran Marches",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-sunmark",
+      "file": "region-sunmark.png",
+      "region": "vael/orrun/regions/sunmark",
+      "caption": "The Sunmark",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "region-highmark-passes",
+      "file": "region-highmark-passes.png",
+      "region": "vael/orrun/regions/highmark-passes",
+      "caption": "The Highmark Passes",
+      "scale": "1 hex = 3 miles",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "caradril",
+      "file": "city-caradril.png",
+      "region": "vael/orrun/settlements/caradril",
+      "caption": "Caradril",
+      "scale": "1 square = 50 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "glassmere",
+      "file": "city-glassmere.png",
+      "region": "vael/orrun/settlements/glassmere",
+      "caption": "Glassmere",
+      "scale": "1 square = 50 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "calderport",
+      "file": "city-calderport.png",
+      "region": "vael/orrun/settlements/calderport",
+      "caption": "Calderport",
+      "scale": "1 square = 50 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "ashfast",
+      "file": "city-ashfast.png",
+      "region": "vael/orrun/settlements/ashfast",
+      "caption": "Ashfast",
+      "scale": "1 square = 50 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "hollowmere",
+      "file": "settlement-hollowmere.png",
+      "region": "vael/orrun/settlements/hollowmere",
+      "caption": "Hollowmere",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "kettle-bridge",
+      "file": "settlement-kettle-bridge.png",
+      "region": "vael/orrun/settlements/kettle-bridge",
+      "caption": "Kettle Bridge",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "saltmargin",
+      "file": "settlement-saltmargin.png",
+      "region": "vael/orrun/settlements/saltmargin",
+      "caption": "Saltmargin",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "candlewick",
+      "file": "settlement-candlewick.png",
+      "region": "vael/orrun/settlements/candlewick",
+      "caption": "Candlewick",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "greywater-holm",
+      "file": "settlement-greywater-holm.png",
+      "region": "vael/orrun/settlements/greywater-holm",
+      "caption": "Greywater Holm",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "harrowgast",
+      "file": "settlement-harrowgast.png",
+      "region": "vael/orrun/settlements/harrowgast",
+      "caption": "Harrowgast",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "reedford",
+      "file": "settlement-reedford.png",
+      "region": "vael/orrun/settlements/reedford",
+      "caption": "Reedford",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "the-ashwalk-rest",
+      "file": "settlement-the-ashwalk-rest.png",
+      "region": "vael/orrun/settlements/the-ashwalk-rest",
+      "caption": "The Ashwalk Rest",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "orchardmere",
+      "file": "settlement-orchardmere.png",
+      "region": "vael/orrun/settlements/orchardmere",
+      "caption": "Orchardmere",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "saint-veddows-rest",
+      "file": "settlement-saint-veddows-rest.png",
+      "region": "vael/orrun/settlements/saint-veddows-rest",
+      "caption": "Saint Veddow's Rest",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "tilbrook",
+      "file": "settlement-tilbrook.png",
+      "region": "vael/orrun/settlements/tilbrook",
+      "caption": "Tilbrook",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "hartfell",
+      "file": "settlement-hartfell.png",
+      "region": "vael/orrun/settlements/hartfell",
+      "caption": "Hartfell",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "coldhearth",
+      "file": "settlement-coldhearth.png",
+      "region": "vael/orrun/settlements/coldhearth",
+      "caption": "Coldhearth",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "tollstone-cross",
+      "file": "settlement-tollstone-cross.png",
+      "region": "vael/orrun/settlements/tollstone-cross",
+      "caption": "Tollstone Cross",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "wrackmouth",
+      "file": "settlement-wrackmouth.png",
+      "region": "vael/orrun/settlements/wrackmouth",
+      "caption": "Wrackmouth",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "cobble-strand",
+      "file": "settlement-cobble-strand.png",
+      "region": "vael/orrun/settlements/cobble-strand",
+      "caption": "Cobble Strand",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "marrowfen-stair",
+      "file": "settlement-marrowfen-stair.png",
+      "region": "vael/orrun/settlements/marrowfen-stair",
+      "caption": "Marrowfen Stair",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "lords-wend",
+      "file": "settlement-lords-wend.png",
+      "region": "vael/orrun/settlements/lords-wend",
+      "caption": "Lord's Wend",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "cresswater",
+      "file": "settlement-cresswater.png",
+      "region": "vael/orrun/settlements/cresswater",
+      "caption": "Cresswater",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "sennfort",
+      "file": "settlement-sennfort.png",
+      "region": "vael/orrun/settlements/sennfort",
+      "caption": "Sennfort",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "cairnwater",
+      "file": "settlement-cairnwater.png",
+      "region": "vael/orrun/settlements/cairnwater",
+      "caption": "Cairnwater",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "marrowmoot",
+      "file": "settlement-marrowmoot.png",
+      "region": "vael/orrun/settlements/marrowmoot",
+      "caption": "Marrowmoot",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "penmark-hold",
+      "file": "settlement-penmark-hold.png",
+      "region": "vael/orrun/settlements/penmark-hold",
+      "caption": "Penmark Hold",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "wether",
+      "file": "settlement-wether.png",
+      "region": "vael/orrun/settlements/wether",
+      "caption": "Wether",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "fenward",
+      "file": "settlement-fenward.png",
+      "region": "vael/orrun/settlements/fenward",
+      "caption": "Fenward",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "reedmouth",
+      "file": "settlement-reedmouth.png",
+      "region": "vael/orrun/settlements/reedmouth",
+      "caption": "Reedmouth",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "brackhold",
+      "file": "settlement-brackhold.png",
+      "region": "vael/orrun/settlements/brackhold",
+      "caption": "Brackhold",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "saltcairn",
+      "file": "settlement-saltcairn.png",
+      "region": "vael/orrun/settlements/saltcairn",
+      "caption": "Saltcairn",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "saltgate",
+      "file": "settlement-saltgate.png",
+      "region": "vael/orrun/settlements/saltgate",
+      "caption": "Saltgate",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "crownmouth",
+      "file": "settlement-crownmouth.png",
+      "region": "vael/orrun/settlements/crownmouth",
+      "caption": "Crownmouth",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "pilgrim-camps",
+      "file": "settlement-pilgrim-camps.png",
+      "region": "vael/orrun/settlements/pilgrim-camps",
+      "caption": "The Pilgrim Camps",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "hethemoot",
+      "file": "settlement-hethemoot.png",
+      "region": "vael/orrun/settlements/hethemoot",
+      "caption": "Hethemoot",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "greenward",
+      "file": "settlement-greenward.png",
+      "region": "vael/orrun/settlements/greenward",
+      "caption": "Greenward",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "cinderhold",
+      "file": "settlement-cinderhold.png",
+      "region": "vael/orrun/settlements/cinderhold",
+      "caption": "Cinderhold",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "cold-springs",
+      "file": "settlement-cold-springs.png",
+      "region": "vael/orrun/settlements/cold-springs",
+      "caption": "The Winter-Camp at Cold Springs",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "spine-foot",
+      "file": "settlement-spine-foot.png",
+      "region": "vael/orrun/settlements/spine-foot",
+      "caption": "The Spine-Foot Trade-Meet",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "brasks-hold",
+      "file": "settlement-brasks-hold.png",
+      "region": "vael/orrun/settlements/brasks-hold",
+      "caption": "Brask's Hold",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "karran-gate",
+      "file": "settlement-karran-gate.png",
+      "region": "vael/orrun/settlements/karran-gate",
+      "caption": "Karran-Gate",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "sunhollow",
+      "file": "settlement-sunhollow.png",
+      "region": "vael/orrun/settlements/sunhollow",
+      "caption": "The Great Grove at Sunhollow",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    },
+    {
+      "id": "grove-camps",
+      "file": "settlement-grove-camps.png",
+      "region": "vael/orrun/settlements/grove-camps",
+      "caption": "The Grove-Camps",
+      "scale": "1 square = 10 ft",
+      "visibility": "player-safe"
+    }
+  ]
+}

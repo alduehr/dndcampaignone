@@ -10,7 +10,7 @@ secrecy: dm-only
 
 ## Current Status
 
-**PLACEHOLDER — Template defined. To be filled after each session.**
+**Ready (Stage 2).** Fill one per session at session end (per `../01_runner_protocol/SESSION_END_PROTOCOL.md`). This is the DM's private continuity layer for everything the player must not see. Never surface it.
 
 ---
 

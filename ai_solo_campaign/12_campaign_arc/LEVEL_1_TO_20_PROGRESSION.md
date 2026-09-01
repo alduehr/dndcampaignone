@@ -4,84 +4,86 @@
 type: canon
 secrecy: dm-only
 status: static
+level_range: 1-20
+tags: [progression, pacing, milestones, leveling]
+related: [MAIN_ARC_OVERVIEW.md, ../03_canon/LEVELING_ASSUMPTIONS.md]
 ---
 
 ## Purpose
 
-**DM-ONLY.** Level-by-level guidance for how the campaign should feel and what the player should be experiencing at each level tier. Not a rigid script — a pacing guide. The AI DM uses this to calibrate difficulty, available quests, and revelation timing.
-
-## Current Status
-
-**PLACEHOLDER — Not yet populated.** To be established during Stage 1 (arc shape) and expanded during Stage 5 and Stage 15.
+**DM-ONLY.** Level-by-level pacing guide and milestone triggers. Not a rigid script. Use to calibrate difficulty, surfaced content, and revelation timing.
 
 ## AI Use
 
-Consult when the player levels up, when selecting which content to surface, or when calibrating whether the pacing is appropriate.
+Consult on level-up, when choosing what to surface, or when checking pacing.
 
 ---
 
 ## Level Tier Guide
 
 ### Levels 1–2: Grounded and Vulnerable
-*The player is local, relatively unknown, and dealing with immediate problems.*
-*Stakes: personal and neighborhood-level.*
-*Threats: bandits, local politics, small mysteries, dangerous travel.*
-*To be developed during Stage 5.*
+Local, unknown, dealing with the failed rite and Hollowmere's immediate fear. Stakes personal/neighborhood. Threats: a wrong-come-back revenant (Wren), fen hazards, suspicious neighbors, low-level Gravecaller contact. Solo danger: a single revenant or 2–3 fen creatures is a real fight; telegraph everything.
 
-### Level 3–4: Developing Competence
-*The player has survived enough to be noticed. First faction hooks become serious.*
-*Stakes: regional. Early main arc seeds are visible.*
-*To be developed during Stage 5.*
+### Levels 3–4: Developing Competence
+Noticed locally. First Concord site explored (first dungeon). Faction local faces become serious. Stakes regional. The player learns the failures have a *source*. Act 1 threat (the reopening push) becomes visible.
 
 ### Levels 5–6: Regional Force
-*The player is known. Factions actively engage. Stakes affect towns and groups, not just individuals.*
-*To be developed during Stage 15.*
+Known across the Reach. Factions actively engage. First revelation tier: **Remembrance is a substance someone collects.** Player picks early sides. Travel to nearby Reach settlements and deeper ruins.
 
 ### Levels 7–8: Consequential Actor
-*The player's choices are reshaping local politics. Major revelations possible.*
-*To be developed during Stage 15.*
+Choices reshape Reach politics. A Hollow Court *agent* is exposed (Reke or a cutout). The drowned shrine is clearly central. Possible first travel beyond the Reach.
 
 ### Levels 9–10: World-Aware
-*The hidden truth is partially revealed. The campaign's central conflict is in full view.*
-*To be developed during Stage 15.*
+**The Concord harvested the dead** revelation. Travel to Caradril/archives. Faction war over the shrine intensifies. The player's reputation opens or closes doors based on prior choices.
 
 ### Levels 11–12: Significant Power
-*The player can affect major events. Enemies escalate.*
-*To be developed during Stage 15.*
+**The Quietfall was deliberate** revelation. Enemies escalate to assassination, sabotage, political ruin. The player commands allies/resources earned in Acts 1–2.
 
 ### Levels 13–14: Near the Center
-*The final arc is clear. Major faction outcomes are shaping up.*
-*To be developed during Stage 15.*
+Contact with the **Hollow Court**. Veyl makes the Court's case. Major faction outcomes shape up. The endgame branches become explicit choices.
 
 ### Levels 15–16: Endgame Begins
-*Last major choice points. Consequences of all earlier decisions start arriving.*
-*To be developed during Stage 15.*
+Last major choice points. Consequences of all earlier decisions arrive. The drowned under-shrine becomes accessible. Allies and enemies commit.
 
 ### Levels 17–18: Final Confrontation Approaches
-*The hidden truth is fully revealed. The final antagonist is clear.*
-*To be developed during Stage 15.*
+The full truth is known. The player moves to enact a decision about the Remembrance. Final obstacles (the Court's defenses, rival factions racing to the shrine).
 
 ### Levels 19–20: Resolution
-*The campaign ends. The world reflects what the player did.*
-*To be developed during Stage 15.*
+The Act 5 decision is enacted. Endgame state resolves. Epilogues reflect the player's path. See `ENDGAME_STATES.md` (Stage 15).
 
 ---
 
 ## Milestone Level-Up Triggers
 
-*To be established during Stage 1 and refined during Stage 5.*
-
-| Level | Trigger Event |
+### Act 1 (Concrete — Stage 1)
+| Level | Trigger |
 |---|---|
-| 2 | TBD |
-| 3 | TBD |
-| 4 | TBD |
-| 5 | TBD |
-| … | … |
+| 1 → 2 | Resolve the opening failed rite / Wren's situation. |
+| 2 → 3 | Complete a first real quest and commit to investigating a faction or the shrine. |
+| 3 → 4 | Reach and survive a first Concord site (first dungeon); learn the failures have a source. |
+| 4 → 5 | Confront the Act 1 threat (the reopening push) and a first faction-level decision; the harvest's reality becomes undeniable. |
 
----
+### Acts 2–5 (Framework — detailed in Stage 15)
+| Level | Trigger Theme |
+|---|---|
+| 5 → 6 | Establish a base of operations / faction standing in the Reach. |
+| 6 → 7 | Achieve the "Remembrance is collected" revelation. |
+| 7 → 8 | Expose a Hollow Court agent. |
+| 8 → 9 | Travel beyond the Reach toward the larger truth. |
+| 9 → 10 | "The Concord harvested the dead" revelation. |
+| 10 → 11 | Survive a major faction reprisal. |
+| 11 → 12 | "The Quietfall was deliberate" revelation. |
+| 12 → 13 | Locate the path to the Hollow Court. |
+| 13 → 14 | First contact with the Hollow Court / Veyl. |
+| 14 → 15 | Commit to (or be forced toward) an endgame branch. |
+| 15 → 16 | Gather the means to enact the chosen ending. |
+| 16 → 17 | Breach the under-shrine's defenses. |
+| 17 → 18 | Defeat/outmaneuver the last obstacle between the player and the keystone. |
+| 18 → 19 | The penultimate confrontation (Veyl, or a rival claimant). |
+| 19 → 20 | Enact the decision; campaign climax. |
 
 ## Related Files
 
 - [`MAIN_ARC_OVERVIEW.md`](MAIN_ARC_OVERVIEW.md)
 - [`../03_canon/LEVELING_ASSUMPTIONS.md`](../03_canon/LEVELING_ASSUMPTIONS.md)
+- [`../02_runtime_state/WORLD_CLOCKS.md`](../02_runtime_state/WORLD_CLOCKS.md)

@@ -6,7 +6,7 @@ This folder will contain formal audit reports generated at key stages of develop
 
 ## Current Status
 
-**Empty — Stage 0 scaffold.** First audit will be run after Stage 5 is complete (Stage 6 of the development roadmap).
+**Populated.** This folder contains the Stage 6 first-full audit (`STAGE_1_TO_5_AI_READINESS_AUDIT.md`), the Stage 11 mystery-secrecy audit, the full-continent map audit, and the Stage 16 readiness suite: the master verdict `PRE_PLAY_READINESS_AUDIT.md` plus the six detailed reports (`STAGE_16_PRE_PLAY_READINESS_AUDIT.md`, `STAGE_16_BLOCKERS_AND_FIXES.md`, `STAGE_16_PLAYER_SAFE_START_AUDIT.md`, `STAGE_16_DM_ONLY_SECRECY_AUDIT.md`, `STAGE_16_RETRIEVAL_AUDIT.md`, `STAGE_16_FULL_ARC_PLAYABILITY_AUDIT.md`). Live-play audits (Stage 18) will be added here during operation.
 
 ## Expected File Types
 

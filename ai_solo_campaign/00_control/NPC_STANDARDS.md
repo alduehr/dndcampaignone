@@ -57,7 +57,22 @@ Requires:
 - Role
 - Personality hook
 - Useful detail
+- Combat relevance tag (none / commoner-like / guard-like / specialist)
 - Optional secret
+
+---
+
+## Mechanical Requirements
+
+NPC mechanical completeness follows the tiers in `DND_MECHANICS_REQUIREMENTS.md`. Do not leave combat-relevant NPCs as narrative-only, and do not copy official stat blocks verbatim (see `RULESET_ASSUMPTIONS.md`).
+
+| Tier | Mechanical requirement |
+|---|---|
+| Major (combat-relevant) | Full Tier 1 stat block or abbreviated/reference profile: CR/level role, type, size, AC, HP, speed, ability emphasis, saves, skills, senses, languages, actions, signature abilities, tactics, morale, solo danger rating, noncombat options, scaling notes |
+| Major (noncombatant) / Secondary | Tier 2 profile: competence level, key abilities/skills, passive Insight/Perception if useful, whether dangerous in combat, named fallback stat profile, important spells/abilities if any |
+| Minor | Tier 3: a `Combat Relevance` tag (none / commoner-like / guard-like / specialist) plus any notable proficiency. Full stats only if they become important |
+
+Before marking an NPC file done, confirm its tier's mechanical fields are present and not TBD.
 
 ---
 
@@ -121,6 +136,19 @@ Major
 
 ## Possible Evolution
 
+## Mechanical Profile
+Required for any combat-relevant major NPC per `DND_MECHANICS_REQUIREMENTS.md` (Tier 1: villains, recurring adversaries, major allies/companions, rivals, faction champions, bosses, important spellcasters, anyone likely to fight/travel/oppose the player). Use a full custom stat block, a D&D-compatible abbreviated stat profile, or a "use a [baseline]-like profile, modified as follows" reference. Do not leave as TBD unless explicitly a placeholder. Include:
+- Suggested level / CR-equivalent role; creature type; size
+- AC; HP (or HP range); speed
+- Ability emphasis; saving-throw proficiencies; skill proficiencies
+- Senses (if relevant); languages; proficiency bonus / CR guidance
+- Main attacks/actions; bonus actions, reactions, spellcasting (if relevant)
+- Signature abilities; tactics; morale
+- Solo-play danger rating; noncombat ways to handle them
+- Scaling notes (up/down by tier)
+
+If this major NPC is a noncombatant (Tier 2: leader, patron, priest, sage, merchant, quest-giver), give the lighter Tier 2 profile instead: approximate competence level, key ability strengths, relevant skills, passive Insight/Perception if useful, whether dangerous in combat, and a named fallback stat profile (e.g. "Noble-like, noncombatant unless cornered"; "Spy-like with stronger Insight/Deception"; "Priest-like with low-level divine magic").
+
 ## DM-Only Notes
 
 ## Related Quests
@@ -172,6 +200,9 @@ Secondary
 
 ## How They Enter Play
 
+## Combat Relevance
+Per `DND_MECHANICS_REQUIREMENTS.md` Tier 2: state whether dangerous in combat, and give a named fallback stat profile if combat unexpectedly occurs (e.g. "Guard-like"; "Spy-like"; "Commoner, noncombatant"). Note any important spell, ability, or tool proficiency.
+
 ## Related Files
 ```
 
@@ -180,9 +211,11 @@ Secondary
 ## Minor NPC Standard
 
 ```md
-| Name | Location | Role | Personality Hook | Useful Detail | Optional Secret |
-|---|---|---|---|---|---|
+| Name | Location | Role | Personality Hook | Useful Detail | Combat Relevance | Optional Secret |
+|---|---|---|---|---|---|---|
 ```
+
+`Combat Relevance` (per `DND_MECHANICS_REQUIREMENTS.md` Tier 3): one of `none` / `commoner-like` / `guard-like` / `specialist`, plus any notable skill or tool proficiency. Minor NPCs do not need full stats unless they become important.
 
 ---
 

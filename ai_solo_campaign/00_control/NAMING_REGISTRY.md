@@ -6,7 +6,80 @@ Master registry of all proper nouns used in the campaign. Check this file before
 
 ## Current Status
 
-**Stage 0 scaffold — empty tables ready to receive entries.** Entries will be added as Stage 1 content is generated.
+**Orrun World-Reference Split + Timelines Pass (2026-08-01, updated same day) — COMPLETE. 19 new registered proper nouns (all in the new `locations/vael/orrun` cosmology; none touch existing campaign canon).** Created a new top-level `locations/vael/orrun` folder (sibling to `/ai_solo_campaign`) holding a spoiler-free, curated world-reference library (geography, settlements, culture, generic bestiary) plus a wholly new subsystem, **the Unmade** — alternate-timeline cosmology including **the Last Telling** ("the darkest timeline"), a costly rite to reach it (**the Rite of the Broken Threshold**), and its native creatures/NPCs. A same-day follow-up replaced the single universal name for the darkest Telling with **regional folk-names** — **the Pall, the Waning, the Ashlands, the Echo Realm** — used in play depending on the culture describing it; "the Last Telling" is now the neutral/scholarly term only. See the "`locations/vael/orrun` World Reference Folder" subsection below for the full name list. This content is explicitly designed to never expose or reference the campaign's DM-only secrets (Hollow Court, harvest, deliberate Quietfall) — see `vael/orrun/timelines/the-last-telling`'s "DM Guidance: Keeping It Separate." No existing campaign region, settlement, NPC, faction, god, or mystery name was changed.
+
+**Phase 5 Deferred-Items Pass (2026-07-07) — COMPLETE. NO new registered proper nouns.** This pass created 12 far-continent region files in `05_regions/` (consolidating already-registered geography, NPCs, quests, and sites into the standard region format — every name reused from this registry), a standalone minor-faction file for the already-registered **Tollmen** (`07_factions/minor_factions/THE_TOLLMEN.md`), and a Caradril density expansion (`08_npcs/by_region/CARADRIL_EXPANSION_NPCS.md`: +12 secondary, +24 minor — all carry disambiguating epithets inline and are **not individually registered per registry scope**; new common names were collision-checked against this registry; note **Weighmaster Essa Corve** ≠ Factor-General Wessel **Crane**, **Watch-Sergeant Pia Rusk** and **Sump-Warden Cobb** are new commons with no kin, and no loaded given-names [Sela, Wren, Hesk, Pell] were reused). No new factions, gods, regions, settlements, artifacts, or central-mystery nouns.
+
+**Exploration-Determinism Pass (2026-06-18) — COMPLETE. NO new registered proper nouns.** This pass made the repo exploration-deterministic by bringing all 40 settlement map packets to eagle-test floor depth (glob-verified: 40 files in `06_settlements/settlement_map_packets/`; plus 4 city-depth packets in `city_map_packets/`). It created 22 new settlement map packets (7 NW cluster + 15 far-continent) covering every reachable settlement across all 13 far-continent regions and the NW cluster. Initial tracking overclaimed 42 packets; a verification pass on 2026-06-18 confirmed 7 NW cluster packets (Greywater Holm, Reedford, The Ashwalk Rest, Tilbrook, Cobble Strand, Coldhearth, Tollstone Cross) were missing and created them; corrected total is 40. All settlement-internal landmark names coined in these packets (inn names, market halls, district quarters, well-houses, gathering-places) are **settlement-flavor labels only — NOT registered proper nouns per registry scope.** No new NPC, faction, region, settlement, god, artifact, or central-mystery proper nouns were coined. Naming integrity confirmed: no naming collisions surfaced and no player-facing apex names leaked. Verdict: CONTINENT IS EXPLORATION-DETERMINISTIC.
+
+**Cartography Authority Pass (2026-06-16) — COMPLETE. NO new registered proper nouns.** This pass made the repo cartography-deterministic by resolving the already-registered geography into explicit coordinate geometry. It created 5 master authority files (`CARTOGRAPHY_AUTHORITY_FULL_CONTINENT`, `MAP_FEATURE_REGISTRY`, `ROADS_RIVERS_AND_ROUTES_AUTHORITY`, `WATER_AND_SHORELINE_AUTHORITY`, `MOUNTAINS_PASSES_AND_TERRAIN_AUTHORITY`), 18 region map packets, 4 city map packets, 18 settlement map packets, and 1 adventure-site cartography index (D01–D36). It coined **NO new place, region, settlement, faction, NPC, god, artifact, or mystery names** — every label is already registered (Stage 1–12.5 places, Stage 9.5 far anchors, D01–D36 site names). The only non-registry decisions were internal **city layouts** for the three far placeholder cities (Glassmere two-bank from "the Three Bridges"; Calderport crescent harbor; Ashfast fortress-temple) and **feature IDs** (`MF-###`), which are catalog identifiers, not proper nouns. Player-safe and DM-only map layers were kept cleanly separated; the DM-only apex (Concord Deep, Under-Shrine / Drowned Keystone, Hollow Court, D23) is never rendered on player maps and the endgame stays vertical beneath Hollowmere. Verdict: MAP READY WITH MINOR NON-BLOCKING GAPS.
+
+**Stage 16 (Pre-Play Readiness Audit + correction pass + final cleanup pass, 2026-06-15 / 2026-06-16) — COMPLETE. NO new proper nouns. Verdict: READY FOR LIVE PLAY.** The initial Stage 16 pass created 6 audit reports + a progress tracker, fixed 3 stale canon status headers, and added an arc-forwarding pointer. The **2026-06-16 correction pass** fixed 8 control/retrieval/classification/hygiene issues the prior passes overclaimed past (rewrote stale RETRIEVAL_GUIDE; updated stale MANIFEST; created master `18_audits/PRE_PLAY_READINESS_AUDIT.md`; refreshed stale placeholders; reclassified 3 map-render files to `dm-facing-player-safe-output` + LANGUAGES/LEVELING_ASSUMPTIONS to `mixed`; created `14_treasure_and_artifacts/REWARDS_BY_LEVEL.md`; closed stale CONSISTENCY_AUDIT issues). The **2026-06-16 final cleanup pass** then cleared residual secrecy classifications and stale Stage 14/15 contradictions (cleaned the `PLAYER_SAFE_CANON.md` Hollow Court secrecy note; made the map render/generation/audit files consistent with their `dm-facing` classification; reclassified four `13_/14_` files to `mixed`; fixed stale contradictions in `CONSISTENCY_AUDIT`/`CONTENT_GAPS`/`REWARD_PLACEMENT_AUDIT`; added `/15_campaign_arcs` to `MANIFEST.md`). All three passes coined **no new registered names** of any kind — only control/audit/forwarding files and metadata reclassifications. Naming integrity confirmed: no naming collisions surfaced and no player-facing apex names leaked. Stage 17 (Live Campaign Operation) is next, awaiting the user to begin play.
+
+**Stage 15 / 15B (Level 5–20 Arc Expansion + Full Character Arc Playability Fill, 2026-06-15) — COMPLETE. NO new registered proper nouns. Stage 15/15B built 31 arc and playability-layer files in `15_campaign_arcs/` referencing only already-registered names.**
+
+**Stage 14 (Treasure, Artifacts, and Rewards, 2026-06-14) — COMPLETE. 12 new artifact/relic proper nouns registered (see "Stage 14" subsection under Artifact and Item Names); NO new NPC/faction/god/region/settlement/central-mystery/adversary proper nouns.** Stage 14 built the treasure/reward library (15 files in `14_treasure_and_artifacts/`). It registered **only the 12 major relics/artifacts** (Grief-Glass, Warden's Unlit Lantern, Ledger of Quiet Debts, Gravecaller's Knock [item], Compact Seal, Sealed Archive Key, Custodian's Compass, Quiet Country Vessel, Drowned Flame, Ash-Crown Fragment, Harvest Engine Shard, Last Voice) — all ORIGINAL CAMPAIGN ITEMS reusing already-registered faction/mystery/cosmology roots; endgame/DM-only artifacts are M6–M9 gated and never expose the apex. The ~38 custom magic items + ~10 cursed + 6 sentient item names are item-flavor labels, **not registered proper nouns per registry scope.** No new factions, gods, regions, central mysteries, or cosmology.
+
+**Stage 13 (Encounter and Bestiary Expansion, 2026-06-14; cleanup/source pass 2026-06-14) — COMPLETE. NO new registered proper nouns.** Stage 13 built the encounter/bestiary library (34 files in `13_encounters_and_bestiary/`). It introduced **only encounter/creature variant names, hazard descriptors, and curse/affliction labels** (e.g. "Mire-Hound," "Salt-Stalker," "Mast-Beast," "Barrow-Wight/Barrow-Shade," "Ash-Bound Dead," "Drift-Line Chorus," "Memory-Echo Haunt," "Mind-fog Lurker," "Thin-touch," "The Forgetting," "Hungering Grief") — **none of these is a registered proper noun per registry scope** (creature/variant names and mechanic labels are not registered; only the already-registered "The Relay-Warden" adversary from Stage 12 recurs). No new NPC, faction, god, region, settlement, artifact, central mystery, or specialized setting-term proper nouns were coined. Published-monster sources are *referenced* (2024 MM, VRGtR, MToF, MotM, VGtM, FToD), not registered. The Ravenloft: The Horrors Within (RtHW) creatures listed in `CREATURE_SOURCE_REFERENCE.md` are **placeholders for a pending external sourcebook** (releases June 16 2026), not campaign proper nouns. The apex names (Hollow Court, Custodians, keystone, Under-Shrine) are reused from prior stages, not new.
+
+**Stage 12.5 (Continental Adventure-Site Coverage, 2026-06-14) — site labels only, no new factions/gods/regions/mysteries.** Stage 12.5 added 13 far-continent adventure-site files (D24–D36) covering every map-authoritative far region. Their names are **dungeon/site labels that reuse already-registered Stage 9.5 anchors or world-map features** (e.g. the Drowned Towns, the Old Holds, the Barrow-Fields, the Old Iron forts, the Reliquary, the Three Bridges, the Drowned Steps, the Sky-Stones, the Great Grove at Sunhollow, the Nine Locks, the Cindern Waste, the Highmark Passes), qualified by a site-word; the only fully new site-label is "the Hollow Gulf Wreck-Reef." **No new NPC, faction, god, region, artifact, central mystery, or adversary proper nouns** (existing far rosters + Stage 12 adversary profiles reused). See the "Stage 12.5 (Continental Adventure-Site Coverage)" subsection under Place Names. All far sites are surface/echo only; the keystone, the Concord Deep, and the Hollow Court are not reused or relocated.
+
+**Cartographic precision pass (2026-06-13) — NO new proper nouns.** The Stage 9.5 **light NPC-facing anchors** (already registered in the Stage 9.5 anchor tables below) have now been assigned **player-safe full-continent cartographic coordinates** in `04_world_atlas/FULL_CONTINENT_SETTLEMENT_ANCHORS.md` so full-continent maps distribute settlement markers across all of Orrun. This pass coined **no new names** — it only mapped the existing anchors; they remain "light NPC-facing anchors — not full settlements, not major map features." No new factions, gods, regions, artifacts, or central mysteries.
+
+**Stages 1–13 populated. Stages 10–13 introduced NO new proper nouns** — Stage 10 (Quest Library Expansion) added quest titles/file names which are not registered proper nouns; Stage 11 (Mystery, Secret, and Clue Expansion) added clue IDs (`C-M*`, `C_SR_*`, `C_CAR_*`, etc.) which are also not registered proper nouns; Stage 12 (Dungeons, Ruins, Adventure Sites) added dungeon-internal site labels and one adversary name (The Relay-Warden) — all registered in the "Stage 12 (Dungeons, Ruins, Adventure Sites)" subsection under Place Names. Stage 13 (Encounter and Bestiary Expansion) added only encounter/creature variant names, hazard descriptors, and curse/affliction labels — none of which are registered proper nouns per registry scope. The last NPC/faction/god/region proper-noun additions were in Stages 9 and 9.5; see subsections below. **Stage 14 (Treasure, Artifacts, and Rewards) is next.** **(Stage 9 NPC Codex Expansion: pass-1 2026-06-12 registered 12 new majors; pass-2 2026-06-12 registered 9 new majors [M33–M48 + M49b/M50b bring the roster to 50; the other 9 pass-2 majors are elevations of already-registered secondaries — see the "Stage 9 Pass-2 Major NPC additions" subsection]; Stage 8 Faction Deepening 2026-06-11 — no new proper nouns; Stage 7 complete incl. completion pass; Full-World Cartographic Expansion pass added full-continent geographic placeholders.** The Full-World pass registered the rest of the continent of Orrun (oceans, seas, ranges, rivers, forests, badlands, wetlands, steppe, islands) and ~11 placeholder political/cultural regions, plus 3 placeholder overseas landmasses of Vael — all map-authoritative placeholders only (named/positioned, NOT deep-built); **no new factions, gods, central mysteries, or artifacts.** See the "Full-World Cartographic Expansion" subsection under Place Names and `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md`. Core campaign proper nouns registered through Stage 4 (Caradril city: districts, city factions, city NPCs, new terms). **Stage 5 (Level 1–4 Play Arc) introduced NO new proper nouns.** **Stage 7 (Regional Expansion Ring 1) added the three adjacent regions' proper nouns** — Ashgarden Vale, Tollwood, and Pale Coast settlements, landmark sites, dungeons, one minor regional faction (the Tollmen), Ring 1 NPCs, and a few setting terms; see the Stage 7 subsections below. **The Stage 7 completion pass added 4 new quests, 12 new wilderness landmark-sites (4/region), 9 new secondary + 13 new minor Ring 1 NPCs, and 6 named regional clocks (V1/V2, T1/T2, C-PC1/C-PC2 — see each region file's "Regional Clocks" and `02_runtime_state/WORLD_CLOCKS.md`).** No new central mystery, major faction, god, cosmology, or legendary artifact in the completion pass. **No new central mystery, major faction, god, cosmology, or legendary artifact was created in Stage 7;** new sites feed existing M1–M9 (mostly M2/M3/M5 fragments, gated/oblique M6) and the deep-wood/maritime "presences" are regional landmark-powers, NOT the Hollow Court or new gods. Quest titles and file names are not registered proper nouns. Add new entries immediately when creating named content.
+
+> **Stage 7 naming disambiguation:** "Pell" is a common frontier surname for several distinct minor figures (Warden Pell [Reach Ashen Warden, secondary]; Pell Oster [Saltmargin salt-warden, minor]; Factor Wymar Pell [Vale Ledger, secondary]; Ale-wife Pell [Tollstone Cross, minor]) — always keep epithet/role. "Sennet" names two distinct elders: **Mother Sennet** (Saint Veddow's shrine-keeper) and **Goodwife Sennet** (Coldhearth forest-elder) — always qualify by location. **Wren-of-the-Wood** (Coldhearth minor guide) is distinct from major NPC **Wren Brevin** (formerly styled "Wren Hollowmere" in some codex files — standardized 2026-07-07; see canonical registry entry below) — always use the full epithet. "Pilgrim Goodman Sael" (Saint Veddow's minor) is distinct from "Domic Sael" (Ledger major) and "Sael Brunt" (Tilbrook secondary) — given name only; keep surnames.
+
+> **Stage 8 (Faction Deepening) — no new proper nouns.** Stage 8 made all seven major factions operational (4-quest chains, rank-and-file "Combat Capability" profiles, `FACTION_RELATIONSHIP_MAP.md`, `FACTION_TURN_RULES.md`). It introduced **no new named NPCs, factions, faction sub-groups, places, gods, artifacts, or setting terms** — only generic rank-and-file adversary *types* (e.g. "Warden Initiate", "Ledger collector / caravan guard", "Circle grave-digger", "town watchman", "Gravecaller cultist", "Remnant scholar / Reclaimer agent", "leaked Remembrance"), which are descriptive role-types, not registered proper nouns. All named faction members referenced already exist in `08_npcs/`. Quest titles and file names are not registered proper nouns.
+
+## The Ell at Marchwell — Veyr/Echo Canon Promotion (2026-08-31)
+
+Per explicit user decision, three names originating in the non-canon one-shot `one_shots/the_ell_at_marchwell/` are promoted to **real, shared campaign canon** — a deliberate exception to `one_shots/README.md`'s normal rule that nothing coined there is registered. Everything else in that one-shot (Marchwell House, Oda/Cass/Tobin Marchwell, Ferris Ambry, Hesper Wick, the Ashgarden Vale farm setting) **remains non-canon and unregistered**, per the one-shot's own README — only the three names below crossed over.
+
+| Name | Type | File | Notes |
+|---|---|---|---|
+| Veyr | Minor god (Echoes, memory, repetition) | `03_canon/GODS_AND_FAITHS.md` | Real but distant and fringe-worshipped; explicitly not part of the Three Thresholds and not a crowded-pantheon violation — one minor power, added deliberately. Not secretly the campaign's villain (see `PROJECT_RULES.md`/`GODS_AND_FAITHS.md` — villainy in this setting is human/institutional). |
+| The Echo | Cosmology (Veyr's domain/plane) | `03_canon/COSMOLOGY.md` | **Distinct from "the Echo Realm"** (an already-registered regional folk-name for the Last Telling, `locations/vael/orrun/timelines/the-last-telling`) — same word, unrelated place; never conflate them in text. |
+| The Measure | Ancient mortal order (extinct) | `03_canon/DM_ONLY_CANON.md` | Staked out surveyed plots of the Echo called **Ells**, and built equipment (not the Ells themselves) to measure them. Unrelated to the Custodian Concord/Hollow Court — a deliberate parallel, not a connected conspiracy. "An Ell" is now a reusable generic term for one of the Measure's surveyed plots; only one (Marchwell's) is currently detailed. |
+
+This promotion does not register Ashgarden Vale as newly created — it was already registered (Stage 7) — only its use as this one-shot's setting is new, and that use stays non-canon per the one-shot's own README (no registered Vale NPC, faction, or site is altered by the one-shot's plot).
+
+## locations/vael/orrun World Reference Folder (2026-08-01) — new non-campaign proper nouns
+
+A new top-level folder `locations/vael/orrun` (sibling to `/ai_solo_campaign`) was created as a spoiler-free world reference library, containing curated geography/settlement/culture/bestiary content plus a wholly new subsystem: **the Unmade** (alternate-timeline cosmology), including **the Last Telling** (the "darkest timeline"). This is genuinely new setting content, registered here per project rules even though it lives outside `/ai_solo_campaign`. See `locations/vael/orrun/README.md` and `locations/vael/orrun/timelines/`. **No campaign DM-only secrets (Hollow Court, harvest, deliberate Quietfall) are referenced or exposed by this content** — the Last Telling is explicitly designed as a parallel, independent cosmological horror, not a reflection of "The Long Remembering"'s central mystery (see the "DM Guidance: Keeping It Separate" section in `THE_LAST_TELLING.md`).
+
+| Name | Type | File | Notes |
+|---|---|---|---|
+| The Unmade | Cosmology (multiverse of unrealized histories) | `vael/orrun/timelines/the-unmade-overview` | Collective term for all Tellings and the "between-ness" a traveler crosses through. |
+| A Telling / Tellings | Cosmology (one alternate timeline/universe) | `vael/orrun/timelines/the-unmade-overview` | Generic term, not a single named place — "a Near Telling," "a Far Telling," etc. |
+| The Kept Telling | Cosmology (the home world) | `vael/orrun/timelines/the-unmade-overview` | What every other campaign/world file describes; the baseline reality. |
+| The Last Telling | Cosmology (the darkest confirmed Telling) | `vael/orrun/timelines/the-last-telling` | The "darkest timeline" — a world where the Last Door never reopened. Deliberately NOT the same entity/conspiracy as the Hollow Court. This is the neutral/scholarly name only; in play, use one of its regional folk-names below — almost nobody who's actually been there calls it "the Last Telling." |
+| The Pall | Regional folk-name for the Last Telling | `vael/orrun/timelines/the-last-telling` | Used in Sundering Reach, Tollwood, Pale Coast, Sallowmarch Protectorate, Saltmere Reaches (grief/funerary-culture regions). |
+| The Waning | Regional folk-name for the Last Telling | `vael/orrun/timelines/the-last-telling` | Used in Ashgarden Vale, Sunmark, Hethewald Free Holds, Marrowdowns, Wender Steppe (agrarian/pastoral/seasonal-culture regions). |
+| The Ashlands | Regional folk-name for the Last Telling | `vael/orrun/timelines/the-last-telling` | Used in Emberfell Theocracy, Karran Marches (fire/volcanic-culture regions). Not to be confused with the already-registered "the Ashen Reach Woods" or "Ashfast" (unrelated real places on the Kept Telling map) — this name refers only to the Last Telling as seen from those cultures. |
+| The Echo Realm | Regional folk-name for the Last Telling | `vael/orrun/timelines/the-last-telling` | Used in Caradril, Glassmere League, Concord Heartlands, Verdance Reaches, Hollow Gulf Ports (scholarly/urban/mercantile-culture regions). |
+
+> All 16 region files in `locations/vael/orrun/regions/` carry a "Local Name For The Last Telling" section assigning one of the four names above. Coverage is complete; no region is unassigned.
+
+**`locations/vael/orrun` wilderness + sites pass (2026-08-02) — NO new registered proper nouns.** Extracted the campaign's 7 wilderness site-files and 41 dungeon files into `locations/vael/orrun/wilderness/` (7 zones) and `locations/vael/orrun/sites/` (34 sites) as physical places — terrain, hazards with DCs, fauna, layout, salvage, retreat — with all clue/secret/hook/NPC material stripped. **Every place name is already registered**; two were renamed away from campaign-NPC association (**Sashe's Crossing** → the Marked Crossing; **Mother Tongue Pool** → the Still Pool), and the already-registered alternate name **the Signal-Cairn** is now used in preference to "the Concord Relay-Vault" in `locations/vael/orrun` (the campaign file keeps both). **`THE_UNDER_SHRINE_APPROACH` (D23) and `THE_BASIN_KEYSTONE_APPROACH` (D20) were deliberately excluded from `locations/vael/orrun` entirely** — they are the campaign's endgame and have no publishable form; verified absent by grep. No new NPC, faction, god, region, settlement, artifact, or mystery nouns were coined.
+
+**`locations/vael/orrun` faction-naming policy (set 2026-08-01).** `locations/vael/orrun` uses the **canonical registered faction names throughout** — Mourners' Circle, Ashen Wardens, Cinder Ledger, Reachward Compact, Concord Remnant, Gravecallers, Tollmen. There is no parallel naming scheme and no alias mapping. (An earlier draft substituted invented generics — "the grief-keepers," "the rite-keepers," "the southern merchant-bank," "the frontier compact" — in the settlement files only; this was an error and was corrected. Do not reintroduce it.) Member-role common nouns remain natural in prose: a member of the Mourners' Circle is *a Mourner*, a member of the Ashen Wardens is *a Warden*.
+
+Only the **public** existence and stated purpose of these bodies appears in `locations/vael/orrun`; every hidden agenda stays in `/ai_solo_campaign`. `locations/vael/orrun` names **no current officeholders** — offices are described, incumbents are not — so the library does not go stale as campaign play changes who holds what.
+| The Broken Door | Cosmology (the unsanctioned fourth threshold) | `vael/orrun/timelines/the-unmade-overview` | Sits alongside the already-registered Three Thresholds (Opening/Hearth/Last Door) without altering them. |
+| The Rite of the Broken Threshold ("threshold-breaking") | Ritual/mechanic | `vael/orrun/timelines/the-rite-of-the-broken-threshold` | The method of crossing between Tellings. |
+| Unmade glass | Item/material class | `vael/orrun/timelines/the-rite-of-the-broken-threshold` | Rite material component. Deliberate namesake/parallel to the already-registered "old glass" (raw Remembrance relic slang, Harrowgast) — related in flavor, not the same substance; keep names distinct in text. |
+| A Between-Hour | Cosmology (rare worldwide timing window) | `vael/orrun/timelines/the-rite-of-the-broken-threshold` | Required timing gate for reaching the Last Telling specifically. |
+| An anchor-thread | Mechanic (return-trip tether) | `vael/orrun/timelines/the-rite-of-the-broken-threshold` | What makes the Return Rite cheaper than the outbound Rite. |
+| A Hollow Mark | Location type (Last Telling return points) | `vael/orrun/timelines/the-last-telling` | Rare thin places within the Last Telling specifically; "thin place" is the generic term used for Near/Far Tellings. |
+| The Unkept | Creature type (ambient dead of the Last Telling) | `vael/orrun/timelines/unmade-encounters` | Not the Hollow Court; an independent horror native to a different Telling. |
+| Hollow Hound | Creature type | `vael/orrun/timelines/unmade-encounters` | Last Telling predator. |
+| A Keeper | Adversary template (named dead rulers of the Last Telling) | `vael/orrun/timelines/unmade-encounters` | Boss-tier template, reskinned per individual; there is no singular ruler of the Last Telling. |
+| A Might-Have-Been | Creature type (Near Telling roleplay encounter) | `vael/orrun/timelines/unmade-encounters` | Noncombat by design. |
+| A Fray-Walker | NPC archetype | `vael/orrun/timelines/npcs-of-the-unmade` | Generic title for anyone who has crossed Tellings and returned. |
+| Osset Vane ("the Fray-Walker of the Counting-Quays") | Named minor NPC (Orrun-only) | `vael/orrun/timelines/npcs-of-the-unmade` | Original to `locations/vael/orrun`; not part of the campaign NPC rosters above. If ever used in "The Long Remembering," treat as new campaign content requiring its own registry check, not pre-established campaign canon. "Vane" joins the already-large Vane/Vael surname family — no kinship implied to Quorrin Vane, Imris Vane-Tolm, Hollin Vane, etc.; common scholarly surname, keep full names/epithets. |
+
+> **Disambiguation:** "The Last Telling" is a deliberate thematic echo of the already-registered "Last Door," not a variant name for it — they are different concepts (a threshold vs. a whole alternate timeline). "Unmade glass" echoes "old glass" on purpose (both are Remembrance-adjacent crystallized materials) but the two are explicitly not the same substance and should never be used interchangeably in text. "The Unkept" (Last Telling ambient dead) is unrelated to any Kept Telling faction, NPC, or the Hollow Court — do not let players treat Last Telling content as evidence about the main campaign's central mystery.
 
 ## Rules
 
@@ -21,52 +94,633 @@ Master registry of all proper nouns used in the campaign. Check this file before
 
 | Name | Type | File | Notes |
 |---|---|---|---|
-
----
+| Vael | World | `04_world_atlas/WORLD_OVERVIEW.md` | The world. |
+| Orrun | Continent | `04_world_atlas/WORLD_OVERVIEW.md` | The known continent. |
+| The Long Remembering | Campaign title | `03_canon/CAMPAIGN_IDENTITY_LOCK.md` | Locked. |
+| Custodian Concord | Ancient order | `03_canon/WORLD_HISTORY.md` | The fallen order; central to hidden truth. |
+| Custodians | Title (inner Concord) | `03_canon/DM_ONLY_CANON.md` | Became the Hollow Court (DM). |
+| Quietfall | Historical event | `03_canon/WORLD_HISTORY.md` | The collapse; AQ 0. |
+| Remembrance | Setting term | `03_canon/COSMOLOGY.md`, `MAGIC_RULES.md` | The harvestable substance of identity. |
+| Quiet Country | Afterlife | `03_canon/COSMOLOGY.md` | The finite afterlife. |
+| Last Door | Cosmological/divine | `03_canon/GODS_AND_FAITHS.md` | Death threshold. |
+| Three Thresholds | Religion | `03_canon/GODS_AND_FAITHS.md` | Birth/Living/Death principles. |
+| After Quietfall (AQ) / Concord Reckoning (CR) | Calendar | `03_canon/CALENDAR.md` | Dating systems. |
+| Thin-born | Setting term | `03_canon/DM_ONLY_CANON.md` | People born "empty." |
+| Veyr | Minor god | `03_canon/GODS_AND_FAITHS.md` | Echoes and memory; fringe worship; unrelated to the Three Thresholds. |
+| The Echo | Cosmology (Veyr's domain) | `03_canon/COSMOLOGY.md` | Distinct from the already-registered "the Echo Realm" (Last Telling folk-name) — same word, unrelated place. |
+| The Measure | Ancient mortal order (extinct) | `03_canon/DM_ONLY_CANON.md` | Staked out surveyed plots of the Echo called "Ells" (a reusable generic term) and left equipment behind still measuring them. Unrelated to the Concord/Hollow Court. |
 
 ## Faction Names
 
 | Name | Type | File | Notes |
 |---|---|---|---|
-
----
+| Ashen Wardens | Rite-keeper order | `07_factions/major_factions/ASHEN_WARDENS.md` | Unknowing seal-guardians. |
+| Cinder Ledger | Merchant-bank | `07_factions/major_factions/CINDER_LEDGER.md` | Monopoly schemer. |
+| Mourners' Circle | Folk faith | `07_factions/major_factions/MOURNERS_CIRCLE.md` | Grief-keepers. |
+| Reachward Compact | Government council | `07_factions/major_factions/REACHWARD_COMPACT.md` | Infiltrated. |
+| Gravecallers | Outlawed cult | `07_factions/major_factions/GRAVECALLERS.md` | Speak with the dead. |
+| Concord Remnant | Scholar society | `07_factions/major_factions/CONCORD_REMNANT.md` | Would-be heirs. |
+| Hollow Court | Apex hidden power | `07_factions/major_factions/HOLLOW_COURT.md` | DM-only; surviving Custodians. |
+| Mourner's Cant | Ritual register | `03_canon/LANGUAGES.md` | Mourners' speech. |
+| Gravecaller Knock | Secret code | `03_canon/LANGUAGES.md` | Cult signaling. |
+| The Reclaimers | Faction sub-group | `07_factions/major_factions/CONCORD_REMNANT.md` | Remnant inner circle (DM). |
+| The Tidewater Council | City government (Caradril) | `06_settlements/CARADRIL.md` | Ruling council of magisters. |
+| The Charter Houses | Power bloc (Caradril merchant families) | `06_settlements/CARADRIL.md` | Old chartered trade dynasties. |
+| The Wardmoot | Civic body (Caradril district reps) | `06_settlements/CARADRIL.md` | Commoners' assembly; little power. |
+| The Tide-Watch | City watch/guard (Caradril) | `06_settlements/CARADRIL.md` | Caradril law enforcement. |
+| The Quay Charter | Sub-faction (Ledger's Caradril guild-arm) | `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` | Cinder Ledger's trade-guild front. |
+| The Salt Syndicate | Criminal network (Caradril) | `06_settlements/CARADRIL.md` | Smuggling + relic black market. |
+| The Hush | Criminal network (Caradril) | `06_settlements/CARADRIL.md` | Information/blackmail brokers. |
+| The Lampwrights' Collegium | Guild (Caradril scholars' guild; Remnant-linked) | `06_settlements/caradril_districts/THE_LANTERN_REACH.md` | Public face of Remnant scholarship. |
+| The Tollmen | Minor regional faction (Tollwood road-bandits) | `06_settlements/TOLLSTONE_CROSS.md` | Stage 7 — East Road toll-bandits at Tollstone Cross; turnable (Renn) vs. murderous (Skell). NOT a major faction. |
 
 ## Place Names
 
 | Name | Type | Region | File |
 |---|---|---|---|
+| Sundering Reach | Region | Sundering Reach | `05_regions/SUNDERING_REACH.md` |
+| Hollowmere | Town (start) | Sundering Reach | `06_settlements/HOLLOWMERE.md` |
+| Hollowmere basin | Geographic/landmark | Sundering Reach | `06_settlements/HOLLOWMERE.md` |
+| Drowned shrine | Dungeon/landmark (DM keystone) | Sundering Reach | `07_factions/major_factions/HOLLOW_COURT.md` |
+| Greyfens | Wilderness | Sundering Reach | `05_regions/SUNDERING_REACH.md` |
+| Sunder Heights | Highlands | Sundering Reach | `05_regions/SUNDERING_REACH.md` |
+| Mirewend River | River | Sundering Reach | `04_world_atlas/MAP_DESCRIPTION.md` |
+| Concord roads | Travel route | Sundering Reach | `04_world_atlas/MAP_DESCRIPTION.md` |
+| The Drowned Lantern | Inn | Hollowmere | `06_settlements/HOLLOWMERE.md` |
+| Mourner's Green | Cemetery | Hollowmere | `06_settlements/HOLLOWMERE.md` |
+| Ashgarden Vale | Region (south) | Orrun | `04_world_atlas/WORLD_OVERVIEW.md` |
+| Tollwood | Region (east) | Orrun | `04_world_atlas/WORLD_OVERVIEW.md` |
+| Pale Coast | Region (west) | Orrun | `04_world_atlas/WORLD_OVERVIEW.md` |
+| Caradril | City-state (SE) | Orrun | `04_world_atlas/WORLD_OVERVIEW.md` |
+| Kettle Bridge | Town | Sundering Reach | `06_settlements/KETTLE_BRIDGE.md` |
+| Saltmargin | Town | Sundering Reach | `06_settlements/SALTMARGIN.md` |
+| Candlewick | Village | Sundering Reach | `06_settlements/CANDLEWICK.md` |
+| Greywater Holm | Village | Sundering Reach | `06_settlements/GREYWATER_HOLM.md` |
+| Harrowgast | Mining village | Sundering Reach | `06_settlements/HARROWGAST.md` |
+| Reedford | Hamlet | Sundering Reach | `06_settlements/REEDFORD.md` |
+| The Ashwalk Rest | Warden waystation | Sundering Reach | `06_settlements/THE_ASHWALK_REST.md` |
+| The Sunken Tollhouse | Dungeon (river node) | Sundering Reach | `10_dungeons_and_ruins/THE_SUNKEN_TOLLHOUSE.md` |
+| The Deep Adit | Dungeon (secondary node) | Sundering Reach | `10_dungeons_and_ruins/THE_DEEP_ADIT.md` |
+| The Whispering Cairn | Ruin (archive-cairn) | Sundering Reach | `10_dungeons_and_ruins/THE_WHISPERING_CAIRN.md` |
+| The Peat Chapel | Ruin (fen chapel; first delve) | Sundering Reach | `10_dungeons_and_ruins/THE_PEAT_CHAPEL.md` |
+| The Barrow of Nine Doors | Dungeon (pre-Concord barrow) | Sundering Reach | `10_dungeons_and_ruins/THE_BARROW_OF_NINE_DOORS.md` |
+| The Ledger Vault | Dungeon (heist; Hollowmere) | Sundering Reach | `10_dungeons_and_ruins/THE_LEDGER_VAULT.md` |
+| Star-Stones | Landmark (road relay-markers) | Sundering Reach | `05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md` |
+| The Sundered Ridge | Landmark (Heights) | Sundering Reach | `05_regions/wilderness/SUNDER_HEIGHTS_SITES.md` |
+| The Roofless Hall | Landmark (Heights ruin) | Sundering Reach | `05_regions/wilderness/SUNDER_HEIGHTS_SITES.md` |
+| The Drift-Line | Landmark (Greyfens; M5) | Sundering Reach | `05_regions/wilderness/GREYFENS_SITES.md` |
+| The Drowned Blind | Landmark (Gravecaller cell) | Sundering Reach | `05_regions/wilderness/GREYFENS_SITES.md` |
+| Mother Tongue Pool | Landmark (Gravecaller sacred) | Sundering Reach | `05_regions/wilderness/GREYFENS_SITES.md` |
+| The Bone Weir | Landmark (Greyfens snag) | Sundering Reach | `05_regions/wilderness/GREYFENS_SITES.md` |
+| The Lantern Maze | Landmark (Greyfens wisps) | Sundering Reach | `05_regions/wilderness/GREYFENS_SITES.md` |
+| The Reed Holms | Landmark (basin islands) | Sundering Reach | `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md` |
+| The Lantern Shallows | Landmark (basin leakage) | Sundering Reach | `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md` |
+| The Drowned Mile | Landmark (flooded causeway) | Sundering Reach | `05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md` |
+| The Knotted Hand | Inn (Saltmargin) | Sundering Reach | `06_settlements/SALTMARGIN.md` |
+| The Drowned Kettle | Inn (Kettle Bridge) | Sundering Reach | `06_settlements/KETTLE_BRIDGE.md` |
+| The Cold Drum | Tavern (Harrowgast) | Sundering Reach | `06_settlements/HARROWGAST.md` |
 
----
+### Stage 12 (Dungeons, Ruins, Adventure Sites) — new site names
+
+New **dungeon/adventure-site** proper nouns coined in Stage 12. All are dungeon-internal place labels (site names + one notable adversary) — **NOT new factions, gods, regions, central mysteries, or world-map features.** No new NPC proper nouns (existing rosters reused), and the apex (Hollow Court/keystone) reuses already-registered names. The "Under-Shrine / Drowned Keystone" was already registered as a descriptive label; this pass builds it as a file but coins no new name for it.
+
+| Name | Type | Region | File |
+|---|---|---|---|
+| The Sunken Wards Deep | Dungeon (Caradril undercity deep level) | Caradril | `10_dungeons_and_ruins/THE_SUNKEN_WARDS_DEEP.md` |
+| The Ashmarket Undercroft | Dungeon (Caradril criminal/relic warren) | Caradril | `10_dungeons_and_ruins/THE_CARADRIL_ASHMARKET_UNDERCROFT.md` |
+| The Concord Relay-Vault (the Signal-Cairn) | Dungeon (Sunder Heights signal-station) | Sundering Reach | `10_dungeons_and_ruins/THE_CONCORD_RELAY_VAULT.md` |
+| The Greyfens Deep | Environmental dungeon (deep fen as a site) | Sundering Reach | `10_dungeons_and_ruins/THE_GREYFENS_DEEP.md` |
+| The Basin Keystone Approach (the Drowned Shrine upper works) | Dungeon (keystone surface/upper level) | Sundering Reach | `10_dungeons_and_ruins/THE_BASIN_KEYSTONE_APPROACH.md` |
+| The Old Concord Heartlands Ruin (the Ruin'd Crown) | Dungeon (far surface ruin) | Concord Heartlands (far) | `10_dungeons_and_ruins/THE_OLD_CONCORD_HEARTLANDS_RUIN.md` |
+| The Emberfell Caldera Descent (the Ashfast Deep) | Dungeon (far volcanic ruin) | Emberfell (far) | `10_dungeons_and_ruins/THE_EMBERFELL_CALDERA_DESCENT.md` |
+| The Under-Shrine / Drowned Keystone | Dungeon (DM-only endgame; already-registered label, now a file) | Sundering Reach (beneath basin) | `10_dungeons_and_ruins/THE_UNDER_SHRINE_APPROACH.md` |
+| The Relay-Warden | Adversary (Concord guardian-construct of the Relay-Vault) | Sundering Reach | `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md` |
+
+> **Stage 12 disambiguation:** "The Sunken Wards Deep" is the deep dungeon level of the already-registered Caradril district "the Sunken Wards" — keep "Deep" to distinguish the dungeon file from the district file. "The Ruin'd Crown" / "the Concord Heartlands" reuse already-registered placeholder-region names (the dungeon is a *site within* that region). "The Ashfast Deep" sits within the already-registered "Ashfast" (Emberfell seat). The dungeon "The Basin Keystone Approach" reuses "Hollowmere basin" + the registered "Drowned shrine"/"keystone"; the deep stair below it leads to the already-registered "Under-Shrine / Drowned Keystone." Interior zone-names (e.g. "the Drowned Concourse," "the Cistern Vault," "the Relay-Choir," "the Sever-Vault," "the Signal-Cairn," "the Rendering-Deeps," "the Magma Throat") are descriptive room-labels within their site files, not separately registered proper nouns. **No new factions/gods/regions/central mysteries; the Hollow Court, Custodians (Veyl/Maire/Orre), and far NPCs are all already registered.**
+
+### Stage 12.5 (Continental Adventure-Site Coverage) — new site names
+
+New **dungeon/adventure-site** proper nouns coined in Stage 12.5 (13 far-continent sites, D24–D36). All are dungeon/site labels that **reuse already-registered Stage 9.5 far anchors or world-map features** (the dungeon is a *site within* that anchor) — **NOT new factions, gods, regions, central mysteries, or world-map features.** No new NPC proper nouns (existing far-region rosters reused) and no new adversary names (the Stage 12 `STAGE_12_ADVERSARIES.md` profiles are reused/scaled). Every far site is surface/echo only; none reuses or relocates the keystone / Concord Deep / Hollow Court.
+
+| Name | Type | Region | File |
+|---|---|---|---|
+| The Saltmere Deep Towns | Dungeon (reuses registered "the Drowned Towns" anchor) | Saltmere Reaches (far) | `10_dungeons_and_ruins/THE_SALTMERE_DEEP_TOWNS.md` |
+| The Hethewald Old Holds | Dungeon (reuses registered "the Old Holds" anchor) | Hethewald (far) | `10_dungeons_and_ruins/THE_HETHEWALD_OLD_HOLDS.md` |
+| The Marrowdowns Barrow Complex | Dungeon (reuses registered "the Barrow-Fields" anchor) | Marrowdowns (far) | `10_dungeons_and_ruins/THE_MARROWDOWNS_BARROW_COMPLEX.md` |
+| The Karran Old Iron Forts | Dungeon (reuses registered "the Old Iron forts" + "the Deep Cuts") | Karran Marches (far) | `10_dungeons_and_ruins/THE_KARRAN_OLD_IRON_FORTS.md` |
+| The Glassmere Reliquary Vaults | Dungeon (vaults beneath the registered "the Reliquary") | Glassmere League (far) | `10_dungeons_and_ruins/THE_GLASSMERE_RELIQUARY_VAULTS.md` |
+| The Three Bridges Counting-Deep | Dungeon (vault beneath the registered "the Three Bridges") | Glassmere League (far) | `10_dungeons_and_ruins/THE_THREE_BRIDGES_COUNTING_DEEP.md` |
+| The Sallowmarch Drowned Steps | Dungeon (reuses registered map-feature "the Drowned Steps") | Sallowmarch Protectorate (far) | `10_dungeons_and_ruins/THE_SALLOWMARCH_DROWNED_STEPS.md` |
+| The Hollow Gulf Wreck-Reef | Dungeon (NEW site label; wreck-reef + drowned harbour-quarter off the registered Calderport) | Hollow Gulf Ports (far) | `10_dungeons_and_ruins/THE_HOLLOW_GULF_WRECK_REEF.md` |
+| The Wender Sky-Stones | Dungeon/site (reuses registered "the Sky-Stones"; NON-Concord) | Wender Steppe (far) | `10_dungeons_and_ruins/THE_WENDER_SKY_STONES.md` |
+| The Sunhollow Great Grove | Dungeon/site (reuses registered "the Great Grove at Sunhollow"; living faith) | Sunmark (far) | `10_dungeons_and_ruins/THE_SUNHOLLOW_GREAT_GROVE.md` |
+| The Nine Locks Sunken Stair | Dungeon (relay-vault beneath the registered "the Nine Locks") | Verdance Reaches (Ring 2) | `10_dungeons_and_ruins/THE_NINE_LOCKS_SUNKEN_STAIR.md` |
+| The Highmark Frozen Works | Dungeon (ice-locked station in the registered Highmark Passes) | Highmark Passes (far) | `10_dungeons_and_ruins/THE_HIGHMARK_FROZEN_WORKS.md` |
+| The Cindern Waste Buried Works | Dungeon (ash-drowned works in the registered Cindern Waste) | Emberfell Theocracy (far) | `10_dungeons_and_ruins/THE_CINDERN_WASTE_BURIED_WORKS.md` |
+
+> **Stage 12.5 disambiguation:** Twelve of the thirteen site names *reuse* an already-registered Stage 9.5 anchor or world-map feature, qualified by a site-word ("Deep Towns," "Reliquary Vaults," "Counting-Deep," "Buried Works," "Frozen Works," "Sunken Stair," "Barrow Complex," "Old Iron Forts," "Wreck-Reef"). The only fully new site-label is **"the Hollow Gulf Wreck-Reef"** (a wreck-reef/drowned-harbour salvage-site off the registered Calderport). Interior zone-names within each file (e.g. "the Salt-Choir," "the Grey-Hands Hall," "the Drowned Concourse," "the Ember-Heart," "the Relay-Heart," "the Singing-Place," "the Heart-Tree," "the Gathered Barrow") are descriptive room-labels, not separately registered proper nouns. **No new factions/gods/regions/central mysteries; no new NPC or adversary names; the keystone, the Concord Deep, and the Hollow Court are NOT reused or relocated.**
+
+### World Map Authority Pass (geographic features)
+
+| Name | Type | Region | File |
+|---|---|---|---|
+| The Pale Sea | Ocean (W/NW; against the Pale Coast) | Orrun | `04_world_atlas/WORLD_MAP_AUTHORITY.md` |
+| The Highmark Spine | Mountain range (far-N barrier; parent of the Sunder Heights); also a low-confidence placeholder late-frontier region | Orrun | `04_world_atlas/WORLD_MAP_AUTHORITY.md` |
+| The Verdance Reaches | Region (Ring 2 placeholder; up the Verdance, SE toward inland Orrun; Lvl 8–12) | Orrun | `04_world_atlas/WORLD_MAP_AUTHORITY.md` |
+| The Concord Deep | **DM-ONLY** — buried node-network ("map beneath the map") radiating from the Hollowmere keystone; NOT a surface region, entity, god, or faction | Orrun (subsurface) | `04_world_atlas/WORLD_MAP_LAYERS.md`, `WORLD_MAP_AUTHORITY.md` |
+
+> **Map Authority Pass note:** "The Under-Shrine / the Drowned Keystone" (DM-only endgame place beneath the Hollowmere basin) is a *descriptive label* for the already-registered "Drowned shrine" / Hollow Court seat, not a new proper noun. "The Verdance Reaches" reuses the registered river-name "Verdance." No new factions, gods, cosmology, or central mysteries were coined this pass; the new names are geographic features supporting the existing world.
+
+### Caradril (Stage 4 — First Major City; SE Orrun)
+
+| Name | Type | Region | File |
+|---|---|---|---|
+| Caradril | City-state (first major city) | Orrun | `06_settlements/CARADRIL.md` |
+| The Verdance | River (Caradril's waterway) | Orrun/Caradril | `06_settlements/CARADRIL.md` |
+| The Stillwater | Inland harbor-lake (Caradril's port) | Caradril | `06_settlements/CARADRIL.md` |
+| The Magisterium | District (government quarter) | Caradril | `06_settlements/caradril_districts/THE_MAGISTERIUM.md` |
+| The Counting-Quays | District (Ledger banking/docks) | Caradril | `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` |
+| The Lantern Reach | District (scholars; Remnant seat) | Caradril | `06_settlements/caradril_districts/THE_LANTERN_REACH.md` |
+| The Ashmarket | District (relic/salvage trade) | Caradril | `06_settlements/caradril_districts/THE_ASHMARKET.md` |
+| Highmourn | District (temple/cemetery hill) | Caradril | `06_settlements/caradril_districts/HIGHMOURN.md` |
+| The Crucible | District (foundries/guildhalls) | Caradril | `06_settlements/caradril_districts/THE_CRUCIBLE.md` |
+| The Sill | District (poor riverside undercity) | Caradril | `06_settlements/caradril_districts/THE_SILL.md` |
+| The Sunken Wards | District (old flooded undercity; ruin) | Caradril | `06_settlements/caradril_districts/THE_SUNKEN_WARDS.md` |
+| The Ledger Keep | Landmark (Cinder Ledger HQ building) | Caradril | `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` |
+| The Lamplighters' Hall | Landmark (Remnant public college) | Caradril | `06_settlements/caradril_districts/THE_LANTERN_REACH.md` |
+| The Sealed Archive | Landmark (Remnant's true archive vault; M6/M9) | Caradril | `06_settlements/caradril_districts/THE_LANTERN_REACH.md` |
+| The Threshold Cathedral | Temple (Three Thresholds) | Caradril (Highmourn) | `06_settlements/caradril_districts/HIGHMOURN.md` |
+| The Quiet Houses | Cemetery-temple complex | Caradril (Highmourn) | `06_settlements/caradril_districts/HIGHMOURN.md` |
+| Magisters' Hall | Landmark (Tidewater Council seat) | Caradril (Magisterium) | `06_settlements/caradril_districts/THE_MAGISTERIUM.md` |
+| The Pale Star | Inn (Magisterium edge; player base) | Caradril | `06_settlements/CARADRIL.md` |
+| The Last Tally | Tavern (Counting-Quays) | Caradril | `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` |
+| The Brass Ferry | Tavern (the Sill) | Caradril | `06_settlements/caradril_districts/THE_SILL.md` |
+| The Sealgate | Landmark (sealed stair into the Sunken Wards) | Caradril | `06_settlements/caradril_districts/THE_SUNKEN_WARDS.md` |
+
+### Ashgarden Vale (Stage 7 — Ring 1, South)
+
+| Name | Type | Region | File |
+|---|---|---|---|
+| Orchardmere | Town (Vale hub) | Ashgarden Vale | `06_settlements/ORCHARDMERE.md` |
+| Saint Veddow's Rest | Town (pilgrimage shrine-town) | Ashgarden Vale | `06_settlements/SAINT_VEDDOWS_REST.md` |
+| Saint Veddow | Saint/legend (over a capped Concord shrine) | Ashgarden Vale | `06_settlements/SAINT_VEDDOWS_REST.md` |
+| Tilbrook | Village (mill village) | Ashgarden Vale | `06_settlements/TILBROOK.md` |
+| The Ammet | River (the Vale's river) | Ashgarden Vale | `05_regions/ASHGARDEN_VALE.md` |
+| Orchardmere lake | Geographic (the Vale hub's lake) | Ashgarden Vale | `06_settlements/ORCHARDMERE.md` |
+| The South Road | Travel route (Concord causeway) | Ashgarden Vale | `04_world_atlas/TRAVEL_ROUTES_RING1.md` |
+| Nettlecombe | Hamlet (orchard/field-shrine) | Ashgarden Vale | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` |
+| Marrow Cross | Hamlet (gibbet crossroads) | Ashgarden Vale | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` |
+| The Pellow Grange | Site/dungeon (Ledger relic-quarry) | Ashgarden Vale | `10_dungeons_and_ruins/THE_PELLOW_GRANGE.md` |
+| The Buried Cloister | Dungeon (Concord ruin) | Ashgarden Vale | `10_dungeons_and_ruins/THE_BURIED_CLOISTER.md` |
+| Saint Veddow's Tomb (the Inner Shrine) | Dungeon (capped Concord shrine; M2/M6) | Ashgarden Vale | `10_dungeons_and_ruins/SAINT_VEDDOWS_TOMB.md` |
+| The Old Circle | Landmark (Orchardmere grave-garden) | Ashgarden Vale | `06_settlements/ORCHARDMERE.md` |
+| The Cider Star | Inn (Orchardmere) | Ashgarden Vale | `06_settlements/ORCHARDMERE.md` |
+| The Plough & Star | Ale-house (Tilbrook) | Ashgarden Vale | `06_settlements/TILBROOK.md` |
+| The Harvest-Moot | Civic body (Vale council) | Ashgarden Vale | `06_settlements/ORCHARDMERE.md` |
+| The Cider-Wake Orchard | Landmark (Orchardmere wake-orchard; Stage 7 pass) | Ashgarden Vale | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` |
+| The Drowned Lane | Landmark (Ammet flood-road ford; Stage 7 pass) | Ashgarden Vale | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` |
+| The Beacon Tump | Landmark (downs hill-fort; pre-Concord, false-lead; Stage 7 pass) | Ashgarden Vale | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` |
+| Saint Veddow's Spring | Landmark (holy well over the Tomb works; M2/M3; Stage 7 pass) | Ashgarden Vale | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` |
+
+### Tollwood (Stage 7 — Ring 1, East)
+
+| Name | Type | Region | File |
+|---|---|---|---|
+| Hartfell | Town (Tollwood hub) | Tollwood | `06_settlements/HARTFELL.md` |
+| Coldhearth | Village (charcoal-burners; deep wood) | Tollwood | `06_settlements/COLDHEARTH.md` |
+| Tollstone Cross | Hamlet (bandit toll-station) | Tollwood | `06_settlements/TOLLSTONE_CROSS.md` |
+| The East Road | Travel route (Concord toll-causeway) | Tollwood | `04_world_atlas/TRAVEL_ROUTES_RING1.md` |
+| The Old Mast | Landmark/dungeon (deep wood; pre-Concord presence; gated) | Tollwood | `10_dungeons_and_ruins/THE_OLD_MAST.md` |
+| The Hanging Oaks | Landmark/dungeon (pre-Concord grove; Gravecaller cell) | Tollwood | `10_dungeons_and_ruins/THE_HANGING_OAKS.md` |
+| The Greenward Toll-Station (the Drowned Vault) | Dungeon (Concord road-node) | Tollwood | `10_dungeons_and_ruins/THE_GREENWARD_TOLL_STATION.md` |
+| The Green Mile | Landmark (drowned road stretch) | Tollwood | `05_regions/wilderness/TOLLWOOD_SITES.md` |
+| The Coppice Shrines | Landmark (pre-Concord offering-stones) | Tollwood | `05_regions/wilderness/TOLLWOOD_SITES.md` |
+| The Antlers | Inn (Hartfell) | Tollwood | `06_settlements/HARTFELL.md` |
+| The Mark-Stone | Landmark (Coldhearth's toll-shrine) | Tollwood | `06_settlements/COLDHEARTH.md` |
+| The Charcoal Burns | Landmark (deep-wood camp belt; Stage 7 pass) | Tollwood | `05_regions/wilderness/TOLLWOOD_SITES.md` |
+| The Withy Bog | Landmark (bog off the Green Mile; M2/M5 fragment; Stage 7 pass) | Tollwood | `05_regions/wilderness/TOLLWOOD_SITES.md` |
+| The Mast-Beasts' Range | Landmark (deep-wood predator country; Stage 7 pass) | Tollwood | `05_regions/wilderness/TOLLWOOD_SITES.md` |
+| The Sentinel Oaks | Landmark (offering-road toward the Old Mast; gated; Stage 7 pass) | Tollwood | `05_regions/wilderness/TOLLWOOD_SITES.md` |
+
+### Pale Coast (Stage 7 — Ring 1, West)
+
+| Name | Type | Region | File |
+|---|---|---|---|
+| Wrackmouth | Town (Coast hub/port) | Pale Coast | `06_settlements/WRACKMOUTH.md` |
+| Cobble Strand | Village (shingle-cove fishing village) | Pale Coast | `06_settlements/COBBLE_STRAND.md` |
+| The Drowned Lamp | Landmark/dungeon (coastal Concord node; M2/M5/M6) | Pale Coast | `10_dungeons_and_ruins/THE_DROWNED_LAMP.md` |
+| The Skerries | Landmark (offshore sea-stacks; gated) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
+| The Skerry Shrine | Dungeon (largest coastal node; gated) | Pale Coast | `10_dungeons_and_ruins/THE_SKERRY_SHRINE.md` |
+| The Wreckers' Caves | Dungeon (sea-caves; wreckers/cult) | Pale Coast | `10_dungeons_and_ruins/THE_WRECKERS_CAVES.md` |
+| The Pale Road | Travel route (coast road) | Pale Coast | `04_world_atlas/TRAVEL_ROUTES_RING1.md` |
+| The Gull & Anchor | Inn (Wrackmouth) | Pale Coast | `06_settlements/WRACKMOUTH.md` |
+| The Tide-Bell | Landmark (Wrackmouth Mourners' shrine) | Pale Coast | `06_settlements/WRACKMOUTH.md` |
+| The Wrack | District (Wrackmouth's rough lower harbor) | Pale Coast | `06_settlements/WRACKMOUTH.md` |
+| The Tide-Shrine | Landmark (Cobble Strand salt-and-tide shrine) | Pale Coast | `06_settlements/COBBLE_STRAND.md` |
+| The Verdance Mouth | Geographic (river-mouth; water-route to Caradril) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
+| The Drowned-Cairns | Landmark (tide-line burial shore; M5; Stage 7 pass) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
+| The Salt-Pan Flats | Landmark (salt-pans + workers' camp; Stage 7 pass) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
+| The Lantern Stacks | Landmark (false-light wrecking reef; Stage 7 pass) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
+| The Weeping Light | Landmark (minor headland sea-shrine node; M2/M5; Stage 7 pass) | Pale Coast | `05_regions/wilderness/PALE_COAST_SITES.md` |
+
+### Full-World Cartographic Expansion (full continent of Orrun + Vael landmasses) — placeholders
+
+New geographic names coined in the Full-World Cartographic Expansion pass. All are **map-authoritative placeholders** (named, positioned, NOT deep-built). None is a new faction, god, or central mystery; placeholder **regions** carry a political/cultural *form* only. See `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md`.
+
+**Other landmasses of Vael (placeholder, non-campaign):**
+
+| Name | Type | Position | File |
+|---|---|---|---|
+| Surren | Continent (overseas) | Far S/SW, across the ocean | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Iron Skards | Island chain (overseas) | Far N, past the Highmark Spine's seaward end | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Sundered Isles / The Far Wrack | Island chain | Far W, mid-ocean (Pale Sea) | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+
+**Bodies of water (full continent):**
+
+| Name | Type | Position | File |
+|---|---|---|---|
+| The Sunder Ocean | Ocean | N, beyond the Highmark Spine | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Calm Reach | Warm sea | SE/S | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Saltmere | Inland salt sea | S-central interior | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Hollow Gulf | Major bay | S coast | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Wracking Straits | Strait | Far W | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Glasswater | Major river system | Central, runs SE to the Calm Reach | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Mardenflow | Major river system | S-central, runs S to the delta | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Hethe | Major river system | E, runs to the Calm Reach | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+
+**Geographic features (full continent):**
+
+| Name | Type | Position | File |
+|---|---|---|---|
+| The Karran Teeth | Mountain range | NE | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Sundering Wall / The Greatspine | Continental cordillera | Central, NW–SE axis | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Emberfells | Volcanic highland | SE-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Ghostmark Range | Low mountains | S-central, ringing the Saltmere | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Hethewood | Great forest | E-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Sunmark Wilds | Warm forest | S | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Ashen Reach Woods | Volcanic woodland | Around the Emberfells | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Cindern Waste | Ash badland | SE interior | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Bonepan Flats | Salt badland | Around the Saltmere | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Sallow Marches | Deltaic wetland | S coast (Mardenflow delta) | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Mirewend Sinks | Boglands | NW-to-central transition, S of the cluster | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Wender Steppe | Cold steppe | N-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Marrowdowns | Chalk downs | S-central uplands | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Wracking Isles | Island chain | Far W (the Straits) | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Glass Coast | Volcanic-glass coast | SE | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Drowned Steps | Submerged ruin-causeway | Off the S coast | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+
+**Placeholder political/cultural regions (full continent; form only, NOT deep-built):**
+
+| Name | Political form | Position | File |
+|---|---|---|---|
+| The Glassmere League | Mercantile city-league/confederacy | Central, on the Glasswater | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Marrowdowns (region) | Manorial holds / shire-moots | S-central uplands | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Sallowmarch Protectorate | Protectorate (a distant crown's claim) | S coast delta | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Hollow Gulf Ports | Rival port city-states | S coast | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Wender Steppe (region) | Nomadic tribal confederacy | N-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Karran Marches | Ungoverned / petty warlord holds | NE | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Emberfell Theocracy / The Ashfast | Theocracy (volcanic fire-cult) | SE-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Saltmere Reaches | Salt-clan holds / fallen realm | S-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Concord Heartlands / The Ruin'd Crown | Fallen realm (contested ruin) | Central-SE, astride the Greatspine | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Hethewald Free Holds | Confederacy of forest free-holds | E-central | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+| The Sunmark | Sacred tribal territory | S | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` |
+
+> **Disambiguation:** "The Emberfell Theocracy" and "the Ashfast" are the same placeholder region (two names). "The Concord Heartlands / the Ruin'd Crown" is a **surface** fallen-ruin region — distinct from the DM-only **Concord Deep** (buried network) and the **Under-Shrine / Drowned Keystone** (endgame, beneath Hollowmere); the Heartlands are NOT the keystone and NOT the Hollow Court's seat. "The Sunmark" (region) shares a root with its forest "the Sunmark Wilds" — keep full names. "The Wracking Straits," "the Wracking Isles," and "the Far Wrack / Sundered Isles" form a far-W naming family — keep full names. The **Greatspine / Sundering Wall** is distinct from the **Sundering Reach** (campaign region) and from the **Sunder Heights / Sunder Ocean** (the "Sunder-" prefix is a deliberate naming family). The **Marrowdowns** (S-central downs) is distinct from **Marrow Cross** (Vale hamlet).
 
 ## NPC Names
 
 | Name | Role | Location | File |
 |---|---|---|---|
+| Warden Sister Othetha | Senior Warden (secret-keeper) | Reach/Hollowmere | `08_npcs/MAJOR_NPCS.md` |
+| Warden Brother Hale | Junior Warden / companion | Hollowmere | `08_npcs/MAJOR_NPCS.md` |
+| Warden Pell | Veteran Warden (secondary) | Reach | `07_factions/.../ASHEN_WARDENS.md` |
+| Mother Calla Vyre | Cinder Ledger matriarch | Caradril/Hollowmere | `08_npcs/MAJOR_NPCS.md` |
+| Factor Domic Sael | Ledger factor | Hollowmere | `08_npcs/MAJOR_NPCS.md` |
+| Tallytooth Ren | Ledger enforcer (secondary) | Hollowmere | `07_factions/.../CINDER_LEDGER.md` |
+| Grandmother Wend | Mourners' eldest | Hollowmere | `08_npcs/MAJOR_NPCS.md` |
+| Iola Wend | Mourners apprentice / bridge | Hollowmere | `08_npcs/MAJOR_NPCS.md` |
+| Bann Oester | Grave-digger (secondary) | Hollowmere | `07_factions/.../MOURNERS_CIRCLE.md` |
+| Reeve Marda Coalmont | Hollowmere reeve | Hollowmere | `08_npcs/MAJOR_NPCS.md` |
+| Councilor Aldous Reke | Councilor / Court agent | Hollowmere | `08_npcs/MAJOR_NPCS.md` |
+| Clerk Pevin Oss | Compact records-keeper (secondary) | Hollowmere | `07_factions/.../REACHWARD_COMPACT.md` |
+| The Tallow Man | Gravecaller speaker | Greyfens | `08_npcs/MAJOR_NPCS.md` |
+| Sister Knell | Gravecaller recruiter | Reach | `08_npcs/MAJOR_NPCS.md` |
+| Cole Ashby | Gravecaller radical | Fens/shrine | `08_npcs/MAJOR_NPCS.md` |
+| Archivist Quorrin Vane | Remnant inner circle | Caradril | `08_npcs/MAJOR_NPCS.md` |
+| Lector Briss | Remnant idealist | Caradril/Reach | `08_npcs/MAJOR_NPCS.md` |
+| Custodian Veyl | Hollow Court leader (final antagonist) | Under-shrine | `08_npcs/MAJOR_NPCS.md` |
+| Custodian Maire | Hollow Court doubter | Under-shrine | `08_npcs/MAJOR_NPCS.md` |
+| Custodian Orre | Hollow Court hardliner (secondary) | Under-shrine | `07_factions/.../HOLLOW_COURT.md` |
+| Sefra Quick | Fixer / first contact / cutout | Hollowmere | `08_npcs/MAJOR_NPCS.md` |
+| Wren Brevin (formerly styled Wren Hollowmere) | Returned dead (opening) | Hollowmere | `08_npcs/MAJOR_NPCS.md` |
+| Tomas Brevin | Wren's husband | Hollowmere | `08_npcs/MAJOR_NPCS.md` |
+| Halla Coalmont | Innkeeper / hub | Hollowmere | `08_npcs/MAJOR_NPCS.md` |
+| Old Sashe | Fen-guide | Greyfens edge | `08_npcs/MAJOR_NPCS.md` |
 
----
+### Stage 9 Major NPC additions
+
+| Name | Role | Location | File |
+|---|---|---|---|
+| Hewett Drane ("the Reedwarden") | Fen warlord (early Reach antagonist; independent) | Greyfens | `08_npcs/MAJOR_NPCS.md` |
+| Mother Ezrith Combe | Mourners' eldest (Vale anchor; elevated from secondary) | Vale/Orchardmere | `08_npcs/MAJOR_NPCS.md` |
+| Goodwife Sennet (Coldhearth) | Forest-elder (Tollwood anchor; elevated) | Tollwood/Coldhearth | `08_npcs/MAJOR_NPCS.md` |
+| Salt-Mother Bryd | Salt-and-tide rite-keeper (Coast anchor; elevated) | Coast/Cobble Strand | `08_npcs/MAJOR_NPCS.md` |
+| Magister Otho Brail | Tidewater Council swing vote | Caradril | `08_npcs/by_region/CARADRIL_MAJOR_NPCS.md` |
+| Charter-Lady Imris Vane-Tolm | Charter House reforming heir (cadet of House Tolm; NOT kin to Quorrin Vane) | Caradril | `08_npcs/by_region/CARADRIL_MAJOR_NPCS.md` |
+| Sister-Commander Veil Ansele | Tide-Watch second/enforcer | Caradril | `08_npcs/by_region/CARADRIL_MAJOR_NPCS.md` |
+| Hierarch Casmir Vole | Three Thresholds schismatic preacher | Caradril/Highmourn | `08_npcs/by_region/CARADRIL_MAJOR_NPCS.md` |
+| Grandmaster Edrin Cole | Foundry-guilds overlord (NOT kin to Cole Ashby or Maris Cole) | Caradril/Crucible | `08_npcs/by_region/CARADRIL_MAJOR_NPCS.md` |
+| Lector-General Sabine Ferrant | Concord Remnant institutional head/true believer | Caradril/Lantern Reach | `08_npcs/by_region/CARADRIL_MAJOR_NPCS.md` |
+| "Mother" Silque | Salt Syndicate true head (above "Tidewife" Sorrel) | Caradril/Sill | `08_npcs/by_region/CARADRIL_MAJOR_NPCS.md` |
+| Magister Ophir Lensk | Anti-Reach council bloc head | Caradril | `08_npcs/by_region/CARADRIL_MAJOR_NPCS.md` |
+
+> **Stage 9 naming note:** "Vole" names two distinct people — **Hierarch Casmir Vole** (Caradril schismatic priest) and **Mother Senna Vole** (Caradril folk-Mourner, secondary); keep epithets. "Edrin Cole" (Caradril guild grandmaster) is distinct from "Cole Ashby" (Gravecaller) and "Maris Cole" (Coast Ledger factor) — common surname. "Imris **Vane**-Tolm" and minor "Doss Vane" are NOT kin to "Quorrin **Vane**." Stage 9 secondary/minor NPCs reuse the established common-surname families (Pell, Wend, Sael, Coalmont, Vane, Dree, Tull, Strand, Brunt, Gethin, Marrin/Marrock) with disambiguating epithets/locations carried inline in their NPC-file entries; they are not individually registered here (per registry scope: major NPCs + key terms). Far-continent placeholder figures in `08_npcs/by_region/FAR_CONTINENT_NPCS.md` are horizon-scaffolds, not deep-built named powers.
+
+### Stage 9 Pass-2 Major NPC additions (M33–M50b) — `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md`
+
+18 new majors bringing the roster to **50**. Nine are **wholly new** (registered below); nine are **elevations** of already-registered Stage 3/4/7 secondaries given full major profiles (Decca Rull, Tomas Greel, Renna Sill, the Bellman, Old Pater Dunk, Cady Renn, Ond Falk, Tamsin Orr, Tomas Quint — no new proper nouns). M49/M50 are cross-references to existing majors (Tomas Brevin / Sister Knell), not new.
+
+| Name | Role | Location | File |
+|---|---|---|---|
+| Dredgemaster Osrin Vole | Harrowgast mine-lord (M33) | Reach/Harrowgast | `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` |
+| Bridge-Keeper Mahalf Dunmore | Kettle Bridge toll-family head (M34) | Reach/Kettle Bridge | `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` |
+| Fenwife "Mother Osset" | Greyfens Gravecaller cell-mother (M36) | Reach/Greyfens | `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` |
+| Auctioneer Cassia Mourn | Ashmarket relic-auction mistress (M39) | Caradril/Ashmarket | `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` |
+| Warden-Confessor Brother Halloran Voss | Wardens' dissident-of-conscience (M42) | Reach (roams) | `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` |
+| Magister-Reeve Sela Coalmont | Senior honest Compact authority (M43) | Reach (circuit) | `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` |
+| Collector-Captain Mauld Tallow | Ledger Reach enforcer-captain (M44) | Reach (roams) | `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` |
+| Doctor Onaia Veen | Frontier physician-sage (M45) | Reach/Ring 1 (circuit) | `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` |
+| Ser Aldous Penhew | Vale cross-pressured land-magnate (M46) | Vale/Orchardmere | `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` |
+
+> **Stage 9 pass-2 naming disambiguation:** **Osrin Vole** (Harrowgast mine-lord) ≠ Hierarch Casmir **Vole** (Caradril) ≠ Mother Senna **Vole** (Caradril Mourner) ≠ Ash-Hierophant **Vole** Cindra (far-continent) — unrelated; "Vole" is a common frontier surname, keep full names. **Mahalf Dunmore** is the elder brother of minor NPC "Keeper Dunmore" (Drowned Kettle inn) and shares the given name "Mahalf" with minor NPC "Widow Mahalf" (Cobble Strand) — keep role/location. **Warden-Confessor Halloran Voss** (Warden) ≠ Magister **Halloran Voss** / Magistra Ondine Voss (Caradril council) — unrelated common name; always say "Warden-Confessor Voss." **Magister-Reeve Sela Coalmont** is kin to Reeve Marda / Halla Coalmont and **is the same person** as the Wave-6 secondary "Bailiff Sela Coalmont" (now given her full major profile); keep the "Magister-Reeve" title to distinguish from Reeve Marda. **Collector-Captain Mauld Tallow** (Ledger) ≠ the Tallow Man (Gravecaller epithet) ≠ Caravan-Master Ode Tallow (Ashmarket) — unrelated; keep full names. **Doctor Onaia Veen** heads the Veen healer-family (Onna/Maud Veen, the apothecary) — "Onaia" ≠ "Onna." **Ser Aldous Penhew** (Vale gentry) ≠ the Caradril "Penhallow" Charter House — different family/region; "Aldous" is shared with Reke, Cray (Aldwin), Frome, Penmark — keep surnames. **Auctioneer Cassia Mourn** shares a root with the Mourners' Circle but is **no kin** and not a Mourner (coincidental city trade-name). **Fenwife "Mother Osset"** is a cult-name with no prior collision.
+
+### Stage 9.5 Far-Continent NPCs — `08_npcs/by_region/*_NPCS.md`
+
+44 new far-continent **major** NPCs across the 12 placeholder regions (Lvl 6–17). Most are **elevations** of the horizon-scaffold figures previously named in `08_npcs/by_region/FAR_CONTINENT_NPCS.md` (now given full profiles in per-region files); the rest are wholly new. All are far-region anchors, NOT deep-built powers; **none knows the apex truth.** No new factions, gods, geography, or central mysteries were coined. (The far-continent **secondary/minor** NPCs carry their disambiguating epithets inline in each region file and are not individually registered here, per registry scope.)
+
+| Name | Role | Region/Location | File |
+|---|---|---|---|
+| Factor-General Wessel Crane | Ledger inland directorate head (elevated) | Verdance Reaches/Marrowfen Stair | `VERDANCE_REACHES_NPCS.md` |
+| Lord Ennis Marrow | Petty lord of the Nine Locks (new) | Verdance Reaches/Lord's Wend | `VERDANCE_REACHES_NPCS.md` |
+| River-Captain Mossa Drenn | Independent barge-captain (elevated) | Verdance/the Verdance | `VERDANCE_REACHES_NPCS.md` |
+| Sub-Lector Hadwin Vael | Remnant inland chapter (elevated) | Verdance Reaches | `VERDANCE_REACHES_NPCS.md` |
+| Crown-Reclaimer Magister Hollin Vane | Remnant expedition-lord (elevated; apex-adjacent) | Concord Heartlands/the Crown | `CONCORD_HEARTLANDS_NPCS.md` |
+| Warden Lyssa Crownmouth | Scavenger-town war-captain (new) | Concord Heartlands/Crownmouth | `CONCORD_HEARTLANDS_NPCS.md` |
+| Father Casian Ord | Heretic-priest of the Pilgrim Camps (new) | Concord Heartlands/Pilgrim Camps | `CONCORD_HEARTLANDS_NPCS.md` |
+| "Old Crown" Mab | Deep-ruin guide (elevated) | Concord Heartlands/the Crown | `CONCORD_HEARTLANDS_NPCS.md` |
+| League-Factor Oren Glass | League trade-envoy (elevated) | Glassmere League/Glassmere | `GLASSMERE_LEAGUE_NPCS.md` |
+| Banker-Magistra Sefwy Holt | Merchant-bank magnate; Ledger rival (elevated) | Glassmere/Three Bridges | `GLASSMERE_LEAGUE_NPCS.md` |
+| Spy-Broker "the Glass Ear" | Information-master (elevated) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` |
+| Reliquary-Lector Mareth Senn | Remnant grand-chapter head (new) | Glassmere/the Reliquary | `GLASSMERE_LEAGUE_NPCS.md` |
+| Mother Wenna Lowwater | Urban Mourner eldest; old-songs node (new) | Glassmere/Lowwater | `GLASSMERE_LEAGUE_NPCS.md` |
+| Hold-Speaker Bram Hethe | Free-holds Speaker (elevated) | Hethewald/Hethemoot | `HETHEWALD_FREE_HOLDS_NPCS.md` |
+| Forest-Mother Onn Greenward | Grove grief-keeper; old-songs node (elevated) | Hethewald/Greenward | `HETHEWALD_FREE_HOLDS_NPCS.md` |
+| Toll-Lord "Greenfinger" Maddoc | Outlaw river-toller (new) | Hethewald/Tollreach | `HETHEWALD_FREE_HOLDS_NPCS.md` |
+| Port-Mistress Ive Calder | Gulf port-ruler (elevated) | Hollow Gulf/Calderport | `HOLLOW_GULF_PORTS_NPCS.md` |
+| Privateer-Captain Roke Mallin | Licensed sea-raider (elevated) | Hollow Gulf/the Reach Lanes | `HOLLOW_GULF_PORTS_NPCS.md` |
+| Saltgate Port-Lord Doss Saltgate | Rival port-lord (new) | Hollow Gulf/Saltgate | `HOLLOW_GULF_PORTS_NPCS.md` |
+| Tide-Mother Sera Mardenmouth | Sea-Mourner eldest; old-songs node (new) | Hollow Gulf/Mardenmouth | `HOLLOW_GULF_PORTS_NPCS.md` |
+| Foreign-Factor Hadiz of Surren | Overseas merchant; world-horizon (new) | Hollow Gulf/Foreign Quarter | `HOLLOW_GULF_PORTS_NPCS.md` |
+| Salt-Clan Matriarch Bryd Saltmere | Salt-clan confederacy head (elevated) | Saltmere/Brackhold | `SALTMERE_REACHES_NPCS.md` |
+| Drowned-Town Delver Oss | Drowned-ruin scavenger (elevated) | Saltmere/the Drowned Towns | `SALTMERE_REACHES_NPCS.md` |
+| Salt-Mother Tess Brackhold | Salt-clan grief-keeper; old-songs node (new) | Saltmere/Brackhold | `SALTMERE_REACHES_NPCS.md` |
+| Ash-Hierophant Vole Cindra | Fire-theocracy ruler (elevated; thematic mirror) | Emberfell/Ashfast | `EMBERFELL_THEOCRACY_NPCS.md` |
+| Pyre-Warden Sef Embren | Theocracy enforcer (elevated) | Emberfell/Ashfast | `EMBERFELL_THEOCRACY_NPCS.md` |
+| Ember-Sage Mira Cindra | Heretic-scholar (new) | Emberfell/Ashfast | `EMBERFELL_THEOCRACY_NPCS.md` |
+| Cinder-Master Doss Ashfast | Volcanic mining-lord (new) | Emberfell/Cinderhold | `EMBERFELL_THEOCRACY_NPCS.md` |
+| Protector-Legate Vorr Sallow | Distant crown's legate (elevated) | Sallowmarch/Fenward | `SALLOWMARCH_PROTECTORATE_NPCS.md` |
+| Marsh-Healer Doll Fenn | Plague-doctor; delta's true leader (elevated) | Sallowmarch/Reedmouth | `SALLOWMARCH_PROTECTORATE_NPCS.md` |
+| Reed-Boss "Heron" Maddox | Delta smuggler-king (new) | Sallowmarch/Reedmouth | `SALLOWMARCH_PROTECTORATE_NPCS.md` |
+| Fen-Witch Mother Sela Reed | Delta grief-keeper; old-songs node (new) | Sallowmarch/Rice Sallows | `SALLOWMARCH_PROTECTORATE_NPCS.md` |
+| Shire-Reeve Aldous Penmark | Downs landed law (elevated) | Marrowdowns/Penmark Hold | `MARROWDOWNS_NPCS.md` |
+| Moot-Mother Senna Crale | Downs grief-keeper; old-songs node (elevated) | Marrowdowns/Marrowmoot | `MARROWDOWNS_NPCS.md` |
+| Barrow-Master Doss Wether | Barrow-robber-guide (new) | Marrowdowns/Barrow-Fields | `MARROWDOWNS_NPCS.md` |
+| Clan-Speaker Tamur Wend-Khar | Steppe confederacy Speaker (elevated) | Wender Steppe/Cold Springs | `WENDER_STEPPE_NPCS.md` |
+| Wind-Singer Esha | Steppe seer; cosmic-echo (elevated) | Wender Steppe/Sky-Stones | `WENDER_STEPPE_NPCS.md` |
+| Raid-Lord Borr of the Black Horse | Steppe reaver (new) | Wender Steppe/far steppe | `WENDER_STEPPE_NPCS.md` |
+| Warlord "Iron" Brask | Strongest petty warlord (elevated) | Karran Marches/Brask's Hold | `KARRAN_MARCHES_NPCS.md` |
+| Ore-Factor Mully Karr | Metals-trader (elevated) | Karran Marches/Karran-Gate | `KARRAN_MARCHES_NPCS.md` |
+| Reclaimer-Captain Wenna Stone | Remnant NE expedition (new; turnable) | Karran/Old Iron forts | `KARRAN_MARCHES_NPCS.md` |
+| Grove-Keeper Sael Sunmark | Living-faith head (elevated; hopeful contrast) | Sunmark/Sunhollow | `SUNMARK_NPCS.md` |
+| Sun-Singer Doll | Grove seer; hopeful echo (elevated) | Sunmark/Sunward Wilds | `SUNMARK_NPCS.md` |
+| Plains-Factor Doss Sunward | Cut-and-trade lord (new) | Sunmark/Green Roads | `SUNMARK_NPCS.md` |
+
+> **Stage 9.5 naming disambiguation:** **Hadwin Vael** (Verdance Remnant), **Hollin Vane** (Heartlands Remnant), **Mira/Brann Senn** & city **Sennfort/Cairnwater** & **Mareth Senn** (Glassmere), and **Wenn Vael** (Hethewald) are all **non-kin** to Quorrin Vane, Imris Vane-Tolm, Oneth Vael, Doss Vane, or each other — "Vane / Vael / Senn" are common scholarly/civic surnames; keep full names. **Ash-Hierophant Vole Cindra** (Emberfell, foreign root) ≠ Osrin/Casmir/Senna **Vole** (north) — coincidental; keep full names. **Salt-Clan Matriarch Bryd Saltmere** (Saltmere) ≠ **Salt-Mother Bryd** (Pale Coast/Cobble Strand) — shared salt-folk given-name across distant regions; always full names. **Salt-Mother Tess Brackhold** (Saltmere rite-title) shares the "Salt-Mother" title with Coast's Bryd — distinct people; keep full names. **Senna Crale** (Marrowdowns Mourner) ≠ Mother/Goodwife Sennet (Vale/Tollwood) ≠ the Senns of Glassmere/Emberfell — keep full names. **"Greenfinger" Maddoc** (Hethewald) keeps its spelling, distinct from the **"Maddox"** outlaw-name family (Eel/Carp/Crow/"Heron"/the Crown's bandit-lord — all separate, unrelated common outlaw surname). **"Iron" Brask** (Karran) ≠ Pass-Warden Brask Tarn (Heartlands) ≠ steppe Borr — common hard-frontier names; keep full names. **Tamur Wend-Khar** (steppe clan-name) ≠ the Reach Wends — coincidental root. **Sael Sunmark** (grove given-name) ≠ the northern Saels (Domic, Brunt, Goodman). The many far-region **"Doss"** (Saltgate, Ashfast, Wether, Sunward) and **"Doll"** (Fenn, Sun-Singer, Vard, Cairn, Tull) and **"Wenna"** (Lowwater, Stone, Roke, Drove, Stair) are common given-names across distant regions — always carry the surname/epithet. **Wind-Singer Esha** & **Sun-Singer Doll** are seer-titles, not the minor-NPC "Esha"/"Doll" color-figures.
+
+### Stage 9.5 — Light NPC-Facing Anchors — `08_npcs/by_region/*_NPCS.md`
+
+Local place-names coined to *anchor* the Stage 9.5 far-continent NPC rosters (towns, camps, districts, wharves, gathering-places, ruin-edge camps, roads, groves). **Each is a light NPC-facing anchor — not a full settlement, not a major map feature, and NOT deep-built.** They exist so the AI DM can locate far-region NPCs in play; they reuse or sit within already-registered geographic features (see `FULL_WORLD_MAP_AUTHORITY.md`) and do not add new major geography or factions. Names that ARE already registered as map features (e.g. the Bonepan Flats, the Cindern/Forbidden Waste, the Sunmark Wilds, the Ruin'd Crown, the Greatspine passes, the Reach Lanes, the Summer-Riding host) are not repeated here.
+
+| Name | Type | Region | File | Notes |
+|---|---|---|---|---|
+| Marrowfen Stair | River-town (locks/wharves; corridor hub) | Verdance Reaches | `VERDANCE_REACHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Lord's Wend | Petty-lord's hall-town | Verdance Reaches | `VERDANCE_REACHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Cresswater | Barge-village | Verdance Reaches | `VERDANCE_REACHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Nine Locks | Lock-staircase landmark (on the Verdance) | Verdance Reaches | `VERDANCE_REACHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Crownmouth | Fortified scavenger-town (ruin-edge) | Concord Heartlands | `CONCORD_HEARTLANDS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Pilgrim Camps | Refugee/relic-seeker shanty-camps | Concord Heartlands | `CONCORD_HEARTLANDS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Glassmere (city) | League-capital city (greatest river-city) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` | light NPC-facing anchor — names the placeholder region's capital; not deep-built |
+| The Floor | Merchant-exchange (Glassmere) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` | light NPC-facing anchor — a city locale, not a settlement |
+| The Three Bridges | Banking quarter (Glassmere) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` | light NPC-facing anchor — a city locale, not a settlement |
+| The Reliquary | Remnant great chapter-house (Glassmere) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` | light NPC-facing anchor — a building, not a settlement |
+| Lowwater | Poor riverside district (Glassmere) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` | light NPC-facing anchor — a city district, not a settlement |
+| Sennfort / Cairnwater | Smaller league-cities (referenced) | Glassmere League | `GLASSMERE_LEAGUE_NPCS.md` | light NPC-facing anchors — named-in-passing, not deep-built |
+| Hethemoot | Great gathering free-hold | Hethewald Free Holds | `HETHEWALD_FREE_HOLDS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Greenward | Grove-village (Onn's seat) | Hethewald Free Holds | `HETHEWALD_FREE_HOLDS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Tollreach | Outlaw river-toll camp (on the Hethe) | Hethewald Free Holds | `HETHEWALD_FREE_HOLDS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Old Holds | Deep-wood Concord ruins (forbidden) | Hethewald Free Holds | `HETHEWALD_FREE_HOLDS_NPCS.md` | light NPC-facing anchor — ruin-cluster label, not deep-built (cf. Tollwood's Old Mast) |
+| Calderport | Greatest Gulf port city-state | Hollow Gulf Ports | `HOLLOW_GULF_PORTS_NPCS.md` | light NPC-facing anchor — names the placeholder region's chief port; not deep-built |
+| Saltgate | Rival Gulf port city-state | Hollow Gulf Ports | `HOLLOW_GULF_PORTS_NPCS.md` | light NPC-facing anchor — not deep-built |
+| The Foreign Quarter | Overseas-traders' district (Calderport) | Hollow Gulf Ports | `HOLLOW_GULF_PORTS_NPCS.md` | light NPC-facing anchor — a city locale |
+| The Mardenmouth | Delta-mouth wharves (Calderport) | Hollow Gulf Ports | `HOLLOW_GULF_PORTS_NPCS.md` | light NPC-facing anchor — a wharf-district, not a settlement |
+| Brackhold | Largest surviving salt-clan hold | Saltmere Reaches | `SALTMERE_REACHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Drowned Towns | Receding-lake submerged ruins | Saltmere Reaches | `SALTMERE_REACHES_NPCS.md` | light NPC-facing anchor — pre-Concord ruin-cluster, NOT the keystone |
+| Saltcairn | Ghostmark-edge clan-town | Saltmere Reaches | `SALTMERE_REACHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Ashfast (city) | Fortress-temple-city (theocracy seat) | Emberfell Theocracy | `EMBERFELL_THEOCRACY_NPCS.md` | light NPC-facing anchor — names the placeholder region's seat; not deep-built |
+| Cinderhold | Volcanic mining town | Emberfell Theocracy | `EMBERFELL_THEOCRACY_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Ash Roads | Pilgrim-ways through the highland | Emberfell Theocracy | `EMBERFELL_THEOCRACY_NPCS.md` | light NPC-facing anchor — a route-label, not a settlement |
+| Fenward | Garrison-capital (the crown's seat) | Sallowmarch Protectorate | `SALLOWMARCH_PROTECTORATE_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Reedmouth | Delta smuggling-village | Sallowmarch Protectorate | `SALLOWMARCH_PROTECTORATE_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Rice Sallows | Flooded paddy-country | Sallowmarch Protectorate | `SALLOWMARCH_PROTECTORATE_NPCS.md` | light NPC-facing anchor — a sub-area label, not a settlement |
+| The Fever Channels | Deep delta backwaters | Sallowmarch Protectorate | `SALLOWMARCH_PROTECTORATE_NPCS.md` | light NPC-facing anchor — a waterway-label, not a settlement |
+| Marrowmoot | Shire-town (where moots gather) | Marrowdowns | `MARROWDOWNS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Penmark Hold | Shire-reeve's manor | Marrowdowns | `MARROWDOWNS_NPCS.md` | light NPC-facing anchor — a manor, not a settlement |
+| The Barrow-Fields | Ancient burial-downs | Marrowdowns | `MARROWDOWNS_NPCS.md` | light NPC-facing anchor — pre-Concord barrow-cluster, NOT the keystone |
+| Wether | Wool-trade village | Marrowdowns | `MARROWDOWNS_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Winter-Camp at Cold Springs | Largest clans' cold-season gathering | Wender Steppe | `WENDER_STEPPE_NPCS.md` | light NPC-facing anchor — a seasonal camp, not a settlement |
+| The Sky-Stones | Ancient steppe shrine-circle (NOT Concord) | Wender Steppe | `WENDER_STEPPE_NPCS.md` | light NPC-facing anchor — independent steppe holy site, not deep-built |
+| The Spine-Foot trade-meet | Steppe/settled trade-meeting ground | Wender Steppe | `WENDER_STEPPE_NPCS.md` | light NPC-facing anchor — a meeting-ground, not a settlement |
+| Brask's Hold | Iron Brask's fortress-town | Karran Marches | `KARRAN_MARCHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| Karran-Gate | Mining-and-mercenary town | Karran Marches | `KARRAN_MARCHES_NPCS.md` | light NPC-facing anchor — not a full settlement, not a major map feature |
+| The Deep Cuts | Great ore-mines | Karran Marches | `KARRAN_MARCHES_NPCS.md` | light NPC-facing anchor — a mine-complex label, not a settlement |
+| The Old Iron forts | Scattered peripheral Concord ruins | Karran Marches | `KARRAN_MARCHES_NPCS.md` | light NPC-facing anchor — ruin-cluster, NOT the keystone |
+| The Great Grove at Sunhollow | Grove-tribes' holy heart/gathering-place | Sunmark | `SUNMARK_NPCS.md` | light NPC-facing anchor — a sacred grove + gathering, not a settlement |
+| The Grove-Camps | Grove-tribes' settlements | Sunmark | `SUNMARK_NPCS.md` | light NPC-facing anchor — dispersed camps, not deep-built |
+| The Green Roads | Pilgrim-and-trade paths through the groves | Sunmark | `SUNMARK_NPCS.md` | light NPC-facing anchor — a route-label, not a settlement |
+
+> **Stage 9.5 cleanup-pass secondary additions (2026-06-12):** six far-region **secondary** NPCs added to bring five regions from 11→12 and Sallowmarch to 12 distinct-authored secondaries — Marek Bonepan (Saltmere salt-caravan master), Horse-Reeve Edony Marrow (Marrowdowns mounted lawkeeper), Kin-Mother Tamur-Sai (Wender clan-matriarch; explicitly no kin to Clan-Speaker Tamur Wend-Khar), Pass-Toll Warlord Hessa Teeth (Karran pass-warlord), Greenway-Warden Tamsin Greenway (Sunmark road-captain; distinct from Sub-Lector Tamsin Orr), Rice-Moot Speaker Pell Sallows (Sallowmarch village-speaker; no kin to the crown's Sallow-line). Per registry scope, far-region secondaries carry disambiguating epithets inline in their region files and are listed here only as a cleanup note.
+
+### Secondary NPCs (Stage 3) — `08_npcs/SECONDARY_NPCS.md`
+
+| Name | Role | Location |
+|---|---|---|
+| Sergeant Hesk | Compact watch leader | Hollowmere |
+| Bailiff Aldwin Cray | Compact bailiff | Kettle Bridge |
+| Quenna Bly | Ledger toll-farmer | Kettle Bridge |
+| Bargemaster Tibb | Bargeman | Kettle Bridge |
+| Iss Marlow | Ledger wharf-factor | Saltmargin |
+| Decca Rull | Salt-pan foreman | Saltmargin |
+| "Gull" Heddwyn | Smuggler | Saltmargin/Greyfens |
+| Elder Mabb Tay | Mourners' elder | Greywater Holm |
+| Den Hask | Fowler / half-recruit | Greywater Holm |
+| Hayward Tomas Greel | Compact hayward | Candlewick |
+| Yorrin Tay | Chandler-master | Candlewick |
+| Overseer Brack | Compact overseer | Harrowgast |
+| Nessa Coyle | Ledger buyer | Harrowgast |
+| Dig-boss Hennet | Mine foreman | Harrowgast |
+| Veska Dunn | Remnant reclaimer-agent | Sunder Heights |
+| Hospitaller Warden Sirrin | Warden quartermaster | The Ashwalk Rest |
+
+### Minor NPCs (Stage 3) — `08_npcs/MINOR_NPCS.md`
+
+Pim Ostry, Goodwife Harl, Edda Cole, Wat (cooper's-boy), Sexton Marrow, Drell (peat-merchant) [Hollowmere]; Innkeep Brannoch, Sister-of-salt Onna, Crook (carter), Net-wife Sereth [Saltmargin]; Old Marrock, Keeper Dunmore, Toll-guard Pike, Barge-boy Lill [Kettle Bridge]; Goodwife Nan, Ferryman Dob, Widow-mourner Sel [Reedford]; Widow Sarn, Tam (fowler-boy), Goodman Crell [Greywater Holm]; Old Beeman Crick, Mourner Edda, Smith Harrow, Chapel-clerk Vesna [Candlewick]; "Thin" Coll, Cold-Drum Vey, Toolwright Garn, Mab (sorter) [Harrowgast]; Mourner-keeper Ansel, Watch-Warden Doune, Carter Sed [The Ashwalk Rest].
+
+> Note: "Mourner Edda" (Candlewick, minor) and "Edda Cole" (Hollowmere hedge-healer, minor) are distinct people; "Pell Oster" (Saltmargin salt-warden, minor official, mentioned in `SALTMARGIN.md`) is distinct from "Warden Pell" (Ashen Warden, secondary).
+
+### Caradril Secondary NPCs (Stage 4) — `08_npcs/SECONDARY_NPCS.md`
+
+| Name | Role | Location |
+|---|---|---|
+| Magister Halloran Voss | First Magister (head of council) | Caradril (Magisterium) |
+| Magister Sefa Dann | Reform magister (ally lever) | Caradril (Magisterium) |
+| Charter-Lord Esren Tolm | Old-money Charter House head (Ledger rival) | Caradril (Magisterium) |
+| Captain Yorell Kade | Tide-Watch captain | Caradril (citywide) |
+| Provost Anneth Vell | Ledger Keep provost (Vyre's Caradril deputy) | Caradril (Counting-Quays) |
+| Underfactor Coll Riis | Ledger clerk (turnable; M3/M6) | Caradril (Counting-Quays) |
+| Sub-Lector Tamsin Orr | Remnant scholar (Briss's student; Script tutor) | Caradril (Lantern Reach) |
+| Keeper-Archivist Wessel Dree | Sealed Archive gatekeeper (Reclaimer) | Caradril (Lantern Reach) |
+| Mother Ysarra | Threshold Cathedral high priest | Caradril (Highmourn) |
+| Grave-Magister Lon Quayle | Quiet Houses death-rite official | Caradril (Highmourn) |
+| Foundress Beck Harrow | Crucible guild-mistress (relic-smelting) | Caradril (Crucible) |
+| "Tidewife" Sorrel | Salt Syndicate boss | Caradril (the Sill/Quays) |
+| The Bellman | The Hush broker (information/blackmail) | Caradril (citywide) |
+| Renna Sill | Sill community leader (thin-born advocate) | Caradril (the Sill) |
+| Old Pater Dunk | Sunken Wards delver-guide | Caradril (Sunken Wards) |
+
+### Caradril Minor NPCs (Stage 4) — `08_npcs/MINOR_NPCS.md`
+
+Steward Maell, Crier Bosh, Doorward Sile [Magisterium]; Tally-clerk Vinn, Wharf-boss Drenn, Moneychanger Oons, Pelt the runner [Counting-Quays]; Copyist Hale-of-Lampgate (see note), Page Wenna, Binder Oslo, Lamplighter Tib [Lantern Reach]; Relic-monger Sabb, Fence Greel-of-the-Ash (see note), Appraiser Mooren, Hawker Liss [Ashmarket]; Sister Onae, Bell-ringer Tomm, Bone-clerk Vass [Highmourn]; Smelt-master Ordo, Guild-steward Phane, Soot the apprentice [Crucible]; Ferryman Quill, Net-girl Bree, "Old Soak" Marrin, Widow Tace [the Sill]; Delver Coorn, Lantern-girl Esha [Sunken Wards].
+
+> Note: "Copyist Hale-of-Lampgate" (Caradril minor) is distinct from "Warden Brother Hale" (major). "Fence Greel-of-the-Ash" (Caradril Ashmarket minor) is distinct from "Hayward Tomas Greel" (Candlewick secondary). Disambiguating epithets are kept in the minor-NPC table.
+
+### Ring 1 Secondary NPCs (Stage 7) — `08_npcs/SECONDARY_NPCS.md`
+
+| Name | Role | Region/Location |
+|---|---|---|
+| Moot-Reeve Halsa Tindle | Vale governor (cover-up) | Vale/Orchardmere |
+| Mother Ezrith Combe | Eldest Vale Mourners' elder (M6) | Vale/Orchardmere |
+| Factor Wymar Pell | Ledger Vale factor (M3) | Vale/Orchardmere |
+| Warden Sister Adwen | Resident seal-keeper (M6 conditional) | Vale/Saint Veddow's |
+| Mother Sennet | Saint Veddow's shrine-keeper | Vale/Saint Veddow's |
+| Sub-Lector Oneth Vael | Remnant scholar-pilgrim | Vale/Saint Veddow's |
+| Miller Sael Brunt | Tilbrook village leader | Vale/Tilbrook |
+| Old Mam Tace | Tilbrook grave-singer (honest M5) | Vale/Tilbrook |
+| Factor Hesk Dorr | Ledger logging-driver | Tollwood/Hartfell |
+| Road-Warden Captain Brannoch Vey | Road-warden (turnable) | Tollwood/Hartfell |
+| Goodwife Edda Sorrel | Forest-custom keeper | Tollwood/Hartfell |
+| Brann the Guide | The wood's guide (solo-safety) | Tollwood/Coldhearth |
+| Goodwife Sennet | Coldhearth forest-elder (deep secret; gated) | Tollwood/Coldhearth |
+| Toll-Boss Cady Renn | Tollmen leader (turnable) | Tollwood/Tollstone Cross |
+| Skell | Tollmen lieutenant (murderous) | Tollwood/Tollstone Cross |
+| Factor Maris Cole | Ledger coastal factor (salt; M3) | Coast/Wrackmouth |
+| Harbor-Reeve Ond Falk | Harbor governor | Coast/Wrackmouth |
+| Skipper Wenna Roke | Honest skipper (water-route; solo-safety) | Coast/Wrackmouth |
+| Salt-Mother Bryd | Salt-and-tide rite-keeper (M5/M6 gated) | Coast/Cobble Strand |
+| Headman Corl Strand | Eldest fisher | Coast/Cobble Strand |
+
+### Ring 1 Secondary NPCs (Stage 7 completion pass) — `08_npcs/SECONDARY_NPCS.md`
+
+| Name | Role | Region/Location |
+|---|---|---|
+| Wreck-Master Tomas Quint | Wreckers' leader (grey; M3 chain) | Coast/wild coast |
+| Tide-Reader Mabon Crale | Tide/weather guide (solo-safety; M5 witness) | Coast/Wrackmouth–Cobble Strand |
+| Anchorite Sef | Wandering Warden ("Warden Brother Sef"; M5/M6 gated) | Coast/coast-wide |
+| Provost Anselm Verge | Resident Warden seal-keeper at the Lamp (M6 conditional) | Coast/Drowned Lamp headland |
+| Sub-Lector Maren Voll | Remnant scholar mapping coastal nodes (M2) | Coast/Wrackmouth |
+| Cutter-Captain Holm Dunnal | Ledger camp-guard captain (turnable witness) | Tollwood/Hartfell–camps |
+| Warden Brother Ošric | Wandering Tollwood Warden (M5/M6 gated) | Tollwood/wood-wide |
+| Moot-Warden Sergeant Idony Frost | Vale road-warden captain (cover-up lever) | Vale/Orchardmere |
+| Lay-Sister Petronel | Sennet's deputy; failed-rest cell (conscience-lever) | Vale/Saint Veddow's |
+
+### Ring 1 Minor NPCs (Stage 7) — `08_npcs/MINOR_NPCS.md`
+
+Goodwife Orrel, Innkeep Dab Hollith, Bell-clerk Wessa [Orchardmere]; Relic-monger Coyle Tamm, Hosteler Wenna Frey, Pilgrim Goodman Sael, Well-keeper Brother Ode [Saint Veddow's]; Ale-wife Genna Brunt, Widow Hessit, Goodman Orrick, Gibbet-keeper Sorle, Foreman Drust [Tilbrook/Vale country]; Innkeep Marrec Tull, Smith-master Holt, Cutter-foreman Vask, Widow Sefa Quist, Herbwife Onn [Hartfell]; Smith Doune, Ale-wife Pell, Toll-clerk Wenny [Tollstone Cross]; Old Gethin, Wren-of-the-Wood, Burn-boy Tam [Coldhearth]; Innkeep Sella Vane, Fence "Cuttle" Dree, Harbormaster Oll, Tally-clerk Verrin, Mate Doss [Wrackmouth]; Net-wife Senna, Young Ferec, Boatman Crae, Bell-keeper Odd, Widow Mahalf, Salt-raker Tibba [Cobble Strand].
+
+> Note: See the Stage 7 disambiguation block at the top — "Pell," "Sennet," "Wren-of-the-Wood," and "Goodman Sael" all require epithet/location qualifiers to avoid collision with existing names. Stage 7 completion-pass additions: "Anchorite Sef" / "Warden Brother Sef" is the Coast wandering Warden already named in `PALE_COAST.md`; "Warden Brother Ošric" already named in `TOLLWOOD.md`. "Widow Sefa Quist" (Hartfell) and "Anchorite Sef" (Coast) are distinct (shared name-root; keep epithet/location). "Bell-keeper Odd" (Cobble Strand) is distinct from any "Odd"-rooted term; keep role.
 
 ## God and Divine Entity Names
 
 | Name | Domain | Faith File | Notes |
 |---|---|---|---|
-
----
+| The Opening (First Threshold) | Birth, hope | `03_canon/GODS_AND_FAITHS.md` | Distant, real. |
+| The Hearth (Threshold We Stand In) | Living, oaths | `03_canon/GODS_AND_FAITHS.md` | Distant, real. |
+| The Last Door (Last Threshold) | Death, memory | `03_canon/GODS_AND_FAITHS.md` | Partly a tapped mechanism (DM). |
 
 ## Artifact and Item Names
 
 | Name | Type | File | Notes |
 |---|---|---|---|
+| Remembrance relics | Item class | `03_canon/MAGIC_RULES.md` | Concord salvage that stores the dead. |
+| The Ledger vault relic | Specific relic (clue) | `07_factions/.../CINDER_LEDGER.md` | "Remembers" the harvest. (Named in Stage 14 as **The Ledger of Quiet Debts**.) |
+| Concord breaking-tools | Item class | `07_factions/.../GRAVECALLERS.md` | Used to shatter shrines. |
 
----
+### Stage 14 (Treasure, Artifacts, and Rewards) — named relics/artifacts
+
+12 named artifacts/relics coined in Stage 14 (`14_treasure_and_artifacts/ARTIFACT_INDEX.md`). All are **ORIGINAL CAMPAIGN ITEMS**: relic/artifact proper nouns tied to existing factions/mysteries — **NOT new factions, gods, regions, central mysteries, or cosmology.** Several reuse already-registered roots (the Ledger, the Compact, the Custodians, the Quiet Country, the Ash-Crown/Concord crown, the Drowned shrine). The endgame artifacts (Quiet Country Vessel, Harvest Engine Shard, Last Voice) and the Compact Seal/Custodian's Compass true natures are **M6–M9 gated / DM-only** and never expose the apex. Stage 14 coined **no new NPC, faction, god, region, settlement, central-mystery, or adversary proper nouns.** The ~38 custom *magic items* and ~10 *cursed* / 6 *sentient* item names (e.g. The Restful Edge, The Honest Coat, Greyspeak, Brightneedle, the Quiet Coat, the Hush-Knife) are **item-flavor names, not registered proper nouns per registry scope** — only the 12 major relics/artifacts are registered below.
+
+| Name | Type | Origin/Faction | File |
+|---|---|---|---|
+| The Grief-Glass | Relic (Rare) | Concord relic; Mourners/Gravecallers contest | `14_treasure_and_artifacts/ARTIFACT_INDEX.md` |
+| The Warden's Unlit Lantern | Relic (Uncommon) | Ashen Wardens | `14_treasure_and_artifacts/ARTIFACT_INDEX.md` |
+| The Ledger of Quiet Debts | Relic (Rare) | Cinder Ledger | `14_treasure_and_artifacts/ARTIFACT_INDEX.md` |
+| The Gravecaller's Knock (item) | Cursed relic (Uncommon) | Gravecaller-made | `14_treasure_and_artifacts/ARTIFACT_INDEX.md` / `CURSED_ITEMS.md` |
+| The Compact Seal | Relic (Rare; DM-only trap) | Reachward Compact | `14_treasure_and_artifacts/ARTIFACT_INDEX.md` |
+| The Sealed Archive Key | Relic (Very Rare) | Concord Remnant | `14_treasure_and_artifacts/ARTIFACT_INDEX.md` |
+| The Custodian's Compass | Relic (Very Rare; DM-gated) | Concord (Custodian-made) | `14_treasure_and_artifacts/ARTIFACT_INDEX.md` |
+| The Quiet Country Vessel | Artifact (Legendary; M8-gated) | Concord ritual relic | `14_treasure_and_artifacts/ARTIFACT_INDEX.md` |
+| The Drowned Flame | Relic (Rare) | Pale Coast shrine system | `14_treasure_and_artifacts/ARTIFACT_INDEX.md` |
+| The Ash-Crown Fragment | Relic (Very Rare) | Concord Heartlands (imperial) | `14_treasure_and_artifacts/ARTIFACT_INDEX.md` |
+| The Harvest Engine Shard | Artifact (Legendary; DM-ONLY/M8-gated) | Original Concord harvest device | `14_treasure_and_artifacts/ARTIFACT_INDEX.md` |
+| The Last Voice | Sentient artifact (Legendary) | Concord instrument | `14_treasure_and_artifacts/ARTIFACT_INDEX.md` / `SENTIENT_ITEMS.md` |
+
+> **Stage 14 disambiguation:** "The Custodian's Compass" / "The Custodian's Quiet-Step Boots" reuse the already-registered "Custodians" title (Concord-made objects, not new entities). "The Compact Seal" reuses the registered Reachward Compact. "The Ash-Crown Fragment" reuses the registered Concord crown imagery and sits in the registered Concord Heartlands (surface ruin, NOT the keystone). "The Quiet Country Vessel" reuses the registered afterlife term "Quiet Country" (a relic named for it, not the place). "The Harvest Engine Shard" reuses the DM term "the harvest." "Greyspeak," "Brightneedle," and the sentient/cursed item names are item-flavor labels, not registered proper nouns. No new factions/gods/regions/mysteries.
 
 ## Terms With Specific Meaning
 
 | Term | Meaning | File |
 |---|---|---|
-
----
+| Remembrance | The harvestable substance of a dead person's identity | `03_canon/COSMOLOGY.md` |
+| Remembrance (a Remembrance) | A lingering dead person; folk term for the restless dead | `03_canon/PLAYER_SAFE_CANON.md` |
+| The harvest | The Concord's secret consumption of the dead (DM term) | `03_canon/DM_ONLY_CANON.md` |
+| Wrong-come-back | A botched/leaked resurrection revenant | `03_canon/MAGIC_RULES.md` |
+| The seal / the pause | The sealing of the shrine that halts the harvest | `07_factions/.../ASHEN_WARDENS.md` |
+| Concord Script | The Concord's written language (clue gate) | `03_canon/LANGUAGES.md` |
+| Old Custodial | The inner Custodians' tongue (late-arc gate) | `03_canon/LANGUAGES.md` |
+| Thin-touch | Reversible condition from exposure to raw Remembrance relics (Stage 3 custom mechanic; disadvantage on Death saves until a true rite / shrine long-rest) | `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md`, `10_dungeons_and_ruins/THE_DEEP_ADIT.md` |
+| Old glass | Folk term for raw Remembrance relics dug from the Sunder Heights | `06_settlements/HARROWGAST.md` |
+| The Gravecaller Knock (second mark) | The cult's door-mark/signal (already registered as Gravecaller Knock; "second mark" is the folk name) | `06_settlements/GREYWATER_HOLM.md` |
+| Charter | A Caradril trade-license; basis of the Charter Houses' power and the Tidewater Council franchise | `06_settlements/CARADRIL.md` |
+| The Stilling | Caradril's term for its golden age of calm after the Quietfall; folk pride masking complacency | `06_settlements/CARADRIL.md` |
+| Quiet-coin | Black-market slang in Caradril for relics rumored to "hold" the dead (raw Remembrance relics) | `06_settlements/caradril_districts/THE_ASHMARKET.md` |
+| Saint's relics / saint's-bones | Vale folk/trade term for relics sold at Saint Veddow's that are really Remembrance relics (M3) | `06_settlements/SAINT_VEDDOWS_REST.md` |
+| The forest-rules / the bargain | Tollwood woodfolk customs (offer at the toll-shrines, never cut marked trees) that keep the Old Mast's presence asleep | `06_settlements/COLDHEARTH.md` |
+| The grey lords | Coldhearth/old-song term for whoever "took the dead before the roads fell" — an oblique pre-Concord half-memory of the harvest (gated M5/M6); NOT a new entity/god | `06_settlements/COLDHEARTH.md`, `10_dungeons_and_ruins/THE_OLD_MAST.md` |
+| The salt-and-tide rite | Pale Coast Mourners' death-rite for settling the sea's drowned dead | `06_settlements/COBBLE_STRAND.md` |
+| Sea-relics / sea-relic trade | Coast term for Remembrance relics salvaged from sea-shrines and wrecks (M3; the Ledger's coastal Monopoly arm) | `06_settlements/WRACKMOUTH.md` |
+| The drowned-tide | Coast term for the sea returning its dead worse than before (the maritime harvest leaking; M5 oblique) | `06_settlements/COBBLE_STRAND.md` |
 
 ## Forbidden / Retired Names
 
 | Name | Reason |
 |---|---|
+| Archivist Sael Quorrin | Retired during Stage 1 — collided with "Domic Sael." Renamed to Archivist Quorrin Vane. Do not reuse "Sael Quorrin." |

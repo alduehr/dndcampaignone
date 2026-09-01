@@ -214,6 +214,29 @@ Avoid:
 
 ---
 
+## Mechanical Completeness Rule
+
+All content must remain usable for D&D 5e / 2024-compatible solo play. This is a shared standard; the full requirements live in `DND_MECHANICS_REQUIREMENTS.md` and the per-type standards files enforce them at the field level.
+
+Before marking any of the following content types done, confirm its mechanical fields are present and not TBD (per `DND_MECHANICS_REQUIREMENTS.md`):
+
+| Content type | Required mechanical fields (minimum) | Enforcing standard |
+|---|---|---|
+| Combat-relevant NPC | Tier 1 stat block/profile: CR/level, type, size, AC, HP, speed, saves, skills, actions, tactics, morale, solo danger, scaling | `NPC_STANDARDS.md` |
+| Noncombat / secondary NPC | Tier 2 profile: competence, key skills, passive scores, dangerous-in-combat flag, fallback stat profile | `NPC_STANDARDS.md` |
+| Minor NPC | Tier 3: combat-relevance tag, notable proficiency | `NPC_STANDARDS.md` |
+| Quest | Level range, solo danger, likely DCs, combat options, noncombat options, rest/time pressure, level-appropriate rewards, failure consequences, scaling | `QUEST_STANDARDS.md` |
+| Faction (combat-capable) | Adversary/enforcer stat references, solo danger of confrontation, scaling | `FACTION_STANDARDS.md` |
+| Region / settlement / wilderness | Level range, expected solo danger, encounter themes with stat references, trap/hazard DCs, rest constraints | `WORLDBUILDING_STANDARDS.md` |
+| Dungeon / ruin | Level range, solo danger rating, encounter list, trap/puzzle DCs, rest constraints, treasure, boss mechanics, retreat options, scaling | `DND_MECHANICS_REQUIREMENTS.md` |
+| Monster / adversary | Type, size, CR/level, AC, HP, speed, saves, skills, resist/immune/vuln, senses, actions, traits, tactics, morale, solo danger, scaling | `DND_MECHANICS_REQUIREMENTS.md` |
+| Encounter | Solo-PC danger assessment, telegraphing, enemy goals, morale, escape options, noncombat alternatives, scaling | `DND_MECHANICS_REQUIREMENTS.md` |
+| Companion / ally | Role, scaling model, AC, HP, key abilities, actions, limitations, loyalty triggers, death/injury risk | `DND_MECHANICS_REQUIREMENTS.md` |
+
+Do not invent a replacement ruleset and do not copy official stat blocks verbatim (`RULESET_ASSUMPTIONS.md`). Light custom mechanics are allowed only on top of D&D 5e / 2024 assumptions. If a content file cannot yet meet its mechanical fields, mark it mechanically incomplete in `TODO.md` or `CONTENT_GAPS.md`.
+
+---
+
 ## Minimum Play Function Rule
 
 Every major piece of content should answer at least two of these:

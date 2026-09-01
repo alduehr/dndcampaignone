@@ -6,23 +6,16 @@ This folder will contain quest files, hook tables, rumor tables, and quest index
 
 ## Current Status
 
-**Empty — Stage 0 scaffold.** Initial hooks and rumors will be created during Stage 1. Full quest development during Stages 5 and 10.
+**Populated.** This folder contains the quest indexes (`QUEST_INDEX.md`, `MAJOR_CAMPAIGN_QUESTS.md`, `DEVELOPED_QUESTS_INDEX.md`, `HOOKS_JOBS_RUMORS_INDEX.md`), hooks/rumors tables, and the developed quest files across subfolders (act_1_quests, regional_quests, city_quests, faction_quests, hooks_and_rumors). See `QUEST_INDEX.md` for the full inventory and `../00_control/RETRIEVAL_GUIDE.md` ("Resolving a quest") for load guidance.
 
-## Expected File Types
+## Actual File Layout (updated 2026-07-11 — the original scaffold named planned files that were built under different names)
 
-### Individual Quest Files
-`[quest-name].md` — e.g., `the-missing-merchant.md`, `wolves-at-the-wall.md`
-
-### Index and Reference Files (to be created)
 - `QUEST_INDEX.md` — master table of all quests
-- `RUMOR_TABLE.md` — regional and settlement rumors
-- `HOOK_TABLE.md` — session-ready hooks organized by level and type
-- `BOUNTY_BOARD.md` — posted jobs and bounties
-- `FACTION_QUESTS.md` — quick reference for faction quest chains
-
-## Stage 1 Target
-
-10 session-sized hooks (summary level), 20 rumors. Full quest development in Stages 3, 5.
+- `RUMORS_TABLE.md` — regional and settlement rumors *(scaffold called this `RUMOR_TABLE.md`)*
+- `HOOKS_TABLE.md` — session-ready hooks *(scaffold: `HOOK_TABLE.md`)*
+- Jobs/bounties live in `HOOKS_JOBS_RUMORS_INDEX.md` and the `hooks_and_rumors/` files *(scaffold: `BOUNTY_BOARD.md` — never created as a separate file)*
+- Faction quest chains live in `faction_quests/[FACTION]/_CHAIN_INDEX.md` *(scaffold: `FACTION_QUESTS.md` — superseded by per-faction folders)*
+- Developed quests: `MAJOR_CAMPAIGN_QUESTS.md`, `act_1_quests/`, `regional_quests/`, `city_quests/`, `faction_quests/`, `by_region/` — indexed in `DEVELOPED_QUESTS_INDEX.md`, cross-cut by `by_level/`, `by_faction/`, `by_type/`
 
 ## Quest File Standards
 
