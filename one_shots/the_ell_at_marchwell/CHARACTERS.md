@@ -179,7 +179,8 @@ before they knock, and they'll work that out around session 2.
 
 **His trail (session 1):** a dropped glove, found three times in three
 corridors and always the same glove; a torn ledger page; a strongbox open in a
-corridor with sixty pounds of plate still in it, abandoned because it got heavy.
+corridor with its ~35 lb of coin and compact plate still in it, abandoned
+because it got heavy for a man who never stopped running.
 
 **His squat (session 2):** curtains and coats, sixty preserve jars stacked by
 size, a ledger with twenty-two days scratched on the flyleaf, the tally wall,

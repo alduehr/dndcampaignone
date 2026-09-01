@@ -410,8 +410,9 @@ and don't make anyone roll to notice the ones marked guaranteed.
 
 - **His coat**, still warm, thrown over the back of a kitchen chair — a
   clerk's good coat, out of place on a farm, with a tithe-office button on
-  the cuff. He changed into work clothes Cass or Oda found him, to look like
-  one more hand at the pressing.
+  the cuff, the collar dark with dried sweat. He just shed it the moment he
+  got inside; no disguise, no borrowed clothes, just a hot, exhausted man
+  taking his coat off.
 
 **Salt the rest around the house — pick three or four, not all of them, so no
 single miss can stall the scene:**
@@ -420,7 +421,7 @@ single miss can stall the scene:**
 |---|---|---|
 | An extra place at the table | Kitchen | A bowl still faintly warm, wiped clean in a hurry — someone fed a guest nobody's mentioning. |
 | Fresh, city-soled bootprints | Pantry flour, leading to the door | Not a farm boot. Fresh. Only going one way. |
-| A pressing-smock, too clean | Hung by the press-house door | Borrowed to blend in; the hem is dry, the rest of the yard's smocks are damp with must. |
+| A cup drained fast, foam still clinging to the sides | Kitchen | Someone was desperately thirsty, recently. |
 | A second horse's tack, unaccounted for | Stable | Nobody at Marchwell owns a horse that fits this saddle. |
 | A half-eaten meal, abandoned mid-bite | Kitchen table | He didn't finish. Something startled him off it. |
 | A tithe-office ledger page, torn and stuffed behind a jar | Pantry shelf | Names, sums, and the vale's tithe seal — undeniably his. |
@@ -686,7 +687,7 @@ on is the pantry.**
 | 6th+ | Not a house any more. Rooms. Depth 2 has started and nobody announced it. |
 
 **Ambry's trail** through all of it: a dropped glove, a torn ledger page, then
-a **strongbox** sitting open in a corridor with sixty pounds of chapel plate
+a **strongbox** sitting open in a corridor, its compact set of chapel plate
 still in it, abandoned because it got heavy. That detail tells the party
 exactly how long he's been down here, and it's a lie — from their side he's
 been in for four hours.
@@ -2070,9 +2071,14 @@ the best five minutes of the epilogue.
 
 ### The strongboxes
 
-**One strongbox, ~800gp in coin and chapel plate, about 60 lb.** Six
-characters can carry that without anyone hitting encumbrance, so don't pretend
-it's a load problem — it isn't, and players hate fake weight.
+**One strongbox: a small iron-strapped lockbox, roughly a foot and a half by
+a foot, ~35 lb loaded** — ~800gp in coin plus a compact set of chapel
+plate (a chalice, a paten, a small processional cross; not bulky serving
+trays), sized so a frightened, unathletic clerk could actually grab it
+one-armed on his way out the door and sling it across a saddle without
+falling off his stolen horse (see "The chase," Session 1). Six characters
+can carry that without anyone hitting encumbrance, so don't pretend it's a
+load problem — it isn't, and players hate fake weight.
 
 Make it a **decision** problem instead, three times:
 
