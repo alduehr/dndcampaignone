@@ -367,16 +367,20 @@ to relax. Everything in "The search," below, is built on that two hours.
   gone upstairs in a month.**
 
   **DM-only: the thing in the chair is not Cass.** The real Cass went into the
-  Ell a month ago and never came out; the instrument put a draft of him back in
-  the house, because a resident who opens doors brings it more to measure. It
-  is not malicious and it is barely a person. It does one thing on purpose in
-  its whole existence, and it does it in the next ten minutes.
+  Ell a month ago and never came out; the equipment measured him thoroughly
+  enough that the Echo's own ceaseless remaking folded a draft of him back
+  into the house, because a resident who opens doors is one more thing for
+  the equipment to measure. It is not malicious and it is barely a person. It
+  does one thing on purpose in its whole existence, and it does it in the
+  next ten minutes.
 
-  **It doesn't go upstairs because it has never been upstairs.** The draft was
-  taken from a man who was measured downstairs. There is nothing of the first
-  floor in it, and it cannot walk into a room it doesn't contain. Nobody needs
-  to work this out — it simply pays off in one line later, and the players will
-  remember that the file told them in the first five minutes.
+  **It doesn't go upstairs because it has never been upstairs.** A draft is
+  only ever as complete as what actually got recorded, and what got recorded
+  of Cass was a man who stayed downstairs. There is nothing of the first
+  floor in it because there was nothing of the first floor to measure, and
+  it cannot walk into a room it doesn't contain. Nobody needs to work this
+  out — it simply pays off in one line later, and the players will remember
+  that the file told them in the first five minutes.
 - **Tobin** (17, her son). Polite, affectionate, helping at the press. **He
   counts things.** Apples into the barrow. Steps across the yard. The party's
   horses. The party. He does it under his breath, constantly, and he isn't
@@ -667,9 +671,9 @@ At the moment the party first sees it:
 So: **one month-old scratch, and seven fresh ones, all open.** Let a player
 count them. Don't explain anything. *(Payoff: session 4.)*
 
-**Note that draft-Cass has no mark at all** — nothing the Ell made is ever on
-the list. That's Hesper's entire problem, and the party has been looking at
-the proof since the first hour.
+**Note that draft-Cass has no mark at all** — a draft was never a person who
+crossed the door, so it's never on the list. That's Hesper's entire problem,
+and the party has been looking at the proof since the first hour.
 
 ### Depth 1 — the repeating house (rest of the session)
 
@@ -718,8 +722,12 @@ any particular feeling, *"You shouldn't have come in."*
 opens and Cass walks in. And Cass stands up out of the chair.
 
 **Four of him.** Identical — same cardigan, same broken thumbnail, same
-unhurried way of closing a door. Because the instrument measured a thing, and
-what it does with a thing it has measured is *make more of them.*
+unhurried way of closing a door. Not because the equipment made more of
+him — it can't make anything. It's the fold rule, plain and literal: Cass
+has been measured this exhaustively, this many times, in a place where
+identical things are the same thing, and the Echo's own ceaseless remaking
+doesn't stop at one copy once it's started. The equipment never counted
+how many; that was never its job.
 
 **Four doppelgangers** (CR 3), printed stat block, with one quirk: **they do
 not shapeshift.** They are stuck as Cass and always will be. Read Thoughts and
@@ -1613,26 +1621,40 @@ and he is not angry about it — mostly he wants to know whether his sister has
 been managing the pressing.
 
 He is a real man, he can walk out with them, and he costs nothing to bring
-along. **He is also the payoff for the very first scene, and the payoff is
-better than "it wasn't measured upstairs."**
+along. **If the party noticed the tell in Session 1 (Cass hasn't gone
+upstairs in a month), this is where it pays off — and the payoff shouldn't
+depend on them asking the right question to get it.**
 
-**The real answer (Change #14):** ask him about the stairs, or let him bring
-it up himself, dry and a little embarrassed: his hip has been bad for well
-over a year. He gave up sleeping upstairs long before any of this started —
-he's kept to the kitchen chair, night after night, for longer than Oda likes
-to admit. *"It doesn't go upstairs, does it. I never was much upstairs
-myself, not this last while."*
+**The real answer (Change #14):** he brings it up himself, unprompted, the
+first time anyone mentions the house — dry and a little embarrassed: his
+hip has been bad for well over a year. He gave up sleeping upstairs long
+before any of this started — he's kept to the kitchen chair, night after
+night, for longer than Oda likes to admit. *"It doesn't go upstairs, does
+it. I never was much upstairs myself, not this last while."* If a player
+does ask about the stairs directly, he says the same thing just as readily
+— there's nothing to draw out of him, only an ordinary, slightly sad fact
+he was never hiding.
 
-**That's the whole answer, and it's worse than a missing file.** The draft
-in the kitchen wasn't an incomplete copy of Cass because the instrument
-failed to measure the first floor. It was a *complete* copy of the man the
-Ell had actually, repeatedly, exhaustively measured — and that man had
-already reduced himself to a downstairs life before anyone ever drafted him.
-The Ell didn't get Cass wrong. **It got him exactly right, and what it got
-right was smaller than the whole person.** Say this plainly if the party
-reaches for it; it's the first time the adventure's central mechanism (drafts
-reproduce *behavior*, not identity) becomes personal rather than abstract,
-and it should land quietly rather than as a triumphant explanation.
+**That's the whole answer, and it's sadder than a missing file.** The
+kitchen draft wasn't an incomplete copy because the equipment failed to
+record the first floor. It was accurate, as far as it went — the
+equipment's exhaustive, repeated recording of Cass simply never had
+anything upstairs *to* record, because the real man had already reduced
+himself to a downstairs life for over a year before any of this started.
+Nobody measured him wrong, and nothing decided to leave anything out; there
+was never anything upstairs to copy, so a downstairs life is all a faithful
+copy could ever be. Say this plainly if the party reaches for it; it's the
+first time the adventure's central mechanism (drafts reproduce *behavior*,
+not identity) becomes personal rather than abstract, and it should land
+quietly rather than as a triumphant explanation.
+
+**This scene is optional, and so is its payoff — that's fine.** A table
+that never finds or rescues Cass simply never gets this beat, and nothing
+else in the adventure depends on it; the Session 1 DM-only note already
+explains the mechanism plainly enough to run consistently either way. A
+table that never noticed the original tell can still enjoy this as a quiet,
+sad character moment on its own — don't oversell it at the table as the
+answer to a question nobody was tracking.
 
 **If they bring him home**, Oda gets her brother back — and the party has to
 decide, on the ride out, whether to tell him what they killed four of in a

@@ -84,7 +84,10 @@ if needed: *"sleep where somebody's cut something."*)
 ## THE TALLY
 
 Cut when someone crosses in. **Struck through when they come out.**
-Nothing the Ell made is ever on it (draft-Cass, Hesper).
+A draft (draft-Cass) is never on it, because it was never a person who
+crossed the door. Hesper isn't on it either, for an unrelated reason — she's
+real, but she came in through a different house, by a door that no longer
+exists, and was never on any list to begin with.
 
 **Open marks at start:** Cass (1 month) · Ambry (~2 hrs) · the six of them = **7**
 **At the finale:** 6 PCs + Ambry + Cass (if rescued) = **8 open, 9 at the door**

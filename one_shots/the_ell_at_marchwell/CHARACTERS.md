@@ -96,8 +96,9 @@ when Real Cass says it himself.
 minutes later, opens the back door, steps into the corridor, and pulls it to
 behind him, the same unhurried way.
 
-**No tally mark.** Nothing the Ell made is ever on the list — the proof of
-Hesper's problem, sitting in plain sight in hour one.
+**No tally mark.** A draft was never a person who crossed the door, so it's
+never on the list — the proof of Hesper's problem, sitting in plain sight
+in hour one.
 
 **Mechanics — THE FOUR CASSES (S1 climax).** Four **doppelgangers** (CR 3),
 printed, with one quirk: **they do not shapeshift.** Stuck as Cass, permanently.
