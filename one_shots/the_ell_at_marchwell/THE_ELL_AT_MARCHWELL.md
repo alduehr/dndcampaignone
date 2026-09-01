@@ -400,11 +400,13 @@ find out for forty-five minutes.
 
 ### The search (and the discovery)
 
-**Ambry has had about two hours here** — long enough to eat, change, hide
-the box, and start to believe he's clear. Everything below should read as
-the ordinary debris of a frightened man's two hours, not as a set of
-puzzle-clues waiting to be decoded; let them find these however they search,
-and don't make anyone roll to notice the ones marked guaranteed.
+**Ambry has had about two hours here** — long enough to relax, eat, hide the
+box, and genuinely believe he'd shaken them. **He was partway through dinner
+with the family when the party actually arrived at the house** — that's
+what breaks it. Everything below should read as the ordinary debris of a
+frightened man's two hours, not as a set of puzzle-clues waiting to be
+decoded; let them find these however they search, and don't make anyone
+roll to notice the ones marked guaranteed.
 
 **Guaranteed — they will find this without trying:**
 
@@ -419,11 +421,10 @@ single miss can stall the scene:**
 
 | Clue | Where | What it says |
 |---|---|---|
-| An extra place at the table | Kitchen | A bowl still faintly warm, wiped clean in a hurry — someone fed a guest nobody's mentioning. |
+| A third bowl at the table, spoon still in it, going cold | Kitchen | An extra place, abandoned mid-bite, very recently — someone was eating with the family and left without finishing. |
 | Fresh, city-soled bootprints | Pantry flour, leading to the door | Not a farm boot. Fresh. Only going one way. |
 | A cup drained fast, foam still clinging to the sides | Kitchen | Someone was desperately thirsty, recently. |
 | A second horse's tack, unaccounted for | Stable | Nobody at Marchwell owns a horse that fits this saddle. |
-| A half-eaten meal, abandoned mid-bite | Kitchen table | He didn't finish. Something startled him off it. |
 | A tithe-office ledger page, torn and stuffed behind a jar | Pantry shelf | Names, sums, and the vale's tithe seal — undeniably his. |
 
 **Where the box actually is:** with him. He never let go of it long enough to
@@ -498,61 +499,69 @@ minutes. Which is exactly how it should feel.
 
 **The pantry has no door to the outside. It never did.**
 
-It's a narrow, windowless room off the kitchen — shelves, a flour bin, a
-hanging ham, the height-notches of three generations of Marchwell children on
-the door-jamb, the last one Tobin's at fourteen. One door in, and that door
-opens onto the kitchen. That's all it has ever been.
+It's a proper pantry, full-sized, the kind any working farmhouse has —
+shelves of preserves down both long walls, a flour bin, a hanging ham, hooks
+for tools, the height-notches of three generations of Marchwell children on
+the door-jamb, the last one Tobin's at fourteen. One door in, off the
+kitchen. That's all it has ever been.
 
-**DM-only, and it matters for the timeline:** this is the same door Tobin
-went through last midsummer, and it has been quietly live ever since — the
-one door in the house Oda has not treated as ordinary since he came back.
-That's why the chalk and twine live on its shelf, and why she keeps finding
-reasons to fetch stores herself rather than send anyone else in. **It doesn't
-need Cass to open it the way the front, back, and press-house doors do** —
-those the instrument claims fresh, from a resident, when the party arrives.
-The pantry was claimed months ago and never gave itself back. When Ambry
-heard hooves in the lane, he bolted for the nearest door away from the
-sound, with no idea what he was running into, and Oda didn't reach him in
-time to stop him.
+**Open the door and the wrongness needs no trick to find.** The near half of
+the room is exactly what it should be — shelves, the flour bin, the ham.
+Past that, where the back wall belongs, the shelving simply stops and the
+room keeps going: a hundred and forty feet of bare corridor with a rag rug
+in it, visible from the doorway before anyone sets foot inside. Nobody has
+to open a hole in anything or step through to find out. They can just look.
 
-**Walk the kitchen garden outside and check.** The exterior wall behind where
-the pantry sits is whitewashed brick, unbroken, fourteen inches thick, with a
-single hopper-window up near the eave — too small for anything but a cat, and
-looking, from outside, into an ordinary six-foot pantry exactly the size the
-house has room for. There is nothing wrong with this wall. There never was.
+**Walk the kitchen garden outside and check.** The exterior wall behind
+where the pantry sits is whitewashed brick, unbroken, fourteen inches thick,
+with a single hopper-window up near the eave — too small for anything but a
+cat, and looking, from outside, into an ordinary pantry exactly the depth
+the house has room for. There is nothing wrong with this wall. There never
+was. **The pantry the party is standing in and the pantry visible from the
+garden are the same size. The corridor simply isn't in either of them.**
 
-**The wrongness is entirely on the inside, and it is worse for it.**
+**Let them test it as many ways as they want — it never resolves:**
 
-- **Bore a hole in the pantry door itself** — a gimlet, an arrow, a dagger-tip
-  twisted through — and look through it before opening the door properly.
-  **You see the small, ordinary pantry**, shelves and flour bin and all,
-  exactly as it should be, lit faintly by the hopper-window. **Then open the
-  door, and step through, and it is the hundred-and-forty-foot corridor.**
-  The hole still shows the little room. The door shows the corridor. Both are
-  true at once, and there is no way to reconcile them, because there is
-  nothing to reconcile — they are not the same door leading to two places.
-  They are two different doors that happen to share a frame.
-- **Rope it.** Tie a line to the door-jamb from the kitchen side, open the
-  door, and pay it out down the corridor as far as anyone likes. Then have
-  someone outside, in the real kitchen garden, try to find where that rope
-  ought to surface — dig at the wall, tap along it, anything. **There's
-  nothing to find.** The corridor doesn't run behind, above, or under
-  anything the house has. It doesn't run *anywhere* the house's footprint
-  reaches. It simply isn't spatially connected to the building it appears to
-  open from.
+- **Rope it.** Tie a line to the door-jamb, walk it down the corridor as far
+  as anyone likes, then have someone outside in the real kitchen garden try
+  to find where that rope ought to surface — dig at the wall, tap along it,
+  anything. **There's nothing to find.** The corridor doesn't run behind,
+  above, or under anything the house has. It isn't spatially connected to
+  the building it appears to open from.
 - **Sound doesn't cross at all.** A character eighty feet down the corridor,
   shouting, is inaudible from the kitchen garden with an ear pressed to the
   exact spot the pantry occupies. There is no thin, far-off version of this
   the way the front door's corridor at least pretends to relate to the
   orchard. This one doesn't pretend.
-- Let them try it from both directions, more than once, with different
-  people holding the rope and the lantern. **It never once resolves.** That's
-  the point: this isn't a corridor folded cleverly around a real house. It's
-  a door that has stopped requiring anywhere to lead, standing exactly where
-  a door to nowhere in particular used to be perfectly mundane.
+- Let different people check from both sides, more than once. **It never
+  once resolves.** This isn't a corridor folded cleverly around a real
+  house. It's a room that has stopped ending where a room like this always
+  ended, in plain view, the moment anyone opens the door.
 
-**The pantry door was never on the outside wall.** Nothing about it needed to
-be, for it to end up somewhere the house has no room for.
+**DM-only, and it matters for the timeline:** this is the same door Tobin
+went through last midsummer, and it has been quietly live ever since — the
+one door in the house Oda has not treated as ordinary since he came back.
+That's why the chalk and twine live on its shelf, and why she keeps finding
+reasons to fetch stores herself rather than send anyone else in. **It
+doesn't need Cass to open it the way the front, back, and press-house doors
+do** — those the instrument claims fresh, from a resident, when the party
+arrives. The pantry was claimed months ago and never gave itself back.
+
+**Ambry didn't flee into it, and didn't know what it was.** He genuinely
+believed he'd shaken the party — he was two hours ahead of them, fed,
+sitting down to dinner with the family, relaxed for the first time all day.
+What broke it was the party actually arriving at the house, not the sound of
+hooves on the lane (he'd already ignored two or three of those that
+afternoon, farm traffic being farm traffic). Panicking at the real thing —
+voices, a knock, Oda's face changing — he bolted for the nearest door away
+from the kitchen: the pantry, meaning only to hide among the shelves until
+the strangers left. **He had no idea it had stopped being a dead end
+months ago.** He pulled the door shut behind him and pressed back into what
+he still believed was six feet of shelving — and by the time his groping
+hand found no back wall, going forward was easier than going back through a
+door with the party's voices right behind it. He kept retreating, telling
+himself he'd double back once they'd gone, and by the time he admitted there
+was no wall to reach, he no longer knew which direction the door was.
 
 Oda's second lie collapses here. She'll say: *"He went out the back."* — and
 in the most dangerous possible sense, through the one door in the house that

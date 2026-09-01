@@ -173,9 +173,16 @@ of the counting room with three parishes' collection — ~800gp in coin and
 chapel plate — on a borrowed pony, and ran to his cousin's farm. Soft,
 frightened, and not dangerous to anybody.
 
-**He bolted out the back when he heard horses in the lane.** The back door is
-the pantry door. **The party's arrival is what put him in there**, an hour
-before they knock, and they'll work that out around session 2.
+**He thought he'd shaken them.** Two hours ahead, fed, relaxed, mid-dinner
+with the family — right up until the party actually arrived at the house.
+**He didn't panic at hooves on the lane** (farm traffic, ignored twice
+already that afternoon); he panicked at voices and a knock, and bolted for
+the nearest door away from the kitchen: the pantry. **He had no idea it was
+anything but a dead end** — he meant to hide among the shelves until the
+strangers left, pulled the door shut, and only realized something was wrong
+when his hand found no back wall. By then going forward felt safer than
+walking back out into the people he was hiding from. **The party's arrival
+is what put him in there**, and they'll work that out around session 2.
 
 **His trail (session 1):** a dropped glove, found three times in three
 corridors and always the same glove; a torn ledger page; a strongbox open in a

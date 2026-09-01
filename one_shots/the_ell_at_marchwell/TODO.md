@@ -60,10 +60,14 @@ Full narrative rewrite of `THE_ELL_AT_MARCHWELL.md`, `PREMISE.md`,
    a salted table of optional clues; the staged loft strongbox impression
    is gone (the box goes into the Ell with him instead, unchanged from the
    session-1 "abandoned box" beat).
-4. [x] **Pantry geometry rewritten** — no exterior door at all; the
-   contradiction is purely interior (peephole vs. threshold, rope-and-dig
-   test). The adventure's tagline and the `../README.md` summary line were
-   both updated to match.
+4. [x] **Pantry geometry rewritten** — no exterior door at all; a full-size
+   pantry whose corridor is visible from the doorway itself, past where the
+   back wall should be (no peephole trick), confirmed wrong by a rope-and-
+   dig test against the real exterior wall. Ambry hid in it not knowing it
+   was a corridor — he'd already convinced himself he'd shaken the party and
+   was mid-dinner with the family when they actually arrived. The
+   adventure's tagline and the `../README.md` summary line were both
+   updated to match.
 5. [x] **Chalk-jar note replaced with Tobin's notebook** — escalating
    COUNT/COUNT YOUR TURNS compulsion ending in an unidentified "TRUST NO
    ONE," resolved (optionally) by Hesper in Session 3.
