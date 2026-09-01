@@ -206,15 +206,25 @@ inherited the authority; the equipment has no protocol for stopping on its own.
 **What was the oblex, and what are the followers?** Native to the Echo, the
 domain the Measure staked this plot out of — not lost, not built by the
 Measure, not servants of anyone's plan. They were here first.
-**Who or what is "Veyr"?** A name, spoken once by a dying oblex duplicate,
-never explained in play. Real campaign canon if you want the full answer for
-your own prep (`03_canon/GODS_AND_FAITHS.md`) — the adventure itself never
-hands it to the party. See the revelation ladder, before Session 1 in the
-main file.
-**Where's the machine?** No single one — the Measure's equipment is
-scattered through the Ell, the way a survey crew's tools are scattered
-across a site. The reconstruction station (depth 5) is the one piece the
-party actually sees working.
+**Who or what is "Veyr"?** First said once, by a dying oblex duplicate — a
+party that stops there hears it exactly once, from something dying, and no
+more. A party that digs (Depth 5's shrine, especially) finds the name cut
+outright into stone with generations of real offerings around it. Real
+campaign canon if you want the full answer for your own prep
+(`03_canon/GODS_AND_FAITHS.md`) — the adventure itself never gives a clean
+textbook answer either way. See the revelation ladder, before Session 1 in
+the main file.
+**Where's the machine?** Not one — the Measure's equipment is scattered
+through the Ell, the way a survey crew's tools are scattered across a
+site, and Depth 5 especially is littered with inert pieces of it. The
+reconstruction station (depth 5) is the one piece the party actually sees
+working.
+**Evidence of Veyr-worship?** Depth 5, near the reconstruction station: a
+shrine cut with VEYR, generations of offerings, the doubled mark scratched
+into the wall in a dozen hands (once in old blood, unexplained), and a
+dead surveyor with a Measure badge and a rhymed warning-note — their law
+was "measure, do not change," enforced. See "More of the Measure, and
+evidence of Veyr," Session 4 in the main file.
 **How do we know it's real?** They watch it work 3×: the scratch cutting itself
 (S1), their chalk copied (S2), the reconstruction station rebuilding the
 Marchwell kitchen from scratch (S4, depth 5).

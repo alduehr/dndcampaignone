@@ -89,7 +89,13 @@ Full narrative rewrite of `THE_ELL_AT_MARCHWELL.md`, `PREMISE.md`,
     entirely) a fourth wrapped in a ward nothing can penetrate at all.
 12. [x] **A cross-session revelation ladder** built and placed before
     Session 1, coordinating every Veyr/Measure lore delivery point across
-    Sessions 2–4 with mandatory/optional status.
+    Sessions 2–4 with mandatory/optional status. Expanded (12 stages) with
+    concrete physical evidence in Depth 4–5: inert Measure equipment
+    scattered beyond the reconstruction station, a Veyr shrine (name cut in
+    stone, generations of offerings, the doubled mark scratched in a dozen
+    hands and once in old blood), and a dead surveyor with a Measure badge
+    and a rhymed warning-note establishing the order's law was "measure,
+    do not change" — enforced.
 13. [x] **All six Depth 4 rule-rooms fully detailed** (rule, entry, first
     interaction, edge cases, solution, alternate solution) — the Long Way's
     mechanic replaced with wall-following/indirect-motion; the Slag Room's

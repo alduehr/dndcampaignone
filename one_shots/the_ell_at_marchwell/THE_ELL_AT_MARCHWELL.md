@@ -282,7 +282,10 @@ before anyone tells them there are two piles.
 | 6 (optional) | S3, the real Cass rescue | Drafts are loyal to what was actually, repeatedly measured — not to a whole person. | Doesn't yet say who's doing the measuring or why. |
 | 7 (mandatory once she joins) | S3 end, Hesper | Confirms someone ancient did this on purpose — her own folk-guess, **"the chain-crew."** | She has never learned it has a name, a god, or a reason. Say so if asked; it's true, not evasive. |
 | 8 (mandatory) | S4 opening, the substrate's Ashgarden Vale recognition (see Change #16, below) | Scale: the Ell has measured far more than one house — the whole vale, obsessively, more than once. | Still doesn't say who, or why. |
-| 9 (mandatory) | S4, the reconstruction station (see Change #17, below), a piece of the Measure's own equipment built up against a half-buried carved shape bearing the same doubled mark from the Cutter's Rest and the oblex's token | Concrete mechanism: the equipment measures *behavior*, not just dimension — and mortal-built machinery and something never built by mortals occupy the same space, physically, right there. **If the party has the Twice-Cut Token, this is also where the mark itself gets explained** (not named): held against the wall-carving, it reads as the fold rule drawn as a picture of itself. | Confirms two separate things exist here: mortal equipment, and the older, uncreated domain it was built inside — and gives the closest thing to an answer for what that domain's power actually *is*, if not what it's called. |
+| 9 (optional) | S4, scattered inert equipment throughout the Depth 4 corridors and the substrate hall | The reconstruction station isn't unique — there was, and is, a great deal of this. | Scale of the operation, not its purpose. |
+| 10 (optional) | S4, the Veyr shrine off the substrate hall — a name cut into stone, generations of offerings, the doubled mark scratched into the surrounding wall in a dozen hands, once written large in old blood | **Veyr is a name, said outright, on purpose, by people who believed in it** — worship, not survey work, and older or at least stranger than the Measure's tallies. | Who worshipped, and why, is left open. The blood is never explained. |
+| 11 (optional) | S4, a dead surveyor in the same nook — a Measure badge on his coat, a rhymed warning in his pocket | The Measure's law wasn't just "measure carefully" — it was **measure, and do not change what you measure**, enforced harshly enough to leave a body. | By whom, or what, is never said. |
+| 12 (mandatory) | S4, the reconstruction station (see Change #17, below), a piece of the Measure's own equipment built up against a half-buried carved shape bearing the same doubled mark from the Cutter's Rest, the shrine, and the oblex's token | Concrete mechanism: the equipment measures *behavior*, not just dimension — and mortal-built machinery and something never built by mortals occupy the same space, physically, right there. **If the party has the Twice-Cut Token, this is also where the mark itself gets explained** (not named): held against the wall-carving, it reads as the fold rule drawn as a picture of itself. | Confirms two separate things exist here: mortal equipment, and the older, uncreated domain it was built inside — and gives the closest thing to an answer for what that domain's power actually *is*, if not what it's called. |
 | 10 (backstop) | S4, Hesper's own summary, if the party still hasn't pieced it together | Ties stages 1–9 together in her own words — without ever naming Veyr or the Measure, because she genuinely doesn't know them. | The actual names stay a research hook for after the adventure, not a requirement to finish it. |
 
 **Nothing here is required to escape.** A party that never finds the Cutter's
@@ -1576,7 +1579,11 @@ solved a room.
 none of the six above requires outside lore to solve, and none should ever
 be gated behind it. Any Veyr- or Measure-related evidence placed in or near
 a rule room (see the Cutter's Rest, Room 12 of the Depth 3 bank, for the
-model) should sit *alongside* the puzzle, never as a required key to it.
+model) should sit *alongside* the puzzle, never as a required key to it. A
+free way to seed this: let a corridor between two rule-rooms show a piece
+of inert Measure equipment in passing — a folded calibration rig, a length
+of chain vanishing into the wall — unremarked at the time. It pays off later
+at "More of the Measure, and evidence of Veyr," Depth 5.
 
 **Loot here:** the Held Thing, in the Hanging — see [`REWARDS.md`](REWARDS.md).
 
@@ -1791,6 +1798,66 @@ two nobody can read: **HOW BIG IS A HOME?**
 **Loot here:** the Cut Page, prised loose from the substrate — see
 [`REWARDS.md`](REWARDS.md).
 
+### More of the Measure, and evidence of Veyr — optional, worth finding
+
+**Scattered equipment, everywhere now.** The reconstruction station (below)
+isn't the only machine down here — it's just the only one still doing its
+job. The substrate hall and the corridors leading into it are littered with
+the rest of it, inert: a calibration rig folded in on itself in a corner,
+its lenses clouded over; a run of chain vanishing into the pale material
+and never coming out the other side; a cluster of brass gauges, needles
+frozen mid-swing, half-grown into the wall the way a tree grows around a
+fence; a drafting arm with no hand on it, holding a half-finished line it
+will never finish. None of it does anything if touched or moved. It's
+simply how much of this there once was, and how much of it never got put
+away. **This is where the rule-room corridors of Depth 4 pay off, if the
+party noticed anything there** — a few pieces glimpsed distantly between
+rooms, unremarked at the time, were the first sign of exactly this.
+
+**A shrine, off to one side.** A rough side-nook holds something that has
+nothing to do with surveying: a squat stone shape, more suggested than
+carved, its base cut deep with one word: **VEYR.** It's ringed with
+offerings left across what was clearly a very long time by many different
+hands — greened coins from mintings nobody at the table will recognise, a
+bundle of flowers reduced to grey dust that somehow hasn't blown away, a
+second and third doubled-mark medallion identical to the Twice-Cut Token, a
+strip of cloth tied round the stone's base and rotted down to nothing but
+its knot. **Nobody organised this.** It reads exactly like what it is —
+people, one at a time, over a very long time, leaving something for a god
+nobody else believed in. The offerings are real and may be taken; it's
+simply an unkind thing to do.
+
+**The mark, scratched everywhere near it, in different hands.** The
+doubled mark — cut twice, identically, side by side — is scored into the
+wall around the shrine a dozen times over, at a dozen different depths of
+cut, in a dozen different hands: some careful, some hurried, one clearly
+done by an unsteady or untrained grip. Once, off to the side, larger than
+any of the others, the same mark isn't cut at all — it's painted, in a
+rust-black stain that is unmistakably old blood, dried and flaking at the
+edges. Whose, when, or why is never explained, here or anywhere else in
+this adventure.
+
+**And, half-slumped in the same nook: a skeleton.** Old travelling clothes,
+mostly gone to dust; a small stamped badge — the doubled mark again,
+cheaply cast — still pinned to what's left of a coat collar. **This was one
+of the Measure's own.** Tucked in an inner pocket, folded small, is a scrap
+that has survived far better than it should have: a warning, in verse, in
+a hand practised enough that this plainly wasn't the first time it had
+been written down.
+
+> *We chain the world; we do not mend it.*
+> *That is the oath, and we defend it.*
+> *He tried to change what we had found —*
+> *now he is measured, in the ground.*
+
+**Don't explain who wrote it, who enforced it, or how he died.** What it
+confirms, plainly, for any table that finds it: the Measure's law was never
+only "measure carefully." It was **measure, and do not change what you
+measure** — and breaking that, even once, even from inside the order
+itself, had a consequence severe enough to leave a body as the only
+remaining witness. That's a harder, more specific answer than the party has
+had access to anywhere else in the adventure, and it should land as one.
+
 ### The reconstruction station — the answer, guaranteed
 
 **This is a mandatory revelation. Build it around evidence every table gets,
@@ -1843,13 +1910,13 @@ The wall was always going to keep moving. The party has spent three
 sessions marking a place that was already remaking itself before they
 arrived and will go on doing so after they leave.
 
-**The physical collision, and the revelation ladder's stage 9:** built into
+**The physical collision, and the revelation ladder's stage 12:** built into
 —not beside, *into*—the reconstruction station's far wall is something the
 station clearly did not make and is not making: a fist-sized fragment of
 worked stone, half-swallowed by the pale substrate material as if it grew up
 around it rather than the reverse, carved with the same mark cut twice,
-identically, side by side that the party may already have from the oblex or
-the Cutter's Rest. **This is mortal work and something older, physically
+identically, side by side that the party may already have from the oblex,
+the Cutter's Rest, or the shrine. **This is mortal work and something older, physically
 occupying the same few feet of space.** Don't explain which came first;
 let the image do it — a measuring-instrument built around, into, and
 oblivious to something that was already here.
@@ -2214,7 +2281,7 @@ noted rather than inventing false certainty.*
 | Why was it three weeks for Ambry and four hours for us? | Duration is a measured quantity like any other, and the instrument records it inconsistently between drafts. Nobody in the Ell can tell you how long they've been in it. |
 | Who are the polite people at the dinner table? | Test residents. The equipment recorded, long ago, that this room needed occupants to check whether it worked, and the space's own ceaseless remaking keeps producing them on its own, unprompted, the way it produces everything else it was ever pointed at. They were never anyone and there is nothing to rescue. |
 | What are the followers, really? | Something native to the Echo, the domain this plot was staked out of, cataloguing the party the way the oblex catalogued Ambry — patient, undirected, and not remotely stoppable by killing the one currently visible. Nobody in the adventure, Hesper included, can tell the party why they're interested, only that they are. |
-| Who or what is "Veyr"? | A name spoken once, by a dying duplicate at the S2 midpoint, and otherwise never explained in play. If the party digs (the Cutter's Rest, the oblex, the reconstruction station's carved fragment) they'll find a mark, not a name — but the mark itself does explain something, if they hold the Twice-Cut Token up against the matching carving at the reconstruction station: it isn't a face or a signature, it's the fold rule drawn as a picture of itself, two identical things that are one thing. That's the closest the adventure gets to explaining what Veyr *is* without ever saying so. This is deliberate — see the revelation ladder, before Session 1. It's real campaign canon (`03_canon/GODS_AND_FAITHS.md`) if you ever want the full answer for your own prep, but the adventure itself never hands the name to the party outright. |
+| Who or what is "Veyr"? | First said once, by a dying duplicate at the S2 midpoint — a name, spoken, with nothing to confirm it by. A party that stops digging there hears it exactly once, from something dying, and no more. A party that digs finds more: the doubled mark, over and over (the Cutter's Rest, the oblex, the reconstruction station's carved fragment), and, if they find the Depth 5 shrine, the name itself cut outright into stone, with generations of real offerings around it — worship, confirmed, by people who believed in it enough to leave something behind. Held against the reconstruction station's wall-carving, the Twice-Cut Token explains the mark without naming what it belongs to: not a face or a signature, the fold rule drawn as a picture of itself, two identical things that are one thing. Between the shrine and the mark, a table that digs will know the name is real and have a rough sense of what it governs, without ever getting a clean textbook answer — which is correct, and deliberate. See the revelation ladder, before Session 1. It's real campaign canon (`03_canon/GODS_AND_FAITHS.md`) if you ever want the full answer for your own prep. |
 | Why can't Hesper leave? | The tally. The door gives back exactly the count it took. She came in through a different house, by a door that no longer exists, and has never been on this one's list. |
 | Did anyone ever get out? | Yes — anyone on the list who walked back to their own door. Most people never find it again. The coats in the closet belonged to the ones who didn't. |
 | Why is the light like that? | The instrument recorded illumination as a property of a space rather than something with a source, so the drafts are lit and there is nothing lighting them. |

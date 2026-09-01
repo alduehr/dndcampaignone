@@ -82,7 +82,7 @@ always available and never blocked.
 | **2** | Open sprawl, ~20–30 rooms | Coat Closet · Ambry's squat · **the oblex chamber** · the "way home" kitchen (*Change #9: a fresh reconstruction built at depth 2, not a literal return to a depth-1 copy — it destabilizes and pushes the party onward rather than looping them back*) | Wrong-object rooms (d20 table), corridors | Down, anywhere, after the way-home betrayal |
 | **3** | A fixed 12-room bank (see the adventure's Depth 3 traversal table); parties visit 6–10 | Room 5, the drafted orchard (every branch converges here) | The other 11 rooms, entered via 3 starting doors and their branches | Room 5 → Depth 4 |
 | **4** | All 6 rule-rooms fully detailed; run 3–5 per party size | 3–5 rule-rooms (DM's pick) | Real Cass's kitchen · Hesper's camps · the Cutter's Rest is Depth 3, not here | Down |
-| **5** | The substrate. One vast continuous space | The plan-floor · the deep-time layers · the survey count | — | **The way out** (Hesper leads them) |
+| **5** | The substrate. One vast continuous space | The plan-floor · the deep-time layers · the survey count · the reconstruction station | Scattered inert equipment · the Veyr shrine · the dead surveyor and his warning-verse | **The way out** (Hesper leads them) |
 
 **Room budget per session:** S1 ~12 rooms · S2 ~20 · S3 ~15 · S4 ~6 large ones.
 
