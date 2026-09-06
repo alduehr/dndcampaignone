@@ -101,13 +101,15 @@ the same true thing occupying the same place twice, correctly, because
 there was never a difference between them worth keeping separate.
 
 **It went wrong the way professional habit goes wrong, not the way ambition
-does.** A field has an edge. A hill has a top. A home doesn't have either —
-it's a thing that happens inside a volume, not the volume itself — and the
-Measure's equipment had no unit for that, no stopping condition, nothing
-telling it *done*. So it kept measuring, closer and closer, deeper and
-deeper, the same way a man who can't stop counting keeps counting. That's
-the whole horror, and it isn't a philosophy. It's a very old, very thorough
-mistake that nobody ever noticed they should stop making.
+does.** The equipment was built to measure until there was nothing left to
+measure — and there never is. The Echo doesn't hold still; it changes
+constantly, on its own, whether or not anyone's watching. So the job was
+never almost finished and never will be: every time the equipment thinks
+it has something pinned down, the target's already moved on. It just keeps
+going, closer and deeper, the same way a man who can't stop counting keeps
+counting. That's the whole horror, and it isn't a philosophy. It's a very
+old, very thorough mistake that nobody ever noticed they should stop
+making.
 
 **Marchwell House sits inside that plot now — but not for long, and that's
 the point.** The equipment itself is ancient, far older than anyone alive.
@@ -163,12 +165,13 @@ measured, and what was measured of a person was a very good, very thorough
 set of externally observed data, standing in for someone the equipment
 never actually understood.
 
-**And the survey has been stalled here for longer than a century**, because
-the Measure's own project could never close the file on a *home* — a home
-isn't a volume, it's a thing that happens inside one, and their equipment
-has no unit for that. Their question is cut into the substrate in every
-language it has ever copied, in the Measure's own hand, not Veyr's:
-**HOW BIG IS A HOME?**
+**And the survey has been running here for longer than a century**, because
+it was never going to stop on its own — the Measure's equipment has no
+concept of *finished*, and the Echo it's pointed at won't hold still long
+enough to hand it one. Cut into the substrate in every language it has
+ever copied, in the Measure's own hand, not Veyr's, is simply a tally: a
+running count of how many times this has all been measured before, with
+no final number anywhere, because there isn't one.
 
 ---
 

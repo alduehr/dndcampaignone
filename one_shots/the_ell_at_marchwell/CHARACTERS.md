@@ -195,7 +195,10 @@ because it got heavy for a man who never stopped running.
 **His squat (session 2):** curtains and coats, sixty preserve jars stacked by
 size, a ledger with twenty-two days scratched on the flyleaf, the tally wall,
 and **the pair to the glove.** Empty and still warm — three of the five doors
-out are sound-mimics, and one of them called him by name until he believed it.
+out are sound-mimics, calling him by name for weeks. He didn't go toward the
+voice (Change #19) — the night he finally broke, he bolted through one of
+the two *real* doors just to get away from it, and that real door is what
+put him on the road to the oblex chamber.
 
 **Where they find him:** roped to a chair leg in the oblex chamber, being
 eaten. **Three weeks from his side. Four hours from theirs.**

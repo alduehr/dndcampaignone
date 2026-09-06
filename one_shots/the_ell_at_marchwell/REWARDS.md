@@ -25,15 +25,28 @@ The furniture is scenery.** This is learnable, thematically airtight, and it
 means the party's haul comes from the Coat Closet, from Hesper, and from the
 squat — the three places where *people* were.
 
-### Deliver the rule once, hard, and early
+### Deliver the rule in two beats — one inside, the confirmation only once they're out
 
 **Session 2, right after the Coat Closet.** Somebody will pocket something off
-a drafted mantelpiece. Have it come apart in their hand within the hour — dry,
-odourless, weightless, gone. Meanwhile the ferry token and the ring from the
-coat pockets are still solidly in their pouch.
+a drafted mantelpiece. Have it come apart in their hands within the hour —
+dry, odourless, weightless, gone. Meanwhile the ferry token and the ring
+from the coat pockets are still solidly in their pouch, unchanged. **This
+proves only that drafted objects and real ones behave differently while
+still inside the Ell** — the party can reasonably conclude the coat-pocket
+items are genuine, carried in by real people, not props the room generated.
+**It does not yet prove anything about what survives the trip outside** —
+nobody currently in the Ell has any way to test that, and the scene
+shouldn't be played or narrated as if it settles the question.
 
-One demonstration and the party works out the rule and starts robbing corpses
-with real enthusiasm, which is exactly where you want them.
+Once this lands, the party will work out the practical, in-Ell version of
+the rule and start robbing corpses with real enthusiasm, which is exactly
+where you want them — they just can't honestly swear, in character, that
+it all survives until they're standing outside holding it.
+
+**The actual confirmation happens only in Session 4, once they're out**
+(see "Coming out" in the main file) — that's where the DM states plainly
+which of the party's accumulated finds actually made it through the pantry
+door with them.
 
 **The one exception, and tell them about it: the substrate.** Depth-5 material
 isn't a draft — it's the actual instrument. See *The Cut Page*.
@@ -61,7 +74,7 @@ and they will not care.
 ## THE ITEMS
 
 Nine, which is right for six characters over four sessions at this tier. Two
-are found early, five mid, two at the end. **Items 3a and 3b (the Twice-Cut
+are found early, five mid, two at the end. **Items 4 and 5 (the Twice-Cut
 Token and the Echo Stone) are the exception to the loot-the-dead rule** —
 both are real, both survive outside the Ell, and neither belonged to a
 person. They're evidence of something older than the Measure's equipment,
@@ -91,18 +104,23 @@ razor · a pressed flower that is still soft.
 None of it is magical. All of it belonged to somebody who didn't get out, and
 by session 4 the party will have worked that out.
 
-### 3. The Honest Weight *(uncommon; the squat)*
+### 3. The Honest Weight *(uncommon; Ambry's own — see Change #18, main file)*
 
-Ambry's, and he'll hand it over: a small brass tithe-weight on a cord, the kind
-an assessor carries to check a merchant's scales. He's been clutching it for
-three weeks like a rosary.
+Not found as loot — Ambry hands it over personally at "The Way Home,"
+once he's safe: a small brass tithe-weight on a cord, the kind an assessor
+carries to check a merchant's scales. He's been clutching it for three
+weeks like a rosary.
 
-**Once per short rest, you can ask it a yes/no question about a physical
-quantity in your line of sight** — *is that floor safe, is that gap jumpable,
-is this door heavier than it looks, is that man carrying more than he can
-lift* — and it answers truthfully by hanging still or swinging.
+**Once per short rest, you can ask it a yes/no or numeric question about a
+physical quantity in your line of sight** — *how far to that ledge, how
+much does this chest weigh, how many of them are in that room, how much
+weight will this floor/rope/beam bear* — and it answers truthfully by
+hanging still, swinging, or (for a number) tapping out a count against
+its own cord.
 
-*It cannot answer about people, intentions, or the future.* It measures.
+*It cannot answer about people's intentions, safety judgments, or the
+future — only a measurable quantity.* It measures. That's all it's ever
+done.
 
 ### 4. The Twice-Cut Token *(uncommon; the oblex's body, or the Cutter's Rest, depth 3)*
 

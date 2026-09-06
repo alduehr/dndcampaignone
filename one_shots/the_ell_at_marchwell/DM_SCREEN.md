@@ -30,7 +30,8 @@ Never a warning; always a receipt.
 
 - **Deface** a frame → removes it from the set (5-set → 2-set = shortcut)
 - **Copy** a mark → adds to a set (deliberate long-distance link)
-- **Unique room** → in no set → **rest-safe**
+- **Unique room** → in no set → won't fold away, but **NOT rest-safe** —
+  every long rest is still a 1d12 roll regardless (see RESTING)
 - **Hesper only folds through 2-sets.** That's why she's never where you want.
 
 ---
@@ -40,7 +41,7 @@ Never a warning; always a receipt.
 | # | Name | What breaks |
 |---|---|---|
 | **0** | The house | Nothing but the arithmetic |
-| **1** | The repeating house | Marchwell House, drafted, recursing and degrading |
+| **1** | The repeating house | Marchwell House, drafted, recursing and degrading — 4 doors/copy (front/back/press/pantry), all go deeper; front/back/press fold-set backward, pantry never does |
 | **2** | The empty house | Tallow light (no shadows, torches pointless), the hum, **the wrong object** in every room |
 | **3** | The wrong scale | Proportion, gravity-per-room, time thickens — 12-room bank, visit 6–10 |
 | **4** | The rules | Physics becomes a property of the room. Drafted people. |
@@ -50,32 +51,31 @@ Never a warning; always a receipt.
 
 ## RESTING
 
-**Long rest requires a room the Ell can tell apart.** Otherwise: fold at the
-edge of sleep, wake scattered. Counts as a completed **short** rest (Hit Dice
-may be spent, nothing else recovers), plus an hour lost finding each other.
+**No room is ever safe. Every long rest is 1d12, minus long rests already
+taken this adventure (min 1).** Resolves immediately, in the room:
 
-Qualifies if: **they cut a mark** (chalk doesn't work — it gets copied) ·
-**one-of-a-kind object in it** (anchor, gallows, well, milestone) · **someone
-else already marked it** (Ambry's squat, Hesper's camps).
+| Roll (after penalty) | Result |
+|---|---|
+| 12 | Full rest, nothing else |
+| 10–11 | Full rest + a small wrongness (an owned object becomes a copy of itself, right then) |
+| 8–9 | Short-rest benefits only |
+| 5–7 | Rest fails, no benefit — something speaks in a sleeper's voice |
+| 3–4 | Rest fails + hostile encounter, immediately (pick depth-appropriate, not a doppelganger) |
+| 1–2 | Same, but surprise round against the party |
+
+No exhaustion, no extra HP loss, ever — the roll result *is* the whole cost.
 
 **Table ruling, said once at the first rest:**
-> *"I won't tell you in advance whether a rest will be long or short. It isn't
-> random — it depends on something — and there may be a cost either way."*
+> *"There's no room down here that's actually safe. Every long rest is a
+> real risk, and it gets worse the more you take. I won't tell you the
+> odds."*
 
-**SAFETY VALVE:** after **2 failed long rests**, they find a century-old camp
-with a name knife-cut into the doorframe. Don't explain it. (Ambry backs it up
-if needed: *"sleep where somebody's cut something."*)
+**Marking a room does nothing mechanically.** Hesper and Ambry both swear
+by it anyway (a cut mark, a one-of-a-kind object, a known camp) — genuine
+folk wisdom, completely wrong, played totally straight. Don't let a player
+talk their way into a bonus for it.
 
-### Rest cost
-
-| Rest # | What turns up later |
-|---|---|
-| 1st | A copy of something they own — *theirs*, down to the repair |
-| 2nd | A voice: whoever slept deepest, saying what they *would* say |
-| 3rd | A copy of a PC, doing a routine, calm, not hostile, nothing inside it |
-| 4th+ | Combinations. They should be afraid to sleep. |
-
-### ☐☐☐☐☐ LONG RESTS TAKEN → party copies in the finale (cap 5)
+### ☐☐☐☐☐ LONG RESTS ATTEMPTED (win or lose the roll) → party copies in the finale (cap 5)
 
 *Past cap: +15 HP to Hesper each.*
 
@@ -178,8 +178,7 @@ and no clue points at answering the substrate's question *right now* as a
 way to save her. This is the climax; let it land.
 
 ### Endings
-- **The swap (default).** Hesper always dies to the Roper. They walk out without her; the door doesn't care, she was never on the list. Not a choice they got to make.
-- **Close the file** — answer *HOW BIG IS A HOME?* honestly, out loud, any time during the fight (before or after the Roper takes her). No roll, no Charisma check. Bad faith doesn't land. Powers down the equipment everywhere; Hesper gets four seconds in an orchard, in wind, whether or not she's already gone. Never undoes the Roper's attack — a kinder coda, not a rescue.
+- **Hesper always dies to the Roper.** They walk out without her; the door doesn't care, she was never on the list. Not a choice they got to make, and there's no alternate, kinder ending available — this always happens.
 - **The ugly one** — they don't count, and come back six but not the same six.
 
 ---

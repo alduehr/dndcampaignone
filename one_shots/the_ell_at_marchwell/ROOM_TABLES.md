@@ -19,9 +19,11 @@ by the instrument as furniture.
 
 **Cross off each result once it's used.** Several of these objects (the
 anchor, the gallows, the well, the milestone) are the one-of-a-kind objects
-that make a room rest-safe per the main file's resting rule — a rolled
-duplicate would put two "unique" anchors in the Ell at once and quietly break
-that rule. If you roll a result you've already used, reroll.
+that make a room **unique** — no-fold, per the main file's set rule (uniqueness
+doesn't make resting safe, only reliable to return to; see "Resting in the
+Ell"). A rolled duplicate would put two "unique" anchors in the Ell at once
+and quietly break that rule. If you roll a result you've already used,
+reroll.
 
 | d20 | In an otherwise ordinary room, there is |
 |---|---|
@@ -98,7 +100,7 @@ and tally.
 | 5 | A tally that goes on for eleven feet of wall and does not end. |
 | 6 | The vale, entire, as a single unbroken figure. |
 | 7 | The same figure, without the orchards. Then without the hedges. Then without anyone. |
-| 8 | **HOW BIG IS A HOME?** |
+| 8 | The same tally, corrected in a slightly different hand, then corrected again, then again — never once marked final. |
 
 **Once, and only once, let a fragment carry something that isn't the
 Measure's notation at all:** a single mark, cut twice, identically, side by

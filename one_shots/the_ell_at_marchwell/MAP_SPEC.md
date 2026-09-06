@@ -48,7 +48,7 @@ matters), and which set each doorway belongs to.
 | # | Room | Distinguishing feature | Doors |
 |---|---|---|---|
 | 7 | Parlour, blue chairs | Water stain, ceiling | N: set A · E: set C · S: unique |
-| 12 | Bedroom, ship's anchor | **Anchor (unique) — rest-safe** | W: set A · E: set F |
+| 12 | Bedroom, ship's anchor | **Anchor (unique) — won't fold away, but resting here is still a roll** | W: set A · E: set F |
 
 **When the party maps, let their map be right.** If they've recorded that room
 7's north door is twinned with room 12's west door, then it is, every time,
@@ -78,7 +78,7 @@ always available and never blocked.
 | Depth | Extent | Fixed nodes (must pass) | Optional nodes | Exits |
 |---|---|---|---|---|
 | **0** | Marchwell House, 4 down / 3 up | The pantry | Loft, press-house | Every exterior door → D1. Windows → the still orchard (loops back to the house) |
-| **1** | 5 copies of the house, degrading | Copies 1→5 in order | — | Copy 5's kitchen (**Four Casses**) → D2 |
+| **1** | 5 copies of the house, degrading; each copy has 4 usable doors (front, back, press-house, pantry — Change #12) | Copies 1→5 in order | The paired windows, the pre-echoed mark (Change #16) — either copy, DM's pick | Any of the 4 doors → next copy; pantry never folds backward, the other 3 do (Change #15) → Copy 5's kitchen (**Four Casses**, all 4 doors present — Change #13) → D2 |
 | **2** | Open sprawl, ~20–30 rooms | Coat Closet · Ambry's squat · **the oblex chamber** · the "way home" kitchen (*Change #9: a fresh reconstruction built at depth 2, not a literal return to a depth-1 copy — it destabilizes and pushes the party onward rather than looping them back*) | Wrong-object rooms (d20 table), corridors | Down, anywhere, after the way-home betrayal |
 | **3** | A fixed 12-room bank (see the adventure's Depth 3 traversal table); parties visit 6–10 | Room 5, the drafted orchard (every branch converges here) | The other 11 rooms, entered via 3 starting doors and their branches | Room 5 → Depth 4 |
 | **4** | All 6 rule-rooms fully detailed; run 3–5 per party size | 3–5 rule-rooms (DM's pick) | Real Cass's kitchen · Hesper's camps · the Cutter's Rest is Depth 3, not here | Down |
@@ -96,12 +96,16 @@ Everything else can move. These cannot:
    literal copy 2 — Change #9) — the S2 betrayal.
 3. **The way out** at depth 5 — the finale room.
 
-## Rest-safe rooms
+## Unique rooms (reliable to return to — not rest-safe)
 
-A room is rest-safe if it's **unique**: party-marked, contains a one-of-a-kind
-object (anchor, gallows, well, milestone), or is somebody's old camp. Keep a
-running list as they make them — those are the only rooms they can reliably
-return to, and by session 3 that list is effectively their map.
+A room is **unique** — won't fold into anywhere else while they're standing
+in it — if it's party-marked, contains a one-of-a-kind object (anchor,
+gallows, well, milestone), or is somebody's old camp. Keep a running list
+as they make them; those are the only rooms they can reliably return to,
+and by session 3 that list is effectively their map. **Uniqueness has
+nothing to do with whether a long rest there succeeds** — see "Resting in
+the Ell" in the main file: every long rest is a 1d12 roll, regardless of
+the room.
 
 ---
 
