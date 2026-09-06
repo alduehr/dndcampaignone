@@ -771,7 +771,7 @@ purpose.
 | V3 | F | K | R | exempt | Two wallpaper seams don't match now, not one; the fire's crackle lands a half-second late, like the room is catching up to itself | — |
 | V4 | F | K | R | exempt | One wallpaper pattern instead of six; books have covers, no words | Dropped glove |
 | V5 | F | K | R | exempt | Furniture has started doubling: two identical rag rugs, stacked exactly on top of each other; every door in the house hinges-squeaks at once, in unison, whether touched or not | Torn ledger page |
-| V6 | F | K | R | exempt | Right shape, wrong things — **two identical armchairs sit side by side in the kitchen**, both unmistakably Cass's, where there has only ever been one | Strongbox, open, abandoned, chapel plate still inside |
+| V6 | F | K | R | exempt | **The kitchen has emptied out** — table, dishes, the ordinary clutter of a lived-in room, simply not there. Cass's chair is the only thing left, alone in the middle of a bare floor | Strongbox, open, abandoned, chapel plate still inside |
 | **V7 (Cass)** | — | — | — | — | Furniture generic, nothing is anyone's. **All four doors have collapsed into this one room** — no separate hall, scullery, or pantry left at all. See "Four Casses," below, for how the doors behave here specifically. | — |
 
 **F / K / R are one running set each** — front, back, press-house — not
@@ -837,11 +837,13 @@ any particular feeling, *"You shouldn't have come in."*
 one room (Change #13) — the first time that's happened.** Every copy
 before this one kept them spread across the front hall, the scullery, and
 the pantry, the way a real house would; a party that's been tracking the
-floor plan will notice this immediately. By the seventh copy, the
-instrument's grip on which door belongs in which room has slipped far
-enough that all four just open onto the same kitchen at once — one more
-sign, alongside the generic furniture, of exactly how degraded this copy
-is.
+floor plan will notice this immediately. Nothing measured this layout and
+decided to change it — the equipment never could. This is just how far the
+Echo's own restless remaking has drifted from whatever was ever actually
+recorded of this house: by the seventh copy, there's no separate hall,
+scullery, or pantry left to drift back to, and all four doors simply open
+onto the same kitchen at once — one more sign, alongside the generic
+furniture, of exactly how little of the original is left standing.
 
 **Then the door behind them opens and Cass walks in.** And the pantry door
 opens and Cass walks in. And Cass stands up out of the chair. **And, a beat
