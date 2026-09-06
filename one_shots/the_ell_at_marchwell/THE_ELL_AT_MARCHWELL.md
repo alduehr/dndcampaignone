@@ -326,29 +326,41 @@ that shouldn't be, a beat before anyone finishes the sentence.
 **Then the racket.** A shout from the stable-yard, a horse screaming, a rail
 going over. Ambry — sobbing, apologising to nobody, still clutching the
 strongbox under one arm — is dragging himself onto a fresh horse he has no
-business touching. **He's off and riding before anyone can close the
-distance.** This is not a fight; it's a **mounted chase**, and it should
-feel like one: a Dexterity (Animal Handling) or group check (**DC 12**, one
-failure is fine, two means he opens a real lead) to stay with him across
-broken parish ground, hedgerows, and a flooded cart-track, while he does
-everything wrong and stays ahead anyway because panic is a better motivator
-than skill.
+business touching. **This is the moment they actually catch up to him** —
+close enough to see his face, close enough for a grabbing hand or a thrown
+rope to nearly get there — and it's also the moment it stops mattering.
+**Their own horses have carried them hard across three parishes today and
+are blown. His is fresh, stolen not sixty seconds ago, and isn't tired at
+all.**
 
-**He doesn't get away — he gets somewhere.** The chase ends when he cuts
-through a gap in a hedge onto the west road and the party sees exactly where
-he's making for: a whitewashed farmhouse at the end of a long lane, orchard
-smoke rising behind it. **Let a player who asks around learn it first, if
-they think to ask before they ride:** that's Marchwell land, and the clerk
-has a cousin there.
+**A short, ugly scramble in the yard** — a Dexterity (Animal Handling) or
+group check (**DC 12**) to keep him from riding one of them down on his way
+out, or to get a hand on a rein and miss — but nobody should mistake this
+for a chase they can win by rolling well. The instant he clears the gate,
+the gap starts opening and does not close again: a fresh horse against
+blown ones isn't a contest, it's arithmetic. **Let them watch him pull
+away**, smaller down the west road, until he's gone.
+
+**They still know exactly where he's going.** A parishioner (or the sexton,
+if nobody else is handy) volunteers it the moment Ambry's name comes up,
+no check required: that's the west road, and the only place worth riding it
+for is Marchwell land — the clerk has a cousin there. **Finding the
+destination is never the hard part here; catching up to him is,** and for
+now, they can't.
 
 **Marchwell House.** Cider-orchard country, half a day west of Tilbrook.
 Whitewashed, four rooms down and three up, a press-house, a kitchen garden, an
 ash-house. Autumn; the pressing is on; the yard smells of apples going over.
 
-**Timing:** the chase buys Ambry roughly two hours alone at the farm before
-the party arrives — long enough to believe, wrongly, that he has shaken
-them; not long enough to have done anything but eat, hide the box, and start
-to relax. Everything in "The search," below, is built on that two hours.
+**Timing:** their own horses need walking, not racing, for a good stretch of
+that road — blown mounts pushed harder just go lame or drop, and that's
+plain enough that nobody at the table should need it spelled out twice.
+That, plus Ambry's fresh horse making good time on an easy, known road, is
+where the roughly two hours actually comes from — not a mystery, just tired
+horses against a rested one. Long enough for him to believe, wrongly, that
+he's shaken them; not long enough to have done anything but eat, hide the
+box, and start to relax. Everything in "The search," below, is built on
+that two hours.
 
 **The cast:**
 
