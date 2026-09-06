@@ -149,10 +149,20 @@ never "later," never "in a room ahead of them."
 result.** The cost lives entirely in what the roll produces, never stacked
 on top of it.
 
-*(The threat on a 3–4 or 1–2 result is deliberately left open — pick
-something appropriate to the current depth rather than defaulting to a
-doppelganger fight; copies are reserved for the finale's escalating tally,
-below, not for random mid-rest encounters.)*
+**On a 3–4 or 1–2 result: "the uninvited."** Never a doppelganger fight —
+copies are reserved for the finale's escalating tally, above, not for
+random mid-rest encounters. Instead, roll the actual composition fresh
+each time, independently:
+
+- **1d6 for a phase spider:** 1–4, none. 5–6, one.
+- **1d4 for mirror mephits:** that many, always at least one.
+- **1d8 for will-o'-wisps:** 1–6, none. 7, one. 8, two.
+
+Every one of these is trivial for six level-5 characters even at the
+worst possible roll (a phase spider, four mephits, and two wisps all at
+once) — the point is unsettling variety at essentially no risk, not a
+real fight. See the Bestiary, below, for **the uninvited** — full stat
+references and how each one plays.
 
 **As always in this adventure: real risk, never cheap death.** If a run of
 bad rolls is genuinely threatening to end the campaign outright rather than
@@ -2444,6 +2454,7 @@ All printed stat blocks, run as written except the oblex's HP (see below).
 | The quoting thing | Gibbering mouther (CR 2, 450 XP) | *Monster Manual* | Says only the last true thing each character said. Verbatim, in their voice | S3, depth 3 — "More presences," below |
 | The still bears | Owlbear ×3 (CR 3, 700 XP each) | *Monster Manual* | Perfect in every particular. None breathes. None blinks | S3, drafted orchard |
 | **The oblex** | **Elder oblex (CR 10, 5,900 XP, 115 HP printed — HP homebrewed further up, see below), plus live Oblex Spawn (CR ¼, 50 XP)** | *Volo's Guide to Monsters* | Native, not trapped — belongs to the Echo, the domain the Measure staked this plot out of. Speaks in the party's voices. Its duplicates are everyone who came in before. Dies for good at the midpoint — the voices don't stop, and one duplicate's last words are "Veyr remembers you" | **S2 midpoint only** |
+| **The uninvited** (composition rolled fresh each time — see "Resting in the Ell") | Mirror mephit ×1–4 (CR ½, 100 XP each) · Will-o'-wisp ×0–2 (CR 2, 450 XP each) · Phase spider ×0–1 (CR 3, 700 XP) | *Mordenkainen's Tome of Foes* (mephit) · *Monster Manual* (wisp, spider) | All three are Veyr's, drawn to a sleeper the way gulls follow a boat. **Mirror mephits split into an identical duplicate the moment they're struck** — the fold rule with teeth, harmless teeth. **Phase spiders** blink into the party's rest, take a bite, and blink out again before anyone can pin them down. **Will-o'-wisps** show up as a second, identical light beside whoever's on watch, and try to lead someone a few steps toward a wall as if it were a door. None of them press an attack that isn't working; all of them flee back into the walls or the dark the instant it stops being easy. | Any long rest, on a 3–4 or 1–2 result |
 | Hesper Wick | Custom NPC, veteran-derived (base: *Monster Manual*, CR 3, 700 XP) | Custom | The finale, until the other pillar. See her full profile above | **S4 only** |
 | **The other pillar** | **Roper (CR 5, 1,800 XP, printed, unmodified)** | *Monster Manual* | Disguised as one of two identical pillars in the finale room, indistinguishable from its twin, until it isn't | **S4, the finale room — "The Other Pillar," above** |
 

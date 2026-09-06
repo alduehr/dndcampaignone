@@ -60,10 +60,16 @@ taken this adventure (min 1).** Resolves immediately, in the room:
 | 10–11 | Full rest + a small wrongness (an owned object becomes a copy of itself, right then) |
 | 8–9 | Short-rest benefits only |
 | 5–7 | Rest fails, no benefit — something speaks in a sleeper's voice |
-| 3–4 | Rest fails + hostile encounter, immediately (pick depth-appropriate, not a doppelganger) |
+| 3–4 | Rest fails + **the uninvited**, immediately (never a doppelganger) |
 | 1–2 | Same, but surprise round against the party |
 
 No exhaustion, no extra HP loss, ever — the roll result *is* the whole cost.
+
+**The uninvited — roll fresh each time:** 1d6 for a phase spider (5–6 = one,
+else none) · 1d4 for mirror mephits (that many, min 1) · 1d8 for
+will-o'-wisps (7 = one, 8 = two, else none). Trivial for six level 5s even
+at worst; see Bestiary in the main file. Mephits split into a copy when
+hit — let it happen, it's still nothing.
 
 **Table ruling, said once at the first rest:**
 > *"There's no room down here that's actually safe. Every long rest is a
