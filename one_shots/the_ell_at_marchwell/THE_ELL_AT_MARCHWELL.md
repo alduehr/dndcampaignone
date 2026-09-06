@@ -697,44 +697,65 @@ anyone watches.
 food in the pantry is real and has no taste. The height-notches on the
 doorframe stop partway up — the copy was taken before the last few were cut.
 
-**Geometry (Change #12/#14): every copy has the same four exterior doors as
-the real house — front, back, press-house, pantry — and every one of them
-leads deeper.** There's no dead end and no wrong door; present all four
-honestly each time the party's in a kitchen, and let them choose. What
-changes is what they notice on the way, and — once marking enters the
-picture — how backtracking behaves.
+**Geometry (Change #12/#14): each copy is a small, mappable four-room
+house — a kitchen hub with three wings.**
 
-- **The front door.** The obvious pick, and the one most likely to be
-  carrying whatever of Ambry's trail turns up in that copy (see below).
-- **The back door.** Opens onto the kitchen garden, colder, closer to the
-  orchard's dead stillness — a good spot for a checkable tell if you need
-  to place one.
-- **The press-house door.** See "the cider that isn't being made," below.
-- **The pantry.** The one door that never joins a fold-set (see
-  backtracking) — the adventure's one genuinely stable throughline, front
-  to back.
+```
+          Front Hall
+        [FRONT DOOR] → deeper
+              |
+ Pantry —— Kitchen —— Scullery
+[PANTRY    (start,     [BACK DOOR] → deeper
+ DOOR]      same        [PRESS-HOUSE DOOR] → deeper
+→ deeper    every
+            copy)
+```
 
-**Backtracking (Change #15): going back through a door follows the same
-fold rule as everywhere else in the Ell.** The front door of copy 1 and the
-front door of copy 2 are, as far as the instrument is concerned, one door
-filed twice — and so on for every copy of the house they've passed through
-and haven't defaced.
+The party always arrives in **the kitchen** — same rag rug, same scorched
+hearthstone, every copy. Three interior doorways lead off it to the front
+hall, the scullery, and the pantry, and each of those rooms holds one (the
+scullery holds two) of the house's four **exterior** doors: front, back,
+press-house, pantry. **All four exterior doors lead deeper, to the next
+copy** — there's no wrong pick and no dead end. Present them honestly and
+let the party choose which room to walk to and which door to use.
+
+**The interior doorways (kitchen↔hall, kitchen↔scullery, kitchen↔pantry)
+are ordinary and fixed.** They belong to whichever copy the party is
+currently in, never fold, and never need a ruling — this is what makes the
+depth genuinely mappable despite the fold rule existing at all.
+
+**Only the four exterior doors are "the same door filed many times" across
+copies — and only for *backward* travel.** Forward progress (leaving the
+current copy through any of them, the first time) is never fold-governed:
+per the one navigation rule that runs the whole Ell, going deeper always
+works, full stop, with no roll and nothing to break.
+
+**Backtracking (Change #15): going back through an exterior door you've
+already used follows the fold rule, exactly as everywhere else in the
+Ell.** The front door of copy 1 and the front door of copy 2 are, as far as
+the instrument is concerned, one door filed twice — and so on for every
+copy they've passed through and haven't defaced.
 
 - **Two open copies of a door-kind:** deterministic. Go back through it and
   you always land in the other one.
 - **Three or more open:** random. Nobody — DM included, adjudicating the
   rule straight — can predict which one they land in.
-- **The pantry is exempt.** It never folds backward; it only ever advances
-  to whatever's next for the copy they're currently in, exactly as it
-  behaves everywhere else in the adventure.
+- **The pantry door is exempt even from this.** It never folds backward at
+  all; it only ever advances, exactly as it behaves everywhere else in the
+  adventure.
+
+**Defacing a door never blocks it or redirects it — it only ends its part
+in the fold.** Cut a mark into a front door and it drops out of the shared
+filing; there's no longer an identical sibling left for the instrument to
+confuse it with. Go back through it afterward and it reliably returns you
+to that exact room — not because the door now "leads somewhere new," but
+because there's nothing left to mix it up with. Forward use was never
+affected either way; it was always just a door.
 
 **This is deliberately the party's first real chance to practice defacing a
-door before it matters in a fight.** Scratch a front door behind you and
-that copy leaves the front-door set, shrinking the pool — with only two
-copies left open, backtracking through it becomes fully predictable.
-Nothing forces the party to notice this here, but if they do, session 1
-has already taught them the trick that saves their skin at the Four Casses
-and beyond.
+door before it matters in a fight.** Nothing forces the party to notice
+this here, but if they do, session 1 has already taught them the trick
+that saves their skin at the Four Casses and beyond.
 
 **It recurses, degrading:**
 
@@ -793,11 +814,15 @@ He is sitting in a chair that is nearly his chair, in a kitchen that is nearly
 the kitchen, with his back to them. He says, without turning round and without
 any particular feeling, *"You shouldn't have come in."*
 
-**This kitchen has all four of the house's doors at once (Change #13)** —
-front, back, press-house, and pantry, crowded into the same room. That's
-the degradation talking: by the fifth copy the instrument's grip on which
-door belongs in which wall has slipped far enough that doors that should
-be in four different walls of a real house all open onto this one.
+**This kitchen has collapsed all four of the house's exterior doors into
+one room (Change #13) — the first time that's happened.** Every copy
+before this one kept them spread across the front hall, the scullery, and
+the pantry, the way a real house would; a party that's been tracking the
+floor plan will notice this immediately. By the fifth copy, the
+instrument's grip on which door belongs in which room has slipped far
+enough that all four just open onto the same kitchen at once — one more
+sign, alongside the generic furniture, of exactly how degraded this copy
+is.
 
 **Then the door behind them opens and Cass walks in.** And the pantry door
 opens and Cass walks in. And Cass stands up out of the chair. **And, a beat
