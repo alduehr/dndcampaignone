@@ -697,81 +697,88 @@ anyone watches.
 food in the pantry is real and has no taste. The height-notches on the
 doorframe stop partway up — the copy was taken before the last few were cut.
 
-**Geometry (Change #12/#14): each copy is a small, mappable four-room
-house — a kitchen hub with three wings.**
+**Geometry (Change #12/#14): there is only one floor plan.** Every copy —
+"version," really, since it's the same room re-skinned — is the same
+small, mappable four-room house: a kitchen hub with three wings.
 
 ```
           Front Hall
-        [FRONT DOOR] → deeper
+        [FRONT DOOR] → next kitchen
               |
  Pantry —— Kitchen —— Scullery
-[PANTRY    (start,     [BACK DOOR] → deeper
- DOOR]      same        [PRESS-HOUSE DOOR] → deeper
-→ deeper    every
-            copy)
+[PANTRY    (start,     [BACK DOOR] → next kitchen
+ DOOR]      same        [PRESS-HOUSE DOOR] → next kitchen
+→ next      every
+ kitchen)   version)
 ```
 
 The party always arrives in **the kitchen** — same rag rug, same scorched
-hearthstone, every copy. Three interior doorways lead off it to the front
-hall, the scullery, and the pantry, and each of those rooms holds one (the
-scullery holds two) of the house's four **exterior** doors: front, back,
-press-house, pantry. **All four exterior doors lead deeper, to the next
-copy** — there's no wrong pick and no dead end. Present them honestly and
-let the party choose which room to walk to and which door to use.
+hearthstone, every version. Three interior doorways lead off it to the
+front hall, the scullery, and the pantry, and each of those rooms holds
+one (the scullery holds two) of the house's four **exterior** doors:
+front, back, press-house, pantry.
 
 **The interior doorways (kitchen↔hall, kitchen↔scullery, kitchen↔pantry)
-are ordinary and fixed.** They belong to whichever copy the party is
+are ordinary and fixed.** They belong to whichever version the party is
 currently in, never fold, and never need a ruling — this is what makes the
 depth genuinely mappable despite the fold rule existing at all.
 
-**Only the four exterior doors are "the same door filed many times" across
-copies — and only for *backward* travel.** Forward progress (leaving the
-current copy through any of them, the first time) is never fold-governed:
-per the one navigation rule that runs the whole Ell, going deeper always
-works, full stop, with no roll and nothing to break.
+**Where each door actually takes them (Change #12/#14/#15): every door —
+pantry included — always advances the party straight into the next
+version's kitchen.** No door ever dumps them anywhere else, and nobody
+ever needs to double back through a door they've already used to keep
+moving forward. What differs is whether *which* kitchen they land in is
+guaranteed, or a gamble:
 
-**Backtracking (Change #15): going back through an exterior door you've
-already used follows the fold rule, exactly as everywhere else in the
-Ell.** The front door of copy 1 and the front door of copy 2 are, as far as
-the instrument is concerned, one door filed twice — and so on for every
-copy they've passed through and haven't defaced.
+- **The pantry is exempt from folding, full stop.** Use it once, or use it
+  five times running — it always simply advances to the next kitchen. This
+  is the straight line, and it is a genuinely reliable one: **if the party
+  only ever uses the pantry, they will always, predictably, eventually
+  reach Cass.**
+- **Front, back, and press-house are each one growing fold-set, by kind,
+  across every version the party has opened so far** — the same rule as
+  everywhere else in the Ell, just tracked per door-kind instead of per
+  room. The first time they use a given kind, nothing exists yet to
+  confuse it with, so it just advances them normally. **The second time
+  they use that same kind — anywhere, not necessarily from the same
+  room — there are now two open instances, and the standard 2-set rule
+  sends them to whichever *other* one is already open, not forward.** A
+  third use of that kind makes it a random pick among every instance
+  currently open. Defacing an open instance removes it from that kind's
+  set exactly as it does everywhere else, shrinking the pool.
 
-- **Two open copies of a door-kind:** deterministic. Go back through it and
-  you always land in the other one.
-- **Three or more open:** random. Nobody — DM included, adjudicating the
-  rule straight — can predict which one they land in.
-- **The pantry door is exempt even from this.** It never folds backward at
-  all; it only ever advances, exactly as it behaves everywhere else in the
-  adventure.
+This is the whole lesson in miniature: **the pantry is boring and safe.
+Everything else is a live gamble that gets worse the more you lean on it.**
+A party that discovers this on their own, in session 1, has learned
+something that will save them for the rest of the adventure.
 
 **Defacing a door never blocks it or redirects it — it only ends its part
-in the fold.** Cut a mark into a front door and it drops out of the shared
-filing; there's no longer an identical sibling left for the instrument to
-confuse it with. Go back through it afterward and it reliably returns you
-to that exact room — not because the door now "leads somewhere new," but
-because there's nothing left to mix it up with. Forward use was never
-affected either way; it was always just a door.
+in the fold.** Cut a mark into a front door and it drops out of that
+kind's shared filing; there's no longer an identical sibling left for the
+instrument to confuse it with. The next time anyone uses *that specific*
+door, it simply advances forward like a fresh one — not because it "leads
+somewhere new," but because there's nothing left to mix it up with.
 
-**This is deliberately the party's first real chance to practice defacing a
-door before it matters in a fight.** Nothing forces the party to notice
-this here, but if they do, session 1 has already taught them the trick
-that saves their skin at the Four Casses and beyond.
+**One map, five versions — the full traversal table:**
 
-**It recurses, degrading:**
+| Version | Front | Back | Press-house | Pantry | What's unique (say this) | Loot |
+|---|---|---|---|---|---|---|
+| V1 | F | K | R | *(exempt — always → next kitchen)* | Same kitchen, rag rug, scorched hearthstone. Fire lit, no heat. Orchard outside dead-still. Samplers unfinished; pantry food real but tasteless; doorframe height-notches stop short. | Dropped glove |
+| V2 | F | K | R | exempt | Nearly perfect — one wallpaper seam doesn't match | Torn ledger page |
+| V3 | F | K | R | exempt | One wallpaper pattern instead of six; books have covers, no words | The paired windows live here (Change #16) |
+| V4 | F | K | R | exempt | Right shape, wrong things — Cass's chair is sitting in the pantry | Strongbox, open, abandoned, chapel plate still inside — the pre-echoed mark lives here too (Change #16) |
+| **V5 (Cass)** | — | — | — | — | Furniture generic, nothing is anyone's. **All four doors have collapsed into this one room** — no separate hall, scullery, or pantry left at all. See "Four Casses," below, for how the doors behave here specifically. | — |
 
-| Copy | What's wrong |
-|---|---|
-| 2nd | Nearly perfect. One wallpaper seam doesn't match. |
-| 3rd | One wallpaper pattern instead of six. Books have covers, no words. |
-| 4th | Rooms the right shape, the wrong things in them. Cass's chair is in the pantry. |
-| 5th | Furniture is *generic* — a chair, not that chair. Nothing is anyone's. |
-| 6th+ | Not a house any more. Rooms. Depth 2 has started and nobody announced it. |
+**F / K / R are one running set each** — front, back, press-house — not
+bespoke per-row groups. Every instance of a kind joins the same pool the
+moment it's opened; that's deliberate, and it's the same rule the rest of
+the Ell already uses, just applied here for the first time.
 
-**Ambry's trail** through all of it: a dropped glove, a torn ledger page, then
-a **strongbox** sitting open in a corridor, its compact set of chapel plate
-still in it, abandoned because it got heavy. That detail tells the party
-exactly how long he's been down here, and it's a lie — from their side he's
-been in for four hours.
+**Ambry's trail**, distributed above: a dropped glove (V1), a torn ledger
+page (V2), then the **strongbox** (V4) sitting open, its compact chapel
+plate still in it, abandoned because it got heavy. That last detail tells
+the party exactly how long he's been down here, and it's a lie — from
+their side he's been in for four hours.
 
 ### Two interactive discoveries (Change #16)
 
@@ -779,7 +786,7 @@ Neither is required. Both are Echo-specific rather than generic
 haunted-house dressing, and both quietly foreshadow mechanics the party
 will need later.
 
-**The paired windows.** In any copy from the 2nd on, one room has two
+**The paired windows.** In V3 (see the traversal table, above), one room has two
 windows on opposite walls — and both look out on the exact same stretch of
 the still orchard, down to the same branch at the same angle. **They are
 the same window, filed twice.** If one character leans out one while
@@ -790,13 +797,14 @@ nothing, and it's the single best hands-on proof of "identical things are
 the same thing" the adventure offers before Session 3 puts a name to it.
 
 **The mark that was already there.** If any player scratches, chalks, or
-otherwise marks a doorframe out of habit, curiosity, or an attempt to
-track their route — **let them find that exact mark again, in a later
-copy, already scratched in, before they get there.** Don't call attention
-to it. If nobody marks anything unprompted, skip this entirely; it isn't
-worth forcing. If it happens, it's the most unsettling thing in the
-session, and it's the party's first taste — three sessions before Session
-2 makes it explicit — that this place copies *them*, not just the house.
+otherwise marks a doorframe in V1, V2, or V3 out of habit, curiosity, or
+an attempt to track their route — **let them find that exact mark again in
+V4 (see the table, above), already scratched in, before they get there.**
+Don't call attention to it. If nobody marks anything unprompted, skip this
+entirely; it isn't worth forcing. If it happens, it's the most unsettling
+thing in the session, and it's the party's first taste — three sessions
+before Session 2 makes it explicit — that this place copies *them*, not
+just the house.
 
 **The cider that isn't being made** *(ties into Change #11)*: the
 press-house door opens onto a press-room frozen mid-labor — a basket of
@@ -807,8 +815,9 @@ wrong here started before the party arrived and hasn't let up since.
 
 ### SESSION 1 CLIMAX — The Four Casses
 
-They have been following him all session. In the fifth copy — the one where
-the furniture has gone generic — they catch up.
+They have been following him all session. In the fifth copy (V5 on the
+traversal table, above) — the one where the furniture has gone generic —
+they catch up.
 
 He is sitting in a chair that is nearly his chair, in a kitchen that is nearly
 the kitchen, with his back to them. He says, without turning round and without

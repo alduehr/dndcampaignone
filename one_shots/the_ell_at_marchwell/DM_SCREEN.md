@@ -41,7 +41,7 @@ Never a warning; always a receipt.
 | # | Name | What breaks |
 |---|---|---|
 | **0** | The house | Nothing but the arithmetic |
-| **1** | The repeating house | Marchwell House, drafted, recursing and degrading — a mappable 4-room house per copy (kitchen hub + hall/scullery/pantry), each with its exterior door (front/back+press/pantry); all 4 go deeper (never fold-governed forward); front/back/press fold-set only on the way *back*, pantry never does; copy 5 collapses all 4 into one room (Four Casses) |
+| **1** | The repeating house | One 4-room floor plan (kitchen hub + hall/scullery/pantry), 5 degrading versions. All 4 exterior doors always advance to the next kitchen — pantry is exempt from folding (always reliable); front/back/press are each one growing per-kind fold-set (2nd use of a kind = sent back to the other open one, 3rd+ = random). V5 collapses all 4 doors into one room (Four Casses) — see the traversal table in the main file |
 | **2** | The empty house | Tallow light (no shadows, torches pointless), the hum, **the wrong object** in every room |
 | **3** | The wrong scale | Proportion, gravity-per-room, time thickens — 12-room bank, visit 6–10 |
 | **4** | The rules | Physics becomes a property of the room. Drafted people. |
