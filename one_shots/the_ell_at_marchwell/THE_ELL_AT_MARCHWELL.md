@@ -759,23 +759,33 @@ instrument to confuse it with. The next time anyone uses *that specific*
 door, it simply advances forward like a fresh one — not because it "leads
 somewhere new," but because there's nothing left to mix it up with.
 
-**One map, five versions — the full traversal table:**
+**One map, seven versions — the full traversal table.** The first two or
+three should genuinely leave the party unsure whether they're looping or
+just in an ordinary, empty house — no trail evidence appears until V4, on
+purpose.
 
 | Version | Front | Back | Press-house | Pantry | What's unique (say this) | Loot |
 |---|---|---|---|---|---|---|
-| V1 | F | K | R | *(exempt — always → next kitchen)* | Same kitchen, rag rug, scorched hearthstone. Fire lit, no heat. Orchard outside dead-still. Samplers unfinished; pantry food real but tasteless; doorframe height-notches stop short. | Dropped glove |
-| V2 | F | K | R | exempt | Nearly perfect — one wallpaper seam doesn't match | Torn ledger page |
-| V3 | F | K | R | exempt | One wallpaper pattern instead of six; books have covers, no words | The paired windows live here (Change #16) |
-| V4 | F | K | R | exempt | Right shape, wrong things — Cass's chair is sitting in the pantry | Strongbox, open, abandoned, chapel plate still inside — the pre-echoed mark lives here too (Change #16) |
-| **V5 (Cass)** | — | — | — | — | Furniture generic, nothing is anyone's. **All four doors have collapsed into this one room** — no separate hall, scullery, or pantry left at all. See "Four Casses," below, for how the doors behave here specifically. | — |
+| V1 | F | K | R | *(exempt — always → next kitchen)* | Same kitchen, rag rug, scorched hearthstone. Fire lit, no heat. Orchard outside dead-still. Samplers unfinished; pantry food real but tasteless; doorframe height-notches stop short. | — |
+| V2 | F | K | R | exempt | Nearly perfect — one wallpaper seam doesn't match | — |
+| V3 | F | K | R | exempt | Two wallpaper seams don't match now, not one; the fire's crackle lands a half-second late, like the room is catching up to itself | — |
+| V4 | F | K | R | exempt | One wallpaper pattern instead of six; books have covers, no words | Dropped glove |
+| V5 | F | K | R | exempt | Furniture has started doubling: two identical rag rugs, stacked exactly on top of each other; every door in the house hinges-squeaks at once, in unison, whether touched or not | Torn ledger page |
+| V6 | F | K | R | exempt | Right shape, wrong things — **two identical armchairs sit side by side in the kitchen**, both unmistakably Cass's, where there has only ever been one | Strongbox, open, abandoned, chapel plate still inside |
+| **V7 (Cass)** | — | — | — | — | Furniture generic, nothing is anyone's. **All four doors have collapsed into this one room** — no separate hall, scullery, or pantry left at all. See "Four Casses," below, for how the doors behave here specifically. | — |
 
 **F / K / R are one running set each** — front, back, press-house — not
 bespoke per-row groups. Every instance of a kind joins the same pool the
 moment it's opened; that's deliberate, and it's the same rule the rest of
 the Ell already uses, just applied here for the first time.
 
-**Ambry's trail**, distributed above: a dropped glove (V1), a torn ledger
-page (V2), then the **strongbox** (V4) sitting open, its compact chapel
+**The two interactive discoveries (Change #16, detailed below) place well
+at V3 (the paired windows) and V5 (the pre-echoed mark)** — both optional,
+neither is loot, and neither needs to fire if the party doesn't set it up
+themselves.
+
+**Ambry's trail**, distributed above: a dropped glove (V4), a torn ledger
+page (V5), then the **strongbox** (V6) sitting open, its compact chapel
 plate still in it, abandoned because it got heavy. That last detail tells
 the party exactly how long he's been down here, and it's a lie — from
 their side he's been in for four hours.
@@ -797,9 +807,9 @@ nothing, and it's the single best hands-on proof of "identical things are
 the same thing" the adventure offers before Session 3 puts a name to it.
 
 **The mark that was already there.** If any player scratches, chalks, or
-otherwise marks a doorframe in V1, V2, or V3 out of habit, curiosity, or
+otherwise marks a doorframe in V1 through V4 out of habit, curiosity, or
 an attempt to track their route — **let them find that exact mark again in
-V4 (see the table, above), already scratched in, before they get there.**
+V5 (see the table, above), already scratched in, before they get there.**
 Don't call attention to it. If nobody marks anything unprompted, skip this
 entirely; it isn't worth forcing. If it happens, it's the most unsettling
 thing in the session, and it's the party's first taste — three sessions
@@ -815,7 +825,7 @@ wrong here started before the party arrived and hasn't let up since.
 
 ### SESSION 1 CLIMAX — The Four Casses
 
-They have been following him all session. In the fifth copy (V5 on the
+They have been following him all session. In the seventh copy (V7 on the
 traversal table, above) — the one where the furniture has gone generic —
 they catch up.
 
@@ -827,7 +837,7 @@ any particular feeling, *"You shouldn't have come in."*
 one room (Change #13) — the first time that's happened.** Every copy
 before this one kept them spread across the front hall, the scullery, and
 the pantry, the way a real house would; a party that's been tracking the
-floor plan will notice this immediately. By the fifth copy, the
+floor plan will notice this immediately. By the seventh copy, the
 instrument's grip on which door belongs in which room has slipped far
 enough that all four just open onto the same kitchen at once — one more
 sign, alongside the generic furniture, of exactly how degraded this copy
