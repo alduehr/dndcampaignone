@@ -44,10 +44,22 @@ most recent completed work; everything it touched is playable as written.
 
 ## Low (polish)
 
-- [ ] Decide, before running the finale, whether "the ugly ending" is in
-  play at your table at all — Change #19 tightened its trigger to an actual
-  counting/identity error, but it's still the harshest ending in the
-  adventure and worth an explicit table conversation first.
+- [x] **"The ugly ending" — cut entirely.** Its two named triggers didn't
+  hold up: a surviving doppelganger copy never had a mark on this door's
+  ledger to begin with (drafts don't tally), and a table-level miscount
+  wouldn't produce a silent permanent swap since the door enforces the
+  real count regardless of what the players believe. In its place, the
+  finale's actual door-tally mechanic got a real fix: marks are
+  identity-bound (Session 1's tally-wall table already showed this — each
+  scratch belongs to a named person, struck only by that same person
+  leaving), and Hesper's whole motive now rests on a coherent Echo-law
+  loophole instead of an exploitable counting error: **kill the holder of
+  an open mark and you can leave in their place.** She's known this for
+  most of a century and refused to use it until this party — the first
+  she's found she can live with killing one of. See "The door, and
+  Hesper," Session 4, and Hesper's CHARACTERS.md entry, for the full
+  backstory. The ending is unchanged (she always dies to the Roper before
+  she can act on it); only the reasoning underneath it is new.
 - [ ] The ancient mortal order **the Measure** and the god **Veyr** are now
   real, registered campaign canon (see `03_canon/GODS_AND_FAITHS.md`,
   `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`) — if this

@@ -267,8 +267,26 @@ Change #15 in `TODO.md` and "Reintroducing the Late Cats" in the main file.
 
 **Her problem, stated plainly at the door.** The Ell gives back exactly the
 count it took, and she came in through a different house by a door that no
-longer exists. **She has never been on anyone's list.** She has waited a
-century for a party big enough that one of them might be left.
+longer exists. **She has never been on anyone's list.**
+
+**The truth underneath that (never says this out loud):** the equipment
+doesn't enforce anything — it only tallies. The rule that lets an exit be
+transferred is a law of the Echo itself: **kill the person holding an open
+mark, and you can leave wearing the space they left behind.** She worked
+this out decades into her imprisonment and has refused to use it for
+longer than she went without knowing it existed. She's had chances — most
+people die too fast, or too alone, for her to be the one who does it; the
+ones she could have reached, she couldn't go through with. A frightened
+boy four days into his own wander is the clearest example (see Tobin,
+above) — she got him out instead, the only way she'd let herself.
+
+**This party is the first she's found she can live with.** Not children,
+not the harmless lost. Six armed adults who came here chasing a man for
+money, capable of violence themselves — and six, not one, which matters:
+killing the only person in a solo traveler's life takes everything and
+leaves nobody to walk out. Killing one of six leaves five. That's the
+arithmetic she's spent a hundred and four years waiting to be able to do,
+and she still thinks it's monstrous. She's going to do it anyway.
 
 She is sorry. She means it. She fights anyway.
 

@@ -164,6 +164,13 @@ when either, technically — see below.
 HP 110, two Longsword attacks +8/1d8+4, *Fold* for mobility only. She
 apologizes throughout and asks for *one*.
 
+**Why she's fighting at all:** the equipment only tallies; it's the Echo's
+own law that kill the holder of an open mark and you can leave in their
+place. She's known this for most of a century and refused it — this is
+the first party she's found she can live with killing one of (armed
+adults, not innocents, and six of them, so one death still leaves five).
+Full reasoning in the main file, "The door, and Hesper."
+
 **She's never alone — always exactly 5 hostile actors at her side, staggered
 in one per round from round 2.** Copies of the party fill one slot per long
 rest taken (cap 5) and talk — one echoed line from earlier sessions each, in
@@ -196,7 +203,6 @@ way to save her. This is the climax; let it land.
 
 ### Endings
 - **Hesper always dies to the Roper.** They walk out without her; the door doesn't care, she was never on the list. Not a choice they got to make, and there's no alternate, kinder ending available — this always happens.
-- **The ugly one** — they don't count, and come back six but not the same six.
 
 ---
 

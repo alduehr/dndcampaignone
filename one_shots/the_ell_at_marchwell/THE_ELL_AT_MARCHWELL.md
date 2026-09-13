@@ -2187,6 +2187,31 @@ arithmetic is the whole scene, so get it right out loud.
 
 She is sorry. She means it. She fights anyway.
 
+**DM-only: the actual rule, and why now, why them.** The equipment never
+enforces anything — it only tallies, the same as it's tallied everything
+else in this file. The rule that makes an exit transferable is a law of
+the Echo itself, not the instrument: **kill whoever holds an open mark,
+and you can leave wearing the space they left behind.** Hesper worked this
+out decades into her imprisonment, and has known it for far longer than
+she's been willing to use it.
+
+She spent her first decades here believing there was no way out at all.
+She spent the decades after that knowing exactly how there was, and unable
+to make herself do it. She's had chances — most people who die in the Ell
+die too fast, or too alone, for her to be the one holding the moment when
+it happens. The ones she could have reached, she mostly couldn't go
+through with — a frightened boy four days into his own wander, chief among
+them (see "Hesper Wick," Session 3). She got him out instead, the only way
+she'd let herself.
+
+**This party is the first she's found she can live with.** Not children.
+Not the harmless lost. Six armed adults who came here chasing a man for
+money, capable of violence themselves — and six, not one, which matters to
+her too: killing the only person in a solo traveler's life takes
+everything and leaves nobody behind to walk out. Killing one of six leaves
+five. That's the arithmetic she's waited a hundred and four years to be
+able to do. She still thinks it's monstrous. She's going to do it anyway.
+
 **And she is not alone.** Standing behind her, **always exactly five hostile
 actors combined** — no more, no less, however the count splits. **Copies of
 the party** fill one slot per long rest the party took, **cap 5**. **Echoes
@@ -2342,12 +2367,12 @@ solve or answer.
 2. **Count the open marks on the doorframe** against the people standing —
    see the arithmetic above. This is bookkeeping now, not a mystery; they
    already know why the numbers have to match.
-3. **Check for anything that isn't who it says it is.** Ordinarily this is
-   a non-issue — the doppelganger copies and the Echoes of Wick are visibly
-   gone or visibly dead by this point, and nothing else in the finale room
-   can pass for a person. Only if something is genuinely ambiguous (a copy
-   that fled the fight rather than dying, say) does this step have
-   teeth — see "The ugly one," below, for what a real mistake here costs.
+3. **Check for anything that isn't who it says it is.** This is a formality,
+   not a real check by this point — the doppelganger copies and the Echoes
+   of Wick are visibly gone or visibly dead, nothing else in the room can
+   pass for a person, and the one thing in this adventure that could have
+   exploited the tally (see "The door, and Hesper," above) never got the
+   chance to.
 4. **Cross.**
 
 **Hesper doesn't leave** — the other pillar saw to that. They walk out
@@ -2357,17 +2382,6 @@ isn't a choice they got to make. This always happens; there's no
 alternate, kinder version of it. That's deliberate.
 
 **Loot:** her chain is on her body — see [`REWARDS.md`](REWARDS.md).
-
-**The ugly one** *(retained only as a concrete counting error, never as a
-punishment for anything)*. This should only ever happen from an actual,
-adjudicated mistake at steps 2–3 above: the party miscounts under pressure,
-or a fled doppelganger copy slips back into the group unnoticed and crosses
-in place of someone it's impersonating. If you use this ending, decide the
-specific mechanism before it happens — never retroactively invent that
-"they didn't count carefully enough" after the fact just because the scene
-needs drama. Discuss with your table in advance whether this ending is in
-play at all; it can permanently replace a PC and is considerably harsher
-than the rest of the adventure.
 
 ### Coming out
 
@@ -2539,7 +2553,7 @@ noted rather than inventing false certainty.*
 | Who are the polite people at the dinner table? | Test residents. The equipment recorded, long ago, that this room needed occupants to check whether it worked, and the space's own ceaseless remaking keeps producing them on its own, unprompted, the way it produces everything else it was ever pointed at. They were never anyone and there is nothing to rescue. |
 | What are the followers, really? | Something native to the Echo, the domain this plot was staked out of, cataloguing the party the way the oblex catalogued Ambry — patient, undirected, and not remotely stoppable by killing the one currently visible. Nobody in the adventure, Hesper included, can tell the party why they're interested, only that they are. |
 | Who or what is "Veyr"? | First said once, by a dying duplicate at the S2 midpoint — a name, spoken, with nothing to confirm it by. A party that stops digging there hears it exactly once, from something dying, and no more. A party that digs finds more: the doubled mark, over and over (the Cutter's Rest, the oblex, the reconstruction station's carved fragment), and, if they find the Depth 5 shrine, the name itself cut outright into stone, with generations of real offerings around it — worship, confirmed, by people who believed in it enough to leave something behind. Held against the reconstruction station's wall-carving, the Twice-Cut Token explains the mark without naming what it belongs to: not a face or a signature, the fold rule drawn as a picture of itself, two identical things that are one thing. Between the shrine and the mark, a table that digs will know the name is real and have a rough sense of what it governs, without ever getting a clean textbook answer — which is correct, and deliberate. See the revelation ladder, before Session 1. It's real campaign canon (`03_canon/GODS_AND_FAITHS.md`) if you ever want the full answer for your own prep. |
-| Why can't Hesper leave? | The tally. The door gives back exactly the count it took. She came in through a different house, by a door that no longer exists, and has never been on this one's list. |
+| Why can't Hesper leave? | The tally. The door gives back exactly the count it took, and she has never been on this one's list — her own mark is on a doorframe that no longer exists. The one loophole is a law of the Echo itself, not the instrument: kill whoever holds an open mark and you can leave in their place. She's known this for most of a century and refused to use it — until this party, the first she's found she can live with killing one of. See "The door, and Hesper," Session 4. |
 | Did anyone ever get out? | Yes — anyone on the list who walked back to their own door. Most people never find it again. The coats in the closet belonged to the ones who didn't. |
 | Why is the light like that? | The instrument recorded illumination as a property of a space rather than something with a source, so the drafts are lit and there is nothing lighting them. |
 | Has this happened to Marchwell before — is this an old haunting? | **No, and that's deliberate.** The instrument itself is ancient, but it doesn't sit on one subject forever — once it's drawn what it can from a place, it drifts and settles somewhere new. It only arrived at Marchwell within the last year; Tobin's midsummer disappearance was its first taste of this house, not its hundredth. That's why nobody here has any inherited caution about it — Oda is improvising, not remembering. |
