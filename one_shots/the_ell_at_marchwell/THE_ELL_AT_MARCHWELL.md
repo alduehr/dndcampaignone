@@ -1175,7 +1175,15 @@ remembers he's still holding it until he isn't.
 
 **Then somebody opens the front door.**
 
-A hundred and forty feet of corridor with a rag rug in it.
+**Not the corridor they know.** No rag rug, no wallpaper, nothing of the
+house left in it at all — **bare stone**, lit by torches in iron sconces
+down both walls, as far as anyone can see. **The light doesn't reach
+anywhere.** Every flame is exactly the same size, the same color, burning
+without flicker, without heat, and without casting a single real shadow —
+fire the way the tallow light back at the start of the session was light:
+recorded, not burning. **Play this as a step down, not a variation.**
+Every corridor they've walked tonight was still, underneath everything,
+part of a house. This one was never anything but this.
 
 And once they know to look: the height-notches on the pantry frame stop
 partway up, and the faces in the samplers were never finished. **This is not

@@ -60,6 +60,14 @@ most recent completed work; everything it touched is playable as written.
   Hesper," Session 4, and Hesper's CHARACTERS.md entry, for the full
   backstory. The ending is unchanged (she always dies to the Roper before
   she can act on it); only the reasoning underneath it is new.
+- [x] **The Session 2 closing corridor** is now a deliberate escalation
+  instead of another instance of the standard rag-rug hallway: bare stone,
+  torches in iron sconces down both walls, every flame identical and
+  non-illuminating — the tallow light made literal for the first time.
+  Framed explicitly as a step down, not a variation, since every corridor
+  before this one was still part of a house and this one never was. Only
+  this one instance changed; the recurring rag-rug corridor elsewhere is
+  untouched.
 - [ ] The ancient mortal order **the Measure** and the god **Veyr** are now
   real, registered campaign canon (see `03_canon/GODS_AND_FAITHS.md`,
   `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`) — if this
