@@ -70,12 +70,14 @@ most recent completed work; everything it touched is playable as written.
   every corridor before this one was still part of a house and this one
   never was. Only this one instance changed; the recurring rag-rug
   corridor elsewhere is untouched.
-- [x] **The Coat Closet now includes a deed** to a house in the nearest
-  town among its real possessions (main file's pocket-contents list and
-  REWARDS.md's Coat-Pocket Miscellany). Deliberately unresolved — no town
-  name, no property detail, no heir, nothing learned about it this
-  session. It's theirs to keep and it's a loose end on purpose, a hook
-  for a hypothetical sequel rather than content for this one-shot.
+- [x] **The Coat Closet now includes a deed** to a house in **Tilbrook**
+  (the nearest established town — Marchwell House is already stated to
+  stand half a day west of it, per `PREMISE.md`) among its real
+  possessions (main file's pocket-contents list and REWARDS.md's
+  Coat-Pocket Miscellany). Deliberately unresolved beyond that — no
+  property detail, no heir, nothing learned about it this session. It's
+  theirs to keep and it's a loose end on purpose, a hook for a
+  hypothetical sequel rather than content for this one-shot.
 - [ ] The ancient mortal order **the Measure** and the god **Veyr** are now
   real, registered campaign canon (see `03_canon/GODS_AND_FAITHS.md`,
   `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`) — if this

@@ -1000,7 +1000,7 @@ A closet off a landing, far deeper than the landing has room for, hung with
 good coats — brushed, shouldered, in the styles of a great many decades. The
 party will search them, because players always search coats. The pockets have
 things: a ferry token, a child's tooth, a folded bill of sale, a ring, a
-letter that stops mid-word, **the deed to a house in the nearest town.**
+letter that stops mid-word, **the deed to a house in Tilbrook.**
 
 **Three come off the hooks first.** They're empty. They move anyway, and they
 move like there's someone in them.

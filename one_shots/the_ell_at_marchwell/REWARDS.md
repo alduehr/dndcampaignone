@@ -99,16 +99,17 @@ clever without solving the maze, and it makes the Ell's disorientation a
 Roll or pick, one per character who searches: a child's milk tooth wrapped in
 paper · a signet ring, house unknown, worth 25gp · a bill of sale for a horse ·
 a letter that stops mid-word · 3d6 gp in four different mintings · a good steel
-razor · a pressed flower that is still soft · **the deed to a house in the
-nearest town.**
+razor · a pressed flower that is still soft · **the deed to a house in
+Tilbrook** (the nearest town — half a day east of Marchwell — see
+`PREMISE.md`).
 
 None of it is magical. All of it belonged to somebody who didn't get out, and
 by session 4 the party will have worked that out.
 
-**The deed is a deliberate loose end, not a puzzle piece.** Don't name the
-town or the property, don't attach a rightful heir, and don't resolve it in
-this one-shot — it's real, it's theirs to keep if they want it, and nothing
-in this adventure answers what it's worth or whose it was. If this one-shot
+**The deed is a deliberate loose end, not a puzzle piece.** Don't describe
+the property, don't attach a rightful heir, and don't resolve it in this
+one-shot — it's real, it's theirs to keep if they want it, and nothing in
+this adventure answers what it's worth or whose it was. If this one-shot
 ever gets a sequel, that's where it starts.
 
 ### 3. The Honest Weight *(uncommon; Ambry's own — see Change #18, main file)*
