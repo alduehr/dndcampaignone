@@ -204,13 +204,18 @@ in, so her arrival lands as *"oh — it's her"* rather than as a new NPC.
 ### The rests are the finale's difficulty dial
 
 **Count every long rest attempted — successful or not. That number is how
-many copies of the party stand behind Hesper in session 4.**
+many copies of the party stand behind Hesper in session 4** — and whatever
+that number falls short of five (or the party-size cap), Echoes of Wick
+make up the difference. See session 4.
 
 This is the whole point of the cost, and it is the best kind of difficulty
 setting: **the players choose it themselves, in advance, without being told
-they're choosing it.** A cautious party that rests often walks into the
-last room and finds several of themselves waiting. A party that pushed
-through on half resources arrives exhausted to a fair fight.
+they're choosing it.** The total number standing behind Hesper never
+changes — it's always five, or the party-size cap, whichever's lower — but
+*who* they are does. A cautious party that rests often walks into the last
+room and finds several of themselves waiting. A party that pushed through
+on half resources arrives exhausted to find most of that same number is
+Hesper, several times over, and hits considerably harder.
 
 Copies use the **doppelganger** stat block (CR 3), same as the Four Casses,
 and they are *the party* — same faces, same gear, same posture, silent. They
@@ -2182,26 +2187,81 @@ arithmetic is the whole scene, so get it right out loud.
 
 She is sorry. She means it. She fights anyway.
 
-**And she is not alone.** Standing behind her, one for every long rest the
-party took: **copies of the party.** Same faces, same gear, same way of
-standing — and they are not silent. **They talk.** Not to each other, not
-tactically: they echo, flatly, in the party's own voices, things the party
-has actually said since session 1 — the joke about the hats, what somebody
-swore at the oblex, what somebody promised Ambry. One line per copy, on its
-turn or when it drops, never more — this is seasoning, not narration, and it
-should never slow the fight down. She didn't make them and doesn't command
+**And she is not alone.** Standing behind her, **always exactly five hostile
+actors combined** — no more, no less, however the count splits. **Copies of
+the party** fill one slot per long rest the party took, **cap 5**. **Echoes
+of Wick** fill whatever's left. A party that never rested faces five Echoes
+of Wick and no copies of themselves. A party that rested every time faces
+five copies of themselves and no Echoes. Anything between splits the five
+accordingly. The number of bodies at her side never changes — only which
+kind.
+
+The copies of the party are silent except when they talk, and when they
+talk it isn't tactical: same faces, same gear, same way of standing, and
+they echo, flatly, in the party's own voices, things the party has actually
+said since session 1 — the joke about the hats, what somebody swore at the
+oblex, what somebody promised Ambry. One line per copy, on its turn or when
+it drops, never more — this is seasoning, not narration, and it should
+never slow the fight down. She didn't make them and doesn't command
 them — the instrument did, out of everything it's recorded them saying since
 the pantry door, and they are simply *here*, because this is where the party
 is.
 
-**Doppelgangers** (CR 3), one per long rest, **cap 5**; past the cap, give
-Hesper +15 HP each instead. They fight competently, without flourish, and
-they do not use the fold — they don't need to, they're already where they
-need to be.
+The Echoes of Wick don't talk, and they don't need an instrument's help to
+know how to fight — a hundred and four years alone down here means the
+instrument has recorded *her* more times than it has ever recorded anyone
+else, and long before the party arrived, Hesper met her own echoes, over
+and over, the same way the party is meeting theirs now. Nothing about her
+lets her create or control anything — the equipment only measures, it never
+causes; that hasn't changed. But a century of sitting across from yourself,
+sparring and talking and waiting out the years together, is enough to learn
+how you move, how you open, when you'll flinch. She never made them and she
+doesn't command them any more than she commands herself — she's simply had
+a hundred years to get used to fighting alongside her own echoes, and it
+shows: **they move exactly like she does — same stance, same openings, same
+tells** — because in every way that matters, they are her.
 
-*A party that rested after every fight walks into five of themselves. A party
-that pushed through arrives on fumes to a fair fight. Both are earned, and
-both tables will understand instantly why.*
+**Doppelgangers** (party copies, CR 3), one per long rest, **cap 5**; past
+the cap, give Hesper +15 HP each instead. They fight competently, without
+flourish, and they do not use the fold — they don't need to, they're already
+where they need to be.
+
+**Echoes of Wick** (custom — see stat block below) fill whatever's left of
+the five-actor pool. They hit harder than a party copy does: the worst-case
+version of this fight — a party that never rested, so Hesper stands with
+five Echoes of Wick and no copies of the party at all — is meant to be the
+hardest version of this room the table can draw, real death risk included.
+Like the party copies, they don't use the fold.
+
+*A party that rested after every fight walks into five of themselves — a
+mirror of their own trip through the dungeon. A party that pushed through
+without resting arrives to find Hesper backed by five versions of the one
+person down here who has had a century to get frighteningly good at this.
+Both are earned, and both tables will understand instantly why.*
+
+**Echo of Wick — stat block.** Base: **doppelganger** (*Monster Manual*, CR
+3), already in Hesper's shape and permanently so — it doesn't Shapechange
+mid-fight, doesn't Read Thoughts, and doesn't need to; it has looked like
+her since the moment it formed. Modified for a century of practice:
+- **Medium shapechanger (fixed in Hesper Wick's form). AC 15, HP 65, Speed
+  30 ft.** Proficiency +3 (up from printed +2). STR 15 (+2), DEX 15 (+2),
+  CON 14 (+2), INT 11 (+0), WIS 12 (+1), CHA 14 (+2). Passive Perception 13.
+  Languages Common. **Multiattack:** two weapon-strike attacks, **+5 to
+  hit, 1d8+3 slashing** each — deliberately harder than the printed
+  doppelganger's single 1d6+2; this is a tougher variant, not a plain
+  reflavor.
+- **Morale:** fights like Hesper does — doesn't flee, doesn't stop until
+  it's down.
+
+*Solo-danger note: at the low end of the rest range (0–1 copies of the
+party), this half of the fight is Hesper plus 4–5 Echoes of Wick — six or
+seven simultaneous attackers against six level-6 PCs, each Echo swinging
+for roughly 16 damage a round on top of Hesper's own two longsword hits.
+This is the sharpest edge in the finale on purpose: if the party mishandles
+focus fire or action economy here, a PC going down — or dying outright — is
+a real, intended possibility with six level-6 characters at the table, not
+a bluff. Nothing scales this down further; a table that skipped every rest
+earned exactly this fight. See **ENCOUNTER MATH**, below.*
 
 **Hesper Wick — combat profile.** Base: **veteran** (*Monster Manual*, CR 3)
 with these changes, in a room she has had a century to learn:
@@ -2252,11 +2312,13 @@ negotiable.** The pillar that moved is a **Roper** (*Monster Manual*, CR 5,
 printed, unmodified — see the Bestiary; mechanically its Tendril attacks,
 narratively six pale arms), and it's a fully active combatant from its next
 turn on, reaching for whoever's nearest. Its twin is exactly what it always
-was: an inert pillar. Any surviving doppelganger copies keep fighting
-normally alongside it. **Don't inflate its HP or run it any differently at
-smaller party sizes** — with the copies supplying action economy alongside
-it, the printed stat block is correctly tuned; see **ENCOUNTER MATH**,
-below.
+was: an inert pillar. Any surviving copies of the party or Echoes of Wick
+keep fighting normally alongside it. **Don't inflate its HP or run it any
+differently at smaller party sizes** — the five-actor pool guarantees the
+Roper always has real action economy at its side, whether that pool is
+copies of the party, Echoes of Wick, or a mix of both, so the printed stat
+block is correctly tuned across the whole rest-count range; see
+**ENCOUNTER MATH**, below.
 
 **There is no way to prevent this.** Nothing the party can say or do before
 Hesper's first turn stops it — they have no reason to suspect anything is
@@ -2281,11 +2343,11 @@ solve or answer.
    see the arithmetic above. This is bookkeeping now, not a mystery; they
    already know why the numbers have to match.
 3. **Check for anything that isn't who it says it is.** Ordinarily this is
-   a non-issue — the doppelganger copies are visibly gone or visibly dead by
-   this point, and nothing else in the finale room can pass for a person.
-   Only if something is genuinely ambiguous (a copy that fled the fight
-   rather than dying, say) does this step have teeth — see "The ugly one,"
-   below, for what a real mistake here costs.
+   a non-issue — the doppelganger copies and the Echoes of Wick are visibly
+   gone or visibly dead by this point, and nothing else in the finale room
+   can pass for a person. Only if something is genuinely ambiguous (a copy
+   that fled the fight rather than dying, say) does this step have
+   teeth — see "The ugly one," below, for what a real mistake here costs.
 4. **Cross.**
 
 **Hesper doesn't leave** — the other pillar saw to that. They walk out
@@ -2502,6 +2564,7 @@ All printed stat blocks, run as written except the oblex's HP (see below).
 | **The oblex** | **Elder oblex (CR 10, 5,900 XP, 115 HP printed — HP homebrewed further up, see below), plus live Oblex Spawn (CR ¼, 50 XP)** | *Volo's Guide to Monsters* | Native, not trapped — belongs to the Echo, the domain the Measure staked this plot out of. Speaks in the party's voices. Its duplicates are everyone who came in before. Dies for good at the midpoint — the voices don't stop, and one duplicate's last words are "Veyr remembers you" | **S2 midpoint only** |
 | **The uninvited** (composition rolled fresh each time — see "Resting in the Ell") | Mirror mephit ×1–4 (CR ½, 100 XP each) · Will-o'-wisp ×0–2 (CR 2, 450 XP each) · Phase spider ×0–1 (CR 3, 700 XP) | *Mordenkainen's Tome of Foes* (mephit) · *Monster Manual* (wisp, spider) | All three are Veyr's, drawn to a sleeper the way gulls follow a boat. **Mirror mephits split into an identical duplicate the moment they're struck** — the fold rule with teeth, harmless teeth. **Phase spiders** blink into the party's rest, take a bite, and blink out again before anyone can pin them down. **Will-o'-wisps** show up as a second, identical light beside whoever's on watch, and try to lead someone a few steps toward a wall as if it were a door. None of them press an attack that isn't working; all of them flee back into the walls or the dark the instant it stops being easy. | Any long rest, on a 3–4 or 1–2 result |
 | Hesper Wick | Custom NPC, veteran-derived (base: *Monster Manual*, CR 3, 700 XP) | Custom | The finale, until the other pillar. See her full profile above | **S4 only** |
+| **Echoes of Wick** | Doppelganger-derived, custom (base: *Monster Manual*, CR 3; harder variant, ~1,100 XP) | Custom | Fixed in Hesper's own shape, permanently — a century of the instrument recording her, met and half-tamed by her own long solitude. Fill whatever part of the finale's five-actor pool the party's rests didn't earn as copies of themselves. See her profile above for the full statline and the split rule | **S4, the finale room, alongside Hesper — see above** |
 | **The other pillar** | **Roper (CR 5, 1,800 XP, printed, unmodified)** | *Monster Manual* | Disguised as one of two identical pillars in the finale room, indistinguishable from its twin, until it isn't | **S4, the finale room — "The Other Pillar," above** |
 
 ---
@@ -2531,22 +2594,25 @@ either way.
 | Late cats, 2 displacers (L6) | 2 × Displacer beast | 1,400 | Under Low (3,600) | Easy and avoidable by design. Two beasts instead of one so it isn't a non-event if the party fights it. |
 | Still bears, 3 owlbears (L6) | 3 × Owlbear | 2,100 | Under Low | Same logic — avoidable, and a real fight if they don't avoid it. |
 | **Elder oblex (L5)** | 1 × Elder oblex, printed | 5,900 | Just under High (6,600) | **The opposite problem from the group fights above.** By raw budget this reads *near-deadly* — but it's a solo monster against six action economies, so it plays far easier than 5,900 XP implies: one turn a round against six is why the printed 115 HP dies in ~2 rounds regardless of its high CR. **See the homebrew note above** — HP is pushed further past printed to compensate for exactly this asymmetry. Target: **3–4 rounds** of the party's average output before it goes down. |
-| **Hesper + up to 5 copies (L6)** | Hesper (custom) + 5 × Doppelganger | Copies alone: 3,500 | Copies alone under Low (3,600) | Hesper isn't a raw CR 3 veteran (see her profile) so she isn't budgeted; judge this half of the fight by rounds-to-clear, not adjusted XP. She's removed from combat by the Roper reveal (see **THE FOURTH RIDGE**) before it usually matters. |
-| **Roper + surviving copies (L6)** | 1 × Roper, printed + up to 5 × Doppelganger | 1,800 + up to 3,500 | Under Moderate (6,000) at full copies | **Correctly tuned as printed — do not inflate the Roper's HP.** Unlike the oblex, it isn't fighting alone: up to six simultaneous enemy actors (Roper + 5 copies) gives it the action economy the oblex was missing, so the raw "under Moderate" budget already plays close to its true difficulty rather than under it. |
+| **Hesper + 5-actor pool (L6)** | Hesper (custom) + 5 × [Doppelganger (copies) *or* Echo of Wick (custom)] | Pool alone: **3,500** (5 copies) up to **5,500** (5 Echoes of Wick, 1,100 XP each) | Pool alone spans under Low (3,600) to just under Moderate (6,000), depending on the copy/Echo split | Hesper isn't a raw CR 3 veteran (see her profile) so she isn't budgeted; judge this half of the fight by rounds-to-clear, not adjusted XP. **This is the fix for the low-rest edge case:** at 0–1 copies (4–5 Echoes of Wick instead), the pool alone already approaches Moderate rather than sitting comfortably under Low the way an all-copies pool does — the Echoes exist specifically so a low-rest party doesn't get a quietly easier version of this fight. She's removed from combat by the Roper reveal (see **THE FOURTH RIDGE**) before this usually resolves. |
+| **Roper + surviving pool (L6)** | 1 × Roper, printed + up to 5 × [Doppelganger *or* Echo of Wick] | 1,800 + pool (3,500–5,500) = **5,300–7,300** | Spans Moderate (6,000) to just under High (8,400) | **Correctly tuned as printed across the whole range — do not inflate the Roper's HP.** Unlike the oblex, it isn't fighting alone: the five-actor pool guarantees it real action economy no matter how the party rested. At the low-rest end (mostly Echoes of Wick), the combined fight climbs to just under High — the sharper, real-death-risk edge the Echoes were built to create; at the high-rest end (mostly copies) it sits mid-Moderate, a fair fight rather than a curb-stomp either way. |
 
-### Staggering the finale's copies
+### Staggering the finale's pool
 
-Bringing all five copies in on round one is a real alpha-strike risk against
-six level-6 characters even though the raw XP reads low — five extra bodies
-acting on turn one is exactly the action-economy blind spot the caveat above
-is about.
+Bringing all five pool members in on round one is a real alpha-strike risk
+against six level-6 characters even though the raw XP can read low (at the
+high-rest end) — five extra bodies acting on turn one is exactly the
+action-economy blind spot the caveat above is about. At the low-rest end,
+where most or all of the five are Echoes of Wick, staggering matters even
+more: five Echoes swinging on the same turn can drop a PC before anyone
+reacts.
 
-**Bring the copies in one per round from round 2**, each stepping out of a
+**Bring the pool in one per round from round 2**, each stepping out of a
 different doorway, independent of when the Roper's secret initiative lands.
 Same total threat, spread across the fight, and the pressure *builds* as the
 fight goes on rather than spiking all at once.
 
-**If a table is struggling:** the copies are not required to die. They stop
+**If a table is struggling:** the pool members are not required to die. They stop
 when the Roper does.
 
 ---
@@ -2567,14 +2633,15 @@ when the Roper does.
 | Minor encounters/session | 1 | 1–2 | 2 | 2 |
 | Depth 3 rooms visited (of 12) | 6 | 6–8 | 8–10 | 8–10 |
 | Rule-rooms per session 3 (of 6) | 3 | 4 | 4 | 5 |
-| **Party copies** (S4) | cap 3 | cap 4 | cap 5 | cap 5 |
+| **Finale pool** (S4) | cap 3 | cap 4 | cap 5 | cap 5 |
 | Avoidable fights (S3) | 1 of 2, single creature | 1 of 2, single creature | both, full counts | both, full counts |
 
-**Party copies are one per long rest taken, capped at the value in the table
-above — whichever is lower, the flat cap of 5 or the party-size cap.** Past
-the cap, add +15 HP to Hesper per extra rest instead. At three characters the
-cap drops because three PCs plus Ambry plus Hesper plus three copies is
-already a crowded, long fight.
+**The finale pool is one party copy per long rest taken, capped at the value
+in the table above** — whichever is lower, the flat cap of 5 or the
+party-size cap — **with Echoes of Wick filling whatever's left of that same
+cap.** Past the cap, add +15 HP to Hesper per extra rest instead. At three
+characters the cap drops because three PCs plus Ambry plus Hesper plus three
+pool members is already a crowded, long fight.
 
 ---
 

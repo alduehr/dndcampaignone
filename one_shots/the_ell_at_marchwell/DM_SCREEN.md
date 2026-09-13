@@ -83,7 +83,8 @@ talk their way into a bonus for it.
 
 ### ☐☐☐☐☐ LONG RESTS ATTEMPTED (win or lose the roll) → party copies in the finale (cap 5)
 
-*Past cap: +15 HP to Hesper each.*
+*Past cap: +15 HP to Hesper each. Whatever's unmarked of the 5 boxes above
+fights as Echoes of Wick instead — the finale pool is always 5 total.*
 
 ---
 
@@ -142,7 +143,8 @@ old "same water stain, twice" scene is cut — see the main file.)*
 | Still bears (S3, avoidable) | Owlbear CR 3 — doesn't breathe or blink | 3 |
 | The followers (S3) | Intellect devourer CR 2 ×3–4, in sequence — Veyr's, not lost; first two don't fight back, third is flatly invulnerable, fourth (only if HP-bypass is tried) is warded absolutely | up to 4 |
 | The quoting thing (S3) | Gibbering mouther CR 2 — echoes their own words back | 1 |
-| **Hesper (S4)** | Veteran-derived custom, **AC 17, HP 110, +8/1d8+4 ×2** | + 1 doppelganger per long rest (cap 5) |
+| **Hesper (S4)** | Veteran-derived custom, **AC 17, HP 110, +8/1d8+4 ×2** | + 5-actor pool: 1 doppelganger per long rest (cap 5), **Echoes of Wick fill the rest** |
+| **Echoes of Wick (S4)** | Doppelganger-derived custom, **AC 15, HP 65, +5/1d8+3 ×2** — fixed in Hesper's shape | Fills whatever's left of the 5-actor pool above |
 | **The other pillar (S4)** | **Roper, CR 5, printed, unmodified** | 1 — kills Hesper on a secret initiative roll, then joins the fight |
 
 **Oblex dies for good.** The voices don't stop. No rematch. The follower and
@@ -160,9 +162,17 @@ when either, technically — see below.
 
 **Hesper fights straight** — no positioning puzzle, no door mechanic. AC 17,
 HP 110, two Longsword attacks +8/1d8+4, *Fold* for mobility only. She
-apologizes throughout and asks for *one*. Copies (one per long rest, cap 5,
-staggered in one per round from round 2) talk — one echoed line from earlier
-sessions each, in the party's own voice, on their turn or when they drop.
+apologizes throughout and asks for *one*.
+
+**She's never alone — always exactly 5 hostile actors at her side, staggered
+in one per round from round 2.** Copies of the party fill one slot per long
+rest taken (cap 5) and talk — one echoed line from earlier sessions each, in
+the party's own voice, on their turn or when they drop. **Echoes of Wick**
+(AC 15, HP 65, +5 to hit, two attacks at 1d8+3 each, fixed in Hesper's own
+shape) fill whatever's left of the 5 — silent, hit harder than a copy, don't
+fold. **Low rests = mostly Echoes = the hardest version of this fight,
+real death risk with 6 PCs; full rests = 5 copies, no Echoes at all.** See
+main file's ENCOUNTER MATH for the numbers.
 
 **THE OTHER PILLAR — Change #18: the trigger is Hesper's first turn, not the
 Roper's own initiative.** Don't roll initiative for the Roper at all. It
@@ -175,8 +185,9 @@ cue. Run the scripted kill right then, ideally landing mid-plea from Hesper:
 > One breath. Her chain hits the floor where she stood.
 
 **She's dead, no roll, not negotiable.** From its next turn on, the Roper is
-a normal active combatant (printed stats, don't inflate HP — the copies give
-it the action economy it needs) alongside any surviving copies.
+a normal active combatant (printed stats, don't inflate HP — the 5-actor
+pool, whatever mix of copies and Echoes of Wick it is, gives it the action
+economy it needs) alongside any surviving pool members.
 
 **There is no way to prevent this.** Nothing said or done before Hesper's
 first turn stops it — the party has no reason to suspect anything's coming
