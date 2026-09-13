@@ -188,13 +188,18 @@ walking back out into the people he was hiding from. **The party's arrival
 is what put him in there**, and they'll work that out around session 2.
 
 **His trail (session 1):** a dropped glove, found three times in three
-corridors and always the same glove; a torn ledger page; a strongbox open in a
-corridor with its ~35 lb of coin and compact plate still in it, abandoned
-because it got heavy for a man who never stopped running.
+corridors and always the same glove; a torn page from his own tithe-office
+accounts-book (names, sums, the vale's tithe seal — undeniably his); a
+strongbox open in a corridor with its ~35 lb of coin and compact plate still
+in it, abandoned because it got heavy for a man who never stopped running.
 
 **His squat (session 2):** curtains and coats, sixty preserve jars stacked by
-size, a ledger with twenty-two days scratched on the flyleaf, the tally wall,
-and **the pair to the glove.** Empty and still warm — three of the five doors
+size, the tally wall, and **the pair to the glove.** And **the rest of that
+ledger** — every actual accounting page torn out (guilt, self-preservation,
+not something a man in hiding wants under his own name), leaving only the
+cover, his name inked inside it, and a flyleaf he's turned into a day-count:
+**twenty-two of them,** one per day survived. Empty and still warm — three of
+the five doors
 out are sound-mimics, calling him by name for weeks. He didn't go toward the
 voice (Change #19) — the night he finally broke, he bolted through one of
 the two *real* doors just to get away from it, and that real door is what

@@ -445,7 +445,7 @@ single miss can stall the scene:**
 | Fresh, city-soled bootprints | Pantry flour, leading to the door | Not a farm boot. Fresh. Only going one way. |
 | A cup drained fast, foam still clinging to the sides | Kitchen | Someone was desperately thirsty, recently. |
 | A second horse's tack, unaccounted for | Stable | Nobody at Marchwell owns a horse that fits this saddle. |
-| A tithe-office ledger page, torn and stuffed behind a jar | Pantry shelf | Names, sums, and the vale's tithe seal — undeniably his. |
+| A tithe-office ledger page, torn and stuffed behind a jar | Pantry shelf | Names, sums, and the vale's tithe seal — undeniably his. It's a page torn from his own accounts-book, which the party finds gutted of the rest of them in his squat, session 2. |
 
 **Where the box actually is:** with him. He never let go of it long enough to
 hide it — a drag-mark of a heavy, square-cornered box scrapes across the
@@ -939,9 +939,20 @@ arrows anyway — in the handwriting of whoever in the party writes most.
 2. **The Coat Closet** (below). First real fight.
 3. **Ambry's squat — empty.** Somebody has been living here a long time. A
    nest of curtains and coats. Sixty empty preserve jars, stacked by size,
-   the fruit in the remaining ones perfect and not a fruit that grows. A
-   ledger with the accounts torn out and days scratched on the flyleaf —
-   **twenty-two of them.** And **the tally wall**: an entire wall chalked
+   the fruit in the remaining ones perfect and not a fruit that grows.
+
+   **A ledger — his own tithe-office accounts-book, the same one the torn
+   page from session 1 came out of.** Every page of actual accounting is
+   gone, torn out in one furious pass early on: three weeks of embezzled
+   sums are not something a man in hiding wants sitting in his own hand,
+   under his own name. What's left: the printed cover, his name inked
+   inside it in a clerk's careful hand, and the flyleaf, which he's since
+   turned into the only thing he has left to keep track of — **days
+   scratched into it, twenty-two of them,** one for every day he's
+   survived down here. The arithmetic does itself: three weeks and
+   change, alone, listening to a door call his own name.
+
+   And **the tally wall**: an entire wall chalked
    with a count of the doors, done twice by two different routes, arriving at
    the same number both times, with the second count gone over and over so
    hard the chalk has broken. Nobody's home, and the nest is still warm.

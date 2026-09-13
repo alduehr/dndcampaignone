@@ -78,6 +78,15 @@ most recent completed work; everything it touched is playable as written.
   property detail, no heir, nothing learned about it this session. It's
   theirs to keep and it's a loose end on purpose, a hook for a
   hypothetical sequel rather than content for this one-shot.
+- [x] **Narrative TODO #7 — Ambry's squat ledger given real context.** It's
+  now explicitly his own tithe-office accounts-book, the same one the
+  session 1 torn page came from — torn out entirely (guilt,
+  self-preservation, not wanting three weeks of embezzled sums under his
+  own name), leaving only the cover (his name inked inside, proving
+  ownership) and the flyleaf, which he's repurposed as a day-count: 22
+  days, matching the "three weeks" already stated for when the party
+  finds him. Updated the main file's squat scene and trail table, and
+  `CHARACTERS.md`'s Ambry entry, to state the connection explicitly.
 - [ ] The ancient mortal order **the Measure** and the god **Veyr** are now
   real, registered campaign canon (see `03_canon/GODS_AND_FAITHS.md`,
   `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`) — if this
