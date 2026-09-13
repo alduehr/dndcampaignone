@@ -1000,7 +1000,7 @@ A closet off a landing, far deeper than the landing has room for, hung with
 good coats — brushed, shouldered, in the styles of a great many decades. The
 party will search them, because players always search coats. The pockets have
 things: a ferry token, a child's tooth, a folded bill of sale, a ring, a
-letter that stops mid-word.
+letter that stops mid-word, **the deed to a house in the nearest town.**
 
 **Three come off the hooks first.** They're empty. They move anyway, and they
 move like there's someone in them.
@@ -1178,10 +1178,13 @@ remembers he's still holding it until he isn't.
 **Not the corridor they know.** No rag rug, no wallpaper, nothing of the
 house left in it at all — **bare stone**, lit by torches in iron sconces
 down both walls, as far as anyone can see. **The light doesn't reach
-anywhere.** Every flame is exactly the same size, the same color, burning
-without flicker, without heat, and without casting a single real shadow —
-fire the way the tallow light back at the start of the session was light:
-recorded, not burning. **Play this as a step down, not a variation.**
+anywhere.** Every flame moves — gutters, leans, dances — and every flame
+moves *exactly the same way, at exactly the same instant*, as far down the
+corridor as anyone can see. Not similar. **The same**, run over and over,
+like one flame recorded once and played back in every sconce at once.
+None of it casts a real shadow. None of it gives off heat. It's the
+tallow light from earlier in the session, given a shape at last: recorded
+fire, not burning fire. **Play this as a step down, not a variation.**
 Every corridor they've walked tonight was still, underneath everything,
 part of a house. This one was never anything but this.
 

@@ -62,12 +62,20 @@ most recent completed work; everything it touched is playable as written.
   she can act on it); only the reasoning underneath it is new.
 - [x] **The Session 2 closing corridor** is now a deliberate escalation
   instead of another instance of the standard rag-rug hallway: bare stone,
-  torches in iron sconces down both walls, every flame identical and
-  non-illuminating — the tallow light made literal for the first time.
-  Framed explicitly as a step down, not a variation, since every corridor
-  before this one was still part of a house and this one never was. Only
-  this one instance changed; the recurring rag-rug corridor elsewhere is
-  untouched.
+  torches in iron sconces down both walls, every flame moving in the
+  exact same pattern at the exact same instant — one flame recorded once
+  and played back in every sconce, not several similar flames — casting
+  no real shadow and giving off no heat. The tallow light made literal for
+  the first time. Framed explicitly as a step down, not a variation, since
+  every corridor before this one was still part of a house and this one
+  never was. Only this one instance changed; the recurring rag-rug
+  corridor elsewhere is untouched.
+- [x] **The Coat Closet now includes a deed** to a house in the nearest
+  town among its real possessions (main file's pocket-contents list and
+  REWARDS.md's Coat-Pocket Miscellany). Deliberately unresolved — no town
+  name, no property detail, no heir, nothing learned about it this
+  session. It's theirs to keep and it's a loose end on purpose, a hook
+  for a hypothetical sequel rather than content for this one-shot.
 - [ ] The ancient mortal order **the Measure** and the god **Veyr** are now
   real, registered campaign canon (see `03_canon/GODS_AND_FAITHS.md`,
   `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`) — if this
