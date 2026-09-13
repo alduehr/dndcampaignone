@@ -26,8 +26,14 @@ most recent completed work; everything it touched is playable as written.
 
 ## Medium (quality of life)
 
-- [ ] **The "what you came back with" table** — refine alongside rewards, now
-  that REWARDS.md carries nine items instead of seven.
+- [x] **The "what you came back with" table** — refined. Replaced three
+  entries that leaned toward pure oddity or mild inconvenience (the never-
+  put-something-down one duplicated the Held Thing's curse) with a mix of
+  a small situational help (advantage on checks to tell real from
+  convincing), a passive narrative quirk (flinching at your own full
+  name), and a callback quirk (farmhouses make you uncomfortable — the
+  whole adventure happens in one). Kept the three that already worked:
+  reflection delay, exact distance, counting things.
 - [x] **A one-paragraph player-facing pitch** for session zero, spoiling
   nothing — revised in `../README.md`. It no longer names the destination
   (cousin's farmhouse) or direction of travel before play, and now matches

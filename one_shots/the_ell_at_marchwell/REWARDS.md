@@ -252,14 +252,14 @@ permanently.
 |---|---|
 | 1 | Your reflection is half a second behind. |
 | 2 | You know the exact distance to anything you look at. |
-| 3 | You remember, vividly, a house you have never been in. |
-| 4 | You cannot be surprised by a number. |
+| 3 | You can tell, just by looking, whether something is real or merely convincing — **advantage on any check to determine if something is real.** |
+| 4 | You flinch, just slightly, whenever anyone calls you by your full name. |
 | 5 | You count things. Not always aloud. |
-| 6 | You have never once, since, put something down without thinking about it first. |
+| 6 | Farmhouses make you uncomfortable, and you couldn't say why. |
 
-**None of these have mechanical effects and none of them go away.** If a player
-wants theirs to matter, let it — a character who always knows exact distances
-should get to be right about that, out loud, forever.
+**None of these have mechanical effects except #3, and none of them go
+away.** If a player wants theirs to matter, let it — a character who always
+knows exact distances should get to be right about that, out loud, forever.
 
 ---
 
