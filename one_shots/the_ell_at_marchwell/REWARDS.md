@@ -185,14 +185,50 @@ never runs out and never degrades.
 
 ### 6. The Held Thing *(cursed; the Hanging room, depth 4)*
 
-Hanging in the air at head height in the line of abandoned objects: **a
-weapon** — pick something the party lacks, a +1 of whatever suits — beautifully
-kept and clearly somebody's pride.
+At the far end of the room's line of hanging objects, at head height: **a
+weapon** — pick something the party lacks, a +1 of whatever suits — held in
+mid-grip by nothing visible at all. An empty, hand-shaped absence, closed
+around the hilt exactly as if someone were still holding it. The weapon
+itself is old but perfectly kept, no wear anywhere except the grip, worn
+glass-smooth in the shape of fingers that never once loosened.
 
-**Take it out of that room and you can never put it down.** Not sheathed, not
-stowed, not handed over, not while sleeping. It is a genuinely good weapon and
-a genuinely real problem: no two-handed anything, no free hand, disadvantage on
-anything needing both hands.
+**Why it's called the Held Thing.** Every other object in this room was
+*released* — it hangs at the exact point somebody let it go, alone in the
+air. This is the one object the room's law still considers *held*, not
+released. Whoever gripped it is gone — dead, faded, walked off somehow
+without ever technically letting go, nobody knows — but the room's law
+never noticed the difference. It's the one exception in a room entirely
+defined by things people let go of.
+
+**The curse, mechanically.** The instant a PC closes their hand around it
+meaning to take it, the room's law transfers "held" to them — their hand
+becomes its fixed point, the way a nail is a fixed point for whatever
+hangs on it. Outside the room, the effect holds because the object was
+never released, only re-gripped: **their hand will not open around it.**
+Not sheathed, not stowed, not handed off, not even while unconscious or
+asleep. Genuinely real problem: no two-handed anything, no free hand,
+disadvantage on anything needing both hands.
+
+**The benefit is the same law, read the other way.** It's a genuine +1
+weapon, which is most of the reason to want it. But because their hand
+cannot be made to open around it by anything short of the three methods
+below, **the wielder is immune to being disarmed of the Held Thing
+specifically** — no effect, spell, or attack can knock it from their
+grip. It's the one thing in this campaign nobody can ever take from them.
+Everything else in that hand's reach is still fair game.
+
+**How this relates to the Hanging's rule.** It isn't a separate curse
+layered on top of the room — it's the same "anything released stays
+exactly where it was let go" law the rest of the room runs on, from the
+one angle nothing else there shows: what the law does with something
+that's *held*, not released. See "The Hanging," Depth 4.
+
+**The ongoing decision, for the rest of the campaign.** One hand,
+permanently occupied, from the moment they take it until one of the
+three methods below frees it. That's not a one-scene inconvenience — it's
+climbing, swimming, a spellcaster's somatic or material components,
+holding a shield or a two-handed weapon, opening a door with a full
+armload, all of it, every session, for whoever's carrying it.
 
 **Three ways off, and they should find at least one:**
 

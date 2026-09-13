@@ -98,6 +98,22 @@ most recent completed work; everything it touched is playable as written.
   the Ell is unreliable. Updated the main file (squat scene, the reveal
   list, and "it explains the whole room"), `CHARACTERS.md`, `DM_SCREEN.md`'s
   fold-hints checklist, and `MAP_SPEC.md`'s squat battle map.
+- [x] **Narrative TODO #9 — the Held Thing fully defined.** It's the one
+  object in the Hanging that was *held*, not released — found gripped in
+  mid-air by nothing visible, worn glass-smooth only at the grip. The
+  moment a PC takes it, the room's law transfers "held" to their hand,
+  which is why they can never open it again (not sheathed, not stowed,
+  not handed off, not even asleep) — the exact same "anything released
+  stays where it was let go" law as the rest of the room, from the one
+  angle it never otherwise shows. Benefit: a genuine +1 weapon, plus
+  immunity to being disarmed of it specifically (the same law, read the
+  other way — nothing can make the hand open either). Explicitly called
+  out as a whole-campaign one-hand commitment (climbing, swimming,
+  somatic/material components, shields, two-handed weapons), not a
+  one-scene inconvenience. The three off-ramps (give it back / write it
+  off on the Slate / *remove curse* outside the Ell) are unchanged.
+  Updated REWARDS.md's full entry and both "Loot here" mentions in the
+  main file.
 - [ ] The ancient mortal order **the Measure** and the god **Veyr** are now
   real, registered campaign canon (see `03_canon/GODS_AND_FAITHS.md`,
   `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`) — if this

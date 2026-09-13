@@ -1560,7 +1560,11 @@ which is exactly the trap discussed in "The strongboxes," below: 800 gold
 pieces or two free hands, never both. A party that returns here later to
 retrieve a cache has understood the room completely.
 
-**Loot here:** the Held Thing — see [`REWARDS.md`](REWARDS.md).
+**Loot here: the Held Thing** — a weapon at the far end of the line,
+gripped in mid-air by nothing visible at all, held exactly as if someone
+were still there. It's the one object in this room that was never
+released. See [`REWARDS.md`](REWARDS.md) for the full item, its curse,
+and its three ways off.
 
 #### The Watched Door
 
@@ -1772,7 +1776,8 @@ of inert Measure equipment in passing — a folded calibration rig, a length
 of chain vanishing into the wall — unremarked at the time. It pays off later
 at "More of the Measure, and evidence of Veyr," Depth 5.
 
-**Loot here:** the Held Thing, in the Hanging — see [`REWARDS.md`](REWARDS.md).
+**Loot here:** the Held Thing, in the Hanging — the one object there that
+was held, not released. See [`REWARDS.md`](REWARDS.md).
 
 ### The drafted people
 
