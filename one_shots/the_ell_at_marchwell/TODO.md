@@ -15,19 +15,26 @@ most recent completed work; everything it touched is playable as written.
   the old chalk-jar note; needs an actual printable/readable prop showing
   the escalating handwriting), Hesper's map (accurate exactly as long as
   it's useful), and a scrap of substrate notation for the depth-5 scene.
-- [ ] **Encounter math re-check at level 6** for session 3's two avoidable
-  fights and the finale with 0–5 party copies. Nothing in the 20-item pass
-  changed these fights' numbers, but they haven't been re-verified since
-  the level-6 assumption was locked in.
+- [x] **Encounter math re-check at level 6** for session 3's two avoidable
+  fights and the finale with 0–5 party copies — done. Session 3's fights
+  check out as printed. The finale had a real gap at the low end (0–1
+  copies, the Roper effectively fighting alone): fixed by **Echoes of
+  Wick** — the finale's hostile pool is now always exactly 5 actors, split
+  between copies of the party (one per rest, cap 5) and Echoes of Wick
+  (Hesper's own doppelgangers, filling the rest). See ENCOUNTER MATH in the
+  main file.
 
 ## Medium (quality of life)
 
 - [ ] **The "what you came back with" table** — refine alongside rewards, now
   that REWARDS.md carries nine items instead of seven.
-- [ ] **A one-paragraph player-facing pitch** for session zero, spoiling
-  nothing — the existing pitch in `../README.md` still holds up after the
-  chase-opening rewrite (Change #2); revisit only if you want it to hint at
-  the chase specifically.
+- [x] **A one-paragraph player-facing pitch** for session zero, spoiling
+  nothing — revised in `../README.md`. It no longer names the destination
+  (cousin's farmhouse) or direction of travel before play, and now matches
+  the actual opening: a tip puts the party on the third parish an hour
+  behind Ambry, with the parish itself unaware anything's wrong. Also
+  dropped the old "this is a horror campaign" meta-line and the explicit
+  "maybe he's there, maybe not" hedge as unneeded.
 
 ## Low (polish)
 

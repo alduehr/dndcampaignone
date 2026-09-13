@@ -45,17 +45,16 @@ disposable one-shot-only cast, exactly as before.
 ### Session-zero pitch — *The Ell at Marchwell* (spoiler-free)
 
 > You're carrying a warrant. Ferris Ambry, forty-one, under-clerk of the vale's
-> tithe office, walked out of the counting room with the season's collection
-> from three parishes — about eight hundred gold in coin and chapel plate, on a
-> borrowed pony. He's soft, he's frightened, and he's not dangerous to anyone.
+> tithe office, has spent three weeks quietly bleeding it dry — a little from
+> one parish, more from a second, and, this morning, in a single panicked
+> grab, the rest of it from a third. About eight hundred gold all told, in
+> coin and chapel plate. He's soft, he's frightened, and he's not dangerous to
+> anyone.
 >
-> He ran west, to the last farmhouse before the open downs, because his cousin
-> lives there. It's cider country: hedged fields, drystone walls, whitewashed
-> houses, apples going over in the yard. You'll be there by noon.
+> A tip put you on the road to that third parish. You're an hour behind
+> him — and the parish itself doesn't even know anything's wrong yet.
 >
-> Bring characters who'd take dull, well-paid work. **This is a horror
-> campaign and it does not begin as one** — the first hour is an arrest at a
-> farmhouse, and I'd like you to play it that way.
+> Bring characters who'd take dull, well-paid work.
 >
 > Four sessions. Level five. Nothing you need to read beforehand.
 
