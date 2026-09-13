@@ -108,7 +108,7 @@ exists, and was never on any list to begin with.
 ☐ 1. Repeating house — their own bootprints, one mid-stride facing a wall
 ☐ 2. **Ambry's glove ×3** — same tear, still damp (pair found in the squat)
 ☐ 3. Marching order breaks — the *back* of the line comes out at the front
-☐ 4. Ambry's tally wall — doors counted twice, same number, chalk broken
+☐ 4. Ambry's ruined maps — dozens of route-sketches, none agree, chalk broken
 ☐ 5. **TWO OF A THING IS ONE OF A THING** — cut in plaster
 ☐ 6. Ambry's rule: *"Don't use a door you've seen before"* (if asked)
 ☐ 7. Hesper says it flat (S3 backstop)

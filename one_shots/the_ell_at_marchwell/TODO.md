@@ -87,6 +87,17 @@ most recent completed work; everything it touched is playable as written.
   days, matching the "three weeks" already stated for when the party
   finds him. Updated the main file's squat scene and trail table, and
   `CHARACTERS.md`'s Ambry entry, to state the connection explicitly.
+- [x] **Narrative TODO #8 — the squat's door-tally wall replaced with a
+  wall of ruined maps.** Ambry no longer chalked a (successful) count of
+  the doors; he chalked dozens of route-sketches trying to map his way
+  out, each one scratched out or drawn over before the next began, no two
+  agreeing, the chalk worn to a stub and finally snapped — evidence his
+  mapping failed, not evidence he could count reliably. Fits the fold
+  rule better (a normal map should have worked eventually if the
+  geometry were real) and matches the existing global rule that mapping
+  the Ell is unreliable. Updated the main file (squat scene, the reveal
+  list, and "it explains the whole room"), `CHARACTERS.md`, `DM_SCREEN.md`'s
+  fold-hints checklist, and `MAP_SPEC.md`'s squat battle map.
 - [ ] The ancient mortal order **the Measure** and the god **Veyr** are now
   real, registered campaign canon (see `03_canon/GODS_AND_FAITHS.md`,
   `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`) — if this

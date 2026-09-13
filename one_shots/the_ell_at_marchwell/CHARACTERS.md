@@ -194,8 +194,10 @@ strongbox open in a corridor with its ~35 lb of coin and compact plate still
 in it, abandoned because it got heavy for a man who never stopped running.
 
 **His squat (session 2):** curtains and coats, sixty preserve jars stacked by
-size, the tally wall, and **the pair to the glove.** And **the rest of that
-ledger** — every actual accounting page torn out (guilt, self-preservation,
+size, a wall of ruined maps (dozens of attempted route-sketches, chalked and
+scratched out over and over, the chalk worn to a stub and finally snapped —
+he tried to map his way out and never once got anywhere), and **the pair to
+the glove.** And **the rest of that ledger** — every actual accounting page torn out (guilt, self-preservation,
 not something a man in hiding wants under his own name), leaving only the
 cover, his name inked inside it, and a flyleaf he's turned into a day-count:
 **twenty-two of them,** one per day survived. Empty and still warm — three of

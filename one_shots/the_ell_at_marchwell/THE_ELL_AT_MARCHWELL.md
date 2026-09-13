@@ -67,11 +67,13 @@ combat, not through description, so it isn't numbered here.
 3. **The marching order breaks.** The character *at the back* of the line
    walks through a door and comes out at the front, facing the party. Everyone
    watches it happen. No flash, no sound, no sense of transit.
-4. **Ambry's tally wall** (S2), found empty and unexplained: a wall counting
-   the doors twice by two different routes, arriving at the same number both
-   times, the second count gone over so hard the chalk has broken. It makes
-   the argument on its own. He confirms it afterwards, at length, whether or
-   not anyone asks.
+4. **Ambry's ruined maps** (S2), found empty and unexplained: a wall of
+   attempted route-sketches, chalked and rechalked, each one scratched out
+   or drawn over before the next began — dozens of tries, no two matching,
+   the chalk worn down to nothing and finally snapped. It makes the
+   argument on its own: he tried to map his way out, over and over, and
+   never once got anywhere. He confirms it afterwards, at length, whether
+   or not anyone asks.
 5. **Cut into the plaster in a neat surveyor's hand:**
    > **TWO OF A THING IS ONE OF A THING**
 
@@ -952,10 +954,12 @@ arrows anyway — in the handwriting of whoever in the party writes most.
    survived down here. The arithmetic does itself: three weeks and
    change, alone, listening to a door call his own name.
 
-   And **the tally wall**: an entire wall chalked
-   with a count of the doors, done twice by two different routes, arriving at
-   the same number both times, with the second count gone over and over so
-   hard the chalk has broken. Nobody's home, and the nest is still warm.
+   And **the wall of ruined maps**: dozens of attempted route-sketches in
+   chalk, each one scored out or drawn over before the next began, no two
+   agreeing with each other, going nowhere twice running — and the chalk
+   itself worn down to a stub and finally snapped, pressed too hard into
+   stone that kept rearranging itself under his hand. Nobody's home, and
+   the nest is still warm.
 
    **And on top of the coats: a single glove.** The pair to the one they have
    now found three times in three different corridors — same make, same
@@ -981,7 +985,7 @@ arrows anyway — in the handwriting of whoever in the party writes most.
 
    **And it explains the whole room.** Ambry sat in here for weeks listening to
    a voice on the other side of a door calling him by name. He held out a long
-   time — that's what the tally wall and the broken chalk are. **He never went
+   time — that's what the wall of failed maps and the broken chalk are. **He never went
    toward it (Change #19).** One night the voice finally broke him, and he
    didn't open the mimic door at all — he bolted straight through one of the
    two *real* doors instead, just to get away from the sound of himself

@@ -180,8 +180,9 @@ swallowed character is the whole fight.
 - **The nest:** curtains and coats in a corner, 10 × 10 ft, difficult terrain.
 - **Sixty preserve jars** stacked by size along one wall — knock the stack over
   and it's difficult terrain plus noise.
-- **The tally wall** is the long wall opposite the nest. The glove sits on top
-  of the nest.
+- **The wall of ruined maps** is the long wall opposite the nest — dozens of
+  chalked route-sketches, scratched out and drawn over each other, snapped
+  chalk on the floor beneath it. The glove sits on top of the nest.
 
 *Tactics:* they stay doors until touched or until someone commits to opening
 one. The fight starts when a PC has a hand on a doorknob — **that character is
