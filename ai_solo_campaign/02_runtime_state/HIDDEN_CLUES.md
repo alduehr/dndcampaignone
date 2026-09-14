@@ -2,41 +2,133 @@
 
 ## Purpose
 
-**DM-ONLY.** All clues that exist in the world but have not been discovered by the player. The AI DM uses this to track what remains hidden and to know when and how to surface clues during play.
+**DM-ONLY.** All clues that exist in the world but have not been discovered by the player. The AI DM uses this to track what remains hidden and to know when and how to surface clues during play. This file is the runtime mirror of `../11_mysteries_and_secrets/CLUE_INDEX.md`; the index holds the full authored landscape, this file holds the **currently undiscovered** set and the trigger that would surface each clue.
 
 ## Current Status
 
-**PLACEHOLDER — Not yet populated.**
+**Seeded at campaign start.** The player has discovered nothing. Every authored clue is listed below as `hidden`. As clues are discovered, move them to `KNOWN_CLUES.md` and update this file and the `CLUE_INDEX.md` status column.
+
+**Pacing reminder:** Several clues are gated by act/level (see `../11_mysteries_and_secrets/REVELATION_MAP.md`). Do not surface Act 3+ clues (C-M6-*, C-M7-*, C-M9-*) during Act 1–2 play even if the player stumbles near them; give fragments, not the apex truth.
 
 ---
 
-## Undiscovered Clues
+## Undiscovered Clues by Mystery
 
-*None. Will be populated as campaign content is generated.*
+| Clue ID | Mystery | Location / Source | Discovery Trigger | Status |
+|---|---|---|---|---|
+| C-M1-1 | M1 — Wren's failed rite | Wren, in town | Talk to Wren carefully (Insight/Persuasion DC 12; roleplay starts it) | hidden |
+| C-M1-2 | M1 — Wren's failed rite | A Warden examines Wren | Warden examination scene (Religion/Medicine DC 13) | hidden |
+| C-M1-3 | M1 — Wren's failed rite | Mourners' eldest | Hear the old songs / earn folk trust | hidden |
+| C-M1-4 | M1 — Wren's failed rite | Wren's grave, town cemetery | Inspect the grave (Investigation/Survival DC 12) | hidden |
+| C-M2-1 | M2 — The drowned shrine | Basin shore / surfacing ruin | Reach the site AND read Concord Script (Comprehend Languages or a reader) | hidden |
+| C-M2-2 | M2 — The drowned shrine | Fen-guide's map | Earn the fen-guide's respect; obtain the map | hidden |
+| C-M2-3 | M2 — The drowned shrine | Compact survey records | Access the records office (Investigation DC 14) | hidden |
+| C-M2-4 | M2 — The drowned shrine | Gravecaller speaker | Contact the cult; hear the channeled dead name "the door under the water" | hidden |
+| C-M3-1 | M3 — What is Remembrance? | A Remembrance relic | Obtain and study a relic (Arcana/Religion DC 15) | hidden |
+| C-M3-2 | M3 — What is Remembrance? | The Gravecallers | Forbidden contact; they explain what the dead taught them | hidden |
+| C-M3-3 | M3 — What is Remembrance? | Ledger Hollowmere vault relic | Turn the factor OR run a heist on the vault | hidden |
+| C-M3-4 | M3 — What is Remembrance? | Concord Script texts (Remnant) | Scholarly access; pass the language gate | hidden |
+| C-M4-1 | M4 — Basin scheme | The reeve + council votes | Win the reeve's confidence; track the votes (Insight DC 13) | hidden |
+| C-M4-2 | M4 — Basin scheme | "Water rights" filings | Read the records; spot the fabrication (Investigation DC 14) | hidden |
+| C-M4-3 | M4 — Basin scheme | The councilor, basin shore at night | Tail him (Stealth/Perception) | hidden |
+| C-M4-4 | M4 — Basin scheme | The Ledger factor | Get him talking about who funds the works | hidden |
+| C-M5-1 | M5 — The dead's drift | The fen-guide | Hear his observations of drifting dead | hidden |
+| C-M5-2 | M5 — The dead's drift | Wren's grave | Notice the grave pulled waterward (Investigation/Survival DC 12) | hidden |
+| C-M5-3 | M5 — The dead's drift | Gravecaller lore | Forbidden contact | hidden |
+| C-M5-4 | M5 — The dead's drift | A Warden near the basin | Observe rites failing worse nearer the water | hidden |
+| C-M6-1 | M6 — Concord's purpose | Caradril Concord archives | Remnant access to the archives (Act 3) | hidden |
+| C-M6-2 | M6 — Concord's purpose | A senior Warden | Break her oath — late, trust-gated confession (Act 3) | hidden |
+| C-M6-3 | M6 — Concord's purpose | Channeled Quietfall-era dead | Forbidden contact; firsthand testimony (Act 3) | hidden |
+| C-M6-4 | M6 — Concord's purpose | The old songs, fully decoded | Earn Mourners' trust; decode the songs (Act 3) | hidden |
+| C-M7-1 | M7 — The Hollow Court | The under-shrine | Reach the under-shrine (late-arc, dangerous) | hidden |
+| C-M7-2 | M7 — The Hollow Court | (convergence) | Assemble M4 + M6 + M9 (Act 4) | hidden |
+| C-M7-3 | M7 — The Hollow Court | Court heretic / channeled dead | A heretic reaches out, or the dead name "the ones who would not pass" (Act 4) | hidden |
+| C-M8-1 | M8 — Why is the PC here? | The fixer / first contact | Press her (Insight/Persuasion); she confesses | hidden |
+| C-M8-2 | M8 — Why is the PC here? | The patron's payment trail | Follow the money to a cutout (Investigation) | hidden |
+| C-M8-3 | M8 — Why is the PC here? | (pattern) | Player notices being repeatedly steered at the shrine; DM confirms | hidden |
+| C-M9-1 | M9 — Deliberate Quietfall | Caradril archives | Remnant access (Act 3) | hidden |
+| C-M9-2 | M9 — Deliberate Quietfall | A senior Warden | Trust-gated confession (Act 3) | hidden |
+| C-M9-3 | M9 — Deliberate Quietfall | Channeled Quietfall-era dead | Forbidden contact (Act 3) | hidden |
+| C-M9-4 | M9 — Deliberate Quietfall | Shrine inscriptions | Reach the shrine; read Concord Script (Act 3) | hidden |
+| C-M10-1 | M10 — What to do | Gravecallers | Forbidden contact: destroying it = catastrophe (Act 4–5) | hidden |
+| C-M10-2 | M10 — What to do | A senior Warden | Trust-gated: sealing = end of resurrection (Act 4–5) | hidden |
+| C-M10-3 | M10 — What to do | The Court leader | Apex contact: controlled restart = stability + horror (Act 4–5) | hidden |
+| C-M10-4 | M10 — What to do | The Court heretic | Apex contact: the synthesis is possible (Act 4–5) | hidden |
+
+---
+
+## Stage 3 Region Anchors (where the hidden clues now physically live)
+
+Stage 3 anchored the existing hidden clues to authored locations. Still all `hidden` at start; surface per `../11_mysteries_and_secrets/REVELATION_MAP.md`. Quick "where to find it" for the DM:
+
+| Clue(s) | Now findable at | Trigger |
+|---|---|---|
+| C-M1-* (Wren) | Hollowmere (unchanged) | as before |
+| C-M2-* (shrine) | Basin shore Surfacing Ruin; Sunken Tollhouse; Heights ruins; Whispering Cairn | reach site + read Concord Script (or a reader) |
+| C-M3-* (relic) | Peat Chapel; Ledger Vault; Deep Adit "old glass"; Marlow's cellar | obtain & study a relic, or turn Domic |
+| C-M4-* (basin scheme) | Pevin Oss's filings; Reke at the shore at night; the Reed Holms debt | records / surveillance / the eviction trail |
+| C-M5-* (the drift) | The Drift-Line (Sashe); Greywater & Reedford hauntings; Bann Oester's graves; Pell | witness the drift / failing rites near water |
+| C-M6-*, C-M9-* (Act 3) | Whispering Cairn, Deep Adit Relay-Vault, Candlewick stone, Barrow glyphs, Tallow Man | **fragments only pre-Act 3**; full truth gated |
+
+**Do not surface Act 3+ apex clues during Act 1–2** even at these new sites — give fragments, per the pacing reminder above.
+
+## Stage 4 City Anchors (Caradril; where the hidden clues now also live)
+
+Stage 4 anchored existing hidden clues to the first major city. Still all `hidden` at start. **Caradril never names the Hollow Court (M7).** Quick "where to find it" for the DM:
+
+| Clue(s) | Now also findable at (Caradril) | Trigger |
+|---|---|---|
+| C-M2-1 (the network) | The Sunken Wards' warming + Concord Script | descend the Wards (L6–10) + read Script; a *continental-network fragment* |
+| C-M3-1/3 (relic) | Ashmarket quiet-coin relic; Crucible smelting; Ledger deep-vault relic (L8+); a Wards relic | buy/study/heist/explore a relic |
+| C-M4-2 (basin funding) | Magisterium charter-registry misfiled record | Investigation DC 15 or a turned clerk; a Caradril-side echo |
+| C-M6-1, C-M9-1 (Act 3) | The **Sealed Archive** (clearest proof); plus the Vyre–Quorrin deal-pages (Coll Riis) for M6 | Script-gated; trust/theft/disillusioned-Briss/Wards back-way; **Act 3 / L9–12** |
+| C-M8-1/2 (steering) | The Magisterium correspondent thread (lead only — never a named second agent); the Hush sells fragments | investigation / pay the Bellman |
+| C-M1/M5 (city echoes) | Highmourn's covered-up failures + a hushed wrong-come-back; Renna's sheltered revenant; thin-born refugees (M10 local) | witness a failed rite / turn Quayle / meet the refugees |
+
+**Do not surface the Sealed Archive's M6/M9 truth before Act 3 / L9–12, and never name the Hollow Court in Caradril.** Earlier city visits give M2/M3 fragments and demonstrations only.
+
+## Stage 11 Region-Coded Clue Layer
+
+Stage 11 added a region-coded clue layer that expands redundancy across regions. These clues use IDs of the form `C_<REGION>_<nnn>` and are cross-referenced to the `REV_*` revelation system. Full per-clue detail lives in the regional trail files; the table below records ranges and status only.
+
+**All region-coded clues are hidden at campaign start.**
+
+| Region code | ID range | Trail file | Revelations fed |
+|---|---|---|---|
+| `C_SR_*` | C_SR_001–C_SR_018 | `../11_mysteries_and_secrets/by_region/SUNDERING_REACH_CLUES.md` | REV_001–005, REV_007 |
+| `C_CAR_*` | C_CAR_001–C_CAR_016 | `../11_mysteries_and_secrets/by_region/CARADRIL_CLUES.md` | REV_003–006, REV_008–009 |
+| `C_AV_*` | C_AV_001–C_AV_012 | `../11_mysteries_and_secrets/by_region/ASHGARDEN_VALE_CLUES.md` | REV_001–003, REV_005 |
+| `C_TW_*` | C_TW_001–C_TW_012 | `../11_mysteries_and_secrets/by_region/TOLLWOOD_CLUES.md` | REV_001–003, REV_005 |
+| `C_PC_*` | C_PC_001–C_PC_012 | `../11_mysteries_and_secrets/by_region/PALE_COAST_CLUES.md` | REV_001–003, REV_005 |
+| `C_FC_*` | C_FC_001–C_FC_010 | `../11_mysteries_and_secrets/by_region/FAR_CONTINENT_ECHO_CLUES.md` | REV_004, REV_006–007, REV_010 |
+
+**Pacing:** Region-coded clues follow the same phase gates as the `C-M*` clues — REV_007+ (C_FC_* and late C_CAR_* / C_SR_* entries) should not be surfaced before Act 3. See `../11_mysteries_and_secrets/REVEAL_TIMING.md` for the full gate chart.
+
+When a region-coded clue is discovered, move it to `KNOWN_CLUES.md`, update its status in `CLUE_INDEX.md`, and update the relevant regional trail file.
 
 ---
 
 ## Clue Entry Template
 
 ```md
-### [Clue Name]
+### [Clue ID — Clue Name]
 
-- **Mystery it feeds into:** [mystery name]
-- **Clue type:** direct | indirect | symbolic | damaged | misleading | partial
+- **Mystery it feeds into:** [mystery ID/name]
+- **Clue type:** direct | indirect | symbolic | damaged | misleading | partial | convergence | consequence
 - **Where it can be found:** [location, NPC, document, event]
-- **Condition for discovery:** [what the player must do]
+- **Condition for discovery:** [what the player must do; DC if any]
 - **What it reveals if found:**
+- **Act/level gate:** [if any]
 - **Current status:** hidden | in play but not found | missed opportunity
-- **Clue file:** [path if applicable]
 ```
 
 ---
 
-## Hidden Clues by Mystery
+## When A Clue Is Discovered
 
-| Mystery | Clue Name | Location | Condition | Status |
-|---|---|---|---|---|
-| — | — | — | — | — |
+1. Move the clue to `KNOWN_CLUES.md` with the player's actual interpretation.
+2. Update its status row here (or remove it) and in `../11_mysteries_and_secrets/CLUE_INDEX.md`.
+3. If the clue triggers a revelation, check `../11_mysteries_and_secrets/REVELATION_MAP.md` first and apply `../01_runner_protocol/SECRET_REVEAL_PROTOCOL.md`.
 
 ---
 
@@ -44,4 +136,6 @@
 
 - [`KNOWN_CLUES.md`](KNOWN_CLUES.md)
 - [`../11_mysteries_and_secrets/CLUE_INDEX.md`](../11_mysteries_and_secrets/CLUE_INDEX.md)
+- [`../11_mysteries_and_secrets/MYSTERY_WEB.md`](../11_mysteries_and_secrets/MYSTERY_WEB.md)
+- [`../11_mysteries_and_secrets/REVELATION_MAP.md`](../11_mysteries_and_secrets/REVELATION_MAP.md)
 - [`../03_canon/DM_ONLY_CANON.md`](../03_canon/DM_ONLY_CANON.md)

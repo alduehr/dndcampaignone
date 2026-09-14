@@ -6,7 +6,7 @@ A copy-paste template for updating all runtime state files at session end. Ensur
 
 ## Current Status
 
-**PLACEHOLDER — Template structure defined. To be refined during Stage 2 once canon establishes starting facts.**
+**Ready (Stage 2).** Use this template at every session end alongside `SESSION_END_UPDATE_CHECKLIST.md` and `../01_runner_protocol/SESSION_END_PROTOCOL.md`. Keep DM-only content out of player-safe state files (`SESSION_RECAP.md`, `KNOWN_CLUES.md`, `PLAYER_CHARACTER.md`, etc.).
 
 ---
 

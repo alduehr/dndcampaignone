@@ -765,6 +765,20 @@ The campaign is ready for play when:
 - The first level-up path is clear.
 - There are no critical audit issues.
 
+## Current Stage 16 Standard (expanded)
+
+As actually executed, Stage 16 requires more than the single readiness file above. The current standard also requires:
+- A retrieval audit (`/18_audits/STAGE_16_RETRIEVAL_AUDIT.md`) confirming `RETRIEVAL_GUIDE.md` is current through the full build.
+- A player-safe start audit (`/18_audits/STAGE_16_PLAYER_SAFE_START_AUDIT.md`).
+- A DM-only secrecy audit (`/18_audits/STAGE_16_DM_ONLY_SECRECY_AUDIT.md`).
+- A full-arc playability audit (`/18_audits/STAGE_16_FULL_ARC_PLAYABILITY_AUDIT.md`).
+- A blockers-and-fixes ledger (`/18_audits/STAGE_16_BLOCKERS_AND_FIXES.md`).
+- Control/status/manifest cleanup (`MANIFEST.md`, `STAGE_STATUS.md`, `CONSISTENCY_AUDIT.md`, `RETRIEVAL_GUIDE.md` made current).
+- Stale placeholder cleanup (active-folder `_PLACEHOLDER.md` files reflect real contents).
+- A master readiness verdict (`/18_audits/PRE_PLAY_READINESS_AUDIT.md`) pointing to the detailed reports.
+
+Stage 16 is complete only when all of the above exist and the master verdict reads READY FOR LIVE PLAY (or READY WITH MINOR NON-BLOCKING ISSUES).
+
 ---
 
 # Stage 17 — Live Campaign Operation

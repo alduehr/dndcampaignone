@@ -6,7 +6,7 @@ This folder will contain NPC files, NPC indexes, and NPC reference documents.
 
 ## Current Status
 
-**Empty — Stage 0 scaffold.** 20 major NPCs will be created during Stage 1. Secondary and minor NPCs expand during Stages 3, 9, and later.
+**Populated.** This folder contains `MAJOR_NPCS.md` (50 full-profile majors), `SECONDARY_NPCS.md`, `MINOR_NPCS.md`, relationship/secret/voice references (`NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`), the `ACT_1_NPC_GUIDE.md`, and a `by_region/` subfolder of per-region rosters (Caradril, Stage 9 majors, and the 12 far-continent regions). For lookup and load guidance, see `NPC_INDEX.md` and `../00_control/RETRIEVAL_GUIDE.md`.
 
 ## Expected File Types
 

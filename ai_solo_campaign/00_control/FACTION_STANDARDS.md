@@ -101,6 +101,9 @@ DM-only if hidden.
 
 ## How They Can Threaten A Solo Player Without Cheap Death
 
+## Combat Capability And Stat References
+Per `DND_MECHANICS_REQUIREMENTS.md`: how dangerous the faction is in a fight, the typical adversary types/levels it can field (enforcers, soldiers, champions, spellcasters), and the stat references used (link to bestiary entries or named-NPC profiles; no narrative-only enforcers). Note the solo-PC danger of a confrontation and any scaling guidance for low- vs high-level play.
+
 ## Related NPCs
 
 ## Related Locations
@@ -197,6 +200,19 @@ Record faction changes in:
 - `/02_runtime_state/FACTION_STATE.md`
 - `/02_runtime_state/WORLD_CLOCKS.md`
 - Relevant faction files if static canon changes
+
+---
+
+## Mechanical Requirements
+
+Factions that can confront the player must be mechanically usable per `DND_MECHANICS_REQUIREMENTS.md`. Before marking a faction file done, confirm:
+
+- Faction leaders and champions likely to fight have Tier 1 stat blocks/profiles (full custom, abbreviated, or reference-style — never copied verbatim).
+- Rank-and-file/enforcers reference an adversary stat profile (e.g. "Guard-like", "Cultist-like", "Veteran-like") or a bestiary entry.
+- Each combat-capable faction has solo-PC danger notes and scaling guidance for the level tiers it appears in.
+- Faction quests follow `QUEST_STANDARDS.md` mechanical fields (level range, DCs, combat/noncombat options, rewards, scaling).
+
+Noncombatant factions (purely political/social) still need a fallback note for what happens if a confrontation turns violent.
 
 ---
 

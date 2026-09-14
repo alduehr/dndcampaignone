@@ -6,7 +6,7 @@ Global inventory of campaign content. Tells the AI DM what exists and where to f
 
 ## Current Status
 
-Stage 0 scaffold. No campaign content exists yet. Sections will be populated during Stages 1–15.
+**Exploration-Determinism Pass (2026-06-18) complete — repo is now exploration-deterministic:** 22 new settlement map packets (total 40 in `settlement_map_packets/`, glob-verified; 16 NW cluster + 24 far-continent) bringing every reachable settlement to eagle-test floor depth. Initial tracking claimed 42; a 2026-06-18 verification pass found and created 7 missing NW cluster packets (Greywater Holm, Reedford, The Ashwalk Rest, Tilbrook, Cobble Strand, Coldhearth, Tollstone Cross). Eagle test PASS. See `CARTOGRAPHY_READINESS_AUDIT.md`. **Stages 1–16 complete; campaign is READY FOR LIVE PLAY (Stage 17 next, awaiting the user to begin play). Cartography Authority Pass (2026-06-16) complete — repo is now cartography-deterministic:** 5 geometry/registry/route/water/terrain authority files in `04_world_atlas/`, 18 region map packets (`04_world_atlas/region_map_packets/`), 4 city packets + 18 settlement packets (`06_settlements/city_map_packets/`, `settlement_map_packets/`), and the adventure-site cartography index (D01–D36). A mapper can render player-safe and DM-only maps of the continent, regions, cities, settlements, routes, water, terrain, and dungeons without guessing; DM-only apex (Concord Deep / Under-Shrine / keystone / Hollow Court / D23) marked never-render; endgame kept vertical beneath Hollowmere. No new campaign content/proper nouns. See the "World Atlas Files" and "Region / City / Settlement Map Packets" tables below and `18_audits/CARTOGRAPHY_READINESS_AUDIT.md`. **Stage 16 (Pre-Play Readiness Audit) complete (2026-06-15):** whole-repo AI-readiness + continuity audit across all 16 categories — verdict **READY FOR LIVE PLAY** (0 Critical / 0 High / 2 Medium fixed / 4 Low non-blocking). Fixed three stale canon "Current Status" headers and added an arc-forwarding pointer from `12_campaign_arc/MAIN_ARC_OVERVIEW.md` to the runnable `15_campaign_arcs/` set. Verified: no canon contradictions; no player-facing apex-truth leaks (apex gated REV_007/L13+, confined to DM-only files + `THE_UNDER_SHRINE_APPROACH.md`); all 16 runtime state files present + seeded; START/RESUME prompts self-contained; opening (Opener A) immediately runnable; REV_001 reachable via 5 independent clue sources; all 7 factions clocked; the L1–20 arc findable/linked; all major indexes current. Reports: `18_audits/STAGE_16_PRE_PLAY_READINESS_AUDIT.md`, `STAGE_16_BLOCKERS_AND_FIXES.md`, `STAGE_16_PLAYER_SAFE_START_AUDIT.md`, `STAGE_16_DM_ONLY_SECRECY_AUDIT.md`, `STAGE_16_RETRIEVAL_AUDIT.md`, `STAGE_16_FULL_ARC_PLAYABILITY_AUDIT.md`; tracker `00_control/STAGE_16_PROGRESS.md`. **Stage 15B (Full Character Arc Playability Fill) complete (2026-06-15):** added 12 concrete play-layer files + 6 forwarding stubs in `15_campaign_arcs/` that fill every region and tier with named, runnable content (so the AI DM never invents major structure on arrival): `FULL_WORLD_LEVEL_5_TO_20_PLAYABILITY` (region×tier matrix + router), `REGIONAL_ARC_PACKS_LEVEL_5_TO_20` (19 region packs + Cindern Waste sub-region), `TIER_2/3/4_PLAYABLE_PATHS` (5 + 6 + 9 step-by-step paths/playbooks), `REGION_TO_REGION_TRANSITION_GUIDE`, `CONTINENTAL_PRESSURE_TIMELINE` (16+ named events), `PLAYER_IGNORES_MAIN_ARC_GUIDE`, `PLAYER_GOES_ANYWHERE_GUIDE`, `ENDGAME_REGION_PLAYBOOK`, `FINAL_REVELATION_AND_ENDING_PATHS` (REV_001–010 × 3 paths + 5 endings), `STAGE_15B_COMPLETION_AUDIT` (PASS), + 6 legacy stubs (ACT_2/3/4/5, VILLAIN_ESCALATION, ENDGAME_STATES). Every situation names NPC/faction/location/action/consequence; apex (REV_007/Court/keystone) DM-only and L13+ gated; far sources never deliver it; **no new proper nouns** (verified vs NAMING_REGISTRY); no canon contradicted. See `STAGE_15B_PROGRESS.md`. **Stage 15 (Level 5–20 Campaign Arc Expansion) complete (2026-06-15):** built 15 files in `15_campaign_arcs/` — `LEVEL_5_TO_20_OVERVIEW` (master + tier↔act crosswalk: Tier 2/3/4 = L5–10/11–16/17–20 = Acts 2–5), three tier files (`TIER_2_LEVELS_5_10`, `TIER_3_LEVELS_11_16`, `TIER_4_LEVELS_17_20`) each with entry-state/pressures/factions/regions/sites/quests/REVs/NPCs/encounters/rewards/failures/clocks/solo-notes/off-path-guidance, plus `CAMPAIGN_ESCALATION_TIMELINE`, `MAIN_ARC_REVELATION_SEQUENCE`, `REGIONAL_ESCALATION_PATHS`, `FACTION_ESCALATION_PATHS`, `VILLAIN_AND_APEX_THREAT_ESCALATION` (DM-only), `ENDGAME_STRUCTURE` (9 approaches × 5 outcomes), `FAILURE_STATES_AND_WORLD_CONSEQUENCES`, `LEVELING_AND_MILESTONE_GUIDE`, `SOLO_CAMPAIGN_BALANCE_GUIDE`, `OPEN_WORLD_CONTINUITY_GUIDE`, and `STAGE_15_READINESS_AUDIT` (PASS). Play-layer pass over existing systems — references Stage 8 clocks, 9 NPCs, 10 quests, 11 mysteries (REV_001–010), 12/12.5 dungeons (D01–D36), 13 bestiary, 14 treasure **by reference, no rewrites**. Open-world (no mandatory sequence/faction/region-order/ending), solo-runnable (per-tier balance + missing-ability fallbacks), apex-protected (REV_007 gated to L13+; far sources never deliver it). **No new proper nouns, central mystery, faction, god, cosmology, or artifact created** (no NAMING_REGISTRY change required); no canon contradicted. See `STAGE_15_PROGRESS.md`. **Stage 14 (Treasure, Artifacts, and Rewards) complete (2026-06-14):** 15 files in `14_treasure_and_artifacts/` — `TREASURE_INDEX` (master/load-guide), `SOLO_REWARD_BALANCE` (single-PC pacing governor), `MAGIC_ITEM_INDEX` (38 custom Track-B items, Common→Legendary), `ARTIFACT_INDEX` (12 named relics/artifacts, mystery-gated, DM-only blocks), `CURSED_ITEMS` (10 + 3 endgame cursed-class), `SENTIENT_ITEMS` (6, incl. 1 DM-only Hollow Court plant), `CONSUMABLES_AND_MINOR_MAGIC`, `REGIONAL_TREASURE_TABLES` (all 20 regions × 5 level bands), `FACTION_REWARDS` (7 majors + 4 Caradril blocs, ranked R1–R3 + betrayal), `QUEST_REWARD_INDEX`, `DUNGEON_REWARD_INDEX` (36 sites), `NONCOMBAT_REWARDS` (political/social/info/access/relationship/economic), `ECONOMY_AND_PRICING_GUIDE`, `REWARD_PLACEMENT_AUDIT` (PASS — 20/20 regions, 5/5 bands, 36 dungeons, 7+4 factions), `README`. Two-track source handling (official items = reference-only, no copied text; custom = ORIGINAL CAMPAIGN ITEM with abbreviated 5e prose). Solo-tuned (breadth over spikes; no flat +X before Rare; recovery/utility/access weighted up; no solve-everything item). Endgame artifacts (Quiet Country Vessel, Harvest Engine Shard, Last Voice) M6–M9 gated; the Hollow Court gives no clean rewards (every Court-traced gift is a trap/curse/leash); no apex-truth leaks. 12 artifact proper nouns registered in NAMING_REGISTRY; no new NPC/faction/god/region/mystery. See `STAGE_14_PROGRESS.md`. **Stage 13 (Encounter and Bestiary Expansion) complete (2026-06-14):** built 28 encounter/bestiary files in `13_encounters_and_bestiary/` — 13 cross-cutting (ENCOUNTER_INDEX, BESTIARY_INDEX [17 creature categories], CREATURE_SOURCE_REFERENCE [copyright-safe two-track decision], SOLO_ENCOUNTER_SCALING [one-PC budget rules], BIOME_ENCOUNTER_MATRIX [15 biomes], BOSS_AND_APEX_THREATS [18 bosses B1–B18], HORROR_AND_CURSE_THREATS [original Remembrance undead/curses; VRGtR creature references included on Track-A / source-safe basis; RtHW (Ravenloft: The Horrors Within, 2026) pending/source-check-needed until book is verified], FACTION_ENCOUNTERS [all 7 majors + city + regional], MYSTERY_ENCOUNTERS [M2–M6 fragments; M9/Court gated], TRAVEL_ENCOUNTERS [terrain × 5 level-bands], DUNGEON_ENCOUNTER_SUPPORT [all 36 dungeons], REGIONAL_ENCOUNTER_TABLES [all-regions master]) + 15 per-region files (the 5 pre-existing Ring 0/1/Caradril + 15 new far/mid-continent regions: Verdance, Glassmere, Marrowdowns, Sallowmarch, Hollow Gulf, Wender, Karran, Emberfell, Saltmere, Heartlands, Hethewald, Sunmark, Highmark, Cindern, Drowned Steps). **All 20 regions, all 5 level-bands (1–20), and all 17 creature categories covered.** Official monsters source-referenced (never stat-block-copied); originals given abbreviated 5e-compatible summaries. Solo-tuned throughout (telegraph/morale/escape/non-combat outs). No new factions/NPCs/regions/mysteries/gods/artifacts; far regions corroborate (never relocate) the keystone/Court/endgame; apex truth stays DM-only/gated. See `STAGE_13_PROGRESS.md`. **Stage 12.5 (Continental Adventure-Site Coverage) complete (2026-06-14):** **Stage 12.5 (Continental Adventure-Site Coverage) complete (2026-06-14):** 13 new far-continent sites (D24–D36) built — covering every map-authoritative far-continent region (Saltmere, Hethewald, Marrowdowns, Karran, Glassmere ×2, Sallowmarch, Hollow Gulf, Wender Steppe, Sunmark, Verdance Reaches, Highmark Passes, Emberfell ×2, Heartlands). Campaign total: **36 authored adventure sites** (L1–20). All far sites are surface/echo corroboration only — never the keystone, live machine, or Hollow Court. 4 previously-deferred optional sites (Saltmere, Hethewald, Marrowdowns, Karran) built. 13 new clue IDs registered (C_SR2_001, C_HW_001, C_MD_001, C_KM_001, C_GL_001–002, C_SM_001, C_HG_001, C_WS_001, C_SMK_001, C_VR_001, C_HMP_001, C_FC_016). DUNGEON_INDEX, RUIN_INDEX, PUZZLE_DUNGEONS, CLUE_INDEX, TAG_INDEX, NAMING_REGISTRY all updated. **Stage 12 (Dungeons, Ruins, Adventure Sites) complete (2026-06-13):** created the master `DUNGEON_INDEX.md` (23 sites) + `PUZZLE_DUNGEONS.md` (puzzle/investigation index); cross-linked all 15 existing dungeons to the Stage 11 REV/clue IDs (append-only `## Stage 11 Clue Cross-Links` sections); created 8 new adventure sites — `THE_SUNKEN_WARDS_DEEP` (Caradril L6-10), `THE_CARADRIL_ASHMARKET_UNDERCROFT` (Caradril L6-9), `THE_CONCORD_RELAY_VAULT` (Reach Heights L7-10), `THE_GREYFENS_DEEP` (Reach L3-7 environmental), `THE_BASIN_KEYSTONE_APPROACH` (Reach L5-9, keystone upper-works; deep stair gated), `THE_OLD_CONCORD_HEARTLANDS_RUIN` (far L10-14), `THE_EMBERFELL_CALDERA_DESCENT` (far L12-16 environmental), and `THE_UNDER_SHRINE_APPROACH` (**DM-ONLY** endgame L16-20, the only file describing the apex/Court/choice); added `STAGE_12_ADVERSARIES.md` (8 abbreviated 5e-compatible profiles); added new clue IDs C_SR_039-041, C_CAR_016-018, C_FC_014-015 (all corroboration/fragment-tier, gated). **No new central mystery/faction/god/cosmology was created; the apex truth lives only in the DM-only file; the keystone stays vertical-under-Hollowmere and the far ruins are surface/mirror echoes, never the machine.** New dungeon-internal place-names registered in NAMING_REGISTRY (Stage 12 subsection). Optional far sites (Saltmere/Hethewood/Marrowdowns/Karran) deferred to CONTENT_GAPS. **Stage 11 (Mystery/Secret/Clue Expansion) complete (2026-06-13):** added a formal revelation map (REV_001–REV_010, each with >=3 independent clue sources), a region-coded clue layer in CLUE_INDEX, a 7-layer mystery hierarchy, 6 regional clue trails (`11_mysteries_and_secrets/by_region/*_CLUES.md`), a faction knowledge map (all 7 factions; Hollow Court apex-DM-only) and NPC knowledge map (~60 NPCs), 9 fair false leads, 10-playstyle discovery paths, a DM-only secret protection matrix (7 apex secrets, safe/unsafe wording + gates), and a blank mystery-state tracker template; cross-linked Stage 10 major quests to REV/clue IDs; secrecy audit `18_audits/STAGE_11_MYSTERY_SECRECY_AUDIT.md` found 0 Critical/0 High (no apex-truth leaks). M0–M10 preserved; no new central mystery/faction/god/cosmology/artifact; Hollow Court protection strengthened. **Stage 9 (NPC Codex)** and **Stage 9.5 (Full-Continent NPC Readiness)** brought the NPC codex to 94 major / 368 secondary / 953 minor across the whole continent. **Stage 10 (Quest Library Expansion) is complete:** 28 major campaign quests (`MAJOR_CAMPAIGN_QUESTS.md`, Q_MAJOR_001–028) + 82 far-continent developed quests across all 12 placeholder regions (`09_quests/by_region/*_QUESTS.md`; total developed quests ~165) + 304 far-continent hooks/rumors/jobs (13 `fc_*` files; 132 hooks + 104 rumors + 68 jobs) on top of ~281 home-region hooks/rumors; cross-cut indexes created (`DEVELOPED_QUESTS_INDEX`, `HOOKS_JOBS_RUMORS_INDEX`, `by_level/`, `by_faction/`, `by_type/`); all 7 major factions covered; every quest solo-safe with noncombat options; no apex-truth leaks in player-facing text. **(Earlier stages, retained for reference:)** Campaign foundation (Stage 1) + AI runtime (Stage 2) + Starting Region Deep Build (Stage 3) + First Major City Deep Build (Stage 4 — Caradril) + **Level 1–4 Play Arc (Stage 5)**. The Sundering Reach has 8 settlements, 4 wilderness zone-files (~25 sites), 6 dungeons/ruins, and zone encounter tables. **Caradril** adds: a city overview + 8 district files (incl. the Sunken Wards sub-dungeon), 15 city secondary NPCs + 25 city minor NPCs, 11 developed city quests, 36 city hooks + 30 city rumors, and a city encounter/social-scene table. **Stage 5 (Act 1)** adds the open-world Level 1–4 play kit: the Act 1 arc spine, 6 faction-alignment quests (`act_1_quests/`), 5 recurring early-threat profiles, an Act 1 clue-trails overlay (existing M1–M9; R1 cap), Act 1 failure-redirect states, Act 1 milestone/XP triggers, and an Act 1 NPC casting guide — all reusing existing mysteries, NPCs, factions, and clocks. City + Act 1 clue access feeds the existing M2/M3/M4/M6/M8/M9 chains; 3 city faction clocks (C1/C2/C3) and 4 city-internal factions exist. **No new central mystery/faction/god/cosmology/artifact created in Stage 5.** Stage 6 (first full audit) is complete — foundation verified sound. **Stage 7 (Regional Expansion Ring 1) is complete:** the three adjacent regions (Ashgarden Vale S, Tollwood E, Pale Coast W) are deep-built — 3 region files, 8 new settlements (Saltmargin reused as Coast gateway), 3 wilderness files (~30 sites + 6 hamlets, after the completion pass added 12 sites), 9 dungeons/ruins (3 per region; 3 gated higher-tier: Old Mast, Skerry Shrine, + the deep levels of Saint Veddow's Tomb/Drowned Lamp), 3 encounter tables, 66 hooks + 60 rumors, 24 developed regional quests (after the completion pass added 4: Lost Crew, Drowned-Bell, Skipper's Debt, Empty Hearth), ~62 Ring 1 NPCs (29 secondary + 33 minor, after the completion pass added 9 secondary + 13 minor), 1 new minor regional faction (the Tollmen), 6 formalized regional clocks (Vale V1/V2, Tollwood T1/T2, Coast C-PC1/C-PC2), and a Ring 1 travel-routes file (6 routes). All new sites feed existing M1–M9 (M2/M3/M5 fragments, gated/oblique M6); the deep-wood and maritime "presences" are gated regional landmark-powers (NOT the Hollow Court). **No new central mystery/major faction/god/cosmology/artifact created in Stage 7.** **Full-World Cartographic Expansion pass (post-Stage-7):** added 4 full-continent atlas files (`FULL_WORLD_MAP_AUTHORITY/COORDINATES/LAYERS/PROMPTS.md`) expanding the map from the NW campaign quarter to the whole continent of Orrun — 13 placeholder regions, all continental water/terrain features, 3 overseas Vael landmasses, 8 map layers, 5 image prompts. The existing `WORLD_MAP_*` files are retained as the campaign-area (NW Orrun) authority. **Endgame remains vertical (under Hollowmere); no new factions/gods/mysteries/artifacts; placeholders not deep-built.** **Stage 8 (Faction Deepening) complete:** all seven major factions made fully operational — each has a 4-quest chain (`09_quests/faction_quests/[FACTION]/`, 28 quest files + 7 chain indexes), a "Combat Capability And Stat References" section with rank-and-file adversary profiles, and cross-links; two new cross-faction files (`FACTION_RELATIONSHIP_MAP.md` full pairwise map incl. the Court's hidden ties; `FACTION_TURN_RULES.md` between-session behavior); runtime `FACTION_STATE.md`/`WORLD_CLOCKS.md` updated with chain-lever references. **No new proper nouns, central mystery, major faction, god, cosmology, or artifact created** — only rank-and-file adversary *types* and authored quest structure reusing existing NPCs/clocks/mysteries; Hollow Court secrecy preserved (DM-only chain; no early recruit).
 
 ---
 
@@ -20,7 +20,31 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Status | Summary | Tags |
 |---|---|---|---|---|---|
-| — | — | — | — | Not yet created | — |
+| Sundering Reach | `05_regions/SUNDERING_REACH.md` | mixed | static (deep-built Stage 3) | Starting region; ruin-haunted frontier; keystone of the harvest; 8 settlements, 4 wilderness zones, 6 dungeons | starting-region |
+| Ashgarden Vale (S) | `05_regions/ASHGARDEN_VALE.md` | mixed | static (deep-built Stage 7) | Ring 1 south; farmland/shrine-towns; the Vale's denial; Saint Veddow's node; Lvl 1–6 | ring-1, region:ashgarden-vale |
+| Tollwood (E) | `05_regions/TOLLWOOD.md` | mixed | static (deep-built Stage 7) | Ring 1 east; old-growth forest; toll-roads; pre-Concord Old Mast presence (gated); Lvl 2–7 | ring-1, region:tollwood |
+| Pale Coast (W) | `05_regions/PALE_COAST.md` | mixed | static (deep-built Stage 7) | Ring 1 west; fishing/salt; maritime nodes (Drowned Lamp); the drowned-tide; Lvl 2–7 | ring-1, region:pale-coast |
+| Caradril (city-state, SE) | `06_settlements/CARADRIL.md` | mixed | static (deep-built Stage 4) | First major city; mid-game hub; 8 districts; Ledger HQ + Remnant seat | major-city, region:caradril |
+| (Orrun world overview) | `04_world_atlas/WORLD_OVERVIEW.md` | mixed | static | Continent overview; 5 named regions | world |
+
+### Far-Continent Regions (region files built 2026-07-07 — Phase 5 consolidation)
+
+Canonical `05_regions/` anchors consolidating each far region's authored layers (map packet + NPC roster + quests + dungeon + arc pack). No new canon; settlement gazetteers remain the eagle-test map packets.
+
+| Name | File | Level | Summary | Tags |
+|---|---|---|---|---|
+| Verdance Reaches | `05_regions/VERDANCE_REACHES.md` | 8–12 | Ring 2 river-corridor; locks, lords, Ledger inland push; bad water (M2/M5 inland) | far-region, ring-2, region:verdance-reaches |
+| Glassmere League | `05_regions/GLASSMERE_LEAGUE.md` | 9–13 | City-league; the bank war (Ledger's continental rival); Reliquary; the Ear | far-region, city-league, region:glassmere-league |
+| Marrowdowns | `05_regions/MARROWDOWNS.md` | 6–10 | Pastoral chalk-downs; restless pre-Concord barrows; gentlest far region | far-region, region:marrowdowns |
+| Sallowmarch Protectorate | `05_regions/SALLOWMARCH_PROTECTORATE.md` | 10–14 | Fever-delta under foreign occupation; smuggling; drowned grounds | far-region, region:sallowmarch |
+| Hollow Gulf Ports | `05_regions/HOLLOW_GULF_PORTS.md` | 10–15 | Rival warm-water ports; privateers; overseas gate (Surren) | far-region, maritime, region:hollow-gulf |
+| Saltmere Reaches | `05_regions/SALTMERE_REACHES.md` | 11–15 | Dying salt sea; drowned pre-Concord towns; older-fall proof | far-region, region:saltmere |
+| Concord Heartlands | `05_regions/CONCORD_HEARTLANDS.md` | 13–17 | The Ruin'd Crown; the truth-race; SURFACE ruin only (never the keystone) | far-region, tier-3, region:concord-heartlands |
+| Hethewald Free Holds | `05_regions/HETHEWALD_FREE_HOLDS.md` | 7–12 | Tollwood writ large; failing bargains; forbidden Old Holds | far-region, forest, region:hethewald |
+| Emberfell Theocracy | `05_regions/EMBERFELL_THEOCRACY.md` | 12–16 | Closed fire-theocracy; thematic mirror of the harvest; oldest pre-Concord ruins | far-region, theocracy, region:emberfell |
+| Wender Steppe | `05_regions/WENDER_STEPPE.md` | 8–13 | Free horse-clans outside Concord history; the thinning sky (oblique) | far-region, steppe, region:wender-steppe |
+| Karran Marches | `05_regions/KARRAN_MARCHES.md` | 9–14 | Warlord frontier; the deep that went wrong; dark mirror of the Reach | far-region, frontier, region:karran-marches |
+| Sunmark | `05_regions/SUNMARK.md` | 8–13 | Living grove-faith; the hopeful contrast; rites that still work | far-region, sanctuary, region:sunmark |
 
 ---
 
@@ -28,7 +52,36 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Region | Secrecy | Status | Summary | Tags |
 |---|---|---|---|---|---|---|
-| — | — | — | — | — | Not yet created | — |
+| Hollowmere | `06_settlements/HOLLOWMERE.md` | Sundering Reach | mixed | static | Starting town/hub on the drowned basin | starting-settlement, hub |
+| Kettle Bridge | `06_settlements/KETTLE_BRIDGE.md` | Sundering Reach | mixed | static | Second town; Mirewend crossing & toll-town (E) | town, travel-hub |
+| Saltmargin | `06_settlements/SALTMARGIN.md` | Sundering Reach | mixed | static | Western salt-trade gateway town | town, trade |
+| Candlewick | `06_settlements/CANDLEWICK.md` | Sundering Reach | mixed | static | Southern candle/farm village; Concord Script gate | village, clue |
+| Greywater Holm | `06_settlements/GREYWATER_HOLM.md` | Sundering Reach | mixed | static | Greyfens-edge village; rites fail worst; cult spread | village, clue |
+| Harrowgast | `06_settlements/HARROWGAST.md` | Sundering Reach | mixed | static | Heights mining ruin-town (Lvl 2–5); Deep Adit | mining-village, exploration |
+| Reedford | `06_settlements/REEDFORD.md` | Sundering Reach | mixed | static | Tiny ford-hamlet; gentle Lvl-1 waypoint | hamlet |
+| The Ashwalk Rest | `06_settlements/THE_ASHWALK_REST.md` | Sundering Reach | mixed | static | Warden waystation; open-Reach solo-safety sanctuary | outpost, solo-safety, patron |
+| **Caradril** | `06_settlements/CARADRIL.md` | Caradril (Orrun, SE) | mixed | static | **First major city**; city-state; Ledger HQ + Remnant seat; mid-game hub (Lvl 5–12); 8 districts | major-city, hub |
+| Orchardmere | `06_settlements/ORCHARDMERE.md` | Ashgarden Vale | mixed | static | Vale hub; cider-town; the cover-up; harvest-moot (Lvl 1–5) | ring-1, town, hub |
+| Saint Veddow's Rest | `06_settlements/SAINT_VEDDOWS_REST.md` | Ashgarden Vale | mixed | static | Pilgrimage shrine-town over a capped Concord node (Lvl 2–6) | ring-1, town, clue |
+| Tilbrook | `06_settlements/TILBROOK.md` | Ashgarden Vale | mixed | static | Mill village; honest M5 window; Ledger debt (Lvl 1–3) | ring-1, village |
+| Hartfell | `06_settlements/HARTFELL.md` | Tollwood | mixed | static | Tollwood hub; stockaded road-town; logging push (Lvl 2–6) | ring-1, town, hub |
+| Coldhearth | `06_settlements/COLDHEARTH.md` | Tollwood | mixed | static | Charcoal village; forest-bargain; deep-secret keeper (Lvl 3–6) | ring-1, village, clue |
+| Tollstone Cross | `06_settlements/TOLLSTONE_CROSS.md` | Tollwood | mixed | static | Bandit toll-hamlet; the toll-war; road-node (Lvl 2–4) | ring-1, hamlet, combat |
+| Wrackmouth | `06_settlements/WRACKMOUTH.md` | Pale Coast | mixed | static | Coast hub/port; salt monopoly; water-route to Caradril (Lvl 2–6) | ring-1, town, hub |
+| Cobble Strand | `06_settlements/COBBLE_STRAND.md` | Pale Coast | mixed | static | Shingle-cove fishing village; honest M5/M2 window; salt-and-tide rite (Lvl 2–5) | ring-1, village, clue |
+
+### Caradril Districts (Stage 4)
+
+| District | File | Power Bloc | Secrecy | Summary | Tags |
+|---|---|---|---|---|---|
+| The Magisterium | `06_settlements/caradril_districts/THE_MAGISTERIUM.md` | Tidewater Council | mixed | Government quarter; charter politics; correspondent thread | district, social |
+| The Counting-Quays | `06_settlements/caradril_districts/THE_COUNTING_QUAYS.md` | Cinder Ledger | mixed | Banking/harbor; Ledger Keep; Vyre–Quorrin deal (M3/M6) | district, clue, patron |
+| The Lantern Reach | `06_settlements/caradril_districts/THE_LANTERN_REACH.md` | Concord Remnant | mixed | Scholars; Concord Script gate; Sealed Archive (M6/M9) | district, clue, secret |
+| The Ashmarket | `06_settlements/caradril_districts/THE_ASHMARKET.md` | Salt Syndicate | mixed | Relic/salvage trade; quiet-coin (M3) | district, clue |
+| Highmourn | `06_settlements/caradril_districts/HIGHMOURN.md` | clergy/Mourners | mixed | Temples/cemetery; raise-dead cover-up (Secret 7); solo-safety | district, clue, solo-safety |
+| The Crucible | `06_settlements/caradril_districts/THE_CRUCIBLE.md` | Craft guilds | mixed | Foundries; relic-smelting (M3); gear commerce | district, clue |
+| The Sill | `06_settlements/caradril_districts/THE_SILL.md` | The Hush | mixed | Poor undercity; refugees (M10); the Bellman; Sealgate | district, social, clue |
+| The Sunken Wards | `06_settlements/caradril_districts/THE_SUNKEN_WARDS.md` | (delvers/Remnant) | mixed | Flooded sub-dungeon; M2/M3 cousin-site; Lvl 6–14 | district, ruin, exploration |
 
 ---
 
@@ -36,7 +89,38 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Scope | Secrecy | Summary | Tags |
 |---|---|---|---|---|---|
-| — | — | — | — | Not yet created | — |
+| Ashen Wardens | `07_factions/major_factions/ASHEN_WARDENS.md` | Reach/Orrun | mixed | Rite-keepers; unknowing seal-guardians | patron, solo-safety |
+| Cinder Ledger | `07_factions/major_factions/CINDER_LEDGER.md` | Orrun | mixed | Merchant-bank; Remembrance monopoly schemer | patron, social |
+| Mourners' Circle | `07_factions/major_factions/MOURNERS_CIRCLE.md` | Reach | mixed | Folk grief-faith; moral truth; may break shrines | social, secret |
+| Reachward Compact | `07_factions/major_factions/REACHWARD_COMPACT.md` | Reach | mixed | Frontier council; infiltrated; basin scheme | quest-hook, social |
+| Gravecallers | `07_factions/major_factions/GRAVECALLERS.md` | Reach | mixed | Outlawed cult; truth-source; catastrophic method | clue, secret |
+| Concord Remnant | `07_factions/major_factions/CONCORD_REMNANT.md` | Orrun/Caradril | mixed | Scholars; inner circle would seize the harvest | clue, secret |
+| Hollow Court | `07_factions/major_factions/HOLLOW_COURT.md` | Reach (under-shrine) | dm-only | Apex power; surviving Custodians; restarts harvest | boss, main-arc |
+| Tidewater Council / Charter Houses | `06_settlements/caradril_districts/THE_MAGISTERIUM.md` | Caradril | mixed | City-internal: merchant government; complacent | city-faction, social |
+| Tide-Watch | `06_settlements/caradril_districts/THE_MAGISTERIUM.md` | Caradril | mixed | City-internal: city watch (turnable captain) | city-faction |
+| Salt Syndicate | `06_settlements/caradril_districts/THE_ASHMARKET.md` | Caradril | mixed | City-internal: smuggling + relic black market (M3) | city-faction, clue |
+| The Hush | `06_settlements/caradril_districts/THE_SILL.md` | Caradril | mixed | City-internal: information/blackmail; clue-shortcuts | city-faction, clue |
+| The Tollmen | `07_factions/minor_factions/THE_TOLLMEN.md` (standalone file 2026-07-07; canon source `06_settlements/TOLLSTONE_CROSS.md`) | Tollwood | mixed | Minor regional: East Road toll-bandits; turnable (Renn) vs murderous (Skell); clock T2 | ring-1, regional-faction, minor-faction |
+| (Minor factions folder README) | `07_factions/minor_factions/README.md` | — | mixed | Which minor factions get standalone files vs. live inline (full roster + locations) | index, minor-faction |
+| (Faction index) | `07_factions/FACTION_INDEX.md` | — | mixed | Master faction table + per-faction quest-chain links (incl. city factions) | index |
+| (Faction relationship map) | `07_factions/FACTION_RELATIONSHIP_MAP.md` | — | mixed | **Stage 8** — full pairwise relationships + the Court's hidden ties + blocs | index, relationships |
+| (Faction turn rules) | `07_factions/FACTION_TURN_RULES.md` | — | mixed | **Stage 8** — between-session faction behavior; clock advancement; rumors; state updates | protocol, faction-turn |
+
+---
+
+## Faction Quest Chains (Stage 8)
+
+Each major faction has a 4-quest chain (intro → trust → moral complication → internal-conflict decision point), in `09_quests/faction_quests/[FACTION]/`. Each folder has a `_CHAIN_INDEX.md`. The Hollow Court chain is **DM-only** (opposition/revelation; no early recruit).
+
+| Faction | Folder | Quests | Secrecy |
+|---|---|---|---|
+| Ashen Wardens | `09_quests/faction_quests/ASHEN_WARDENS/` | QW1–QW4 | mixed |
+| Cinder Ledger | `09_quests/faction_quests/CINDER_LEDGER/` | QL1–QL4 | mixed |
+| Mourners' Circle | `09_quests/faction_quests/MOURNERS_CIRCLE/` | QM1–QM4 | mixed |
+| Reachward Compact | `09_quests/faction_quests/REACHWARD_COMPACT/` | QC1–QC4 | mixed |
+| Gravecallers | `09_quests/faction_quests/GRAVECALLERS/` | QG1–QG4 | mixed |
+| Concord Remnant | `09_quests/faction_quests/CONCORD_REMNANT/` | QR1–QR4 | mixed |
+| Hollow Court | `09_quests/faction_quests/HOLLOW_COURT/` | QH1–QH4 | **dm-only** |
 
 ---
 
@@ -44,7 +128,30 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Tier | Location | Faction | Secrecy | Summary | Tags |
 |---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | Not yet created | — |
+| 94 Major NPCs (50 core + 44 far) | `08_npcs/MAJOR_NPCS.md` (+ `08_npcs/by_region/CARADRIL_MAJOR_NPCS.md` + `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` + 12 `08_npcs/by_region/*_NPCS.md`) | Major | all of Orrun | all | mixed | 50 core (20 foundation + 30 Stage 9) + 44 Stage 9.5 far-continent (12 placeholder regions, Lvl 6–17); see per-region NPC files | major-npc, stage-9, stage-9.5 |
+| (Stage 9.5 light NPC-facing anchors) | `00_control/NAMING_REGISTRY.md` (Stage 9.5 anchors table) + 12 `08_npcs/by_region/*_NPCS.md` | — | 12 far-continent regions | — | mixed | Light place-anchors (towns, camps, districts, wharves, groves, roads) coined to locate far-region NPCs — **not full settlements or major map features; not deep-built** | far-continent, anchor, stage-9.5 |
+| Stage 9 Pass-2 Major NPCs | `08_npcs/by_region/STAGE_9_MAJOR_NPCS.md` | Major | Reach/Caradril/Ring 1 | all | mixed | M33–M48 + M49b/M50b (18 new/elevated): mine-lord, bridge-keeper, labor-leader, cult cell-mother, Script-keeper, Sill advocate, relic-auctioneer, Hush broker, undercity guide, Warden dissident, honest Compact authority, Ledger enforcer-captain, physician-sage, Vale magnate, Tollmen boss, Coast reeve, Script-tutor, wrecker-lord | major-npc, stage-9, pass-2 |
+| 368 Secondary NPCs | `08_npcs/SECONDARY_NPCS.md` (+ `08_npcs/by_region/STAGE_9_SECONDARY_NPCS.md` + 12 far-continent `*_NPCS.md`) | Secondary | all of Orrun | all | mixed | Stage 3/4/7 (64) + Stage 9 (~136) + Stage 9.5 far-continent (168 across 12 regions; 164 distinct-authored + 4 cross-listed) | secondary-npc, stage-9, stage-9.5 |
+| 953 Minor NPCs | `08_npcs/MINOR_NPCS.md` (+ `08_npcs/by_region/STAGE_9_MINOR_NPCS.md` + 12 far-continent `*_NPCS.md`) | Minor | all of Orrun | all | mixed | Stage 3/4/7 (92) + Stage 9 fill (403) + far-continent scaffold (26) + Stage 9.5 far-continent (432 across 12 regions) | minor-npc, stage-9, stage-9.5 |
+| Far-continent NPC scaffold | `08_npcs/by_region/FAR_CONTINENT_NPCS.md` | Minor | 12 placeholder regions | mixed | mixed | 26 light horizon-figures; **superseded by the 12 Stage 9.5 region files** (retained for compatibility) | minor-npc, placeholder, stage-9 |
+| Caradril density expansion | `08_npcs/by_region/CARADRIL_EXPANSION_NPCS.md` | Secondary + Minor | Caradril (all 8 districts + Stillwater) | all city blocs | mixed | **2026-07-07:** +12 secondary / +24 minor raising Caradril to ~84 named (Stage 4 target band); texture-and-function NPCs with gated M3/M5/M6-fringe details | secondary-npc, minor-npc, region:caradril, phase-5 |
+| Verdance Reaches NPC file | `08_npcs/by_region/VERDANCE_REACHES_NPCS.md` | mixed | Verdance Reaches | all | mixed | 4 major / 18 secondary / 35 minor; far-continent placeholder region (river-corridor; Lvl 8–12) | far-continent, npc, stage-9.5, region:verdance-reaches |
+| Concord Heartlands NPC file | `08_npcs/by_region/CONCORD_HEARTLANDS_NPCS.md` | mixed | Concord Heartlands | all | mixed | 4 major / 16 secondary / 35 minor; far-continent placeholder region (Ruin'd Crown; Lvl 13–17; apex-adjacent care) | far-continent, npc, stage-9.5, region:concord-heartlands |
+| Glassmere League NPC file | `08_npcs/by_region/GLASSMERE_LEAGUE_NPCS.md` | mixed | Glassmere League | all | mixed | 5 major / 19 secondary / 47 minor; far-continent placeholder region (city-world; Ledger heartland; Lvl 9–13) | far-continent, npc, stage-9.5, region:glassmere-league |
+| Hethewald Free Holds NPC file | `08_npcs/by_region/HETHEWALD_FREE_HOLDS_NPCS.md` | mixed | Hethewald Free Holds | all | mixed | 3 major / 15 secondary / 35 minor; far-continent placeholder region (forest free-holds; Lvl 7–12) | far-continent, npc, stage-9.5, region:hethewald |
+| Hollow Gulf Ports NPC file | `08_npcs/by_region/HOLLOW_GULF_PORTS_NPCS.md` | mixed | Hollow Gulf Ports | all | mixed | 5 major / 15 secondary / 43 minor; far-continent placeholder region (maritime south; door overseas; Lvl 10–15) | far-continent, npc, stage-9.5, region:hollow-gulf-ports |
+| Saltmere Reaches NPC file | `08_npcs/by_region/SALTMERE_REACHES_NPCS.md` | mixed | Saltmere Reaches | all | mixed | 3 major / 12 secondary / 34 minor; far-continent placeholder region (drowned-town salt-clans; Lvl 11–15) | far-continent, npc, stage-9.5, region:saltmere-reaches |
+| Emberfell Theocracy NPC file | `08_npcs/by_region/EMBERFELL_THEOCRACY_NPCS.md` | mixed | Emberfell Theocracy | all | mixed | 4 major / 12 secondary / 36 minor; far-continent placeholder region (fire-theocracy; thematic mirror; Lvl 12–16) | far-continent, npc, stage-9.5, region:emberfell-theocracy |
+| Sallowmarch Protectorate NPC file | `08_npcs/by_region/SALLOWMARCH_PROTECTORATE_NPCS.md` | mixed | Sallowmarch Protectorate | all | mixed | 4 major / 13 secondary / 35 minor; far-continent placeholder region (imperial fever-delta; Lvl 10–14) | far-continent, npc, stage-9.5, region:sallowmarch-protectorate |
+| Marrowdowns NPC file | `08_npcs/by_region/MARROWDOWNS_NPCS.md` | mixed | Marrowdowns | all | mixed | 3 major / 12 secondary / 35 minor; far-continent placeholder region (pastoral barrow-downs; Lvl 6–10) | far-continent, npc, stage-9.5, region:marrowdowns |
+| Wender Steppe NPC file | `08_npcs/by_region/WENDER_STEPPE_NPCS.md` | mixed | Wender Steppe | all | mixed | 3 major / 12 secondary / 31 minor; far-continent placeholder region (horse-clans outside the Concord; Lvl 8–13) | far-continent, npc, stage-9.5, region:wender-steppe |
+| Karran Marches NPC file | `08_npcs/by_region/KARRAN_MARCHES_NPCS.md` | mixed | Karran Marches | all | mixed | 3 major / 12 secondary / 33 minor; far-continent placeholder region (warlord mining-frontier; Reach-mirror; Lvl 9–14) | far-continent, npc, stage-9.5, region:karran-marches |
+| Sunmark NPC file | `08_npcs/by_region/SUNMARK_NPCS.md` | mixed | Sunmark | all | mixed | 3 major / 12 secondary / 33 minor; far-continent placeholder region (living grove-faith; hopeful contrast; Lvl 8–13) | far-continent, npc, stage-9.5, region:sunmark |
+| NPC Relationship Web | `08_npcs/NPC_RELATIONSHIP_WEB.md` | — | all | all | mixed | Death/exposure reactions, faction & settlement clusters, leverage map (+ Stage 9.5 full-continent web) | npc, relationships, stage-9, stage-9.5 |
+| NPC Secret Ledger | `08_npcs/NPC_SECRET_LEDGER.md` | — | all | all | dm-only | Per-NPC secret, secrecy tier, reveal gate, mystery fed | npc, secrets, dm-only, stage-9 |
+| NPC Voice Guide | `08_npcs/NPC_VOICE_GUIDE.md` | — | all | all | mixed | Voice handles + regional/faction speech tendencies + sample lines | npc, voice, stage-9 |
+| Act 1 NPC Guide (Stage 5) | `08_npcs/ACT_1_NPC_GUIDE.md` | — | Reach | all | mixed | Casting guide: existing NPCs as Act 1 allies/patrons/rivals/witnesses/complications + safe re-entry points. No new NPCs | npc, act:1, level:1-4 |
+| (NPC index) | `08_npcs/NPC_INDEX.md` | — | — | — | mixed | Master NPC table + codex file map (major/secondary/minor/infrastructure) | index |
 
 ---
 
@@ -52,7 +159,25 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Type | Level | Region | Status | Summary | Tags |
 |---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | Not yet created | — |
+| First 10 Hooks | `09_quests/HOOKS_TABLE.md` | Hooks | 1-4 | Sundering Reach | static | Session-sized Act 1 hooks (Hook 1 = default opener) | quest-hook, act-1 |
+| First 20 Rumors | `09_quests/RUMORS_TABLE.md` | Rumors | 1-4 | Sundering Reach | static | Act 1 rumors, all pointing to authored content | rumor, act-1 |
+| Regional Hooks (H11–H39) | `09_quests/hooks_and_rumors/SUNDERING_REACH_HOOKS.md` | Hooks | 1-5 | Sundering Reach | static | 29 more hooks by area (39 total) | quest-hook |
+| Regional Rumors (R21–R50) | `09_quests/hooks_and_rumors/SUNDERING_REACH_RUMORS.md` | Rumors | 1-5 | Sundering Reach | static | 30 more rumors by area (50 total) | rumor |
+| 14 Developed Quests | `09_quests/regional_quests/*.md` | Regional/Faction/Mystery | 1-5 | Sundering Reach | static | Full-standard quests (Salt Run, Broken Arch, Light on the Scale, Holm That Won't Bury Its Dead, Sold Stone, Race North, Bailiff's Ladder, Reed Holms, Sashe's Warning, Grey Woman, Second Mark, Pell's Doubt, Scholar's Request, Failing Funeral) | quest |
+| Caradril Hooks (CH1–36) | `09_quests/hooks_and_rumors/CARADRIL_HOOKS.md` | Hooks | 3-12 | Caradril | static | 36 city hooks by district, all pointing to authored content | quest-hook, region:caradril |
+| Caradril Rumors (CR1–30) | `09_quests/hooks_and_rumors/CARADRIL_RUMORS.md` | Rumors | 3-12 | Caradril | static | 30 city rumors by district | rumor, region:caradril |
+| 11 Developed City Quests | `09_quests/city_quests/*.md` | City/Faction/Mystery | 3-12 | Caradril | static | Full-standard city quests (Sealed Letter, Open Charter, Quay Charter, Lantern & Lamp, Sealed Archive, Quiet Coin, Funeral That Wouldn't Take, Smelting, Bellman's Price, Below the Stilling, Tide Turns) | quest, region:caradril |
+| 6 Act 1 Faction Quests | `09_quests/act_1_quests/*.md` | Faction (Act 1) | 1-4 | Sundering Reach | static | Faction-alignment quests, one per major faction (Warden True Rite, Compact Reeve's Doubt, Ledger Quiet Salvage, Mourner Salt & Song, Gravecaller Last Word, Remnant Visiting Scholar). Hollow Court has none by design | quest, act:1, level:1-4 |
+| Ashgarden Vale Hooks (AV-H1–22) + Rumors (AV-R1–20) | `09_quests/hooks_and_rumors/ASHGARDEN_VALE_*.md` | Hooks/Rumors | 1-6 | Ashgarden Vale | static | 22 hooks + 20 rumors, all to authored Vale content | ring-1, quest-hook, rumor |
+| 8 Vale Developed Quests | `09_quests/regional_quests/Q_*.md` (Vale) | Regional/Mystery | 1-6 | Ashgarden Vale | static | Funeral Done Twice, Saint's Bones, Sealed Door, Loaf That Moves, Marks on the Doors, Saint Who Weeps, Crows of Marrow Cross, What's Under the Orchard | ring-1, quest |
+| Tollwood Hooks (TW-H1–22) + Rumors (TW-R1–20) | `09_quests/hooks_and_rumors/TOLLWOOD_*.md` | Hooks/Rumors | 2-7 | Tollwood | static | 22 hooks + 20 rumors, all to authored Tollwood content | ring-1, quest-hook, rumor |
+| 8 Tollwood Developed Quests | `09_quests/regional_quests/Q_*.md` (Tollwood) | Regional/Mystery | 2-8 | Tollwood | static | Marked Oaks, Toll-War, Drowned Vault, The Bargain, Hanging Oaks, To the Edge (gated), Reckless Guide, Lost Crew | ring-1, quest |
+| Pale Coast Hooks (PC-H1–22) + Rumors (PC-R1–20) | `09_quests/hooks_and_rumors/PALE_COAST_*.md` | Hooks/Rumors | 2-7 | Pale Coast | static | 22 hooks + 20 rumors, all to authored Coast content | ring-1, quest-hook, rumor |
+| 8 Coast Developed Quests | `09_quests/regional_quests/Q_*.md` (Coast) | Regional/Mystery | 2-6 | Pale Coast | static | Salt-Price, Salt-Mother's Burden, What the Lamp Holds, Cove Caves, Wreckers, Drowned-Bell, Skipper's Debt, Empty Hearth | ring-1, quest |
+| 28 Major Campaign Quests (Stage 10) | `09_quests/MAJOR_CAMPAIGN_QUESTS.md` | Major | 1-20 | all | static | Q_MAJOR_001–028; multi-session spines for the level 1–20 story (Q_MAJOR_014 = Hollow Court, **dm-only**) | quest, major, stage-10 |
+| 82 Far-Continent Developed Quests (Stage 10) | `09_quests/by_region/*_QUESTS.md` (12 files) | Regional/Faction/Mystery/Travel | 6-17 | 12 far-continent regions | static | Verdance(7)/Glassmere(8)/Hollow Gulf(8)/Emberfell(8)/Sallowmarch(7)/Hethewald(7)/Saltmere(7)/Karran(7)/Sunmark(7)/Marrowdowns(5)/Wender(5)/Concord Heartlands(6); 82 unique IDs; every quest solo-safe w/ noncombat options; apex truth never leaked | quest, far-continent, stage-10 |
+| 304 Far-Continent Hooks/Rumors/Jobs (Stage 10) | `09_quests/hooks_and_rumors/fc_*.md` (13 files) | Hooks/Rumors/Jobs | 6-17 | 12 far-continent regions + cross-region | static | 12 `fc_[REGION]_HOOKS.md` (23 each) + `fc_CROSS_REGION_TRAVEL.md` (28); 132 hooks + 104 rumors + 68 jobs; truth-status + DM-only "points-toward" per entry | quest-hook, rumor, far-continent, stage-10 |
+| Quest Indexes (Stage 10) | `09_quests/{QUEST_INDEX,DEVELOPED_QUESTS_INDEX,HOOKS_JOBS_RUMORS_INDEX}.md` + `by_level/`, `by_faction/`, `by_type/` | Index | 1-20 | all | static | Master quest index + developed-quest list + hooks/jobs/rumors index + cross-cuts by level/faction/type | index, quest, stage-10 |
 
 ---
 
@@ -60,7 +185,22 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Status | Summary | Related Clues |
 |---|---|---|---|---|---|
-| — | — | — | — | Not yet created | — |
+| Mystery Web (M0–M10 + 7-layer hierarchy) | `11_mysteries_and_secrets/MYSTERY_WEB.md` | dm-only | static | Full mystery network; 3+ clue paths each; Stage 11 mystery hierarchy + far-continent echo cross-ref | CLUE_INDEX (populated) |
+| Revelation Map (REV_001–REV_010) | `11_mysteries_and_secrets/REVELATION_MAP.md` | dm-only | static | **Stage 11:** formal revelations, each >=3 independent clue sources; dependency graph; phase gates (legacy R1–R8 mapped) | CLUE_INDEX |
+| Clue Index (C-M* + region-coded) | `11_mysteries_and_secrets/CLUE_INDEX.md` | dm-only | static | **Stage 11:** region-coded clue layer (C_SR_/C_CAR_/C_AV_/C_TW_/C_PC_/C_FC_) + per-REV three-source verification | MYSTERY_WEB, REVELATION_MAP |
+| Secret Index (20) | `11_mysteries_and_secrets/SECRET_INDEX.md` | dm-only | static | The 20 major campaign secrets; Stage 11 REV cross-ref | SECRET_PROTECTION_MATRIX |
+| Secret Protection Matrix (7 apex secrets) | `11_mysteries_and_secrets/SECRET_PROTECTION_MATRIX.md` | dm-only | static | **Stage 11:** safe/unsafe wording + phase gates for the harvest/Court/keystone/Concord-Deep/Quietfall/machine/steering | DM_ONLY_CANON |
+| Faction Knowledge Map (7 factions) | `11_mysteries_and_secrets/by_faction/FACTION_KNOWLEDGE_MAP.md` | dm-only | static | **Stage 11:** what each faction knows/hides/misreads + clue access by trust/enmity; Hollow Court section apex-DM-only | MYSTERY_WEB |
+| NPC Knowledge Map (~60 NPCs) | `11_mysteries_and_secrets/NPC_KNOWLEDGE_MAP.md` | dm-only | static | **Stage 11:** per-NPC know/suspect/hide + reveal conditions (free/trust/pressure/never) + phase gates | NPC_SECRET_LEDGER |
+| False Leads & Misdirections (9) | `11_mysteries_and_secrets/FALSE_LEADS_AND_MISDIRECTIONS.md` | dm-only | static | **Stage 11:** FL_001–FL_009; all fair/recoverable; pacing summary | MYSTERY_WEB |
+| Discovery Paths (10 playstyles) | `11_mysteries_and_secrets/DISCOVERY_PATHS.md` | dm-only | static | **Stage 11:** how each playstyle reaches every REV; universal anti-railroad redirect rules | REVELATION_MAP |
+| Mystery State Tracker (template) | `11_mysteries_and_secrets/MYSTERY_STATE_TRACKER_TEMPLATE.md` | dm-only | template | **Stage 11:** blank runtime tracker (clues found/missed, REV status, false leads, faction alerts, secrets-at-risk) | KNOWN/HIDDEN_CLUES |
+| Regional Clue Trails (6) | `11_mysteries_and_secrets/by_region/*_CLUES.md` | dm-only | static | **Stage 11:** Sundering Reach, Caradril, Vale, Tollwood, Coast, far-continent echoes — early/mid/late clues, gates, what-not-to-reveal | CLUE_INDEX |
+| Act 1 Clue Trails (Stage 5) | `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md` | dm-only | static | Which existing clues a L1–4 player reaches; multi-route R1 access; three-clue check; R1 reveal cap. No new clues | CLUE_INDEX (M1–M9 subset) |
+| Mystery Chains Index (wrapper) | `11_mysteries_and_secrets/MYSTERY_CHAINS.md` | mixed | static | **Stage 11 cleanup:** navigation index for the full mystery chain infrastructure; links to all mystery files by layer; player-safe framing at top | MYSTERY_WEB, REVELATION_MAP, CLUE_INDEX |
+| False Leads (alias) | `11_mysteries_and_secrets/FALSE_LEADS.md` | mixed | static | **Stage 11 cleanup:** alias/navigation entry pointing to FALSE_LEADS_AND_MISDIRECTIONS.md; matches DEVELOPMENT_STAGES.md required filename | FALSE_LEADS_AND_MISDIRECTIONS |
+| Reveal Timing (phase gates) | `11_mysteries_and_secrets/REVEAL_TIMING.md` | mixed | static | **Stage 11 cleanup:** quick-reference chart of all 10 REV phase gates, earliest level, prereqs, and safe-foreshadowing policy | REVELATION_MAP, SECRET_PROTECTION_MATRIX |
+| Prophecies and Omens (policy) | `11_mysteries_and_secrets/PROPHECIES_AND_OMENS.md` | mixed | static | **Stage 11 cleanup:** omen delivery policy; omens-as-clues approach; Mourner old-songs special case; what not to do | CLUE_INDEX, NPC_KNOWLEDGE_MAP |
 
 ---
 
@@ -68,15 +208,69 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Mystery | Discovery Status | Location | Secrecy |
 |---|---|---|---|---|---|
-| — | — | — | — | Not yet created | — |
+| (Clue paths embedded) | `11_mysteries_and_secrets/MYSTERY_WEB.md` | M0–M10 | hidden | various | dm-only |
+| Clue Index (all authored clues) | `11_mysteries_and_secrets/CLUE_INDEX.md` | M0–M10 | hidden | various | dm-only — populated; clue IDs + methods + three-clue check |
+
+---
+
+## Wilderness Locations
+
+| Name | File | Region | Level | Status | Summary | Tags |
+|---|---|---|---|---|---|---|
+| Greyfens sites | `05_regions/wilderness/GREYFENS_SITES.md` | Sundering Reach | 2-5 | static | 6 named fen sites; M5 drift, Gravecaller cell | greyfens, clue |
+| Sunder Heights sites | `05_regions/wilderness/SUNDER_HEIGHTS_SITES.md` | Sundering Reach | 2-6 | static | 6 named highland-ruin sites; Reclamation race | sunder-heights |
+| Mirewend & Roads sites | `05_regions/wilderness/MIREWEND_AND_ROADS_SITES.md` | Sundering Reach | 1-4 | static | Star-Stones, causeways, river; travel layer | roads, river, travel |
+| Basin Shore & Holms sites | `05_regions/wilderness/BASIN_SHORE_AND_HOLMS_SITES.md` | Sundering Reach | 1-5 | static | Shore, Surfacing Ruin (M2), Reed Holms; deep basin off-limits early | basin, clue |
+| Ashgarden Vale sites | `05_regions/wilderness/ASHGARDEN_VALE_SITES.md` | Ashgarden Vale | 1-5 | static | 10 sites + 3 hamlets; orchard ruins, Marrow Cross, the downs, Cider-Wake Orchard, Drowned Lane, Beacon Tump, Saint Veddow's Spring | ring-1, clue |
+| Tollwood sites | `05_regions/wilderness/TOLLWOOD_SITES.md` | Tollwood | 2-7 | static | 10 sites; East Road, Coppice Shrines, Green Mile, Hanging Oaks, Old Mast edge (gated), Charcoal Burns, Withy Bog, Mast-Beasts' Range, Sentinel Oaks | ring-1, clue |
+| Pale Coast sites | `05_regions/wilderness/PALE_COAST_SITES.md` | Pale Coast | 2-7 | static | 10 sites; cliff-road, sea-caves, Drowned Lamp headland, the Skerries (gated), Drowned-Cairns, Salt-Pan Flats, Lantern Stacks, Weeping Light | ring-1, clue |
 
 ---
 
 ## Dungeons / Ruins
 
+> **Master index:** `10_dungeons_and_ruins/DUNGEON_INDEX.md` (all 23 sites by region/level/faction/mystery/type/danger). **Puzzle/investigation index:** `10_dungeons_and_ruins/PUZZLE_DUNGEONS.md`. **New dungeon adversary profiles:** `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md`.
+
 | Name | File | Region | Level | Status | Summary | Tags |
 |---|---|---|---|---|---|---|
-| — | — | — | — | — | Not yet created | — |
+| **DUNGEON_INDEX (master)** | `10_dungeons_and_ruins/DUNGEON_INDEX.md` | Orrun | 1-20 | static | Master adventure-site index (23 sites; by region/level/faction/mystery/type/danger) | index |
+| **PUZZLE_DUNGEONS (index)** | `10_dungeons_and_ruins/PUZZLE_DUNGEONS.md` | Orrun | 1-20 | static | Puzzle/investigation site index; puzzle types, DCs, solutions, clue deps | index, puzzle |
+| The Peat Chapel | `10_dungeons_and_ruins/THE_PEAT_CHAPEL.md` | Sundering Reach | 1-2 | static | First-delve fen chapel; Remembrance relic (M3) | ruin, level:1-2 |
+| The Sunken Tollhouse | `10_dungeons_and_ruins/THE_SUNKEN_TOLLHOUSE.md` | Sundering Reach | 2-3 | static | Drowned river node under Kettle Bridge (M2/M5) | dungeon, clue |
+| The Whispering Cairn | `10_dungeons_and_ruins/THE_WHISPERING_CAIRN.md` | Sundering Reach | 1-3 | static | Archive-cairn; Concord Script gate (M6/M9) | ruin, clue |
+| The Ledger Vault | `10_dungeons_and_ruins/THE_LEDGER_VAULT.md` | Sundering Reach | 2-4 | static | Social/stealth heist; vault relic (C-M3-3) | dungeon, heist |
+| The Barrow of Nine Doors | `10_dungeons_and_ruins/THE_BARROW_OF_NINE_DOORS.md` | Sundering Reach | 3-5 | static | Greyfens barrow; parley-boss; M5/M6 testimony | dungeon, clue |
+| The Deep Adit | `10_dungeons_and_ruins/THE_DEEP_ADIT.md` | Sundering Reach | 3-5 | static | Secondary harvest node; M3/M6; Reclamation race | dungeon, clue, secondary-node |
+| Saint Veddow's Tomb | `10_dungeons_and_ruins/SAINT_VEDDOWS_TOMB.md` | Ashgarden Vale | 4-6 | static | Capped Concord shrine / secondary node; M2/M6 fragments (gated) | ring-1, clue, secondary-node |
+| The Buried Cloister | `10_dungeons_and_ruins/THE_BURIED_CLOISTER.md` | Ashgarden Vale | 2-4 | static | Concord wayside ruin; Script + relics (M2/M3 fragment) | ring-1, ruin, clue |
+| The Pellow Grange | `10_dungeons_and_ruins/THE_PELLOW_GRANGE.md` | Ashgarden Vale | 2-4 | static | Ledger relic-quarry; social/stealth (M3) | ring-1, heist, clue |
+| The Greenward Toll-Station | `10_dungeons_and_ruins/THE_GREENWARD_TOLL_STATION.md` | Tollwood | 2-4 | static | Drowned road-node (M2/M5 fragment); cousin of the Sunken Tollhouse | ring-1, dungeon, clue |
+| The Hanging Oaks | `10_dungeons_and_ruins/THE_HANGING_OAKS.md` | Tollwood | 4-6 | static | Pre-Concord grove; Gravecaller cell; oblique M5/M6 (gated) | ring-1, clue, social |
+| The Old Mast | `10_dungeons_and_ruins/THE_OLD_MAST.md` | Tollwood | 6-10 | static | Deep-wood pre-Concord presence; gated apex; oblique M5/M6 | ring-1, gated, secondary-presence |
+| The Drowned Lamp | `10_dungeons_and_ruins/THE_DROWNED_LAMP.md` | Pale Coast | 4-6 | static | Coastal Concord node; M2/M5/M6 fragments (gated); tide-locked | ring-1, clue, secondary-node |
+| The Wreckers' Caves | `10_dungeons_and_ruins/THE_WRECKERS_CAVES.md` | Pale Coast | 3-5 | static | Tidal sea-caves; wreckers/cult; social/stealth (M3) | ring-1, heist, clue |
+| The Skerry Shrine | `10_dungeons_and_ruins/THE_SKERRY_SHRINE.md` | Pale Coast | 6-9 | static | Offshore sea-shrine; largest coastal node; gated apex (oblique M2/M5/M6) | ring-1, gated, secondary-node |
+| **The Sunken Wards Deep** | `10_dungeons_and_ruins/THE_SUNKEN_WARDS_DEEP.md` | Caradril | 6-10 | static | City undercity dungeon; back-route to the Sealed Archive; 3-faction; M2/M3/M6 frags (C_CAR_016) | dungeon, clue, exploration, secondary-node |
+| **The Ashmarket Undercroft** | `10_dungeons_and_ruins/THE_CARADRIL_ASHMARKET_UNDERCROFT.md` | Caradril | 6-9 | static | Criminal relic-trade warren; heist/social; trade-ledger (C_CAR_017); refining-horror (M3) | dungeon, heist, social, clue |
+| **The Concord Relay-Vault** | `10_dungeons_and_ruins/THE_CONCORD_RELAY_VAULT.md` | Sundering Reach (Heights) | 7-10 | static | Buried Concord signal-station; watchword-guardian; rich M9 frag (C_SR_041); Warden-sealed | dungeon, clue, secondary-node |
+| **The Greyfens Deep** | `10_dungeons_and_ruins/THE_GREYFENS_DEEP.md` | Sundering Reach | 3-7 | static | Environmental fen dungeon; Drift-Line M5 field-proof; Gravecaller cell; funnels to the Barrow | dungeon, environmental, clue, social |
+| **The Basin Keystone Approach** | `10_dungeons_and_ruins/THE_BASIN_KEYSTONE_APPROACH.md` | Sundering Reach | 5-9 | static | Keystone surface/upper works; M2/M4/M5 at the source + M6 frag; deep stair = gated lethal endgame gate | dungeon, keystone-approach, clue |
+| **The Old Concord Heartlands Ruin** | `10_dungeons_and_ruins/THE_OLD_CONCORD_HEARTLANDS_RUIN.md` | Concord Heartlands (far) | 10-14 | static | Far surface ruin (Ruin'd Crown); REV_005/006 surface-proof (C_FC_001/014); NOT the keystone/Court | dungeon, far-continent, surface-ruin, clue |
+| **The Emberfell Caldera Descent** | `10_dungeons_and_ruins/THE_EMBERFELL_CALDERA_DESCENT.md` | Emberfell (far) | 12-16 | static | Far volcanic environmental dungeon; thematic harvest-mirror; far REV_002 echo (C_FC_004/015) | dungeon, far-continent, environmental |
+| **The Saltmere Deep Towns** | `10_dungeons_and_ruins/THE_SALTMERE_DEEP_TOWNS.md` | Saltmere Reaches (far) | 11-15 | static | Drowned-town dive; pre-Concord *older fall* echo (C_SR2_001, REV_001/005); NOT the keystone | dungeon, ruin, far-continent, environmental, pre-concord-echo |
+| **The Hethewald Old Holds** | `10_dungeons_and_ruins/THE_HETHEWALD_OLD_HOLDS.md` | Hethewald (far) | 9-13 | static | Gated deep-wood Concord ruin + grove-presence; "grey hands" folk-fragment (C_HW_001, REV_005); Old-Mast logic writ large | dungeon, ruin, far-continent, gated, clue |
+| **The Marrowdowns Barrow Complex** | `10_dungeons_and_ruins/THE_MARROWDOWNS_BARROW_COMPLEX.md` | Marrowdowns (far) | 8-12 | static | Pre-Concord barrow-crawl; 3-path glyph door; parley-boss (C_MD_001, REV_001/005 echo) | dungeon, ruin, far-continent, pre-concord-echo, clue |
+| **The Karran Old Iron Forts** | `10_dungeons_and_ruins/THE_KARRAN_OLD_IRON_FORTS.md` | Karran Marches (far) | 10-14 | static | Fort + deep-mine; peripheral relay-node; "humming iron"/changed crews (C_KM_001, REV_002/005) | dungeon, far-continent, environmental, node, clue |
+| **The Glassmere Reliquary Vaults** | `10_dungeons_and_ruins/THE_GLASSMERE_RELIQUARY_VAULTS.md` | Glassmere League (far) | 9-13 | static | Far Remnant chapter-archive; social/stealth; continental catalogue (C_GL_001, REV_002/005); points to the Sealed Archive | dungeon, archive, far-continent, social, clue |
+| **The Three Bridges Counting-Deep** | `10_dungeons_and_ruins/THE_THREE_BRIDGES_COUNTING_DEEP.md` | Glassmere League (far) | 9-12 | static | Far Ledger bank-heist; relic-supply ledger (C_GL_002, REV_002); combat = failure path | dungeon, heist, far-continent, social, clue |
+| **The Sallowmarch Drowned Steps** | `10_dungeons_and_ruins/THE_SALLOWMARCH_DROWNED_STEPS.md` | Sallowmarch (far) | 10-14 | static | Tidal pre-Concord causeway-ruin; *older fall* the crown denies (C_SM_001, REV_001/005 echo) | dungeon, ruin, far-continent, environmental, pre-concord-echo |
+| **The Hollow Gulf Wreck-Reef** | `10_dungeons_and_ruins/THE_HOLLOW_GULF_WRECK_REEF.md` | Hollow Gulf Ports (far) | 10-15 | static | Maritime salvage environmental site; "the world that doesn't know"; faint relic-echo (C_HG_001, REV_002) | dungeon, far-continent, environmental, maritime |
+| **The Wender Sky-Stones** | `10_dungeons_and_ruins/THE_WENDER_SKY_STONES.md` | Wender Steppe (far) | 8-13 | static | Ancient NON-Concord shrine; the outside view; oblique cosmic echo (C_WS_001, REV_009); near-combat-free | ruin, far-continent, non-concord, social, clue |
+| **The Sunhollow Great Grove** | `10_dungeons_and_ruins/THE_SUNHOLLOW_GREAT_GROVE.md` | Sunmark (far) | 8-13 | static | Living grove-faith that *holds the dead*; the campaign's hope; synthesis-seed (C_SMK_001, REV_008/010); near-combat-free | far-continent, living-faith, social, clue |
+| **The Nine Locks Sunken Stair** | `10_dungeons_and_ruins/THE_NINE_LOCKS_SUNKEN_STAIR.md` | Verdance Reaches (Ring 2) | 8-12 | static | First Ring-2 node; flooded relay-vault; network runs inland and *points home* (C_VR_001, REV_001/005) | dungeon, far-continent, node, clue, ring-2 |
+| **The Highmark Frozen Works** | `10_dungeons_and_ruins/THE_HIGHMARK_FROZEN_WORKS.md` | Highmark Passes (far) | 12-16 | static | Ice-locked Concord station; *clearest far* surface-proof, cold-preserved (C_HMP_001, REV_005/006); cold is the gate | dungeon, ruin, far-continent, environmental, clue |
+| **The Cindern Waste Buried Works** | `10_dungeons_and_ruins/THE_CINDERN_WASTE_BURIED_WORKS.md` | Emberfell Theocracy (far) | 13-16 | static | Ash-drowned Concord works under a later faith; REV_005/006 frag (C_FC_016); ash is the gate; heretic lever | dungeon, ruin, far-continent, environmental, clue |
+| **The Under-Shrine Approach (DM-ONLY)** | `10_dungeons_and_ruins/THE_UNDER_SHRINE_APPROACH.md` | Sundering Reach (beneath basin) | 16-20 | static | **DM-ONLY endgame.** The Drowned Keystone + Hollow Court; the apex truth and the campaign decision (REV_007/008/010) | dungeon, endgame, apex, dm-only, boss, main-arc |
 
 ---
 
@@ -84,15 +278,106 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Type | Level | Summary | Tags |
 |---|---|---|---|---|---|
-| — | — | — | — | Not yet created | — |
+| **Encounter/Bestiary folder README (Stage 13)** | `13_encounters_and_bestiary/README.md` | Folder index | 1-20 | Front door to the encounter/bestiary library: at-a-glance summary, full file list, two-track source approach, RtHW-pending note, in-play navigation guide | index, bestiary, encounter, navigation |
+| Sundering Reach encounters | `13_encounters_and_bestiary/SUNDERING_REACH_ENCOUNTERS.md` | Encounter tables | 1-6 | Four solo-tuned zone tables (Roads/River, Greyfens, Heights, Basin); stat-referenced, non-combat-default | encounter, solo-safety |
+| Caradril encounters | `13_encounters_and_bestiary/CARADRIL_ENCOUNTERS.md` | Encounter/social-scene tables | 3-14 | Eight district social/intrigue tables + Sunken Wards dungeon table; social-default, stat-referenced | encounter, social, solo-safety, region:caradril |
+| Act 1 recurring threats (Stage 5) | `13_encounters_and_bestiary/ACT_1_THREATS.md` | Adversary profiles | 1-4 | 5 recurring early threats (Restless/Wrathful Remembrance, Frontier Toughs, Cult Radical's Hand, Rival Salvage Crew); full stat profiles; solo-safe, noncombat outs, scaling | encounter, act:1, level:1-4, solo-safety, combat |
+| **Stage 12 dungeon adversaries** | `13_encounters_and_bestiary/STAGE_12_ADVERSARIES.md` | Adversary profiles | 3-20 | 8 abbreviated 5e-compatible profiles for the new dungeons (Drowned/Ward-Keeper Remembrance, Concord Construct-Guardian, Reclaimer agent, Syndicate muscle, luring light, Caldera Guardian, **Hollow Court Custodian [DM-only apex]**); solo-tuned, non-combat outs | encounter, bestiary, dungeon, solo-safety |
+| Ashgarden Vale encounters | `13_encounters_and_bestiary/ASHGARDEN_VALE_ENCOUNTERS.md` | Encounter tables | 1-6 | 3 solo-tuned sub-tables (Orchard-Country, Saint Veddow's, Marrow Cross/Downs); social/tragic-default | ring-1, encounter, solo-safety |
+| Tollwood encounters | `13_encounters_and_bestiary/TOLLWOOD_ENCOUNTERS.md` | Encounter tables | 2-7 | 3 depth-zone sub-tables (Road/Tolls, Mid-Wood, Deep Wood/Old Mast [gated]); survival-default | ring-1, encounter, solo-safety |
+| Pale Coast encounters | `13_encounters_and_bestiary/PALE_COAST_ENCOUNTERS.md` | Encounter tables | 2-7 | 3 sub-tables (Cliff-Road/Pans, Coves/Lamp, Skerries/Sea [gated]); tide/sea-default | ring-1, encounter, solo-safety |
+| **Encounter index (Stage 13)** | `13_encounters_and_bestiary/ENCOUNTER_INDEX.md` | Master index | 1-20 | Master index of all encounter files/tables; load-when guide; level-band & creature-category lookup | encounter, index |
+| **Bestiary index (Stage 13)** | `13_encounters_and_bestiary/BESTIARY_INDEX.md` | Master creature list | 1-20 | Every creature category (17 types) with track (A/B/R), CR, location, full-notes file; coverage confirmation | bestiary, index |
+| **Creature source reference (Stage 13)** | `13_encounters_and_bestiary/CREATURE_SOURCE_REFERENCE.md` | Source-handling | 1-20 | Two-track (A=official source-ref, B=original) copyright-safe decision; no stat blocks copied | bestiary, source-handling |
+| **Solo encounter scaling (Stage 13)** | `13_encounters_and_bestiary/SOLO_ENCOUNTER_SCALING.md` | Scaling rules | 1-20 | 7 rules for one-PC tuning; solo CR/XP budget (~×3 group multiplier); when not to roll; party→solo boss | encounter, solo-safety |
+| **Biome encounter matrix (Stage 13)** | `13_encounters_and_bestiary/BIOME_ENCOUNTER_MATRIX.md` | Ecology cross-ref | 1-20 | 15 biomes → creature types; Concord/faction/curse overlays; ecology don'ts | bestiary, ecology |
+| **Boss & apex threats (Stage 13)** | `13_encounters_and_bestiary/BOSS_AND_APEX_THREATS.md` | Boss design | 1-20 | 18 bosses by tier (B1–B18); recurring-villain escape/return logic; Custodian apex (DM-only/gated) | boss, encounter, solo-safety |
+| **Horror & curse threats (Stage 13)** | `13_encounters_and_bestiary/HORROR_AND_CURSE_THREATS.md` | Original bestiary | 1-20 | Remembrance undead, hauntings, memory-echoes, revenants, 5 original curses; grief-not-gore; original world (NOT Ravenloft) + copyright-safe VRGtR Track-A horror references (no stat blocks, no setting lore) | bestiary, horror, undead, curse |
+| **Faction encounters (Stage 13)** | `13_encounters_and_bestiary/FACTION_ENCOUNTERS.md` | Faction tables | 1-20 | All 7 majors + Caradril + regional minor factions; Hollow Court DM-only (cutouts only) | encounter, faction, solo-safety |
+| **Mystery encounters (Stage 13)** | `13_encounters_and_bestiary/MYSTERY_ENCOUNTERS.md` | Mystery clue-bearing | 1-20 | M2–M6 fragment-delivering encounters; M9/Court DM-only/gated; one fragment per encounter | encounter, mystery, clue |
+| **Travel encounters (Stage 13)** | `13_encounters_and_bestiary/TRAVEL_ENCOUNTERS.md` | Travel tables | 1-20 | Terrain × 5 level-bands (1-4…17-20); 6 terrains; night/storm/fog/cold/heat/season variants | encounter, travel, solo-safety |
+| **Dungeon encounter support (Stage 13)** | `13_encounters_and_bestiary/DUNGEON_ENCOUNTER_SUPPORT.md` | Dungeon support | 1-20 | Wandering layer + per-site adversary cross-ref for all 36 dungeons; solo-safety constants | encounter, dungeon, solo-safety |
+| **Regional encounter tables master (Stage 13)** | `13_encounters_and_bestiary/REGIONAL_ENCOUNTER_TABLES.md` | All-regions master | 1-20 | 20-region coverage map; universal table structure; cross-region constants | encounter, all-regions, index |
+| Verdance Reaches encounters (Stage 13) | `13_encounters_and_bestiary/VERDANCE_REACHES_ENCOUNTERS.md` | Encounter tables | 8-12 | Ring-2 river corridor; Ledger/Remnant; Nine Locks node (M2 home-echo) | encounter, region:verdance-reaches, solo-safety |
+| Glassmere League encounters (Stage 13) | `13_encounters_and_bestiary/GLASSMERE_LEAGUE_ENCOUNTERS.md` | Encounter tables | 9-13 | Urban/mercantile; Ledger heartland; Reliquary; social/intrigue-default | encounter, region:glassmere-league, social, solo-safety |
+| Marrowdowns encounters (Stage 13) | `13_encounters_and_bestiary/MARROWDOWNS_ENCOUNTERS.md` | Encounter tables | 6-10 | Chalk downs + barrow-undead; pre-Concord echo; Mourners | encounter, region:marrowdowns, solo-safety |
+| Sallowmarch encounters (Stage 13) | `13_encounters_and_bestiary/SALLOWMARCH_ENCOUNTERS.md` | Encounter tables | 10-14 | Delta/plague/swarm; Protectorate; drowned dead; disease-default | encounter, region:sallowmarch, solo-safety |
+| Hollow Gulf encounters (Stage 13) | `13_encounters_and_bestiary/HOLLOW_GULF_ENCOUNTERS.md` | Encounter tables | 10-15 | Maritime/ports/pirates; world-horizon (Surren); drowned mariner dead | encounter, region:hollow-gulf, solo-safety |
+| Wender Steppe encounters (Stage 13) | `13_encounters_and_bestiary/WENDER_STEPPE_ENCOUNTERS.md` | Encounter tables | 8-13 | Cold steppe; raiders/wind; non-Concord Sky-Stones outside-view; guest-right/single-combat outs | encounter, region:wender-steppe, solo-safety |
+| Karran Marches encounters (Stage 13) | `13_encounters_and_bestiary/KARRAN_MARCHES_ENCOUNTERS.md` | Encounter tables | 9-14 | Mountain/mine; warlords + giants; Old Iron forts (M6 echo) | encounter, region:karran-marches, solo-safety |
+| Emberfell encounters (Stage 13) | `13_encounters_and_bestiary/EMBERFELL_ENCOUNTERS.md` | Encounter tables | 12-16 | Volcanic theocracy; fire/ash-dead; Caldera Guardian; heretic-sage outs | encounter, region:emberfell, solo-safety |
+| Saltmere Reaches encounters (Stage 13) | `13_encounters_and_bestiary/SALTMERE_REACHES_ENCOUNTERS.md` | Encounter tables | 11-15 | Salt sea/flats; desiccated dead; salt-clans; pre-Concord echo; heat-default | encounter, region:saltmere, solo-safety |
+| Concord Heartlands encounters (Stage 13) | `13_encounters_and_bestiary/CONCORD_HEARTLANDS_ENCOUNTERS.md` | Encounter tables | 13-17 | Ruin-field; apex constructs; Reclaimers; M6 climax-scale far-proof (NOT keystone — DM critical) | encounter, region:concord-heartlands, solo-safety |
+| Hethewald encounters (Stage 13) | `13_encounters_and_bestiary/HETHEWALD_ENCOUNTERS.md` | Encounter tables | 7-12 | Forest/river; fey + outlaws; Old Holds (gated); forest-custom outs | encounter, region:hethewald, solo-safety |
+| Sunmark encounters (Stage 13) | `13_encounters_and_bestiary/SUNMARK_ENCOUNTERS.md` | Encounter tables | 8-13 | Warm groves; benign fey/celestial; the hope-mirror (synthesis-seed); tests-not-kills | encounter, region:sunmark, solo-safety |
+| Highmark Passes encounters (Stage 13) | `13_encounters_and_bestiary/HIGHMARK_PASSES_ENCOUNTERS.md` | Encounter tables | 12-16 | Frost mountains; frost giants + dragons (rare); Frozen Works (clearest far-proof); optional | encounter, region:highmark-passes, solo-safety |
+| Cindern Waste encounters (Stage 13) | `13_encounters_and_bestiary/CINDERN_WASTE_ENCOUNTERS.md` | Encounter tables | 13-16 | Ash badland; ash-dead/fire; buried works (M6 echo); heat-default | encounter, region:cindern-waste, solo-safety |
+| Drowned Steps encounters (Stage 13) | `13_encounters_and_bestiary/DROWNED_STEPS_ENCOUNTERS.md` | Encounter tables | 10-16 | Submerged causeway; aberrations/memory-fog (deep horror, gated); tidal-default; optional | encounter, region:drowned-steps, solo-safety |
 
 ---
 
-## Artifacts / Magic Items
+## Treasure, Artifacts, and Rewards (Stage 14)
 
-| Name | File | Level | Lore Connection | Secrecy |
-|---|---|---|---|---|
-| — | — | — | Not yet created | — |
+| File | Secrecy | Summary | Tags |
+|---|---|---|---|
+| `14_treasure_and_artifacts/README.md` | mixed | Folder summary + AI DM load guide | treasure, folder-readme |
+| `14_treasure_and_artifacts/TREASURE_INDEX.md` | mixed | Master index; reward philosophy; two-track source handling | treasure, master-index |
+| `14_treasure_and_artifacts/SOLO_REWARD_BALANCE.md` | mixed | Single-PC pacing: items-by-level, consumable generosity, currency, insurance floor (DM-facing) | reward-balance, solo-tuned |
+| `14_treasure_and_artifacts/REWARDS_BY_LEVEL.md` | mixed | By-tier reward-richness "feel" + forwarding index over the treasure library; DM-only apex-artifact gating note | treasure, rewards, by-level, forwarding-index |
+| `14_treasure_and_artifacts/MAGIC_ITEM_INDEX.md` | mixed | 38 custom magic items (Common→Legendary), ORIGINAL CAMPAIGN ITEMS | magic-item, custom-item |
+| `14_treasure_and_artifacts/ARTIFACT_INDEX.md` | mixed | 12 named relics/artifacts; mystery-gated; DM-only true-nature blocks | artifact, relic, mystery-linked |
+| `14_treasure_and_artifacts/CURSED_ITEMS.md` | mixed | 10 cursed items + 3 endgame cursed-class; telegraphed + recoverable | cursed-item, hollow-court-trap |
+| `14_treasure_and_artifacts/SENTIENT_ITEMS.md` | mixed | 6 sentient items (run as mini-NPCs); 1 DM-only Court plant | sentient-item, npc-item |
+| `14_treasure_and_artifacts/CONSUMABLES_AND_MINOR_MAGIC.md` | mixed | Potions/scrolls/charms/tokens by region & level; solo lifelines (DM-only resurrection-risk framing) | consumable, potion, scroll |
+| `14_treasure_and_artifacts/REGIONAL_TREASURE_TABLES.md` | mixed | Mundane + minor-magic for all 20 regions × 5 level bands | treasure, regional, all-regions |
+| `14_treasure_and_artifacts/FACTION_REWARDS.md` | mixed | Ranked reward tracks: 7 majors + 4 Caradril blocs; Court = traps | faction-reward, standing |
+| `14_treasure_and_artifacts/QUEST_REWARD_INDEX.md` | mixed | Reward palettes by quest category; noncombat parity | quest-reward, hooks |
+| `14_treasure_and_artifacts/DUNGEON_REWARD_INDEX.md` | mixed | Signature + mundane + danger loot for 39 adventure sites | dungeon-reward, signature-reward |
+| `14_treasure_and_artifacts/NONCOMBAT_REWARDS.md` | mixed | Political/social/info/access/relationship/economic/reputation | noncombat-reward, access |
+| `14_treasure_and_artifacts/ECONOMY_AND_PRICING_GUIDE.md` | mixed | Coinage, gem/art bands, services, regional economies | economy, pricing, services |
+| `14_treasure_and_artifacts/REWARD_PLACEMENT_AUDIT.md` | mixed | Coverage + safety audit (PASS) | reward-audit, coverage |
+
+---
+
+## Party Mode (six-player conversion layer — built 2026-07-11)
+
+| File | Secrecy | Summary | Tags |
+|---|---|---|---|
+| `01_runner_protocol/PARTY_MODE_PROTOCOL.md` | mixed | Running the solo-first campaign for a group (6 players): mode declaration, Session-1 adaptation, companions→guides, roster state, what never changes | party-mode, protocol, six-players |
+| `13_encounters_and_bestiary/PARTY_SCALING_6_PLAYERS.md` | player-safe | Combat conversion math: replaces SOLO_ENCOUNTER_SCALING budgets in party mode; conversion ladder, boss conversion, six-player cheat sheet | party-mode, scaling, six-players |
+| `14_treasure_and_artifacts/PARTY_REWARDS_6_PLAYERS.md` | mixed | Reward conversion: coin ×4–5, consumables ×3–4, ~1 item/PC/tier from authored pools; artifacts stay singular/gated | party-mode, rewards, six-players |
+
+## DungeonMaster App Onboarding (built 2026-07-12)
+
+Foreign-system integration files for the separate DungeonMaster app (a
+cloud-deployed AI DM server + phone app). Not campaign content — no world
+facts, secrecy separation, or retrieval doctrine applies here the way it
+does elsewhere in this index. See root `ONBOARDING.md` for the full
+rationale. `skills/` files intentionally carry the app's own `visibility:`/
+`title:` front-matter convention, not this project's `type:/secrecy:/
+status:` metadata block — a deliberate, documented exception.
+
+| File | Purpose |
+|---|---|
+| `../dm.campaign.json` (repo root) | Onboarding manifest: campaignId, contentRoot, visibility strategy |
+| `maps/manifest.json` | 64 map entries (18 regions, 1 campaign-area cluster, 4 cities, 40 settlements, 1 continent overview); no storage location authored in-repo — bucket/key derived from deployment config at upload/read time |
+| `skills/procedures/session-start.md` | Overlay: first-session character creation + retrieval-first checklist |
+| `skills/procedures/session-end.md` | Overlay: translates the 16-file `SESSION_END_UPDATE_CHECKLIST.md` onto `set_state`/`log_event`/`record_canon`/`update_character` |
+| `skills/procedures/travel.md` | Overlay: points at this campaign's own routes, hazard DCs, and random tables |
+| `skills/procedures/downtime.md` | Overlay: faction-turn/clock consequences of downtime |
+| `skills/combat/SKILL.md` | Overlay: solo-safety spine (telegraph, morale, retreat) on top of the shared mechanical backbone |
+| `skills/canon-and-gaps/SKILL.md` | Overlay: `CANON_AUTHORITY.md` precedence + reveal-gating discipline (mysteries earned through play, not narrated on read) |
+
+## Random Tables (`15_random_tables/` — built 2026-07-07)
+
+| File | Secrecy | Summary | Tags |
+|---|---|---|---|
+| `15_random_tables/README.md` | mixed | Folder front door; rules of use; division of labor vs. `13_`/`14_`/`09_` | random-table, folder-readme |
+| `15_random_tables/TRAVEL_EVENTS.md` | mixed | Non-combat travel events by route class (Concord roads / wild country / river / sea); far-continent mapping | random-table, travel, events |
+| `15_random_tables/WEATHER.md` | player-safe | Season × 8 climate-zone weather + zone hazard notes; weather-as-decision; Greyfall start | random-table, weather, seasons |
+| `15_random_tables/URBAN_EVENTS.md` | mixed | Street/downtime events: village tier, Caradril districts, far cities; downtime d6 | random-table, urban, downtime |
+| `15_random_tables/NPC_PERSONALITY.md` | player-safe | Quick Tier-3 minor-NPC generator (manner/concern/detail/voice + combat-relevance tag); roster-first rule | random-table, npc, improvisation |
+| `15_random_tables/RUMOR_SURFACES.md` | mixed | Which authored rumor surfaces, from whom, with what distortion; clue-gate check | random-table, rumors, hooks |
 
 ---
 
@@ -100,8 +385,49 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Level Range | Secrecy | Status | Summary |
 |---|---|---|---|---|---|
-| Main Arc Overview | `12_campaign_arc/MAIN_ARC_OVERVIEW.md` | 1–20 | dm-only | placeholder | Full arc shape, hidden truth, villain escalation — DM only |
-| Level 1–20 Progression | `12_campaign_arc/LEVEL_1_TO_20_PROGRESSION.md` | 1–20 | dm-only | placeholder | Level-by-level pacing guide and milestone trigger list |
+| Main Arc Overview | `12_campaign_arc/MAIN_ARC_OVERVIEW.md` | 1–20 | dm-only | static | Full arc shape, hidden truth, 5 endgame branches, villain escalation |
+| Level 1–20 Progression | `12_campaign_arc/LEVEL_1_TO_20_PROGRESSION.md` | 1–20 | dm-only | static | Level-by-level pacing + milestone triggers (Act 1 concrete) |
+| Act 1 (Levels 1–4) | `12_campaign_arc/ACT_1_LEVELS_1_4.md` | 1–4 | mixed | static | Open-world Act 1 arc spine; Five Doors + faction doors; multi-route to R1; ignore-consequences; Act 2 triggers |
+| Act 1 Milestones | `12_campaign_arc/ACT_1_MILESTONES.md` | 1–4 | mixed | static | Explicit L2/3/4 + L4→5 triggers; multiple paths (combat/social/exploration/investigation/faction); optional XP guidance |
+| Act 1 Failure States | `12_campaign_arc/ACT_1_FAILURE_STATES.md` | 1–4 | mixed | static | 9 failure cases, each redirecting (not ending) play; consequence + path forward + clocks + NPC reactions |
+
+### Level 5–20 Arc (Stage 15 — `15_campaign_arcs/`)
+
+| Name | File | Level Range | Secrecy | Status | Summary |
+|---|---|---|---|---|---|
+| Level 5–20 Overview | `15_campaign_arcs/LEVEL_5_TO_20_OVERVIEW.md` | 5–20 | mixed | static | Master overview; tier↔act crosswalk (T2/3/4 = L5–10/11–16/17–20); per-tier entry-state; open-world/secrecy/solo spine |
+| Tier 2 (Levels 5–10) | `15_campaign_arcs/TIER_2_LEVELS_5_10.md` | 5–10 | mixed | static | Act 2 + lower Act 3; Ring 1 + Caradril + Verdance corridor; REV_002/003/004; factions go regional; off-path guidance |
+| Tier 3 (Levels 11–16) | `15_campaign_arcs/TIER_3_LEVELS_11_16.md` | 11–16 | mixed | static | Act 3 upper + Act 4; far continent; REV_005/006/009; the REV_007 apex gate (L13+); Veyl; REV_010 |
+| Tier 4 (Levels 17–20) | `15_campaign_arcs/TIER_4_LEVELS_17_20.md` | 17–20 | mixed | static | Act 5 endgame; the vertical descent; REV_007 owned; REV_008 the choice; 9 approaches index |
+| Campaign Escalation Timeline | `15_campaign_arcs/CAMPAIGN_ESCALATION_TIMELINE.md` | 5–20 | dm-only | static | Chronological clock/world-state escalation by tier; master trajectory table; passive failsafe |
+| Main Arc Revelation Sequence | `15_campaign_arcs/MAIN_ARC_REVELATION_SEQUENCE.md` | 5–20 | dm-only | static | How M1–M9/REV_001–010 gates are earned & revealed; 3+ redundant routes; apex protection |
+| Regional Escalation Paths | `15_campaign_arcs/REGIONAL_ESCALATION_PATHS.md` | 5–20 | mixed | static | How each region changes across tiers; player-safe state vs DM-only escalation; fall/stabilize/revolt/ally/corrupt |
+| Faction Escalation Paths | `15_campaign_arcs/FACTION_ESCALATION_PATHS.md` | 5–20 | mixed | static | How each faction escalates/diverges; Q*4 → endgame posture matrix; conflict activation by tier |
+| Villain & Apex Threat Escalation | `15_campaign_arcs/VILLAIN_AND_APEX_THREAT_ESCALATION.md` | 5–20 | dm-only | static | Hollow Court/Custodians/threat escalation by revelation; Veyl as choice-boss; recurring-villain track; apex protection |
+| Endgame Structure | `15_campaign_arcs/ENDGAME_STRUCTURE.md` | 17–20 | mixed | static | 9 approaches × 5 outcomes (seal/restart/seize/destroy/transform); reachability matrix; faction-outcome sketch; artifact fates |
+| Failure States & World Consequences | `15_campaign_arcs/FAILURE_STATES_AND_WORLD_CONSEQUENCES.md` | 5–20 | mixed | static | Ignored-threat/failure consequences by tier; per-threat × per-tier table; passive failsafe; catastrophic-but-playable outcomes |
+| Leveling & Milestone Guide | `15_campaign_arcs/LEVELING_AND_MILESTONE_GUIDE.md` | 5–20 | dm-only | static | Milestone leveling 5–20; no-grind; multiple approaches per milestone; passive-player floor |
+| Solo Campaign Balance Guide | `15_campaign_arcs/SOLO_CAMPAIGN_BALANCE_GUIDE.md` | 5–20 | dm-only | static | One-PC balance per tier; missing-ability fallbacks; boss adjustments; ally discipline |
+| Open-World Continuity Guide | `15_campaign_arcs/OPEN_WORLD_CONTINUITY_GUIDE.md` | 5–20 | dm-only | static | Non-linear path handling; 5 continuity anchors; anti-stall hooks; state discipline |
+| Stage 15 Readiness Audit | `15_campaign_arcs/STAGE_15_READINESS_AUDIT.md` | 5–20 | dm-only | static | Pre-completion arc audit (PASS; 0 Critical/0 High/2 Medium/3 Low) |
+
+### Stage 15B — Full Character Arc Playability Fill (`15_campaign_arcs/`)
+
+| Name | File | Level Range | Secrecy | Status | Summary |
+|---|---|---|---|---|---|
+| Full-World Playability Checklist | `15_campaign_arcs/FULL_WORLD_LEVEL_5_TO_20_PLAYABILITY.md` | 5–20 | mixed | static | Master region×tier matrix + "what do I run here?" router; the Stage 15B routing table |
+| Regional Arc Packs | `15_campaign_arcs/REGIONAL_ARC_PACKS_LEVEL_5_TO_20.md` | 5–20 | mixed | static | 19 region packs + Cindern Waste sub-region; each with named situations/NPCs/factions/sites/clues/rewards/consequences |
+| Tier 2 Playable Paths | `15_campaign_arcs/TIER_2_PLAYABLE_PATHS_LEVELS_5_10.md` | 5–10 | mixed | static | 5 step-by-step Tier 2 paths (Faction/Mystery/Dungeon/City/Travel) |
+| Tier 3 Playable Paths | `15_campaign_arcs/TIER_3_PLAYABLE_PATHS_LEVELS_11_16.md` | 11–16 | mixed | static | 6 step-by-step Tier 3 paths (Glassmere/Marrowdowns/Emberfell/Saltmere/Highmark-Steppe/Heartlands) |
+| Tier 4 Playable Paths | `15_campaign_arcs/TIER_4_PLAYABLE_PATHS_LEVELS_17_20.md` | 17–20 | mixed | static | 9 endgame playbooks (Confrontation/Alliance/Artifact/Ritual/Political/Exposure/Sacrifice/Partial/Failure) |
+| Region-to-Region Transition Guide | `15_campaign_arcs/REGION_TO_REGION_TRANSITION_GUIDE.md` | 1–20 | mixed | static | Every inter-region route: level, type, time, hook, complication, en-route clue; "where can I go?" router by tier |
+| Continental Pressure Timeline | `15_campaign_arcs/CONTINENTAL_PRESSURE_TIMELINE.md` | 5–20 | mixed | static | 16+ named events as the world moves without the player; clocks + rumors; all 7 factions, 8+ regions |
+| Player Ignores Main Arc Guide | `15_campaign_arcs/PLAYER_IGNORES_MAIN_ARC_GUIDE.md` | 5–20 | mixed | static | Per-tier named world-states if the arc is ignored; reintroduction techniques; side-content payoff |
+| Player Goes Anywhere Guide | `15_campaign_arcs/PLAYER_GOES_ANYWHERE_GUIDE.md` | 1–20 | mixed | static | Off-route arrivals (too early/late, skipping); danger-gating, partial content, substitutes; the under-shrine guard rail |
+| Endgame Region Playbook | `15_campaign_arcs/ENDGAME_REGION_PLAYBOOK.md` | 17–20 | mixed | static | Per-region Tier 4 state; what each region contributes to which endings |
+| Final Revelation & Ending Paths | `15_campaign_arcs/FINAL_REVELATION_AND_ENDING_PATHS.md` | 1–20 | dm-only | static | REV_001–010 with 3 route-independent paths each + redundancy table; the 5 endings (requirements/site/resolution/fates) |
+| Stage 15B Completion Audit | `15_campaign_arcs/STAGE_15B_COMPLETION_AUDIT.md` | 5–20 | dm-only | static | Stage 15B pass/fail audit (PASS) |
+| Legacy stubs | `15_campaign_arcs/ACT_2_LEVELS_5_8.md`, `ACT_3_LEVELS_9_12.md`, `ACT_4_LEVELS_13_16.md`, `ACT_5_LEVELS_17_20.md`, `VILLAIN_ESCALATION.md`, `ENDGAME_STATES.md` | varies | mixed | static | Forwarding stubs to the tier/endgame files so old references do not break |
 
 ---
 
@@ -109,8 +435,35 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Status | Summary |
 |---|---|---|---|---|
-| World Overview | `04_world_atlas/WORLD_OVERVIEW.md` | mixed | placeholder | Top-level world description — player-safe overview + DM truth |
-| Map Description | `04_world_atlas/MAP_DESCRIPTION.md` | player-safe | placeholder | Written map for AI DM navigation and travel reference |
+| World Overview | `04_world_atlas/WORLD_OVERVIEW.md` | mixed | static | Top-level world description — player-safe overview + DM truth |
+| Map Description | `04_world_atlas/MAP_DESCRIPTION.md` | player-safe | static | Written map + travel table for AI DM navigation |
+| Travel Routes (Ring 1) | `04_world_atlas/TRAVEL_ROUTES_RING1.md` | mixed | static | 6 routes: Reach→each Ring 1 region; each region→Caradril; times, dangers, faction presence, events |
+| World Map Authority (campaign-area) | `04_world_atlas/WORLD_MAP_AUTHORITY.md` | mixed | static | Campaign-area (NW Orrun) cartographic authority; cluster shape, features, placement, scale, secrecy |
+| World Map Coordinates (campaign-area) | `04_world_atlas/WORLD_MAP_COORDINATES.md` | mixed | static | Campaign-area 0–100 grid (~3× zoom on the NW corner); confidence-rated; DM-only rows flagged |
+| World Map Layers (campaign-area) | `04_world_atlas/WORLD_MAP_LAYERS.md` | mixed | static | 7 campaign-area map layers + layer-to-prompt mapping |
+| World Map Prompts (campaign-area) | `04_world_atlas/WORLD_MAP_PROMPTS.md` | mixed | static | 4 campaign-area (NW Orrun) image-generation prompts |
+| **Full World Map Authority** | `04_world_atlas/FULL_WORLD_MAP_AUTHORITY.md` | mixed | static | **Full-continent of Orrun** master reference; NW→SE axis, all seas/ranges/rivers/forests/badlands, 18 regions (5 built + 13 placeholder), long routes, forbidden zones, Vael landmasses, scale, secrecy |
+| **Full World Map Coordinates** | `04_world_atlas/FULL_WORLD_MAP_COORDINATES.md` | mixed | static | **Full-continent** 0–100 grid (124 entries); embeds campaign cluster in the NW corner via documented rescale; confidence-rated; DM-only rows flagged |
+| **Full World Map Layers** | `04_world_atlas/FULL_WORLD_MAP_LAYERS.md` | mixed | static | **8 full-world map layers** (player-safe, DM-only, faction, mystery, danger, travel, hidden-truth, campaign-area standalone zoom map) + prompt mapping |
+| **Full World Map Prompts** | `04_world_atlas/FULL_WORLD_MAP_PROMPTS.md` | mixed | static | **5 full-world image prompts** (player-safe continent, DM-only continent, parchment artifact, functional reference, campaign-area standalone zoom map — a separate map, not an inset on the player-safe full-continent map) |
+| **Player-Safe Full-Continent Render Manifest** | `04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_RENDER_MANIFEST.md` | player-safe | static | **Label authority for the player-safe full-continent map.** Canonical feature table (57 entries), route/river geometry, region footprints, duplicate-prone audit, post-generation checklist, image model warning. No image prompt may introduce a label not in this manifest. |
+| **Player-Safe Full-Continent Generation Packet** | `04_world_atlas/PLAYER_SAFE_FULL_CONTINENT_GENERATION_PACKET.md` | player-safe | static | **Self-contained copy-paste prompt** for external image generators that cannot read the repo. All manifest content embedded directly (Sections A–K, incl. §D.5 settlement-anchor layer). Use instead of FULL_WORLD_MAP_PROMPTS.md Prompt 1 when the image model has no repo access. |
+| **Full-Continent Settlement Anchors** | `04_world_atlas/FULL_CONTINENT_SETTLEMENT_ANCHORS.md` | player-safe | static | **Settlement/social-anchor render layer.** Full-continent coordinates for the 17 NW settlements (mirrored) + 36 far-continent light NPC-facing anchors across all 12 placeholder regions; 6 anchor types; render-priority + reference/art-map flags; distributes settlement markers across the whole continent. Extends the render manifest (§8.5). |
+| Region Index | `04_world_atlas/REGION_INDEX.md` | mixed | static | Index of authored regions + campaign-area + full-continent placeholders; directions, levels, grid coords, secrecy |
+| **Cartography Authority (full continent)** | `04_world_atlas/CARTOGRAPHY_AUTHORITY_FULL_CONTINENT.md` | mixed | static | **Master geometry** — render grid, coastline waypoints, river/range polylines, terrain/region polygons, route geometry, player-safe vs DM-only render layers, campaign↔continent transform (Cartography Authority Pass) |
+| **Map Feature Registry** | `04_world_atlas/MAP_FEATURE_REGISTRY.md` | mixed | static | Single registry of ~136 map-visible features (MF-001…); coords, geometry type, player/DM visibility, label priority, icon, confidence |
+| **Roads/Rivers/Routes Authority** | `04_world_atlas/ROADS_RIVERS_AND_ROUTES_AUTHORITY.md` | mixed | static | Every road/river/sea-lane as ordered waypoint polylines + crossings, tolls, hazards, DM-only node-crossing overlays |
+| **Water and Shoreline Authority** | `04_world_atlas/WATER_AND_SHORELINE_AUTHORITY.md` | mixed | static | Ocean/sea/bay bounds, lake/inland-sea polygons, river polylines, wetland polygons, key crossings |
+| **Mountains/Passes/Terrain Authority** | `04_world_atlas/MOUNTAINS_PASSES_AND_TERRAIN_AUTHORITY.md` | mixed | static | Range spine polylines, forest/wetland/steppe/downs/badland polygons, named passes, terrain art notes |
+
+### Region / City / Settlement Map Packets (Cartography Authority Pass)
+
+| Set | Path | Secrecy | Summary |
+|---|---|---|---|
+| Region map packets (18) | `04_world_atlas/region_map_packets/REGION_*.md` | mixed | Per-region local grid + full-continent bounds, terrain/water/routes/settlements/dungeons/landmarks, player-safe vs DM-only layers. 5 cluster (Sundering Reach, Ashgarden Vale, Tollwood, Pale Coast, Caradril) + 13 far (Cindern Waste folded into Emberfell). |
+| City map packets (4) | `06_settlements/city_map_packets/{CARADRIL,GLASSMERE,CALDERPORT,ASHFAST}_CITY_MAP.md` | mixed | Per-city local grid, river/harbor geometry, district centroids+bounds, bridges/ferries, road exits, docks, named landmarks. Caradril AUTHORITATIVE; far 3 (Glassmere/Calderport/Ashfast) **DERIVED_CANON** layout (authoritative for rendering; far-survey position context drawn soft) per 2026-06-18 Strict Cartography Determinism Cleanup pass. |
+| Settlement map packets (40) | `06_settlements/settlement_map_packets/SETTLEMENT_*_MAP.md` | mixed | Per-settlement local grid, notable areas, exits, crossings, landmarks. 16 NW cluster (full eagle-test depth) + 24 far-continent (eagle-test depth). Glob-verified 2026-06-18. |
+| Adventure-site cartography index | `10_dungeons_and_ruins/ADVENTURE_SITE_CARTOGRAPHY_INDEX.md` | mixed | D01–D36 full-continent + local coords, nearest settlement, surface marker, player/DM visibility. D23 DM-only. |
 
 ---
 
@@ -120,10 +473,10 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Status | Purpose |
 |---|---|---|---|---|
-| Mystery Web | `11_mysteries_and_secrets/MYSTERY_WEB.md` | dm-only | placeholder | Network map of all mysteries and how they connect |
-| Revelation Map | `11_mysteries_and_secrets/REVELATION_MAP.md` | dm-only | placeholder | Sequence and timing of major revelations by act |
-| Clue Index | `11_mysteries_and_secrets/CLUE_INDEX.md` | dm-only | placeholder | Master index of all clues — discovered and undiscovered |
-| Secret Index | `11_mysteries_and_secrets/SECRET_INDEX.md` | dm-only | placeholder | Master index of all campaign secrets by type |
+| Mystery Web | `11_mysteries_and_secrets/MYSTERY_WEB.md` | dm-only | static | M0–M10 network; 3+ clue paths each |
+| Revelation Map | `11_mysteries_and_secrets/REVELATION_MAP.md` | dm-only | static | R1–R8 act-by-act revelation pacing |
+| Clue Index | `11_mysteries_and_secrets/CLUE_INDEX.md` | dm-only | static | All authored clues with IDs, mystery, discovery method, status (all hidden at start) |
+| Secret Index | `11_mysteries_and_secrets/SECRET_INDEX.md` | dm-only | static | The 20 major campaign secrets |
 
 ---
 
@@ -131,17 +484,17 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Status | Purpose |
 |---|---|---|---|---|
-| Canon | `03_canon/CANON.md` | mixed | placeholder | Authoritative world facts — check before adding new facts |
-| Player-Safe Canon | `03_canon/PLAYER_SAFE_CANON.md` | player-safe | placeholder | Facts safe to share with player; updated as discoveries are made |
-| DM-Only Canon | `03_canon/DM_ONLY_CANON.md` | dm-only | placeholder | Hidden truths — villains, secret agendas, mystery answers |
-| Campaign Identity Lock | `03_canon/CAMPAIGN_IDENTITY_LOCK.md` | dm-only | placeholder | Locked core campaign identity — do not overwrite |
-| World History | `03_canon/WORLD_HISTORY.md` | mixed | placeholder | Chronological history — public belief and hidden truth |
-| Cosmology | `03_canon/COSMOLOGY.md` | mixed | placeholder | Planes, afterlife, nature of magic |
-| Gods and Faiths | `03_canon/GODS_AND_FAITHS.md` | mixed | placeholder | All deities, churches, cults, and folk faiths |
-| Magic Rules | `03_canon/MAGIC_RULES.md` | mixed | placeholder | How magic works — lore and campaign-specific mechanics |
-| Calendar | `03_canon/CALENDAR.md` | player-safe | placeholder | In-world calendar system and current date |
-| Languages | `03_canon/LANGUAGES.md` | player-safe | placeholder | All languages — common, regional, ancient, secret |
-| Leveling Assumptions | `03_canon/LEVELING_ASSUMPTIONS.md` | player-safe | placeholder | Milestone vs. XP, pacing, level-up triggers |
+| Canon | `03_canon/CANON.md` | mixed | static | Authoritative world facts — check before adding new facts |
+| Player-Safe Canon | `03_canon/PLAYER_SAFE_CANON.md` | player-safe | runtime | Baseline player-safe facts; grows via discovery |
+| DM-Only Canon | `03_canon/DM_ONLY_CANON.md` | dm-only | static | Hidden truths — the harvest, Hollow Court, mystery answers |
+| Campaign Identity Lock | `03_canon/CAMPAIGN_IDENTITY_LOCK.md` | dm-only | static (LOCKED) | Locked core campaign identity |
+| World History | `03_canon/WORLD_HISTORY.md` | mixed | static | Public + true timelines of the Quietfall |
+| Cosmology | `03_canon/COSMOLOGY.md` | mixed | static | Afterlife, Remembrance, the Quiet Country |
+| Gods and Faiths | `03_canon/GODS_AND_FAITHS.md` | mixed | static | Three Thresholds; Mourners; clergy |
+| Magic Rules | `03_canon/MAGIC_RULES.md` | mixed | static | 5e + Remembrance wrinkles (resurrection risk, etc.) |
+| Calendar | `03_canon/CALENDAR.md` | player-safe | static | AQ/CR reckoning; months; Greyfall start |
+| Languages | `03_canon/LANGUAGES.md` | player-safe | static | Concord Script clue gate; Mourner's Cant; Knock |
+| Leveling Assumptions | `03_canon/LEVELING_ASSUMPTIONS.md` | player-safe | static | Milestone leveling; Act 1 triggers |
 
 ---
 
@@ -151,22 +504,22 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 
 | Name | File | Secrecy | Purpose |
 |---|---|---|---|
-| Current State | `02_runtime_state/CURRENT_STATE.md` | mixed | Single-page campaign snapshot — load first every session |
-| Player Character | `02_runtime_state/PLAYER_CHARACTER.md` | player-safe | Full PC stats, resources, conditions |
-| Current Location | `02_runtime_state/CURRENT_LOCATION.md` | player-safe | Where the player is and what has changed |
-| Current Scene | `02_runtime_state/CURRENT_SCENE.md` | mixed | Immediate scene — has DM-only hidden notes |
-| Active Quests | `02_runtime_state/ACTIVE_QUESTS.md` | mixed | All active quests with current status |
-| Open Threads | `02_runtime_state/OPEN_THREADS.md` | mixed | Loose ends, dangling hooks, unresolved situations |
+| Current State | `02_runtime_state/CURRENT_STATE.md` | mixed | Single-page campaign snapshot — load first every session (seeded: campaign-start baseline) |
+| Player Character | `02_runtime_state/PLAYER_CHARACTER.md` | player-safe | Full PC stats, resources, conditions (scaffold: awaiting character creation) |
+| Current Location | `02_runtime_state/CURRENT_LOCATION.md` | player-safe | Where the player is and what has changed (seeded: Hollowmere) |
+| Current Scene | `02_runtime_state/CURRENT_SCENE.md` | mixed | Immediate scene — has DM-only hidden notes (seeded: opening scene) |
+| Active Quests | `02_runtime_state/ACTIVE_QUESTS.md` | mixed | All active quests with current status (seeded: Hook 1 + Hooks 5–7 available) |
+| Open Threads | `02_runtime_state/OPEN_THREADS.md` | mixed | Loose ends, dangling hooks, unresolved situations (seeded: 5 opening threads) |
 | Known Clues | `02_runtime_state/KNOWN_CLUES.md` | player-safe | Clues the player has discovered and understood |
-| Hidden Clues | `02_runtime_state/HIDDEN_CLUES.md` | dm-only | Undiscovered clues — DM only, never show player |
+| Hidden Clues | `02_runtime_state/HIDDEN_CLUES.md` | dm-only | Undiscovered clues — DM only, never show player (seeded: all clues hidden at campaign start) |
 | NPC Memory | `02_runtime_state/NPC_MEMORY.md` | mixed | How NPCs remember and feel about the player |
-| Faction State | `02_runtime_state/FACTION_STATE.md` | mixed | Current faction attitudes and clock positions |
-| World Clocks | `02_runtime_state/WORLD_CLOCKS.md` | mixed | All escalating threats and faction timelines |
+| Faction State | `02_runtime_state/FACTION_STATE.md` | mixed | Current faction attitudes and clock positions (seeded: 7 factions at Stage 1 baseline) |
+| World Clocks | `02_runtime_state/WORLD_CLOCKS.md` | mixed | 10 campaign clocks populated (Stage 1); master = The Harvest Restarts |
 | Inventory and Rewards | `02_runtime_state/INVENTORY_AND_REWARDS.md` | player-safe | All player possessions, currency, favors |
 | Relationships | `02_runtime_state/RELATIONSHIPS.md` | player-safe | Significant long-term relationships |
 | Consequences | `02_runtime_state/CONSEQUENCES.md` | mixed | Known and secret consequences of player choices |
 | Session Recap | `02_runtime_state/SESSION_RECAP.md` | player-safe | Player-safe summary of each completed session |
-| Next Session Start | `02_runtime_state/NEXT_SESSION_START.md` | mixed | Ready-to-use session opening — has DM-only notes |
+| Next Session Start | `02_runtime_state/NEXT_SESSION_START.md` | mixed | Ready-to-use session opening — has DM-only notes (seeded: Session-1 opener) |
 
 ---
 
@@ -175,29 +528,31 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 | Name | File | Purpose | Status |
 |---|---|---|---|
 | AI DM Core Rules | `01_runner_protocol/AI_DM_CORE_RULES.md` | Core AI DM behavior during play | complete |
-| Solo Play Principles | `01_runner_protocol/SOLO_PLAY_PRINCIPLES.md` | Solo-play adjustments — encounter scaling, failure, allies | placeholder |
-| Session Loop | `01_runner_protocol/SESSION_LOOP.md` | Standard session start/during/end loop | placeholder |
-| Scene Framing | `01_runner_protocol/SCENE_FRAMING.md` | How to open, run, and close scenes | placeholder |
-| Player Choice Protocol | `01_runner_protocol/PLAYER_CHOICE_PROTOCOL.md` | How to present choices immersively | placeholder |
-| Roll and Check Protocol | `01_runner_protocol/ROLL_AND_CHECK_PROTOCOL.md` | When and how to call for rolls | placeholder |
-| Combat Protocol | `01_runner_protocol/COMBAT_PROTOCOL.md` | Solo combat running — enemies, scaling, retreat | placeholder |
-| Social Scene Protocol | `01_runner_protocol/SOCIAL_SCENE_PROTOCOL.md` | NPC conversations, negotiations, social encounters | placeholder |
-| Exploration Protocol | `01_runner_protocol/EXPLORATION_PROTOCOL.md` | Dungeon and wilderness exploration | placeholder |
-| Travel Protocol | `01_runner_protocol/TRAVEL_PROTOCOL.md` | Overland travel, journey pacing, events | placeholder |
-| Downtime Protocol | `01_runner_protocol/DOWNTIME_PROTOCOL.md` | Downtime activities and time-passing | placeholder |
-| Clue Delivery Protocol | `01_runner_protocol/CLUE_DELIVERY_PROTOCOL.md` | When and how to surface clues | placeholder |
-| Secret Reveal Protocol | `01_runner_protocol/SECRET_REVEAL_PROTOCOL.md` | When and how to deliver revelations | placeholder |
-| Failure and Consequences | `01_runner_protocol/FAILURE_AND_CONSEQUENCES.md` | What failure costs and how it changes situations | placeholder |
-| Tone and Narration | `01_runner_protocol/TONE_AND_NARRATION.md` | Campaign voice, style, and narration standards | placeholder |
-| When to Ask Questions | `01_runner_protocol/WHEN_TO_ASK_QUESTIONS.md` | When to ask vs. when to decide and proceed | placeholder |
-| When to Improvise | `01_runner_protocol/WHEN_TO_IMPROVISE.md` | What the AI may and must not improvise | placeholder |
-| Session End Protocol | `01_runner_protocol/SESSION_END_PROTOCOL.md` | Session closing beat and state update procedure | placeholder |
+| Solo Play Principles | `01_runner_protocol/SOLO_PLAY_PRINCIPLES.md` | Solo-play adjustments — encounter scaling, failure, allies | complete |
+| Session Loop | `01_runner_protocol/SESSION_LOOP.md` | Standard session start/during/end loop | complete |
+| Scene Framing | `01_runner_protocol/SCENE_FRAMING.md` | How to open, run, and close scenes | complete |
+| Player Choice Protocol | `01_runner_protocol/PLAYER_CHOICE_PROTOCOL.md` | How to present choices immersively | complete |
+| Roll and Check Protocol | `01_runner_protocol/ROLL_AND_CHECK_PROTOCOL.md` | When and how to call for rolls | complete |
+| Combat Protocol | `01_runner_protocol/COMBAT_PROTOCOL.md` | Solo combat running — enemies, scaling, retreat | complete |
+| Social Scene Protocol | `01_runner_protocol/SOCIAL_SCENE_PROTOCOL.md` | NPC conversations, negotiations, social encounters | complete |
+| Exploration Protocol | `01_runner_protocol/EXPLORATION_PROTOCOL.md` | Dungeon and wilderness exploration | complete |
+| Travel Protocol | `01_runner_protocol/TRAVEL_PROTOCOL.md` | Overland travel, journey pacing, events | complete |
+| Downtime Protocol | `01_runner_protocol/DOWNTIME_PROTOCOL.md` | Downtime activities and time-passing | complete |
+| Clue Delivery Protocol | `01_runner_protocol/CLUE_DELIVERY_PROTOCOL.md` | When and how to surface clues (three-clue rule) | complete |
+| Secret Reveal Protocol | `01_runner_protocol/SECRET_REVEAL_PROTOCOL.md` | When and how to deliver revelations | complete |
+| Failure and Consequences | `01_runner_protocol/FAILURE_AND_CONSEQUENCES.md` | What failure costs and how it changes situations | complete |
+| Tone and Narration | `01_runner_protocol/TONE_AND_NARRATION.md` | Campaign voice, style, and narration standards | complete |
+| When to Ask Questions | `01_runner_protocol/WHEN_TO_ASK_QUESTIONS.md` | When to ask vs. when to decide and proceed | complete |
+| When to Improvise | `01_runner_protocol/WHEN_TO_IMPROVISE.md` | What the AI may and must not improvise | complete |
+| Session End Protocol | `01_runner_protocol/SESSION_END_PROTOCOL.md` | Session closing beat and state update procedure | complete |
+| Opening Scenes | `16_ai_session_packs/OPENING_SCENES.md` | Three session-1 openers + recommended default | complete |
+| Solo Safety Start | `16_ai_session_packs/SOLO_SAFETY_START.md` | Starting solo-play safety mechanism | complete |
 | Session End Checklist | `16_ai_session_packs/SESSION_END_UPDATE_CHECKLIST.md` | End-of-session state update checklist | complete |
-| Start New Campaign Prompt | `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md` | First-session opening prompt for AI DM | placeholder |
-| Resume Campaign Prompt | `16_ai_session_packs/RESUME_CAMPAIGN_PROMPT.md` | Standard session-resume prompt | placeholder |
-| State Update Template | `16_ai_session_packs/STATE_UPDATE_TEMPLATE.md` | Copy-paste template for session-end state updates | placeholder |
-| Compact Context Template | `16_ai_session_packs/COMPACT_CONTEXT_TEMPLATE.md` | Compressed single-doc state summary for long campaigns | placeholder |
-| DM Hidden Recap Template | `16_ai_session_packs/DM_HIDDEN_RECAP_TEMPLATE.md` | DM-only post-session hidden consequence log | placeholder |
+| Start New Campaign Prompt | `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md` | First-session opening prompt for AI DM (DM-only) | complete |
+| Resume Campaign Prompt | `16_ai_session_packs/RESUME_CAMPAIGN_PROMPT.md` | Standard session-resume prompt (DM-only) | complete |
+| State Update Template | `16_ai_session_packs/STATE_UPDATE_TEMPLATE.md` | Copy-paste template for session-end state updates | ready (template) |
+| Compact Context Template | `16_ai_session_packs/COMPACT_CONTEXT_TEMPLATE.md` | Compressed single-doc state summary for long campaigns | ready (template) |
+| DM Hidden Recap Template | `16_ai_session_packs/DM_HIDDEN_RECAP_TEMPLATE.md` | DM-only post-session hidden consequence log | ready (template) |
 
 ---
 
@@ -237,3 +592,20 @@ When the AI DM needs a file, search this index by type, region, faction, level, 
 |---|---|---|
 | Content Gaps | `17_generation_backlog/CONTENT_GAPS.md` | Missing or underdeveloped content by category |
 | Expansion Plan | `17_generation_backlog/EXPANSION_PLAN.md` | Forward-looking development roadmap |
+
+---
+
+## Audit Reports
+
+| Name | File | Secrecy | Summary |
+|---|---|---|---|
+| Stage 1–5 AI-Readiness Audit | `18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md` | mixed | Stage 6 first full audit; foundation sound |
+| Stage 11 Mystery Secrecy Audit | `18_audits/STAGE_11_MYSTERY_SECRECY_AUDIT.md` | dm-only | No apex-truth leaks; all mystery files DM-only |
+| Player-Safe Full-Continent Map Audit | `18_audits/PLAYER_SAFE_FULL_CONTINENT_MAP_AUDIT.md` | dm-facing | Settlement-anchor distribution pass; 11/11 checks PASS, 0 Critical/High/Medium (verifies map *output* is player-safe; the audit file references excluded names, so it is not player-facing) |
+| **Pre-Play Readiness Audit (MASTER VERDICT)** | `18_audits/PRE_PLAY_READINESS_AUDIT.md` | dm-facing | **One-page master readiness verdict: READY FOR LIVE PLAY; points to all 6 detailed Stage 16 reports; notes the 2026-06-16 correction pass** |
+| Stage 16 Pre-Play Readiness Audit | `18_audits/STAGE_16_PRE_PLAY_READINESS_AUDIT.md` | dm-only | Whole-repo Stage 16 audit (detailed). Verdict: READY FOR LIVE PLAY; correction-pass note added |
+| Stage 16 Blockers and Fixes | `18_audits/STAGE_16_BLOCKERS_AND_FIXES.md` | dm-only | Ledger of every Stage 16 issue + disposition; includes the 2026-06-16 correction pass (C1–C8) |
+| Stage 16 Player-Safe Start Audit | `18_audits/STAGE_16_PLAYER_SAFE_START_AUDIT.md` | dm-only | Session-1 immediately runnable; all opening materials present |
+| Stage 16 DM-Only Secrecy Audit | `18_audits/STAGE_16_DM_ONLY_SECRECY_AUDIT.md` | dm-only | 0 apex-truth leaks; all DM-only files marked; REV_007 gated L13+ |
+| Stage 16 Retrieval Audit | `18_audits/STAGE_16_RETRIEVAL_AUDIT.md` | dm-only | All major indexes present + current + cross-linked |
+| Stage 16 Full-Arc Playability Audit | `18_audits/STAGE_16_FULL_ARC_PLAYABILITY_AUDIT.md` | dm-only | L1–20 findable/linked; open-world resilience verified |

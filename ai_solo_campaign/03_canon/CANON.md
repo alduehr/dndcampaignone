@@ -6,7 +6,7 @@ Authoritative record of all established world facts. When any content contradict
 
 ## Current Status
 
-**PLACEHOLDER — Not yet populated.** Campaign world has not been generated. To be filled during Stage 1.
+**Stages 1–15B complete; Stage 16 (Pre-Play Readiness Audit) underway.** Top-level canon established in Stage 1; all later stages (runtime, region, city, Ring 1, factions, NPCs, quests, mysteries, dungeons, encounters, treasure, and the level 5–20 arc) added content **without changing core world facts** — see the Canon Revision Log below, which records every play-layer pass through Stage 15. This file holds top-level binding facts; detailed content lives in linked files; this file is the contradiction-check reference.
 
 ---
 
@@ -21,50 +21,87 @@ Authoritative record of all established world facts. When any content contradict
 
 ## Campaign Identity
 
-*To be established during Stage 1.*
+| Field | Value | Secrecy |
+|---|---|---|
+| Campaign name | **The Long Remembering** | player-safe |
+| World name | **Vael** (the known continent: **Orrun**) | player-safe |
+| Premise | A century ago the dead stopped leaving cleanly; the player begins as a frontier newcomer in the ruin-haunted region of the **Sundering Reach**, drawn into why the boundary between the living and the remembered is failing. | player-safe (surface) |
+| Central conflict | Multiple powers race to control the **Remembrance** — the lingering of the dead as preservable memory — each believing they alone can save or rule the world by mastering it. | mixed |
+| Hidden truth | DM-only. See `DM_ONLY_CANON.md`. | dm-only |
+| Tone | Grounded folk-horror frontier fantasy with mystery, moral weight, and hope. Eerie, not nihilistic. | player-safe |
+| Core themes | Memory vs. truth; grief and letting go; who owns the dead; the cost of being remembered; renewal after collapse. | player-safe |
+| Starting region | The **Sundering Reach** | player-safe |
+| Starting settlement | **Hollowmere** | player-safe |
+| Level 1 opening | Newcomer to Hollowmere as a recent death-rite goes wrong; a body that should rest does not. | player-safe |
+| Campaign end condition | The fate of the Remembrance is decided — sealed, freed, controlled, or transformed — shaping whether the dead can finally rest. | mixed |
 
-- Campaign name: TBD
-- Premise: TBD
-- Central conflict: TBD
-- Hidden truth: TBD (DM-only — see DM_ONLY_CANON.md)
-- Tone: TBD
-- Themes: TBD
+The full locked identity table is in `CAMPAIGN_IDENTITY_LOCK.md`.
 
 ---
 
 ## World Geography (Top Level)
 
-*To be established during Stage 1.*
+- The campaign occurs on the continent of **Orrun**, on the world of **Vael**.
+- Orrun is a post-collapse land: roughly a century ago an event called the **Quietfall** ended the old continent-spanning order (the **Custodian Concord**) and scattered survivors into independent regions.
+- The starting region, the **Sundering Reach**, is a cold, fen-and-highland frontier on Orrun's northwestern edge, built over and among the ruins of the Concord.
+- The Reach's settlements (Stage 3): **Hollowmere** (capital/start, on the basin), **Kettle Bridge** (E, Mirewend toll-crossing), **Saltmargin** (W, salt-trade gateway toward the Pale Coast), **Candlewick** (S, candle/farm village, Concord archive-stone), **Greywater Holm** (SE, Greyfens-edge fen-village), **Harrowgast** (N, Sunder Heights mining ruin-town), **Reedford** (central ford-hamlet), and **The Ashwalk Rest** (central Warden waystation/sanctuary). See `../05_regions/SUNDERING_REACH.md`.
+- Adjacent known regions (**deep-built Stage 7 — Ring 1**): the **Ashgarden Vale** (south, farmland and shrine-towns; hub **Orchardmere**; the pilgrimage **Saint Veddow's Rest** over a capped Concord shrine), the **Tollwood** (east, deep old-growth forest and Concord toll-roads; hub **Hartfell**; a gated pre-Concord presence in the deep **Old Mast**), and the **Pale Coast** (west, fishing and salt-trade; hub **Wrackmouth**; ruined Concord sea-lighthouses incl. the **Drowned Lamp**; **Saltmargin** is the existing Reach gateway). All three connect to the Reach and to the inland city-state **Caradril** (southeast). See `../04_world_atlas/TRAVEL_ROUTES_RING1.md` and `MAP_DESCRIPTION.md`. **DM-only:** the Vale's Saint Veddow's, the Coast's lighthouses, and (obliquely, via a non-Concord landmark-power) the Tollwood's deep wood are regional *cousin-sites/echoes* of the harvest network — they corroborate M2/M3/M5 from outside the Reach but are NOT the keystone and never the Hollow Court.
+- **Caradril (deep-built Stage 4)** is the first major city: an independent inland city-state on the **Verdance** river and its harbor-lake the **Stillwater**, ~10–12 days SE of Hollowmere. It survived the Quietfall mostly intact and prospered (the **Stilling**). Governed by the **Tidewater Council** of merchant magisters (the **Charter Houses**) under a **First Magister** (**Halloran Voss**); policed by the **Tide-Watch**. It is the **headquarters of the Cinder Ledger** (the Ledger Keep) and the **seat of the Concord Remnant** (the Lamplighters' Hall + the Sealed Archive). Eight districts: the Magisterium, the Counting-Quays, the Lantern Reach, the Ashmarket, Highmourn, the Crucible, the Sill, and the flooded **Sunken Wards** beneath the city. Caradril is the mid-game hub (levels ~5–12). See `../06_settlements/CARADRIL.md`.
 
 ---
 
-## History (Key Events)
+## History (Key Events) — Public Version
 
-*To be established during Stage 1. Use dated entries once the calendar is defined.*
+Dates use the regional calendar, **After Quietfall (AQ)**. Current year: **AQ 101**.
+
+| When | Event | Status |
+|---|---|---|
+| Pre-Quietfall (the Concord Age) | The Custodian Concord, an order of memory-keepers and wardens, governed much of Orrun and tended shrines that "kept the dead at peace." | player-safe |
+| ~AQ 0 (the Quietfall) | The Concord collapsed in a single catastrophic season. Its great shrines went silent. Many died; survivors fled. | player-safe |
+| AQ 0–40 | Frontier resettlement. Towns like Hollowmere founded among the ruins. | player-safe |
+| AQ ~60 onward | Death-rites began failing more often: bodies that will not rest, "rememberings" of the dead seen near old sites. | player-safe |
+| AQ 101 (now) | The failures are accelerating. The campaign begins. | player-safe |
+
+True history is DM-only; see `WORLD_HISTORY.md` and `DM_ONLY_CANON.md`.
 
 ---
 
 ## Major Factions (Existence and Public Identity)
 
-*To be established during Stage 1.*
+| Faction | Public Identity | File |
+|---|---|---|
+| The Ashen Wardens | Wandering rite-keepers who lay the restless dead to rest; successors of the Concord. | `07_factions/major_factions/ASHEN_WARDENS.md` |
+| The Cinder Ledger | A merchant-banking house that funds resettlement and buys "old Concord salvage." | `07_factions/major_factions/CINDER_LEDGER.md` |
+| The Mourners' Circle | A grief-and-folk faith that tends the dead and resists outside meddling. | `07_factions/major_factions/MOURNERS_CIRCLE.md` |
+| The Reachward Compact | The loose council of frontier settlements that governs the Reach. | `07_factions/major_factions/REACHWARD_COMPACT.md` |
+| The Gravecallers | A feared, secretive cult said to "speak with the dead." | `07_factions/major_factions/GRAVECALLERS.md` |
+| The Concord Remnant | Scholars and zealots trying to rebuild the lost Custodian Concord. | `07_factions/major_factions/CONCORD_REMNANT.md` |
+| The Hollow Court | Rumored court of the dead beneath the Reach; existence disputed. | `07_factions/major_factions/HOLLOW_COURT.md` |
+
+Hidden agendas are DM-only; see `DM_ONLY_CANON.md` and individual faction files.
 
 ---
 
 ## Major NPCs (Existence and Public Identity)
 
-*To be established during Stage 1.*
+Twenty major NPCs are established in `08_npcs/MAJOR_NPCS.md` and indexed in `08_npcs/NPC_INDEX.md`. Public identities are player-safe; their secrets are DM-only.
 
 ---
 
 ## Cosmology and Gods
 
-*To be established during Stage 1.*
+- The world's faiths center on **the Three Thresholds**: Birth, Living, and the Last Door (death). See `GODS_AND_FAITHS.md`.
+- Most cultures hold that the dead pass through the **Last Door** into the **Quiet Country** (afterlife). The Concord's purpose was to keep that door working.
+- Since the Quietfall, the Last Door "sticks." The dead linger as **Remembrances**. Whether this is divine, magical, or man-made is publicly unknown and is a core mystery.
+- True cosmology is DM-only; see `COSMOLOGY.md` and `DM_ONLY_CANON.md`.
 
 ---
 
 ## Magic
 
-*To be established during Stage 1. See `MAGIC_RULES.md` for mechanics.*
+- Standard D&D 5e / 2024 magic exists (arcane, divine, primal, etc.).
+- The campaign adds one setting-specific phenomenon: **Remembrance** — the persistence of a dead person's memory, identity, and sometimes will, as a manipulable substance/force. Mechanics are lightweight and sit on top of 5e. See `MAGIC_RULES.md`.
+- Remembrance is not a new class or spell list. It is a setting force that explains undeath, certain hauntings, and a custom resource used by some adversaries and items.
 
 ---
 
@@ -72,7 +109,14 @@ Authoritative record of all established world facts. When any content contradict
 
 | Date | Original Fact | Revised Fact | Reason | Files Updated |
 |---|---|---|---|---|
-| — | — | — | — | — |
+| 2026-06-09 | (placeholder canon) | Full Stage 1 canon established | Stage 1 production pass | All canon files |
+| 2026-06-09 | Reach = frame only (Hollowmere + named zones) | Reach deep-built: 8 settlements, 4 wilderness zones (~25 sites), 6 dungeons; new custom term **thin-touch** (reversible relic-exposure condition); new secondary harvest node (the Deep Adit) and minor nodes (Sunken Tollhouse) consistent with the keystone shrine being central, not unique | Stage 3 Starting Region Deep Build | `SUNDERING_REACH.md`, settlement/wilderness/dungeon files, `PLAYER_SAFE_CANON.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`, indexes |
+| 2026-06-10 | Act 1 (levels 1–4) = arc shape only | **Stage 5 Level 1–4 Play Arc built** as an open-world play kit atop the existing region: the Act 1 arc spine (`ACT_1_LEVELS_1_4.md`), 6 faction-alignment quests (`09_quests/act_1_quests/`), 5 recurring early-threat profiles (`ACT_1_THREATS.md`), a DM-only existing-clue access overlay (`ACT_1_CLUE_TRAILS.md`), 9 failure-redirect states (`ACT_1_FAILURE_STATES.md`), milestone/XP triggers (`ACT_1_MILESTONES.md`), and an Act 1 NPC casting guide (`ACT_1_NPC_GUIDE.md`). **No new world facts and no new central mystery, faction, god, cosmology, or artifact were created** — only play-layer structure reusing existing M1–M9, NPCs, factions, and clocks. All Act 1 reveals capped at R1; the Hollow Court (M7) is never named and has no friendly quest by design. | Stage 5 Level 1–4 Play Arc | `ACT_1_*` arc files, `act_1_quests/`, `ACT_1_THREATS.md`, `ACT_1_CLUE_TRAILS.md`, `ACT_1_NPC_GUIDE.md`, `PLAYER_SAFE_CANON.md`, runtime ACTIVE_QUESTS/OPEN_THREADS, indexes |
+| 2026-06-10 | Caradril = named city only | Caradril deep-built as the first major city: city-state on the Verdance/Stillwater; the Tidewater Council/Charter Houses/Tide-Watch government; 8 districts incl. the **Sunken Wards** (a minor, dormant relic-cousin of the Reach nodes — NOT the keystone); city-internal factions (Salt Syndicate, the Hush); 4 new city criminal/civic blocs; Ledger HQ + Remnant seat located; the Sealed Archive as the clearest M6/M9 proof; the "Stilling" prosperity = the harvest's pause (DM); 3 city clocks (C1 The Deal Closes, C2 The Council Sleeps, C3 The City's Denial Cracks). **No new central mystery, faction, god, cosmology, or artifact created.** | Stage 4 First Major City Deep Build | `CARADRIL.md` + 8 district files, city quests/hooks/rumors/encounters, `SECONDARY_NPCS.md`, `MINOR_NPCS.md`, `PLAYER_SAFE_CANON.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`, indexes, state/clue files |
+| 2026-06-11 | World map = relative directions + travel times only (MAP_DESCRIPTION) | **World Map Authority Pass (cartographic canon):** established the master cartographic reference layer without changing world facts. Recorded the spatial frame the existing travel times already imply (Hollowmere center; Vale S, Tollwood E, Coast W, Caradril SE, Sunder Heights N), added a normalized 0–100 coordinate grid for the mapped NW quarter, defined 7 map layers (player-safe, DM-only, faction, mystery, danger, travel, hidden-truth), and authored 4 image-generation prompts. Named 4 supporting geographic features — **the Pale Sea** (W ocean), **the Highmark Spine** (far-N barrier range / parent of the Sunder Heights), **the Verdance Reaches** (Ring 2 placeholder, up-Verdance SE), and **the Concord Deep** (DM-only buried node-network) — plus map-authoritative placeholders for midgame (Verdance Reaches, deep Sunder Heights), late-game (Concord Deep, Highmark passes), and endgame (the Under-Shrine/Drowned Keystone, placed **vertically beneath Hollowmere**, not as a distant region). **No new factions, gods, cosmology, central mysteries, or artifacts; no travel times or region descriptions contradicted.** The endgame remains under the keystone per the existing arc. | World Map Authority Pass | `WORLD_MAP_AUTHORITY.md`, `WORLD_MAP_COORDINATES.md`, `WORLD_MAP_LAYERS.md`, `WORLD_MAP_PROMPTS.md`, `REGION_INDEX.md` (new); `NAMING_REGISTRY.md`, `PLAYER_SAFE_CANON.md`, `DM_ONLY_CANON.md`, `CONTENT_INDEX.md`, `TAG_INDEX.md`, `RETRIEVAL_GUIDE.md`, `TODO.md`, `CONTENT_GAPS.md`, `PROGRESS_LOG.md` (updated) |
+| 2026-06-11 | World map = NW campaign quarter only (WORLD_MAP_AUTHORITY/COORDINATES) | **Full-World Cartographic Expansion Pass:** expanded the cartographic layer from the NW campaign quarter to the **full continent of Orrun** without changing any world fact. Established `FULL_WORLD_MAP_AUTHORITY.md` (whole-continent master reference), `FULL_WORLD_MAP_COORDINATES.md` (full 0–100 continental grid embedding the campaign cluster in the NW corner via a documented rescale: campaign grid → full-grid X 8–40, Y 8–42), `FULL_WORLD_MAP_LAYERS.md` (8 layers incl. a campaign-area inset), and `FULL_WORLD_MAP_PROMPTS.md` (5 image prompts). Defined the continent's dominant **NW(cold-poor)→SE(warm-rich) axis**; named all major continental water (Sunder Ocean, Calm Reach, Saltmere, Hollow Gulf, Wracking Straits, Glasswater, Mardenflow, Hethe), terrain (Greatspine/Sundering Wall cordillera, Karran Teeth, Emberfells [volcanic, SE], Ghostmark; Hethewood, Sunmark Wilds, Ashen Reach Woods; Cindern Waste, Bonepan Flats; Sallow Marches, Mirewend Sinks; Wender Steppe, Marrowdowns; Wracking Isles, Glass Coast, Drowned Steps), and **11 placeholder political/cultural regions** spanning city-leagues, manorial holds, a protectorate, port city-states, a nomadic confederacy, ungoverned marches, a volcanic theocracy, salt-clan holds, a **fallen-realm Concord surface ruin (the Heartlands)**, forest free-holds, and sacred tribal land — plus 3 placeholder overseas Vael landmasses (Surren, Iron Skards, Sundered Isles). Clarified `WORLD_MAP_PROMPTS.md` as the **campaign-area** map prompts. **Endgame stays vertical (under Hollowmere); the new far ruins are surface/pre-Concord echoes, NEVER the keystone or the Hollow Court's seat.** No new factions, gods, cosmology, central mysteries, or artifacts; no travel times or region descriptions contradicted; placeholders are not deep-built. | Full-World Cartographic Expansion Pass | `FULL_WORLD_MAP_AUTHORITY.md`, `FULL_WORLD_MAP_COORDINATES.md`, `FULL_WORLD_MAP_LAYERS.md`, `FULL_WORLD_MAP_PROMPTS.md` (new); `WORLD_MAP_PROMPTS.md`, `REGION_INDEX.md`, `NAMING_REGISTRY.md`, `PLAYER_SAFE_CANON.md`, `DM_ONLY_CANON.md`, `CONTENT_INDEX.md`, `TAG_INDEX.md`, `RETRIEVAL_GUIDE.md`, `TODO.md`, `CONTENT_GAPS.md`, `PROGRESS_LOG.md` (updated) |
+| 2026-06-15 | Level 5–20 arc = framework only (`LEVEL_1_TO_20_PROGRESSION.md` Acts 2–5 stubs) | **Stage 15 Level 5–20 Campaign Arc Expansion (structural play-layer pass — no new world facts):** built 15 files in `15_campaign_arcs/` letting an AI DM run the campaign from level 5 to 20. Introduced **tier** language (Tier 2/3/4 = L5–10/11–16/17–20) bound to the existing **act** language (Acts 2–5) via a documented crosswalk. Sequenced the existing revelations (REV_001–010 / M0–M10) across the tiers; mapped the existing clocks (#1–10, C1–C3, Ring-1), factions, NPCs, dungeons (D01–D36), bestiary, and treasure to each tier **by reference**; built the endgame structure (9 approaches × 5 outcomes: seal/restart/seize/destroy/transform), per-tier failure consequences, milestone leveling, solo-balance, and open-world continuity guidance. **No new central mystery, faction, god, cosmology, artifact, region, NPC, or proper noun was created; no existing world fact was changed.** Apex protection strengthened (REV_007/the Hollow Court gated to L13+; far sources never deliver it; the endgame stays vertical under Hollowmere). Readiness audit PASS. | Stage 15 Level 5–20 Arc Expansion | `15_campaign_arcs/*` (15 files), `00_control/STAGE_15_PROGRESS.md`; `CONTENT_INDEX.md`, `TAG_INDEX.md`, `PROGRESS_LOG.md`, `TODO.md`, `CONTENT_GAPS.md`, `02_runtime_state/WORLD_CLOCKS.md`, `FACTION_STATE.md` (updated) |
+| 2026-06-10 | Ring 1 regions = named only | **Stage 7 Regional Expansion Ring 1 deep-built:** the three adjacent regions opened outward — **Ashgarden Vale** (S; Orchardmere, Saint Veddow's Rest [capped Concord shrine/secondary node], Tilbrook; the Vale's *denial* of the failures; regional clock "The Harvest-Moot's Silence"), **Tollwood** (E; Hartfell, Coldhearth, Tollstone Cross; Concord toll-roads; a **gated pre-Concord landmark-power in the Old Mast** — NOT the Court/a god, an oblique M5/M6 witness; the minor regional faction **the Tollmen**; regional clock "The Old Mast Stirs"), and **Pale Coast** (W; Wrackmouth, Cobble Strand; Saltmargin reused as gateway; **maritime harvest-nodes** in the old lighthouses incl. the Drowned Lamp; the "drowned-tide"; regional clock "The Drowned Tide Rises"). 3 wilderness files, 9 dungeons (3 gated higher-tier), 3 encounter tables, 66 hooks/60 rumors, 20 developed quests, 40 Ring 1 NPCs, and `TRAVEL_ROUTES_RING1.md` (6 routes; all funnel to Caradril). Each region has an *honest window* (Tilbrook/Coldhearth/Cobble Strand) confirming the failures **radiate outward from the Reach keystone** (M5 corroboration). **No new central mystery, major faction, god, cosmology, or artifact created;** the Vale/Coast nodes and the Tollwood presence are regional cousin-sites/landmark-powers feeding existing M2/M3/M5 (gated/oblique M6), never M7/the Hollow Court. | Stage 7 Regional Expansion Ring 1 | `ASHGARDEN_VALE.md`/`TOLLWOOD.md`/`PALE_COAST.md` + 8 settlements + 3 wilderness + 9 dungeons + 3 encounter tables + 6 hooks/rumors files + 20 quest files + `TRAVEL_ROUTES_RING1.md`, `SECONDARY_NPCS.md`, `MINOR_NPCS.md`, `NPC_INDEX.md`, `PLAYER_SAFE_CANON.md`, `NAMING_REGISTRY.md`, indexes |
 
 ---
 
@@ -80,6 +124,10 @@ Authoritative record of all established world facts. When any content contradict
 
 - [`PLAYER_SAFE_CANON.md`](PLAYER_SAFE_CANON.md)
 - [`DM_ONLY_CANON.md`](DM_ONLY_CANON.md)
+- [`CAMPAIGN_IDENTITY_LOCK.md`](CAMPAIGN_IDENTITY_LOCK.md)
 - [`WORLD_HISTORY.md`](WORLD_HISTORY.md)
 - [`COSMOLOGY.md`](COSMOLOGY.md)
 - [`GODS_AND_FAITHS.md`](GODS_AND_FAITHS.md)
+- [`MAGIC_RULES.md`](MAGIC_RULES.md)
+- [`../04_world_atlas/WORLD_OVERVIEW.md`](../04_world_atlas/WORLD_OVERVIEW.md)
+- [`../12_campaign_arc/MAIN_ARC_OVERVIEW.md`](../12_campaign_arc/MAIN_ARC_OVERVIEW.md)

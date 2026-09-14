@@ -36,6 +36,7 @@ For any major production pass:
    - Add new content to the relevant index.
    - Update CONTENT_INDEX.md.
    - Update TAG_INDEX.md when tags change.
+   - Update RETRIEVAL_GUIDE.md load entries when new world content is created (settlements, dungeons, wilderness zones, quest files, encounter tables, clue indexes).
 
 7. **Update project tracking**
    - Update PROGRESS_LOG.md.
