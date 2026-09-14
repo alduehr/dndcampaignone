@@ -1607,45 +1607,58 @@ corridor geometry makes a normal two-watcher split awkward.
 
 #### The Slag Room
 
-**Rule:** sound above a murmur becomes solid matter. The louder and longer
-the noise, the more of it, and the more dangerous.
+**Rule:** any vocalization becomes solid matter, extruded from the air
+directly in front of the speaker's mouth and cast forward at a speed and
+mass matching the volume behind it. A whisper produces a small puff of
+dust. Ordinary talk produces a scatter of small pebbles, harmless,
+cosmetic. A full-throated yell produces a continuous, thickening spear of
+the stuff, shooting forward for as long as the yell is sustained,
+hardening into place the instant it stops.
 
-**On entry:** a bare stone chamber. Heaped in every corner: dark, rounded,
-slag-like lumps, centuries old, worn glassy-smooth — old shouted arguments,
-solidified and still faintly legible as shapes if you look closely (a fist,
-a snarl, once in a great while an actual half-formed word).
+**On entry:** a bare stone chamber. Heaped in every corner: dense,
+charcoal-black mineral lumps with a dull, glassy surface — somewhere
+between volcanic slag and cooled furnace waste, centuries old, worn
+smooth — old shouted arguments, solidified, still faintly legible as
+shapes if you look closely (a fist, a snarl, once in a great while a
+half-formed word). Freshly formed slag is briefly soft, almost tar-like,
+faintly vibrating with whatever sound made it — not hot, never hot — and
+hardens within seconds into rough, heavy, completely inert stone. It
+stays exactly where it forms, permanently, breakable and real, with no
+ongoing power once it's set (the one exception is below).
 
-**First interaction:** somebody talks at a normal, conversational volume —
-nothing happens, which is the important first data point. Somebody raises
-their voice or calls out — **a half-second later, dark, rough, gravel-sized
-nodules erupt from the air near where the sound was loudest** and clatter to
-the floor. A full shout produces fist-sized, sharp-edged chunks that fly a
-short distance in roughly the direction the voice carried, hard enough to
-sting — treat a shout or a spell with a loud verbal component as dealing
-**1d4 bludgeoning** to anyone within 10 feet of the speaker, no save, once
-per shout.
+**How the rule shows itself:** whisper, and a little dust drifts down.
+Talk normally, and a few pebbles patter out and land. Nobody needs to
+fear an ordinary conversation in here. Shout — or hold a yell aimed at
+someone — and the extruding stream reaches them: treat it as dealing
+**1d4 bludgeoning, no save**, to anyone directly in its path.
 
-**How the rule shows itself:** volume scales the effect predictably —
-whispering, nothing; talking, nothing; raised voice, harmless pebbles;
-shouting or screaming, real shrapnel. Let the party discover the gradient by
-testing it themselves rather than stating the DCs of "loud" up front.
+**The bridge.** A fissure splits the chamber, roughly twelve feet across,
+floor fallen away into the dark — centuries of the room's own
+accumulated slag-weight finally cracking the stone beneath it. **There
+is exactly one way across, and it isn't quiet.** Someone stands at the
+edge, faces the far side, and holds one continuous, unbroken yell until
+their breath runs out. The spear extrudes straight from their mouth for
+as long as the sound lasts, reaching further the longer it's sustained,
+and a single good, sustained yell is enough to span the whole gap —
+hardening into a real, solid, weight-bearing bridge the instant the
+sound stops. It costs nothing but the noise itself: no damage, no roll,
+nobody's in the way. If someone's yell breaks early, whatever's formed
+hardens exactly where it stopped, short of the gap and useless until
+somebody finishes the job. There's no ledge, no other route, no way to
+cross this quietly — it gets crossed loud or it doesn't get crossed.
 
 **Edge cases and the fun part:** a word spoken clearly, deliberately, and
 **exactly the same way more than once** sometimes crystallizes into slag
-that vaguely resembles what it named — shout "KEY" three times in a row and
-the resulting lump is crude, roughly key-shaped, and will turn a simple lock
-**once**, badly, before crumbling. This is a genuine tool, not a joke option
-— but it is never fine, never reliable, and never more than a single crude
-use, the same as any ambitious use of the Slate below.
-
-**The way through:** cross at a whisper or in absolute silence; nothing
-stops a quiet party. This room is a behavioural constraint, not a locked
-door — the danger is entirely self-inflicted.
+that vaguely resembles what it named — shout "KEY" three times in a row
+and the resulting lump is crude, roughly key-shaped, and will turn a
+simple lock once, badly, before crumbling. This is the one exception to
+slag having no lasting power: a genuine tool, not a joke option, but
+never fine, never reliable, and never more than a single crude use.
 
 **Alternate solution:** deliberately generating word-slag as improvised
-ammunition, a crude tool, or (with the "shout the same word three times"
-trick above) a one-use object the party actually needs and doesn't have.
-Reward genuine cleverness here; punish nothing except carelessness.
+ammunition, a crude tool, or (with the naming trick above) a one-use
+object the party actually needs and doesn't have. Reward genuine
+cleverness here; punish nothing except carelessness.
 
 #### The Long Way
 

@@ -114,6 +114,21 @@ most recent completed work; everything it touched is playable as written.
   off on the Slate / *remove curse* outside the Ell) are unchanged.
   Updated REWARDS.md's full entry and both "Loot here" mentions in the
   main file.
+- [x] **Narrative TODO #10 — the Slag Room, in two parts.** (a) Slag's
+  physical properties locked in: dense charcoal-black mineral, dull
+  glassy surface; extrudes from the air directly in front of the
+  speaker's mouth and shoots forward at a speed/mass matching volume
+  (whisper = dust, talk = pebbles, yell = a continuous, growing spear);
+  briefly tar-like and faintly vibrating when fresh, never hot; hardens
+  within seconds into permanent, ordinary, inert stone with no lasting
+  power (the "shout a word three times" crude tool is the one named
+  exception). (b) A real puzzle added: a 12-foot fissure with exactly one
+  way across — someone holds one continuous, unbroken yell aimed at the
+  far side until it spans the gap and hardens into a bridge. No damage
+  (nothing's in the stream's path over an empty gap), no round-by-round
+  rate, and deliberately no quiet alternative — this one obstacle can't
+  be solved by staying silent. Rewrote the full Slag Room section in the
+  main file; REWARDS.md's Echo Stone cross-reference needed no changes.
 - [ ] The ancient mortal order **the Measure** and the god **Veyr** are now
   real, registered campaign canon (see `03_canon/GODS_AND_FAITHS.md`,
   `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`) — if this
