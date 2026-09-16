@@ -1700,44 +1700,37 @@ memorising "hug the wall" specifically will correctly generalise it to any
 room built the same way later in the Ell, which is the actual reward for
 understanding it instead of just passing it.
 
-#### The Unanimous Room
+#### The Second Time
 
-**Rule:** everyone conscious and present must be attempting the identical
-action, at the same moment, or **nobody can act or move at all.**
+**Rule:** the first attempt at anything in this room does nothing at all,
+as if it never happened. The exact same action, repeated immediately
+after, works normally.
 
-**On entry:** an ordinary room, except that the instant everyone is inside,
-legs stop answering. Not paralysis exactly — more like every individual
-intention arrives a half-second too separate from everyone else's to
-resolve into motion.
+**On entry:** an ordinary room. Nothing obviously wrong with it.
 
-**First interaction:** someone tries to step forward. Nothing happens.
-Someone else tries at the same time, in a different direction. Still
-nothing — different actions don't count as unanimous even if simultaneous.
+**First interaction:** someone tries the far door. It doesn't open — no
+resistance, no lock, it simply doesn't respond, as if untouched. Try it
+again, the same way, right after, and it opens like it was never stuck at
+all.
 
-**How the rule shows itself:** it is common, and worth letting happen
-almost by accident, for the whole party to try the *same* thing at once
-early on — everyone draws a weapon at the sound of something, say — and for
-one half-second, everyone can move. Let them notice that themselves before
-explaining anything.
+**How the rule shows itself:** it's universal in here, not just the
+door — a lever, a loose flagstone, striking a match. The first try of
+anything always fails silently; the second, identical try always works.
+Let them discover it themselves the first time something "doesn't work,"
+rather than warning them.
 
-**Edge cases:** an unconscious, restrained, or otherwise non-acting
-creature doesn't count toward the requirement — only conscious, mobile
-people present need to match. Similar-but-not-identical actions (raising a
-weapon vs. drawing one) don't satisfy it; it wants the same verb, not the
-same spirit. Ambry, if he's with them, is a genuine complication here —
-panic makes him bad at doing what everyone else is doing, on purpose,
-consistently, all the way through the room.
+**Edge cases:** it has to be the same action, right after the failed
+one — walk away, try something else first, and the next attempt is a
+fresh "first" again. It doesn't care who's trying: two different people
+attempting the same thing back-to-back still counts as first-then-second.
 
-**The way through:** someone calls a cadence out loud — *"On three: step
-forward with your left foot"* — and the party moves as one on a count. Not
-hard once understood; the puzzle is entirely in recognising the rule exists.
+**The way through:** try everything in here twice. That's the whole room.
 
-**Alternate solution:** the rule freezes *anyone* present, including a
-hostile creature that follows them in or is lured inside — a pursuer that
-doesn't do exactly what the party is doing is just as stuck as they'd be.
-A party that lures something dangerous in here and then holds still,
-unanimously, has turned a trap into a cage. Cut into the plaster above the
-far door, in a neat surveyor's hand: **ALL AS ONE OR NONE FOR ALL.**
+**Alternate solution, and the clever one:** a party that's learned the
+rule can pre-spend it on purpose — slam a door once for no reason on the
+way in, and when they need to slam it shut against something chasing them
+later, it works the instant they try, not one try too late. Cut into the
+plaster by the door: **THE FIRST NEVER HAPPENED.**
 
 #### The Slate
 

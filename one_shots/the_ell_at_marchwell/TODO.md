@@ -129,6 +129,16 @@ most recent completed work; everything it touched is playable as written.
   rate, and deliberately no quiet alternative — this one obstacle can't
   be solved by staying silent. Rewrote the full Slag Room section in the
   main file; REWARDS.md's Echo Stone cross-reference needed no changes.
+- [x] **Narrative TODO #11 — the Unanimous Room replaced.** Judged too
+  similar in shape to the room's other "do the right thing together"
+  puzzles and too easy to get stuck in without any hint, so it's gone.
+  Replaced with **The Second Time**: the first attempt at anything in the
+  room does nothing, as if it never happened; the same action repeated
+  immediately after works normally. No math, no items, no redistributing
+  people — the whole room is "try it twice," plus a clever pre-spend
+  trick (waste the "first" on something harmless early, so a later
+  real attempt lands immediately instead of failing at the worst
+  moment). Six Depth 4 rule-rooms total, unchanged in count.
 - [ ] The ancient mortal order **the Measure** and the god **Veyr** are now
   real, registered campaign canon (see `03_canon/GODS_AND_FAITHS.md`,
   `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`) — if this
