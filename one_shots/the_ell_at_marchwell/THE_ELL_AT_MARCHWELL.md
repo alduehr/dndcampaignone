@@ -1793,13 +1793,152 @@ attempts at **residents**, made to test whether the rooms work.
 - A woman at a basin washing a plate that is already clean, and will be
   washing it tomorrow.
 - Nine people at a dinner table mid-conversation, all saying the correct
-  *kind* of thing and none of it meaning anything.
+  *kind* of thing and none of it meaning anything. **Fully scripted
+  below** — this is the one worth running in detail.
 - A man in the Hanging holding a cup, who has been holding it a very long
   time, and who is **so glad to see them.**
 
 They are not hostile. They are polite. They answer questions incorrectly. They
 are furniture. This is where the party stops fearing what's chasing them and
 starts fearing the place.
+
+**Hesper's guaranteed entrance, if they haven't met her yet.** She arrives
+when the party is stuck in a rule-room (see "Hesper Wick," above) — but if
+that hasn't happened by now, this is the fallback, and it's guaranteed:
+she's simply there, watching the same thing they are, and she wasn't a
+moment ago. Before anyone's registered a real person standing among the
+drafted, she says, dry as anything: **"Creepy, huh?"**
+
+#### The dinner table, scripted in full
+
+Nine people around a long table, mid-meal, mid-conversation, and it has
+clearly been going for a very long time before the party arrived and will
+keep going after they leave. None of them are eating; the food doesn't
+move. Everyone is doing everything a real dinner conversation does —
+greeting, agreeing, laughing, interrupting, toasting, asking after each
+other — except that none of the content connects to any of the rest of
+it. **Run it like a real conversation, at a real pace, with real pauses
+and real reactions** — that's what makes it wrong. Nobody ever raises
+their voice, argues, or says anything unkind. It is a warm, ordinary,
+loving family dinner, performed perfectly, about nothing.
+
+**Seats, so you can keep voices straight** (no names — giving them one
+would make them people instead of furniture):
+
+- **The Aunt**, head of the table, warm and hosting.
+- **The Uncle**, beside her, quiet, mostly nods.
+- **The Nephew**, young, eager to please.
+- **His Wife**, young, laughs easily.
+- **The Grandfather**, oldest, tells the story.
+- **The Toastmaster**, stout, jovial, raises his cup often.
+- **The Sister**, middle-aged, asks the questions.
+- **The Quiet One**, says almost nothing, but nods and laughs exactly on
+  cue.
+- **The Boy**, youngest, at the far end, mostly listening.
+
+**Run this on a loop.** It has a beginning, middle, and end below — read
+it through once, and if the party keeps listening, it simply starts
+again from the top, identical, word for word, the same laugh landing in
+the same place. That repetition, once they catch it, is the actual horror
+of the room, more than any single line in it.
+
+---
+
+> **THE AUNT:** *(raising her glass, warm)* Well — all of us together.
+> Isn't that something.
+>
+> **THE TOASTMASTER:** *(already standing, cup high)* To all of us
+> together!
+>
+> *(Everyone lifts a cup that never empties. The Boy lifts an empty
+> hand — he has no cup, and nobody has ever noticed.)*
+>
+> **THE UNCLE:** *(nodding, quiet)* Mm. Good crop this year.
+>
+> **THE SISTER:** Was it? I heard it was thin.
+>
+> **THE UNCLE:** Thin, yes. Very good.
+>
+> *(Nobody reacts to the contradiction. THE NEPHEW laughs, a beat too
+> early, at nothing yet said.)*
+>
+> **THE NEPHEW'S WIFE:** *(to the Grandfather, prompting)* Tell the one
+> about the gate.
+>
+> **THE GRANDFATHER:** *(settling in, the way people do for a favorite
+> story)* Ah — the gate. Now. This was — *(a pause, exactly where a
+> number should go)* — years back. I went out to mend the gate, and I
+> counted every post before I started, the way my father taught me, and
+> there were seven.
+>
+> **THE SISTER:** There were nine.
+>
+> **THE GRANDFATHER:** *(without missing a beat, same warm tone)* Nine,
+> yes. Seven of them.
+>
+> **THE QUIET ONE:** *(laughs, right on cue, at nothing)*
+>
+> **THE GRANDFATHER:** So I counted them again when I was done, to be
+> sure the mending held, and there were the same number.
+>
+> **THE BOY:** *(politely)* What number was that?
+>
+> **THE GRANDFATHER:** *(warmly, to the Aunt, not the Boy)* You always
+> did ask good questions.
+>
+> *(A pause exactly the length of a real laugh line. Nobody laughs. Then
+> everyone does, half a second later, together.)*
+>
+> **THE AUNT:** *(to the table generally)* More of anything for anyone?
+>
+> **THE TOASTMASTER:** *(already refilling a cup that was already full)*
+> Don't mind if I do.
+>
+> **THE NEPHEW:** *(to his Wife, fond)* Remember when you first came to
+> the house?
+>
+> **HIS WIFE:** *(warmly)* Every day since.
+>
+> **THE NEPHEW:** *(same fondness, unbothered)* That's right.
+>
+> **THE SISTER:** *(to the Aunt)* And how's the boy doing at his
+> letters?
+>
+> **THE AUNT:** *(proudly, gesturing at the Grandfather)* So well. So
+> well.
+>
+> **THE BOY:** *(quietly, to no one who's listening)* I don't know my
+> letters yet.
+>
+> *(Nobody answers him. Nobody ever answers him. This should feel sad,
+> not menacing.)*
+>
+> **THE UNCLE:** *(apropos of nothing, contentedly)* Good crop this
+> year.
+>
+> **THE TOASTMASTER:** *(rising again, cup high, exactly as before)* To
+> all of us together!
+>
+> *(And the table lifts their cups again, and the conversation is,
+> unmistakably, starting over.)*
+
+---
+
+**If a PC speaks to them directly:** they turn, warmly, immediately —
+real acknowledgment, real eye contact, a real pause to let the "guest"
+finish. Then whoever's turn it is next in the script simply says their
+next scripted line, verbatim, as if it were a perfectly natural answer to
+whatever was just asked. Ask the Grandfather how to escape the Ell and
+he'll tell you, kindly, that you always did ask good questions. **They
+are never rude, never confused, and never right.**
+
+**If the party interrupts the loop entirely** (breaks a plate, drags
+someone from their chair, sets something on fire) — nothing happens to
+the scene's logic. The disturbed drafted person reacts appropriately in
+the moment (startles, apologises, asks what's wrong) and then, within a
+line or two, drifts back into the script from wherever it left off, mid-
+sentence if need be. **They cannot be meaningfully harmed, killed, or
+freed** — they are not people, and there is nothing here to rescue.
 
 ### The real Cass *(optional, and worth doing)*
 
@@ -1853,7 +1992,9 @@ kitchen on the first night. He will ask. He noticed they went quiet.
 ### Hesper Wick
 
 She arrives when the party is stuck in a rule-room, and she solves it in about
-nine seconds.
+nine seconds. **Guaranteed fallback, if that hasn't happened yet:** she's
+never later than the drafted people (below) — see "The drafted people" for
+that entrance.
 
 **Hesper Wick, the Chainwoman.** A tithe-surveyor who walked into a door like
 this one, in a different house, two valleys over, a hundred and some years

@@ -139,6 +139,18 @@ most recent completed work; everything it touched is playable as written.
   trick (waste the "first" on something harmless early, so a later
   real attempt lands immediately instead of failing at the worst
   moment). Six Depth 4 rule-rooms total, unchanged in count.
+- [x] **Narrative TODO #12 — the drafted people room refined.** Hesper now
+  has a guaranteed fallback entrance here if the party hasn't met her by
+  this point: she's simply there, watching, and says "Creepy, huh?"
+  before anyone registers a real person among the drafted. The nine-
+  person dinner table is now fully scripted — seats, stage directions,
+  and a complete looping conversation that reads and performs like a
+  real family dinner (turn-taking, toasts, laughter, a story) while
+  never actually meaning anything (wrong numbers, unanswered questions,
+  contradictions nobody notices). Explicitly designed to loop forever so
+  a DM can keep running it if the party lingers, plus rules for direct
+  PC interjection and for disrupting the scene (nothing breaks it; the
+  drafted can't be harmed, killed, or freed).
 - [ ] The ancient mortal order **the Measure** and the god **Veyr** are now
   real, registered campaign canon (see `03_canon/GODS_AND_FAITHS.md`,
   `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`) — if this
