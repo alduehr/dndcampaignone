@@ -44,6 +44,17 @@ most recent completed work; everything it touched is playable as written.
 
 ## Low (polish)
 
+- [x] **Rest-tally ambiguity fixed.** "Count every long rest attempted —
+  successful or not" and "one per long rest taken/took" implied a false
+  binary (success vs. failure) that didn't clearly cover the roll table's
+  middle result (8–9, short-rest-only interruption — neither a clean
+  success nor a failure). Reworded every instance of the rule to "any
+  roll made, whatever it produces" so all four outcome bands (full
+  success, short-rest-only, outright failure, hostile encounter)
+  unambiguously count as one attempt toward the finale's party-copy
+  tally. Fixed in the main file (the difficulty-dial explanation, the
+  finale scene itself, and the party-size scaling note) and DM_SCREEN's
+  tracker checklist.
 - [x] **"The ugly ending" — cut entirely.** Its two named triggers didn't
   hold up: a surviving doppelganger copy never had a mark on this door's
   ledger to begin with (drafts don't tally), and a table-level miscount

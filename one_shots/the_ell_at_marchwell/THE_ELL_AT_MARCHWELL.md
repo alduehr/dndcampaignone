@@ -205,8 +205,11 @@ in, so her arrival lands as *"oh — it's her"* rather than as a new NPC.
 
 ### The rests are the finale's difficulty dial
 
-**Count every long rest attempted — successful or not. That number is how
-many copies of the party stand behind Hesper in session 4** — and whatever
+**Count every long rest attempted — every roll made, whatever it produces.**
+A full success, a short-rest-only interruption, an outright failure, a
+hostile encounter — none of that changes anything here; a roll of any
+kind is one attempt. **That number is how many copies of the party stand
+behind Hesper in session 4** — and whatever
 that number falls short of five (or the party-size cap), Echoes of Wick
 make up the difference. See session 4.
 
@@ -2394,7 +2397,8 @@ able to do. She still thinks it's monstrous. She's going to do it anyway.
 
 **And she is not alone.** Standing behind her, **always exactly five hostile
 actors combined** — no more, no less, however the count splits. **Copies of
-the party** fill one slot per long rest the party took, **cap 5**. **Echoes
+the party** fill one slot per long rest the party attempted (any roll made,
+whatever it produced), **cap 5**. **Echoes
 of Wick** fill whatever's left. A party that never rested faces five Echoes
 of Wick and no copies of themselves. A party that rested every time faces
 five copies of themselves and no Echoes. Anything between splits the five
@@ -2830,8 +2834,8 @@ when the Roper does.
 | **Finale pool** (S4) | cap 3 | cap 4 | cap 5 | cap 5 |
 | Avoidable fights (S3) | 1 of 2, single creature | 1 of 2, single creature | both, full counts | both, full counts |
 
-**The finale pool is one party copy per long rest taken, capped at the value
-in the table above** — whichever is lower, the flat cap of 5 or the
+**The finale pool is one party copy per long rest attempted (any roll made,
+whatever it produces), capped at the value in the table above** — whichever is lower, the flat cap of 5 or the
 party-size cap — **with Echoes of Wick filling whatever's left of that same
 cap.** Past the cap, add +15 HP to Hesper per extra rest instead. At three
 characters the cap drops because three PCs plus Ambry plus Hesper plus three

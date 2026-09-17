@@ -81,7 +81,7 @@ by it anyway (a cut mark, a one-of-a-kind object, a known camp) — genuine
 folk wisdom, completely wrong, played totally straight. Don't let a player
 talk their way into a bonus for it.
 
-### ☐☐☐☐☐ LONG RESTS ATTEMPTED (win or lose the roll) → party copies in the finale (cap 5)
+### ☐☐☐☐☐ LONG RESTS ATTEMPTED (mark one per roll, whatever it produces — full success, short-rest-only, failure, or hostile encounter all count) → party copies in the finale (cap 5)
 
 *Past cap: +15 HP to Hesper each. Whatever's unmarked of the 5 boxes above
 fights as Echoes of Wick instead — the finale pool is always 5 total.*
