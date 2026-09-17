@@ -8,95 +8,118 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ## Critical
 
-- [ ] Add D&D mechanical completeness requirements to all NPC, quest, dungeon, encounter, faction, and campaign-act templates.
-  - Why it matters: Prevents the campaign from drifting into a generic fantasy RPG or mechanics-free story setting. Important NPCs, monsters, encounters, quests, dungeons, companions, and threats need D&D 5e / 2024-compatible mechanical guidance.
-  - Related files: `DND_MECHANICS_REQUIREMENTS.md`, `NPC_STANDARDS.md`, `QUEST_STANDARDS.md`, `CONTENT_STANDARDS.md`, `RULESET_ASSUMPTIONS.md`, `LEVELING_ASSUMPTIONS.md`
-  - Note: `DND_MECHANICS_REQUIREMENTS.md` already defines the full mechanical completeness standard. This task is about ensuring all content templates (NPC_STANDARDS, QUEST_STANDARDS, etc.) explicitly reference and enforce those requirements at the field level.
-  - Suggested agent: `encounter-bestiary-designer`
-  - Stage: Stage 0 / Stage 2
-
-- [ ] Complete Stage 1: Campaign Foundation
-  - Why it matters: No campaign world exists. Nothing can be played or tested until the foundation is established.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 1, `PRODUCTION_WORKFLOW.md`, `PROJECT_RULES.md`
-  - Suggested agent: `campaign-architect`
-  - Stage: 1
-
----
+*None open.*
 
 ## High
 
-- [ ] Complete Stage 2: AI Runtime Foundation
-  - Why it matters: The AI DM cannot run sessions without protocols, state files, session start/end prompts, and solo-play procedures.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 2, `01_runner_protocol/AI_DM_CORE_RULES.md`, `16_ai_session_packs/`
-  - Suggested agent: `ai-dm-runtime-engineer`
-  - Stage: 2
-  - Blocker: Requires Stage 1 canon to inform starting state
+- [x] Stage 12: Dungeons, Ruins, and Adventure Sites — **done 2026-06-13.** Created `DUNGEON_INDEX.md` (23 sites) + `PUZZLE_DUNGEONS.md`; cross-linked all 15 existing dungeons to the Stage 11 REV/clue layer (append-only); built 8 new sites incl. the Caradril deep-dungeon treatment (`THE_SUNKEN_WARDS_DEEP`), the keystone approach (`THE_BASIN_KEYSTONE_APPROACH`), and the **DM-only endgame** (`THE_UNDER_SHRINE_APPROACH`); added `STAGE_12_ADVERSARIES.md`; new clue IDs C_SR_039-041/C_CAR_016-018/C_FC_014-015. The keystone drowned-shrine and Caradril deep-dungeon deferrals are now resolved. Optional far sites logged to CONTENT_GAPS. See `STAGE_12_PROGRESS.md`.
 
-- [ ] Create `/16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`
-  - Why it matters: Without a start prompt, the AI DM has no clean entry point into the campaign.
-  - Related files: `01_runner_protocol/AI_DM_CORE_RULES.md`, `02_runtime_state/CURRENT_STATE.md`
-  - Suggested agent: `ai-dm-runtime-engineer`
-  - Stage: 2
+- [x] Stage 12.5: Continental Adventure-Site Coverage — **done 2026-06-14.** Built 13 new far-continent adventure sites (D24–D36; total **36 sites**) so every map-authoritative far region has ≥1 explorable site (Glassmere/Emberfell ×2): the 4 deferred optional sites (Saltmere Deep Towns, Hethewald Old Holds, Marrowdowns Barrow Complex, Karran Old Iron Forts) + 9 new (Glassmere Reliquary Vaults, Three Bridges Counting-Deep, Sallowmarch Drowned Steps, Hollow Gulf Wreck-Reef, Wender Sky-Stones [non-Concord], Sunhollow Great Grove [living-faith], Nine Locks Sunken Stair [Ring-2], Highmark Frozen Works, Cindern Waste Buried Works). 13 new far echo/corroboration clue IDs added to `CLUE_INDEX.md`. All dungeon indexes + tracking files updated. No new mystery/faction/god/cosmology/artifact/adversary; no apex truth in any player-safe section; every far site surface/echo only. See `STAGE_12_5_PROGRESS.md`.
 
-- [ ] Create `/16_ai_session_packs/RESUME_CAMPAIGN_PROMPT.md`
-  - Why it matters: The AI DM needs a clean resume path to pick up mid-campaign without context loss.
-  - Related files: `16_ai_session_packs/SESSION_END_UPDATE_CHECKLIST.md`
-  - Suggested agent: `ai-dm-runtime-engineer`
-  - Stage: 2
+- [x] Stage 13: Encounter and Bestiary Expansion — **done 2026-06-14.** Built 28 files in `13_encounters_and_bestiary/`: 13 cross-cutting (`ENCOUNTER_INDEX`, `BESTIARY_INDEX` [17 creature categories], `CREATURE_SOURCE_REFERENCE` [copyright-safe two-track], `SOLO_ENCOUNTER_SCALING` [one-PC budget], `BIOME_ENCOUNTER_MATRIX` [15 biomes], `BOSS_AND_APEX_THREATS` [18 bosses B1–B18], `HORROR_AND_CURSE_THREATS` [original Remembrance undead/curses; gothic-horror creatures referenced Track-A via VRGtR — no copied stat blocks, no imported setting lore], `FACTION_ENCOUNTERS` [all 7 majors + city + regional], `MYSTERY_ENCOUNTERS` [M2–M6; M9/Court gated], `TRAVEL_ENCOUNTERS` [terrain × 5 level-bands], `DUNGEON_ENCOUNTER_SUPPORT` [all 36 dungeons], `REGIONAL_ENCOUNTER_TABLES`) + 15 new far/mid-region encounter files. **All 20 regions + all 5 level-bands (1–20) + all 17 creature categories covered.** Officials source-referenced (never stat-block-copied); originals abbreviated. Solo-tuned throughout. No new factions/NPCs/regions/mysteries/gods/artifacts; far regions corroborate (never relocate) the keystone/Court; apex truth DM-only/gated. See `STAGE_13_PROGRESS.md`.
 
-- [ ] Populate all runner protocol files in `/01_runner_protocol/`
-  - Why it matters: Currently only `AI_DM_CORE_RULES.md` exists. The solo play, session loop, combat, social, travel, clue delivery, and failure protocols are all placeholders.
-  - Related files: All files in `01_runner_protocol/`
+- [x] Stage 14: Treasure, Artifacts, and Rewards — **done 2026-06-14.** Built 15 files in `14_treasure_and_artifacts/`: `TREASURE_INDEX` (master/load-guide), `SOLO_REWARD_BALANCE` (single-PC pacing), `MAGIC_ITEM_INDEX` (38 custom items), `ARTIFACT_INDEX` (12 named relics, mystery-gated), `CURSED_ITEMS` (10 + 3 endgame), `SENTIENT_ITEMS` (6, incl. 1 DM-only Court plant), `CONSUMABLES_AND_MINOR_MAGIC`, `REGIONAL_TREASURE_TABLES` (20 regions × 5 bands), `FACTION_REWARDS` (7 majors + 4 city blocs), `QUEST_REWARD_INDEX`, `DUNGEON_REWARD_INDEX` (36 sites), `NONCOMBAT_REWARDS`, `ECONOMY_AND_PRICING_GUIDE`, `REWARD_PLACEMENT_AUDIT` (PASS), `README`. Two-track source handling (official = reference-only/no copied text; custom = ORIGINAL CAMPAIGN ITEM). Solo-tuned; endgame artifacts M6–M9 gated; Hollow Court rewards are traps; no apex-truth leaks. 12 artifact proper nouns registered. See `STAGE_14_PROGRESS.md`. **This also closes the long-standing "Build `REWARDS_BY_LEVEL.md` and stat-referenced dungeon/quest rewards" Medium item** (`SOLO_REWARD_BALANCE`/`REGIONAL_TREASURE_TABLES` provide reward-by-level; `DUNGEON_REWARD_INDEX`/`QUEST_REWARD_INDEX` provide the placements).
+
+- [x] Stage 15: Level 5–20 Arc Expansion — **done 2026-06-15.** Built 15 files in the new `15_campaign_arcs/` folder: `LEVEL_5_TO_20_OVERVIEW` (master + tier↔act crosswalk: Tier 2/3/4 = L5–10/11–16/17–20 = Acts 2–5), three tier files (`TIER_2/3/4`) with full per-tier entry-state/pressures/factions/regions/sites/quests/REVs/NPCs/encounters/rewards/failures/clocks/solo-notes/off-path-guidance, plus `CAMPAIGN_ESCALATION_TIMELINE`, `MAIN_ARC_REVELATION_SEQUENCE`, `REGIONAL_ESCALATION_PATHS`, `FACTION_ESCALATION_PATHS`, `VILLAIN_AND_APEX_THREAT_ESCALATION` (DM-only), `ENDGAME_STRUCTURE` (9 approaches × 5 outcomes), `FAILURE_STATES_AND_WORLD_CONSEQUENCES`, `LEVELING_AND_MILESTONE_GUIDE`, `SOLO_CAMPAIGN_BALANCE_GUIDE`, `OPEN_WORLD_CONTINUITY_GUIDE`, `STAGE_15_READINESS_AUDIT` (PASS). Play-layer pass referencing Stage 8 clocks / 9 NPCs / 10 quests / 11 mysteries (REV_001–010) / 12+12.5 dungeons (D01–D36) / 13 bestiary / 14 treasure **by reference, no rewrites**. Open-world, solo-runnable (missing-ability fallbacks), apex-protected (REV_007 gated L13+; far sources never deliver it). No new proper nouns/canon/mystery/faction/god/artifact. CONTENT_INDEX, TAG_INDEX, PROGRESS_LOG, WORLD_CLOCKS, FACTION_STATE, CONTENT_GAPS, CANON revision log updated. The legacy Stage 15 deliverable names (`ACT_2`–`ACT_5`/`VILLAIN_ESCALATION`/`ENDGAME_STATES`) are satisfied by the tier-file set per the user's `15_campaign_arcs/` spec. See `STAGE_15_PROGRESS.md`.
+
+- [x] Stage 15B: Full Character Arc Playability Fill — **done 2026-06-15.** Filled every region and tier with concrete, named, runnable content over the Stage 15 frameworks. **Began by correcting a false-COMPLETE `STAGE_15B_PROGRESS.md`** (most target files were missing on disk), then built 9 missing play-layer files + 6 forwarding stubs and patched the 2 pre-existing Stage 15B files. New: `TIER_3_PLAYABLE_PATHS_LEVELS_11_16` (6 paths), `TIER_4_PLAYABLE_PATHS_LEVELS_17_20` (9 endgame playbooks), `REGION_TO_REGION_TRANSITION_GUIDE`, `CONTINENTAL_PRESSURE_TIMELINE` (16+ named events), `PLAYER_IGNORES_MAIN_ARC_GUIDE`, `PLAYER_GOES_ANYWHERE_GUIDE`, `ENDGAME_REGION_PLAYBOOK`, `FINAL_REVELATION_AND_ENDING_PATHS` (REV_001–010 × 3 paths + 5 endings), `STAGE_15B_COMPLETION_AUDIT` (PASS), + 6 legacy stubs. Patched `REGIONAL_ARC_PACKS` (Highmark→3 situations; added Cindern Waste §12b; Drowned Steps coverage note) and `FULL_WORLD_LEVEL_5_TO_20_PLAYABILITY` (matrix). Every situation names NPC/faction/location/action/consequence; apex DM-only/L13+ gated; no new proper nouns; no canon contradicted. CONTENT_INDEX, TAG_INDEX, PROGRESS_LOG, CONTENT_GAPS, STAGE_15B_PROGRESS, STAGE_15_PROGRESS updated. See `STAGE_15B_COMPLETION_AUDIT.md`.
+
+- [x] Stage 16: Pre-Play Readiness Audit — **done 2026-06-15. Verdict: READY FOR LIVE PLAY.** Ran a whole-repo AI-readiness + continuity audit across all 16 Stage 16 categories. **0 Critical / 0 High / 2 Medium (both fixed) / 4 Low (non-blocking).** Fixed: (1) three stale canon "Current Status" headers (Stage 1/1–5/1–5+7 → Stages 1–15B; bodies were already correct); (2) added an arc-forwarding pointer from `12_campaign_arc/MAIN_ARC_OVERVIEW.md` to the runnable `15_campaign_arcs/` set. Verified: no canon contradictions; no player-facing apex-truth leaks (apex gated REV_007/L13+, lives only in DM-only files + `THE_UNDER_SHRINE_APPROACH.md`); all 16 runtime state files present + seeded; START/RESUME prompts self-contained with all load targets resolving; opening (Opener A) immediately runnable; REV_001 reachable via 5 independent clue sources; all 7 factions have clocks; L1–20 arc findable/linked; all major indexes current. Reports: `18_audits/STAGE_16_PRE_PLAY_READINESS_AUDIT.md` + 5 sub-audits + `STAGE_16_PROGRESS.md`. **Campaign may proceed to Stage 17 (Live Campaign Operation).**
+
+- [ ] Begin Stage 17: Live Campaign Operation (when the user starts playing)
+  - Why it matters: Stage 16 cleared the campaign for play. Stage 17 is running the campaign and preserving state/canon after each session.
+  - What to do: open Session 1 via `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`; after each session run `SESSION_END_UPDATE_CHECKLIST.md`; run periodic live audits (Stage 18) every 3–5 sessions / after level-ups / before new regions or acts.
+  - Related files: `16_ai_session_packs/START_NEW_CAMPAIGN_PROMPT.md`, `RESUME_CAMPAIGN_PROMPT.md`, `02_runtime_state/`, `01_runner_protocol/`
   - Suggested agent: `ai-dm-runtime-engineer`
-  - Stage: 2
+  - Stage: 17
+  - Blocker: none — awaiting the user to begin play.
+
+- [x] (Stage 11 follow-up) Mirror region-coded clue IDs into runtime `HIDDEN_CLUES.md` — done 2026-06-13 (Stage 11 cleanup pass); Stage 11 anchor section added to `02_runtime_state/HIDDEN_CLUES.md`.
+
+- [x] (Recommended, low-priority polish) Lift exact quest titles for Glassmere/Hollow Gulf/Emberfell/Hethewald/Sallowmarch into `DEVELOPED_QUESTS_INDEX.md` — **verified already done, closed 2026-07-07:** a heading-by-heading comparison of all 38 quests across the 5 region files against the index found a 1:1 exact-title match; the index needed no changes (a prior pass evidently completed this without closing the item).
+
+## Completed Recently
+
+- [x] DungeonMaster app onboarding preparation — 2026-07-12. This repo is now onboardable into the separate DungeonMaster app (cloud AI DM server + phone app) with zero authored-content changes: root `dm.campaign.json` (path-convention visibility, 21-file allowlist verified 1:1 against the app's own glob code), `ai_solo_campaign/maps/manifest.json` (63 entries, 1:1 from the map-packet inventory), and a 6-file `ai_solo_campaign/skills/` overlay reconciling session/combat/canon doctrine with the app's tool-based runtime. Full detail in root `ONBOARDING.md`. One open follow-up logged below (Low: map asset upload).
+- [x] External Audit Remediation Pass, Phase 5 (deferred items) — 2026-07-07. **(C4)** 12 far-region `05_regions/` files built (consolidation; no new canon; REGION_INDEX table updated + stale placeholder level values reconciled). **(C5)** Caradril raised to ~84 named NPCs via `CARADRIL_EXPANSION_NPCS.md` (+12 secondary/+24 minor; inside the Stage 4 75–100 band). **(C6)** `minor_factions/THE_TOLLMEN.md` + folder README; FACTION_INDEX Minor Factions section. **(C7)** dispositioned: per-clue files intentionally NOT built (index rows are the per-clue store; stubs would duplicate + drift). **(C9/C10)** untouched by design (Session-1 character creation; play-populated runtime files). See `PROGRESS_LOG.md` Phase 5 entry.
+- [x] External Audit Remediation Pass, Phase 4 (bestiary verification + RtHW integration + random tables) — 2026-07-07. See the closed Low items above, `PROGRESS_LOG.md` 2026-07-07 Phase 4 entry, and `CONSISTENCY_AUDIT.md` Resolved Issues.
+- [x] External Audit Remediation Pass, Phases 1–3 — 2026-07-07. Fixed 3 broken AI-DM retrieval pointers an independent external report found (5 far-region packets + 1 city packet pointing to nonexistent encounter files; 1 wrong quest-index path), rewrote `README.md`/`CLAUDE.md` to reflect actual Stage 0–16 completion (both previously described a Stage-0 repo), added `/15_campaign_arcs` to both repository-shape listings, reconciled the 18-vs-20-region terminology note, standardized "late autumn"→"mid-autumn" (11 files, matching `CALENDAR.md`'s own month table), and standardized the opening NPC to a single canonical name **Wren Brevin** (14 codex-layer occurrences). No new campaign content. See `PROGRESS_LOG.md` 2026-07-07 entry and `CONSISTENCY_AUDIT.md` Resolved Issues.
+- [x] Cartography Determinism Cleanup pass — 2026-06-18. Resolved region count (definitively **18 standalone regions**; Cindern Waste = Emberfell terrain sub-zone, Drowned Steps = Sallowmarch sub-area); fixed 4 region-packet D-site mislabels (Marrowdowns→D26, Sallowmarch→D30, Hollow Gulf→D30, Wender Steppe→D32); promoted 3 far-city layouts + major far rivers/ranges/routes to **DERIVED-CANONIZED**; resolved Tollreach as a route-waypoint danger marker (75,37); corrected settlement count to **40**. No new content/proper nouns; no apex leak. Verdict: **MAP READY.** See `18_audits/CARTOGRAPHY_READINESS_AUDIT.md` (Cartography Determinism Cleanup Pass section) and `PROGRESS_LOG.md` 2026-06-18 entry.
+- [x] Exploration-Determinism Pass (Phases 0–5) — 2026-06-18. Made the repo exploration-deterministic. Brought settlement map packets to **40** (eagle-test floor); deepened all 13 far-region map packets to D&D-usable depth; deepened 3 far cities to Caradril-style internal-layout depth. Eagle test **PASS**: any point on Orrun can be arrived at and run as a scene without improvising geography, layout, services, or NPCs. No new proper nouns; all settlement-internal landmark names are settlement-flavor only. Tracker: `CARTOGRAPHY_DETERMINISM_PROGRESS.md`. See `PROGRESS_LOG.md` 2026-06-18 entry.
+
+- [x] Cartographic precision pass: full-continent settlement/social anchors — 2026-06-13. Created `04_world_atlas/FULL_CONTINENT_SETTLEMENT_ANCHORS.md` (17 mirrored NW settlements + 36 far-continent light anchors across all 12 placeholder regions, with full-continent 0–100 coords, 6 anchor types, render-priority + reference/art-map flags, and 3 non-rendered local anchors). Added a "Settlement and Social Anchor Render Layer" (§8.5) to the render manifest and a §D.5 settlement-anchor layer + 5 new audit checks to the generation packet. Created `18_audits/PLAYER_SAFE_FULL_CONTINENT_MAP_AUDIT.md` (11/11 checks PASS; 0 Critical/High/Medium). Updated CONTENT_INDEX (anchors file + audit-reports section) and NAMING_REGISTRY (note: no new names coined; Stage 9.5 anchors now have coordinates). No JSON manifest exists, so the JSON sub-task was N/A. No new proper nouns, regions, factions, gods, or DM-only locations.
+- [x] Stage 11 cleanup pass — 2026-06-13. Created 4 required wrapper files (MYSTERY_CHAINS, FALSE_LEADS, REVEAL_TIMING, PROPHECIES_AND_OMENS); mirrored region-coded clue IDs into HIDDEN_CLUES.md; updated CONTENT_INDEX, TAG_INDEX, NAMING_REGISTRY, CONTENT_GAPS, EXPANSION_PLAN, CONSISTENCY_AUDIT, OPEN_QUESTIONS, PROGRESS_LOG.
+- [x] Stage 11: Mystery, Secret, and Clue Expansion — 2026-06-13. Added a formal **REVELATION_MAP** layer (REV_001–REV_010, each with >=3 independent clue sources spanning different regions/NPCs/approaches; dependency graph; phase gates; legacy R1–R8/M0–M10 mapped); expanded **CLUE_INDEX** with a region-coded clue layer (C_SR_/C_CAR_/C_AV_/C_TW_/C_PC_/C_FC_) + per-REV three-source verification; added a 7-layer **mystery hierarchy** + far-continent echo cross-reference to **MYSTERY_WEB**. New files: 6 regional clue trails (`11_mysteries_and_secrets/by_region/{SUNDERING_REACH,CARADRIL,ASHGARDEN_VALE,TOLLWOOD,PALE_COAST}_CLUES.md` + `FAR_CONTINENT_ECHO_CLUES.md`), `by_faction/FACTION_KNOWLEDGE_MAP.md` (all 7 factions; Hollow Court apex-DM-only), `NPC_KNOWLEDGE_MAP.md` (~60 NPCs), `FALSE_LEADS_AND_MISDIRECTIONS.md` (9 fair leads), `DISCOVERY_PATHS.md` (10 playstyles), `SECRET_PROTECTION_MATRIX.md` (DM-only; 7 apex secrets, safe/unsafe wording + gates), `MYSTERY_STATE_TRACKER_TEMPLATE.md` (blank runtime tracker). Cross-linked Stage 10 major quests to REV/clue IDs. Secrecy audit `18_audits/STAGE_11_MYSTERY_SECRECY_AUDIT.md`: 0 Critical / 0 High / 2 Medium / 3 Low — no apex-truth leaks in player-safe text; all 16 mystery files dm-only; every REV solvable via multiple paths. M0–M10 preserved; no new central mystery/faction/god/cosmology/artifact; Hollow Court protection strengthened. Updated SECRET_INDEX, STAGE_STATUS, CONTENT_INDEX, STAGE_11_PROGRESS.
+- [x] Stage 10: Quest Library Expansion — 2026-06-12. **28 major campaign quests** (`09_quests/MAJOR_CAMPAIGN_QUESTS.md`, Q_MAJOR_001–028) + **82 far-continent developed quests** across all 12 regions (`09_quests/by_region/*_QUESTS.md`; 82 unique IDs, no collisions) → **~165 developed quests** total (~83 pre-Stage-10 + 82). **304 far-continent hooks/rumors/jobs** in 13 `fc_*` files (`09_quests/hooks_and_rumors/`; 132 hooks + 104 rumors + 68 jobs) on top of ~281 pre-Stage-10 home-region hooks/rumors. Created indexes `DEVELOPED_QUESTS_INDEX.md`, `HOOKS_JOBS_RUMORS_INDEX.md`, `by_level/QUESTS_BY_LEVEL.md`, `by_faction/QUESTS_BY_FACTION.md`, `by_type/QUESTS_BY_TYPE.md`; updated `QUEST_INDEX.md`, `CONTENT_INDEX.md`, `STAGE_STATUS.md`, `STAGE_10_PROGRESS.md`. All 7 major factions have quest coverage; every quest has noncombat options + solo-safety valves (no four-PC assumptions); all NPC names from authored Stage 9.5 rosters; no apex-truth leaks in player-facing text (Hollow Court/harvest/keystone/Under-Shrine DM-only; far-region echoes oblique & DM-labeled); no canon contradictions.
+
+- [x] Stage 9.5: Full-Continent NPC Readiness — 2026-06-12. Created 12 far-continent region NPC files in `08_npcs/by_region/` (`{VERDANCE_REACHES, CONCORD_HEARTLANDS, GLASSMERE_LEAGUE, HETHEWALD_FREE_HOLDS, HOLLOW_GULF_PORTS, SALTMERE_REACHES, EMBERFELL_THEOCRACY, SALLOWMARCH_PROTECTORATE, MARROWDOWNS, WENDER_STEPPE, KARRAN_MARCHES, SUNMARK}_NPCS.md`). **+44 major / +168 secondary / +432 minor** (cumulative 94 / 368 / 953). All 12 regions meet minimums (3+ major, 12+ secondary, 30+ minor). Updated `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`, `NPC_INDEX.md`, `NAMING_REGISTRY.md`, `CONTENT_INDEX.md`, `STAGE_STATUS.md`, `STAGE_9_5_PROGRESS.md` (Stage 9.5 sections). No new major geography/factions; no far-region NPC knows the apex truth (Hollow Court/harvest never exposed); pre-Concord echoes and the Emberfell mirror kept distinct from the Hollowmere keystone. `FAR_CONTINENT_NPCS.md` superseded (retained for compatibility).
+- [x] Stage 9: NPC Codex Expansion — 2026-06-12 (pass 1 + pass 2 + completion/cleanup pass). Final counts: **50 major** (24 in `MAJOR_NPCS.md` + 8 in `by_region/CARADRIL_MAJOR_NPCS.md` + 18 new/elevated in `by_region/STAGE_9_MAJOR_NPCS.md`), **~200 secondary** (64 base + 136 in `by_region/STAGE_9_SECONDARY_NPCS.md`), **521 minor** (92 base + 403 in `by_region/STAGE_9_MINOR_NPCS.md` Waves 1–7 + 26 far-continent). Infrastructure (`NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md` [DM-only], `NPC_VOICE_GUIDE.md`) created and now covers all 50 majors. Faction ladders complete at every level; Hollow Court secrecy preserved; no new factions/gods/mysteries/artifacts. Counts reconciled across STAGE_9_PROGRESS / STAGE_STATUS / NPC_INDEX / CONTENT_INDEX.
+- [x] Stage 8: Faction Deepening — 2026-06-11. All seven major factions made fully operational: 4-quest chains per faction (28 quest files + 7 chain indexes in `09_quests/faction_quests/`), "Combat Capability And Stat References" sections with rank-and-file profiles added to all seven faction files, `FACTION_RELATIONSHIP_MAP.md` (full pairwise + Court hidden ties) and `FACTION_TURN_RULES.md` created, `FACTION_INDEX.md`/`FACTION_STATE.md`/`WORLD_CLOCKS.md` updated. No new proper nouns/central mysteries/factions; Hollow Court secrecy preserved.
+
+- [x] locations/vael/orrun duplication cleanup, Pass 1 of 4 (regions) — 2026-08-08. All 16 `05_regions/*.md` files: `## Geography` and `## Travel Routes` sections trimmed to pointers at `locations/vael/orrun/regions/[REGION].md`; campaign-specific mechanical content (DCs, named tolls, cartography-authority pointers) preserved. `RETRIEVAL_GUIDE.md` updated so the AI DM loads both files when entering a region. See `PROGRESS_LOG.md` 2026-08-08 entry.
+
+- [x] locations/vael/orrun duplication cleanup, Pass 2 of 4 (settlements) — 2026-08-08. All 17 standalone `06_settlements/*.md` files + `CARADRIL.md` + all 8 `caradril_districts/*.md` files (26 total): `## First Impression`/`## What The Player Notices First` and `## Laws and Customs` trimmed to pointers at the matching `locations/vael/orrun/settlements/*.md` section (many-to-one: Orrun groups settlements per region); Caradril's main file additionally trimmed `Public Overview`/`Scale and Layout`/`Government and Law Structure`/`Shops and Services`. Campaign-specific sentences (DCs, plot detail, named factions/NPCs) preserved inline. `RETRIEVAL_GUIDE.md` updated. See `PROGRESS_LOG.md` 2026-08-08 entry.
+
+- [x] locations/vael/orrun duplication cleanup, Pass 3 of 4 (wilderness sites) — 2026-08-08. All 7 `05_regions/wilderness/*_SITES.md` files: `## What The Player Notices First` trimmed to a pointer at the matching `locations/vael/orrun/wilderness/*.md` file's `## What A Traveler Notices First` section — confirmed to be the only reliably fully-duplicated section. Named Sites, Hazards (DCs), Creatures/Adversaries (stat refs), Secrets, Clues, Hooks, Treasure left untouched by design — required in-file for mechanical self-containment per `DND_MECHANICS_REQUIREMENTS.md`/`WORLDBUILDING_STANDARDS.md`, and clue/secret content is interwoven sentence-by-sentence with the Named Sites prose, not cleanly separable. `RETRIEVAL_GUIDE.md` updated. See `PROGRESS_LOG.md` 2026-08-08 entry.
+
+- [x] locations/vael/orrun duplication cleanup, Pass 4 of 4 (dungeons/ruins) — 2026-08-08. All 34 `10_dungeons_and_ruins/*.md` files with an Orrun counterpart. 19 files (Sundering Reach group of 8, Ring 1 group of 9, Caradril group of 2, plus 2 far-continent sites using the same template) had their `## History`/`(Player-Safe)` "Publicly:" clause and `## Entrance`/`## First Impression`/`## Access / Entrance Routes` trimmed to pointers at `locations/vael/orrun/sites/*.md` (grouped by `SUNDERING_REACH_SITES.md`/`RING1_SITES.md`/`CARADRIL_SITES.md`/`FAR_CONTINENT_SITES.md`), campaign-specific NPC/quest details kept as trailing sentences. The other 13 far-continent files use a third, compressed template with no narrative History/First-Impression section to trim — they got a single pointer line added ahead of their existing `## Access / Entrance Routes` list instead, since their numbered routes are already campaign/NPC-specific, not duplicated prose. Zone/room lists, encounters, hazard/trap DCs, puzzles, treasure, boss/climax mechanics, retreat/scaling notes, and clue cross-links untouched in all 34 files. `RETRIEVAL_GUIDE.md` updated. This completes the user's four-category (regions/settlements/wilderness/dungeons) duplication-cleanup task. See `PROGRESS_LOG.md` 2026-08-08 entry.
+
+- [x] locations/vael/orrun duplication cleanup, Pass 5 (safety audit + settlement Public Overview fix) — 2026-08-08. User-requested audit of Passes 1-4: cross-checked every removed passage (~90 hunks across ~79 files) against its `locations/vael/orrun` counterpart — all confirmed present, one minor NPC-attribution detail restored (`THE_PEAT_CHAPEL.md`, Old Sashe as guide). Audit's second half surfaced an unaudited duplication class: `## Public Overview` in all 16 standalone `06_settlements/*.md` files (everything except `CARADRIL.md`, already fixed in Pass 2) still substantially restated Orrun's founding/economy/governance prose — Pass 2's log only checked First Impression and Laws and Customs. Fixed all 16: trimmed to a pointer, keeping only named leadership (Orrun names no current officeholders by policy), named-faction plot hooks, and DM-Only-Truth-linked escalation facts as trailing campaign-specific notes. Confirmed by design (not a gap): wilderness/dungeon Named Sites/Hazards/Encounters sections retain real overlap with Orrun, required by `DND_MECHANICS_REQUIREMENTS.md`/`WORLDBUILDING_STANDARDS.md` for mechanical self-containment. `RETRIEVAL_GUIDE.md` updated. See `PROGRESS_LOG.md` 2026-08-08 entry.
 
 ---
 
 ## Medium
 
-- [ ] Complete Stage 3: Starting Region Deep Build
-  - Why it matters: The player needs a populated region to explore. 10–20 sessions of content requires substantial regional depth.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 3, `WORLDBUILDING_STANDARDS.md`
-  - Suggested agent: `world-atlas-builder`
-  - Stage: 3
-  - Blocker: Requires Stage 1 to establish starting region identity
+- [x] Generate the actual map images — **done externally by the user** (outside this repo/Claude Code), per the user 2026-07-12. 9 of 64 manifest entries now have a matching local asset under `ai_solo_campaign/maps/assets/`, renamed to the manifest's `<kind>-<slug>.png` convention 2026-07-28 (added 1 new entry, `cluster-northwest-orrun`, for a campaign-area cluster map that had no prior manifest slot).
+- [x] Align `maps/manifest.json` with DungeonMaster's revised maps contract — 2026-07-28. DungeonMaster commit `038a33c` ("Derive maps S3 bucket/key from deployment config, not manifest") removed `MapEntry.s3` entirely — the bucket now always comes from the deployment's `MAPS_BUCKET_NAME` and the key from `mapObjectKey(campaignId, file)`, computed at upload/read time. Stripped the now-obsolete `s3` block (and its placeholder `"REPLACE_WITH_MAPS_BUCKET_NAME"`) from all 64 entries; the manifest now carries only `id`/`file`/`region`/`caption`/`scale`/`visibility`, matching the shared `MapEntry` type exactly. `ONBOARDING.md`'s Maps section rewritten to match — there is no bucket placeholder left to replace.
+- [ ] Place remaining map images + run `upload-maps.ts` once a deployment exists (DungeonMaster app onboarding follow-up, low priority until a deployment exists)
+  - Why it matters: 55 of 64 manifest entries still have no local asset under `ai_solo_campaign/maps/assets/`. `upload-maps.ts` skips (doesn't fail) entries with no local asset, so this is coverage, not a blocker — but full map coverage still needs the remaining images generated and placed.
+  - What to do once a DungeonMaster deployment exists: (1) place remaining generated PNGs under `ai_solo_campaign/maps/assets/<file>`, matching each manifest entry's `file` field; (2) run DungeonMaster's `upload-maps.ts` with `CONTENT_ROOT` pointed at a local checkout of `ai_solo_campaign/`, `MAPS_BUCKET_NAME` set to the real deployment bucket, and `CAMPAIGN_ID=the-long-remembering` (now required, cross-checked against this repo's `dm.campaign.json`). No tagged release needed for this step — it's independent of `onboard-campaign` and idempotent, so it can be re-run any time more maps are added.
+  - Related files: `ai_solo_campaign/maps/manifest.json`, `ai_solo_campaign/maps/assets/`, root `ONBOARDING.md` ("Maps" section)
+  - Suggested agent: none (operator/CI step in the DungeonMaster repo, not a campaign-content pass)
+  - Stage: interstitial (post-DungeonMaster-onboarding-prep)
 
-- [ ] Complete Stage 4: First Major City Deep Build
-  - Why it matters: A major city provides a political and social hub for mid-campaign play.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 4
-  - Suggested agent: `world-atlas-builder`
-  - Stage: 4
-  - Blocker: Requires Stages 1 and 3
+- [ ] Note: `WORLD_MAP_AUTHORITY.md` / `WORLD_MAP_COORDINATES.md` are now the **campaign-area (NW Orrun)** authority; `FULL_WORLD_MAP_*` supersede them for **whole-continent** use
+  - Why it matters: the Full-World Cartographic Expansion pass split map scope into campaign-area vs full-continent. The two `WORLD_MAP_*` files are retained and authoritative for the NW cluster; the four `FULL_WORLD_MAP_*` files are authoritative for the whole continent. Keep them consistent when either is edited.
+  - Related files: `04_world_atlas/WORLD_MAP_AUTHORITY.md`, `WORLD_MAP_COORDINATES.md`, `FULL_WORLD_MAP_AUTHORITY.md`, `FULL_WORLD_MAP_COORDINATES.md`
+  - Suggested agent: world-atlas-builder / indexer-librarian
+  - Stage: interstitial (post-Stage-7)
 
-- [ ] Complete Stage 5: Level 1–4 Play Arc
-  - Why it matters: The early arc gives the AI DM a shaped narrative while preserving open-world freedom.
-  - Related files: `DEVELOPMENT_STAGES.md` Stage 5, `QUEST_STANDARDS.md`
-  - Suggested agent: `quest-arc-designer`
-  - Stage: 5
-  - Blocker: Requires Stages 1–3
+- [ ] Deep-build far-region **settlements** when play warrants (region files now exist)
+  - Why it matters: **Updated 2026-07-07 (Phase 5):** all 12 far-continent regions now have canonical `05_regions/` region files consolidating their authored layers (map packets, NPC rosters, quests, dungeons, arc packs). What remains deliberately light is the **settlement layer** — far settlements are covered by eagle-test map packets, not full `06_settlements/` files — plus deep Sunder Heights (N) and the optional Highmark Passes frontier. Deepen a specific region's settlements only when play approaches it. **The Concord Heartlands is a surface fallen-ruin — NEVER the keystone/Hollow Court seat.**
+  - Related files: `05_regions/` (12 new region files), `06_settlements/settlement_map_packets/`, `REGION_INDEX.md`
+  - Suggested agent: world-atlas-builder
+  - Stage: future (play-driven deepening)
 
-- [ ] Run Stage 6: First Full Audit
-  - Why it matters: Do not scale a broken foundation. Audit before major expansion.
-  - Related files: `AUDIT_STANDARDS.md`, `DEVELOPMENT_STAGES.md` Stage 6
-  - Suggested agent: `canon-continuity-auditor`
-  - Stage: 6
-  - Blocker: Requires Stages 1–5
+- [ ] Pin down low-confidence map coordinates as regions are built
+  - Why it matters: 22 campaign-area grid entries (`WORLD_MAP_COORDINATES.md`) and ~86 full-continent entries (`FULL_WORLD_MAP_COORDINATES.md`) are low-confidence placeholders; deep-building those areas should upgrade them to medium/high and keep both grids self-consistent.
+  - Related files: `04_world_atlas/WORLD_MAP_COORDINATES.md`, `FULL_WORLD_MAP_COORDINATES.md`
+  - Suggested agent: world-atlas-builder
+  - Stage: ongoing
+
+- [x] Build the standalone bestiary (mid/high tiers especially) — **done 2026-06-14 (Stage 13).** Built `BESTIARY_INDEX.md` (17 creature categories, Track-A source shorthands), `BOSS_AND_APEX_THREATS.md` (18 tiered bosses B1–B18 across all tiers), `HORROR_AND_CURSE_THREATS.md`, `STAGE_12_ADVERSARIES.md`, and per-region encounter files for all 20 regions across L1–20. Officials source-referenced (never stat-block-copied); originals abbreviated; solo-tuned. Cleanup pass mapped source shorthands and added the RtHW pending section.
+
+- [x] Build `REWARDS_BY_LEVEL.md` and stat-referenced dungeon/quest rewards — **done (Stage 14 + Stage 16 correction pass 2026-06-16).** Stage 14 built the full treasure library (`SOLO_REWARD_BALANCE.md` + `REGIONAL_TREASURE_TABLES.md` for reward-by-level; `DUNGEON_REWARD_INDEX.md`/`QUEST_REWARD_INDEX.md` for placements; `MAGIC_ITEM_INDEX.md`/`ARTIFACT_INDEX.md` for items). The Stage 16 correction pass created the named **`14_treasure_and_artifacts/REWARDS_BY_LEVEL.md`** as the by-tier forwarding index over that library, and repointed the "when built" references in `THE_BARROW_OF_NINE_DOORS.md` and `Q_RACE_NORTH.md`. Fully resolved.
+  - Stage: 14 / 16
+
+- [x] Build standalone Acts 2–5 arc files — **done (Stage 15/15B 2026-06-15).** The runnable Act 2–5 / Tier 2–4 arc lives in `15_campaign_arcs/` (`ACT_2`–`ACT_5` files + tier overviews + playable paths + escalation/endgame/final-revelation). Play beyond L4 is fully runnable. The Stage 6 audit Medium finding is closed.
+  - Stage: 15
+
+- [ ] Build the first major Act 1 dungeon as a dedicated set-piece (optional enrichment)
+  - Why it matters: Act 1 currently routes its dungeon beats through the six Stage 3 Concord sites (Peat Chapel, Sunken Tollhouse, Whispering Cairn, Ledger Vault, Barrow, Deep Adit), which is sufficient for play. A purpose-built Act 1 climax dungeon could sharpen the level 3→4 beat, but is not required (the keystone shrine is deferred to Stage 12 by design).
+  - Related files: `12_campaign_arc/ACT_1_LEVELS_1_4.md`, `10_dungeons_and_ruins/`
+  - Suggested agent: `encounter-bestiary-designer`
+  - Stage: 5 (optional) / 12
 
 ---
 
 ## Low
 
-- [ ] Populate `/15_random_tables/` with travel, weather, event, and wilderness tables
-  - Why it matters: Random tables reduce AI improvisation burden during travel and downtime.
-  - Related files: `WORLDBUILDING_STANDARDS.md`
-  - Suggested agent: `world-atlas-builder`
-  - Stage: 3+
+- [x] Stage 13 supplement: RtHW bestiary integration — **done 2026-07-07** (Phase 4 verification/enrichment pass). RtHW verified real via web (released 2026-06-16; 51 stat blocks CR 1/2–21, largely VRGtR creatures updated to 2024 rules + new cosmic-horror entries). Verified creatures integrated Track-A (Gallows Speaker, Mist Horror, Necrichor, Bodytaker Plant/Podling, Boneless, Jiangshi, Carrionette, Brain in a Jar, Carrion Stalker, Death's Head, Dullahan, Gremishka, Nightgaunt, Gug, Shoggoth, Greater Star Spawn Emissary) into `HORROR_AND_CURSE_THREATS.md` (#H10–H13), `BESTIARY_INDEX.md`, `MYSTERY_ENCOUNTERS.md`, and the 6 deep-horror regional files. **Unverifiable placeholders removed** (Elder Thing, Mi-Go, Yithian, Waxworks, "Strahd Skeleton", "Mordenheim's Monster", Death's Head variants, Mist Wanderer-as-creature) and all 3 NPC placeholders dropped. Same pass **re-verified every Track-A attribution in the bestiary**: Oblex/Allip/Soul Monger/Deathlock/Vampiric Mist corrected VRGtR→MToF; Bodak→VGtM; the non-official "Caller in Darkness" (3e psionics, no 5e printing) replaced by the **Sorrowsworn** (MToF); invented page numbers removed; every Track-B original now carries an official-chassis anchor (`BESTIARY_INDEX.md` anchor table).
 
-- [ ] Create `NPC_RELATIONSHIP_WEB.md`, `NPC_SECRET_LEDGER.md`, `NPC_VOICE_GUIDE.md`
-  - Why it matters: These are quality-of-life tools for managing large NPC populations.
-  - Related files: `NPC_STANDARDS.md`
-  - Suggested agent: `npc-codex-builder`
-  - Stage: 9
+- [x] (Optional) Confirm the one `source check needed` bestiary entry (deep-water aberration) — **done 2026-07-07:** anchored to real published creatures: **Chuul (2024 MM, CR 4) / Deep Scion (VGtM, CR 3) / Morkoth (VGtM, CR 11)** in `BESTIARY_INDEX.md` §I.
+
+- [x] Populate `/15_random_tables/` with travel, weather, event, and wilderness tables — **done 2026-07-07:** built `README.md`, `TRAVEL_EVENTS.md` (4 route-class tables), `WEATHER.md` (season × 8 climate zones), `URBAN_EVENTS.md` (village/Caradril/far-city tiers + downtime), `NPC_PERSONALITY.md` (Tier-3 quick generator with combat-relevance tags), `RUMOR_SURFACES.md` (surfacing/teller/distortion logic over the authored rumor stock). All pointer-heavy per the filler rule — every result routes to existing authored content. `_PLACEHOLDER.md` removed.
 
 - [ ] Resolve any duplicate content between `CLAUDE.md` and `PROJECT_RULES.md`
   - Why it matters: Duplicate rules diverge over time and create confusion.
@@ -106,8 +129,53 @@ Prioritized, actionable work queue. When no specific task is given, use this fil
 
 ---
 
+## Post-Stage-4 Follow-Ups
+
+- [ ] Create `QUEST_INDEX.md` covering all authored quests across stages
+  - Why it matters: Quests currently indexed inline in `CONTENT_INDEX.md`; a dedicated QUEST_INDEX would allow faster lookup by level, region, type, and faction as the quest library grows.
+  - Related files: `09_quests/regional_quests/`, `09_quests/city_quests/`, `09_quests/hooks_and_rumors/`
+  - Suggested agent: `indexer-librarian`
+  - Stage: 10 (Quest Library Expansion)
+
+---
+
+## Post-Stage-3 Follow-Ups
+
+- [ ] (Optional) Build individual per-clue files for `11_mysteries_and_secrets/CLUE_INDEX.md`
+  - Why it matters: clues are tracked in index/runtime tables and now anchored to region sites; per-clue files would add finer retrieval but are not required for play.
+  - Stage: 11 (deferred)
+
+- [x] Build the drowned shrine dungeon (the keystone) — **done 2026-06-13 (Stage 12).** Split into the player-mixed `THE_BASIN_KEYSTONE_APPROACH.md` (upper works, L5-9; apex stays gated) and the DM-only `THE_UNDER_SHRINE_APPROACH.md` (endgame, L16-20; the Hollow Court + the campaign decision). Apex truth confined to the DM-only file; keystone stays vertical-under-Hollowmere.
+
+- [x] Full dungeon-file build for the Sunken Wards (Caradril) — **done 2026-06-13 (Stage 12)** via `THE_SUNKEN_WARDS_DEEP.md` (L6-10; back-route to the Sealed Archive; 3-faction; C_CAR_016). The Sealed Archive itself remains specced as Lantern Reach district/quest content (`Q_THE_SEALED_ARCHIVE`); a dedicated Archive room-by-room file is optional future polish (the back-route into it is now built). Plus a bonus Caradril dungeon: `THE_CARADRIL_ASHMARKET_UNDERCROFT.md` (L6-9, relic-trade heist).
+
+- [ ] Resolve the "Magisterium correspondent" thread in play/arc (Caradril ↔ Reke)
+  - Why it matters: Stage 4 left this as an intentional open lead (M8-adjacent), never a named second Court agent. Stage 5 confirmed it stays a *lead* through Act 1 (Act 1 caps at R1; the steering employer is murky — R4 is Act 2–3). Stage 15 (Act 2/3) should decide how it resolves through play without pre-revealing the Hollow Court.
+  - Related files: `06_settlements/caradril_districts/THE_MAGISTERIUM.md`, `02_runtime_state/HIDDEN_CLUES.md` (C-M8 city anchor), `11_mysteries_and_secrets/ACT_1_CLUE_TRAILS.md` (M8 ceiling), `12_campaign_arc/`
+  - Stage: 15
+
+- [x] Stat the Stage 3 dungeon rewards by level (e.g. the Barrow of Nine Doors magic item) and create `REWARDS_BY_LEVEL.md` — **done (Stage 16 correction pass 2026-06-16).** `14_treasure_and_artifacts/REWARDS_BY_LEVEL.md` created; dungeon/quest reward references repointed to it + `DUNGEON_REWARD_INDEX.md`/`MAGIC_ITEM_INDEX.md`/`QUEST_REWARD_INDEX.md`.
+  - Stage: 14 / 16
+
+- [ ] Add `/15_random_tables/` (travel/weather/event) — **intentionally deferred / non-blocking.** Zone encounter tables already exist in `13_encounters_and_bestiary/`; a consolidated random-table library is an optional Stage 17+ enhancement. The placeholder there documents this.
+  - Stage: 17+ / low (non-blocking)
+
+---
+
 ## Completed Recently
 
+- [x] Stage 16 Final Cleanup Pass — 2026-06-16 (cleared residual secrecy classifications and stale Stage 14/15 contradictions; no new content: cleaned the `PLAYER_SAFE_CANON.md` Hollow Court secrecy note of named DM-only truths; made the map render/generation/audit files consistent with their `dm-facing` classification — incl. reclassifying `18_audits/PLAYER_SAFE_FULL_CONTINENT_MAP_AUDIT.md` `player-safe`→`dm-facing`; reclassified four `13_/14_` files carrying apex/harvest terms to `mixed` (`CREATURE_SOURCE_REFERENCE`, `BIOME_ENCOUNTER_MATRIX`, `REWARDS_BY_LEVEL`, `CONSUMABLES_AND_MINOR_MAGIC`); corrected stale Stage 14/15 contradictions in `CONSISTENCY_AUDIT`/`CONTENT_GAPS`/`REWARD_PLACEMENT_AUDIT`; fixed stale NPC counts to 94/368/953; added `/15_campaign_arcs` to `MANIFEST.md`. Stage 16 fully complete: **COMPLETE — READY FOR LIVE PLAY**; Stage 17 may begin)
+- [x] Stage 16 Correction Pass — 2026-06-16 (fixed 8 control/retrieval/classification/hygiene issues the prior Stage 16 passes overclaimed past, generating no new content: rewrote stale `RETRIEVAL_GUIDE.md`; updated stale `MANIFEST.md`; created master `18_audits/PRE_PLAY_READINESS_AUDIT.md`; refreshed 8 stale active-folder placeholders; reclassified 3 map-render files to `dm-facing-player-safe-output` and `LANGUAGES.md`/`LEVELING_ASSUMPTIONS.md` to `mixed`; created `14_treasure_and_artifacts/REWARDS_BY_LEVEL.md`; closed stale `CONSISTENCY_AUDIT`/`CONTENT_GAPS` issues; expanded the Stage 16 standard in `DEVELOPMENT_STAGES.md`. Verdict stands: **READY FOR LIVE PLAY**; Stage 17 may begin)
+- [x] Stage 6: First Full Audit — 2026-06-10 (ran all 10 audit categories across Stages 1–5; foundation verified sound: 0 Critical, 1 High [two broken Act 1 arc-spine quest pointers — FIXED inline], 4 Medium, 5 Low; secret separation/three-clue/faction-agency/solo-safety/state-tracking all pass clean; report in `18_audits/STAGE_1_TO_5_AI_READINESS_AUDIT.md`; CONSISTENCY_AUDIT/CONTENT_GAPS/STAGE_STATUS/EXPANSION_PLAN updated; scaling to Stage 7 approved)
+- [x] Stage 5: Level 1–4 Play Arc (Act 1) — 2026-06-10 (open-world Act 1 play kit: arc spine `ACT_1_LEVELS_1_4.md` + 6 faction-alignment quests `act_1_quests/` + 5 recurring early-threat profiles `ACT_1_THREATS.md` + Act 1 clue-trails overlay `ACT_1_CLUE_TRAILS.md` (existing M1–M9; R1 cap; three-clue check) + 9 failure-redirect states `ACT_1_FAILURE_STATES.md` + L2/3/4 milestone/XP triggers `ACT_1_MILESTONES.md` + Act 1 NPC casting guide `ACT_1_NPC_GUIDE.md`; runtime ACTIVE_QUESTS/OPEN_THREADS seeded; anti-railroad verified; all L1–4 content mechanically complete; no new central mystery/faction/god/cosmology/artifact; reveals capped at R1; Hollow Court never exposed)
+- [x] Stage 4: First Major City Deep Build (Caradril) — 2026-06-10 (city overview + 8 district files incl. the Sunken Wards sub-dungeon; 15 city secondary + 25 city minor NPCs; 11 developed city quests; 36 hooks + 30 rumors; city encounter/social-scene tables; 4 city-internal factions + 3 city clocks (C1/C2/C3); Ledger HQ + Remnant seat located; M2/M3/M4/M6/M8/M9 city clue access added with no new mysteries; M7/Hollow Court never named in the city; Act-3 gating on the Sealed Archive; solo-safe and secrecy-separated; indexes/canon/registry/state updated)
+- [x] Stage 3: Starting Region Deep Build — 2026-06-09 (8 settlements, 4 wilderness zone-files/~25 sites, 6 dungeons/ruins, ~56 NPCs (~21 secondary + ~35 minor), 14 developed quests, 39 hooks + 50 rumors, 4 zone encounter tables; all five registered secondary-NPC placeholders completed; clue/clock anchors added; indexes/canon/registry updated; solo-safe and secrecy-separated throughout)
+- [x] Stage 2 cleanup pass — 2026-06-09 (fixed stale CONTENT_GAPS/EXPANSION_PLAN/CONSISTENCY_AUDIT to reflect Stages 1–2 complete; populated CLUE_INDEX and HIDDEN_CLUES from the mystery web with all clues hidden at start; added D&D mechanical completeness fields/sections to NPC, quest, content, faction, and worldbuilding standards templates — Critical TODO cleared)
+- [x] Complete Stage 2: AI Runtime Foundation — 2026-06-09 (all 18 runner protocols written as full operational content (17 new + AI_DM_CORE_RULES.md from Stage 0); START/RESUME prompts + 3 session-pack templates ready; 8 runtime state files seeded from Stage 1; solo-first, three-clue-rule, secrecy-preserving; indexes and tracking updated)
+- [x] Seed runtime state files from Stage 1 content — 2026-06-09 (CURRENT_STATE, CURRENT_LOCATION, CURRENT_SCENE, ACTIVE_QUESTS = Hook 1 + Hooks 5–7, OPEN_THREADS, FACTION_STATE, NEXT_SESSION_START, PLAYER_CHARACTER scaffold)
+- [x] Create START_NEW_CAMPAIGN_PROMPT.md and RESUME_CAMPAIGN_PROMPT.md — 2026-06-09 (DM-only, self-contained, spoiler-safe)
+- [x] Populate all runner protocol files in 01_runner_protocol/ — 2026-06-09
+- [x] Complete Stage 1: Campaign Foundation — 2026-06-09 ("The Long Remembering"; world, region, settlement, 7 factions, 20 NPCs, mystery web, arc, hooks, rumors, opening scenes, solo-safety, 10 clocks; all indexed)
 - [x] Created full repository scaffold — 2026-06-09
 - [x] Created all control, tracking, canon, runtime state, protocol, session pack, and backlog placeholder files — 2026-06-09
 - [x] Updated README.md — 2026-06-09

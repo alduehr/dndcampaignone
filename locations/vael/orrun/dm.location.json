@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "locationId": "vael-orrun",
+  "displayName": "Orrun (Vael)",
+  "world": "vael",
+  "continent": "orrun",
+  "contentRoot": ".",
+  "visibility": {
+    "strategy": "path-convention",
+    "playerSafeGlobs": [
+      "**/*.md"
+    ]
+  }
+}

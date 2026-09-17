@@ -6,7 +6,7 @@ This folder will contain one file per major faction in the campaign world.
 
 ## Current Status
 
-**Empty — Stage 0 scaffold.** 5–8 major factions will be created during Stage 1.
+**Populated.** This folder contains files for all seven major factions: `ASHEN_WARDENS.md`, `CINDER_LEDGER.md`, `MOURNERS_CIRCLE.md`, `REACHWARD_COMPACT.md`, `GRAVECALLERS.md`, `CONCORD_REMNANT.md`, and `HOLLOW_COURT.md` (DM-only apex faction — never surface). Each is operational (clocks, quest chains, combat capability). See `../FACTION_INDEX.md`, `../FACTION_RELATIONSHIP_MAP.md`, and `../FACTION_TURN_RULES.md`.
 
 ## Expected Contents
 

@@ -13,9 +13,15 @@ The AI DM uses prepared content first and improvises only as much as a skilled h
 
 ## Repository Structure
 
+**[`REPO_MAP.md`](REPO_MAP.md) is the authoritative, complete map of this repository** — every top-level folder and file, what it's for, and a "find it fast" lookup table. Read it for the full picture. Summary:
+
 ```text
 CLAUDE.md                        ← Claude Code instructions and load order
-ai_solo_campaign/
+README.md                        ← This file
+ONBOARDING.md                    ← How this repo onboards into the DungeonMaster app
+REPO_MAP.md                      ← Authoritative structure map — start here to find anything
+dm.campaign.json                 ← DungeonMaster app onboarding manifest (see ONBOARDING.md)
+ai_solo_campaign/                ← The campaign engine — authoritative, secret-bearing, wired to play
   00_control/                    ← Standards, workflow, tracking, indexes
   01_runner_protocol/            ← AI DM behavior rules and session protocols
   02_runtime_state/              ← Live campaign state (updated every session)
@@ -31,17 +37,24 @@ ai_solo_campaign/
   12_campaign_arc/               ← Level 1–20 arc and act files
   13_encounters_and_bestiary/    ← Encounter tables and adversary profiles
   14_treasure_and_artifacts/     ← Magic items and reward tables
-  15_random_tables/              ← Random tables for travel, weather, events
+  15_campaign_arcs/              ← Level 5–20 arc, tier overviews, escalation, endgame
+  15_random_tables/              ← Random tables for travel, weather, events (note: two folders share the "15" prefix — see CLAUDE.md)
   16_ai_session_packs/           ← Session start/end prompts and checklists
   17_generation_backlog/         ← Expansion plan and content gaps
   18_audits/                     ← Audit reports
+  maps/                          ← DungeonMaster app maps manifest (player/DM map asset pointers)
+  skills/                        ← DungeonMaster app skills overlay (mandatory DM-procedure files)
+locations/vael/orrun/            ← Spoiler-free world-reference library, addressed by canonical key, reusable elsewhere
+one_shots/                       ← Standalone non-canon one-shot adventures, deliberately disconnected from the campaign
 ```
 
 ## Current Status
 
-Stage 0 (repository setup) is in progress. The instruction and standards layer is complete. World content has not been generated yet.
+Stages 0–16 are complete. The world is authored from level 1 through level 20 (regions, factions, NPCs, quests, mysteries, dungeons, encounters, treasure, and the full campaign arc), the AI runtime layer (session protocols, state files, indexes) is in place, and the Stage 16 Pre-Play Readiness Audit verdict is **READY FOR LIVE PLAY**. Stage 17 (Live Campaign Operation) is next, awaiting the user to begin Session 1. Several post-Stage-16 cartography passes (through 2026-06-18) made the world map cartography- and exploration-deterministic.
 
-See [`00_control/PROGRESS_LOG.md`](ai_solo_campaign/00_control/PROGRESS_LOG.md) for current status and [`00_control/TODO.md`](ai_solo_campaign/00_control/TODO.md) for the active work queue once those files exist.
+See [`00_control/STAGE_STATUS.md`](ai_solo_campaign/00_control/STAGE_STATUS.md) for the live per-stage status, [`00_control/PROGRESS_LOG.md`](ai_solo_campaign/00_control/PROGRESS_LOG.md) for full production history, and [`00_control/TODO.md`](ai_solo_campaign/00_control/TODO.md) for the active work queue.
+
+This campaign runs today in **Claude Code** (this repo, played directly) and is also **onboardable into the [DungeonMaster](https://github.com/alduehr/dungeonmaster) app** (a cloud-deployed AI DM server + phone app) — see [`ONBOARDING.md`](ONBOARDING.md) for what that requires and what's already prepared here.
 
 ## Development Stages
 
@@ -106,3 +119,89 @@ Read TRACKING_SYSTEM.md, DEVELOPMENT_STAGES.md, PROGRESS_LOG.md, TODO.md, CONTEN
 - **Everything indexed.** Content that cannot be retrieved is not AI-ready.
 - **Factions with agency.** Factions act even when the player ignores them.
 - **Mysteries with multiple clue paths.** No one-clue mysteries.
+
+## Build Stages
+
+### Stage 0 — Repository Setup
+
+Create the project structure, placeholder files, control docs, tracking docs, indexes, canon files, and runtime state files. No real campaign creation yet. This is scaffolding.
+
+### Stage 1 — Campaign Foundation
+
+Create the core campaign identity: premise, tone, central conflict, hidden truth, starting region, starting settlement, major factions, major NPCs, secrets, clocks, opening scenes, hooks, rumors, and the first mystery web.
+
+### Stage 2 — AI Runtime Foundation
+
+Make the campaign runnable by an AI DM. This means session loop, state files, start/resume prompts, clue tracking, NPC memory, faction state, world clocks, solo-play rules, and end-of-session update process.
+
+### Stage 3 — Starting Region Deep Build
+
+Expand the starting region so it can support many sessions. Add settlements, wilderness locations, dungeons, NPCs, hooks, quests, local mysteries, faction clocks, rumors, and encounter tables.
+
+### Stage 4 — First Major City Deep Build
+
+Create the first big hub city with districts, politics, shops, temples, guilds, crime, factions, secrets, NPCs, rumors, quests, social scenes, and long-term consequences.
+
+### Stage 5 — Level 1–4 Play Arc
+
+Fully develop the early campaign. This is where the first real playable arc gets built: early main quests, side quests, first dungeon, early villain, first major mystery, faction choices, rewards, and level-up path.
+
+### Stage 6 — First Full Audit
+
+Stop expanding and audit everything so far. Check canon, secrets, mechanics, AI readiness, indexing, solo-play safety, clue paths, faction agency, and state tracking.
+
+### Stage 7 — Regional Expansion Ring 1
+
+Build the regions surrounding the starting area so the player can leave the starting region and still hit prepared content in multiple directions.
+
+### Stage 8 — Faction Deepening
+
+Fully develop the major factions: leaders, members, resources, agendas, clocks, quest chains, secrets, allies, enemies, and reactions to the player.
+
+### Stage 9 — NPC Codex Expansion
+
+Build out the large predetermined NPC library: major NPCs, secondary NPCs, minor NPCs, relationship webs, voice notes, secrets, and locations.
+
+### Stage 10 — Quest Library Expansion
+
+Build the huge quest/hook library: main quests, regional quests, faction quests, personal quests, rumors, jobs, bounties, complications, and travel events.
+
+### Stage 11 — Mystery, Secret, and Clue Expansion
+
+Deepen the mystery structure: secrets, clue index, revelation map, false leads, prophecies, puzzle chains, and multiple clue paths for major truths.
+
+### Stage 12 — Dungeons, Ruins, and Adventure Sites
+
+Create a large library of explorable locations with history, rooms/zones, hazards, puzzles, secrets, treasure, bosses, solo-play options, and consequences.
+
+### Stage 13 — Encounter and Bestiary Expansion
+
+Create solo-friendly threats: monsters, adversary groups, recurring villains, bosses, hazards, random encounters, and noncombat obstacles.
+
+### Stage 14 — Treasure, Artifacts, and Rewards
+
+Create rewards that support solo play and progression: magic items, artifacts, treasure tables, level-appropriate rewards, favors, tools, and survivability options.
+
+### Stage 15 — Level 5–20 Arc Expansion
+
+Fully develop the midgame, high-level, and endgame arcs. This is where Acts 2–5 become playable across levels 5–20.
+
+### Stage 16 — Pre-Play Readiness Audit
+
+Final check before starting actual solo play. Make sure the first 10–20 sessions are ready, secrets are protected, state is initialized, clues work, mechanics are usable, and there are no critical issues.
+
+### Stage 17 — Live Campaign Operation
+
+Actually run the campaign. After each session, update state, clues, NPC memory, factions, consequences, inventory, relationships, and next-session start.
+
+### Stage 18 — Periodic Live Audits
+
+Every few sessions or after major events, audit the live campaign to prevent drift and restore forgotten threads.
+
+### Stage 19 — Campaign Completion and Epilogues
+
+Resolve the endgame, faction outcomes, NPC fates, mysteries, world state, player character epilogue, unresolved threads, and sequel hooks.
+
+### Summary
+
+In practical terms: Stages 0–2 make the machine, Stages 3–5 make the first playable campaign chunk, Stage 6 checks it, and Stages 7–15 scale it into a massive world.

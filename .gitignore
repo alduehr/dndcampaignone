@@ -1,0 +1,6 @@
+# Zip archives — never commit these
+*.zip
+
+# Local Claude Code session data
+.claude/projects/
+.claude/settings.local.json

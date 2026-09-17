@@ -35,6 +35,24 @@ Failure should usually change the situation, not end the campaign.
 
 ---
 
+## Mechanical Requirements
+
+Every developed quest must be mechanically complete per `DND_MECHANICS_REQUIREMENTS.md`. Before marking a quest file done, confirm it includes:
+
+- Recommended character level / range
+- Expected solo-PC danger level
+- Likely checks and DC bands (DC 10/15/20/25/30)
+- Possible combat encounters with solo danger notes and real stat references
+- Possible noncombat solutions
+- Rest opportunities and/or time pressure
+- Rewards appropriate to level
+- Failure consequences
+- Scaling notes
+
+Do not require a single successful roll to continue the story. Use D&D-style DCs throughout.
+
+---
+
 ## Developed Quest Standard
 
 ```md
@@ -58,6 +76,10 @@ tags:
 Main | Regional | Faction | Personal | Side | Dungeon | Mystery | Travel
 
 ## Level Range
+Recommended character level/range AND expected danger level for a solo PC.
+
+## Likely Checks And DCs
+Per `DND_MECHANICS_REQUIREMENTS.md`: list the checks likely to come up and their DC band (DC 10 easy / 15 moderate / 20 hard / 25 very hard / 30 nearly impossible). Never gate story progress behind a single successful roll.
 
 ## Starting Hook
 
@@ -82,18 +104,26 @@ Main | Regional | Faction | Personal | Side | Dungeon | Mystery | Travel
 ## Clues
 
 ## Combat Options
+Include possible combat encounters with solo-PC danger notes and the enemy stat references used (link bestiary/NPC profiles; no narrative-only adversaries).
 
 ## Noncombat Options
 
 ## Solo-Play Safety Valves
 
+## Rest And Time Pressure
+Rest opportunities (short/long) available, and any time pressure or clock that limits resting. Per `DND_MECHANICS_REQUIREMENTS.md`.
+
 ## Rewards
+Rewards appropriate to the recommended level/tier (currency, items, magic items, favors, information). Reference `REWARDS_BY_LEVEL.md` when it exists.
 
 ## Consequences
 
 ## Failure State
 
 ## Follow-Up Hooks
+
+## Scaling Notes
+How to scale the quest's encounters, DCs, and rewards up or down for the actual PC level. Per `DND_MECHANICS_REQUIREMENTS.md`.
 
 ## State Updates
 What to update on success, failure, delay, or partial success.

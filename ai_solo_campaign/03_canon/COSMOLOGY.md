@@ -4,63 +4,62 @@
 type: canon
 secrecy: mixed
 status: static
+tags: [cosmology, afterlife, remembrance, quiet-country]
 ---
 
-## Purpose
+## AI Use
 
-The structure of the world's cosmos — planes, afterlife, the nature of magic, death, the divine, and whatever forces shape reality. Player-safe facts describe what scholars and common folk believe. DM-only facts describe what is actually true.
+Load when the player dies, attempts resurrection, encounters the dead/undead, studies the afterlife, or asks what happens after death. Use **Public Cosmology** for in-world belief. Use **True Cosmology (DM-only)** to adjudicate what actually happens; never narrate it as fact to the player.
 
-## Current Status
+## Summary
 
-**PLACEHOLDER — Not yet populated.** To be established during Stage 1.
-
----
-
-## The World
-
-*Where the campaign takes place. Basic cosmological positioning.*
-
-*To be established during Stage 1.*
+Common belief: souls pass through the **Last Door** into the **Quiet Country** (afterlife) and are at peace. The truth: the afterlife is a finite reservoir that was nearly drained by the Concord's harvest, and identity itself (**Remembrance**) can be extracted and used. This is the cosmological engine of the whole campaign.
 
 ---
 
-## Known Planes (Player-Safe)
+## Public Cosmology (Player-Safe)
 
-*What scholars and adventurers believe about the planes.*
-
-*To be established during Stage 1.*
-
----
-
-## True Cosmological Structure (DM-Only)
-
-*What is actually true about the cosmos. May differ significantly from common belief.*
-
-*To be established during Stage 1.*
+- The world of **Vael** is the living world. Beyond it lie the **Three Thresholds**: Birth, Living, and the **Last Door** (death).
+- The dead pass through the Last Door into the **Quiet Country**, a still, gray peace. Good rites help them pass; the Concord once tended this for all.
+- Standard planar travel, elemental and outer realms, and conjured creatures exist as in normal D&D cosmology — most people simply don't think much about them. The Reach's culture cares about the Last Door above all.
+- Since the Quietfall, the Last Door "sticks." Some dead linger as **Remembrances**. Folk disagree on why: divine anger, a curse, the land's grief, or just decay.
 
 ---
 
-## The Afterlife
+## True Cosmology (DM-ONLY — never narrate as fact)
 
-*What happens to souls. Public belief and actual truth may differ.*
+- **The Quiet Country is finite.** It is a reservoir of resting souls, not an infinite paradise. The Concord's harvest drained it over centuries; by the Quietfall it was nearly empty, and new souls were failing to form (the "thin-born").
+- **Remembrance is the substance of identity** — the pattern that makes a soul a particular *someone*. It can be extracted from the dead, stored, refined, and spent. The Concord industrialized this. It is closer to soul-alchemy than divine magic.
+- **The Last Door is partly a mechanism**, not purely a divine gate. The Concord learned to tap it. Clergy do not know this.
+- **Undeath is leaked or stolen Remembrance given form.** The DM may *flavor* standard 5e undead this way where thematically apt; do not re-stat them. Restless dead near Concord sites are harvest leakage drawn toward reawakening shrines.
+- **Resurrection is dangerous because the Quiet Country is thin.** Pulling a soul back risks tearing its Remembrance; failed resurrections can produce "wrong-come-back" revenants (see `MAGIC_RULES.md`). This is a real campaign risk and a clue source.
+- **The Hollow Court are beings of preserved Remembrance** — neither alive nor truly dead. They are what a person becomes when stored rather than released.
 
-*To be established during Stage 1.*
+## Standard 5e Compatibility
+
+This cosmology sits *on top of* normal D&D 5e/2024 cosmology. Spells like *Speak with Dead*, *Revivify*, *Raise Dead*, *Gentle Repose*, *Hallow*, and divination still function — but in the Reach they behave with the eerie wrinkles above (harder resurrection, talkative restless dead, etc.). Do not invent new spell lists; apply flavor and the noted risks.
 
 ---
 
-## The Nature of Magic
+## The Afterlife (Quiet Country) — Quick Reference
 
-*See `MAGIC_RULES.md` for mechanics. This section covers lore — where magic comes from, why it works, what it costs.*
-
-*To be established during Stage 1.*
+| Question | Public Belief | DM Truth |
+|---|---|---|
+| Where do the dead go? | Through the Last Door to peace. | To a finite reservoir, recently nearly emptied. |
+| Why do some linger? | Curse, grief, or decay. | Harvest leakage from reawakening shrines. |
+| Is resurrection safe? | Rare and solemn. | Genuinely dangerous; can unmake a soul. |
+| Can the dead be spoken to? | Forbidden, frightening (Gravecallers). | Yes — Remembrances retain memory and will. |
 
 ---
 
-## Cosmological Secrets
+## The Echo (Veyr's Domain) — a Separate, Minor Cosmology
 
-*DM-only. Hidden truths about the cosmos that are central to the campaign.*
+This is a small, self-contained cosmological system, unrelated to the Last Door / Quiet Country / Remembrance engine above and unrelated to **the Unmade** (the Tellings cosmology in `locations/vael/orrun/timelines/`). Do not let a player treat evidence from one as evidence about another.
 
-*To be established during Stage 1. Key secrets go in `DM_ONLY_CANON.md`.*
+- **The Echo** is the domain of the minor god **Veyr** (see `GODS_AND_FAITHS.md`). It is not an afterlife and holds no souls. Its native law is that **identical things are the same thing** — a place, object, or act measured or repeated with perfect exactness stops being fully distinct from every other perfectly exact copy of itself, and can be reached from any of them.
+- **The Echo changes constantly, on its own, with or without anyone measuring it.** This is native to the domain — not something mortal equipment produces, triggers, or causes, even indirectly. Nothing mortal-built manifests, constructs, or sets change in motion here; the Echo does that by itself, ceaselessly, because that is simply what the place is. The domain will not hold still long enough to be pinned down, so anything equipment records is already out of date the moment it's recorded. A "draft" is not an answer the Echo gives to a question — it's the equipment's best frozen approximation of a target that kept changing underneath it regardless, already stale, already drifting from whatever is actually there now. This is the mechanism behind every "draft," reconstruction, and folded space described below: the equipment measures and records; the Echo, wholly indifferent to being measured, goes on changing anyway.
+- **Name collision, not a connection:** some Orrun cultures also call the Last Telling "**the Echo Realm**" (a regional folk-name, `locations/vael/orrun/timelines/the-last-telling`). That is a different place under a similar-sounding name — a coincidence of language, not a hidden link. Never imply the two are the same plane.
+- **The Measure** was a mortal order of surveyors, now vanished, that found their way into the Echo and did the only thing surveyors know how to do with a place: they tried to measure it. No theology, no bargain, no theory of immortality — professional habit, applied somewhere it should never have been applied, with no way to know when to stop. **An "Ell"** is their term for a plot or region of the Echo they staked out and surveyed — not a device, not something built, just a marked-off area of a god's domain they took it upon themselves to measure. To actually do that measuring, they built **equipment** — chains, calibration rigs, drafting engines, reconstruction apparatus — and left a great deal of it behind, still running, still trying — uselessly, endlessly — to pin down with obsessive, escalating precision a thing that will not hold still. Full DM-only detail is in `DM_ONLY_CANON.md` and in `one_shots/the_ell_at_marchwell/`, since Marchwell House sits within the only currently-detailed Ell. Nothing about the Echo, Veyr, or the Measure touches the Concord, the Quietfall, or the Hollow Court; treat any resemblance (a harvest of records rather than souls, an order that outlived its own purpose) as thematic rhyme, not shared history.
 
 ---
 
@@ -70,3 +69,4 @@ The structure of the world's cosmos — planes, afterlife, the nature of magic, 
 - [`DM_ONLY_CANON.md`](DM_ONLY_CANON.md)
 - [`GODS_AND_FAITHS.md`](GODS_AND_FAITHS.md)
 - [`MAGIC_RULES.md`](MAGIC_RULES.md)
+- [`WORLD_HISTORY.md`](WORLD_HISTORY.md)

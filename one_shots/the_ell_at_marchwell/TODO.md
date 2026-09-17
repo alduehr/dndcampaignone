@@ -1,0 +1,277 @@
+# TODO — The Ell at Marchwell
+
+Everything left between here and table-ready. Ordered by what blocks play.
+
+---
+
+## Blocking (can't run session 1 without these)
+
+None currently open. See "Done — the 20-item revision pass" below for the
+most recent completed work; everything it touched is playable as written.
+
+## High (needed by session 2–3, and you'll want them early)
+
+- [ ] **Handouts, physical props.** Tobin's notebook (Change #5 — replaces
+  the old chalk-jar note; needs an actual printable/readable prop showing
+  the escalating handwriting), Hesper's map (accurate exactly as long as
+  it's useful), and a scrap of substrate notation for the depth-5 scene.
+- [x] **Encounter math re-check at level 6** for session 3's two avoidable
+  fights and the finale with 0–5 party copies — done. Session 3's fights
+  check out as printed. The finale had a real gap at the low end (0–1
+  copies, the Roper effectively fighting alone): fixed by **Echoes of
+  Wick** — the finale's hostile pool is now always exactly 5 actors, split
+  between copies of the party (one per rest, cap 5) and Echoes of Wick
+  (Hesper's own doppelgangers, filling the rest). See ENCOUNTER MATH in the
+  main file.
+
+## Medium (quality of life)
+
+- [x] **The "what you came back with" table** — refined. Replaced three
+  entries that leaned toward pure oddity or mild inconvenience (the never-
+  put-something-down one duplicated the Held Thing's curse) with a mix of
+  a small situational help (advantage on checks to tell real from
+  convincing), a passive narrative quirk (flinching at your own full
+  name), and a callback quirk (farmhouses make you uncomfortable — the
+  whole adventure happens in one). Kept the three that already worked:
+  reflection delay, exact distance, counting things.
+- [x] **A one-paragraph player-facing pitch** for session zero, spoiling
+  nothing — revised in `../README.md`. It no longer names the destination
+  (cousin's farmhouse) or direction of travel before play, and now matches
+  the actual opening: a tip puts the party on the third parish an hour
+  behind Ambry, with the parish itself unaware anything's wrong. Also
+  dropped the old "this is a horror campaign" meta-line and the explicit
+  "maybe he's there, maybe not" hedge as unneeded.
+
+## Low (polish)
+
+- [x] **"The ugly ending" — cut entirely.** Its two named triggers didn't
+  hold up: a surviving doppelganger copy never had a mark on this door's
+  ledger to begin with (drafts don't tally), and a table-level miscount
+  wouldn't produce a silent permanent swap since the door enforces the
+  real count regardless of what the players believe. In its place, the
+  finale's actual door-tally mechanic got a real fix: marks are
+  identity-bound (Session 1's tally-wall table already showed this — each
+  scratch belongs to a named person, struck only by that same person
+  leaving), and Hesper's whole motive now rests on a coherent Echo-law
+  loophole instead of an exploitable counting error: **kill the holder of
+  an open mark and you can leave in their place.** She's known this for
+  most of a century and refused to use it until this party — the first
+  she's found she can live with killing one of. See "The door, and
+  Hesper," Session 4, and Hesper's CHARACTERS.md entry, for the full
+  backstory. The ending is unchanged (she always dies to the Roper before
+  she can act on it); only the reasoning underneath it is new.
+- [x] **The Session 2 closing corridor** is now a deliberate escalation
+  instead of another instance of the standard rag-rug hallway: bare stone,
+  torches in iron sconces down both walls, every flame moving in the
+  exact same pattern at the exact same instant — one flame recorded once
+  and played back in every sconce, not several similar flames — casting
+  no real shadow and giving off no heat. The tallow light made literal for
+  the first time. Framed explicitly as a step down, not a variation, since
+  every corridor before this one was still part of a house and this one
+  never was. Only this one instance changed; the recurring rag-rug
+  corridor elsewhere is untouched.
+- [x] **The Coat Closet now includes a deed** to a house in **Tilbrook**
+  (the nearest established town — Marchwell House is already stated to
+  stand half a day west of it, per `PREMISE.md`) among its real
+  possessions (main file's pocket-contents list and REWARDS.md's
+  Coat-Pocket Miscellany). Deliberately unresolved beyond that — no
+  property detail, no heir, nothing learned about it this session. It's
+  theirs to keep and it's a loose end on purpose, a hook for a
+  hypothetical sequel rather than content for this one-shot.
+- [x] **Narrative TODO #7 — Ambry's squat ledger given real context.** It's
+  now explicitly his own tithe-office accounts-book, the same one the
+  session 1 torn page came from — torn out entirely (guilt,
+  self-preservation, not wanting three weeks of embezzled sums under his
+  own name), leaving only the cover (his name inked inside, proving
+  ownership) and the flyleaf, which he's repurposed as a day-count: 22
+  days, matching the "three weeks" already stated for when the party
+  finds him. Updated the main file's squat scene and trail table, and
+  `CHARACTERS.md`'s Ambry entry, to state the connection explicitly.
+- [x] **Narrative TODO #8 — the squat's door-tally wall replaced with a
+  wall of ruined maps.** Ambry no longer chalked a (successful) count of
+  the doors; he chalked dozens of route-sketches trying to map his way
+  out, each one scratched out or drawn over before the next began, no two
+  agreeing, the chalk worn to a stub and finally snapped — evidence his
+  mapping failed, not evidence he could count reliably. Fits the fold
+  rule better (a normal map should have worked eventually if the
+  geometry were real) and matches the existing global rule that mapping
+  the Ell is unreliable. Updated the main file (squat scene, the reveal
+  list, and "it explains the whole room"), `CHARACTERS.md`, `DM_SCREEN.md`'s
+  fold-hints checklist, and `MAP_SPEC.md`'s squat battle map.
+- [x] **Narrative TODO #9 — the Held Thing fully defined.** It's the one
+  object in the Hanging that was *held*, not released — found gripped in
+  mid-air by nothing visible, worn glass-smooth only at the grip. The
+  moment a PC takes it, the room's law transfers "held" to their hand,
+  which is why they can never open it again (not sheathed, not stowed,
+  not handed off, not even asleep) — the exact same "anything released
+  stays where it was let go" law as the rest of the room, from the one
+  angle it never otherwise shows. Benefit: a genuine +1 weapon, plus
+  immunity to being disarmed of it specifically (the same law, read the
+  other way — nothing can make the hand open either). Explicitly called
+  out as a whole-campaign one-hand commitment (climbing, swimming,
+  somatic/material components, shields, two-handed weapons), not a
+  one-scene inconvenience. The three off-ramps (give it back / write it
+  off on the Slate / *remove curse* outside the Ell) are unchanged.
+  Updated REWARDS.md's full entry and both "Loot here" mentions in the
+  main file.
+- [x] **Narrative TODO #10 — the Slag Room, in two parts.** (a) Slag's
+  physical properties locked in: dense charcoal-black mineral, dull
+  glassy surface; extrudes from the air directly in front of the
+  speaker's mouth and shoots forward at a speed/mass matching volume
+  (whisper = dust, talk = pebbles, yell = a continuous, growing spear);
+  briefly tar-like and faintly vibrating when fresh, never hot; hardens
+  within seconds into permanent, ordinary, inert stone with no lasting
+  power (the "shout a word three times" crude tool is the one named
+  exception). (b) A real puzzle added: a 12-foot fissure with exactly one
+  way across — someone holds one continuous, unbroken yell aimed at the
+  far side until it spans the gap and hardens into a bridge. No damage
+  (nothing's in the stream's path over an empty gap), no round-by-round
+  rate, and deliberately no quiet alternative — this one obstacle can't
+  be solved by staying silent. Rewrote the full Slag Room section in the
+  main file; REWARDS.md's Echo Stone cross-reference needed no changes.
+- [x] **Narrative TODO #11 — the Unanimous Room replaced.** Judged too
+  similar in shape to the room's other "do the right thing together"
+  puzzles and too easy to get stuck in without any hint, so it's gone.
+  Replaced with **The Second Time**: the first attempt at anything in the
+  room does nothing, as if it never happened; the same action repeated
+  immediately after works normally. No math, no items, no redistributing
+  people — the whole room is "try it twice," plus a clever pre-spend
+  trick (waste the "first" on something harmless early, so a later
+  real attempt lands immediately instead of failing at the worst
+  moment). Six Depth 4 rule-rooms total, unchanged in count.
+- [x] **Narrative TODO #12 — the drafted people room refined.** Hesper now
+  has a guaranteed fallback entrance here if the party hasn't met her by
+  this point: she's simply there, watching, and says "Creepy, huh?"
+  before anyone registers a real person among the drafted. The nine-
+  person dinner table is now fully scripted — seats, stage directions,
+  and a complete looping conversation that reads and performs like a
+  real family dinner (turn-taking, toasts, laughter, a story) while
+  never actually meaning anything (wrong numbers, unanswered questions,
+  contradictions nobody notices). Explicitly designed to loop forever so
+  a DM can keep running it if the party lingers, plus rules for direct
+  PC interjection and for disrupting the scene (nothing breaks it; the
+  drafted can't be harmed, killed, or freed).
+- [x] **Narrative TODO #13 — Hesper's doubled-mark recognition corrected.**
+  She previously claimed to know the mark from Measure-coded contexts
+  (scratched in a rule-room corner, worn into a chain-rig's handle) and
+  guessed it was a "maker's stamp" — wrong category entirely, since the
+  mark is Veyr's devotional symbol, not survey equipment. She now
+  recognizes it only from Veyr-associated contexts: a shrine bowl's rim,
+  a shrine niche's offering-cloth. Her wrong guess is recontextualized to
+  match (a "mourning-mark" misread, not a maker's-stamp misread) rather
+  than dropped, so her century of isolated wrongness stays intact. Fixed
+  in the main file's "Hesper Wick" section and REWARDS.md's Twice-Cut
+  Token cross-reference; the reconstruction station's own "not a maker's
+  stamp" line elsewhere is unrelated (narrator text, not Hesper's claim)
+  and needed no change.
+- [ ] The ancient mortal order **the Measure** and the god **Veyr** are now
+  real, registered campaign canon (see `03_canon/GODS_AND_FAITHS.md`,
+  `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`) — if this
+  one-shot ever gets a sequel or a second "Ell" elsewhere in Orrun, start
+  there rather than re-deriving the lore.
+
+---
+
+## Done — the 20-item revision pass (2026-08-31)
+
+Full narrative rewrite of `THE_ELL_AT_MARCHWELL.md`, `PREMISE.md`,
+`CHARACTERS.md`, `REWARDS.md`, `ROOM_TABLES.md`, `MAP_SPEC.md`, and
+`DM_SCREEN.md`, plus new shared campaign canon. In source order:
+
+1. [x] **The Ell's true nature redefined.** Veyr (minor god of Echoes and
+   Memory), his domain the Echo, and the extinct mortal order the Measure
+   replace the old "nameless surveyor, nobody built it" answer. Registered
+   as real campaign canon — see `PREMISE.md` and the `03_canon/` files.
+2. [x] **Session 1 reworked into an active pursuit** — two prior parishes,
+   a third where the party catches his blown horse, a stolen second horse,
+   and a chase to Marchwell House.
+3. [x] **Session 1 house evidence strengthened** — guaranteed coat clue plus
+   a salted table of optional clues; the staged loft strongbox impression
+   is gone (the box goes into the Ell with him instead, unchanged from the
+   session-1 "abandoned box" beat).
+4. [x] **Pantry geometry rewritten** — no exterior door at all; a full-size
+   pantry whose corridor is visible from the doorway itself, past where the
+   back wall should be (no peephole trick), confirmed wrong by a rope-and-
+   dig test against the real exterior wall. Ambry hid in it not knowing it
+   was a corridor — he'd already convinced himself he'd shaken the party and
+   was mid-dinner with the family when they actually arrived. The
+   adventure's tagline and the `../README.md` summary line were both
+   updated to match.
+5. [x] **Chalk-jar note replaced with Tobin's notebook** — escalating
+   COUNT/COUNT YOUR TURNS compulsion ending in an unidentified "TRUST NO
+   ONE," resolved (optionally) by Hesper in Session 3.
+6. [x] **Four Casses fight now teaches door-defacing breaks the fold**,
+   with a scripted fallback if the party doesn't do it themselves.
+7. [x] **Session 2's "same water stain twice" scene cut**; the global
+   fold-hint list and DM_SCREEN.md's checklist were renumbered to match.
+8. [x] **The oblex reworked as native to the Echo**, with a "Veyr remembers
+   you" death-line and two new loot drops (the Twice-Cut Token, the Echo
+   Stone — see REWARDS.md #4–5).
+9. [x] **The false Marchwell house is now a fresh depth-2 reconstruction**
+   that destabilizes around the party, with a distant, inhuman screech transitioning
+   into Session 3, rather than a literal loop back to a depth-1 copy.
+10. [x] **Depth 3 expanded into a 12-room traversal bank** with explicit
+    exits, loot, and one major discovery (the Cutter's Rest).
+11. [x] **The Follower reworked into three-to-four escalating Veyr-servant
+    encounters** — non-resisting, then non-resisting, then flatly
+    invulnerable, and (only if the party tries to bypass hit points
+    entirely) a fourth wrapped in a ward nothing can penetrate at all.
+12. [x] **A cross-session revelation ladder** built and placed before
+    Session 1, coordinating every Veyr/Measure lore delivery point across
+    Sessions 2–4 with mandatory/optional status. Expanded (12 stages) with
+    concrete physical evidence in Depth 4–5: inert Measure equipment
+    scattered beyond the reconstruction station, a Veyr shrine (name cut in
+    stone, generations of offerings, the doubled mark scratched in a dozen
+    hands and once in old blood), and a dead surveyor with a Measure badge
+    and a rhymed warning-note establishing the order's law was "measure,
+    do not change" — enforced.
+13. [x] **All six Depth 4 rule-rooms fully detailed** (rule, entry, first
+    interaction, edge cases, solution, alternate solution) — the Long Way's
+    mechanic replaced with wall-following/indirect-motion; the Slag Room's
+    word-matter physics fully specified.
+14. [x] **The real-Cass "wasn't measured upstairs" answer replaced** with a
+    concrete one about drafts reproducing measured behavior, not identity.
+15. [x] **The Late Cats can return late in Session 3**, tied personally to
+    Hesper, if the party avoided them the first time.
+16. [x] **The Ashgarden Vale substrate recognition rebuilt in three explicit
+    stages** (Marchwell → the land around it → the named Vale), using real
+    registered Vale geography.
+17. [x] **Session 4's central reveal reworked** around a guaranteed active
+    reconstruction-station set-piece rather than player-specific chalk
+    marks or remembered dialogue, with a physical Measure/Echo collision
+    built into it.
+18. [x] **The Roper's trigger corrected** to fire on Hesper's first turn,
+    not its own initiative, across the main file, DM_SCREEN.md, and
+    MAP_SPEC.md.
+19. [x] **Post-combat ending reworked into a concrete escape procedure**
+    (confirm/count/check/cross); "close the file" was already optional in
+    this draft, not a required gate — confirmed and made explicit.
+20. [x] **Epilogue expanded** into a real Marchwell family reunion (both
+    branches: Cass rescued or not) plus a full Ambry writ/bounty resolution
+    before the adventure ends.
+
+## Done (earlier passes)
+
+- [x] Premise, truth, and escalation ladder
+- [x] Four-session structure with milestone at the midpoint
+- [x] Session 1 entry rewrite (door closes, windows, trapped)
+- [x] Session 1 climax — the Four Casses
+- [x] Chalk trigger (the jar, the sign, Tobin's useless marks)
+- [x] Tally mechanic and the finale arithmetic
+- [x] Fold rule + push-hints
+- [x] Oblex midpoint with Ambry in the room
+- [x] The way-home betrayal and level 6
+- [x] Depth 4 rule-rooms and the drafted people
+- [x] Substrate described concretely + the instrument sighting
+- [x] Hesper's demand, stat profile, and the endings
+- [x] Rest rule, its cost, and the long-rest → finale difficulty dial
+- [x] Prisoner and strongbox logistics
+- [x] Every-question-answered reference table
+- [x] Room generator tables
+- [x] Consistency pass on `PREMISE.md`
+- [x] Session 1 timing check
+- [x] Content volume pass
+- [x] DM quick reference (`DM_SCREEN.md`)
+- [x] Rewards pass (`REWARDS.md`)
+- [x] NPC cards (`CHARACTERS.md`)
+- [x] `MAP_SPEC.md`

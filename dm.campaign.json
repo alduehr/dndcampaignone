@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "the-long-remembering",
+  "displayName": "The Long Remembering",
+  "contentRoot": "ai_solo_campaign",
+  "locations": [
+    {
+      "locationId": "vael-orrun",
+      "mountPath": "locations/vael/orrun"
+    }
+  ],
+  "visibility": {
+    "strategy": "path-convention",
+    "playerSafeGlobs": [
+      "00_control/CONTENT_STANDARDS.md",
+      "01_runner_protocol/SOLO_PLAY_PRINCIPLES.md",
+      "01_runner_protocol/TONE_AND_NARRATION.md",
+      "03_canon/CALENDAR.md",
+      "03_canon/PLAYER_SAFE_CANON.md",
+      "04_world_atlas/MAP_DESCRIPTION.md",
+      "06_settlements/settlement_map_packets/SETTLEMENT_CAIRNWATER_MAP.md",
+      "06_settlements/settlement_map_packets/SETTLEMENT_CRESSWATER_MAP.md",
+      "06_settlements/settlement_map_packets/SETTLEMENT_GROVE_CAMPS_MAP.md",
+      "06_settlements/settlement_map_packets/SETTLEMENT_KARRAN_GATE_MAP.md",
+      "06_settlements/settlement_map_packets/SETTLEMENT_LORDS_WEND_MAP.md",
+      "06_settlements/settlement_map_packets/SETTLEMENT_PENMARK_HOLD_MAP.md",
+      "06_settlements/settlement_map_packets/SETTLEMENT_REEDFORD_MAP.md",
+      "06_settlements/settlement_map_packets/SETTLEMENT_SALTCAIRN_MAP.md",
+      "06_settlements/settlement_map_packets/SETTLEMENT_SALTGATE_MAP.md",
+      "06_settlements/settlement_map_packets/SETTLEMENT_SENNFORT_MAP.md",
+      "06_settlements/settlement_map_packets/SETTLEMENT_SPINE_FOOT_MAP.md",
+      "06_settlements/settlement_map_packets/SETTLEMENT_WETHER_MAP.md",
+      "13_encounters_and_bestiary/PARTY_SCALING_6_PLAYERS.md",
+      "13_encounters_and_bestiary/SOLO_ENCOUNTER_SCALING.md",
+      "15_random_tables/WEATHER.md"
+    ]
+  }
+}
