@@ -152,8 +152,9 @@ the fold rule drawn as a picture of itself, two identical things that are
 one thing. See "The reconstruction station," Session 4 — this is the
 closest the adventure gets to explaining what Veyr *is*, without ever
 naming him. Hesper, if shown the token earlier, has her own half-guess
-about it too (see "Hesper Wick," Session 3) — she took it for a maker's
-stamp, and was never corrected.
+about it too (see "Hesper Wick," Session 3) — she took it for a
+mourning-mark, from shrines and offerings she's found over the years, and
+was never corrected.
 
 It doesn't do anything mechanically remarkable on its own — hold it and
 concentrate, and once per long rest you can tell, with total certainty,

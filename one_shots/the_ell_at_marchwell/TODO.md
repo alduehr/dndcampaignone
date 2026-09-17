@@ -151,6 +151,19 @@ most recent completed work; everything it touched is playable as written.
   a DM can keep running it if the party lingers, plus rules for direct
   PC interjection and for disrupting the scene (nothing breaks it; the
   drafted can't be harmed, killed, or freed).
+- [x] **Narrative TODO #13 — Hesper's doubled-mark recognition corrected.**
+  She previously claimed to know the mark from Measure-coded contexts
+  (scratched in a rule-room corner, worn into a chain-rig's handle) and
+  guessed it was a "maker's stamp" — wrong category entirely, since the
+  mark is Veyr's devotional symbol, not survey equipment. She now
+  recognizes it only from Veyr-associated contexts: a shrine bowl's rim,
+  a shrine niche's offering-cloth. Her wrong guess is recontextualized to
+  match (a "mourning-mark" misread, not a maker's-stamp misread) rather
+  than dropped, so her century of isolated wrongness stays intact. Fixed
+  in the main file's "Hesper Wick" section and REWARDS.md's Twice-Cut
+  Token cross-reference; the reconstruction station's own "not a maker's
+  stamp" line elsewhere is unrelated (narrator text, not Hesper's claim)
+  and needed no change.
 - [ ] The ancient mortal order **the Measure** and the god **Veyr** are now
   real, registered campaign canon (see `03_canon/GODS_AND_FAITHS.md`,
   `COSMOLOGY.md`, `DM_ONLY_CANON.md`, `NAMING_REGISTRY.md`) — if this

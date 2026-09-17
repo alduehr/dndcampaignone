@@ -2020,14 +2020,16 @@ go. I still think about whether one line was enough."* This is optional and
 should feel like a small, real gift if the party thinks to ask — not a
 required beat, and not something she volunteers unprompted.
 
-**If they show her the Twice-Cut Token:** she's seen the mark before —
-scratched small into the corner of an old rule-room, worn into the handle
-of a chain-rig she once found and stripped for parts, always exactly like
-this, always in twos. *"I took it for a maker's stamp. Every smith's proud
-of the same tool twice, I thought."* She's wrong, and she knows it now if
-the party's worked out what the doubled mark actually means — but she was
-alone with that guess for a century, and nobody ever corrected her. Let this
-land as one more piece of her isolation, not a lecture.
+**If they show her the Twice-Cut Token:** she's seen the mark before — carved
+into the rim of a cracked stone bowl somebody had left flowers in, a very
+long time before her; scratched into a scrap of half-rotted offering-cloth
+tucked into a shrine niche she's never been able to find again. Always
+exactly like this, always in twos. *"I took it for a mourning-mark, once.
+The vale's got a dozen ways of scratching grief into stone — I thought this
+was just one more, worn thin with retelling."* She's wrong, and she knows it
+now if the party's worked out what the doubled mark actually means — but she
+was alone with that guess for a century, and nobody ever corrected her. Let
+this land as one more piece of her isolation, not a lecture.
 
 **Reintroducing the Late Cats (Change #15), if the party avoided them
 earlier:** if the two displacer beasts in the five-hundred-foot hall were
