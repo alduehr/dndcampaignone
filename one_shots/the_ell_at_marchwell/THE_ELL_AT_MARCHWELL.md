@@ -132,26 +132,44 @@ adventure — do not gatekeep it.
 
 There is no way to guarantee a long rest here — not a marked room, not a
 found camp, not careful preparation. **Every time the party attempts a
-long rest, anywhere, roll 1d12 and subtract the number of long rests
-they've already taken this adventure** (minimum roll of 1, however far
-negative the penalty runs). Consult the table below; whatever it says
-happens **immediately**, in the room, while they're still half-asleep —
-never "later," never "in a room ahead of them."
+long rest, anywhere, roll 1d6 and add their current strain** (starts at
+0; see below), **treating any total of 6 or higher as a 6.** Consult the
+table below; whatever it says happens **immediately**, in the room, while
+they're still half-asleep — never "later," never "in a room ahead of
+them."
 
-| Roll (after penalty) | What happens, right now |
+| Roll (1d6 + strain, capped at 6) | What happens, right now |
 |---|---|
-| 12 | Full rest. Nothing else happens. |
-| 10–11 | Full rest, but something small and wrong happens at the same moment — an object in someone's hand is suddenly a copy of itself, replacing whatever was there. |
-| 8–9 | Interrupted. Only short-rest benefits: spend Hit Dice as normal, nothing else recovers. |
-| 5–7 | The rest fails outright. No benefit at all, and something speaks, once, in the voice of whoever was sleeping deepest — not words they said, words they *would* say. |
-| 3–4 | The rest fails, and a hostile encounter starts immediately. |
-| 1–2 | Same as above, but with no warning — run it as a surprise round against the party. |
+| 6 | Full rest. Nothing else happens. |
+| 5 | Full rest, but something small and wrong happens at the same moment — an object in someone's hand is suddenly a copy of itself, replacing whatever was there. |
+| 4 | Interrupted. Only short-rest benefits: spend Hit Dice as normal, nothing else recovers. |
+| 3 | The rest fails outright. No benefit at all, and something speaks, once, in the voice of whoever was sleeping deepest — not words they said, words they *would* say. |
+| 2 | The rest fails, and a hostile encounter starts immediately. |
+| 1 | Same as above, but with no warning — run it as a surprise round against the party. |
+
+**Two separate counters track this, and both matter — don't conflate
+them:**
+
+**Strain** *(temporary — feeds the roll above)*. Starts at 0. **A result
+of 1–3 adds 1 to strain** — each real failure makes the next attempt
+easier. **A result of 5–6 resets strain to 0** — a full rest, however
+flavored, clears it. **A result of 4 changes nothing** — it's neither a
+failure nor a success for this purpose, and strain carries over exactly
+as it was.
+
+**The rest counter** *(permanent — never affects the roll above; this is
+what fills Hesper's pool in the finale)*. Starts at 0. **A result of 4,
+5, or 6 adds 1** — any outcome that grants at least short-rest benefit
+counts, whether it's the full thing or the interrupted version. **A
+result of 1–3 (outright failure, nothing recovers) adds nothing.** This
+is the number of party-copies waiting behind Hesper in Session 4 — see
+"The rests are the finale's difficulty dial," below.
 
 **No exhaustion and no HP loss beyond what they already had, on any
 result.** The cost lives entirely in what the roll produces, never stacked
 on top of it.
 
-**On a 3–4 or 1–2 result: "the uninvited."** Never a doppelganger fight —
+**On a result of 1 or 2: "the uninvited."** Never a doppelganger fight —
 copies are reserved for the finale's escalating tally, above, not for
 random mid-rest encounters. Instead, roll the actual composition fresh
 each time, independently:
@@ -176,11 +194,15 @@ Ell — a bad roll should hurt, not wipe the table on its own.
 **Say this the first time anyone proposes a rest, and then never again:**
 
 > "There's no room down here that's actually safe to sleep in. Every long
-> rest is a real risk, and it gets worse the more of them you take. I'm
-> not going to tell you the odds. Decide accordingly."
+> rest is a real risk, every single time, whatever happened last time. And
+> however it goes, it isn't free later, either. I'm not going to tell you
+> the odds. Decide accordingly."
 
 That's the whole ruling. There is no trick to learn that makes this safe —
-the risk is real on the very first rest and only grows from there.
+the risk is real on the very first rest and real on every rest after it,
+whatever happened last time. Success doesn't make the *next* roll any
+easier or harder; it just quietly spends something they won't see the
+bill for until session 4.
 
 ### What NPCs believe, and why it doesn't actually help
 
@@ -205,13 +227,12 @@ in, so her arrival lands as *"oh — it's her"* rather than as a new NPC.
 
 ### The rests are the finale's difficulty dial
 
-**Count every long rest attempted — every roll made, whatever it produces.**
-A full success, a short-rest-only interruption, an outright failure, a
-hostile encounter — none of that changes anything here; a roll of any
-kind is one attempt. **That number is how many copies of the party stand
-behind Hesper in session 4** — and whatever
-that number falls short of five (or the party-size cap), Echoes of Wick
-make up the difference. See session 4.
+**Track the rest counter** (see "Resting in the Ell," above): it goes up
+by 1 on any long-rest roll of 4, 5, or 6 — short-rest-only or a full
+rest, either counts — and stays put on an outright failure (1–3). **That
+number is how many copies of the party stand behind Hesper in session
+4** — and whatever that number falls short of five (or the party-size
+cap), Echoes of Wick make up the difference. See session 4.
 
 This is the whole point of the cost, and it is the best kind of difficulty
 setting: **the players choose it themselves, in advance, without being told
@@ -2397,8 +2418,9 @@ able to do. She still thinks it's monstrous. She's going to do it anyway.
 
 **And she is not alone.** Standing behind her, **always exactly five hostile
 actors combined** — no more, no less, however the count splits. **Copies of
-the party** fill one slot per long rest the party attempted (any roll made,
-whatever it produced), **cap 5**. **Echoes
+the party** fill one slot per point on the rest counter (see "Resting in
+the Ell" — up by 1 on any roll of 4, 5, or 6; unchanged on a 1–3), **cap
+5**. **Echoes
 of Wick** fill whatever's left. A party that never rested faces five Echoes
 of Wick and no copies of themselves. A party that rested every time faces
 five copies of themselves and no Echoes. Anything between splits the five
@@ -2760,7 +2782,7 @@ All printed stat blocks, run as written except the oblex's HP (see below).
 | The quoting thing | Gibbering mouther (CR 2, 450 XP) | *Monster Manual* | Says only the last true thing each character said. Verbatim, in their voice | S3, depth 3 — "More presences," below |
 | The still bears | Owlbear ×3 (CR 3, 700 XP each) | *Monster Manual* | Perfect in every particular. None breathes. None blinks | S3, drafted orchard |
 | **The oblex** | **Elder oblex (CR 10, 5,900 XP, 115 HP printed — HP homebrewed further up, see below), plus live Oblex Spawn (CR ¼, 50 XP)** | *Volo's Guide to Monsters* | Native, not trapped — belongs to the Echo, the domain the Measure staked this plot out of. Speaks in the party's voices. Its duplicates are everyone who came in before. Dies for good at the midpoint — the voices don't stop, and one duplicate's last words are "Veyr remembers you" | **S2 midpoint only** |
-| **The uninvited** (composition rolled fresh each time — see "Resting in the Ell") | Mirror mephit ×1–4 (CR ½, 100 XP each) · Will-o'-wisp ×0–2 (CR 2, 450 XP each) · Phase spider ×0–1 (CR 3, 700 XP) | *Mordenkainen's Tome of Foes* (mephit) · *Monster Manual* (wisp, spider) | All three are Veyr's, drawn to a sleeper the way gulls follow a boat. **Mirror mephits split into an identical duplicate the moment they're struck** — the fold rule with teeth, harmless teeth. **Phase spiders** blink into the party's rest, take a bite, and blink out again before anyone can pin them down. **Will-o'-wisps** show up as a second, identical light beside whoever's on watch, and try to lead someone a few steps toward a wall as if it were a door. None of them press an attack that isn't working; all of them flee back into the walls or the dark the instant it stops being easy. | Any long rest, on a 3–4 or 1–2 result |
+| **The uninvited** (composition rolled fresh each time — see "Resting in the Ell") | Mirror mephit ×1–4 (CR ½, 100 XP each) · Will-o'-wisp ×0–2 (CR 2, 450 XP each) · Phase spider ×0–1 (CR 3, 700 XP) | *Mordenkainen's Tome of Foes* (mephit) · *Monster Manual* (wisp, spider) | All three are Veyr's, drawn to a sleeper the way gulls follow a boat. **Mirror mephits split into an identical duplicate the moment they're struck** — the fold rule with teeth, harmless teeth. **Phase spiders** blink into the party's rest, take a bite, and blink out again before anyone can pin them down. **Will-o'-wisps** show up as a second, identical light beside whoever's on watch, and try to lead someone a few steps toward a wall as if it were a door. None of them press an attack that isn't working; all of them flee back into the walls or the dark the instant it stops being easy. | Any long rest, on a roll of 1 or 2 |
 | Hesper Wick | Custom NPC, veteran-derived (base: *Monster Manual*, CR 3, 700 XP) | Custom | The finale, until the other pillar. See her full profile above | **S4 only** |
 | **Echoes of Wick** | Doppelganger-derived, custom (base: *Monster Manual*, CR 3; harder variant, ~1,100 XP) | Custom | Fixed in Hesper's own shape, permanently — a century of the instrument recording her, met and half-tamed by her own long solitude. Fill whatever part of the finale's five-actor pool the party's rests didn't earn as copies of themselves. See her profile above for the full statline and the split rule | **S4, the finale room, alongside Hesper — see above** |
 | **The other pillar** | **Roper (CR 5, 1,800 XP, printed, unmodified)** | *Monster Manual* | Disguised as one of two identical pillars in the finale room, indistinguishable from its twin, until it isn't | **S4, the finale room — "The Other Pillar," above** |
@@ -2834,10 +2856,12 @@ when the Roper does.
 | **Finale pool** (S4) | cap 3 | cap 4 | cap 5 | cap 5 |
 | Avoidable fights (S3) | 1 of 2, single creature | 1 of 2, single creature | both, full counts | both, full counts |
 
-**The finale pool is one party copy per long rest attempted (any roll made,
-whatever it produces), capped at the value in the table above** — whichever is lower, the flat cap of 5 or the
-party-size cap — **with Echoes of Wick filling whatever's left of that same
-cap.** Past the cap, add +15 HP to Hesper per extra rest instead. At three
+**The finale pool is one party copy per point on the rest counter** (see
+"Resting in the Ell" — up by 1 on a roll of 4, 5, or 6; unchanged on a
+1–3), **capped at the value in the table above** — whichever is lower,
+the flat cap of 5 or the party-size cap — **with Echoes of Wick filling
+whatever's left of that same cap.** Past the cap, add +15 HP to Hesper
+per extra rest instead. At three
 characters the cap drops because three PCs plus Ambry plus Hesper plus three
 pool members is already a crowded, long fight.
 

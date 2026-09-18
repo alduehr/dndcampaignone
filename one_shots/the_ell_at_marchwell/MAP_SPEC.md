@@ -104,8 +104,8 @@ gallows, well, milestone), or is somebody's old camp. Keep a running list
 as they make them; those are the only rooms they can reliably return to,
 and by session 3 that list is effectively their map. **Uniqueness has
 nothing to do with whether a long rest there succeeds** — see "Resting in
-the Ell" in the main file: every long rest is a 1d12 roll, regardless of
-the room.
+the Ell" in the main file: every long rest is a 1d6 + strain roll,
+regardless of the room.
 
 ---
 
@@ -237,7 +237,7 @@ ceiling, with the plan cut into the floor. **Ceiling 20 ft.**
   roll initiative for it at all.** See the adventure's "The Other Pillar"
   section for the exact timing.
 - **No furniture. No clutter.** The room is deliberately austere.
-- **Party copies** (0–5, one per long rest) start spread along the far wall.
+- **Party copies** (0–5, one per rest counter point) start spread along the far wall.
 
 **If you're running this with physical minis or a VTT:** use two identical
 plain pillar pieces, or nothing at all, until one moves — don't put anything

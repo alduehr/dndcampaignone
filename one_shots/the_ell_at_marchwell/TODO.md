@@ -44,17 +44,35 @@ most recent completed work; everything it touched is playable as written.
 
 ## Low (polish)
 
-- [x] **Rest-tally ambiguity fixed.** "Count every long rest attempted —
-  successful or not" and "one per long rest taken/took" implied a false
-  binary (success vs. failure) that didn't clearly cover the roll table's
-  middle result (8–9, short-rest-only interruption — neither a clean
-  success nor a failure). Reworded every instance of the rule to "any
-  roll made, whatever it produces" so all four outcome bands (full
-  success, short-rest-only, outright failure, hostile encounter)
-  unambiguously count as one attempt toward the finale's party-copy
-  tally. Fixed in the main file (the difficulty-dial explanation, the
-  finale scene itself, and the party-size scaling note) and DM_SCREEN's
-  tracker checklist.
+- [x] **Functional TODOs #1–4 — the long-rest mechanic redesigned.**
+  Replaced the flat 1d12-minus-total-attempts roll with **1d6 + strain**
+  (capped at 6), same six outcomes remapped 1:1 onto the six faces worst
+  to best (1 = fails/surprise round ... 6 = full rest, clean). Two
+  separate counters now track it, and neither touches the other:
+  - **Strain** (temporary, feeds the roll): rolls of 1–3 add 1 (each real
+    failure makes the next attempt easier, per functional TODO #1);
+    rolls of 5–6 reset it to 0 (per #2); a roll of 4 (short-rest-only)
+    changes nothing — confirmed as neither success nor failure for this
+    purpose.
+  - **Rest counter** (permanent, never feeds the roll — this is the
+    finale's party-copy count, per #3/#4 combined): rolls of 4, 5, or 6
+    add 1 (short-rest-only counts the same as a full rest); rolls of 1–3
+    add nothing.
+
+  This replaces the earlier "any roll counts, successful or not" tally
+  rule with something more precise, and it changes what the table-ruling
+  warning can honestly claim: resting no longer gets permanently harder
+  just from repeated success (strain resets), so the warning text was
+  reworded from "gets worse the more you take" to "real risk every time,
+  and it isn't free later" — the cost moved from the roll itself to the
+  finale tally. Fixed in the main file (the core rest rule, the
+  difficulty-dial section, the finale scene, the party-size scaling
+  note, and the table-ruling quote), DM_SCREEN.md (the resting
+  quick-reference, the tracker checklist, the Hesper fight-table entry,
+  and the fold-rule aside), MAP_SPEC.md (two passing references), and
+  PREMISE.md (the S4 summary row and "the rest rule is the difficulty
+  dial" — which also had a stale claim that room uniqueness affects rest
+  odds; it never has, and now says so).
 - [x] **"The ugly ending" — cut entirely.** Its two named triggers didn't
   hold up: a surviving doppelganger copy never had a mark on this door's
   ledger to begin with (drafts don't tally), and a table-level miscount

@@ -203,17 +203,18 @@ sleep well again.
 | **S1 — In** | 0–1: the house, then the repeating house | **The Four Casses** (4 doppelgangers) |
 | **S2 — Down** | 2: tallow light, wrong objects, the Coat Closet | **The oblex, with Ambry in the room**, then the way home is a lie. **Level 6** |
 | **S3 — Deeper** | 3–4: wrong scale, the rule-rooms, the drafted people | **Hesper Wick**, and the last comfortable hour of the campaign |
-| **S4 — Out** | 5: the substrate, deep time, the equipment seen working | **Hesper at the door**, plus one copy of the party per long rest taken |
+| **S4 — Out** | 5: the substrate, deep time, the equipment seen working | **Hesper at the door**, plus one copy of the party per rest counter point |
 
 **The tally** threads all four: scratches cut on the doorframe as each person
 crosses, struck through when they come back out. The party counts them in hour
 one with no explanation. In session 4 it is Hesper's entire argument — she came
 in by a different house and has never once been on anyone's list.
 
-**The rest rule is the difficulty dial.** Long rests only work in rooms the
-Ell can tell apart, and every one taken puts another copy of the party in the
-final room. The players set the finale's difficulty themselves, in advance,
-without being told they're choosing.
+**The rest rule is the difficulty dial.** Every long rest is a real risk
+regardless of the room — marking or uniqueness never changes the odds —
+and any roll that lands as at least a short rest puts another copy of
+the party in the final room. The players set the finale's difficulty
+themselves, in advance, without being told they're choosing.
 
 ---
 

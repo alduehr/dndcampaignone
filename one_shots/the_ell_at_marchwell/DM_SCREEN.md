@@ -31,7 +31,7 @@ Never a warning; always a receipt.
 - **Deface** a frame → removes it from the set (5-set → 2-set = shortcut)
 - **Copy** a mark → adds to a set (deliberate long-distance link)
 - **Unique room** → in no set → won't fold away, but **NOT rest-safe** —
-  every long rest is still a 1d12 roll regardless (see RESTING)
+  every long rest is still a 1d6 + strain roll regardless (see RESTING)
 - **Hesper only folds through 2-sets.** That's why she's never where you want.
 
 ---
@@ -51,17 +51,23 @@ Never a warning; always a receipt.
 
 ## RESTING
 
-**No room is ever safe. Every long rest is 1d12, minus long rests already
-taken this adventure (min 1).** Resolves immediately, in the room:
+**No room is ever safe. Every long rest is 1d6 + current strain** (starts
+at 0), **capped at 6.** Resolves immediately, in the room:
 
-| Roll (after penalty) | Result |
+| Roll (1d6 + strain, capped at 6) | Result |
 |---|---|
-| 12 | Full rest, nothing else |
-| 10–11 | Full rest + a small wrongness (an owned object becomes a copy of itself, right then) |
-| 8–9 | Short-rest benefits only |
-| 5–7 | Rest fails, no benefit — something speaks in a sleeper's voice |
-| 3–4 | Rest fails + **the uninvited**, immediately (never a doppelganger) |
-| 1–2 | Same, but surprise round against the party |
+| 6 | Full rest, nothing else |
+| 5 | Full rest + a small wrongness (an owned object becomes a copy of itself, right then) |
+| 4 | Short-rest benefits only |
+| 3 | Rest fails, no benefit — something speaks in a sleeper's voice |
+| 2 | Rest fails + **the uninvited**, immediately (never a doppelganger) |
+| 1 | Same, but surprise round against the party |
+
+**Two counters, don't conflate them:**
+- **Strain** (temporary, feeds the roll): 1–3 → **+1**. 4 → no change.
+  5–6 → **reset to 0**.
+- **Rest counter** (permanent, never feeds the roll — this is the finale's
+  party-copy count): 4, 5, or 6 → **+1**. 1–3 → no change.
 
 No exhaustion, no extra HP loss, ever — the roll result *is* the whole cost.
 
@@ -73,15 +79,15 @@ hit — let it happen, it's still nothing.
 
 **Table ruling, said once at the first rest:**
 > *"There's no room down here that's actually safe. Every long rest is a
-> real risk, and it gets worse the more you take. I won't tell you the
-> odds."*
+> real risk, every time, whatever happened last time. And however it
+> goes, it isn't free later. I won't tell you the odds."*
 
 **Marking a room does nothing mechanically.** Hesper and Ambry both swear
 by it anyway (a cut mark, a one-of-a-kind object, a known camp) — genuine
 folk wisdom, completely wrong, played totally straight. Don't let a player
 talk their way into a bonus for it.
 
-### ☐☐☐☐☐ LONG RESTS ATTEMPTED (mark one per roll, whatever it produces — full success, short-rest-only, failure, or hostile encounter all count) → party copies in the finale (cap 5)
+### ☐☐☐☐☐ REST COUNTER (mark one per roll of 4, 5, or 6 — short-rest-only counts same as full rest; a roll of 1–3 marks nothing) → party copies in the finale (cap 5)
 
 *Past cap: +15 HP to Hesper each. Whatever's unmarked of the 5 boxes above
 fights as Echoes of Wick instead — the finale pool is always 5 total.*
@@ -143,7 +149,7 @@ old "same water stain, twice" scene is cut — see the main file.)*
 | Still bears (S3, avoidable) | Owlbear CR 3 — doesn't breathe or blink | 3 |
 | The followers (S3) | Intellect devourer CR 2 ×3–4, in sequence — Veyr's, not lost; first two don't fight back, third is flatly invulnerable, fourth (only if HP-bypass is tried) is warded absolutely | up to 4 |
 | The quoting thing (S3) | Gibbering mouther CR 2 — echoes their own words back | 1 |
-| **Hesper (S4)** | Veteran-derived custom, **AC 17, HP 110, +8/1d8+4 ×2** | + 5-actor pool: 1 doppelganger per long rest (cap 5), **Echoes of Wick fill the rest** |
+| **Hesper (S4)** | Veteran-derived custom, **AC 17, HP 110, +8/1d8+4 ×2** | + 5-actor pool: 1 doppelganger per rest counter point (cap 5), **Echoes of Wick fill the rest** |
 | **Echoes of Wick (S4)** | Doppelganger-derived custom, **AC 15, HP 65, +5/1d8+3 ×2** — fixed in Hesper's shape | Fills whatever's left of the 5-actor pool above |
 | **The other pillar (S4)** | **Roper, CR 5, printed, unmodified** | 1 — kills Hesper on a secret initiative roll, then joins the fight |
 
