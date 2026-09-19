@@ -179,6 +179,35 @@ unique. Copying a mark folds two rooms together deliberately. Defacing a mark
 strands whatever's following them. This is the single best thing in the
 adventure — do not gatekeep it.
 
+### The one door that really leads outside
+
+**Everywhere in the Ell, "true destination" means a real, fixed point
+somewhere else on the map underneath — not the real world.** Every front
+door, back door, or press-house door the party meets between depth 1 and
+depth 5 is a folded instance of the real thing. Deface one and you get
+wherever it actually, permanently leads on the true map — useful, sometimes
+a shortcut — but that is not outside. That's true even of the three real
+exterior doors themselves: their folded instances are scattered through the
+dungeon like everything else, and defacing one of those doesn't free the
+house.
+
+**The one exception is the literal doors, in the literal kitchen, and the
+party is only ever standing there twice: at the very start, before Cass
+shuts the front door, and at the very end, once Hesper's route has actually
+brought them back.** Defacing an exterior door anywhere else in the Ell
+can't free the house — the real world simply isn't what's underneath that
+particular instance. Defacing it while actually standing in the real
+kitchen does, because there, for once, the true destination underneath the
+fold really is the real yard. See "Coming out," below.
+
+**This isn't a rule you need to enforce by fiat — it falls out of the set
+rule as already written.** By the time a table has learned both that the
+exterior doors are wrong (about forty-five minutes into session 1) and
+that defacing does anything at all (the Four Casses fight, later that same
+session), they are no longer standing in the real kitchen to test it on.
+The opportunity doesn't come again until Hesper leads them out at the end
+of session 4.
+
 ---
 
 ## RESTING IN THE ELL
@@ -2444,6 +2473,12 @@ arithmetic is the whole scene, so get it right out loud.
 > hundred and four years for a party big enough that one of you might be
 > left."
 
+**One more thing, while she still can.** "Whatever's happened to this
+house — the real doors are still under there somewhere. You already know
+how to prove it; you've been doing it since the Casses. Once you're back
+through, properly, do it to all three: front, back, and the press-house.
+I never got the chance to try it on mine. You still might, on yours."
+
 She is sorry. She means it. She fights anyway.
 
 **DM-only: the actual rule, and why now, why them.** The equipment never
@@ -2681,6 +2716,29 @@ asks, once, whether there's any chance of going back for him, and accepts
 "no" or "not today" without an argument, because she already knows the
 answer.
 
+**The doors, last.** None of this is automatic — reaching the real kitchen
+and crossing out safely (see "Endings," above) is a separate thing from
+freeing the house, and doesn't do it by itself. All three real exterior
+doors — front, back, press-house — need to be struck, once each, while the
+party is actually standing in the real kitchen (see "The one door that
+really leads outside," above). Whoever does it, it's the same defacing
+they already know: a strike, a shove, a bad miss, done.
+
+- **If a PC thinks to do it:** best outcome, and cheap to run.
+- **If nobody does, and real Cass came back:** once someone explains what's
+  needed — Hesper's line, if anyone remembers it, or simple trial and
+  error — Cass goes and does it himself, without much ceremony, the same
+  practical instinct that has him asking about the pressing instead of
+  talking about what happened to him. It's the first thing in a month he's
+  fixed with his own hands instead of just endured.
+- **If Cass wasn't rescued, Ambry does it instead** — not because anyone
+  asks, particularly, but because it's the one useful thing he can offer a
+  family he's brought nothing but trouble to, and he takes it.
+- **If genuinely nobody does it:** the un-struck doors stay exactly as
+  broken as they've been all year. Oda keeps living with a house that's
+  partly cured and says nothing about the rest of it, because saying
+  nothing about the pantry is a habit she already has.
+
 **Tobin's beat.** Give him a small, human moment distinct from his optional
 headcount — he was the first person in this family to survive the Ell and
 come back, and nobody has ever quite known how to talk to him about it.
@@ -2709,10 +2767,10 @@ from the "What You Came Back With" table in [`REWARDS.md`](REWARDS.md) —
 that's the canonical copy; this beat is just the cue to run it.
 
 **Closing shape of the whole adventure:** escape → Marchwell family
-reunion/resolution → brief recovery → escort Ambry back → turn in the
-fugitive and settle the fees. Nothing about the original mundane warrant job
-gets skipped just because something ancient and impossible happened on the
-way to finishing it.
+reunion/resolution → free the real exterior doors, or don't → brief
+recovery → escort Ambry back → turn in the fugitive and settle the fees.
+Nothing about the original mundane warrant job gets skipped just because
+something ancient and impossible happened on the way to finishing it.
 
 ---
 
@@ -2818,7 +2876,8 @@ noted rather than inventing false certainty.*
 | Did anyone ever get out? | Yes — anyone on the list who walked back to their own door. Most people never find it again. The coats in the closet belonged to the ones who didn't. |
 | Why is the light like that? | The instrument recorded illumination as a property of a space rather than something with a source, so the drafts are lit and there is nothing lighting them. |
 | Has this happened to Marchwell before — is this an old haunting? | **No, and that's deliberate.** The instrument itself is ancient, but it doesn't sit on one subject forever — once it's drawn what it can from a place, it drifts and settles somewhere new. It only arrived at Marchwell within the last year; Tobin's midsummer disappearance was its first taste of this house, not its hundredth. That's why nobody here has any inherited caution about it — Oda is improvising, not remembering. |
-| What happens to the equipment after we leave? | **Swap ending:** it keeps running, and — the same way it started on Marchwell only recently — in a few years it re-points itself and a farmhouse in the next valley grows a wing. **Close-the-file ending:** the survey completes and the equipment stops, for good, everywhere. |
+| Did we actually save the house? | **Only as much of it as they struck.** Getting out safely and freeing the house are two different things — see "The doors, last," in "Coming out." Each of the three real exterior doors only stops leading into the Ell once someone damages it while actually standing in the real kitchen, which only happens at the very end. Whatever doors nobody hit stay exactly as broken as they've been all year. |
+| What happens to the equipment after we leave? | **Independent of the above, and on a much longer clock.** Whether or not the house itself got fixed, the equipment doesn't know or care — it's still just measuring. **Swap ending:** it keeps running, and — the same way it started on Marchwell only recently — in a few years it re-points itself and a farmhouse in the next valley grows a wing. **Close-the-file ending:** the survey completes and the equipment stops, for good, everywhere. |
 | What was the thing that killed Hesper? | A Roper — an ordinary predator, not a device or a plan, and nothing to do with the Measure or Veyr either. It doesn't know who Hesper is. It's simply the kind of thing that lives in old, undisturbed measured space, and it had been sitting there, unnoticed, since before the party arrived. Its presence isn't a message. |
 
 ---

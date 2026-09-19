@@ -135,6 +135,45 @@ most recent completed work; everything it touched is playable as written.
   long rest" references (the main file's Hesper doppelganger line,
   DM_SCREEN.md's copies-of-the-party line) that should have read "one per
   rest counter point" per Functional TODOs #1–4 — fixed.
+- [x] **Functional TODO #6 — a concrete, in-world reason the real house can
+  be freed, not just abandoned.** Previously the epilogue just had the
+  party walk out with no answer for why the family's exterior doors
+  should ever work again. Fixed using the existing fold rule with no new
+  mechanics: the three real exterior doors (front, back, press-house) are
+  each members of a fold-set with the Ell's anonymous corridor-doors, and
+  defacing a member instantly reverts it to its true, fixed destination —
+  already-established behavior, just applied here for the first time.
+  The key scoping rule (new): **"true destination" is always a point on
+  the Ell's own map, never the real world** — every exterior door the
+  party meets between depth 1 and depth 5 is a folded instance whose real
+  spot is elsewhere in the dungeon, not outside. Only the literal doors in
+  the literal kitchen have "outside" underneath them, and the party is
+  only ever standing there twice: the very start of session 1 (before
+  they know anything's wrong) and the very end of session 4 (once
+  Hesper's route brings them back). This closes the obvious "smash the
+  door in session 1" exploit for free, without banning it by fiat — it
+  simply can't work there, structurally.
+
+  Getting out safely (the tally-based "Endings" ritual) and freeing the
+  house are explicitly two separate things — reconciling the tally only
+  ever got individuals out (that's Hesper's whole tragedy: a law of the
+  Echo, not the fold rule). All three exterior doors still need to be
+  struck individually, in the real kitchen, to free the house. Added a
+  tiered "who does it" structure to the "Coming out" epilogue ("The doors,
+  last"): a PC, ideally; Cass, if rescued and the party doesn't think of
+  it; Ambry, if Cass wasn't rescued; and a real, unpunished-but-weighted
+  consequence (the un-struck doors stay broken) if nobody does. Hesper
+  also now delivers this as guaranteed information before the Roper kills
+  her, since she can't use the same trick to save herself (her own true
+  door no longer exists) but knows theirs still can.
+
+  New: "The one door that really leads outside" (main file, after the set
+  rule) and "The doors, last" (main file, "Coming out"); a new FAQ row
+  ("Did we actually save the house?"), separated from the pre-existing,
+  unrelated long-term "what happens to the equipment" FAQ row. Updated:
+  Hesper's pre-fight speech (main file), DM_SCREEN.md (fold-rule
+  quick-reference, the Hesper fight section, and Endings), and
+  MAP_SPEC.md's "cutting a mark edits the catalogue" note.
 - [x] **"The ugly ending" — cut entirely.** Its two named triggers didn't
   hold up: a surviving doppelganger copy never had a mark on this door's
   ledger to begin with (drafts don't tally), and a table-level miscount

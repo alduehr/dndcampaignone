@@ -62,6 +62,15 @@ sits on top of the whole time). Copy a mark and it joins a set instead. The
 party is not just reading the map, they are **writing to it**, which is the
 best thing a player can discover here.
 
+**"Real, fixed destination" means a point on the Ell's own true map, not
+the real world.** The three real exterior doors are folded instances like
+everything else for as long as the party is inside the Ell — defacing one
+of those instances reveals its true spot in the dungeon, not outside. Only
+the literal doors, in the literal Marchwell kitchen, have "outside" as
+their true destination, and the party only stands there at the very start
+and the very end. See `THE_ELL_AT_MARCHWELL.md`'s "The one door that
+really leads outside" and "Coming out."
+
 **What they can't do** is derive a floorplan — distances and directions between
 rooms are meaningless, because two rooms joined by a twinned door aren't near
 each other in any sense. Anyone trying to draw the Ell to scale is doing the

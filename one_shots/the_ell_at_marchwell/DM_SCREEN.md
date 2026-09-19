@@ -45,6 +45,12 @@ whole depth, never a skip past intended content.
   mid-sequence can't split the group; a **deliberate, telegraphed** enemy
   sabotage mid-crossing can.
 - **Hesper only folds through 2-sets.** That's why she's never where you want.
+- **"True destination" means the true map underneath, not the real world.**
+  Every exterior door met between depth 1 and depth 5 is a folded instance —
+  defacing it reveals its real spot on the true map, not outside. The one
+  exception is the literal doors in the literal kitchen, reachable only at
+  the very start (before Cass shuts the door) and the very end (Hesper's
+  route). See "Coming out" / "The doors, last."
 
 ---
 
@@ -189,6 +195,14 @@ the first party she's found she can live with killing one of (armed
 adults, not innocents, and six of them, so one death still leaves five).
 Full reasoning in the main file, "The door, and Hesper."
 
+**Before she fights, she tells them how to save the house** — she can't
+use the fold trick on her own door (it doesn't exist anymore, which is
+exactly why she's stuck with the kill-the-mark-holder loophole instead),
+but theirs still does. Tell the players plainly: hit all three real
+exterior doors once they're actually back through, same as they've been
+defacing doors all along. This is the only guaranteed delivery of that
+information — don't skip it even if the party seems to already know.
+
 **She's never alone — always exactly 5 hostile actors at her side, staggered
 in one per round from round 2.** Copies of the party fill one slot per rest
 counter point (cap 5) and talk — one echoed line from earlier sessions each, in
@@ -221,6 +235,11 @@ way to save her. This is the climax; let it land.
 
 ### Endings
 - **Hesper always dies to the Roper.** They walk out without her; the door doesn't care, she was never on the list. Not a choice they got to make, and there's no alternate, kinder ending available — this always happens.
+- **Getting out and saving the house are two different things.** Each real
+  exterior door only stops leading into the Ell once someone hits it while
+  standing in the real kitchen. A PC does it if anyone thinks to; if not,
+  Cass does it (if rescued), or Ambry does (if Cass wasn't) — see "Coming
+  out" → "The doors, last" in the main file. Doors nobody hits stay broken.
 
 ---
 
