@@ -44,6 +44,20 @@ most recent completed work; everything it touched is playable as written.
 
 ## Low (polish)
 
+- [x] **Narrative TODO #12 revisited — the drafted-people dinner table
+  made genuinely incomprehensible, not just quirky.** The original fully
+  scripted loop (Change from the 2026-09-16 pass) read as a normal family
+  dinner with a few contradictions dropped in — closer to "quirky" than
+  "wrong." Rewritten so sentence structure and grammar stay fluent and
+  correct throughout, but content words (nouns, verbs, adjectives) are
+  swapped for wrong ones, with a handful of recurring nonsense "anchors"
+  per loop rather than random noise each line — the effect is closer to a
+  fluent-but-meaningless recording glitch than a conversation with typos
+  in it. Added two more full loops in the same style ("the well," "the
+  barn") for variety if the party lingers or comes back, plus a 50-noun /
+  50-verb / 50-adjective ad-lib bank with the substitution method spelled
+  out, for any drafted conversation beyond the three scripted ones. All in
+  "The drafted people" → "The dinner table, scripted in full," main file.
 - [x] **Functional TODOs #1–4 — the long-rest mechanic redesigned.**
   Replaced the flat 1d12-minus-total-attempts roll with **1d6 + strain**
   (capped at 6), same six outcomes remapped 1:1 onto the six faces worst

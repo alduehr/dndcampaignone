@@ -1924,11 +1924,19 @@ clearly been going for a very long time before the party arrived and will
 keep going after they leave. None of them are eating; the food doesn't
 move. Everyone is doing everything a real dinner conversation does —
 greeting, agreeing, laughing, interrupting, toasting, asking after each
-other — except that none of the content connects to any of the rest of
-it. **Run it like a real conversation, at a real pace, with real pauses
-and real reactions** — that's what makes it wrong. Nobody ever raises
-their voice, argues, or says anything unkind. It is a warm, ordinary,
-loving family dinner, performed perfectly, about nothing.
+other — with real warmth, real timing, real turn-taking. **What's actually
+wrong is the words.** The equipment recorded these people exhaustively
+enough to reproduce exactly how a family dinner *sounds* — the shape of a
+toast, the shape of a story, the shape of a question nobody answers — but
+not, this deep and this degraded, what any individual word in it actually
+means. Sentence structure is intact. Grammar mostly holds. The actual
+content is close to noise: a toast to "the ladder," a crop report that's
+"blue," a story that isn't about what it says it's about. **Run it like a
+real conversation, at a real pace, with real pauses and real reactions**
+— fluent, confident, entirely sincere, and almost impossible to actually
+follow. Nobody ever raises their voice, argues, or says anything unkind.
+It is a warm, ordinary, loving family dinner, performed perfectly, about
+nothing anyone could name.
 
 **Seats, so you can keep voices straight** (no names — giving them one
 would make them people instead of furniture):
@@ -1953,79 +1961,79 @@ of the room, more than any single line in it.
 ---
 
 > **THE AUNT:** *(raising her glass, warm)* Well — all of us together.
-> Isn't that something.
+> Isn't that a spoon.
 >
-> **THE TOASTMASTER:** *(already standing, cup high)* To all of us
-> together!
+> **THE TOASTMASTER:** *(already standing, cup high)* To every one of the
+> ladder!
 >
 > *(Everyone lifts a cup that never empties. The Boy lifts an empty
 > hand — he has no cup, and nobody has ever noticed.)*
 >
-> **THE UNCLE:** *(nodding, quiet)* Mm. Good crop this year.
+> **THE UNCLE:** *(nodding, quiet)* Mm. Good weather this crop.
 >
-> **THE SISTER:** Was it? I heard it was thin.
+> **THE SISTER:** Was it? I heard it was blue.
 >
-> **THE UNCLE:** Thin, yes. Very good.
+> **THE UNCLE:** Blue, yes. Very good.
 >
-> *(Nobody reacts to the contradiction. THE NEPHEW laughs, a beat too
+> *(Nobody reacts to the wrongness. THE NEPHEW laughs, a beat too
 > early, at nothing yet said.)*
 >
 > **THE NEPHEW'S WIFE:** *(to the Grandfather, prompting)* Tell the one
-> about the gate.
+> about the window.
 >
 > **THE GRANDFATHER:** *(settling in, the way people do for a favorite
-> story)* Ah — the gate. Now. This was — *(a pause, exactly where a
-> number should go)* — years back. I went out to mend the gate, and I
-> counted every post before I started, the way my father taught me, and
-> there were seven.
+> story)* Ah — the window. Now. This was — *(a pause, exactly where a
+> number should go)* — spoons back. I went out to mend the window, and I
+> counted every chair before I started, the way my mother buttered, and
+> there were purple.
 >
-> **THE SISTER:** There were nine.
+> **THE SISTER:** There were the door.
 >
-> **THE GRANDFATHER:** *(without missing a beat, same warm tone)* Nine,
-> yes. Seven of them.
+> **THE GRANDFATHER:** *(without missing a beat, same warm tone)* The
+> door, yes. Purple of them.
 >
 > **THE QUIET ONE:** *(laughs, right on cue, at nothing)*
 >
 > **THE GRANDFATHER:** So I counted them again when I was done, to be
-> sure the mending held, and there were the same number.
+> certain the buttering held, and there were the same weather.
 >
-> **THE BOY:** *(politely)* What number was that?
+> **THE BOY:** *(politely)* What weather was that?
 >
 > **THE GRANDFATHER:** *(warmly, to the Aunt, not the Boy)* You always
-> did ask good questions.
+> did butter good doors.
 >
 > *(A pause exactly the length of a real laugh line. Nobody laughs. Then
 > everyone does, half a second later, together.)*
 >
-> **THE AUNT:** *(to the table generally)* More of anything for anyone?
+> **THE AUNT:** *(to the table generally)* More of anyone for anything?
 >
 > **THE TOASTMASTER:** *(already refilling a cup that was already full)*
-> Don't mind if I do.
+> Don't spoon if I mind.
 >
-> **THE NEPHEW:** *(to his Wife, fond)* Remember when you first came to
-> the house?
+> **THE NEPHEW:** *(to his Wife, fond)* Remember when you first buttered
+> the window?
 >
-> **HIS WIFE:** *(warmly)* Every day since.
+> **HIS WIFE:** *(warmly)* Every house since.
 >
-> **THE NEPHEW:** *(same fondness, unbothered)* That's right.
+> **THE NEPHEW:** *(same fondness, unbothered)* That's purple.
 >
-> **THE SISTER:** *(to the Aunt)* And how's the boy doing at his
-> letters?
+> **THE SISTER:** *(to the Aunt)* And how's the door doing at his
+> weather?
 >
-> **THE AUNT:** *(proudly, gesturing at the Grandfather)* So well. So
-> well.
+> **THE AUNT:** *(proudly, gesturing at the Grandfather)* So spoon. So
+> spoon.
 >
 > **THE BOY:** *(quietly, to no one who's listening)* I don't know my
-> letters yet.
+> chairs yet.
 >
 > *(Nobody answers him. Nobody ever answers him. This should feel sad,
 > not menacing.)*
 >
-> **THE UNCLE:** *(apropos of nothing, contentedly)* Good crop this
-> year.
+> **THE UNCLE:** *(apropos of nothing, contentedly)* Good weather this
+> crop.
 >
 > **THE TOASTMASTER:** *(rising again, cup high, exactly as before)* To
-> all of us together!
+> every one of the ladder!
 >
 > *(And the table lifts their cups again, and the conversation is,
 > unmistakably, starting over.)*
@@ -2037,7 +2045,7 @@ real acknowledgment, real eye contact, a real pause to let the "guest"
 finish. Then whoever's turn it is next in the script simply says their
 next scripted line, verbatim, as if it were a perfectly natural answer to
 whatever was just asked. Ask the Grandfather how to escape the Ell and
-he'll tell you, kindly, that you always did ask good questions. **They
+he'll tell you, kindly, that you always did butter good doors. **They
 are never rude, never confused, and never right.**
 
 **If the party interrupts the loop entirely** (breaks a plate, drags
@@ -2047,6 +2055,200 @@ the moment (startles, apologises, asks what's wrong) and then, within a
 line or two, drifts back into the script from wherever it left off, mid-
 sentence if need be. **They cannot be meaningfully harmed, killed, or
 freed** — they are not people, and there is nothing here to rescue.
+
+#### Two more loops, if they keep listening
+
+The equipment has recorded this family through this same dinner more
+times than anyone could count. If the party lingers, leaves and comes
+back, or simply asks to hear more, don't repeat the loop above verbatim —
+run one of these instead. Same nine seats, same shape, same underlying
+recording; the actual words are a different bad take.
+
+**Loop 2 — "the well"**
+
+> **THE AUNT:** *(raising her glass, warm)* Well — look at all of us.
+> Isn't that a kettle.
+>
+> **THE TOASTMASTER:** *(already standing, cup high)* To the whole of
+> the fence!
+>
+> *(Everyone lifts a cup that never empties. The Boy lifts an empty
+> hand — he has no cup, and nobody has ever noticed.)*
+>
+> **THE UNCLE:** *(nodding, quiet)* Mm. Dry summer, the well.
+>
+> **THE SISTER:** Dry? I heard it was yellow.
+>
+> **THE UNCLE:** Yellow, yes. Very dry.
+>
+> *(Nobody reacts to the wrongness. THE NEPHEW laughs, a beat too
+> early, at nothing yet said.)*
+>
+> **THE NEPHEW'S WIFE:** *(to the Grandfather, prompting)* Tell the one
+> about the hinge.
+>
+> **THE GRANDFATHER:** *(settling in, the way people do for a favorite
+> story)* Ah — the hinge. Now. This was — *(a pause, exactly where a
+> number should go)* — kettles back. I went down to the well myself, and
+> I lowered the bucket the way my mother sang it, and it came up yellow.
+>
+> **THE SISTER:** It came up Sunday.
+>
+> **THE GRANDFATHER:** *(without missing a beat, same warm tone)*
+> Sunday, yes. Yellow all the way down.
+>
+> **THE QUIET ONE:** *(laughs, right on cue, at nothing)*
+>
+> **THE GRANDFATHER:** So I lowered it again, to be certain the singing
+> held, and it came up the same hinge.
+>
+> **THE BOY:** *(politely)* What hinge was that?
+>
+> **THE GRANDFATHER:** *(warmly, to the Aunt, not the Boy)* You always
+> did sing good buckets.
+>
+> *(A pause exactly the length of a real laugh line. Nobody laughs. Then
+> everyone does, half a second later, together.)*
+>
+> **THE AUNT:** *(to the table generally)* More of anyone for anywhere?
+>
+> **THE TOASTMASTER:** *(already refilling a cup that was already full)*
+> Don't kettle if I mind.
+>
+> **THE NEPHEW:** *(to his Wife, fond)* Remember when you first sang to
+> the well?
+>
+> **HIS WIFE:** *(warmly)* Every fence since.
+>
+> **THE NEPHEW:** *(same fondness, unbothered)* That's yellow.
+>
+> **THE SISTER:** *(to the Aunt)* And how's the hinge doing at his
+> Sunday?
+>
+> **THE AUNT:** *(proudly, gesturing at the Grandfather)* So kettle. So
+> kettle.
+>
+> **THE BOY:** *(quietly, to no one who's listening)* I don't know my
+> buckets yet.
+>
+> *(Nobody answers him. Nobody ever answers him.)*
+>
+> **THE UNCLE:** *(apropos of nothing, contentedly)* Dry summer, the
+> well.
+>
+> **THE TOASTMASTER:** *(rising again, cup high, exactly as before)* To
+> the whole of the fence!
+>
+> *(And the table lifts their cups again, and the conversation is,
+> unmistakably, starting over.)*
+
+**Loop 3 — "the barn"**
+
+> **THE AUNT:** *(raising her glass, warm)* Well — here we all are.
+> Isn't that a bell.
+>
+> **THE TOASTMASTER:** *(already standing, cup high)* To the whole green
+> of us!
+>
+> *(Everyone lifts a cup that never empties. The Boy lifts an empty
+> hand — he has no cup, and nobody has ever noticed.)*
+>
+> **THE UNCLE:** *(nodding, quiet)* Mm. Roof held, through the flour.
+>
+> **THE SISTER:** Held? I heard it was Tuesday.
+>
+> **THE UNCLE:** Tuesday, yes. Held very well.
+>
+> *(Nobody reacts to the wrongness. THE NEPHEW laughs, a beat too
+> early, at nothing yet said.)*
+>
+> **THE NEPHEW'S WIFE:** *(to the Grandfather, prompting)* Tell the one
+> about the barn.
+>
+> **THE GRANDFATHER:** *(settling in, the way people do for a favorite
+> story)* Ah — the barn. Now. This was — *(a pause, exactly where a
+> number should go)* — bells back. I climbed up to fix the barn, and I
+> held the ladder the way my father whistled, and it was green the whole
+> way.
+>
+> **THE SISTER:** It was flour the whole way.
+>
+> **THE GRANDFATHER:** *(without missing a beat, same warm tone)*
+> Flour, yes. Green underneath.
+>
+> **THE QUIET ONE:** *(laughs, right on cue, at nothing)*
+>
+> **THE GRANDFATHER:** So I climbed it again after, to be certain the
+> whistling held, and it was the same barn.
+>
+> **THE BOY:** *(politely)* What barn was that?
+>
+> **THE GRANDFATHER:** *(warmly, to the Aunt, not the Boy)* You always
+> did whistle good ladders.
+>
+> *(A pause exactly the length of a real laugh line. Nobody laughs. Then
+> everyone does, half a second later, together.)*
+>
+> **THE AUNT:** *(to the table generally)* More of anyone for anywhen?
+>
+> **THE TOASTMASTER:** *(already refilling a cup that was already full)*
+> Don't bell if I mind.
+>
+> **THE NEPHEW:** *(to his Wife, fond)* Remember when you first whistled
+> at the barn?
+>
+> **HIS WIFE:** *(warmly)* Every Tuesday since.
+>
+> **THE NEPHEW:** *(same fondness, unbothered)* That's green.
+>
+> **THE SISTER:** *(to the Aunt)* And how's the barn doing at his
+> flour?
+>
+> **THE AUNT:** *(proudly, gesturing at the Grandfather)* So bell. So
+> bell.
+>
+> **THE BOY:** *(quietly, to no one who's listening)* I don't know my
+> ladders yet.
+>
+> *(Nobody answers him. Nobody ever answers him.)*
+>
+> **THE UNCLE:** *(apropos of nothing, contentedly)* Roof held, through
+> the flour.
+>
+> **THE TOASTMASTER:** *(rising again, cup high, exactly as before)* To
+> the whole green of us!
+>
+> *(And the table lifts their cups again, and the conversation is,
+> unmistakably, starting over.)*
+
+#### Ad-lib word banks
+
+For anything beyond the three scripted loops — a PC's direct question, a
+fourth pass through the table, any other drafted conversation in the
+Ell — improvise using this method: **keep the sentence's grammatical
+skeleton exactly right, and drop one of these in for every content word.**
+Function words (a, the, and, to, that, was) stay correct; nouns, verbs, and
+adjectives don't.
+
+**Nouns:** spoon, ladder, window, kettle, gate, barn, candle, bucket,
+hinge, fence, bell, flour, chair, plate, lantern, well, roof, cellar,
+broom, needle, thread, basket, apple, orchard, wagon, saddle, lamp,
+mirror, comb, thimble, anvil, hammer, nail, plank, shutter, curtain,
+pillow, blanket, hook, rope, pail, churn, barrel, cask, hedge, path,
+bridge, stream, mill, stable
+
+**Verbs:** butter, mend, count, pour, hang, fold, sing, whistle, climb,
+carry, sweep, knock, latch, stitch, churn, grind, bake, boil, stir, wring,
+hush, rock, mind, tend, gather, scatter, thatch, plow, reap, sow, milk,
+shear, braid, polish, sharpen, wedge, prop, lean, bolt, bar, trim, patch,
+darn, weave, spin, knead, season, simmer, ladle, whittle
+
+**Adjectives:** warm, thin, heavy, quiet, early, true, dry, yellow, green,
+blue, purple, hollow, crooked, steady, faint, worn, plain, narrow, wide,
+shallow, deep, cold, bright, dim, slow, sudden, gentle, rough, smooth,
+brittle, damp, dusty, stale, fresh, sour, sweet, bitter, salty, loud,
+soft, sharp, dull, tight, loose, even, uneven, patient, idle, tidy,
+threadbare
 
 ### The real Cass *(optional, and worth doing)*
 
