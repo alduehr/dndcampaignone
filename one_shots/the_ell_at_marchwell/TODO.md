@@ -115,6 +115,26 @@ most recent completed work; everything it touched is playable as written.
   summary, which listed "safely rest" as one of the fold rule's uses —
   contradicted by the explicit, repeated rule elsewhere that uniqueness
   never makes resting safe.
+- [x] **Ontology hardened: the equipment is 100% passive; the Echo is the
+  only thing that ever actually changes anything — locked in against
+  future backsliding.** PREMISE.md's own truth section already said this
+  correctly, but two spots in the main file had drifted into giving the
+  equipment agency it doesn't have: the finale's Echoes-of-Wick
+  explanation ("the instrument did [make them]") and the FAQ's draft-Cass
+  answer ("what the equipment automatically does whenever a house has a
+  resident"). Both reworded to correctly credit the actual change to the
+  Echo's own ceaseless remaking, with the equipment credited only for the
+  measuring that fed it. Added an explicit, hard rule to PREMISE.md's "The
+  truth" section — the Echo is a living, autonomous domain that expands,
+  evolves, and changes on its own, at Veyr's will, never the Measure's;
+  the equipment only ever measures; measuring never causes change, not
+  even indirectly; the equipment is never the subject of a sentence about
+  something changing — plus a matching quick-reference reminder at the
+  top of DM_SCREEN.md's "IF THEY ASK," so this can't drift again in play
+  or in future revision passes. Also caught two leftover stale "one per
+  long rest" references (the main file's Hesper doppelganger line,
+  DM_SCREEN.md's copies-of-the-party line) that should have read "one per
+  rest counter point" per Functional TODOs #1–4 — fixed.
 - [x] **"The ugly ending" — cut entirely.** Its two named triggers didn't
   hold up: a surviving doppelganger copy never had a mark on this door's
   ledger to begin with (drafts don't tally), and a table-level miscount

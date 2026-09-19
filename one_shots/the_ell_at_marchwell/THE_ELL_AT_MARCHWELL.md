@@ -2489,9 +2489,9 @@ said since session 1 — the joke about the hats, what somebody swore at the
 oblex, what somebody promised Ambry. One line per copy, on its turn or when
 it drops, never more — this is seasoning, not narration, and it should
 never slow the fight down. She didn't make them and doesn't command
-them — the instrument did, out of everything it's recorded them saying since
-the pantry door, and they are simply *here*, because this is where the party
-is.
+them — the Echo's own ceaseless remaking did, echoing back everything the
+instrument happened to record them saying since the pantry door, and they
+are simply *here*, because this is where the party is.
 
 The Echoes of Wick don't talk, and they don't need an instrument's help to
 know how to fight — a hundred and four years alone down here means the
@@ -2507,7 +2507,7 @@ a hundred years to get used to fighting alongside her own echoes, and it
 shows: **they move exactly like she does — same stance, same openings, same
 tells** — because in every way that matters, they are her.
 
-**Doppelgangers** (party copies, CR 3), one per long rest, **cap 5**; past
+**Doppelgangers** (party copies, CR 3), one per rest counter point, **cap 5**; past
 the cap, give Hesper +15 HP each instead. They fight competently, without
 flourish, and they do not use the fold — they don't need to, they're already
 where they need to be.
@@ -2801,7 +2801,7 @@ noted rather than inventing false certainty.*
 | Who built this? | **Nobody built the Ell — it's a plot of a god's domain, and the god was here first.** A mortal order, now extinct, called the Measure staked out that plot to survey it, and built the equipment doing the actual measuring: chains, drafting engines, reconstruction apparatus. Surveyors, not mystics — no theology, no bargain, no theory of immortality. Nobody currently alive knows their name unless they find it written down — see the Cutter's Rest and the reconstruction station. |
 | Do we meet them? Is there someone to fight? | **No, and there never was.** The Measure died out long before anyone at the table was born. Nothing in the adventure is their agent, their ghost, or their servant — what the party fights is either the Ell's own machinery (which has no mind) or things that were already here before the Measure ever arrived (which have their own agenda, not the Measure's). |
 | Why is the equipment still running if its builders are gone? | Because only the order that built it could formally close its survey — declare it finished and power it down. The Measure didn't survive long enough to close most of what it started. Nobody inherited the authority to switch it off, and the equipment has no protocol for stopping on its own. It's simply still doing its last assigned job. |
-| Did it — or they — have a mind? | The Measure certainly did; they were people, and their motive was mundane, not mystical — they measured things because that's what they did, and this was simply the biggest thing they ever found to measure. **The Ell itself doesn't have a mind** — it runs on standing rules, not intentions. Installing draft-Cass wasn't a decision about *this* party; it's what the equipment automatically does whenever a house has a resident, because a resident who opens doors generates more to measure. It would have done the same for any family in any house. |
+| Did it — or they — have a mind? | The Measure certainly did; they were people, and their motive was mundane, not mystical — they measured things because that's what they did, and this was simply the biggest thing they ever found to measure. **The Ell itself doesn't have a mind** — it runs on standing rules, not intentions. Installing draft-Cass wasn't a decision about *this* party, and it wasn't the equipment's doing at all — the equipment only measured him. The Echo's own ceaseless remaking is what echoed a draft of him back into the house, the same thing it does with anything measured thoroughly enough, because a resident who opens doors generates more for the equipment to measure and the Echo folds in whatever it's shown. It would have echoed the same for any family in any house. |
 | Do we ever *see* the equipment? | **Not as one central machine — it's scattered, the way a survey crew's tools are scattered across a site.** The measured space itself carries a lot of it built in, the same way a tally is not separate from the wall it's cut into. But the party *can* see a distinct, working piece of it: the reconstruction station, depth 5, is the closest thing to "seeing the machine" the adventure offers. |
 | Then how do we know it's real? | **They watch it work at least three times.** (1) A scratch cuts itself into the doorframe as the last of them crosses, in the first hour of session 1. (2) Their chalk marks are reproduced ahead of them, all session 2. (3) At depth 5 they watch a reconstruction station rebuild a version of the Marchwell kitchen from scratch, badly, then less badly — see "The reconstruction station," Session 4. |
 | What does the Ell want? | To finish the survey. Nothing else. It is not malicious, not aware in any way that matters, and has never once registered a person as anything but a quantity. |

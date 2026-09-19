@@ -190,8 +190,8 @@ adults, not innocents, and six of them, so one death still leaves five).
 Full reasoning in the main file, "The door, and Hesper."
 
 **She's never alone — always exactly 5 hostile actors at her side, staggered
-in one per round from round 2.** Copies of the party fill one slot per long
-rest taken (cap 5) and talk — one echoed line from earlier sessions each, in
+in one per round from round 2.** Copies of the party fill one slot per rest
+counter point (cap 5) and talk — one echoed line from earlier sessions each, in
 the party's own voice, on their turn or when they drop. **Echoes of Wick**
 (AC 15, HP 65, +5 to hit, two attacks at 1d8+3 each, fixed in Hesper's own
 shape) fill whatever's left of the 5 — silent, hit harder than a copy, don't
@@ -235,6 +235,13 @@ to dispel · digging = more plaster, then notation
 ---
 
 ## IF THEY ASK
+
+**Standing rule, before you improvise any answer below:** the Echo is the
+living, active thing here — it expands, changes, and remakes itself on its
+own, at Veyr's will, not the Measure's. The equipment only ever measures. It
+never acts, decides, installs, or causes anything, directly or indirectly.
+If an answer you're about to give makes the equipment *do* something, stop
+and give the Echo credit instead — the equipment only ever fed it data.
 
 **Who built this place?** Nobody — it's a plot of a god's domain (the Echo),
 and Veyr was here long before anyone. **The Measure** — an extinct order of

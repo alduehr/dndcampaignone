@@ -76,6 +76,13 @@ Veyr's domain is a real place, called **the Echo**, and its one law is the
 law the party has been living inside since the front door shut: *identical
 things are the same thing.*
 
+**The Echo is not inert, and it was never the Measure's to control.** It is
+a real, living domain that expands, evolves, changes, and simply functions
+on its own — driven by its own nature and, in the end, by Veyr's will, never
+by anything any mortal did to it. It was already doing this before the
+Measure ever arrived, and it will go on doing it long after the last piece
+of their equipment seizes up for good.
+
 A long time ago, a mortal order called **the Measure** found their way into
 that domain. They were surveyors, not mystics — no grand theory, no bargain
 with Veyr, nothing so tidy. They found a god's realm and did the only thing
@@ -99,6 +106,14 @@ things are the same thing. This is also why identical things fold together
 into one: the domain isn't drawing two pictures of the same subject, it's
 the same true thing occupying the same place twice, correctly, because
 there was never a difference between them worth keeping separate.
+
+**A rule for running this adventure, not just describing it: the equipment
+is never the subject of a sentence about something changing.** Don't write
+or say "the equipment does X," "the equipment installs Y," "the equipment
+decides/causes/builds/triggers Z" — that construction is always wrong, in
+prep and at the table alike. The Echo does those things, on its own, using
+whatever the equipment happened to record. The equipment's only verb, ever,
+is *measure*.
 
 **It went wrong the way professional habit goes wrong, not the way ambition
 does.** The equipment was built to measure until there was nothing left to
