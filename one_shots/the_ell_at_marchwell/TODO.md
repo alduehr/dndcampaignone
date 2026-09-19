@@ -73,6 +73,48 @@ most recent completed work; everything it touched is playable as written.
   PREMISE.md (the S4 summary row and "the rest rule is the difficulty
   dial" — which also had a stale claim that room uniqueness affects rest
   odds; it never has, and now says so).
+- [x] **Functional TODO #5 — the fold rule tightened for real functional
+  problems, not just bookkeeping.** Four concrete gaps identified and
+  fixed:
+  - **No answer for where a defaced door goes.** Fixed: every fold-door
+    now has a true, fixed destination underneath it always; being in a
+    set overrides that; leaving a set (defaced, or shrunk to 1 member)
+    restores it immediately. A fully defaced dungeon reveals that true
+    map in full — stated explicitly as an intended payoff for a patient
+    table, not an exploit to prevent.
+  - **Sets could theoretically let a party skip a huge chunk of a single
+    depth's content**, not just jump between depths. Fixed: sets are now
+    explicitly required to be small and local — never spanning a
+    meaningful chunk of intended content, regardless of whether that
+    content is in the same depth or a different one.
+  - **A door damaged mid-crossing could split a group** unpredictably
+    (some already through under the old rule, the rest suddenly routed
+    to the door's true destination instead). Fixed: a group crossing
+    together locks in its destination at the moment the first person
+    crosses; an unrelated event can't retroactively split them. A
+    deliberate, telegraphed sabotage mid-crossing still can, since
+    that's a real threat the table can see coming.
+  - **Defacing was floated at "takes about a minute," which contradicted
+    the already-written Four Casses fight** (where damaging a doorframe
+    happens instantly, as part of a miss, a shove, or a strike, with no
+    separate time cost). Fixed: defacing is instant everywhere, matching
+    the Casses fight exactly; no artificial time tax anywhere.
+
+  Depth 1 (the repeating house, pre-Casses) is unchanged and confirmed
+  compatible with this redesign as written: its front/back/press-house
+  fold-by-kind mechanic already can't skip unvisited content (reuse only
+  ever redirects among *already-opened* kitchens), and its defacing
+  behavior was already instant and already reverted doors to normal
+  forward advancement — it just didn't have "true destination" language
+  because it didn't need it.
+
+  Rewrote "Where do you come out? (the set rule)" in full in the main
+  file. Updated DM_SCREEN.md's fold rule quick-reference and MAP_SPEC.md's
+  "cutting a mark edits the catalogue" note to match. Also fixed a
+  pre-existing, unrelated inconsistency in PREMISE.md's design-pillars
+  summary, which listed "safely rest" as one of the fold rule's uses —
+  contradicted by the explicit, repeated rule elsewhere that uniqueness
+  never makes resting safe.
 - [x] **"The ugly ending" — cut entirely.** Its two named triggers didn't
   hold up: a surviving doppelganger copy never had a mark on this door's
   ledger to begin with (drafts don't tally), and a table-level miscount

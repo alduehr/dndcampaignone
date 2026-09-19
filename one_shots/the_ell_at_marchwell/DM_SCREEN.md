@@ -21,17 +21,29 @@ Never a warning; always a receipt.
 
 ## THE FOLD RULE
 
-**Identical things are one thing with several mouths.**
+**Identical things are one thing with several mouths — but every fold-door
+has a real, true destination underneath.** Being in a set overrides that
+true destination; leaving the set (defaced, or shrunk to 1) restores it
+immediately. Sets are always small and local — never spread across a
+whole depth, never a skip past intended content.
 
 | Set size | Result |
 |---|---|
 | **2 identical doorways** | Deterministic. In one, out the other. Reliable. |
 | **3+** | Random — roll among the other mouths. Unpredictable to *everyone*, including the Ell. |
 
-- **Deface** a frame → removes it from the set (5-set → 2-set = shortcut)
+- **Deface** a frame → removes it from the set **instantly** (same action
+  that caused it — a strike, a bad miss, a shove; no separate cost) →
+  reverts immediately to its true destination. A 5-set defaced down to 2
+  becomes a reliable shortcut; fully defaced, the whole true map is
+  revealed — the intended payoff for a patient table, not an exploit.
 - **Copy** a mark → adds to a set (deliberate long-distance link)
 - **Unique room** → in no set → won't fold away, but **NOT rest-safe** —
   every long rest is still a 1d6 + strain roll regardless (see RESTING)
+- **Group crossing together** → destination locks in for everyone the
+  instant the *first* person crosses. An unrelated event damaging the door
+  mid-sequence can't split the group; a **deliberate, telegraphed** enemy
+  sabotage mid-crossing can.
 - **Hesper only folds through 2-sets.** That's why she's never where you want.
 
 ---

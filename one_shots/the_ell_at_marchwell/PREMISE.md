@@ -186,8 +186,8 @@ Ell becomes a puzzle box and stops being alien.
 same thing.* It's taught by eight push-hints that happen *to* the party rather
 than waiting on clever ideas, and it's triggered by a jar of chalk and a dead
 boy's instructions on the pantry shelf. Once they have it, it becomes their
-tool: mark a room unique, fold two rooms together, strand a pursuer, and
-safely rest.
+tool: mark a room unique, fold two rooms together, strand a pursuer — though
+never to make a rest safe; that risk never goes away, regardless of the room.
 
 **3. Every stat block is printed and run as written.** The wrongness is
 cosmetic and behavioural and never touches the numbers. A player who knows

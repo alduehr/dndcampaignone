@@ -87,10 +87,20 @@ combat, not through description, so it isn't numbered here.
 
 ### Where do you come out? (the set rule)
 
+**Underneath every fold, there's a real door.** Every doorway that can ever
+be part of a set has one true, fixed, ordinary destination — a real map,
+exactly as solid as any dungeon's, that would look completely unremarkable
+if anyone could ever see it laid flat. Being part of a set *overrides* that
+true destination with the shared rule below, for as long as the set holds.
+This isn't background flavor — it's the foundation everything else in this
+section is built on, and it's what makes every other part of the rule
+answerable instead of a shrug.
+
 **Identical things aren't several things that link — they are one thing with
-several mouths.** Five identical doorways are not five doors. They are *one
-door* the instrument has filed five times, and it has no way to tell the
-copies apart, so neither can anything else.
+several mouths, for as long as they stay identical.** Five identical
+doorways in a set are not five doors. They are *one door* the instrument has
+filed five times, and it has no way to tell the copies apart, so neither can
+anything else — until something makes one of them different again.
 
 That gives you a clean, table-fast ruling:
 
@@ -99,12 +109,57 @@ That gives you a clean, table-fast ruling:
 | **2** | Deterministic. In one, out the other, every time. A reliable shortcut. |
 | **3+** | Random. Roll among the other mouths. Nobody can predict it — **including the Ell**, because there is no difference for it to choose on. |
 
+**This is a rule about crossing a doorway, not a claim that the rooms on
+either side are secretly one fused space.** Nothing stops two different
+people from using two different members of the same set "at the same time,"
+in different parts of the dungeon — each crossing just resolves
+independently, the instant it happens. There's no shared-room paradox to
+worry about, because the rule never claims the space itself is unified —
+only the transit through it.
+
+**Sets are built small and local, never sprawling.** Every set you place
+links doorways that are genuinely close together on the true map underneath
+— never doors on opposite ends of the same depth, and never anything that
+would let a lucky or unlucky roll skip a meaningful chunk of intended
+content. A random 3+-set jump should feel disorienting, not like a shortcut
+past half a level.
+
+**Defacing is instant — exactly as fast as the Four Casses fight already
+plays it.** A deliberate strike, a bad miss that hits the frame, a shove
+into it: whatever the fiction calls for, it happens in the same instant as
+the action that caused it, no separate cost, no extra time. **The instant a
+doorframe leaves its set — defaced on purpose, or simply because the set
+has shrunk to one remaining member — it reverts immediately to its own true
+destination.** That's the whole answer to "where does a broken door go":
+exactly where it always really led, underneath the fold.
+
+**A party that defaces every fold-door in the Ell has earned the true map,
+in full.** That's not an exploit to close off — it's the intended payoff
+for a table patient enough to do it, the same way "TWO OF A THING IS ONE OF
+A THING" is meant to be understood eventually, not guessed at forever.
+Nothing artificial stops this; the only cost is the very real time and risk
+of physically finding and reaching every doorway that matters, which is
+substantial on its own in a place this size.
+
+**Crossing as a group locks in the destination for everyone in that same
+beat.** If several people cross together, one after another, the
+destination for all of them is fixed the instant the *first* person
+crosses — whatever the set's state was at that moment. An unrelated event
+damaging the doorway between the first and second person crossing can't
+retroactively strand the second half of the group somewhere else; that
+would be an invisible trap, not earned danger. The one exception: **a
+deliberate, telegraphed act** — an enemy visibly sabotaging the doorway
+mid-crossing, in a way the party can see and possibly stop — is allowed to
+actually split the group. That's a real threat the table can react to, not
+a rules accident.
+
 **So duplication is chaos and uniqueness is control**, which is the whole
 lesson of the adventure expressed in one table:
 
-- **Defacing** a doorframe removes it from the set. Cut a mark into three of a
-  five-set and you've turned a lottery into a reliable two-way shortcut. This
-  is the single most satisfying thing a clever party will do all campaign.
+- **Defacing** a doorframe removes it from the set, instantly, and restores
+  its true destination. Cut a mark into three of a five-set and you've
+  turned a lottery into a reliable two-way shortcut. This is the single
+  most satisfying thing a clever party will do all campaign.
 - **Copying** a mark *adds* to a set — useful for deliberately linking two
   distant rooms, dangerous if you copy something that already has cousins.
 - **A room the party has made unique is in no set at all**, which means it

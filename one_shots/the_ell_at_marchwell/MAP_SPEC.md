@@ -55,9 +55,12 @@ matters), and which set each doorway belongs to.
 and they can use it. Reward the bookkeeping — it's the hardest-won thing in the
 adventure.
 
-**Cutting a mark edits the catalogue.** Deface a frame and it leaves its set;
-copy a mark and it joins one. The party is not just reading the map, they are
-**writing to it**, which is the best thing a player can discover here.
+**Cutting a mark edits the catalogue.** Deface a frame — instantly, as part
+of whatever action does it — and it leaves its set, reverting immediately
+to its own real, fixed destination (the true map every fold-door secretly
+sits on top of the whole time). Copy a mark and it joins a set instead. The
+party is not just reading the map, they are **writing to it**, which is the
+best thing a player can discover here.
 
 **What they can't do** is derive a floorplan — distances and directions between
 rooms are meaningless, because two rooms joined by a twinned door aren't near
