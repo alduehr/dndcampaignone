@@ -104,6 +104,61 @@ a fair outcome of a clearly telegraphed risk.
 
 ---
 
+### 3. The Pirate Voyage (full sailing one-shot)
+
+**Premise:** The party crews, steals, or inherits a ship and has one voyage to
+reach a prize before a rival does. Sailing is the main mode of play, not the
+transport between scenes.
+
+**Engine:** The **ship is a character-sized resource** the whole party runs
+together. Wind, heading, speed, repairs, and morale are things players manage
+turn by turn; port, island, and boarding scenes are the payoff.
+
+**Where it sits in Orrun:** The south and west coasts have the right
+geography: the **Hollow Gulf Ports** (rival port city-states and licensed
+raiders), the **Wracking Isles / Far Wrack** (a far-west island chain), the
+**Calm Reach**, and the **Pale Sea**. Use the public regional files in
+`locations/vael/orrun/` and invent every port, ship, and captain (see the
+README's non-canon rules).
+
+**What makes it different:**
+- A **ship sheet** (hull, rigging, crew quality, morale, supplies, cargo)
+  built on plain 5e: ship AC and HP, crew as a pool, repairs as skill checks.
+  No new RPG system; it sits on top of 5e like the rest of the project.
+- **Stations** each round at sea: helm, rigging, lookout, gunnery,
+  damage control, boarding party. Every character has a real job, so six
+  players are never spectators.
+- A **wind and heading** mechanic (a small fixed table or a dial the DM turns)
+  that makes tacking, pursuit, and running aground into decisions.
+- A **sea map** with 6–8 named locations (a harbor, a reef, a storm band, a
+  smugglers' cove, a wreck, an island, the rival's anchorage) and 2–3 routes.
+- **Set-piece encounters:** a chase, a storm, a ship-to-ship fight ending in a
+  boarding action, a reef navigation puzzle, and a port scene with a social
+  problem.
+
+**Structure options:**
+- **A — The Race:** a rival crew heads for the same prize; each leg is a
+  decision about speed, risk, and supplies. Ends at an island dungeon and a
+  final boarding fight.
+- **B — The Mutiny:** the party is the crew of someone else's ship, and the
+  voyage is about who gets to run it by the end.
+- **C — The Hunt:** a famous prize ship (or a sea creature) is out there;
+  the party must find it, take it, and get away.
+- **D — The Treasure Map:** a clue-driven voyage across several islands.
+
+**Decisions to make before writing:**
+- Structure (A–D) and the prize.
+- Level and party size (assume 3–6, tuned for four unless told otherwise).
+- How crunchy the ship rules should be: a one-page sheet, or a full
+  chase-and-combat subsystem.
+- Real-time clock, abstract clock (days of supplies, turns of wind), or none.
+- Whether the party owns the ship or is hired onto it.
+- Tone: swashbuckling, grim, supernatural, or comic.
+
+**Tags:** ships, travel-as-play, boarding combat, sea map, crew roles, chase.
+
+---
+
 ## Considered earlier (not yet chosen)
 
 Short pitches from the brainstorming that led to *Highwater*. Any can be
