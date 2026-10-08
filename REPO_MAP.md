@@ -114,7 +114,7 @@ Every content file here is `secrecy: player-safe`. If you're writing new content
 
 ## `one_shots/` — Standalone Non-Canon Adventures
 
-Full detail lives in [`one_shots/README.md`](one_shots/README.md). Each one-shot is its own subfolder (currently `widdershin_cave/`, `the_ell_at_marchwell/`) with its own self-contained files (premise, characters, room tables, DM screen, map spec, rewards). Deliberately outside `dm.campaign.json`'s `contentRoot` and outside every campaign index — nothing here is pulled into a live campaign session or checked against `NAMING_REGISTRY.md`. Not addressed by canonical key; out of scope for the location-key scheme.
+Full detail lives in [`one_shots/README.md`](one_shots/README.md). Each one-shot is its own subfolder (currently `widdershin_cave/`, `the_ell_at_marchwell/`, `highwater/`) with its own self-contained files (premise, characters, room tables, DM screen, map spec, rewards). Deliberately outside `dm.campaign.json`'s `contentRoot` and outside every campaign index — nothing here is pulled into a live campaign session or checked against `NAMING_REGISTRY.md`. Not addressed by canonical key; out of scope for the location-key scheme.
 
 ---
 

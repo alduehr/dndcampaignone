@@ -41,6 +41,7 @@ disposable one-shot-only cast, exactly as before.
 |---|---|---|---|---|---|
 | [`widdershin_cave/WIDDERSHIN_CAVE.md`](widdershin_cave/WIDDERSHIN_CAVE.md) | 1–4 | **3–6, tuned for four** (full scaling: [`PARTY_AND_LEVEL_SCALING.md`](widdershin_cave/PARTY_AND_LEVEL_SCALING.md)) | ~3–3.5 hrs at 3–4 characters; **~4–4.5 hrs at 5–6** | A sea-cave on Orrun's Pale Coast | A drowned smuggler captain who cannot let go of the idol he died trying to return — puzzle the tides, brave the wreck, and choose whether to fight him or free him. |
 | [`the_ell_at_marchwell/THE_ELL_AT_MARCHWELL.md`](the_ell_at_marchwell/THE_ELL_AT_MARCHWELL.md) | **5 → 6** (milestone at the midpoint; scale by party size only) | **3–6, tuned for six** | **Four sessions**, 4–5 hrs each | A farmhouse in the Ashgarden Vale | A windowless pantry with one door has no room for what's behind it. Open that door and it's a corridor the house doesn't have. The party follows a fugitive clerk through it and has to find their way back out. |
+| [`highwater/HIGHWATER.md`](highwater/HIGHWATER.md) | **5** (milestone to 6 at the end) | **3–6, tuned for four** (scaling: [`PARTY_AND_LEVEL_SCALING.md`](highwater/PARTY_AND_LEVEL_SCALING.md)) | **~3.5 hrs: 20-min setup + a visible 3-hour real-time timer** (run from [`PACING_SHEET.md`](highwater/PACING_SHEET.md)) | A failing Concord-era dam above a Vale mill-village, on the Ammet headwaters | A dam is going to break in three hours — real hours. Fix the gate train, outwit a jammed spillway, and find the sealed second outlet before the water does. A multi-level maze with rising water that reshapes the map every half hour. |
 
 ### Session-zero pitch — *The Ell at Marchwell* (spoiler-free)
 
@@ -59,6 +60,22 @@ disposable one-shot-only cast, exactly as before.
 > Four sessions. Level five. Nothing you need to read beforehand.
 
 *Everything in `the_ell_at_marchwell/` beyond this pitch is DM-facing.*
+
+### Session-zero pitch — *Highwater* (spoiler-free)
+
+> It has rained for eleven days. The dam above Lowmill is the only thing
+> between four hundred people and the river, and the man who keeps it hasn't
+> come down in a week. The millwright says you have three hours.
+>
+> The plan is simple: get inside, reach the control gallery, open the
+> spillway gates. Anyone can pull a lever.
+>
+> We'll be running a real clock. Bring characters who can think on their feet,
+> swim, lift, and talk — and bring a reason to hurry.
+>
+> One session. Level five. Nothing you need to read beforehand.
+
+*Everything in `highwater/` beyond this pitch is DM-facing.*
 
 **Note on party size:** Widdershin Cave is a **party** adventure, not a solo
 one — the Zone 6 boss is unwinnable for a single character on the math. It
