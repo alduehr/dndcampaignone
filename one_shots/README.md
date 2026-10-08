@@ -77,6 +77,8 @@ disposable one-shot-only cast, exactly as before.
 
 *Everything in `highwater/` beyond this pitch is DM-facing.*
 
+**Future ideas:** see [`FUTURE_IDEAS.md`](FUTURE_IDEAS.md) for the backlog of planned and considered one-shots.
+
 **Note on party size:** Widdershin Cave is a **party** adventure, not a solo
 one — the Zone 6 boss is unwinnable for a single character on the math. It
 does not serve the solo `ai_solo_campaign/` use case; it's built for a real
