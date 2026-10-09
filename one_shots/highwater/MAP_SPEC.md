@@ -274,15 +274,15 @@ Overflow Channel**.
 |---|---|---|---|---|
 | S1 | **Valve Hall** | x 100–200, y 15–55 | 20 × 8 | Vaulted. **Pressure Board** on north wall (x 150–190, y 15–17): three plate-size brass gauges labeled I, II, III. **Sump pit** (circular, center (130, 30), r 13 → x 117–143, y 17–43) is the foot of the Central Shaft, black water; **stair foot** at its south-east rim (140, 40). **Silt heap** where the Spoil Chute lands at (190–198, 18–24). **Bell-pull** to the Control Gallery beside the Pressure Board (192, 16). |
 | S2 | **Gate 1 Chamber** ("Little") | x 55–100, y 15–55 | 9 × 8 | **Gate slab** in a slot at the north wall (x 70–85, y 15–18). **Hoist rack and hand-crank** on a platform 8 ft up at (90–96, 15–20). Discharge **grille** in the south wall (x 60–95, y 55). Door E to S1. |
-| S9 | **Gate 1 Outfall** | x 55–100, y 55–90 | 9 × 7 | Clear stone channel. Joins the **Tailrace West Branch** at its east wall (x 100, y 75–85). |
+| S9 | **Gate 1 Outfall** | x 55–100, y 55–90 | 9 × 7 | Clear stone channel with **its own open south mouth** (x 60–95, y 90) onto the dam toe. The **Tailrace West Branch** meets its east wall (x 100, y 75–85) through an **iron grate**, so Gate 1's water stays out of the Tailrace. |
 | S3 | **Gate 2 Chamber** ("Great") | x 200–240, y 15–55 | 8 × 8 | **Gate slab** in a wide slot at the north wall (x 210–230, y 15–18): 20 ft wide. **Flush leaf** (small sluice) at the slab's foot (x 216–224, y 18–20), held by a visible iron **shear pin**. **Hand-crank** on a platform 8 ft up at (232–238, 15–20). South wall = heavy fixed iron **grille** (x 205–235, y 55) onto S8 — water passes, people don't. **Stair** up 10 ft to the Alcove along the east wall (x 232–240, y 30–40). Door W to S1 (200, 33–37); door E to S5 at the stair head (240, 33–37). |
-| S8 | **Gate 2 Outfall** (the jam) | x 200–235, y 55–90 | 7 × 7 | **Mud slump** piled to the ceiling against the **east wall** and across the **south mouth**: the mud's edge runs diagonally from (235, 64) on the east wall to (200, 86) on the west wall; everything south-east of that line is mud. North-west of it is open channel with a low mud bank. Pale roots, a fence-post, a hayrick corner in the mud. **Diversion Mouth** (8-ft arched opening, iron shutter) in the east wall (x 235, y 72–80), **buried** under the mud. Opening on the west wall at (x 200, y 75–85) = **Tailrace East Branch**, just clear of the mud. |
+| S8 | **Gate 2 Outfall** (the jam) | x 200–235, y 55–90 | 7 × 7 | **Mud slump** piled to the ceiling against the **east wall** and across the **south mouth**: the mud's edge runs diagonally from (235, 64) on the east wall to (200, 86) on the west wall; everything south-east of that line is mud. North-west of it is open channel with a low mud bank. Pale roots, a fence-post, a hayrick corner in the mud. **South mouth** (x 200–235, y 90) **plugged** by the mud. **Diversion Mouth** (8-ft arched opening, iron shutter) in the east wall (x 235, y 72–80), **buried** under the mud. Opening on the west wall at (x 200, y 75–85) = **Tailrace East Branch**, just clear of the mud. |
 | S5 | **Alcove** | x 240–255, y 25–45 | 3 × 4 | Stone antechamber, floor **10 ft above** the Sluice floor (level with the Gate 3 shelf). Cold draft; sweating wall. **Old Overflow Door** in the south wall at (x 244–250, y 45): thick iron, barred from the other side. |
 | S6 | **Overflow Passage** | x 244–250, y 45–55 | 1 × 2 | 5 ft wide, 10 ft long, a **ramp** dropping 10 ft to the Cache floor at its north wall (x 244–250, y 55). |
 | S4 | **Gate 3 Chamber** ("Still") | x 255–290, y 15–55 | 7 × 8 | **Raised gallery shelf** (10 ft up, 10 ft wide) along the west wall (x 255–265) and north wall (y 15–25). **Ladder from G7** lands on the shelf's NW corner at (258, 18). **Gate slab** at north wall (x 268–280, y 15–18). **Hand-crank** on the north shelf at (282–288, 15–22). Discharge **floor grille** along the south wall (x 262–282, y 48–55) dropping into a **stone race** that runs under the Cache floor and exits at the dam toe (off-map, SE). Iron rungs up to the shelf in the SW corner (256, 52). Door W to S5 at (255, 33–37) — shelf level. |
 | S7 | **Smugglers' Cache** | x 235–290, y 55–90 | 11 × 7 | Long vault, cold. **Bale clusters** (cover): (245–255, 60–68), (250–262, 80–88), (240–246, 70–78). **Barrel of lamp oil** at (265, 62). **Rope-and-plank gantry** (15 ft up) at the east end: x 270–288, y 66–84, **ladder** at (268, 75). **Great Wheel** (6 ft diameter) on the gantry at (282, 75). **Weir-Gate** (huge iron door) across the **Overflow Channel** mouth in the east wall (x 290, y 70–80). **Diversion Mouth shutter** on the west wall (x 235, y 72–80). **Cable run** under the floor along y 76 from (238, 76) to (282, 75). Door N at (244–250, 55) from S6. |
 | — | **Overflow Channel** | from (290, 70–80) east to the canvas edge (x 300), then SE (off-map) | — | A 10-ft-wide, 12-ft-high tunnel that runs about a quarter mile to the abandoned **Old Quarry** basin. Draw a few feet and an arrow labeled "to Old Quarry (¼ mi)". |
-| S10 | **Tailrace Tunnel** | x 145–155, y 55–90, then daylight x 140–160, y 90–120 | 2 × 7 | 10 ft wide, 8 ft ceiling, runs **south** from S1's south wall (x 145–155, y 55). **West Branch** x 100–145, y 75–85 → S9. **East Branch** x 155–200, y 75–85 → S8. Daylight mouth at the bottom (y 120), open to the beck. |
+| S10 | **Tailrace Tunnel** | x 145–155, y 55–90, then daylight x 140–160, y 90–120 | 2 × 7 | The Valve Hall's drain and the inspection route to both outfalls. 10 ft wide, 8 ft ceiling, runs **south** from S1's south wall (x 145–155, y 55). **West Branch** x 100–145, y 75–85 → S9. **East Branch** x 155–200, y 75–85 → S8. Daylight mouth at the bottom (y 120), open to the beck. |
 
 ### 4.2 Doors and openings (Sluice)
 
@@ -300,7 +300,7 @@ Overflow Channel**.
 | S4 → race | (262–282, 48–55) | floor grille into stone race under S7 | discharge only; no passage |
 | S8 ↔ S7 | (235, 72–80) | Diversion Mouth, shuttered | closed; buried by mud |
 | S7 → Channel | (290, 70–80) | Weir-Gate | closed |
-| S10 ↔ S9 | (100, 75–85) | arch | open |
+| S10 ↔ S9 | (100, 75–85) | iron grate | locked (the Keeper's Key fits; DC 13 thieves' tools); water passes slowly |
 | S10 ↔ S8 | (200, 75–85) | arch | open |
 | S1 ← G4 | (190–198, 18–24) | chute landing | one-way |
 | S4 ← G7 | (258, 18) | ladder landing | one-way up/down by ladder |
@@ -327,6 +327,8 @@ rects:
   tailrace_west:     {x: [100,145], y: [75,85]}
   tailrace_east:     {x: [155,200], y: [75,85]}
   tailrace_mouth:    {x: [140,160], y: [90,120]}
+  S9_south_mouth:    {x: [60,95], y: [90,90], open: true}
+  S8_south_mouth:    {x: [200,235], y: [90,90], plugged_by_mud: true}
 circles:
   sump: {center: [130,30], r: 13}
 features:
@@ -364,7 +366,7 @@ doors:
   - {S5-S4: [255,35], level: shelf}
   - {S5-S6: [247,45], kind: "Old Overflow Door", state: barred_inside}
   - {S6-S7: [247,55]}
-  - {S10-S9: [100,80]}
+  - {S10-S9: [100,80], kind: iron_grate, state: locked}
   - {S10-S8: [200,80]}
 ```
 
@@ -400,8 +402,8 @@ table can "step" through the dam failing.
 | **1** | 2:30 | Light water (knee): **S9**, **tailrace west branch**. Cistern **G2** full to the lip. |
 | **2** | 2:00 | **Collapse** hatch at G11 x 85–108. Light water (ankle): S1 floor, S2, S3. |
 | **3** | 1:30 | **Tailrace S10, S8, S9 fully flooded** (dark). **S1 knee-deep** (light). Shaft sump rises to the bottom of the stair. |
-| **4** | 1:00 | **S1 chest-deep** (mid). S2, S3 waist-deep. **S7 Cache floor ankle-deep** (knee-deep if Gate 3 has run). **G2, G3 ankle-deep.** Gate 3 Chamber floor flooded; **shelf and Alcove dry**. Lower 30 ft of the Shaft = whirlpool. |
-| **5** | 0:30 | **Entire Sluice Level flooded** (dark) except the **Gate 3 shelf**, the **Cache gantry**, and the **Alcove**; the Cache floor is waist-deep. Gallery floors ankle-deep. **Water over the Spill Notch** (C1); Crest Walk ankle-deep with a current toward the south parapet. |
+| **4** | 1:00 | **S1 chest-deep** (mid). S2, S3 waist-deep. **S7 Cache floor ankle-deep** (knee-deep if Gate 3 has run; dry once the Weir-Gate is open — it drains down the channel). **G2, G3 ankle-deep.** Gate 3 Chamber floor flooded; **shelf and Alcove dry**. Lower 30 ft of the Shaft = whirlpool. |
+| **5** | 0:30 | **Entire Sluice Level flooded** (dark) except the **Gate 3 shelf**, the **Cache gantry**, and the **Alcove**; the Cache floor is waist-deep (dry if the Weir-Gate is open). Gallery floors ankle-deep. **Water over the Spill Notch** (C1); Crest Walk ankle-deep with a current toward the south parapet. |
 | **6** | 0:00 | Failure: draw a **crack** across the crest at the Spill Notch and a dark arrow of water down the valley toward Lowmill. |
 
 ---
@@ -555,7 +557,7 @@ that).
 > rope-and-plank **gantry** at the east end holding a **huge spoked wheel**,
 > and a massive **iron door** in the east wall labeled "to Old Quarry (¼
 > mi)". A tunnel runs **south** from the Valve Hall to a daylight mouth at the
-> bottom of the page, with a **west branch** to the Gate 1 Outfall and an
+> bottom of the page, with a **west branch** ending at an iron grate into the Gate 1 Outfall (which has its own open mouth to the south) and an
 > **east branch** to the Gate 2 Outfall. Label every room by name; label the
 > Old Overflow Door, the Great Wheel, the Weir-Gate and the Mud Slump.
 

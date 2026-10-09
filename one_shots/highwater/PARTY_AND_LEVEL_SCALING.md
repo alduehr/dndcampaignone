@@ -64,7 +64,7 @@ the difficulty):
 |---|---|---|---|---|---|
 | E1 | 1,100 | 1,500 | 1,900 | 2,300 | Low |
 | E2 | 1,000 | 1,200 | 1,400 | 1,600 | Low |
-| E3 | 900 | 1,000 | 1,200 | 1,400 | Low |
+| E3 | 650 | 750 | 950 | 1,150 | Low |
 | E4 | 900 | 1,100 | 1,500 | 2,000 | Low |
 | E5 | 400 | 600 | 800 | 1,000 | Low (played as Moderate underwater) |
 | E6 | 2,450 | 2,750 | 3,500 | 4,000 | Moderate |
@@ -77,8 +77,8 @@ the difficulty):
 | Boss | Size 3 | **Size 4** | Size 5 | Size 6 |
 |---|---|---|---|---|
 | **Old Snapper** (E1) | HP 50; one grapple at a time | **HP 68; two grapples** | HP 85 | HP 100; Crush is 3d6 |
-| **Pelham Greaves** (E2) | HP 60; no Parry | **HP 78; Parry** | HP 90 | HP 100 |
-| **Sull Varrow** (E6) | HP 85; two longsword attacks; no Parry | **HP 110; three attacks; Parry** | HP 130; Rallying Call also grants 5 temp HP | HP 150; Rallying Call reaches **two** allies |
+| **Pelham Greaves** (E2) | HP 70; no Parry | **HP 90; Parry** | HP 100 | HP 110 |
+| **Sull Varrow** (E6) | HP 100; two longsword attacks; no Parry | **HP 130; three attacks; Parry; Dirty Fighting** | HP 150; Rallying Call also grants 5 temp HP | HP 170; Rallying Call reaches **two** allies |
 | **Silt elemental** (E7) | HP 120; Engulf recharge **6** only; at most 1 silt-spawn split | **HP 152; Engulf 5–6; at most 2 splits** | HP 180 (≈ CR 8); at most 3 splits; gains **Tidal Shove** (bonus action: one creature within 10 ft, DC 16 Str save or pushed 10 ft toward the upstream parapet) | HP 210 (≈ CR 9); at most 4 splits; Tidal Shove; **Legendary Resistance (1/day)** |
 
 **The elemental's Draining is the same at every size:** −15 HP at the end of

@@ -59,7 +59,7 @@ opens; the finale and epilogue run untimed. **Book about four hours.**
 
 1. **Lowmill (≈20 min, untimed)** — meet the millwife, the millwright, and the
    problem; learn the plan; leave for the dam. *Start the timer when the party
-   crosses the Crest threshold.*
+   reaches the road's end at the dam.*
 2. **The Crest and the Gallery (≈45 min of timer)** — a slick, rain-soaked
    crest, a flooded shaft, an inspection-gallery maze, and the discovery that
    the levers are dead and the plan is wrong.
@@ -192,9 +192,17 @@ never fit in ten. The frozen reading decides the outcome:
 **Exception — Gate 2 into a blocked outfall.** If Gate 2 opens while *both*
 its exits are blocked (the Diversion Mouth still buried or shut, *and* the
 main plug still in place), the water has nowhere to go: a **Water Hammer**
-(see *Gate Mechanics*), the Great Gate's leaf jams half-open, and **no
-Draw-Down starts. Don't stop the timer.** The Draw-Down starts — and the timer
-stops — the moment either exit is cleared.
+(see *Gate Mechanics*), the Great Gate's leaf jams half-open, the Outfall
+fills to the ceiling under pressure (nobody can go in or dig there now), and
+**no Draw-Down starts. Don't stop the timer.** Then one of two things happens
+first:
+- **The party opens the channel** — Great Wheel turned *and* the shutter
+  open. The pressure blows the mud out through the Diversion Mouth at once;
+  the water goes to the quarry; stop the timer then. **Anyone in the Cache
+  when the shutter opens is swept into the channel** (Varrow knows this).
+- **10 minutes of effective time pass** (or the next Mark, if sooner). The
+  main plug blows out of the south mouth on its own; the water goes down the
+  valley; stop the timer then.
 
 ### Resting and spending time
 
@@ -272,8 +280,9 @@ signal the flats should run for high ground.
 
 **Scene 3 — The road up (≈5 min).** A two-mile, rain-slick track along the
 Brindle. The roar gets louder. At the top the road ends at the dam's west
-abutment. Hand the party the **Gauge** handout. Say aloud: *"When you step
-onto the Crest, the clock starts."*
+abutment, at the Keeper's House door. Maren stays here with the horses. Hand
+the party the **Gauge** handout. Say aloud: *"The road ends here. The clock
+starts now."*
 
 > *Start the timer.*
 
@@ -498,7 +507,8 @@ And, in a corner, in the Keeper's neater hand:
 > *"Old channel — alcove past the Great Gate — door sealed — wheel inside —
 > Varrow's lot hold the far side."*
 
-**This is the moment the table learns the plan is wrong.** Read it plainly;
+**This is the moment the table learns the plan is wrong** — or, if they freed
+Ivo and listened, the moment they see it in his own hand. Read it plainly;
 don't hint.
 
 **Clue paths for the channel's existence and location** (three required):
@@ -742,12 +752,17 @@ round or swept 10 ft toward the pit). At Mark 5 it's fully flooded.
 A 45×40-ft chamber holding the **Little Gate**: a vertical iron slab in a
 masonry slot. A hoist-rack and hand-crank are on the north wall. The gate's
 discharge drops through a grille into the **Gate 1 Outfall (S9)**, a clear
-channel south of the chamber leading into the Tailrace West Branch.
+channel south of the chamber with **its own mouth** at the dam toe. A short
+inspection passage, the **Tailrace West Branch**, links S9 to the Tailrace;
+an iron grate across its west end keeps Gate 1's water out of the Tailrace.
 
 - **Gate 1 is clear and works normally** once the Master Gear is installed.
 - **Hand-crank:** on a hoist platform 8 ft up the north wall; usable until
   Mark 5. See *Gate Mechanics*, below.
 - **Mark 1:** the outfall floods to the knee. **Mark 3:** to the ceiling.
+- **Once Gate 1 is running,** S9 is a millrace: anyone who goes in is swept
+  out of its mouth onto the dam toe (DC 15 Strength save or 4d6
+  bludgeoning, half on a success). Nobody needs to go in.
 
 #### S3 — Gate 2 Chamber and S8 — Gate 2 Outfall (The Jam)
 
@@ -801,9 +816,12 @@ are **three ways at it**:
   through the grille and **scours the whole Outfall clean in 3 rounds** —
   both the Diversion Mouth and the main plug. Anyone in S3 or S8 when it
   blows makes a **DC 15 Strength save** or is swept for **3d10
-  bludgeoning** (half on a success) and ends prone at the far end of the
-  Tailrace. It can be shot from the Valve Hall doorway or from the raised
-  Alcove, which is the smart way. Afterwards S3 is **waist-deep for the rest
+  bludgeoning** (half on a success) and is washed out of the Outfall's south
+  mouth onto the dam toe, prone, a long walk from anywhere. **If the
+  Diversion shutter is already open,** the blast also goes through the Cache
+  — anyone inside is swept the same way, into the channel. It can be shot
+  from the Valve Hall doorway or from the raised Alcove, which is the smart
+  way. Afterwards S3 is **waist-deep for the rest
   of the adventure** and the Gate 2 hand-crank is unusable (the lever still
   works). **The surge counts as Gate 2 opening for the Order Rule** (below):
   smooth only if Gates 1 and 3 are already running. It does *not* start the
@@ -926,7 +944,9 @@ cable run was cut in a fight:** the wheel still opens the Weir-Gate, but the
 Diversion Mouth's shutter must be levered open by hand from inside the Cache
 (**3 successes, DC 14 Athletics**, costs 5 minutes).
 
-Turning the wheel is safe: nothing flows until Gate 2 opens.
+Turning the wheel is safe: nothing flows until Gate 2 opens. (A bonus: any
+water standing on the Cache floor drains away down the channel within a
+minute — ignore the Cache depths in the Mark table from then on.)
 
 When the wheel completes its turn, a roar of cold air rushes out of the
 channel and the Weir-Gate grinds open. **The channel is open. Gate 2's
@@ -993,7 +1013,7 @@ levers lock once thrown.
 |---|---|---|
 | **Weir-Gate open and Diversion Mouth clear** (whether or not the main plug is cleared — the channel is the easy path) | Into the Old Channel and the quarry | **2 ft** — "The Town Lives" / "Bruised" |
 | Channel unusable (Weir shut **or** Mouth buried) but **main plug clear** | Down the valley | **8 ft** — "Drowned" / "Cost in Lives" |
-| **Neither** exit clear | Nowhere: **Water Hammer**, leaf jams half-open, no Draw-Down | Nothing yet — keep the timer running until an exit is cleared |
+| **Neither** exit clear | Nowhere: **Water Hammer**, leaf jams half-open, no Draw-Down | Nothing yet — see *Exception — Gate 2 into a blocked outfall* under *The Clock* (the party has 10 minutes to open the channel before the plug blows down the valley) |
 
 So the Weir-Gate and the Diversion Mouth **both** have to be ready before
 Gate 2 opens for the good ending.
@@ -1090,13 +1110,13 @@ at or below half HP.
 | **Old Snapper** (matriarch) | 3 (700) | Giant-crab-like, Large | 16 | 68 | 30, swim 40 | **Multiattack:** two claws, +6, 2d6+4 bludgeoning; grapple (escape DC 14), two targets at once. **Crush** (bonus action): one creature it is grappling takes 2d6 bludgeoning. *Amphibious.* *Blindsight 30 ft.* STR 18 (+4) DEX 10 (+0) CON 16 (+3). |
 | **Smuggler thug** | ½ (100) | Thug-like | 11 | 32 | 30 | **Multiattack:** two maces, +4, 1d6+2 bludgeoning. *Pack Tactics.* |
 | **Smuggler cutter** | ½ (100) | Scout-like | 13 | 16 | 30 | **Multiattack:** two longbow shots, +4, 1d8+2 piercing (or two shortswords, +4, 1d6+2). *Keen Hearing and Sight.* |
-| **Pelham Greaves** (hand-boss) | 3 (700) | Bandit-captain-like, heavy hitter | 15 | 78 | 30 | **Multiattack:** two maul attacks, +6, 2d6+4 bludgeoning. **Parry** (reaction): +2 AC against one melee attack he can see. **Rattled:** whenever the dam groans, DC 12 Wis save or he spends his next turn moving toward the Spoil Chute. STR 18 (+4) DEX 12 (+1) CON 15 (+2) INT 10 WIS 11 CHA 12. |
+| **Pelham Greaves** (hand-boss) | 3 (700) | Bandit-captain-like, heavy hitter | 15 | 90 | 30 | **Multiattack:** two maul attacks, +6, 2d6+4 bludgeoning. **Parry** (reaction): +2 AC against one melee attack he can see. **Rattled:** whenever the dam groans, DC 12 Wis save or he spends his next turn moving toward the Spoil Chute. STR 18 (+4) DEX 12 (+1) CON 15 (+2) INT 10 WIS 11 CHA 12. |
 | **Ore-borer** | ½ (100) | Rust-monster-like | 14 | 27 | 40 | **Bite** +3, 1d8+1 piercing. **Antennae:** touches a nonmagical metal object; worn armor takes −1 AC (cumulative; at −3 it's ruined), a held weapon −1 damage. **Rust Metal:** a nonmagical metal weapon that hits it takes −1 to damage rolls (cumulative; at −5 it's destroyed). *Iron Scent* (smells metal within 30 ft). |
-| **Mother ore-borer** | 3 (700) | Rust-monster-like, Large | 15 | 65 | 40 | **Multiattack:** bite +5, 2d8+3 piercing, and **Antennae** twice. **Gear-Hunger** (bonus action): moves up to half its speed toward the nearest iron object without provoking. Otherwise as ore-borer. |
+| **Mother ore-borer** | 2 (450) | Rust-monster-like, Large | 15 | 65 | 40 | **Multiattack:** bite +5, 2d8+3 piercing, and **Antennae** twice. **Gear-Hunger** (bonus action): moves up to half its speed toward the nearest iron object without provoking. Otherwise as ore-borer. |
 | **Water weird** | 3 (700) | Water-weird-like | 13 | 58 | 0, swim 60 | **Constrict** +5, reach 10 ft, 3d6+3 bludgeoning; grappled (escape DC 13) and pulled 5 ft toward the water; while grappled the target is restrained and, if pulled under, can't breathe. *Invisible in Water.* *Water Bound* (can't leave its pool). Resists fire and nonmagical bludgeoning, piercing, slashing; immune poison. *Freeze:* after taking cold damage its speed is 0 until the end of its next turn. |
 | **Quipper swarm** | 1 (200) | Swarm-of-quippers-like | 13 | 28 | swim 40 | **Bites** +5, 3d6 piercing (1d6 if the swarm is bloodied). *Blood Frenzy* (advantage against creatures below max HP). *Swarm.* *Water Breathing only.* |
 | **Giant pike** | 1 (200) | Reef-shark-like, river | 13 | 34 | swim 50 | **Bite** +5, 2d6+3 piercing. **Lunge from the murk:** advantage on its first attack each combat. *Water Breathing only.* |
-| **Sull Varrow** | 5 (1,800) | Veteran-like, captain | 17 | 110 | 30 | **Multiattack:** three longsword attacks, +7, 1d8+4 slashing; or two light-crossbow shots, +5, 1d8+2. **Rallying Call** (bonus action): one ally within 30 ft that can hear him adds 1d4 to its next attack roll or save. **Parry** (reaction): +3 AC against one melee attack. Saves Str +6, Con +5, Wis +4. STR 18 (+4) DEX 12 (+1) CON 15 (+2) INT 12 (+1) WIS 13 (+1) CHA 15 (+2). |
+| **Sull Varrow** | 5 (1,800) | Veteran-like, captain | 17 | 130 | 30 | **Multiattack:** three longsword attacks, +7, 1d8+4 slashing; or two light-crossbow shots, +5, 1d8+2. **Dirty Fighting:** once per turn, +2d6 damage to a target that one of his allies is within 5 ft of. **Rallying Call** (bonus action): one ally within 30 ft that can hear him adds 1d4 to its next attack roll or save. **Parry** (reaction): +3 AC against one melee attack. Saves Str +6, Con +5, Wis +4. STR 18 (+4) DEX 12 (+1) CON 15 (+2) INT 12 (+1) WIS 13 (+1) CHA 15 (+2). |
 | **Dunna Stoke** | 2 (450) | Scout-like, expert | 15 | 45 | 30 | **Multiattack:** two longbow shots, +6, 1d8+4 piercing. *No disadvantage at long range.* *Keen Sight.* |
 | **Corrin Bale** | 0 (0) | Commoner | 10 | 8 | 30 | Noncombatant. |
 | **Silt-spawn** | 1 (200) | Mud-mephit-like | 12 | 30 | 30, swim 30 | **Slam** +5, 2d6+3 bludgeoning. *Death Burst:* the 10-ft square where it dies becomes difficult terrain. |
@@ -1110,7 +1130,7 @@ Low 2,000 / Moderate 3,000 / High 4,400):
 |---|---|---|---|---|
 | **E1 Crest** | 4 mere-claws + the Old Snapper | 1,500 | Low (terrain and grapple-drag add weight) | Effectively yes (Stealth bypass DC 14) |
 | **E2 Gear Hall** | Greaves, 3 thugs, 2 cutters | 1,200 | Low (and negotiable) | No |
-| **E3 Forge** | mother + 3 ore-borers | 1,000 | Low (the gear clock is the real threat) | Yes, unless Speak with Animals or smoke |
+| **E3 Forge** | mother + 3 ore-borers | 750 | Low (the gear clock and the corrosion are the real threat) | Yes, unless Speak with Animals or smoke |
 | **E4 Shaft** | water weird + 2 quipper swarms | 1,100 | Low (optional route) | No |
 | **E5 Tailrace** | 3 giant pike, in the water | 600 | Low, played as Moderate (underwater penalties) | Only via route 1 of the Mud Jam |
 | **E6 Cache** | Varrow, Stoke, 3 thugs, 2 cutters | 2,750 | Moderate (negotiable) | No |
@@ -1118,7 +1138,7 @@ Low 2,000 / Moderate 3,000 / High 4,400):
 
 **Why most fights sit at Low:** there is no long rest, the clock makes even
 one short rest expensive, and every fight also spends minutes. A party that
-fights everything spends ≈ 11,000 XP of encounters in about two and a half
+fights everything spends ≈ 10,750 XP of encounters in about two and a half
 hours on one or two short rests — a full, hard adventuring day. A party that
 talks its way past E2 and E6 has an easier time with monsters and a harder
 time with the clock. Both are working as intended.

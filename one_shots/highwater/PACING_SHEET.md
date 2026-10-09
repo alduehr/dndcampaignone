@@ -22,7 +22,7 @@ levers that speed up or slow down the table, and the Gauge handout.
       Diversion Mouth clear ☐ main plug clear ☐ Gate 2 ☐, beacon ☐,
       stoplogs ☐, early-gates bonus ☐, Ivo's location ____.
 - [ ] Run the **20-minute Lowmill setup** first. **Start the timer when the
-      party steps onto the Crest.**
+      party reaches the road's end at the dam** (the Keeper's House door).
 
 ---
 
@@ -71,7 +71,10 @@ valley floods). **Hits 0:00** = the Breach (§8).
 **Where the water goes.** When Gate 2 opens: Weir-Gate open *and* Diversion
 Mouth clear → the channel (good ending). Otherwise, main plug clear → down the
 valley (bad ending). **Neither exit clear → Water Hammer, the leaf jams, no
-Draw-Down: don't stop the timer** until an exit is cleared.
+Draw-Down: don't stop the timer.** The party has 10 minutes of effective time
+to open the channel (wheel + shutter; the pressure clears the mud, and
+anyone in the Cache is swept); otherwise the plug blows down the valley on
+its own. Stop the timer when either happens.
 
 ---
 
@@ -83,7 +86,7 @@ how far off they can drift before you pull a lever (§5).
 
 | # | Milestone | Target | Slack | Notes |
 |---|---|---|---|---|
-| M0 | **Timer starts**; party on the Crest | **3:00** | — | Announce the clock; hand over the Gauge. |
+| M0 | **Timer starts**; party at the road's end | **3:00** | — | Announce the clock; hand over the Gauge. |
 | M1 | **E1 resolved**; Ivo found (or skipped); party inside | **2:40** | ±10 | If E1 is still running at 2:35, the crayfish break and dive. |
 | M2 | **Control Gallery**; Flood Chart read; plan reformed | **2:30** | ±10 | *Mark 1.* Read the chart aloud, plainly. |
 | M3 | **Gear Hall (E2)** resolved | **2:15** | ±10 | Talking is ~5 minutes; fighting ~12. |
@@ -250,7 +253,7 @@ If effective time hits **0:00** and Gate 2 is not open:
 
 ```
 HIGHWATER — DM CARD
-Timer 3:00:00, starts on the Crest. EFFECTIVE TIME = TIMER − TALLY.
+Timer 3:00:00, starts at the road's end. EFFECTIVE TIME = TIMER − TALLY.
 Marks (effective): 2:30 S-west floods | 2:00 corridor collapse
                    1:30 Tailrace floods | 1:00 Valve Hall chest-deep
                    0:30 over the Notch  | 0:00 BREACH
@@ -258,7 +261,8 @@ Deadline: Gate 2 open with 0:10+. STOP THE TIMER when it opens.
   0:01-0:09 = Notch tears (dam holds, valley floods).
 Gate order 1 -> 3 -> 2 ("Little, Still, Great").
 Good ending needs Weir-Gate open AND Diversion Mouth dug out BEFORE Gate 2.
-Gate 2 with both exits blocked = Water Hammer, no Draw-Down, timer runs on.
+Gate 2 with both exits blocked = Water Hammer, no Draw-Down, timer runs;
+  10 min to open the channel, else the plug blows down the valley.
 Bonuses: Gates 1+3 early -10 (floods the Cache floor). Stoplogs -15.
 Costs: short rest 15 | wrong order 10/20 | failed install/mud 5 | wheel 3
 Knock: three, then one.  Gear: 24 T (cage key in Ivo's cabinet).
