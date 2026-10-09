@@ -18,8 +18,9 @@ levers that speed up or slow down the table, and the Gauge handout.
 - [ ] Map handout: the **player-safe sketch** from `MAP_SPEC.md` §8.5.
 - [ ] Your DM maps: Crest, Gallery, Sluice (`MAP_SPEC.md` §§2–4).
 - [ ] Scaling row chosen (`PARTY_AND_LEVEL_SCALING.md`).
-- [ ] Scratch paper for the **gate state**: Gate 1 ☐ Gate 3 ☐ Weir ☐ Gate 2 ☐,
-      beacon ☐, stoplogs ☐, early-gates bonus ☐.
+- [ ] Scratch paper for the **gate state**: Gate 1 ☐ Gate 3 ☐ Weir-Gate ☐
+      Diversion Mouth clear ☐ main plug clear ☐ Gate 2 ☐, beacon ☐,
+      stoplogs ☐, early-gates bonus ☐, Ivo's location ____.
 - [ ] Run the **20-minute Lowmill setup** first. **Start the timer when the
       party steps onto the Crest.**
 
@@ -65,7 +66,12 @@ already paid for by the timer — never charge twice. The full list is §6.
 left. **When Gate 2 opens, stop the timer** and write down the effective time.
 The finale is played in rounds; the frozen reading decides the outcome and
 tunes the finale (§5). **0:01–0:09** = the Notch tears (the dam holds but the
-valley floods). **Hits 0:00** = the Breach (§7).
+valley floods). **Hits 0:00** = the Breach (§8).
+
+**Where the water goes.** When Gate 2 opens: Weir-Gate open *and* Diversion
+Mouth clear → the channel (good ending). Otherwise, main plug clear → down the
+valley (bad ending). **Neither exit clear → Water Hammer, the leaf jams, no
+Draw-Down: don't stop the timer** until an exit is cleared.
 
 ---
 
@@ -183,7 +189,7 @@ Pull these, **in order**:
 | Route | Risk |
 |---|---|
 | Spoil Chute (G4 → S1) | DC 12 Acrobatics or 2d6; one-way |
-| Shaft stair below the Gallery | Water weird (E4); 4d6 fall |
+| Shaft stair below the Gallery | Water weird (E4); a fall into the sump is 5d6 (2d6 after Mark 3) |
 | East Face Ledge (fall from the parapet) | 3d6; lands at the East Stair |
 | The Flush | DC 15 Str save or 3d10 for anyone in S3/S8; counts as Gate 2 for the Order Rule (smooth only if Gates 1 and 3 are running) |
 
@@ -218,11 +224,11 @@ If effective time hits **0:00** and Gate 2 is not open:
 2. **Run five rounds of escape.** Each character on the Sluice Level needs
    two DC 13 Athletics checks to reach a stair; on the Gallery, one; on the
    Crest, none — they run for an abutment. A character who fails twice is
-   swept out of the dam (6d10 bludgeoning, DC 15 Con save for half) and
-   fetches up alive but broken on a hillside a mile down the valley, unless
-   that damage drops them to 0, in which case they make death saves as
-   normal and a companion has one round to reach them. The beacon can still
-   be lit in this time.
+   swept out of the dam (6d10 bludgeoning, DC 15 Con save for half). If that
+   drops them to 0, they don't make death saves: the river throws them up on
+   the hillside below the dam, unconscious and stable at 0 HP, and the party
+   finds them in the epilogue. Nobody dies to this roll; the cost is the
+   town. The beacon can still be lit in these five rounds.
 3. **Narrate the wave.** Lowmill is destroyed. If the beacon was lit, most of
    the people live; if not, few do.
 4. **Epilogue.** Run the Breach outcome from the main file. This is an
@@ -250,7 +256,9 @@ Marks (effective): 2:30 S-west floods | 2:00 corridor collapse
                    0:30 over the Notch  | 0:00 BREACH
 Deadline: Gate 2 open with 0:10+. STOP THE TIMER when it opens.
   0:01-0:09 = Notch tears (dam holds, valley floods).
-Gate order 1 -> 3 -> 2 ("Little, Still, Great"). Weir BEFORE Gate 2.
+Gate order 1 -> 3 -> 2 ("Little, Still, Great").
+Good ending needs Weir-Gate open AND Diversion Mouth dug out BEFORE Gate 2.
+Gate 2 with both exits blocked = Water Hammer, no Draw-Down, timer runs on.
 Bonuses: Gates 1+3 early -10 (floods the Cache floor). Stoplogs -15.
 Costs: short rest 15 | wrong order 10/20 | failed install/mud 5 | wheel 3
 Knock: three, then one.  Gear: 24 T (cage key in Ivo's cabinet).

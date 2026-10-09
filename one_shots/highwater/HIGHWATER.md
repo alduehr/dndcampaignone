@@ -94,7 +94,7 @@ public flavor of the northwestern frontier:
   here means only *old, solid, and a little too big for the people living
   under it* — which is how the Vale thinks about every Concord work.
 - **The Tollwood** supplies the rain, the timber, and the spirit of the
-  place: dark, close, and wet. Smugglers move untaxed timber and cider-spirit
+  place: dark, close, and wet. Smugglers move untaxed wool and cider-spirit
   through the quarry because the Compact's road-watch is thin and the Vale's
   moots are slow.
 - **The dead-time** (the Vale's funeral season) is just ending. The mood is
@@ -115,7 +115,7 @@ All disposable, all invented for this module.
 | **Odo Fenn** | Millwright; the dam's engineer of record | Lowmill | Anxious, exact, speaks in numbers. Gave the three-hour estimate and hates that he's probably right. |
 | **Reeve Hobb Tenner** | Lowmill's reeve | Lowmill | Tired, honest, rings the bell. Never appears again. |
 | **Warden Ivo Crask** | The dam-keeper, sixty | Keeper's cellar (C3) | Locked up for a week. Proud, thin, furious, and the only person who knows the whole building. Terse. |
-| **Sull Varrow** | Smuggler master | The Cache (S7) | Fifty, dry, a practical man who sealed a door once and has regretted it for two weeks. |
+| **Sull Varrow** | Smuggler master | The Cache (S7) | Fifty, dry, a practical man who barred a door and broke a dam's gears to save a vault of wool, and has regretted it every hour since. |
 | **Pelham Greaves** | Varrow's hand-boss | Gear Hall (G4) | Loud, scared, the man who swung the maul. Wants to run. |
 | **Dunna Stoke** | Varrow's best bow | The Cache | Quiet, accurate, listens to Varrow and nobody else. |
 | **Corrin Bale** | Youngest of the crew | Roams (see *Corrin Bale*, below) | Nineteen. Wants out. Will point the way for a promise. |
@@ -189,6 +189,13 @@ never fit in ten. The frozen reading decides the outcome:
 | **0:01 – 0:09** | **The Notch tears.** The dam holds, but the Spill Notch rips out as the Mere falls: a wall of water goes down the valley *whatever the Weir-Gate did*. Play E7, then use the "Town Drowned" or "Cost in Lives" outcome (the beacon decides). |
 | **Never (effective time hits 0:00)** | **The Breach.** See *Failure*. |
 
+**Exception — Gate 2 into a blocked outfall.** If Gate 2 opens while *both*
+its exits are blocked (the Diversion Mouth still buried or shut, *and* the
+main plug still in place), the water has nowhere to go: a **Water Hammer**
+(see *Gate Mechanics*), the Great Gate's leaf jams half-open, and **no
+Draw-Down starts. Don't stop the timer.** The Draw-Down starts — and the timer
+stops — the moment either exit is cleared.
+
 ### Resting and spending time
 
 - **Short rest:** costs **15 minutes** (Penalty Tally). Hit Dice and
@@ -201,8 +208,8 @@ never fit in ten. The frozen reading decides the outcome:
   Stone Shape, Mending, Knock, Misty Step, Fly, Gaseous Form, and a few
   others skip a cost or a roll. See "Every Time Cost In One Place" in
   [`PACING_SHEET.md`](PACING_SHEET.md) §6.
-- **HP buys time.** The Central Shaft and the Spoil Chute are fast and
-  dangerous. Taking them is a legitimate trade: HP for minutes.
+- **HP buys time.** The Central Shaft's lower stair and the Spoil Chute are
+  fast and dangerous. Taking them is a legitimate trade: HP for minutes.
 
 ### Surge Cracks (the "dam is talking" hazard)
 
@@ -387,11 +394,13 @@ hoping to be heard.)*
     the Little and Still Gates early "takes the edge off the rise, but only
     the Great Gate can draw the Mere down."
   - The existence of the **Old Overflow Door**, "in the alcove past the Great
-    Gate. Sealed in my grandfather's time. These two years I've heard it open
-    from the other side at night."
-  - The smugglers' knock: **three, then one**.
+    Gate. Sealed in my grandfather's time. These two years I've heard barrels
+    rolling behind it at night."
+  - The smugglers' knock: **three, then one** — learned in the cellar, from
+    the men who brought his food.
   - The **stoplogs** in the Winch House.
-- **The Keeper's Log** (a ledger on the desk) records everything above in his
+- **The Keeper's Log** (a ledger on the desk) records everything above
+  **except the knock** (he learned that after they locked him up) in his
   terse hand, plus a sketch of the Sluice Level and a note: *"If the Great Gate
   is ever to be opened at full head, the old channel must be opened first or
   the low town is lost."* **This is the second clue path** for the channel.
@@ -464,9 +473,13 @@ crisscross overhead. The Service Corridor (G10) leaves from the east wall.
 
 > **Read-aloud.** A long, high room smelling of grease and wet iron. Along the
 > north wall are three lever-handles in brass-and-iron housings, each with a
-> chipped enamel plate. Between the levers, a painted wall-chart shows a
+> chipped enamel plate. Beside them, a painted wall-chart shows a
 > cross-section of the dam and a valley, with a series of numbers in a
 > miller's hand. In the middle of the floor lies a heap of splintered iron.
+
+**Next door:** through the arch in the east wall, lamplight and low voices —
+the Gear Hall (G4) is occupied. A party that comes in quietly (DC 12 Stealth)
+gets to choose how to meet Greaves; a loud one is met in the arch.
 
 **What's going on:** This is where the Keeper operates the gates. **The levers
 are dead.** The Master Gear on the drive shaft is smashed (the splinters on
@@ -578,7 +591,8 @@ Parts Cage to get at the spare gears.
   DC 15, costs 10 minutes**). If both are ruined, fall back to the **hand
   cranks** (see *Gate Mechanics*). The 18-tooth never fits.
 - **Unlocking the cage** (key or DC 15 thieves' tools) and grabbing a gear is
-  an action. A character holding a gear is the borers' favorite target.
+  an action. After round 2 the bars are gnawed through and no key is needed.
+  A character holding a gear is the borers' favorite target.
 
 - **Corrode:** as the rust-monster baseline. A nonmagical metal weapon that
   hits an ore-borer takes a cumulative −1 to damage rolls; at −5 it is
@@ -600,10 +614,10 @@ Parts Cage to get at the spare gears.
 
 **Installing the gear.** After retrieval, the party must install the
 24-tooth gear on the shaft in the Control Gallery. That is a **group effort**:
-**3 successes before 2 failures**, **DC 14** (Strength (Athletics) to lift,
-tinker's/smith's tools or Dexterity (Sleight of Hand) to seat, Arcana for
-Mending/Fabricate shortcuts). Each failure costs **5 minutes** but never blocks
-progress. **A character with tinker's tools** counts as +1 success. Mending can
+**3 successes before 2 failures**, **DC 14** (Strength (Athletics) to lift
+it onto the shaft; tinker's or smith's tools, or Dexterity (Sleight of Hand),
+to seat and key it). Each failure costs **5 minutes**; on 2 failures they
+simply start again. It never blocks progress. **A character with tinker's tools** counts as +1 success. Mending can
 fix a **cracked** gear but not a shattered one; **Fabricate** can make a new
 24-tooth gear from the broken one's iron (automatic success). The 30-tooth
 gear, filed down, installs the same way.
@@ -622,7 +636,7 @@ A **plank bridge** crosses it. East of the culvert are two exits: a **ladder**
 a door (east wall, south end) to the **East Stair** up to the Winch House.
 
 - **Hazard — the culvert current:** crossing the culvert without the plank
-  (which a gust may have knocked loose) requires a **DC 13 Strength
+  (which the current keeps trying to lift away) requires a **DC 13 Strength
   (Athletics)** check or you are swept 15 ft downstream.
 - **The Ladder:** a 40-ft iron ladder in a stone shaft, landing on the
   **Gate 3 shelf** (10 ft above the Sluice floor). Played live, no cost. This
@@ -635,12 +649,19 @@ a door (east wall, south end) to the **East Stair** up to the Winch House.
 #### G8 — The Central Shaft (Combat: E4, Optional Risk Route)
 
 > **Read-aloud.** The corridor curves, the walls fall away, and you are on a
-> railed ledge around a ninety-foot well. A spiral stair clings to the inner
-> wall, going up and down into dark. Far below, black water heaves.
+> railed ledge around a fifty-foot well. A spiral stair clings to the inner
+> wall, going down into dark. Far below, black water heaves. Overhead, a
+> narrow iron ladder climbs a chimney toward a square of grey daylight.
 
-A 26-ft-diameter vertical shaft running from the Crest hatch to the Sluice
-Level, ringed on each level by a 5-ft ledge. An **iron spiral stair** runs the
-full height. It is the **fastest way between levels** and the **most
+Two parts, one above the other:
+- **The hatch-well** (Crest to Gallery): a 10-ft-wide chimney with an iron
+  ladder, 40 ft from the Crest hatch down to the middle of the ring's
+  ceiling. A short iron catwalk joins the ladder's foot to the ring ledge.
+- **The great well** (Gallery to Sluice): a 26-ft-wide shaft, ringed at the
+  Gallery by a 5-ft railed ledge, with an **iron spiral stair** hugging the
+  wall 50 ft down to the **sump pit** in the Valve Hall.
+
+It is the **fastest way between levels** and, below the Gallery, the **most
 dangerous**.
 
 **E4 — The Weird in the Shaft (Combat, Low).** A **water weird** lives in the
@@ -658,7 +679,9 @@ safe.
 - **Noncombat:** hold it off with a thrown torch or swing past on the far
   side of the stair. It will not follow you onto dry ledges.
 - **Falling:** a push or a failed save at the ledge edge means a drop onto
-  the next level's ledge (4d6) or into the sump (2d6 and waterlogged).
+  the sump (5d6 if the water is low, 2d6 once it has risen past Mark 3 —
+  and the weird is waiting). A fall from the hatch-well ladder lands on the
+  catwalk (4d6).
 - **Mark effects:** at **Mark 3** the sump rises to the bottom of the
   stair and the weird's reach covers the last 30 ft; at **Mark 4** the lower
   shaft is a whirlpool — the stair below the Gallery is impassable without
@@ -964,9 +987,16 @@ gate opens:
 Opening a gate that's already open, or re-closing one, does nothing — the
 levers lock once thrown.
 
-**The Weir-Gate (Old Channel) must be opened BEFORE Gate 2.** If Gate 2
-opens against a closed Weir-Gate, the Great Gate's discharge goes to Lowmill
-and the low town is flooded to 8 ft.
+**Where Gate 2's water goes.** Check this the moment Gate 2 opens:
+
+| State of the exits | Where the water goes | Lowmill |
+|---|---|---|
+| **Weir-Gate open and Diversion Mouth clear** (whether or not the main plug is cleared — the channel is the easy path) | Into the Old Channel and the quarry | **2 ft** — "The Town Lives" / "Bruised" |
+| Channel unusable (Weir shut **or** Mouth buried) but **main plug clear** | Down the valley | **8 ft** — "Drowned" / "Cost in Lives" |
+| **Neither** exit clear | Nowhere: **Water Hammer**, leaf jams half-open, no Draw-Down | Nothing yet — keep the timer running until an exit is cleared |
+
+So the Weir-Gate and the Diversion Mouth **both** have to be ready before
+Gate 2 opens for the good ending.
 
 **What opens when:**
 - **Gate 1** and **Gate 3**: ease the rise, but can't draw the Mere down.
@@ -974,8 +1004,8 @@ and the low town is flooded to 8 ft.
   from the Penalty Tally** — once only. The Flood Chart shows Lowmill takes
   about a foot of water from these two alone: harmless. It also **floods the
   Cache floor knee-deep** through the cracked race (see S4 and S7).
-- **Weir-Gate:** diverts Gate 2's water into the quarry. Must be open before
-  Gate 2.
+- **Weir-Gate + Diversion Mouth:** together, divert Gate 2's water into the
+  quarry. Both must be ready before Gate 2.
 - **Gate 2:** the Great Gate begins the **Draw-Down**. **Stop the timer.**
 
 ---
@@ -990,8 +1020,8 @@ Meanwhile:
 **Phase 1 — The Run (3 obstacles).** The discharge shakes the dam and the
 Gallery drains start running backwards; within minutes the corridors will be
 waist-deep. The party must get to the Crest. From the Control Gallery they
-can take the **East Stair** (via G7) or the **Central Shaft** stair (the
-Gallery-to-Crest stretch is above the weird's reach). The Spoil Chute is
+can take the **East Stair** (via G7) or the **hatch-well ladder** in the
+Central Shaft (well above the weird's reach). The Spoil Chute is
 one-way and can't be used. Call for one obstacle per stretch of the route:
 1. **A groan and a falling lintel** — DC 13 Dex save, 2d6 bludgeoning.
 2. **A crack across the floor** — DC 13 Acrobatics to leap, or detour.
@@ -1012,8 +1042,8 @@ parapet. **It wants water.** It will try to drag the party into the Mere.
 
 - **Warning signs:** the Mere sloughs in a long groan; the surface heaves
   upward in a hump; a smell of old earth; brown foam on the Crest.
-- **Tactics:** it hits hard, engulfs one character, and carries them toward
-  the upstream parapet to drop them into the falling Mere. It prefers
+- **Tactics:** it hits hard, engulfs one character, carries them to the
+  upstream parapet, and **spits them out** into the falling Mere. It prefers
   fighting along the upstream parapet.
 - **The falling Mere is now dangerous.** Gate 2 is drawing hard. A creature
   that goes over the upstream parapet after round 1 lands in water 10–20 ft
@@ -1070,7 +1100,7 @@ at or below half HP.
 | **Dunna Stoke** | 2 (450) | Scout-like, expert | 15 | 45 | 30 | **Multiattack:** two longbow shots, +6, 1d8+4 piercing. *No disadvantage at long range.* *Keen Sight.* |
 | **Corrin Bale** | 0 (0) | Commoner | 10 | 8 | 30 | Noncombatant. |
 | **Silt-spawn** | 1 (200) | Mud-mephit-like | 12 | 30 | 30, swim 30 | **Slam** +5, 2d6+3 bludgeoning. *Death Burst:* the 10-ft square where it dies becomes difficult terrain. |
-| **Silt elemental** | 7 (2,900) | Earth-elemental-like, mud | 15 | 152 | 30, swim 40 | **Multiattack:** two slams, +9, 3d8+5 bludgeoning (or one slam and Engulf). **Engulf** (recharge 5–6): one Medium or smaller creature within 5 ft makes a **DC 16 Dex save**; on a failure it takes 4d8 bludgeoning, is **restrained** and can't breathe, and moves with the elemental; at the start of each of its turns it takes 2d8 bludgeoning; escape is an action, **DC 16 Str (Athletics)**. Only one creature at a time. **Siltbody:** whenever it takes 25 or more damage from one attack, a **silt-spawn** splits off in an adjacent space (at most 2). *Draining* (see E7). Immune poison; can't be exhausted, paralyzed, petrified, poisoned, or knocked prone. Darkvision 60 ft, tremorsense 60 ft. STR 20 (+5) DEX 8 (−1) CON 19 (+4) INT 5 WIS 10 CHA 5. |
+| **Silt elemental** (Large) | 7 (2,900) | Earth-elemental-like, mud | 15 | 152 | 30, swim 40 | **Multiattack:** two slams, +9, 3d8+5 bludgeoning (or one slam and Engulf). **Engulf** (recharge 5–6): one Medium or smaller creature within 5 ft makes a **DC 16 Dex save**; on a failure it takes 4d8 bludgeoning, is **restrained** and can't breathe, and moves with the elemental; at the start of each of its turns it takes 2d8 bludgeoning; escape is an action, **DC 16 Str (Athletics)**. Only one creature at a time. **Spit Out:** instead of a slam, it hurls the creature it has engulfed up to 15 ft (no save) — over the upstream parapet if it's standing at it. **Siltbody:** whenever it takes 25 or more damage from a single hit or spell, a **silt-spawn** splits off in an adjacent space (at most 2). *Draining* (see E7). Immune poison; can't be exhausted, paralyzed, petrified, poisoned, or knocked prone. Darkvision 60 ft, tremorsense 60 ft. STR 20 (+5) DEX 8 (−1) CON 19 (+4) INT 5 WIS 10 CHA 5. |
 | **Warden Ivo Crask** (ally) | ¼ (50) | Guard-like, old | 12 | 22 | 25 | **Shortsword** +4, 1d6+2 piercing. Noncombatant by temperament. (At party size 3, see *Ivo as Ally*.) |
 
 **Baseline encounter budgets** (4 characters, level 5; 2024 XP budget
@@ -1142,10 +1172,13 @@ with a shortsword and a stubborn streak** (stat line above):
   He can also be left anywhere safe (the Control Gallery is his choice:
   "Someone has to be at the levers").
 - **At the levers:** if Ivo is waiting in the Control Gallery, the party
-  can tell him when to pull — no need to walk back. Agree on a signal
-  (a bell-pull from the Valve Hall rings in the Control Gallery — Ivo
-  mentions it). This saves the trip back up and makes the Run shorter (the
-  party runs from wherever they are).
+  can tell him when to pull — no need to walk back. Agree on a signal: the
+  **bell-pull** in the Valve Hall rings in the Control Gallery (Ivo mentions
+  it), or simply **a time on the Gauge** ("pull at 0:20"). He pulls in order,
+  1 → 3 → 2, and won't pull 2 until he hears the Weir is open (the bell
+  twice, or the agreed time). The party then runs from wherever they are.
+  **Danger:** if they agreed a time and are late out of the Cache, Ivo pulls
+  anyway. Make sure the players know that before they agree to it.
 - **Fate:** if he dies, the clue paths he held must be found elsewhere —
   every one of them has another path.
 
@@ -1196,15 +1229,15 @@ characters — less than half a level — so award it as a milestone.)
 
 ### Outcomes & Epilogue
 
-Read the frozen time first (see *The real deadline*), then the Weir-Gate,
-then the beacon. The beacon counts if it was lit **before the end of the
+Read the frozen time first (see *The real deadline*), then where Gate 2's
+water went (*Gate Mechanics*), then the beacon. The beacon counts if it was lit **before the end of the
 Crest fight**.
 
 | Outcome | Condition | Aftermath |
 |---|---|---|
-| **The Dam Holds, the Town Lives** | Gate 2 opened with **0:10+**; Weir-Gate open first; beacon lit | The flats flood ankle-deep. The Reeve names the party the town's friends. |
-| **The Dam Holds, the Town Bruised** | Gate 2 opened with **0:10+**; Weir-Gate open first; **no** beacon | Streets flooded to 2 ft; people caught in the flats; a handful hurt, none dead. |
-| **The Dam Holds, the Town Drowned** | Gate 2 opened **without** the Weir-Gate (or with **0:01–0:09**, the Notch tears); beacon lit | The low town under 8 ft; most got out; homes and two mills lost. |
+| **The Dam Holds, the Town Lives** | Gate 2 opened with **0:10+**; channel path ready (Weir open, Mouth clear); beacon lit | The flats flood ankle-deep. The Reeve names the party the town's friends. |
+| **The Dam Holds, the Town Bruised** | Gate 2 opened with **0:10+**; channel path ready; **no** beacon | Streets flooded to 2 ft; people caught in the flats; a handful hurt, none dead. |
+| **The Dam Holds, the Town Drowned** | Gate 2's water went down the valley (channel not ready), **or** the Notch tore (**0:01–0:09**); beacon lit | The low town under 8 ft; most got out; homes and two mills lost. |
 | **The Dam Holds, a Cost in Lives** | As above, **no** beacon | The low town under 8 ft with people still in it. A grim ending. |
 | **The Breach** | Gate 2 never opened before 0:00 | The Crest cracks; the party has five rounds to get off the dam (Pacing Sheet §8). The wave takes Lowmill. If the beacon was lit, most of the people live. |
 

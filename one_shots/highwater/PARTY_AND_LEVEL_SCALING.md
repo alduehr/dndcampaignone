@@ -9,7 +9,7 @@ Nothing about the *puzzle logic, clue routes, DCs, NPC behavior, Gauge Marks,
 time costs, or timer* changes with party size — those things don't get harder
 because you brought friends. Only four dials move:
 
-1. **How many foes**, and how tough the two bosses are.
+1. **How many foes**, and how tough the four bosses are.
 2. **How many successes** the group checks need.
 3. **Whether Ivo fights.**
 4. **The town's payment.**
@@ -53,7 +53,7 @@ Stat lines are in the main file's *Stat Profiles*; only the bosses change
 | **E3 — Forge** | mother + 2 borers | **mother + 3 borers** | mother + 5 borers | mother + 7 borers |
 | **E4 — Shaft** (optional) | weird + 1 quipper swarm | **weird + 2 swarms** | weird + 4 swarms | 2 weirds + 3 swarms |
 | **E5 — Outfall** | 2 giant pike | **3 giant pike** | 4 giant pike | 5 giant pike |
-| **E6 — Cache** | Varrow + Stoke + 2 thugs | **Varrow + Stoke + 3 thugs + 2 cutters** | Varrow + Stoke + 5 thugs + 3 cutters | Varrow + Stoke + 7 thugs + 4 cutters |
+| **E6 — Cache** | Varrow + Stoke + 2 thugs | **Varrow + Stoke + 3 thugs + 2 cutters** | Varrow + Stoke + a second Stoke-like archer + 5 thugs + 3 cutters | Varrow + Stoke + a second Stoke-like archer + 8 thugs + 5 cutters |
 | **E7 — Crest finale** | elemental (size-3 row) | **elemental (baseline)** | elemental (size-5 row) | elemental (size-6 row) |
 
 **XP at each size** (the fights are tuned to the low side of each band on
@@ -67,7 +67,7 @@ the difficulty):
 | E3 | 900 | 1,000 | 1,200 | 1,400 | Low |
 | E4 | 900 | 1,100 | 1,500 | 2,000 | Low |
 | E5 | 400 | 600 | 800 | 1,000 | Low (played as Moderate underwater) |
-| E6 | 2,450 | 2,750 | 3,050 | 3,350 | Moderate |
+| E6 | 2,450 | 2,750 | 3,500 | 4,000 | Moderate |
 | E7 | 3,100 | 3,300 | 4,500 | 5,800 | Moderate–High |
 
 ---
@@ -130,9 +130,9 @@ The module is tuned for **level 5**. If the table is a level off:
 
 | Party level | Adjustment |
 |---|---|
-| **4** | Use the next-smaller size's foe counts and boss rows (a 4-character level-4 party uses the size-3 column). Hazard and trap DCs −1. |
+| **4** | Use the next-smaller size's foe counts and boss rows (a 4-character level-4 party uses the size-3 column). A 3-character level-4 party uses the size-3 column and drops one standard foe (not a boss) from every fight. Hazard and trap DCs −1. |
 | **5** | As written. |
-| **6** | Use the next-larger size's foe counts and boss rows. Hazard and trap DCs +1. The elemental's slams become 3d8+6. |
+| **6** | Use the next-larger size's foe counts and boss rows. A 6-character level-6 party uses the size-6 column and adds two standard foes to every fight. Hazard and trap DCs +1. The elemental's slams become 3d8+6. |
 
 Do **not** change the timer, the time costs, or the success requirements for
 level.

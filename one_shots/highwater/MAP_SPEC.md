@@ -63,8 +63,12 @@ strongly recommended for the table.
 - **Sluice Level** (−90 ft): a wide chamber band along the base; **three
   gate slots** (iron slabs) rise from it toward the Mere; **tailrace tunnel**
   exits to the valley at the bottom right.
-- **Central Shaft** is a vertical tube at y ≈ 10–50 connecting crest hatch →
-  gallery ring → sump pit at the Sluice Level.
+- **Central Shaft**, two parts: a narrow **hatch-well** (10 ft wide, centered
+  at y 30) rising 40 ft from the Gallery ring's ceiling through the crest slab
+  to the Crest hatch; and the **great well** (y ≈ 10–50, 26 ft void) from the
+  Gallery ring 50 ft down to the sump pit at the Sluice Level. (The great well
+  is wider than the crest slab is deep, which is why it stops at the
+  Gallery.)
 - **East Face Ledge** is a thin stone ledge on the downstream face 30 ft
   below the crest (elev −30), x 215–265.
 - Add three **Mark lines** on the Mere side showing the failure level:
@@ -84,7 +88,7 @@ strongly recommended for the table.
 | — | Dam top slab | x 40–260, y 0–40 | 44 × 8 | Whole crest. North edge = upstream (Mere), south edge = downstream drop. |
 | C1 | **Crest Walk** | x 40–260, y 3–37 | 44 × 7 | Paved. **Parapets** (3 ft high) along y 0–3 (north) and y 37–40 (south), full length. Slick. |
 | — | **Spill Notch** | x 170–190, y 0–40 | 4 × 8 | Crest dips 4 ft here. An **iron-grate footbridge** crosses it at y 10–30. **Stoplog slots** (vertical grooves) in both cheeks of the notch at y 2–4. Water overtops here at Marks 5–6. |
-| — | **Central Shaft hatch** | circle, center (130, 30), r 5 → x 125–135, y 25–35 | 2 × 2 | Round iron hatch; ladder/spiral stair beneath. |
+| — | **Central Shaft hatch** | circle, center (130, 30), r 5 → x 125–135, y 25–35 | 2 × 2 | Round iron hatch over the **hatch-well**: a 10-ft chimney with an iron ladder, 40 ft down to the Gallery ring. |
 | C3 | **Keeper's House** | x 4–38, y 2–38 | 7 × 7 | West abutment. Stone building. |
 | C3a | Kitchen-hall | x 4–38, y 2–24 | 7 × 4 | Cold hearth on west wall (x 4–10, y 8–14). **Cellar hatch** (5 × 5 ft) at x 10–15, y 14–19. |
 | C3b | Chamber / office | x 4–38, y 24–38 | 7 × 3 | Desk against south wall; **Keeper's Log** on desk (x 14–20, y 34–38). Wall cabinet (x 28–36, y 34–38). |
@@ -101,7 +105,7 @@ strongly recommended for the table.
 |---|---|---|---|
 | Road → C3a (front door) | (4, 15–19), west wall | wooden | closed, unlocked |
 | C3a → C1 (Crest door) | (38, 18–22), east wall | wooden | closed, unlocked |
-| C3a → yard (back door) | (20, 38), south wall | wooden | **barred outside** |
+| C3b → yard (back door) | (20, 38), south wall of the chamber | wooden | **barred outside** |
 | C3a → C3c (cellar hatch) | (10–15, 14–19) | trapdoor | **barred** with an iron bar |
 | C3a ↔ C3b | (22–26, 24) | arch | open |
 | C1 → C2 (Winch House door) | (265, 18–22), west wall | wooden | stuck |
@@ -135,7 +139,7 @@ external:
 doors:
   - {from: road, to: kitchen_hall, at: [4,17], axis: x}
   - {from: kitchen_hall, to: crest_walk, at: [38,20], axis: x}
-  - {from: kitchen_hall, to: yard, at: [20,38], axis: y, state: barred}
+  - {from: chamber, to: yard, at: [20,38], axis: y, state: barred}
   - {from: kitchen_hall, to: cellar, at: [12.5,16.5], kind: trapdoor, state: barred}
   - {from: crest_walk, to: winch_house, at: [265,20], axis: x, state: stuck}
   - {from: winch_house, to: east_stair, at: [268,34]}
@@ -161,11 +165,11 @@ corridor collapses and the level splits into two halves.
 | — | Gallery body (mass) | x 40–260, y 0–65 | — | Solid masonry containing all voids below. West/east abutments extend x 0–40 and 260–300, y 0–50. |
 | G1 | **West Stair Landing** | x 38–52, y 22–40 | 3 × 4 | Receives the cellar stair from the Keeper's House. Shelf with lamps on west wall. |
 | G11 | **Inspection Corridor** | x 52–238, y 25–35 | 37 × 2 | 10 ft wide, 8 ft ceiling. Straight except where it meets the Shaft ring. |
-| G8 | **Central Shaft** (ring) | center (130, 30); void r 13; ledge r 13–18 (5 ft); wall r 18–20 | 7 × 7 incl. wall | **Vertical well** through all three levels. The corridor meets the ring at its **west point (110, 30)** and **east point (150, 30)**. A **spiral iron stair** hugs the inner wall. Walking around the ring = half-circle of 5-ft ledge, ≈ 55 ft. |
+| G8 | **Central Shaft** (ring) | center (130, 30); void r 13; ledge r 13–18 (5 ft); wall r 18–20 | 7 × 7 incl. wall | The **great well** drops 50 ft from here to the Sluice sump; a **spiral iron stair** hugs its wall. The **hatch-well** (r 5, iron ladder) opens in the ceiling over the center, reached by a short iron **catwalk** from the north side of the ledge. The corridor meets the ring at its **west point (110, 30)** and **east point (150, 30)**. Walking around the ring = half-circle of 5-ft ledge, ≈ 55 ft. |
 | G2 | **The Cistern** | x 55–95, y 5–23 | 8 × 4 | Black water filling most of the room (x 58–92, y 8–20). **Stone walkway** 5 ft wide around the edge. Floor **drain grate** at (60, 18). |
 | G3 | **Pump Room** | x 55–95, y 37–55 | 8 × 4 | Three **bucket-chain pumps** (x 72–90, y 40–50) driven by a small **water-wheel** on the east wall (x 88–94, y 38–44); overhead pipes. **Deep sump** (x 60–72, y 42–52). Tool rack with shovels and a pry-bar (x 56–60, y 38–44). |
 | G9 | **Seepage Crawl** | from (95, 10) → (100, 7) → east along y 6–9 to x 150 → (150, 8) | 11 × 0.6 | 3-ft-wide, 3-ft-high maintenance crawl. Medium creatures squeeze. Connects G2 to G5 NW corner. |
-| G5 | **Control Gallery** | x 150–180, y 5–23 | 6 × 4 | **Three levers** on the north wall (x 156, 162, 168 at y 6–8). **Flood Chart** painted on the wall (x 170–180, y 6–20, east wall). Splintered **Master Gear** on the floor (x 160–170, y 12–18). **Drive-shaft stub** through west wall of G4 arch. |
+| G5 | **Control Gallery** | x 150–180, y 5–23 | 6 × 4 | **Three levers** on the north wall (x 156, 162, 168 at y 6–8). **Flood Chart** painted on the north wall east of the levers (x 171–179, y 5–6). Splintered **Master Gear** on the floor (x 160–170, y 12–18). **Drive-shaft stub** (where the gear mounts) projecting from the arch to G4 at (174–180, 12–17). **Bell** on the south wall (152, 22), rung from the Valve Hall. |
 | G4 | **Gear Hall** | x 180–220, y 5–23 | 8 × 4 | **Gate Train**: three large gears on a long axis along y 12–16 (x 185–215). **Chain-hoist trolley** on an overhead rail (y 8, x 185–215). **Catwalk** along the north wall (y 6–9, raised 8 ft). **Spoil Chute hatch** at (x 212–217, y 7–12). Lamp-oil crate cluster at (x 195–205, y 17–22). |
 | G6 | **Forge Gallery** | x 190–235, y 37–55 | 9 × 4 | Cold **furnace** (x 195–205, y 38–44), **anvil** (x 212–216, y 42–46), **tipped slag crucible** (x 225–233, y 48–54), **steel Parts Cage** along the south wall (x 205–230, y 51–55). |
 | G7 | **Culvert Junction** | x 235–262, y 18–50 | 5 × 6 | **Culvert channel** x 245–255, y 18–50 (10 ft wide, 4 ft deep, running **north to south**). **Plank bridge** across at y 28–32. **Ladder shaft** (iron ladder down 40 ft to the Gate 3 shelf) in NE corner at (256–260, 18–22). **Door to the East Stair** in the east wall at (262, 38–42), opening into the turret (x 262–270, y 36–44). |
@@ -235,7 +239,10 @@ features:
   plank_bridge: {x: [245,255], y: [28,32]}
   levers: [[156,6],[162,6],[168,6]]
   master_gear_splinters: {x: [160,170], y: [12,18]}
-  flood_chart: {x: [170,180], y: [6,20]}
+  flood_chart: {x: [171,179], y: [5,6], wall: north}
+  drive_shaft_stub: {x: [174,180], y: [12,17]}
+  bell: {at: [152,22]}
+  hatch_well: {center: [130,30], r: 5, rises_ft: 40, ladder: true, catwalk_from: [130,12]}
   gate_train_gears: {x: [185,215], y: [12,16]}
   chain_hoist_rail: {x: [185,215], y: [8,8]}
   catwalk: {x: [180,220], y: [6,9], elevation_ft: 8}
@@ -403,7 +410,7 @@ table can "step" through the dam failing.
 
 Grid = **5 ft/square**, standard VTT.
 
-### E1 — The Crest Walk (44 × 6 usable squares)
+### E1 — The Crest Walk (44 × 7 usable squares)
 - A long, narrow arena: the walkway is **y 3–37 → squares 0–7** wide; the
   parapets are 3 ft high (half cover). Four crayfish start between the
   Keeper's House and the Shaft hatch; the **Old Snapper** (Large, 2 × 2
@@ -421,7 +428,7 @@ Grid = **5 ft/square**, standard VTT.
 - **Catwalk** along the north wall at +8 ft (1.5 squares wide); bow position.
 - **Chain-hoist trolley** on an overhead rail (north to south push = a 15-ft
   arc swing).
-- **Oil-crate cluster** in the SE corner (flammable).
+- **Oil-crate cluster** against the south wall, middle (x 195–205; flammable).
 - Greaves starts at the center by the gears; the thugs flank the corridor
   door.
 
@@ -432,9 +439,10 @@ Grid = **5 ft/square**, standard VTT.
 - Mark the **three spare gears** inside the cage (18, 24, 30 teeth).
 
 ### E4 — The Central Shaft (7 × 7 squares including wall)
-- Draw the shaft as concentric circles: **void (r 13 = 5 squares)**, ledge
-  (1 square), wall (1 square). The **spiral stair** is a 3-ft strip
-  clinging to the inner wall.
+- Draw the great well as concentric circles: **void (r 13 ≈ 5 squares)**,
+  ledge (1 square), wall (1 square). The **spiral stair** is a 3-ft strip
+  clinging to the wall below the ledge; the **hatch-well** is a 2-square
+  circle over the center, joined to the north ledge by a 1-square catwalk.
 - Place the **water weird** in the sump on the lowest level (Sluice), or in
   the water that has climbed to the lowest stair when the party arrives.
 
@@ -505,11 +513,12 @@ that).
 > *Prepend the shared style block.* **Title banner:** "Highwater — The
 > Gallery (−40 ft)." Draw a single **straight 10-ft corridor** running
 > west-to-east through solid masonry. At its center, a **circular well** (26
-> ft void, 5-ft ledge ring, spiral stair clinging inside) that the corridor
+> ft void, 5-ft ledge ring, spiral stair clinging inside, a small ladder-well
+> over its center reached by a catwalk) that the corridor
 > joins at its west and east points. **Rooms north of the corridor:** the
 > **Cistern** (x 55–95; half-filled with black water, a walkway around it);
 > the **Control Gallery** (x 150–180; three levers on the north wall, a
-> painted wall chart on the east wall, a heap of broken iron in the middle);
+> painted wall chart on the north wall beside them, a heap of broken iron in the middle);
 > the **Gear Hall** (x 180–220; three big gears along its long axis, a
 > catwalk on the north wall, a hatch in the NE corner). **Rooms south of the
 > corridor:** the **Pump Room** (x 55–95; bucket-chain pumps on a small water-wheel, and a deep sump); the
@@ -557,8 +566,9 @@ that).
 > viewed from the west: the **reservoir** on the left (dark water just under
 > the crest), a **vertical upstream face**, a **stepped downstream face**
 > falling to a valley on the right. Inside, three stacked bands: a thin
-> **crest slab**, a **corridor band at −40 ft** with a **vertical well**
-> rising to the crest, and a **wide chamber band at −90 ft** with three
+> **crest slab**, a **corridor band at −40 ft** with a **wide vertical well**
+> dropping from it to the base and a **narrow ladder chimney** rising from it
+> to the crest, and a **wide chamber band at −90 ft** with three
 > vertical **gate slots** and a **tunnel** exiting to the valley. A thin
 > **ledge** on the downstream face 30 ft below the crest. Label "Mere,"
 > "Crest," "Gallery," "Sluice Level," "Valley," and "Lowmill (2 mi)".
@@ -594,11 +604,13 @@ Check each generated image against these before using it:
 - [ ] **North is up** and the reservoir is on the north (top).
 - [ ] The dam is **300 ft wide**; the Crest Walk runs **x 40–260**.
 - [ ] There is exactly **one Spill Notch**, center-east (x 170–190).
-- [ ] The **Central Shaft** is a **circle** centered near x 130 on all three levels.
+- [ ] The **Central Shaft** is centered near x 130 on every level: a small
+      hatch on the Crest, a ringed well (with a ladder-well over its center)
+      in the Gallery, a round sump pit in the Valve Hall.
 - [ ] The Gallery has **one straight corridor** and **exactly three bypasses**
       (crawl, service corridor, drain pipe) plus the shaft.
 - [ ] **Three gate chambers** on the Sluice Level (west, center-east, east)
-      with **Gate 2's chamber the widest**.
+      with **Gate 2's slab the widest** (20 ft).
 - [ ] The **Alcove** has a door in its **south** wall and a **short passage**
       to the Cache.
 - [ ] The **Cache** is a long vault with a **gantry and a wheel at the east
