@@ -179,6 +179,8 @@ Pull these, **in order**:
 | Wrong gate order: Shudder | 10 |
 | Wrong gate order: Water Hammer | 20 |
 | Gate 3 hoist jam (ahead-dial) | 5 |
+| A character climbing back from the dam toe (that character only) | 10 |
+| Coming in by the quarry and the Old Channel | 30 |
 
 **Bonuses (subtract from the tally; the tally may go negative):**
 

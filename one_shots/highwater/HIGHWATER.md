@@ -33,9 +33,9 @@ Still Gate's discharge race runs under the cache floor, and its cracked cover
 stones would have flooded Varrow's goods. So his crew smashed the gate train's
 Master Gear and locked the Keeper in his own cellar until the wagons could
 come. Then the quarry track washed out, and the wagons never came. They never
-meant to break a dam. The rain did that. Now they are trapped in a building
-that is trying to kill them, sitting on the one wheel that can save the
-town.
+meant to break a dam. The rain did that. Now they are sitting in a building
+that is trying to kill them, unwilling to walk away from two years' profit,
+on top of the one wheel that can save the town.
 
 **Where:** The Ammet headwaters on the border between the **Tollwood** and
 the **Ashgarden Vale** on Orrun's northwestern frontier. Lowmill is an
@@ -47,8 +47,8 @@ setting note below for what to borrow from the real Vale and Tollwood.)
 **Party:** 3–6 characters, **level 5**, **tuned for four.** All numbers
 printed in this file are the four-character baseline. Scaling for 3, 5, and 6
 is in [`PARTY_AND_LEVEL_SCALING.md`](PARTY_AND_LEVEL_SCALING.md). Pregens or
-freshly built characters both work; assume standard level-5 equipment and a
-healer or two in six, but the module does not require one.
+freshly built characters both work; assume standard level-5 equipment. A
+healer helps but isn't required — there are six potions in the dam.
 
 **Playtime:** A **20-minute setup** (not timed), then a **3-hour real-time
 timer** that the table can see. See [`PACING_SHEET.md`](PACING_SHEET.md) — it
@@ -76,6 +76,23 @@ opens; the finale and epilogue run untimed. **Book about four hours.**
 **There is always combat — seven fights across the session — but almost every
 fight can be shortened, avoided, or traded for something else.** The clock is
 the villain. See *The Clock* below.
+
+**The four files:**
+- **This file** — the adventure: rules of the clock, every room, the gates,
+  the finale, stats, clues, rewards, outcomes.
+- [`PACING_SHEET.md`](PACING_SHEET.md) — what you keep open at the table:
+  checkpoints, announcements, every time cost, the dials, the cheat card.
+- [`MAP_SPEC.md`](MAP_SPEC.md) — the dam in exact coordinates, the water at
+  each Mark, battle-map notes, and image-generation prompts.
+- [`PARTY_AND_LEVEL_SCALING.md`](PARTY_AND_LEVEL_SCALING.md) — 3, 5, and 6
+  characters; level 4 or 6.
+
+**In this file:** The Clock (Penalty Tally, Marks, deadline, rests,
+failure) → Lowmill setup → the Crest (C1–C3) → the Gallery (G1–G11) → the
+Sluice Level (S1–S10) → **Gate Mechanics** (order rule, where the water goes)
+→ E7 finale → Stat Profiles → Clues → Corrin Bale → Ivo → Treasure →
+Outcomes → Running Notes. The encounters are E1 (Crest), E2 (G4), E3 (G6),
+E4 (G8), E5 (S3/S8), E6 (S7), E7 (Crest).
 
 ---
 
@@ -198,8 +215,12 @@ fills to the ceiling under pressure (nobody can go in or dig there now), and
 first:
 - **The party opens the channel** — Great Wheel turned *and* the shutter
   open. The pressure blows the mud out through the Diversion Mouth at once;
-  the water goes to the quarry; stop the timer then. **Anyone in the Cache
-  when the shutter opens is swept into the channel** (Varrow knows this).
+  the water goes to the quarry; stop the timer then. **Anyone on the Cache
+  floor when the shutter opens is swept into the channel** (Varrow knows
+  this). Anyone on the gantry — which is where the wheel is — makes a
+  **DC 13 Strength save** to hold on (failure: swept). Those who hold on are
+  stranded on the gantry above the torrent until the Draw-Down ends: safe,
+  but they miss the Crest fight.
 - **10 minutes of effective time pass** (or the next Mark, if sooner). The
   main plug blows out of the south mouth on its own; the water goes down the
   valley; stop the timer then.
@@ -889,7 +910,14 @@ warehouse. The **Weir-Gate** is a huge iron door set across the mouth of the
 **Overflow Channel** in the east wall; the **Great Wheel** that opens it is on
 a raised gantry, 15 ft up, reached by a ladder. A cable run under the floor
 links the wheel to a **shutter** on the **Diversion Mouth** in the west wall.
-Turning the wheel opens both.
+Turning the wheel opens both. A man-sized **wicket door** in the Weir-Gate is
+how the crew has come and gone for two years; it passes no real water.
+
+**The quarry route (for players who ask).** Through the wicket, the channel
+runs a quarter mile to a rubble chute into the old quarry pit. The crew could
+walk out that way tonight; they won't leave the goods. A party could come *in*
+that way too — but the quarry is half an hour around the hill from the dam
+(**costs 30 minutes**), and the Alcove door is right there.
 
 **Sull Varrow** and his crew (Varrow, Dunna Stoke, three thugs, two cutters)
 have been working this cache for two years, moving goods out through the
@@ -918,8 +946,8 @@ is ready to deal: every social DC below drops by 3.**
   save for half. **Stacked wool bales** burn slowly and give +2 AC half
   cover. The **cable run** under the floor can be cut (AC 15, 10 HP) to
   disable the Diversion Mouth shutter.
-- **Morale:** the thugs and cutters flee up the Overflow Passage once half
-  their number are down; Stoke goes when Varrow does; Varrow yields when
+- **Morale:** the thugs and cutters flee — out through the wicket to the
+  quarry, or up the Overflow Passage — once half their number are down; Stoke goes when Varrow does; Varrow yields when
   bloodied if offered terms.
 - **Loot:** **contraband worth ~900 gp** (untaxed cider-spirit and wool —
   heavy, and the channel will soon take it), **Varrow's purse** (120 gp),
@@ -966,6 +994,11 @@ sound of the beck. **After Mark 3 this tunnel is completely flooded.**
 - **Before Mark 3:** a knee-deep wade. **E5 pike** lurk in the east branch
   and the Outfall.
 - **After Mark 3:** swim only (see S3).
+- **The dam toe.** A character washed out of an outfall lands on the rocks at
+  the foot of the dam, outside. They can walk back in through the Tailrace
+  mouth (before Mark 3) or climb the hillside track to the Crest — **costs
+  10 minutes** for that character (their friends' clock doesn't stop; play
+  them arriving 10 minutes of effective time later).
 
 ---
 
@@ -1017,6 +1050,14 @@ levers lock once thrown.
 
 So the Weir-Gate and the Diversion Mouth **both** have to be ready before
 Gate 2 opens for the good ending.
+
+**Anyone in the water's path when Gate 2 opens** — the Gate 2 Chamber, the
+Outfall, or (if the channel is open) the Cache floor — is swept as for the
+Flush: **DC 15 Strength save** or 3d10 bludgeoning (half on a success).
+Swept from the Chamber or Outfall: out of the south mouth onto the dam toe,
+or into the Cache. Swept from the Cache: down the channel, which is lethal
+without Water Breathing. Telegraph it; whoever is at the levers can hear the
+bell, and the players know where their friends are.
 
 **What opens when:**
 - **Gate 1** and **Gate 3**: ease the rise, but can't draw the Mere down.
@@ -1071,7 +1112,7 @@ parapet. **It wants water.** It will try to drag the party into the Mere.
   the end of each of its turns or take **2d10 bludgeoning** against the intake
   grilles. A rope from the Crest (100 ft in the Winch House) gives advantage;
   after two successes in a row it's at the dam face, where a DC 12 climb gets
-  it back up.
+  it back up. The current dies at the end of round 8.
 - **Draining:** as the Mere falls, the elemental *loses cohesion*.
   Starting at **round 4**, at the end of each round it loses **15 HP**. At the
   **end of round 8** (the Draw-Down complete) it collapses into brown muck
