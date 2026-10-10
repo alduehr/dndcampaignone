@@ -271,7 +271,7 @@ Knock: three, then one.  Gear: 24 T (cage key in Ivo's cabinet).
 Nobody in the Cache when Gate 2 opens.
 Beacon counts until the end of the Crest fight.
 Fights: E1 Crest (4 claws + Snapper) | E2 Gear Hall (Greaves +5)
-        E3 Forge (mother + 3) | E4 Shaft (weird + 2 swarms, optional)
+        E3 Forge (mother + 3; rust ends with the fight) | E4 Shaft (weird + 2, opt.)
         E5 Outfall (3 pike, in water) | E6 Cache (Varrow + 6, talkable)
         E7 Crest (silt elemental, drains from round 4, gone end of rd 8)
 Behind? Break fights early, hand a clue, -1 success, offer a shortcut.

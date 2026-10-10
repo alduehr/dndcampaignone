@@ -625,11 +625,17 @@ Parts Cage to get at the spare gears.
   an action. After round 2 the bars are gnawed through and no key is needed.
   A character holding a gear is the borers' favorite target.
 
-- **Corrode:** as the rust-monster baseline. A nonmagical metal weapon that
-  hits an ore-borer takes a cumulative −1 to damage rolls; at −5 it is
-  destroyed. Armor that is hit by an ore-borer takes −1 AC (cumulative; −3
-  maximum before it is ruined). *If you want a gentler table, say these
-  penalties fade after a short rest.*
+- **Corrode (temporary — nothing is ever ruined):** a nonmagical metal
+  weapon that hits an ore-borer takes −1 to damage rolls, and worn
+  nonmagical metal armor touched by its **antennae** takes −1 AC. Both
+  stack, to a maximum of **−3**. It's a skin of fresh rust, not real damage:
+  **every penalty ends when the fight ends**, as the scale flakes off. Gear
+  is never destroyed or permanently weakened.
+- **Telegraph it:** on the way in, the party sees a smuggler's shortsword on
+  the floor, furred orange and bent, and a pair of shield-rims chewed to
+  lace. Anyone who looks closely at the borers (DC 10 Nature or
+  Investigation, or just asking Ivo) knows they eat metal. Wooden clubs,
+  staves, unarmed strikes, spells, and magic weapons are all unaffected.
 - **Tactics:** they scuttle toward the nearest iron: the cage, the anvil, the
   party's weapons. They don't fight well; they *eat*.
 - **Morale:** the mother flees into a wall-tunnel when bloodied and the
@@ -1152,7 +1158,7 @@ at or below half HP.
 | **Smuggler thug** | ½ (100) | Thug-like | 11 | 32 | 30 | **Multiattack:** two maces, +4, 1d6+2 bludgeoning. *Pack Tactics.* |
 | **Smuggler cutter** | ½ (100) | Scout-like | 13 | 16 | 30 | **Multiattack:** two longbow shots, +4, 1d8+2 piercing (or two shortswords, +4, 1d6+2). *Keen Hearing and Sight.* |
 | **Pelham Greaves** (hand-boss) | 3 (700) | Bandit-captain-like, heavy hitter | 15 | 90 | 30 | **Multiattack:** two maul attacks, +6, 2d6+4 bludgeoning. **Parry** (reaction): +2 AC against one melee attack he can see. **Rattled:** whenever the dam groans, DC 12 Wis save or he spends his next turn moving toward the Spoil Chute. STR 18 (+4) DEX 12 (+1) CON 15 (+2) INT 10 WIS 11 CHA 12. |
-| **Ore-borer** | ½ (100) | Rust-monster-like | 14 | 27 | 40 | **Bite** +3, 1d8+1 piercing. **Antennae:** touches a nonmagical metal object; worn armor takes −1 AC (cumulative; at −3 it's ruined), a held weapon −1 damage. **Rust Metal:** a nonmagical metal weapon that hits it takes −1 to damage rolls (cumulative; at −5 it's destroyed). *Iron Scent* (smells metal within 30 ft). |
+| **Ore-borer** | ½ (100) | Rust-monster-like | 14 | 27 | 40 | **Bite** +3, 1d8+1 piercing. **Antennae:** touches a nonmagical metal object; worn armor takes −1 AC, a held weapon −1 damage. **Rust Metal:** a nonmagical metal weapon that hits it takes −1 to damage rolls. All penalties stack to −3 at most and **end when the fight ends**; nothing is destroyed. *Iron Scent* (smells metal within 30 ft). |
 | **Mother ore-borer** | 2 (450) | Rust-monster-like, Large | 15 | 65 | 40 | **Multiattack:** bite +5, 2d8+3 piercing, and **Antennae** twice. **Gear-Hunger** (bonus action): moves up to half its speed toward the nearest iron object without provoking. Otherwise as ore-borer. |
 | **Water weird** | 3 (700) | Water-weird-like | 13 | 58 | 0, swim 60 | **Constrict** +5, reach 10 ft, 3d6+3 bludgeoning; grappled (escape DC 13) and pulled 5 ft toward the water; while grappled the target is restrained and, if pulled under, can't breathe. *Invisible in Water.* *Water Bound* (can't leave its pool). Resists fire and nonmagical bludgeoning, piercing, slashing; immune poison. *Freeze:* after taking cold damage its speed is 0 until the end of its next turn. |
 | **Quipper swarm** | 1 (200) | Swarm-of-quippers-like | 13 | 28 | swim 40 | **Bites** +5, 3d6 piercing (1d6 if the swarm is bloodied). *Blood Frenzy* (advantage against creatures below max HP). *Swarm.* *Water Breathing only.* |
@@ -1171,7 +1177,7 @@ Low 2,000 / Moderate 3,000 / High 4,400):
 |---|---|---|---|---|
 | **E1 Crest** | 4 mere-claws + the Old Snapper | 1,500 | Low (terrain and grapple-drag add weight) | Effectively yes (Stealth bypass DC 14) |
 | **E2 Gear Hall** | Greaves, 3 thugs, 2 cutters | 1,200 | Low (and negotiable) | No |
-| **E3 Forge** | mother + 3 ore-borers | 750 | Low (the gear clock and the corrosion are the real threat) | Yes, unless Speak with Animals or smoke |
+| **E3 Forge** | mother + 3 ore-borers | 750 | Low (the gear clock is the real threat; corrosion lasts only for the fight) | Yes, unless Speak with Animals or smoke |
 | **E4 Shaft** | water weird + 2 quipper swarms | 1,100 | Low (optional route) | No |
 | **E5 Tailrace** | 3 giant pike, in the water | 600 | Low, played as Moderate (underwater penalties) | Only via route 1 of the Mud Jam |
 | **E6 Cache** | Varrow, Stoke, 3 thugs, 2 cutters | 2,750 | Moderate (negotiable) | No |
