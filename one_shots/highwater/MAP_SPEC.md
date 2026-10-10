@@ -51,7 +51,8 @@ strongly recommended for the table.
 - Horizontal axis = **y** (north–south), 0 → 120 ft; vertical axis = elevation.
 - **Upstream face** is **vertical** at y = 0, from the crest (0 ft) to the
   floor of the Mere at −90 ft. Mere water (blue) lies to the **left** of this
-  face, with its surface a hand's breadth **below the crest lip** (≈ −1 ft).
+  face, with its surface about **4 ft below the crest** — three fingers under
+  the floor of the Spill Notch, which is the crest's low point.
 - **Downstream face** steps out in three stages: crest slab ends at y = 40;
   at −40 ft the face is at y = 65; at −90 ft it is at y = 90. Draw it as a
   **stepped slope** (like a staircase of large blocks) falling to the valley
@@ -71,9 +72,10 @@ strongly recommended for the table.
   Gallery.)
 - **East Face Ledge** is a thin stone ledge on the downstream face 30 ft
   below the crest (elev −30), x 215–265.
-- Add three **Mark lines** on the Mere side showing the failure level:
-  **Danger Line** (just under the crest lip), **Crest Lip** (0 ft), and
-  **Overtopping** (+1 ft above the Spill Notch floor).
+- Add three **lines** on the Mere side: the **Crest** (0 ft), the **Spill
+  Notch lip** (−4 ft; overtopping here is what fails the dam), and the
+  **Danger Line** (≈ −10 ft; the Mere must fall below it after the Great Gate
+  opens).
 - Label: "Mere (reservoir)", "Crest", "Gallery", "Sluice Level", "Valley",
   "Lowmill (off-map, 2 mi)".
 

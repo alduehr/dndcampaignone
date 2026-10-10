@@ -21,6 +21,8 @@ levers that speed up or slow down the table, and the Gauge handout.
 - [ ] Scratch paper for the **gate state**: Gate 1 ☐ Gate 3 ☐ Weir-Gate ☐
       Diversion Mouth clear ☐ main plug clear ☐ Gate 2 ☐, beacon ☐,
       Ivo's location ____, Governor mode: Off / Light / Full.
+- [ ] Decide what **pauses the timer**: real-world breaks and DM rules
+      look-ups, yes; player planning, no.
 - [ ] Run the **20-minute Lowmill setup** first. **Start the timer when the
       party reaches the road's end at the dam** (the Keeper's House door).
 
@@ -34,16 +36,16 @@ keep the Penalty Tally where everyone can see it.
 ```
   BRINDLE DAM — WATER GAUGE (Mere side)
 
-   CREST LIP ──────────────────────────────── the dam fails here
-   ▼ MARK 6 (0:00)   — FAILURE
-   ▼ MARK 5 (0:30)   — over the Spill Notch
+   ▼ MARK 6 (0:00)   — the Notch cuts through: FAILURE
+   ▼ MARK 5 (0:30)   — over the Spill Notch's lip
    ▼ MARK 4 (1:00)
    ▼ MARK 3 (1:30)
    ▼ MARK 2 (2:00)
    ▼ MARK 1 (2:30)
-   START   (3:00)    — a hand's breadth under the lip
+   START   (3:00)    — three fingers under the Notch's lip
 
-   DANGER LINE ........ where the Mere must fall to after the Great Gate
+   DANGER LINE ........ ~6 ft under the Notch's lip: once the Mere falls
+                        past it after the Great Gate opens, the dam is safe
 
    PENALTY TALLY:  ______________________________   = ____ min
    MERE EVENTS:    ______________________________   (rain, bursts, rafts)
@@ -141,6 +143,11 @@ You can change modes mid-session; nobody will know.
   **+30** across the session. If you hit a cap, use the soft dials (5.5).
 - **Never in the middle of a fight or a big moment.** Hold the event until
   the scene breaks, then drop it.
+- **Correct for speed, not for choices.** Never use an event to undo the
+  cost of a wrong lever or a rest, to rescue a failed plan, or to cancel out
+  a clever shortcut. If the party is ahead because they played well, let
+  part of that lead stand: aim for the top of the band (0:20), not the
+  bottom.
 - **Don't tell the players the Governor exists.** Do tell them, early, that
   the Mere is unpredictable and the Gauge is the truth.
 
@@ -315,7 +322,7 @@ Step / Fly / Spider Climb (shortcuts between levels).
 
 | Mark | Say |
 |---|---|
-| **Start** | *"The water is a hand's breadth under the lip. Odo said three hours. It's three hours."* |
+| **Start** | *"The water is three fingers under the Notch. Odo said three hours. It's three hours."* |
 | **1 (2:30)** | *"Somewhere below you, something heavy shifts. The air goes cold and wet. The bottom of the dam is taking water."* |
 | **2 (2:00)** | *"A long, grinding groan. Dust sifts from the ceiling. Somewhere west, a section of the corridor lets go."* |
 | **3 (1:30)** | *"The beck below the dam has risen over the tailrace mouth. You can hear the tunnel filling."* |
@@ -360,6 +367,8 @@ If effective time hits **0:00** and Gate 2 is not open:
 ```
 HIGHWATER — DM CARD
 Timer 3:00:00, starts at the road's end. EFFECTIVE TIME = TIMER − TALLY.
+Pause for real breaks and DM look-ups; never for player planning.
+Pay: 500 retainer + guild bounty 1,500 / 1,000 / 300 / 0 by outcome.
 Marks (effective): 2:30 S-west floods | 2:00 corridor collapse
                    1:30 Tailrace floods | 1:00 Valve Hall chest-deep
                    0:30 over the Notch  | 0:00 BREACH

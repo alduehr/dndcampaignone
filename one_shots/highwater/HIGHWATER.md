@@ -27,8 +27,8 @@ under eight feet of water that the town cannot outrun. A **second outlet**
 exists: the **Old Overflow Channel**, a Concord-era diversion tunnel that
 carries the Great Gate's flow away from the valley and into a disused
 quarry. Two years ago a smuggler named **Sull Varrow** unsealed it from the
-quarry end and turned its intake vault into a **cache**. When the rains came,
-the Keeper meant to open the Little and Still Gates to ease the dam — but the
+quarry end and turned its intake vault into a **cache**. Four days into the
+rain, the Keeper meant to open the Little and Still Gates to ease the dam — but the
 Still Gate's discharge race runs under the cache floor, and its cracked cover
 stones would have flooded Varrow's goods. So his crew smashed the gate train's
 Master Gear and locked the Keeper in his own cellar until the wagons could
@@ -150,8 +150,17 @@ All disposable, all invented for this module.
 
 **This is a real-time adventure.** After the setup, you start a visible
 **3-hour countdown** on a phone, kitchen timer, or projected clock. The party
-can see it. The Lowmill millwright's estimate is the dam's actual failure
-time, and the table plays against it.
+can see it, and the table plays against it.
+
+**The timer is a session timer, not the in-world clock.** Three hours on the
+timer is "until the dam goes," not three hours of game time; don't try to
+reconcile them. A short rest, a ladder, a fight — the fiction runs as fast or
+slow as it needs to. The only in-world times that matter are the ones the
+Penalty Tally charges.
+
+**Pause the timer for real-world breaks** (food, bathroom, a phone call) and
+for rules look-ups that are the DM's problem. **Don't pause it for player
+planning** — arguing about the plan is the game.
 
 Use the **Gauge** — a one-page handout in [`PACING_SHEET.md`](PACING_SHEET.md)
 — as the in-fiction face of the clock. It shows a water gauge with six
@@ -187,7 +196,10 @@ the Notch. Each event moves the tally (and so the clock) by 5–15 minutes in
 either direction, and is announced in the fiction and written on the Gauge,
 so it reads as the dam's weather, not a fudge. The aim is for the Great Gate
 to open with **0:10–0:20** left — on the wire. The tool is entirely
-optional; use as much or as little of it as you like. The full procedure is
+optional; use as much or as little of it as you like. It corrects for **table
+speed**, never for **player choices**: it never undoes the cost of a wrong
+lever or a rest, never rescues a plan that failed, and never punishes one
+that worked — a clever shortcut should still feel like it bought something. The full procedure is
 [`PACING_SHEET.md`](PACING_SHEET.md) §5; it takes about thirty seconds per
 Mark.
 
@@ -209,13 +221,16 @@ one coming: a groan, a roar, a shudder, a fresh cold draft.
 ### The real deadline: Gate 2 by 0:10
 
 Opening **Gate 2** starts the **Draw-Down**: in the fiction, the Mere needs
-about ten minutes to fall below the Danger Line. So the party's true deadline
-is to have Gate 2 open **with at least 0:10 of effective time left.**
+a while to fall below the **Danger Line** (a painted band on the Crest's
+gauge-post, about six feet below the Notch's lip, where the dam is out of
+danger). The last ten minutes on the timer represent that margin, so the
+party's true deadline is to have Gate 2 open **with at least 0:10 of
+effective time left.**
 
 **The moment Gate 2 opens, stop the timer and write down the effective time
-left.** The finale (E7) is then played in rounds, not against the clock — a
-real combat round takes two or three real minutes, so the Draw-Down would
-never fit in ten. The frozen reading decides the outcome:
+left.** The finale (E7) is then played in rounds, not against the clock; the
+Draw-Down lasts as long as the fight does (8 rounds). The frozen reading
+decides the outcome:
 
 | Effective time left when Gate 2 opens | Result |
 |---|---|
@@ -287,14 +302,31 @@ the plan, and one reason to care. **The timer does not run here.**
 **Scene 1 — The bell (≈5 min).** Rain, a stone mill-village stepping down the
 Brindle toward the Ammet. The reeve's bell is ringing without a rhythm.
 **Maren Dole** meets the party in the road. She is wet to the skin and has
-ridden twice to Orchardmere for help; nobody has come. She will pay **1,500
-gp** (more if they save the town) for anyone who will go up to the dam.
+ridden twice to Orchardmere for help; nobody has come. She offers terms
+straight out, in front of the Reeve, so nobody can say later they weren't
+clear:
+
+> "Five hundred now, from me, for going up there — that's yours whatever
+> happens. The Millers' Guild pays the rest by what's still standing
+> tomorrow. Town dry and nobody hurt: fifteen hundred more. Water in the
+> streets: a thousand. Low town lost but the people out: three hundred.
+> Anything worse, and there's no guild left to pay you."
+
+| The deal | Paid |
+|---|---|
+| **Retainer** (Maren, up front) | **500 gp**, now, kept whatever happens |
+| **Guild bounty** — the town dry and everyone safe | **+1,500** (2,000 total) |
+| **Guild bounty** — water in the streets, nobody dead | **+1,000** (1,500 total) |
+| **Guild bounty** — low town flooded, people got out | **+300** (800 total) |
+| **Guild bounty** — lives lost, or the dam breaks | **+0** (500 total) |
 
 > "Three hours. That's what Odo says. Come and hear him say it."
 
 **Scene 2 — Fenn's chart (≈8 min).** In the mill-hall, **Odo Fenn** has a
-plank table covered in gauge readings. The Mere is a hand's breadth from the
-crest lip, rising two inches an hour, and the crest is cracking.
+plank table covered in gauge readings. The Mere is three fingers below the
+lip of the **Spill Notch** — the dam's low point, four feet under the rest of
+the crest — and rising nearly an inch an hour. When it pours over the Notch,
+the water will start cutting the Notch away, and the dam goes soon after.
 
 > "There are three spillway gates. The Keeper opens them in order, the water
 > goes down, the dam holds. Ivo Crask comes down every market-day. He's missed
@@ -328,7 +360,7 @@ starts now."*
 
 > **Read-aloud.** The dam's top is a stone road forty feet wide, running
 > two hundred and twenty feet from hillside to hillside. On your left, the
-> Mere lies a hand's breadth below the parapet — dark, heaving, full of
+> Mere lies barely four feet below the parapet — dark, heaving, full of
 > branches. On your right, the stone falls away ninety feet to a valley you
 > can't see for the spray. Halfway along, the crest dips into a notch where
 > the water is already licking the lip.
@@ -358,8 +390,8 @@ of chitin, and one claw in the Notch as big as a door.
   half cover).
 - **Tactics:** the crayfish try to grapple a character and drag them toward the
   upstream parapet (half speed while dragging), then tip them over into the
-  Mere. That is a **soft drop** — the water is a hand's breadth below the
-  parapet — and a **DC 10 Athletics** check climbs back out (an action). But
+  Mere. That is a **soft drop** — the water is only about four feet below
+  the parapet — and a **DC 10 Athletics** check climbs back out (an action). But
   it costs the character their turn and leaves them prone and soaked.
 - **Morale:** the small ones flee into the water once two of them are down or
   the Snapper is bloodied; the Snapper fights until bloodied, then sinks.
@@ -933,8 +965,8 @@ that way too — but the quarry is half an hour around the hill from the dam
 
 **Sull Varrow** and his crew (Varrow, Dunna Stoke, three thugs, two cutters)
 have been working this cache for two years, moving goods out through the
-Overflow Channel to the quarry. When the rains began they barred the Alcove
-door, locked up Ivo, and broke the gear train. Then the quarry track washed
+Overflow Channel to the quarry. Four days into the rain — a week ago — they
+barred the Alcove door, locked up Ivo, and broke the gear train. Then the quarry track washed
 out. Now the water is seeping through the floor and the cache will be the
 first thing the channel drowns. He's desperate. He's also practical. **If the
 party opened Gates 1 and 3 early, the floor is already knee-deep and Varrow
@@ -1051,6 +1083,24 @@ gate opens:
 
 Opening a gate that's already open, or re-closing one, does nothing — the
 levers lock once thrown.
+
+**Water routing at a glance.** Every outlet in the dam, where its water
+goes, and what Lowmill sees. Nothing else moves water to the valley.
+
+| Outlet | Opened by | Path | Lowmill |
+|---|---|---|---|
+| **Gate 1** (Little) | Lever I or its crank | S2 → grille → S9 → S9's own mouth → dam toe → beck | Part of the "1 ft" |
+| **Gate 3** (Still) | Lever III or its crank | S4 floor grille → stone race under the Cache (cracked: the Cache floor floods knee-deep) → dam toe → beck | Part of the "1 ft" |
+| **Gate 2** (Great), channel ready | Lever II or its crank | S3 → grille → S8 → Diversion Mouth → Cache → Weir-Gate → Old Channel → quarry | **2 ft total** (the small gates' water plus spill) |
+| **Gate 2**, channel not ready, main plug clear | same | S3 → S8 → S8's south mouth → dam toe → beck | **8 ft** |
+| **Gate 2**, both exits blocked | same | Nowhere — Water Hammer; resolves within 10 minutes (see *The Clock*) | Depends how it resolves |
+| **The Flush** | Breaking the shear pin | S3 → S8 for 3 rounds, scouring the mud out the south mouth (and through the Cache if the shutter is open) | A brief surge; no change to the outcome |
+| **Weir-Gate alone** | The Great Wheel | Nothing flows until Gate 2 opens; any water on the Cache floor drains to the quarry | — |
+| **Tailrace** (S10) | Always open | The Valve Hall's drain to the beck; it's how the beck backs *into* the dam at Mark 3 | — |
+
+The **Lowmill depth** is decided only by where Gate 2's water goes (and
+whether the Notch tears). The **beacon** decides only whether people are
+standing in that water.
 
 **Where Gate 2's water goes.** Check this the moment Gate 2 opens:
 
@@ -1270,13 +1320,17 @@ file); items don't scale.
 
 **From the town (Maren Dole + the Millers' Guild):**
 
-| Outcome | Reward |
-|---|---|
-| The Town Lives | **2,000 gp** from the guild, and a free bed for life at any mill-inn in the Vale |
-| The Town Bruised | 1,500 gp |
-| The Town Drowned (beacon lit) | 800 gp |
-| A Cost in Lives (no beacon) | 300 gp, paid without eye contact |
-| The Breach | The guild owes the party; there's nothing left to pay with |
+These are exactly the terms Maren states in Lowmill (500 gp retainer up
+front, plus the guild's bounty by outcome), so a bad ending never feels like
+a changed contract.
+
+| Outcome | Retainer | Guild bounty | Total |
+|---|---|---|---|
+| The Town Lives | 500 | +1,500, and a free bed for life at any mill-inn in the Vale | **2,000 gp** |
+| The Town Bruised | 500 | +1,000 | **1,500 gp** |
+| The Town Drowned (beacon lit) | 500 | +300 | **800 gp** |
+| A Cost in Lives (no beacon) | 500 | — | **500 gp** |
+| The Breach | 500 | — (there's no guild left to pay) | **500 gp** |
 
 **Found in the dam:**
 
@@ -1308,8 +1362,8 @@ Crest fight**.
 
 | Outcome | Condition | Aftermath |
 |---|---|---|
-| **The Dam Holds, the Town Lives** | Gate 2 opened with **0:10+**; channel path ready (Weir open, Mouth clear); beacon lit | The flats flood ankle-deep. The Reeve names the party the town's friends. |
-| **The Dam Holds, the Town Bruised** | Gate 2 opened with **0:10+**; channel path ready; **no** beacon | Streets flooded to 2 ft; people caught in the flats; a handful hurt, none dead. |
+| **The Dam Holds, the Town Lives** | Gate 2 opened with **0:10+**; channel path ready (Weir open, Mouth clear); beacon lit | Two feet of water in the low streets, and nobody standing in it — the bell sent them uphill. The Reeve names the party the town's friends. |
+| **The Dam Holds, the Town Bruised** | Gate 2 opened with **0:10+**; channel path ready; **no** beacon | The same two feet of water, but people were still in the flats when it came: a handful hurt, none dead. |
 | **The Dam Holds, the Town Drowned** | Gate 2's water went down the valley (channel not ready), **or** the Notch tore (**0:01–0:09**); beacon lit | The low town under 8 ft; most got out; homes and two mills lost. |
 | **The Dam Holds, a Cost in Lives** | As above, **no** beacon | The low town under 8 ft with people still in it. A grim ending. |
 | **The Breach** | Gate 2 never opened before 0:00 | The Crest cracks; the party has five rounds to get off the dam (Pacing Sheet §8). The wave takes Lowmill. If the beacon was lit, most of the people live. |
