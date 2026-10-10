@@ -20,7 +20,7 @@ levers that speed up or slow down the table, and the Gauge handout.
 - [ ] Scaling row chosen (`PARTY_AND_LEVEL_SCALING.md`).
 - [ ] Scratch paper for the **gate state**: Gate 1 ☐ Gate 3 ☐ Weir-Gate ☐
       Diversion Mouth clear ☐ main plug clear ☐ Gate 2 ☐, beacon ☐,
-      stoplogs ☐, early-gates bonus ☐, Ivo's location ____.
+      Ivo's location ____, Governor mode: Off / Light / Full.
 - [ ] Run the **20-minute Lowmill setup** first. **Start the timer when the
       party reaches the road's end at the dam** (the Keeper's House door).
 
@@ -113,37 +113,40 @@ how far off they can drift before you pull a lever (§5).
 
 ## 5. The Governor (Make It Come Down To The Wire)
 
-Nobody can predict how fast a table will move. So instead of predicting,
-**steer**: at each Mark, check how the party is tracking and, if they're far
-off, let the Mere do something. The goal is for the Great Gate to open with
-**0:10–0:20 of effective time left** — close enough that the table is
-sweating, far enough that the dam holds.
+**This is the DM's tool, not the players'.** The players can only *lose*
+time (rests, failed rolls, wrong levers). Only you can move the clock in
+either direction, and only if you want to. The goal is for the Great Gate to
+open with **0:10–0:20 of effective time left** — close enough that the table
+is sweating, far enough that the dam holds.
 
-The Governor has three parts: **read the margin** (5.1), **pull one
-event** (5.2–5.3), and the **final approach** (5.4). The older soft dials
-(5.5) and the finale dial (5.6) still apply.
+**Pick a mode before the session:**
 
-### Fairness rules (read these first)
+| Mode | What you do |
+|---|---|
+| **Off** | Run the honest clock. Ignore the rest of §5 except the finale dial (5.6). |
+| **Light** | Only the final-approach check (5.4). One adjustment, near the end. |
+| **Full** | Check at every Mark (5.1) and at the final approach. Best for a first run, when you don't yet know your table's pace. |
 
-- **Every change is visible and has a cause.** A Governor event is something
-  the *Mere* does — rain, a burst upstream, a raft of timber — announced in
-  the fiction and written on the Gauge's **Mere Events** line. Players see
-  the tally move and hear why. It's weather, not a fudge.
-- **One event per Mark**, plus one at the final approach. Never two in a row
-  in the same direction unless the margin is still badly off.
+You can change modes mid-session; nobody will know.
+
+### Rules for using it
+
+- **Every event is the Mere's doing.** Announce it in the fiction ("the rain
+  doubles") and write it on the Gauge's **Mere Events** line, so the players
+  see the clock move *and* hear why. It reads as the dam's weather, not as
+  the DM's hand.
+- **One event per check.** Checks happen at each Mark and once at the final
+  approach.
 - **Caps:** reprieves total no more than **−30**; surges total no more than
-  **+30** across the whole session.
-- **Never take back a win.** No surge within 5 real minutes of the party
-  earning time (stoplogs, early gates, scour valve). Let them enjoy it.
-- **Every surge has a counterplay** that wins some of it back. Pressure
-  should create a decision, not just a smaller number.
-- **Don't tell the players the Governor exists.** Do tell them the Mere is
-  unpredictable, and that the Gauge is the truth.
+  **+30** across the session. If you hit a cap, use the soft dials (5.5).
+- **Never in the middle of a fight or a big moment.** Hold the event until
+  the scene breaks, then drop it.
+- **Don't tell the players the Governor exists.** Do tell them, early, that
+  the Mere is unpredictable and the Gauge is the truth.
 
 ### 5.1 Read the margin
 
-At each Mark (2:30, 2:00, 1:30, 1:00, 0:30) and at the final-approach check
-(5.4), work out:
+At each check, work out:
 
 > **Projected opening = effective time left − work remaining**
 
@@ -183,37 +186,37 @@ in the "behind" band: pull a soft dial (Corrin turns up with the knock). At
 Mark 4 (1:00), they're at the Old Overflow Door (M8, 0:45 remaining):
 projected 0:15 — leave it alone.
 
-### 5.2 Reprieves (subtract from the tally)
+### 5.2 Reprieves (subtract from the tally — slows the clock)
 
 | # | Event | Tally | Say | Use |
 |---|---|---|---|---|
-| **R1** | **The rain eases.** | **−10** | *"The drumming on the hatch slackens. For the first time in an hour, the needle on the Gauge stops."* | Any Mark. |
-| **R2** | **Help from upstream.** Lowmill's millers cut the Brindle's top leat above the Mere and turn part of the inflow down an old mill-race. | **−10** | *"A horn from the hills, three long notes. Maren's people. The roar from the inflow drops a tone."* | Once, from Mark 2 on. |
-| **R3** | **The timber raft.** A mat of storm-timber lodges across the Spill Notch and holds the water back for a while. | **−5** | *"Something heavy grinds against the crest above you, and the sound of overflow stops."* | From Mark 3 on. If you later need a surge, this raft can break loose (S4). |
-| **R4** | **Ivo's second thought.** If Ivo is with the party or at the levers, he remembers the scour valve (see §5.7) and tells them. | **0** now — it points them at a player-earned −10 | *"Ivo stops dead. 'The scour. Gods, I forgot the scour.'"* | Once, before Mark 4. |
+| **R1** | **A lull** between storm bands. | **−5** | *"For a minute the rain on the hatch goes almost quiet."* | Any check. The small nudge. |
+| **R2** | **The rain eases.** | **−10** | *"The drumming on the hatch slackens. For the first time in an hour, the needle on the Gauge stops."* | Any check. |
+| **R3** | **Help from upstream.** Lowmill's millers cut the Brindle's top leat above the Mere and turn part of the inflow down an old mill-race. | **−10** | *"A horn from the hills, three long notes. Maren's people. The roar from the inflow drops a tone."* | Once, from Mark 2 on. |
+| **R4** | **The timber raft.** A mat of storm-timber lodges across the Spill Notch and holds the overflow back for a while. | **−5** | *"Something heavy grinds against the crest above you, and the sound of overflow stops."* | From Mark 3 on. Sets up surge S4 if you need it later. |
 
-### 5.3 Surges (add to the tally)
+### 5.3 Surges (add to the tally — speeds the clock)
 
-| # | Event | Tally | Say | Counterplay (wins time back) | Use |
-|---|---|---|---|---|---|
-| **S1** | **Cloudburst.** | **+10** | *"The rain doubles. You can hear it on the hatch through fifty feet of stone."* | If the stoplogs aren't down yet, Ivo or the Gauge reminds them: lowering them now gets the full −15. | Any Mark. |
-| **S2** | **Hask's mill-pond bursts upstream.** A wall of brown water hits the Mere. | **+15** | *"A sound like a cart going over a bridge, far off. Then the whole dam leans — and the Gauge jumps."* | The wave carries a timber raft that jams the **Spill Notch**: anyone on the Crest can lever it clear (DC 13 Athletics, one action) for **−5**. Otherwise it stays there harmlessly. | Once, from Mark 2 on. The big one — use it on a table that's flying. |
-| **S3** | **A seal blows.** A gate seal in the room nearest the party spits a jet of water. | **+5**, plus a Surge Crack there | *"A rivet goes like a gunshot. A white jet of water crosses the room at chest height."* | A character can plug it (DC 13 Athletics or tinker's tools, one action) for **−5** — net zero. | Any Mark. |
-| **S4** | **The raft breaks loose.** Only if R3 happened. | **+5** | *"Above you, the grinding stops. The overflow comes back, louder."* | — | After R3. |
-| **S5** | **The intakes choke.** Branches clog the Little and Still Gates' trash racks. | **+5** (only if they took the early-gates bonus) | *"The needle on Gauge I shivers and climbs back up."* | A character with Water Breathing (Ivo's potions) can clear the rack from the Valve Hall sump (DC 12 Athletics) for **−5**. | After the early gates are open. |
+| # | Event | Tally | Say | Use |
+|---|---|---|---|---|
+| **S1** | **A gust of rain.** | **+5** | *"A squall rattles the hatch and moves on."* | Any check. The small nudge. |
+| **S2** | **Cloudburst.** | **+10** | *"The rain doubles. You can hear it on the hatch through fifty feet of stone."* | Any check. |
+| **S3** | **Hask's mill-pond bursts upstream.** A wall of brown water hits the Mere. | **+15** | *"A sound like a cart going over a bridge, far off. Then the whole dam leans — and the Gauge jumps."* | Once, from Mark 2 on. The big one, for a table that's flying. |
+| **S4** | **The raft breaks loose.** Only after R4. | **+5** | *"Above you, the grinding stops. The overflow comes back, louder."* | After R4. |
+| **S5** | **A seal blows** in the room nearest the party. | **+5**, plus a Surge Crack there | *"A rivet goes like a gunshot. A white jet of water crosses the room at chest height."* | Any check; good when you also want a jolt of danger. |
 
 ### 5.4 The final approach
 
-Make one extra check at **0:45 effective, or the moment the Great Wheel
-turns — whichever comes first.** Use the same table (5.1). From here on:
+In **Light** or **Full** mode, make one check at **0:45 effective, or the
+moment the Great Wheel turns — whichever comes first.** Use the same table
+(5.1). Then:
 
 - **Call the time every 5 minutes** ("Twenty-five." "Twenty."). The table
   should feel it.
-- If the projection is **0:30 or more**, pull **S1 or S2** even if you pulled
-  a surge at the last Mark (this is the one exception to "never two in a
-  row").
-- If it's **0:00 or less**, pull **R1 or R2** — and lean on the soft dials
-  (Ivo at the levers, the bell, Varrow opening the door himself).
+- If the projection is **0:30 or more**, pull **S2 or S3**, even if you
+  pulled a surge at the last Mark.
+- If it's **0:00 or less**, pull **R2 or R3**, and lean on the soft "behind"
+  dials (Ivo at the levers, the bell, Varrow opening the door himself).
 - After this check, **no more clock events.** What happens now is theirs.
 
 ### 5.5 Soft dials (no clock change)
@@ -227,7 +230,7 @@ order**. Never announce that you're helping.
    crayfish dive. E2: Greaves bolts down the chute. E3: the smoke works at
    once.
 2. **Hand over a clue.** Corrin Bale appears with the knock; Ivo remembers
-   the stoplogs; the Alcove's draft is obvious.
+   the bell-pull; the Alcove's draft is obvious.
 3. **Drop a success requirement by one.** Great Wheel, gear install, mud.
    (Never touch DCs.)
 4. **Point out a shortcut that costs HP.** The Spoil Chute, the East Face
@@ -263,21 +266,6 @@ order**:
 
 ---
 
-### 5.7 Earned time (what the players can do about it)
-
-The Governor is the Mere's half of the bargain; these are the party's. Make
-sure every one of them has at least one clue pointing at it.
-
-| Lever | Where | Effect | Clues |
-|---|---|---|---|
-| **Lower the stoplogs** | Winch House (C2) | **−15**, once | Fenn's plant, Ivo, the winch drums |
-| **Open Gates 1 and 3 early** | Control Gallery levers, once the gear is in | **−10**, once; floods the Cache floor | Ivo, the Pressure Board plates, the Flood Chart's first line |
-| **Open the scour valve** | Valve Hall (S1) | **−10**, once; the Valve Hall floods a Mark early, and anyone in the Tailrace or Outfall is swept | The Pressure Board's fourth plate, Ivo (R4) |
-| **Answer a surge** | Wherever it hits | **−5** each (S2, S3, S5) | The event itself |
-| **Don't rest** | — | Saves the 15 a short rest costs | — |
-
----
-
 ## 6. Every Time Cost In One Place
 
 **Costs (add to the tally):**
@@ -295,24 +283,15 @@ sure every one of them has at least one clue pointing at it.
 | Great Wheel: each failed roll | 3 |
 | Great Wheel slipped (3 failures), reset | 5 |
 | Levering the Diversion shutter by hand (cable cut) | 5 |
-| Lowering the stoplogs | 5 (+5 per failed attempt) |
 | Wrong gate order: Shudder | 10 |
 | Wrong gate order: Water Hammer | 20 |
 | Gate 3 hoist jam (ahead-dial) | 5 |
 | A character climbing back from the dam toe (that character only) | 10 |
 | Coming in by the quarry and the Old Channel | 30 |
 
-**Bonuses (subtract from the tally; the tally may go negative):**
-
-| Action | Bonus |
-|---|---|
-| Stoplogs lowered | **−15** (once) |
-| Gates 1 and 3 opened, in order, before Gate 2 | **−10** (once) |
-| Scour valve opened (before Mark 4) | **−10** (once) |
-| Answering a surge (S2, S3, S5) | **−5** each |
-| Governor reprieves (R1–R3) | **−5 to −10** each; −30 cap |
-
-**Governor surges** (S1–S5) add **+5 to +15** each; +30 cap.
+**The players can't subtract from the tally.** Only the DM can, with a
+Governor reprieve (§5.2: −5 or −10 each, −30 cap). Governor surges (§5.3) add
++5 to +15 each, +30 cap. The tally may go negative after reprieves.
 
 **Free, but HP for time:**
 
@@ -323,8 +302,8 @@ sure every one of them has at least one clue pointing at it.
 | East Face Ledge (fall from the parapet) | 3d6; lands at the East Stair |
 | The Flush | DC 15 Str save or 3d10 for anyone in S3/S8; counts as Gate 2 for the Order Rule (smooth only if Gates 1 and 3 are running) |
 
-**Spells that save time** (they remove a cost or a roll; they don't add
-bonuses): Knock (the door), Fabricate (the gear), Mending (a cracked gear
+**Spells that skip a cost or a roll** (they never subtract from the
+tally): Knock (the door), Fabricate (the gear), Mending (a cracked gear
 only), Control Water (the Tailrace and the Outfall), Water Breathing
 (underwater digging and swimming), Stone Shape / Move Earth / Transmute
 Rock (the mud), Telekinesis (the wheel), Speak with Animals (E1, E3), Misty
@@ -390,7 +369,7 @@ Gate order 1 -> 3 -> 2 ("Little, Still, Great").
 Good ending needs Weir-Gate open AND Diversion Mouth dug out BEFORE Gate 2.
 Gate 2 with both exits blocked = Water Hammer, no Draw-Down, timer runs;
   10 min to open the channel, else the plug blows down the valley.
-Bonuses: Gates 1+3 early -10 (floods the Cache floor). Stoplogs -15.
+Players can only LOSE time. Only the DM moves the clock (Governor).
 Costs: short rest 15 | wrong order 10/20 | failed install/mud 5 | wheel 3
 Knock: three, then one.  Gear: 24 T (cage key in Ivo's cabinet).
 Nobody in the Cache when Gate 2 opens.
@@ -399,11 +378,10 @@ Fights: E1 Crest (4 claws + Snapper) | E2 Gear Hall (Greaves +5)
         E3 Forge (mother + 3; rust ends with the fight) | E4 Shaft (weird + 2, opt.)
         E5 Outfall (3 pike, in water) | E6 Cache (Varrow + 6, talkable)
         E7 Crest (silt elemental, drains from round 4, gone end of rd 8)
-GOVERNOR at each Mark + at 0:45 / wheel turned:
+GOVERNOR (optional; mode Off / Light / Full):
   projected = effective left - work remaining (table 5.1)
-  >=0:30 surge (+5..+15) | 0:21-0:29 soft-ahead | 0:10-0:20 nothing
-  0:01-0:09 soft-behind | <=0:00 reprieve (-5..-10). Caps +/-30.
-  Every event is weather, announced, and has a counterplay.
-Earned: stoplogs -15 | Gates 1+3 early -10 | scour valve -10 | answer surge -5
+  >=0:30 surge +5/+10/+15 | 0:21-0:29 soft-ahead | 0:10-0:20 nothing
+  0:01-0:09 soft-behind | <=0:00 reprieve -5/-10. Caps +/-30.
+  Always weather, always announced, never mid-fight.
 Call the time every 5 min after 0:45. Target frozen reading: 0:10-0:20.
 ```

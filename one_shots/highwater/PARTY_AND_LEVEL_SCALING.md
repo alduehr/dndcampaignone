@@ -99,7 +99,6 @@ Group checks scale by **one success**, never by DC.
 | **Whole plug — big job** (DC 14) | 4 | **5** | 6 | 7 |
 | **Great Wheel** (before 3 failures; DC 15) | 4 | **5** | 5 | 6 |
 | **Hand-crank a gate** (before 2 failures; DC 15) | 2 | **3** | 3 | 4 |
-| **Stoplogs** (before 2 failures; DC 13) | 2 | **3** | 3 | 3 |
 | **Characters at the wheel per round** | 2 | **3** | 3 | 4 |
 
 ---

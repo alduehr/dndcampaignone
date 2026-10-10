@@ -168,23 +168,28 @@ lever. Whenever this file says an action **"costs N minutes,"** add N to a
 > **Effective time left = timer − Penalty Tally.**
 
 Marks, checkpoints, and the deadline all fire on **effective time**. (Most
-phone timers can't subtract minutes; the tally avoids having to.) Some
-actions *reduce* the tally — dropping the stoplogs, opening the small gates
-early, opening the scour valve — and say so; the tally can go negative.
+phone timers can't subtract minutes; the tally avoids having to.) Never
+charge for something the table already played out live; the tally is only
+for time the fiction skips over. The full list of costs is in
+[`PACING_SHEET.md`](PACING_SHEET.md) §6.
 
-### The Governor (keeping it close)
+**The players can only lose time, never earn it.** Rests, failed rolls, and
+wrong levers add to the tally; nothing the party does takes minutes off. Only
+the DM can do that, through the Governor.
 
-Nobody can predict how fast a table will move, so the clock **steers**. At
-each Mark, the DM compares the party's progress with the time left and, if
-they're far ahead or far behind, the **Mere** does something: the rain eases,
-a mill-pond bursts upstream, a raft of timber jams the Notch. Every event is
-announced, written on the Gauge, and most come with a way for the party to
-win some time back. Reprieves and surges are each capped at 30 minutes per
-session. The aim is for the Great Gate to open with **0:10–0:20** left —
-on the wire. The full procedure is [`PACING_SHEET.md`](PACING_SHEET.md) §5;
-it takes about thirty seconds per Mark. Never charge for something the
-table already played out live; the tally is only for time the fiction skips
-over. The full list of costs is in [`PACING_SHEET.md`](PACING_SHEET.md) §6.
+### The Governor (the DM's tool for keeping it close)
+
+Nobody can predict how fast a table will move, so the DM can **steer** —
+if they want to. At each Mark, compare the party's progress with the time
+left. If they're far ahead or far behind, the **Mere** does something: the
+rain eases or doubles, a mill-pond bursts upstream, a raft of timber jams
+the Notch. Each event moves the tally (and so the clock) by 5–15 minutes in
+either direction, and is announced in the fiction and written on the Gauge,
+so it reads as the dam's weather, not a fudge. The aim is for the Great Gate
+to open with **0:10–0:20** left — on the wire. The tool is entirely
+optional; use as much or as little of it as you like. The full procedure is
+[`PACING_SHEET.md`](PACING_SHEET.md) §5; it takes about thirty seconds per
+Mark.
 
 ### Gauge Marks
 
@@ -303,13 +308,9 @@ mill-flats now, but he doesn't think they'll clear it. **The Reeve will ring
 the bell again** whenever the beacon on the dam's east end is lit; it's the
 signal the flats should run for high ground.
 
-> **Plant 1:** Fenn mentions, almost in passing, that old Dole — Maren's
+> **Plant:** Fenn mentions, almost in passing, that old Dole — Maren's
 > grandfather — used to say the Concord built the dam "with a second door." He
 > never found it. He didn't think it was real.
-
-> **Plant 2:** Fenn also mentions the **stoplogs** — "boards the Keeper can
-> winch down into the notch to buy a little time in a flood. Bless him if he
-> remembered them."
 
 **Scene 3 — The road up (≈5 min).** A two-mile, rain-slick track along the
 Brindle. The roar gets louder. At the top the road ends at the dam's west
@@ -384,8 +385,9 @@ inside the dam by **2:40**.
 
 #### C2 — The Winch House (East End)
 
-A 30-ft by 30-ft stone building with three iron winch-drums for the stoplogs
-(old emergency boards the Keeper could drop in the Spill Notch). A ladder leads
+A 30-ft by 30-ft stone building with three iron winch-drums, rusted solid,
+for stoplogs that rotted away a generation ago (the empty grooves are still
+in the Spill Notch's cheeks). A ladder leads
 to the roof, where the **signal beacon** is a lamp-cage with a reflector, fed by
 a barrel of lamp oil. Beside it is a **bell-cord** that rings a small bronze
 bell that can be heard in Lowmill on a clear day.
@@ -395,13 +397,6 @@ bell that can be heard in Lowmill on a clear day.
   time **before the end of the Crest fight (E7)** — water released by Gate 2
   takes about that long to reach the flats. This matters at the end (see
   *Outcomes*).
-- **The Stoplogs (clever-player option):** the three drums hold heavy oak
-  boards that drop into slots at the **Spill Notch**, raising its lip.
-  Lowering them is **3 successes before 2 failures, DC 13 Strength
-  (Athletics)**, one character per drum; it **costs 5 minutes**. Success
-  **removes 15 minutes from the Penalty Tally.** Once only. On a failure, a
-  board jams crooked; try again for another 5 minutes. Ivo, Fenn's plant, and
-  the drums themselves all point at this.
 - **The Winch House door** to the Crest is stuck; opening it is easy (DC 8).
 - **East Stair:** a stair goes down from the Winch House to the **Culvert
   Junction (G7)** on the Gallery Level.
@@ -432,15 +427,13 @@ hoping to be heard.)*
     before they took him; "Varrow's lot. I knew his brother."
   - What the Master Gear is (**24 teeth**) and where the spares are (the
     Parts Cage in the Forge; the key is in his cabinet).
-  - The sequence of the gates: **"Little, Still, Great."** And that opening
-    the Little and Still Gates early "takes the edge off the rise, but only
-    the Great Gate can draw the Mere down."
+  - The sequence of the gates: **"Little, Still, Great."** And that only
+    the Great Gate can draw the Mere down.
   - The existence of the **Old Overflow Door**, "in the alcove past the Great
     Gate. Sealed in my grandfather's time. These two years I've heard barrels
     rolling behind it at night."
   - The smugglers' knock: **three, then one** — learned in the cellar, from
     the men who brought his food.
-  - The **stoplogs** in the Winch House.
 - **The Keeper's Log** (a ledger on the desk) records everything above
   **except the knock** (he learned that after they locked him up) in his
   terse hand, plus a sketch of the Sluice Level and a note: *"If the Great Gate
@@ -671,8 +664,9 @@ fix a **cracked** gear but not a shattered one; **Fabricate** can make a new
 24-tooth gear from the broken one's iron (automatic success). The 30-tooth
 gear, filed down, installs the same way.
 
-**Once the levers are live, the party may open Gate 1 and Gate 3 early.** See
-*Gate Mechanics* — it buys time, and it floods the Cache floor.
+**Once the levers are live, the party may open Gate 1 and Gate 3 early.** It
+doesn't buy time, but it floods the Cache floor, which softens Varrow (see
+*Gate Mechanics* and S7).
 
 **Time check:** gear installed by **1:45**.
 
@@ -775,19 +769,6 @@ beneath it:
 - **I:** *"Open at any head."*
 - **III:** *"Open when I runs."*
 - **II:** *"Open when I and III run, and never against a closed weir."*
-- A fourth, smaller plate by a floor-level wheel: *"SCOUR — in flood only."*
-
-**The scour valve (earned time).** The floor wheel opens a bottom outlet
-that flushes silt from the Mere's bed straight out under the Valve Hall.
-Opening it is one action and a **DC 13 Strength (Athletics)** check (the
-wheel is stiff; failure just costs the action). It **removes 10 minutes from
-the Penalty Tally**, once. The price: the Valve Hall's water jumps **one
-Mark deeper** for the rest of the session (knee-deep becomes chest-deep,
-and so on), and anyone in the Tailrace or either Outfall when it opens makes
-a **DC 13 Strength save** or is swept out onto the dam toe (2d10
-bludgeoning, half on a success). Usable until Mark 4; after that the wheel
-is underwater (Water Breathing still reaches it). Clue paths: this plate,
-and Ivo, who forgot it until reminded (Pacing Sheet, reprieve R4).
 
 Reading the plates is free; working out what they mean (or confirming it
 from how the needles sit) is **Intelligence (Investigation) DC 12**, with
@@ -1091,11 +1072,12 @@ without Water Breathing. Telegraph it; whoever is at the levers can hear the
 bell, and the players know where their friends are.
 
 **What opens when:**
-- **Gate 1** and **Gate 3**: ease the rise, but can't draw the Mere down.
-  **Opening both (in order) as soon as the levers work removes 10 minutes
-  from the Penalty Tally** — once only. The Flood Chart shows Lowmill takes
-  about a foot of water from these two alone: harmless. It also **floods the
-  Cache floor knee-deep** through the cracked race (see S4 and S7).
+- **Gate 1** and **Gate 3**: can't draw the Mere down and **don't change the
+  clock** — only the Great Gate matters to the deadline. Opening them early
+  is still worth it for the Order Rule, and because it **floods the Cache
+  floor knee-deep** through the cracked race (see S4 and S7), which makes
+  Varrow easier to talk to. The Flood Chart shows Lowmill takes about a foot
+  of water from these two alone: harmless.
 - **Weir-Gate + Diversion Mouth:** together, divert Gate 2's water into the
   quarry. Both must be ready before Gate 2.
 - **Gate 2:** the Great Gate begins the **Draw-Down**. **Stop the timer.**
@@ -1234,7 +1216,6 @@ DCs.
 | **What's the gate order?** | Ivo's mnemonic: "Little, Still, Great" | Pressure Board plates (S1) | Pencilled notes at the levers (G5) | Experiment (a Shudder) |
 | **How do we open the Old Overflow Door?** | The knock: three, then one (Ivo; his tapping) | Greaves's tally-board (G4) | Corrin Bale | Knock spell; force; say Ivo's name through the door |
 | **Which gear fits?** | Shaft stub stamped "24 T" (G5) | Count a splinter's teeth (G5, DC 12) | Ivo | Greaves |
-| **Can we buy time?** | Stoplogs (Fenn, Ivo, the drums) | Open Gates 1 & 3 early (Ivo, the Pressure Board) | Scour valve (the fourth plate, Ivo) | Answering the Mere's surges (each event shows its own counter) |
 
 ---
 

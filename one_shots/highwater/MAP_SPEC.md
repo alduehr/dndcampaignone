@@ -87,13 +87,13 @@ strongly recommended for the table.
 |---|---|---|---|---|
 | — | Dam top slab | x 40–260, y 0–40 | 44 × 8 | Whole crest. North edge = upstream (Mere), south edge = downstream drop. |
 | C1 | **Crest Walk** | x 40–260, y 3–37 | 44 × 7 | Paved. **Parapets** (3 ft high) along y 0–3 (north) and y 37–40 (south), full length. Slick. |
-| — | **Spill Notch** | x 170–190, y 0–40 | 4 × 8 | Crest dips 4 ft here. An **iron-grate footbridge** crosses it at y 10–30. **Stoplog slots** (vertical grooves) in both cheeks of the notch at y 2–4. Water overtops here at Marks 5–6. |
+| — | **Spill Notch** | x 170–190, y 0–40 | 4 × 8 | Crest dips 4 ft here. An **iron-grate footbridge** crosses it at y 10–30. Empty **stoplog grooves** (scenery; the boards rotted long ago) in both cheeks of the notch at y 2–4. Water overtops here at Marks 5–6. |
 | — | **Central Shaft hatch** | circle, center (130, 30), r 5 → x 125–135, y 25–35 | 2 × 2 | Round iron hatch over the **hatch-well**: a 10-ft chimney with an iron ladder, 40 ft down to the Gallery ring. |
 | C3 | **Keeper's House** | x 4–38, y 2–38 | 7 × 7 | West abutment. Stone building. |
 | C3a | Kitchen-hall | x 4–38, y 2–24 | 7 × 4 | Cold hearth on west wall (x 4–10, y 8–14). **Cellar hatch** (5 × 5 ft) at x 10–15, y 14–19. |
 | C3b | Chamber / office | x 4–38, y 24–38 | 7 × 3 | Desk against south wall; **Keeper's Log** on desk (x 14–20, y 34–38). Wall cabinet (x 28–36, y 34–38). |
 | C3c | **Keeper's Cellar** *(below, elev −10)* | x 8–30, y 6–20 | 4 × 3 | Dashed outline. Stone, damp, a cot. Hatch above. Stair leaves from east wall at (30, 13). |
-| C2 | **Winch House** | x 265–295, y 5–35 | 6 × 6 | East abutment. Three iron **winch drums** along north wall (x 270–290, y 6–10), each wound with chain running out through a wall-slot toward the Spill Notch's stoplogs. **Roof ladder** at NE corner (x 290–294, y 6–10). Crowbar and 100 ft of rope on the south wall. |
+| C2 | **Winch House** | x 265–295, y 5–35 | 6 × 6 | East abutment. Three iron **winch drums** along north wall (x 270–290, y 6–10), rusted solid (scenery). **Roof ladder** at NE corner (x 290–294, y 6–10). Crowbar and 100 ft of rope on the south wall. |
 | C2a | **Signal beacon** *(on roof)* | x 280–292, y 8–16 (roof plan) | — | Lamp-cage + reflector + oil barrel + bell-cord. Draw as a small inset or note. |
 | — | **East Stair turret** | x 262–270, y 36–44 | 2 × 2 | Tight spiral stair, **down** to G7 (it runs the full 40 ft inside the turret). Bulges slightly from the downstream face. Exterior iron door on its south side at elevation −30 (266, 44) onto the East Face Ledge. |
 | — | **East Face Ledge** *(downstream, elev −30)* | x 215–265, y 40–45 | 10 × 1 | 5-ft stone ledge on the face, 30 ft below the crest. Reaches the turret door. Dashed. |
@@ -272,7 +272,7 @@ Overflow Channel**.
 
 | ID | Name | Rect (ft) | Size (sq) | Notes |
 |---|---|---|---|---|
-| S1 | **Valve Hall** | x 100–200, y 15–55 | 20 × 8 | Vaulted. **Pressure Board** on north wall (x 150–190, y 15–17): three plate-size brass gauges labeled I, II, III. **Sump pit** (circular, center (130, 30), r 13 → x 117–143, y 17–43) is the foot of the Central Shaft, black water; **stair foot** at its south-east rim (140, 40). **Silt heap** where the Spoil Chute lands at (190–198, 18–24). **Bell-pull** to the Control Gallery beside the Pressure Board (192, 16). **Scour-valve wheel** at floor level below the board (165–170, 16–19). |
+| S1 | **Valve Hall** | x 100–200, y 15–55 | 20 × 8 | Vaulted. **Pressure Board** on north wall (x 150–190, y 15–17): three plate-size brass gauges labeled I, II, III. **Sump pit** (circular, center (130, 30), r 13 → x 117–143, y 17–43) is the foot of the Central Shaft, black water; **stair foot** at its south-east rim (140, 40). **Silt heap** where the Spoil Chute lands at (190–198, 18–24). **Bell-pull** to the Control Gallery beside the Pressure Board (192, 16). |
 | S2 | **Gate 1 Chamber** ("Little") | x 55–100, y 15–55 | 9 × 8 | **Gate slab** in a slot at the north wall (x 70–85, y 15–18). **Hoist rack and hand-crank** on a platform 8 ft up at (90–96, 15–20). Discharge **grille** in the south wall (x 60–95, y 55). Door E to S1. |
 | S9 | **Gate 1 Outfall** | x 55–100, y 55–90 | 9 × 7 | Clear stone channel with **its own open south mouth** (x 60–95, y 90) onto the dam toe. The **Tailrace West Branch** meets its east wall (x 100, y 75–85) through an **iron grate**, so Gate 1's water stays out of the Tailrace. |
 | S3 | **Gate 2 Chamber** ("Great") | x 200–240, y 15–55 | 8 × 8 | **Gate slab** in a wide slot at the north wall (x 210–230, y 15–18): 20 ft wide. **Flush leaf** (small sluice) at the slab's foot (x 216–224, y 18–20), held by a visible iron **shear pin**. **Hand-crank** on a platform 8 ft up at (232–238, 15–20). South wall = heavy fixed iron **grille** (x 205–235, y 55) onto S8 — water passes, people don't. **Stair** up 10 ft to the Alcove along the east wall (x 232–240, y 30–40). Door W to S1 (200, 33–37); door E to S5 at the stair head (240, 33–37). |
@@ -341,7 +341,6 @@ features:
   gate2_flush_leaf:  {x: [216,224], y: [18,20], shear_pin: true}
   gate2_alcove_stair: {x: [232,240], y: [30,40], rises_ft: 10}
   bell_pull:         {at: [192,16]}
-  scour_valve_wheel: {x: [165,170], y: [16,19]}
   gate3_slab:        {x: [268,280], y: [15,18]}
   gate3_crank:       {x: [282,288], y: [15,22], on_shelf: true}
   gate3_floor_grille: {x: [262,282], y: [48,55], to: "stone race under S7"}
@@ -467,7 +466,7 @@ Grid = **5 ft/square**, standard VTT.
 - The Cache entrance (Overflow Passage) is a **1-square chokepoint** on the
   north wall. Do not widen it.
 
-### E7 — The Crest Run and Silt Elemental (also used for the stoplogs)
+### E7 — The Crest Run and Silt Elemental
 - Reuse the Crest Walk map with the Spill Notch at the center-east.
   The elemental climbs over the **north parapet** near x 120–150.
 - The **Winch House** (6 × 6 squares) at the east end is a refuge; its door is
