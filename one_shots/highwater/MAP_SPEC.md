@@ -272,7 +272,7 @@ Overflow Channel**.
 
 | ID | Name | Rect (ft) | Size (sq) | Notes |
 |---|---|---|---|---|
-| S1 | **Valve Hall** | x 100–200, y 15–55 | 20 × 8 | Vaulted. **Pressure Board** on north wall (x 150–190, y 15–17): three plate-size brass gauges labeled I, II, III. **Sump pit** (circular, center (130, 30), r 13 → x 117–143, y 17–43) is the foot of the Central Shaft, black water; **stair foot** at its south-east rim (140, 40). **Silt heap** where the Spoil Chute lands at (190–198, 18–24). **Bell-pull** to the Control Gallery beside the Pressure Board (192, 16). |
+| S1 | **Valve Hall** | x 100–200, y 15–55 | 20 × 8 | Vaulted. **Pressure Board** on north wall (x 150–190, y 15–17): three plate-size brass gauges labeled I, II, III. **Sump pit** (circular, center (130, 30), r 13 → x 117–143, y 17–43) is the foot of the Central Shaft, black water; **stair foot** at its south-east rim (140, 40). **Silt heap** where the Spoil Chute lands at (190–198, 18–24). **Bell-pull** to the Control Gallery beside the Pressure Board (192, 16). **Scour-valve wheel** at floor level below the board (165–170, 16–19). |
 | S2 | **Gate 1 Chamber** ("Little") | x 55–100, y 15–55 | 9 × 8 | **Gate slab** in a slot at the north wall (x 70–85, y 15–18). **Hoist rack and hand-crank** on a platform 8 ft up at (90–96, 15–20). Discharge **grille** in the south wall (x 60–95, y 55). Door E to S1. |
 | S9 | **Gate 1 Outfall** | x 55–100, y 55–90 | 9 × 7 | Clear stone channel with **its own open south mouth** (x 60–95, y 90) onto the dam toe. The **Tailrace West Branch** meets its east wall (x 100, y 75–85) through an **iron grate**, so Gate 1's water stays out of the Tailrace. |
 | S3 | **Gate 2 Chamber** ("Great") | x 200–240, y 15–55 | 8 × 8 | **Gate slab** in a wide slot at the north wall (x 210–230, y 15–18): 20 ft wide. **Flush leaf** (small sluice) at the slab's foot (x 216–224, y 18–20), held by a visible iron **shear pin**. **Hand-crank** on a platform 8 ft up at (232–238, 15–20). South wall = heavy fixed iron **grille** (x 205–235, y 55) onto S8 — water passes, people don't. **Stair** up 10 ft to the Alcove along the east wall (x 232–240, y 30–40). Door W to S1 (200, 33–37); door E to S5 at the stair head (240, 33–37). |
@@ -341,6 +341,7 @@ features:
   gate2_flush_leaf:  {x: [216,224], y: [18,20], shear_pin: true}
   gate2_alcove_stair: {x: [232,240], y: [30,40], rises_ft: 10}
   bell_pull:         {at: [192,16]}
+  scour_valve_wheel: {x: [165,170], y: [16,19]}
   gate3_slab:        {x: [268,280], y: [15,18]}
   gate3_crank:       {x: [282,288], y: [15,22], on_shelf: true}
   gate3_floor_grille: {x: [262,282], y: [48,55], to: "stone race under S7"}

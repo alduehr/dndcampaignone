@@ -168,9 +168,21 @@ lever. Whenever this file says an action **"costs N minutes,"** add N to a
 > **Effective time left = timer − Penalty Tally.**
 
 Marks, checkpoints, and the deadline all fire on **effective time**. (Most
-phone timers can't subtract minutes; the tally avoids having to.) A few
+phone timers can't subtract minutes; the tally avoids having to.) Some
 actions *reduce* the tally — dropping the stoplogs, opening the small gates
-early — and say so; the tally can go negative. Never charge for something the
+early, opening the scour valve — and say so; the tally can go negative.
+
+### The Governor (keeping it close)
+
+Nobody can predict how fast a table will move, so the clock **steers**. At
+each Mark, the DM compares the party's progress with the time left and, if
+they're far ahead or far behind, the **Mere** does something: the rain eases,
+a mill-pond bursts upstream, a raft of timber jams the Notch. Every event is
+announced, written on the Gauge, and most come with a way for the party to
+win some time back. Reprieves and surges are each capped at 30 minutes per
+session. The aim is for the Great Gate to open with **0:10–0:20** left —
+on the wire. The full procedure is [`PACING_SHEET.md`](PACING_SHEET.md) §5;
+it takes about thirty seconds per Mark. Never charge for something the
 table already played out live; the tally is only for time the fiction skips
 over. The full list of costs is in [`PACING_SHEET.md`](PACING_SHEET.md) §6.
 
@@ -763,6 +775,19 @@ beneath it:
 - **I:** *"Open at any head."*
 - **III:** *"Open when I runs."*
 - **II:** *"Open when I and III run, and never against a closed weir."*
+- A fourth, smaller plate by a floor-level wheel: *"SCOUR — in flood only."*
+
+**The scour valve (earned time).** The floor wheel opens a bottom outlet
+that flushes silt from the Mere's bed straight out under the Valve Hall.
+Opening it is one action and a **DC 13 Strength (Athletics)** check (the
+wheel is stiff; failure just costs the action). It **removes 10 minutes from
+the Penalty Tally**, once. The price: the Valve Hall's water jumps **one
+Mark deeper** for the rest of the session (knee-deep becomes chest-deep,
+and so on), and anyone in the Tailrace or either Outfall when it opens makes
+a **DC 13 Strength save** or is swept out onto the dam toe (2d10
+bludgeoning, half on a success). Usable until Mark 4; after that the wheel
+is underwater (Water Breathing still reaches it). Clue paths: this plate,
+and Ivo, who forgot it until reminded (Pacing Sheet, reprieve R4).
 
 Reading the plates is free; working out what they mean (or confirming it
 from how the needles sit) is **Intelligence (Investigation) DC 12**, with
@@ -987,8 +1012,8 @@ channel and the Weir-Gate grinds open. **The channel is open. Gate 2's
 outflow will now go sideways, into the quarry, and Lowmill will get its feet
 wet, not its life.**
 
-**Time check:** wheel turned by **0:40**; Gate 2 open with **0:15–0:25** left
-is the sweet spot.
+**Time check:** wheel turned by **0:40**; Gate 2 open with **0:10–0:20** left
+is the sweet spot (the Governor steers toward it).
 
 #### S10 — The Tailrace Tunnel
 
@@ -1133,8 +1158,8 @@ parapet. **It wants water.** It will try to drag the party into the Mere.
   dam. It gives up if the party retreats into the Winch House and bars the
   door (DC 12 Strength to hold). It still collapses by round 8.
 - **Morale:** none; it's mindless.
-- **Close-timing dial** (uses the frozen reading): **0:25 or more** — two
-  extra silt-spawn climb the parapet on round 3. **0:15–0:24** — as written.
+- **Close-timing dial** (uses the frozen reading): **0:21 or more** — two
+  extra silt-spawn climb the parapet on round 3. **0:15–0:20** — as written.
   **0:10–0:14** — the Mere is already falling hard; the elemental starts at
   −30 HP.
 
@@ -1209,7 +1234,7 @@ DCs.
 | **What's the gate order?** | Ivo's mnemonic: "Little, Still, Great" | Pressure Board plates (S1) | Pencilled notes at the levers (G5) | Experiment (a Shudder) |
 | **How do we open the Old Overflow Door?** | The knock: three, then one (Ivo; his tapping) | Greaves's tally-board (G4) | Corrin Bale | Knock spell; force; say Ivo's name through the door |
 | **Which gear fits?** | Shaft stub stamped "24 T" (G5) | Count a splinter's teeth (G5, DC 12) | Ivo | Greaves |
-| **Can we buy time?** | Stoplogs (Fenn, Ivo, the drums) | Open Gates 1 & 3 early (Ivo, the Pressure Board) | — | — |
+| **Can we buy time?** | Stoplogs (Fenn, Ivo, the drums) | Open Gates 1 & 3 early (Ivo, the Pressure Board) | Scour valve (the fourth plate, Ivo) | Answering the Mere's surges (each event shows its own counter) |
 
 ---
 
